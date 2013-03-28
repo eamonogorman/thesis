@@ -1,0 +1,15 @@
+git clone https://github.com/eamonogorman/thesis.git
+
+If getting the following error:
+error: The requested URL returned error: 403 while accessing https://github.com/eamonogorman/thesis.git/info/refs
+fatal: HTTP request failed
+then need to edit config file with:
+url = https://eamonogorman@github.com/eamonogorman/thesis.git
+
+git pull
+edit!!!!!!!
+git add .
+git commit -m "message"
+git log -n 5 -> last 5 commit messages
+git push origin master
+
