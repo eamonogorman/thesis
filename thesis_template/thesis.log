@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  21 JAN 2013 16:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  28 MAR 2013 23:53
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -493,7 +493,7 @@ Package backref Info: ** backref set up for natbib ** on input line 125.
 \AtBeginShipoutBox=\box56
 File: images/tcd_crest.eps Graphic file (type eps)
  <images/tcd_crest.eps>
-Overfull \hbox (3.0672pt too wide) in paragraph at lines 176--177
+Overfull \hbox (3.0672pt too wide) in paragraph at lines 177--178
 [][][][][][][][][] 
  []
 
@@ -629,11 +629,11 @@ Package natbib Warning: There were undefined citations.
 (./2/stuff.aux) (./appendix/app.aux)) ) 
 Here is how much of TeX's memory you used:
  7695 strings out of 495062
- 110847 string characters out of 1182645
+ 110845 string characters out of 1182645
  190812 words of memory out of 3000000
  10626 multiletter control sequences out of 15000+50000
  15739 words of font info for 55 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,11n,45p,374b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,45p,374b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (14 pages, 26408 bytes).
+Output written on thesis.dvi (14 pages, 26512 bytes).
