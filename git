@@ -6,7 +6,7 @@ fatal: HTTP request failed
 then need to edit config file with:
 url = https://eamonogorman@github.com/eamonogorman/thesis.git
 
-git pull
+git pull https://github.com/eamonogorman/thesis.git
 edit!!!!!!!
 git add .
 git commit -m "message"

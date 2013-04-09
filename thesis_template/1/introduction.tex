@@ -32,26 +32,38 @@ So this section has a figure in it\footnote{And also a footnote.}. That figure d
 
 This section contains a basic table.
 
+
 \begin{table}
 \begin{center}
-\begin{tabular}{ll}
+\caption[Physical Properties of $\alpha$ Boo and $\alpha$ Tau.]
+{Physical Properties of $\alpha$ Boo and $\alpha$ Tau.}
+\begin{tabular}{lccc}
 \hline
-\textbf{Energy Flux}  & \textbf{Calculated Value}   \\
-& (erg cm$^{-2}$ s$^{-1}$) \\
 \hline
-\hline 
-$L_{noise}$ &  $1.7\times10^{7}$ \\   
-$F_{\star}(tot)$ & $7.9\times10^{5}$ \\
-$F_W$ & $4.7\times10^{5}$ \\
-$F_{M_{S}}$ &  $7.5\times10^{5}$ \\
-$F_{M_{A}}$ & $2.3\times10^{6}$ \\
+Property & $\alpha$ Boo & $\alpha$ Tau & Reference\\
 \hline
+Spectral Type & & & 1, 2\\ 
+HD Number & 124897 & 29139 & $\ldots$\\
+$M$ ($M_{\odot}$) & 0.8$\pm$0.2 & 1.3$\pm$0.3& 3, 4 \\
+$\theta _{\rm{UD}}$ (mas)& 21.0$\pm$0.2 & 20.2$\pm$0.3& 5 \\
+$\theta _{\rm{LD}}$ (mas)& 21.0$\pm$0.2 & 20.2$\pm$0.3& 5 \\
+$\pi$ (mas)& & & \\
+Distance (pc)& 11.3$\pm$0.1 & 20.4$\pm$0.3& 6\\
+$R$ ($R_{\odot}$)& 25.4$\pm$0.3 & 44.4$\pm$1.0 & \\
+Log $g$ & & & \\
+$T_{\rm{eff}}$ (K) & 4294$\pm$30 & 3970$\pm$49& 5 \\
+L ($L_{\odot}$)& & & \\
+$v_{\rm{esc}}$ (km s$^{-1}$) &110 & 106& \\
+$v_{\rm{\infty}}$ (km s$^{-1}$)& $\sim$40 & $\sim$30& \\
+$T_{\rm{wind}}$ (K)& $\sim$10,000 & $<$10,000 & \\
+$\dot{M}$ ($M_{\odot}$ yr$^{-1}$)& $2\times 10^{-10}$& $1.6\times 10^{-11}$& \\
+$H$ ($H_{\odot}$)& & & \\
 \hline
 \end{tabular}
-\caption[Red Giant Atmospheric Energy Budget]
-%Putting the name here in square brackets won't show up in the text but will show up as the name of the table in the list of tables at the start of the thesis
-{Red giant atmospheric energy budget values.}
 \label{tab:1}
+\begin{minipage}{9.5cm}
+References.-(1);(2);(3)\cite{kallinger_2010}; (5) \cite{di_benedetto_1993};
+(6) \cite{van_leeuwen_2007};
+\end{minipage}
 \end{center}
 \end{table}
-

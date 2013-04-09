@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  28 MAR 2013 23:53
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  9 APR 2013 19:29
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -580,33 +580,17 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
  (./1/introduction.tex
 Chapter 1.
-
-Package natbib Warning: Citation `sagan1997demon' on page 1 undefined on input 
-line 8.
-
-
-Package natbib Warning: Citation `prothero2007evolution' on page 1 undefined on
- input line 8.
-
 File: images/writeup_images/c_carma_s2.eps Graphic file (type eps)
 <images/writeup_images/c_carma_s2.eps> [1
 
 
 
-]) [2]
+]) [2] [3]
 \openout2 = `2/stuff.aux'.
 
  (./2/stuff.tex
 Chapter 2.
-
-Package natbib Warning: Citation `harper_2006' on page 3 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `seaquist_taylor_1990' on page 3 undefined on 
-input line 9.
-
-) [3
+) [4
 
 
 
@@ -615,25 +599,28 @@ input line 9.
 
  (./appendix/app.tex
 Appendix A.
-) [4
+) [5
 
 
 
-]
-No file thesis.bbl.
+] (./thesis.bbl (./thesis.brf)
+\tf@brf=\write8
+\openout8 = `thesis.brf'.
 
-Package natbib Warning: There were undefined citations.
+) [6
 
-(./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
-(./2/stuff.aux) (./appendix/app.aux)) ) 
+
+] (./thesis.aux (./0/declaration.aux)
+(./0/abstract.aux) (./0/dedication.aux) (./0/acknowledgement.aux)
+(./0/publications.aux) (./1/introduction.aux) (./2/stuff.aux)
+(./appendix/app.aux)) ) 
 Here is how much of TeX's memory you used:
- 7695 strings out of 495062
- 110845 string characters out of 1182645
- 190812 words of memory out of 3000000
- 10626 multiletter control sequences out of 15000+50000
- 15739 words of font info for 55 fonts, out of 3000000 for 9000
+ 7763 strings out of 495062
+ 112201 string characters out of 1182645
+ 193812 words of memory out of 3000000
+ 10689 multiletter control sequences out of 15000+50000
+ 18289 words of font info for 64 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,11n,45p,374b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,45p,374b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (14 pages, 26512 bytes).
+Output written on thesis.dvi (16 pages, 37364 bytes).
