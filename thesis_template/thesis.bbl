@@ -1,10 +1,25 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{11}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{di Benedetto}(1993)}]{di_benedetto_1993}
 {\sc {di Benedetto}, G.P.} (1993). {Empirical effective temperatures and
   angular diameters of stars cooler than the sun}. {\em \aap\/}, {\bf 270},
   315--334.
+
+\bibitem[{{Drake}(1985)}]{drake_1985}
+{\sc {Drake}, S.A.} (1985). {Modeling lines formed in the expanding
+  chromospheres of red giants}. In J.E. {Beckman} \& L.~{Crivellari}, eds.,
+  {\em Progress in stellar spectral line formation theory; Proceedings of the
+  Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
+  17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
+
+\bibitem[{{Gray} {\em et~al.\/}(2006){Gray}, {Corbally}, {Garrison},
+  {McFadden}, {Bubar}, {McGahee}, {O'Donoghue} \& {Knox}}]{gray_2006}
+{\sc {Gray}, R.O., {Corbally}, C.J., {Garrison}, R.F., {McFadden}, M.T.,
+  {Bubar}, E.J., {McGahee}, C.E., {O'Donoghue}, A.A. \& {Knox}, E.R.} (2006).
+  {Contributions to the Nearby Stars (NStars) Project: Spectroscopy of Stars
+  Earlier than M0 within 40 pc-The Southern Sample}. {\em \aj\/}, {\bf 132},
+  161--170.
 
 \bibitem[{{Harper} \& {Brown}(2006)}]{harper_2006}
 {\sc {Harper}, G.M. \& {Brown}, A.} (2006). {Electron Density and Turbulence
@@ -20,9 +35,22 @@
   giants in the CoRoT exofield: asteroseismic mass and radius determination}.
   {\em \aap\/}, {\bf 509}, A77.
 
+\bibitem[{{Massarotti} {\em et~al.\/}(2008){Massarotti}, {Latham}, {Stefanik}
+  \& {Fogel}}]{2008AJ....135..209M}
+{\sc {Massarotti}, A., {Latham}, D.W., {Stefanik}, R.P. \& {Fogel}, J.} (2008).
+  {Rotational and Radial Velocities for a Sample of 761 HIPPARCOS Giants and
+  the Role of Binarity}. {\em \aj\/}, {\bf 135}, 209--231.
+
 \bibitem[{Prothero \& Buell(2007)}]{prothero2007evolution}
 {\sc Prothero, D. \& Buell, C.} (2007). {\em Evolution: what the fossils say
   and why it matters\/}. Columbia University Press.
+
+\bibitem[{{Robinson} {\em et~al.\/}(1998){Robinson}, {Carpenter} \&
+  {Brown}}]{robinson_1998}
+{\sc {Robinson}, R.D., {Carpenter}, K.G. \& {Brown}, A.} (1998). {Goddard
+  High-Resolution Spectrograph Observations of Cool Low-Gravity Stars. IV. A
+  Comparison of the K5 III Stars alpha Tauri and gamma Draconis}. {\em \apj\/},
+  {\bf 503}, 396.
 
 \bibitem[{Sagan(1997)}]{sagan1997demon}
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in

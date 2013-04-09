@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  9 APR 2013 19:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  9 APR 2013 23:53
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -615,12 +615,12 @@ Appendix A.
 (./0/publications.aux) (./1/introduction.aux) (./2/stuff.aux)
 (./appendix/app.aux)) ) 
 Here is how much of TeX's memory you used:
- 7763 strings out of 495062
- 112201 string characters out of 1182645
- 193812 words of memory out of 3000000
- 10689 multiletter control sequences out of 15000+50000
+ 7795 strings out of 495062
+ 112789 string characters out of 1182645
+ 194812 words of memory out of 3000000
+ 10721 multiletter control sequences out of 15000+50000
  18289 words of font info for 64 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,11n,45p,374b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (16 pages, 37364 bytes).
+Output written on thesis.dvi (16 pages, 43320 bytes).
