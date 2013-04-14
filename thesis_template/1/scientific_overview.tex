@@ -1,0 +1,75 @@
+%!TEX root = ../thesis.tex
+%Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
+%: ----------------------- introduction file header -----------------------
+\chapter{Scientific Overview}
+\label{chap:1}
+
+
+Here is the introduction of the thesis, complete with a few references  \citep{sagan1997demon, prothero2007evolution}.  Section \ref{sec:1} contains Equation \ref{eqn:1}, Section \ref{sec:2} has Figure \ref{fig:1} and Section \ref{sec:3} has Table \ref{tab:1}. Chapter \ref{chap:2} has pretty much nothing in it.
+
+\section{First Section}\label{sec:1}
+This section has an equation. Here it is:
+\begin{equation}
+L_{\odot} = 4\pi R_{\odot}^2 \sigma T_{e}^{4}
+\label{eqn:1}
+\end{equation}
+which is a nice way of describing the luminosity. 
+
+ 
+
+\section{Second Section}\label{sec:2}
+
+So this section has a figure in it\footnote{And also a footnote.}. That figure depicts the basic structure of a red giant. 
+\begin{figure}[ht!]
+\includegraphics[width=\textwidth]{writeup_images/c_carma_s2.eps}
+\caption[Red Giant and Asymptotic Giant Branch Stars]
+%Putting the name here in square brackets won't show up in the text but will show up as the name of the figure in the list of figures at the start of the thesis
+{Red Giant and Asymptotic Giant Branch Stars. The left side of the figure shows the basic structure of a star on the giant branch of the HR diagram, while the right side shows a similar star after it has evolved to ascend the asymptotic giant branch. \emph{Image Credit: Australian Telescope National Facility.}
+\label{fig:1}}
+\end{figure}
+
+\section{Second Section}\label{sec:3}
+
+This section contains a basic table.
+
+
+\begin{table}
+\begin{center}
+\caption[Physical Properties of $\alpha$ Boo and $\alpha$ Tau.]
+{Physical Properties of $\alpha$ Boo and $\alpha$ Tau.}
+\begin{tabular}{lccc}
+\hline
+\hline
+Property & $\alpha$ Boo & $\alpha$ Tau & Reference\\
+\hline
+HD Number & 124897 & 29139 & $\ldots$\\
+Spectral Type & K2 III & K5 III& 1, 2\\ 
+ra (ICRS: ep=J2000)&14$^{\rm{h}}$15$^{\rm{m}}$39.672$^{\rm{s}}$&04$^{\rm{h}}$35$^{\rm{m}}$55.239$^{\rm{s}}$&3\\
+dec (ICRS: ep=J2000) & +19 10 56.673 & +16 30 33.489 & 3 \\
+pm-ra (mas yr$^{-1}$)& $-1093.39 \pm 0.44$ & $63.45\pm 0.84$  & 3 \\
+pm-dec (mas yr$^{-1}$)& $-2000.06 \pm 0.39$ & $-188.94\pm 0.65$ & 3 \\
+$\pi$ (mas)& $88.83\pm 0.54$ & $48.94\pm 0.77$& 3\\
+Distance (pc)& 11.3$\pm$0.1 & 20.4$\pm$0.3& 3\\
+$M$ ($M_{\odot}$) & 0.8$\pm$0.2 & 1.3$\pm$0.3& 6, 4 \\
+$\theta _{\rm{UD}}$ (mas)& 21.0$\pm$0.2 & 20.2$\pm$0.3& 5 \\
+$\theta _{\rm{LD}}$ (mas)& 21.0$\pm$0.2 & 20.2$\pm$0.3& 5 \\
+L ($L_{\odot}$)& & & \\
+$R$ ($R_{\odot}$)& 25.4$\pm$0.3 & 44.4$\pm$1.0 & $\ldots$ \\
+Log $g$ & & & \\
+$T_{\rm{eff}}$ (K) & 4294$\pm$30 & 3970$\pm$49& 5 \\
+$v_{\rm{rad}}$ (km s$^{-1}$) & $+5.19 \pm 0.04$ & $+54.11\pm 0.04$ & 9\\
+$v_{\rm{esc}}$ (km s$^{-1}$) &110 & 106& $\ldots$\\
+$v_{\rm{\infty}}$ (km s$^{-1}$)& $\sim$40 & $\sim$30& 7, 8\\
+$T_{\rm{wind}}$ (K)& $\sim$10,000 & $<$10,000 & 7, 8\\
+$\dot{M}$ ($M_{\odot}$ yr$^{-1}$)& $2\times 10^{-10}$& $1.6\times 10^{-11}$& 7, 8\\
+$H$ ($H_{\odot}$)& & & $\ldots$\\
+\hline
+\end{tabular}
+\label{tab:1}
+\begin{minipage}{13.0cm}
+References.-(1);(2)\cite{gray_2006}; (3)\cite{van_leeuwen_2007}; (5)\cite{di_benedetto_1993};
+(6)\cite{kallinger_2010}; (7)\cite{drake_1985}; (8)\cite{robinson_1998}
+(9)\cite{2008AJ....135..209M}
+\end{minipage}
+\end{center}
+\end{table}

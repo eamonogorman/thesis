@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  10 APR 2013 12:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  14 APR 2013 15:57
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -451,8 +451,18 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
-(./2/instrum_obs.aux
+(./0/acknowledgement.aux) (./0/publications.aux) (./1/scientific_overview.aux)
+(./2/intro_to_radio.aux
+
+LaTeX Warning: Label `sec:1' multiply defined.
+
+
+LaTeX Warning: Label `sec:2' multiply defined.
+
+
+LaTeX Warning: Label `sec:3' multiply defined.
+
+) (./3/instrum_obs.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
 
@@ -565,30 +575,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-))
+) [7
+
+
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [7
-
-
-] (./thesis.lof)
+ [8] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
 
-[8
+[9
 
 ] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [9
+ [10
 
 ]
-\openout2 = `1/introduction.aux'.
+\openout2 = `1/scientific_overview.aux'.
 
- (./1/introduction.tex
+ (./1/scientific_overview.tex
 Chapter 1.
 File: images/writeup_images/c_carma_s2.eps Graphic file (type eps)
 <images/writeup_images/c_carma_s2.eps> [1
@@ -596,20 +606,29 @@ File: images/writeup_images/c_carma_s2.eps Graphic file (type eps)
 
 
 ]) [2] [3]
-\openout2 = `2/instrum_obs.aux'.
+\openout2 = `2/intro_to_radio.aux'.
 
- (./2/instrum_obs.tex
+ (./2/intro_to_radio.tex
 Chapter 2.
 ) [4
 
 
 
 ]
+\openout2 = `3/instrum_obs.aux'.
+
+ (./3/instrum_obs.tex
+Chapter 3.
+) [5
+
+
+
+] [6]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [5
+) [7
 
 
 
@@ -617,24 +636,24 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [6
+) [8
 
 
 ] (./thesis.aux (./0/declaration.aux)
 (./0/abstract.aux) (./0/dedication.aux) (./0/acknowledgement.aux)
-(./0/publications.aux) (./1/introduction.aux) (./2/instrum_obs.aux)
-(./appendix/app.aux))
+(./0/publications.aux) (./1/scientific_overview.aux) (./2/intro_to_radio.aux)
+(./3/instrum_obs.aux) (./appendix/app.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7804 strings out of 495062
- 112936 string characters out of 1182645
- 195812 words of memory out of 3000000
- 10730 multiletter control sequences out of 15000+50000
+ 7830 strings out of 495062
+ 113415 string characters out of 1182645
+ 195959 words of memory out of 3000000
+ 10748 multiletter control sequences out of 15000+50000
  18289 words of font info for 64 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,11n,45p,374b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,45p,381b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (16 pages, 50216 bytes).
+Output written on thesis.dvi (19 pages, 58600 bytes).
