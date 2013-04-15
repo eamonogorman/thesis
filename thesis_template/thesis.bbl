@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{di Benedetto}(1993)}]{di_benedetto_1993}
@@ -34,6 +34,11 @@
   A., {Hekker}, S., {Samadi}, R. \& {Deleuil}, M.} (2010). {Oscillating red
   giants in the CoRoT exofield: asteroseismic mass and radius determination}.
   {\em \aap\/}, {\bf 509}, A77.
+
+\bibitem[{{Kraus} {\em et~al.\/}(1986){Kraus}, {Tiuri}, {Raisanen} \&
+  {Carr}}]{kraus_1986}
+{\sc {Kraus}, J.D., {Tiuri}, M., {Raisanen}, A.V. \& {Carr}, T.D.} (1986). {\em
+  {Radio astronomy receivers}\/}.
 
 \bibitem[{{Massarotti} {\em et~al.\/}(2008){Massarotti}, {Latham}, {Stefanik}
   \& {Fogel}}]{2008AJ....135..209M}

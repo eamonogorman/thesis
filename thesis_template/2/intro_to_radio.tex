@@ -14,12 +14,26 @@ The power gain of a transmitting antenna is a measure of the antenna's capabilit
 \begin{equation}
 A(\nu,\theta,\phi)= \frac{P_{\nu}}{F_{\nu}}=\frac{P}{I(\nu,\theta,\phi)\Delta \nu \Delta \Omega}
 \end{equation}
-where $I$($\nu$,$\theta$,$\phi$) is the source brightness in units W m$^{-2}$ Hz$^{-1}$ sr$^{-1}$ that the antenna is pointing at (see Figure x) and $P$ is the power (in Watts) received by the antenna in bandwidth $\Delta \nu$ from element $\Delta\Omega$ of solid angle.
+where $I$($\nu$,$\theta$,$\phi$) is the source brightness in units W m$^{-2}$ Hz$^{-1}$ sr$^{-1}$ that the antenna is pointing at (see Figure x) and $P$ is the power (in Watts) received by the antenna in bandwidth $\Delta \nu$ from element $\Delta\Omega$ of solid angle. The normalized antenna reception pattern $\mathcal{A}$, often referred to as the primary beam, is defined as 
+\begin{equation}
+\mathcal{A}(\nu,\theta,\phi)= \frac{A(\nu,\theta,\phi)}{A_{0}}
+\end{equation}
+where $A_0$ (m$^2$) is the effective area of the antenna and is the response at the center of the main lobe of $A$($\nu$,$\theta$,$\phi$) [i.e. A($\nu$,0,0)]. Then the beam solid angle, $\Omega _{A}$, of the primary beam is 
+\begin{equation}
+\Omega _{A} = \int \!\!\! \int _{\rm{all\ sky}} \mathcal{A}(\theta,\phi) d \Omega
+\end{equation}
+and is a measure of the field of view of the antenna. 
 
+In the case of an isotropic antenna, the product of the effective area and the primary beam solid angle is equal to the square of the wavelength \citep{kraus_1986}
+\begin{equation}
+A_{0}\Omega _{A} = \lambda ^2
+\label{eq:kraus}
+\end{equation}
+$\Omega _{\rm{A}}$ has its maximum possible value of $4\pi$ if $\mathcal{A}$ is everywhere equal to 1. This means that the primary antenna can see the whole sky with equal sensitivity. Even though a large field of view is usually desirable in radio astronomy, Equation \ref{eq:kraus} ensures that for any given wavelength, when $\Omega _{A}$ is a maximum, the power received is a minimum and therefore the sensitivity is also at a minimum. To improve sensitivity, one could increase the collecting area of the antenna, but Equation \ref{eq:kraus} then ensures that the field of view must decrease. Thus, when deciding on the primary antenna size in a synthesis array, there is always a trade-off between field of view and sensitivity. 
 
 
 \subsection{Antenna Structural Design}\label{subsec:2}
-\subsection{Anetnna Performance Parameters}\label{subsec:3}
+\subsection{Antenna Performance Parameters}\label{subsec:3}
 
 
 \section{Fundamentals of Astronomical Interferometry}\label{sec:2}
