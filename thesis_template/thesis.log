@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  15 APR 2013 17:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  18 APR 2013 11:47
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -627,22 +627,22 @@ Chapter 2.
 LaTeX Font Info:    Try loading font information for U+eus on input line 17.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2009/06/22 v3.00 Euler Script
-) [5]) [6]
+) [5] [6]) [7]
 \openout2 = `3/instrum_obs.aux'.
 
 
 (./3/instrum_obs.tex
 Chapter 3.
-) [7
+) [8
 
 
 
-] [8]
+] [9]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [9
+) [10
 
 
 
@@ -650,10 +650,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [10
+ [11
 
 
-]) [11] (./thesis.aux
+]) [12] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/scientific_overview.aux)
 (./2/intro_to_radio.aux) (./3/instrum_obs.aux) (./appendix/app.aux))
@@ -664,10 +664,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  7862 strings out of 495062
  113920 string characters out of 1182645
- 196140 words of memory out of 3000000
+ 196142 words of memory out of 3000000
  10774 multiletter control sequences out of 15000+50000
  19489 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,48p,795b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (22 pages, 70620 bytes).
+Output written on thesis.dvi (23 pages, 74648 bytes).

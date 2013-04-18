@@ -5,7 +5,7 @@
 \chapter{Introduction to Radio Interferometry} 
 \label{chap:2}
 
-The need....
+The poor spatial resolution provided by a single dish radio antenna can cause difficulties in obtaining accurate flux density measurements of radio astronomical sources, especially at long wavelengths. A single dish radio antenna is unable to distinguish against background radio emitters located in the primary beam, and therefore the the observed flux density can contain emission from unrelated sources. This limitation can be overcome through interferometry. An interferometer acts as a spatial filter, and can discriminate against smooth backgrounds while its higher resolution allows seperation of the target from nearby confusing sources. 
 
 \section{Radio Antenna Basics}\label{sec:1}
 The quality and properties of the final radio image produced from a synthesis array are partially dependent on the properties of the the individual antennae in the array. The most important such properties are discussed in the following sections and include aperture size, aperture efficiency, pointing accuracy, sidelobe level and noise temperature. We define the radio antenna as the piece of equipment which converts the electromagnetic waves emitted from the observed source into an electric current ready to be input into to the first low noise amplifier where the signal is at the radio/sky frequency, $\nu _{\rm{RF}}$.
@@ -14,26 +14,40 @@ The power gain of a transmitting antenna is a measure of the antenna's capabilit
 \begin{equation}
 A(\nu,\theta,\phi)= \frac{P_{\nu}}{F_{\nu}}=\frac{P}{I(\nu,\theta,\phi)\Delta \nu \Delta \Omega}
 \end{equation}
-where $I$($\nu$,$\theta$,$\phi$) is the source brightness in units W m$^{-2}$ Hz$^{-1}$ sr$^{-1}$ that the antenna is pointing at (see Figure x) and $P$ is the power (in Watts) received by the antenna in bandwidth $\Delta \nu$ from element $\Delta\Omega$ of solid angle. The normalized antenna reception pattern $\mathcal{A}$, often referred to as the primary beam, is defined as 
+where $I$($\nu$,$\theta$,$\phi$) is the source brightness in units W m$^{-2}$ Hz$^{-1}$ sr$^{-1}$ that the antenna is pointing at and $P$ is the power (in Watts) received by the antenna in bandwidth $\Delta \nu$ from element $\Delta\Omega$ of solid angle. The normalized antenna reception pattern $\mathcal{A}$, often referred to as the power pattern due to the duality between receiving and transmitting, is defined as 
 \begin{equation}
 \mathcal{A}(\nu,\theta,\phi)= \frac{A(\nu,\theta,\phi)}{A_{0}}
 \end{equation}
-where $A_0$ (m$^2$) is the effective area of the antenna and is the response at the center of the main lobe of $A$($\nu$,$\theta$,$\phi$) [i.e. A($\nu$,0,0)]. Then the beam solid angle, $\Omega _{A}$, of the primary beam is 
+where $A_0$ (m$^2$) is often referred to as the effective area of the antenna and is the response at the center of the main lobe of $A$($\nu$,$\theta$,$\phi$) [i.e. A($\nu$,0,0)]. Then the beam solid angle, $\Omega _{A}$, of the primary beam is 
 \begin{equation}
 \Omega _{A} = \int \!\!\! \int _{\rm{all\ sky}} \mathcal{A}(\theta,\phi) d \Omega
 \end{equation}
 and is a measure of the field of view of the antenna. 
 
-In the case of an isotropic antenna, the product of the effective area and the primary beam solid angle is equal to the square of the wavelength \citep{kraus_1986}
+In the case of an isotropic antenna [i.e., $\mathcal{A}(\nu,\theta,\phi)=1$], the product of the effective area and the primary beam solid angle is equal to the square of the wavelength \citep{kraus_1986}
 \begin{equation}
 A_{0}\Omega _{A} = \lambda ^2
 \label{eq:kraus}
 \end{equation}
 $\Omega _{\rm{A}}$ has its maximum possible value of $4\pi$ if $\mathcal{A}$ is everywhere equal to 1. This means that the primary antenna can see the whole sky with equal sensitivity. Even though a large field of view is usually desirable in radio astronomy, Equation \ref{eq:kraus} ensures that for any given wavelength, when $\Omega _{A}$ is a maximum, the power received is a minimum and therefore the sensitivity is also at a minimum. To improve sensitivity, one could increase the collecting area of the antenna, but Equation \ref{eq:kraus} then ensures that the field of view must decrease. Thus, when deciding on the primary antenna size in a synthesis array, there is always a trade-off between field of view and sensitivity. 
 
+In reality, an antenna cannot radiate isotroptically and will radiate preferentially in one or more directions. A Fourier transform relationship exists between the complex voltage distribution of the field, $f(u,v)$, in the aperture of the antenna and the complex far-field voltage radiation pattern, $F(l,m)$, of the antenna \citep{kraus_1986}
+\begin{equation}
+F(l,m)=\int\!\!\! \int _{\rm{aperture}} f(u,v)e^{2\pi i(ul+vm)}dudv
+\end{equation}
+and
+\begin{equation}
+f(u,v)=\int ^{\infty} _{\infty}\int ^{\infty} _{\infty} F(l,m)e^{-2\pi i(ul+vm)}dldm
+\end{equation}
+The from of $f(u,v)$ is determined by the manner in which the antenna feed illuminates the aperture while the radiation pattern in the far-field is related to the antenna power pattern, $\mathcal{A}$, by $\mathcal{A}=|F|^2$.
 
 \subsection{Antenna Structural Design}\label{subsec:2}
 \subsection{Antenna Performance Parameters}\label{subsec:3}
+The geometric collecting area of a parabolic antenna, $A_{\rm{geo}}$ (=$\pi \rm{r}^2$) is related to the effective area, $A_0$, via the dimensionless quantity less than unity known as the aperature efficiency $\eta$
+\begin{equation}
+\eta = \frac{A_0}{A_{\rm{geo}}} 
+\end{equation}
+
 
 
 \section{Fundamentals of Astronomical Interferometry}\label{sec:2}

@@ -8,22 +8,22 @@
 \contentsline {section}{\numberline {1.3}Second Section}{2}{section.1.3}
 \contentsline {chapter}{\numberline {2}Introduction to Radio Interferometry}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Radio Antenna Basics}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Radio Antenna Formulae}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Radio Antenna Formulae}{5}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Antenna Structural Design}{6}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Anetnna Performance Parameters}{6}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Fundamentals of Astronomical Interferometry}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}The Synthesis Telescope}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}The Measurement Equation}{6}{section.2.4}
-\contentsline {chapter}{\numberline {3}Instrumentation and Observations}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}CARMA}{8}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The Basic Instrument}{8}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The CARMA Electronic System}{8}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Observations}{8}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}VLA}{8}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The Basic Instrument}{8}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The VLA Electronic System}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Observation Preparation}{8}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Observations}{8}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}GMRT}{8}{section.3.3}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{9}{appendix.A}
-\contentsline {chapter}{References}{10}{section*.10}
+\contentsline {subsection}{\numberline {2.1.3}Antenna Performance Parameters}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Fundamentals of Astronomical Interferometry}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Synthesis Telescope}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}The Measurement Equation}{7}{section.2.4}
+\contentsline {chapter}{\numberline {3}Instrumentation and Observations}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}CARMA}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The Basic Instrument}{9}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The CARMA Electronic System}{9}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Observations}{9}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}VLA}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Basic Instrument}{9}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The VLA Electronic System}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Observation Preparation}{9}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Observations}{9}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}GMRT}{9}{section.3.3}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{10}{appendix.A}
+\contentsline {chapter}{References}{11}{section*.10}
