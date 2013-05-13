@@ -1,5 +1,12 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Decin} {\em et~al.\/}(2003){Decin}, {Vandenbussche}, {Waelkens},
+  {Decin}, {Eriksson}, {Gustafsson}, {Plez} \& {Sauval}}]{decin_2003}
+{\sc {Decin}, L., {Vandenbussche}, B., {Waelkens}, C., {Decin}, G., {Eriksson},
+  K., {Gustafsson}, B., {Plez}, B. \& {Sauval}, A.J.} (2003). {ISO-SWS
+  calibration and the accurate modelling of cool-star atmospheres. IV. G9 to M2
+  stars}. {\em \aap\/}, {\bf 400}, 709--727.
 
 \bibitem[{{di Benedetto}(1993)}]{di_benedetto_1993}
 {\sc {di Benedetto}, G.P.} (1993). {Empirical effective temperatures and
@@ -41,7 +48,7 @@
   {Radio astronomy receivers}\/}.
 
 \bibitem[{{Massarotti} {\em et~al.\/}(2008){Massarotti}, {Latham}, {Stefanik}
-  \& {Fogel}}]{2008AJ....135..209M}
+  \& {Fogel}}]{massarotti_2008}
 {\sc {Massarotti}, A., {Latham}, D.W., {Stefanik}, R.P. \& {Fogel}, J.} (2008).
   {Rotational and Radial Velocities for a Sample of 761 HIPPARCOS Giants and
   the Role of Binarity}. {\em \aj\/}, {\bf 135}, 209--231.
