@@ -45,14 +45,27 @@ where
 u=\rm{sin}\theta \rm{cos}\phi \ \  \rm{and} \ \ \mathit{v}=\rm{sin}\theta \rm{sin}\phi
 \label{eq:illum2}
 \end{equation}
-are the antenna coordinates and $l$ and $m$ are their Fourrier counterparts. The from of $f(u,v)$ is determined by the manner in which the antenna feed illuminates the aperture. Therefore Equations \ref{eq:illum1} and \ref{eq:illum2} tell us that the radiation pattern in the far-field of a two-dimensional aperture is the two-dimensional Fourier transform of the aperture field illumination. For a uniformly illuminated 1-D aperture shown in Figure x, the radiation pattern in the far-field is the \textit{sinc} function. The radiation pattern in the far-field, $F(l,m)$, of such an antenna is related to the antenna power pattern, $\mathcal{A}$, by $\mathcal{A}=|F(l,m)|^2$. This power pattern is known as the Airy pattern if the antenna is uniformly illuminated and is also shown in Figure x. The central peak of this power pattern is called the main beam while the smaller secondary peaks are called sidelobes. The antenna is maximally sensitive to radiation from the direction of the peak of the beam, but is also slightly sensitive to radiation in the direction of the side lobes. The half-power beamwidth (HPBW) of the main beam, $\theta_{\rm{HPBW}}$, is a term commonly used in the literature to describe the field of view of an antenna/interferometer and satisfies 
+
+\begin{figure}[hbt!]
+\centering 
+\mbox{
+          \includegraphics[trim=60pt 10pt 80pt 30pt,clip,width=7.0cm]{/home/eamon/thesis/figures/antenna_beam/fig2a.ps}
+          \includegraphics[trim=60pt 10pt 80pt 30pt,clip,width=7.0cm]{/home/eamon/thesis/figures/antenna_beam/fig2b.ps}
+          }
+\mbox{
+          \includegraphics[trim=60pt 10pt 80pt 30pt,clip,width=7.0cm]{/home/eamon/thesis/figures/antenna_beam/fig2c.ps}
+          }
+\caption[Radiation and power pattern of a uniformly illuminated antenna.]{\textit{Top Left:} A uniformly illuminated 1-D aperture $f(u)$. \textit{Top Right:} The Fourrier transform of $f(u)$ gives the antenna radiation pattern in the far-field, $F(l)$. \textit{Bottom:} The power pattern of the antenna is given by $\mathcal{A}=|F(l)|^2$.}
+\label{fig2a}
+\end{figure}
+
+are the antenna coordinates and $l$ and $m$ are their Fourrier counterparts. The from of $f(u,v)$ is determined by the manner in which the antenna feed illuminates the aperture. Therefore Equations \ref{eq:illum1} and \ref{eq:illum2} tell us that the radiation pattern in the far-field of a two-dimensional aperture is the two-dimensional Fourier transform of the aperture field illumination. For a uniformly illuminated 1-D aperture shown in Figure \ref{fig2a}, the radiation pattern in the far-field is the \textit{sinc} function. The radiation pattern in the far-field, $F(l,m)$, of such an antenna is related to the antenna power pattern, $\mathcal{A}$, by $\mathcal{A}=|F(l,m)|^2$. This power pattern is known as the Airy pattern if the antenna is uniformly illuminated and is also shown in Figure x. The central peak of this power pattern is called the main beam while the smaller secondary peaks are called sidelobes. The antenna is maximally sensitive to radiation from the direction of the peak of the beam, but is also slightly sensitive to radiation in the direction of the side lobes. The half-power beamwidth (HPBW) of the main beam, $\theta_{\rm{HPBW}}$, is a term commonly used in the literature to describe the field of view of an antenna/interferometer and satisfies 
 \begin{equation}
 \theta_{\rm{HPBW}} \propto \frac{\lambda}{D}
 \end{equation}
-where $D$ is the diameter of the antenna. The constant of proportionality varies slightly with the illumination taper and is $\sim 0.9-1.2$ for most single-dish radio antennae.
+where $D$ is the diameter of the antenna. The constant of proportionality varies slightly with the illumination taper and can be shown to be equal to $\sim 0.89$ for a uniformly illuminated linear aperture and $\sim 1.2$ for a Gaussian illuminated aperture.
 
-Figure
-
+No $\pi$'s in above figures
 Maybe mention resolution? I.e. Rayleigh criteria
 
 \subsection{Antenna Structural Design}\label{subsec:2}
@@ -64,7 +77,14 @@ Therefore, at short wavelengths a non-directional antenna such as a dipole, will
 \\
 \textit{Choice of Antenna Mount.} Nearly all interferometric arrays consist of antennas which have altitude over azimuth (altazimuth) mounts. These antennas lie on a horizontal azimuth track on which the antenna can turn in azimuth, and a horizontal elevation axle about which the antenna changes in zenith angle. The main advantage of such a design is simplicity and thus lower cost. Gravity always acts on the reflector in the same plan thus reducing the problem of keeping the reflector profile accurate during the duration an observation. However, sources close to the zenith cannot be observed due to the high rate of azimuth rotation required. Also, the beam rotates with respect to the source for long duration observations which can affect the dynamic range of total intensity images of very large sources. The other type of mount occasionally used is the equatorial mount. Its polar axis is aligned parallel to the axis of rotation of the Earth and therefore only needs to rotate about the declination axis to observe a source. Its beam also doesn't have the beam rotation problem encountered by the altazimuth design and can track sources close to the zenith. Its major disadvantage and the reason for its scarce usage is the complexity of its design and resulting increased cost. \\
 \\
-\textit{Choice of Antenna Optics.} In Figure x(say adopted from Synthesis Imaging) we show the main optical systems which can be used to feed a large radio reflector \citep{}. The prime focus system (e.g. used in the Giant Meter Radio Telescope) has the advantage that it can be used at long wavelengths where the use of secondary focus feeds (i.e. sub-reflectors) become impractical. However, access to, and space for, the feed and receiver is limited and sensitivity can be lost due to spillover noise from the ground. The other designs have the advantage of easier access to the feeds and receivers and less spillover noise from the ground. The off-axis Cassegrain (e.g. used in the Very Large Array) has also the advantage of increased frequency capability as many feeds can be located in a circle around the centre of the reflector and a slight rotation of the sub-reflector is all that is required to change observing frequency. The receivers and feeds in the Naysmith geometry (e.g used in the Combined Array for Research in Millimeter wave Astronomy) are located externally to the antenna structure. Finally, the offset Cassegrain (e.g. planned to be implemented on the Square Kilometer Array antennas) has no blockage and will have a circularly symmetric beam with low sidelobes but the increase complexity of its structure leads to increased costs. 
+\textit{Choice of Antenna Optics.} In Figure \ref{fig2d} we show the main optical systems which can be used to feed a large radio reflector \citep{}. The prime focus system (e.g. used in the Giant Meter Radio Telescope) has the advantage that it can be used at long wavelengths where the use of secondary focus feeds (i.e. sub-reflectors) become impractical. However, access to, and space for, the feed and receiver is limited and sensitivity can be lost due to spillover noise from the ground. The other designs have the advantage of easier access to the feeds and receivers and less spillover noise from the ground. The off-axis Cassegrain (e.g. used in the Very Large Array) has also the advantage of increased frequency capability as many feeds can be located in a circle around the centre of the reflector and a slight rotation of the sub-reflector is all that is required to change observing frequency. The receivers and feeds in the Naysmith geometry (e.g used in the Combined Array for Research in Millimeter wave Astronomy) are located externally to the antenna structure. Finally, the offset Cassegrain (e.g. used in the Green Bank Telescope) has no blockage and will have a circularly symmetric beam with low sidelobes but the increase complexity of its structure leads to increased costs. 
+
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[trim=10pt 40pt 60pt 50pt,clip,width=10.0cm,angle=-90]{/home/eamon/thesis/figures/fig2d.ps}
+\caption[Common optical systems used for radio antennas.]{\textit{(a)} Prime focus, \textit{(b)} Naysmith, \textit{(c)} Off-axis Cassegrain, \textit{(d)} Offset Cassegrain (Figure adopted from \cite{taylor_1999}).}
+\label{fig2d}
+\end{figure}
 
 \subsection{Antenna Performance Parameters}\label{subsec:3}
 \textit{Aperture Efficiency.} The geometric collecting area of a parabolic antenna, $A_{\rm{geo}}$ [$=\pi (D/2)^2$], is related to the effective area (i.e. the collecting area when pointing directly at a source) via the dimensionless quantity, $\eta$, known as the aperature efficiency where
@@ -79,6 +99,8 @@ The surface efficiency, $\eta _{\rm{sf}}$, accounts for the aperture efficiency 
 \\
 \\
 \textit{Pointing Accuracy.}
+The main lobe of an antenna's power pattern will usually not point exactly in the desired direction due to gravity deformations, wind pressure deformations, and mechanical inaccuracy. The angular offset, $\Delta \theta$, between the actual and desired pointing direction is called the pointing error. Usually, the desirable pointing error of  an antenna at the highest operational frequency is $\Delta \theta < \theta _{\rm{HPBW}}/20$ \citep{taylor_1999}. With this specification reached, an antenna pointing at a compact source will suffer negligible intensity variations as $\mathcal{A}(\theta _{\rm{HPBW}}/20) > 0.99$. However, this pointing error of only $\theta _{\rm{HPBW}}/20$ will still have a substantial effect on the accuracy of the outer image. For example, a source located at the half power point will suffer a substantial fractional intensity variation of $2\mathcal{A}(\theta _{\rm{HPBW}}/2+\theta _{\rm{HPBW}}/20) \simeq 0.86$. The blind pointing of a VLA antenna is only about 10$^{\prime\prime}$ and can be much worst in daytime, occasionally exceeding 1$^{\prime}$. This means that at Q-band (45 GHz; 0.7 cm), which is the highest observing frequency on the VLA, the pointing error is only at best $\theta _{\rm{HPBW}}/6$, and at worst $<\theta _{\rm{HPBW}}$, meaning that the target may lie outside of the primary beam. To overcome this problem of large antenna pointing errors with the VLA, a technique known as referenced pointing is implemented. This technique will be discussed in detail in Chaper 3. 
+
 \section{Fundamentals of Astronomical Interferometry}\label{sec:2}
 Young's Slits
 \section{The Synthesis Telescope}\label{sec:3}
