@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  16 MAY 2013 21:19
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  17 MAY 2013 16:20
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -462,6 +462,9 @@ LaTeX Warning: Label `sec:2' multiply defined.
 
 LaTeX Warning: Label `sec:3' multiply defined.
 
+
+LaTeX Warning: Label `sec:4' multiply defined.
+
 ) (./3/instrum_obs.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
@@ -653,7 +656,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--103
 
  []
 
-[10]) [11] [12]
+[10] [11]) [12]
 \openout2 = `3/instrum_obs.aux'.
 
  (./3/instrum_obs.tex
@@ -687,12 +690,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7900 strings out of 495062
- 114492 string characters out of 1182645
- 196626 words of memory out of 3000000
- 10803 multiletter control sequences out of 15000+50000
+ 7902 strings out of 495062
+ 114518 string characters out of 1182645
+ 196689 words of memory out of 3000000
+ 10805 multiletter control sequences out of 15000+50000
  21088 words of font info for 75 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,49p,1586b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,49p,1606b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (28 pages, 97920 bytes).
+Output written on thesis.dvi (28 pages, 101232 bytes).
