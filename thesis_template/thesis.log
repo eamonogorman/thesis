@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  18 MAY 2013 12:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  19 MAY 2013 17:36
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -462,9 +462,6 @@ LaTeX Warning: Label `sec:2' multiply defined.
 
 LaTeX Warning: Label `sec:3' multiply defined.
 
-
-LaTeX Warning: Label `fig2d' multiply defined.
-
 ) (./3/instrum_obs.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
@@ -662,24 +659,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--100
 
  []
 
-[10] [11]
+[10] [11] [12]
 File: /home/eamon/thesis/figures/youngs.ps Graphic file (type eps)
- </home/eamon/thesis/figures/youngs.ps>) [12] [13]
+ </home/eamon/thesis/figures/youngs.ps> [13]) [14]
 \openout2 = `3/instrum_obs.aux'.
 
 
 (./3/instrum_obs.tex
 Chapter 3.
-) [14
+) [15
 
 
 
-] [15]
+] [16]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [16
+) [17
 
 
 
@@ -687,10 +684,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [17
+ [18
 
 
-]) [18] (./thesis.aux
+]) [19] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_obs.aux) (./appendix/app.aux))
@@ -699,12 +696,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7905 strings out of 495062
- 114587 string characters out of 1182645
- 196689 words of memory out of 3000000
- 10807 multiletter control sequences out of 15000+50000
+ 7914 strings out of 495062
+ 114735 string characters out of 1182645
+ 196796 words of memory out of 3000000
+ 10816 multiletter control sequences out of 15000+50000
  21088 words of font info for 75 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,49p,1606b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (29 pages, 104968 bytes).
+Output written on thesis.dvi (30 pages, 109632 bytes).
