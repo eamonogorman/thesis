@@ -65,9 +65,6 @@ are the antenna coordinates and $l$ and $m$ are their Fourrier counterparts. The
 \end{equation}
 where $D$ is the diameter of the antenna. The constant of proportionality varies slightly with the illumination taper and can be shown to be equal to $\sim 0.89$ for a uniformly illuminated linear aperture and $\sim 1.2$ for a Gaussian illuminated aperture. When the sky is scanned with a single antenna, then this HPBW is the resolution of the resulting map. 
 
-No $\pi$'s in above figures
-Maybe mention resolution? I.e. Rayleigh criteria
-
 \subsection{Antenna Structural Design}\label{subsec:2}
 The design of the primary antenna element of an interferometric array will depend on the wavelength range to be observed. In general, wire antennas are used for wavelengths longer than $\sim 1$ m, while reflector antennas are typically used at shorter wavelengths. The reason why the more simple and less expensive wire antennas are not used at all wavelengths is given by Equation \ref{eq:kraus}. For an isotropic antenna, this equation tells us that the effective area is just
 \begin{equation}
@@ -82,12 +79,12 @@ Therefore, at short wavelengths a non-directional antenna such as a dipole, will
 \begin{figure}[hbt!]
 \centering 
           \includegraphics[trim=10pt 40pt 60pt 50pt,clip,width=10.0cm,angle=-90]{/home/eamon/thesis/figures/fig2d.ps}
-\caption[Common optical systems used for radio antennas.]{\textit{(a)} Prime focus, \textit{(b)} Naysmith, \textit{(c)} Off-axis Cassegrain, \textit{(d)} Offset Cassegrain (Figure adopted from \cite{taylor_1999}).}
+\caption[Common optical systems used for radio antennas.]{(\textit{a}) Prime focus, (\textit{b}) Naysmith, (\textit{c}) Off-axis Cassegrain, (\textit{d}) Offset Cassegrain (Figure adopted from \cite{taylor_1999}).}
 \label{fig2d}
 \end{figure}
 
 \subsection{Antenna Performance Parameters}\label{subsec:3}
-\textit{Aperture Efficiency.} The geometric collecting area of a parabolic antenna, $A_{\rm{geo}}$ [$=\pi (D/2)^2$], is related to the effective area (i.e. the collecting area when pointing directly at a source) via the dimensionless quantity, $\eta$, known as the aperature efficiency where
+\textit{Aperture Efficiency.} The geometric collecting area of a parabolic antenna, $A_{\rm{geo}}$ ($=\pi D^2/4$), is related to the effective area (i.e. the collecting area when pointing directly at a source) via the dimensionless quantity, $\eta$, known as the aperature efficiency where
 \begin{equation}
 \eta = \frac{A_0}{A_{\rm{geo}}} 
 \end{equation}
@@ -112,6 +109,14 @@ The angular resolution $\Delta \theta$ of a radio antenna is the minimum angular
 The Rayleigh criterion states that two objects are resolved when the first null of the diffraction pattern of one object coincides with the maximum of the diffraction pattern of the other. An immediate consequence of Equation \ref{eq:rayleigh} is that at large wavelengths, the angular resolution becomes large unless the diameter of the aperture can be increased substantially. In order to achieve modest angular resolution at radio wavelengths with a single radio antenna then, the diameter becomes impractically large. For example, in order to achieve an angular resolution of 1$^{\prime \prime}$ at 6 cm a 12 km aperture would be required. Radio interferometry is a technique used in radio astronomy to overcome this problem of poor resolution at long wavelengths. 
 
 
-Young's Slits,
+\subsection{Young's Slits}\label{subsec:4}
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[trim=0pt 0pt 0pt 0pt,clip,width=12.0cm]{/home/eamon/thesis/figures/youngs.ps}
+\caption[Common optical systems used for radio antennas.]{The resulting fringe pattern produced by Young's slits under various situations. (\textit{a}) Point source at infinity, (Visibility = 1). Finges are seperated by an angular distance of $\lambda /B$. (\textit{b}) An increase in source size results in a drop in visibility. (\textit{c}) When the source size is equal to $\lambda /B$, the visibility is zero. (\textit{d}) Reducing the slit spacing results in the fringe pattern re-emerging. (Figure adopted from \cite{taylor_1999}).}
+\label{fig2d}
+\end{figure}
+\subsection{The Two-element Interferometer}\label{subsec:5}
 Essential Radio 
 \section{Synthesis Imaging}\label{sec:4}
+Essential Radio 
