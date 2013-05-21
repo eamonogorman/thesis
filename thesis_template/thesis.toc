@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {2.2}The Antenna Backend}{12}{section.2.2}
 \contentsline {section}{\numberline {2.3}Fundamentals of Radio Interferometry}{12}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Young's Slits}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{15}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Synthesis Imaging}{15}{section.2.4}
 \contentsline {chapter}{\numberline {3}Instrumentation and Observations}{16}{chapter.3}
 \contentsline {section}{\numberline {3.1}CARMA}{17}{section.3.1}
