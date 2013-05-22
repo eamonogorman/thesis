@@ -134,13 +134,33 @@ In the simple case shown in Figure \ref{fig2e}a, the angular size of the source 
 Visibility and phase are often expressed together as the complex visibility $V=|V|e^{i\phi}$, which completely defines a pattern of interference fringes. Young's double-slit experiment demonstrates a fundamental property of interferometry, namely that the contrast of fringes is a function of the geometry of the source. The results of the experiment are summarized in Figure \ref{fig2f}. The top row shows that a large source (i.e. one whose intensity distribution extends out to a large angle on the sky) has a fringe visibility pattern which falls off quickly as projected baseline length increases. The bottom row shows that for compact sources the fringe visibility remains high out to large baselines. In the following section we will show that the relationship between the sky brightness distribution $I(\theta)$ and the visibility $V(B)$ is a Fourrier transform.
 
 \subsection{The Two-element Interferometer}\label{subsec:5}
+All radio interferometers can be treated as $N(N-1)/2$ independent interferometer pairs, so it is worthwhile studying the simplest case of a two-element interferometer. A simplified block diagram of the components of such an interferometer is shown in Figure \ref{fig2g}. The figure shows two identical antennas separated by a baseline vector \textbf{b} with both pointing to a distant radio source in a direction indicated by the unit vector \textbf{s}. The plane waves from the distant radio source reach antenna 1 at a time $\tau _g$ later than they reach antenna 2. $\tau _g$ is called the geometric delay and is given by
+\begin{equation}
+\tau _{g}=\frac{\textbf{b}.\textbf{s}}{c}=\frac{b\rm{cos}\theta}{c}
+\end{equation}
+where $c$ is the speed of light. If we assume that the interferometer only responds to a very narrow band centered on frequency $\nu=\omega /2\pi$, then the output voltages of antennas 1 and 2 at time $t$ can be written as 
+\begin{equation}
+V_1(t)=V\rm{cos}[\omega(t-\tau _g)] \ \ \ \rm{and} \ \ \ \mathit{V_{\rm{2}}(t)=V\rm{cos}(\omega t)}.
+\end{equation}
+The signals are then passed through a correlator which first multiplies these voltages to give
+\begin{equation}
+V_1 V_2=\frac{V^2}{2}[\rm{cos(2\omega t -\omega \tau _g)+\rm{cos}(\omega \tau _g)}]
+\end{equation}
+and then averages them over a time interval long enough such that $\Delta t >> (2\omega)^{-1}$ to give the final output $R$:
+\begin{equation}
+R=\langle V_1(t)V_2(t)\rangle = \frac{V^2}{2}[\rm{cos}(\omega \tau _g)].
+\end{equation}
 
 \begin{figure}[hbt!]
 \centering 
-          \includegraphics[trim=0pt 160pt 0pt 160pt,clip,width=12.0cm]{/home/eamon/thesis/figures/2_el.ps}
+          \includegraphics[trim=20pt 160pt 20pt 160pt,clip,width=12.0cm]{/home/eamon/thesis/figures/2_el.ps}
 \caption[Simplified schematic diagram of a two-element interferometer.]{Simplified schematic diagram of a two-element interferometer. The correlator multiplies and averages the voltage outputs $V_1$ and $V_2$ of the two dishes.}
 \label{fig2g}
 \end{figure}
 
+As the Earth rotates, $\tau _g$ varies slowly with time and the resultant oscillations in the correlator output voltage represent the motion of the source. These sinusoidal oscillations are called fringes, and the fringe phase is 
+\begin{equation}
+\phi = \omega \tau _g = \frac{\omega b\rm{sin} \theta}{c}
+\end{equation}
 \section{Synthesis Imaging}\label{sec:4}
 Essential Radio 
