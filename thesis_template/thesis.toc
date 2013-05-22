@@ -28,4 +28,4 @@
 \contentsline {subsection}{\numberline {3.2.4}Observations}{17}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}GMRT}{17}{section.3.3}
 \contentsline {chapter}{\numberline {A}A Nice Appendix}{18}{appendix.A}
-\contentsline {chapter}{References}{19}{section*.14}
+\contentsline {chapter}{References}{19}{section*.15}

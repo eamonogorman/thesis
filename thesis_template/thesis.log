@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  21 MAY 2013 23:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  22 MAY 2013 18:48
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -462,6 +462,9 @@ LaTeX Warning: Label `sec:2' multiply defined.
 
 LaTeX Warning: Label `sec:3' multiply defined.
 
+
+LaTeX Warning: Label `fig2f' multiply defined.
+
 ) (./3/instrum_obs.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
@@ -664,7 +667,10 @@ File: /home/eamon/thesis/figures/youngs.ps Graphic file (type eps)
  </home/eamon/thesis/figures/youngs.ps> [13]
 File: /home/eamon/thesis/figures/visibility.ps Graphic file (type eps)
 
-</home/eamon/thesis/figures/visibility.ps> [14]) [15]
+</home/eamon/thesis/figures/visibility.ps> [14]
+File: /home/eamon/thesis/figures/2_el.ps Graphic file (type eps)
+
+</home/eamon/thesis/figures/2_el.ps>) [15]
 \openout2 = `3/instrum_obs.aux'.
 
  (./3/instrum_obs.tex
@@ -698,12 +704,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7917 strings out of 495062
- 114796 string characters out of 1182645
- 196886 words of memory out of 3000000
- 10818 multiletter control sequences out of 15000+50000
+ 7920 strings out of 495062
+ 114845 string characters out of 1182645
+ 196909 words of memory out of 3000000
+ 10820 multiletter control sequences out of 15000+50000
  21088 words of font info for 75 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,49p,1606b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (31 pages, 115244 bytes).
+Output written on thesis.dvi (31 pages, 116460 bytes).
