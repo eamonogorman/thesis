@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  23 MAY 2013 19:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  23 MAY 2013 21:26
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -673,21 +673,21 @@ File: /home/eamon/thesis/figures/2_el.ps Graphic file (type eps)
 </home/eamon/thesis/figures/2_el.ps> [15] [16]
 File: /home/eamon/thesis/figures/synth_beam.ps Graphic file (type eps)
 
-</home/eamon/thesis/figures/synth_beam.ps> [17]) [18] [19]
+</home/eamon/thesis/figures/synth_beam.ps> [17]) [18]
 \openout2 = `3/instrum_obs.aux'.
 
  (./3/instrum_obs.tex
 Chapter 3.
-) [20
+) [19
 
 
 
-] [21]
+] [20]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [22
+) [21
 
 
 
@@ -695,10 +695,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [23
+ [22
 
 
-]) [24] (./thesis.aux
+]) [23] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_obs.aux) (./appendix/app.aux))
@@ -715,4 +715,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  45i,12n,49p,1752b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (35 pages, 131120 bytes).
+Output written on thesis.dvi (34 pages, 129840 bytes).
