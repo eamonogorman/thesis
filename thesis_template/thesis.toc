@@ -15,17 +15,18 @@
 \contentsline {section}{\numberline {2.3}Fundamentals of Radio Interferometry}{12}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Young's Slits}{12}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{15}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Synthesis Imaging}{16}{section.2.4}
-\contentsline {chapter}{\numberline {3}Instrumentation and Observations}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}CARMA}{18}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The Basic Instrument}{18}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The CARMA Electronic System}{18}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Observations}{18}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}VLA}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The Basic Instrument}{18}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The VLA Electronic System}{18}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Observation Preparation}{18}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Observations}{18}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}GMRT}{18}{section.3.3}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{19}{appendix.A}
-\contentsline {chapter}{References}{20}{section*.15}
+\contentsline {subsection}{\numberline {2.3.3}Coordinate Systems for Imaging}{18}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Synthesis Imaging}{19}{section.2.4}
+\contentsline {chapter}{\numberline {3}Instrumentation and Observations}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}CARMA}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The Basic Instrument}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The CARMA Electronic System}{21}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Observations}{21}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}VLA}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Basic Instrument}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The VLA Electronic System}{21}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Observation Preparation}{21}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Observations}{21}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}GMRT}{21}{section.3.3}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{22}{appendix.A}
+\contentsline {chapter}{References}{23}{section*.16}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  23 MAY 2013 00:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  23 MAY 2013 19:13
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -485,6 +485,9 @@ LaTeX Warning: Label `subsec:4' multiply defined.
 LaTeX Warning: Label `subsec:5' multiply defined.
 
 
+LaTeX Warning: Label `subsec:6' multiply defined.
+
+
 LaTeX Warning: Label `sec:3' multiply defined.
 
 ) (./appendix/app.aux))
@@ -667,21 +670,24 @@ File: /home/eamon/thesis/figures/visibility.ps Graphic file (type eps)
 </home/eamon/thesis/figures/visibility.ps> [14]
 File: /home/eamon/thesis/figures/2_el.ps Graphic file (type eps)
 
-</home/eamon/thesis/figures/2_el.ps> [15]) [16]
+</home/eamon/thesis/figures/2_el.ps> [15] [16]
+File: /home/eamon/thesis/figures/synth_beam.ps Graphic file (type eps)
+
+</home/eamon/thesis/figures/synth_beam.ps> [17]) [18] [19]
 \openout2 = `3/instrum_obs.aux'.
 
  (./3/instrum_obs.tex
 Chapter 3.
-) [17
+) [20
 
 
 
-] [18]
+] [21]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [19
+) [22
 
 
 
@@ -689,10 +695,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [20
+ [23
 
 
-]) [21] (./thesis.aux
+]) [24] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_obs.aux) (./appendix/app.aux))
@@ -701,12 +707,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7920 strings out of 495062
- 114845 string characters out of 1182645
- 196980 words of memory out of 3000000
- 10820 multiletter control sequences out of 15000+50000
+ 7924 strings out of 495062
+ 114924 string characters out of 1182645
+ 197075 words of memory out of 3000000
+ 10823 multiletter control sequences out of 15000+50000
  21088 words of font info for 75 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,49p,1606b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,49p,1752b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (32 pages, 120808 bytes).
+Output written on thesis.dvi (35 pages, 131120 bytes).

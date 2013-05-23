@@ -8,7 +8,7 @@
 The poor spatial resolution provided by a single dish radio antenna can cause difficulties in obtaining accurate flux density measurements of radio astronomical sources, especially at long wavelengths. A single dish radio antenna is unable to distinguish against background radio emitters located in the primary beam, and therefore the the observed flux density can contain emission from unrelated sources. This limitation can be overcome through interferometry. An interferometer acts as a spatial filter, and can discriminate against smooth backgrounds while its higher resolution allows seperation of the target from nearby confusing sources. 
 
 \section{Radio Antenna Basics}\label{sec:1}
-The quality and properties of the final radio image produced from a synthesis array are partially dependent on the properties of the the individual antennae in the array. The most important such properties are discussed in the following sections and include aperture size, aperture efficiency, pointing accuracy, sidelobe level and noise temperature. We define the radio antenna as the piece of equipment which converts the electromagnetic waves emitted from the observed source into an electric current ready to be input into to the first low noise amplifier where the signal is at the radio/sky frequency, $\nu _{\rm{RF}}$.
+The quality and properties of the final radio image produced from a synthesis array are partially dependent on the properties of the the individual antennas in the array. The most important such properties are discussed in the following sections and include aperture size, aperture efficiency, pointing accuracy, sidelobe level and noise temperature. We define the radio antenna as the piece of equipment which converts the electromagnetic waves emitted from the observed source into an electric current ready to be input into to the first low noise amplifier where the signal is at the radio/sky frequency, $\nu _{\rm{RF}}$.
 \subsection{Radio Antenna Formulae}\label{subsec:1}
 The power gain of a transmitting antenna is a measure of the antenna's capability of converting power into radio waves in a specific direction. In radio astronomy, the receiving counterpart of transmitting power gain is the effective collecting area of an antenna, $A$($\nu$,$\theta$,$\phi$), where $\nu$ is frequency and $\theta$ and $\phi$ are direction coordinates. An ideal radio antenna would collect all incident radiation from a distant point source and convert it to electrical power. The total spectral power $P_{\nu}$, collected by it would then be a product of its geometric area and the incident spectral power per area, or flux density $F_{\nu}$. By analogy then, the effective area of a real radio antenna is defined
 \begin{equation}
@@ -134,7 +134,7 @@ In the simple case shown in Figure \ref{fig2e}a, the angular size of the source 
 Visibility and phase are often expressed together as the complex visibility $V=|V|e^{i\phi}$, which completely defines a pattern of interference fringes. Young's double-slit experiment demonstrates a fundamental property of interferometry, namely that the contrast of fringes is a function of the geometry of the source. The results of the experiment are summarized in Figure \ref{fig2f}. The top row shows that a large source (i.e. one whose intensity distribution extends out to a large angle on the sky) has a fringe visibility pattern which falls off quickly as projected baseline length increases. The bottom row shows that for compact sources the fringe visibility remains high out to large baselines. In the following section we will show that the relationship between the sky brightness distribution $I(\theta)$ and the visibility $V(B)$ is a Fourrier transform.
 
 \subsection{The Two-element Interferometer}\label{subsec:5}
-All radio interferometers can be treated as $N(N-1)/2$ independent interferometer pairs, so it is worthwhile studying the simplest case of a two-element interferometer. A simplified block diagram of the components of such an interferometer is shown in Figure \ref{fig2g}. The figure shows two identical antennas separated by a baseline vector \textbf{b} with both pointing to a distant radio source in a direction indicated by the unit vector \textbf{s}. The plane waves from the distant radio source reach antenna 1 at a time $\tau _g$ later than they reach antenna 2. $\tau _g$ is called the geometric delay and is given by
+Interferometers with $N$ antennas can be treated as $N(N-1)/2$ independent interferometer pairs so it is worthwhile studying the simplest case of the two-element interferometer. A simplified block diagram of the components of such an interferometer is shown in Figure \ref{fig2g}. The figure shows two identical antennas separated by a baseline vector \textbf{b} with both pointing to a distant radio source in a direction indicated by the unit vector \textbf{s}. The plane waves from the distant radio source reach antenna 1 at a time $\tau _g$ later than they reach antenna 2. $\tau _g$ is called the geometric delay and is given by
 \begin{equation}
 \tau _{g}=\frac{\textbf{b}.\textbf{s}}{c}=\frac{b\rm{cos}\theta}{c}
 \end{equation}
@@ -144,7 +144,7 @@ V_1(t)=V\rm{cos}[\omega(t-\tau _g)] \ \ \ \rm{and} \ \ \ \mathit{V_{\rm{2}}(t)=V
 \end{equation}
 The signals are then passed through a correlator which first multiplies these voltages to give
 \begin{equation}
-V_1 V_2=\frac{V^2}{2}[\rm{cos(2\omega t -\omega \tau _g)+\rm{cos}(\omega \tau _g)}]
+V_1(t) V_2(t)=\frac{V^2}{2}[\rm{cos(2\omega t -\omega \tau _g)+\rm{cos}(\omega \tau _g)}]
 \end{equation}
 and then averages them over a time interval long enough such that $\Delta t >> (2\omega)^{-1}$ to give the final output $R$:
 \begin{equation}
@@ -154,13 +154,38 @@ R=\langle V_1(t)V_2(t)\rangle = \frac{V^2}{2}[\rm{cos}(\omega \tau _g)].
 \begin{figure}[hbt!]
 \centering 
           \includegraphics[trim=20pt 160pt 20pt 160pt,clip,width=12.0cm]{/home/eamon/thesis/figures/2_el.ps}
-\caption[Simplified schematic diagram of a two-element interferometer.]{Simplified schematic diagram of a two-element interferometer. The correlator multiplies and averages the voltage outputs $V_1$ and $V_2$ of the two dishes.}
+\caption[Simplified schematic diagram of a two-element interferometer.]{Simplified schematic diagram of a two-element interferometer. The correlator multiplies and averages the voltage outputs $V_1$ and $V_2$ of the two dishes and yields an output amplitude $V^2/2$ which is proportional to the point-source flux density $F_{\nu}$.}
 \label{fig2g}
 \end{figure}
 
 As the Earth rotates, $\tau _g$ varies slowly with time and the resultant oscillations in the correlator output voltage represent the motion of the source. These sinusoidal oscillations are called fringes, and the fringe phase is 
 \begin{equation}
-\phi = \omega \tau _g = \frac{\omega b\rm{sin} \theta}{c}
+\phi = \omega \tau _g = \frac{\omega b\rm{cos} \theta}{c}
 \end{equation}
+which changes with source direction as follows
+\begin{equation}
+\frac{d\phi}{d\theta}= \frac{\omega b\rm{sin} \theta}{c}=2\pi\left(\frac{b\rm{sin}\theta}{\lambda}\right).
+\end{equation}
+The fringe phase completes a full period (i.e. $\Delta \phi=2\pi$) when an angular change $\Delta \theta=(\lambda/b\rm{sin}\theta)$ occurs. This tells us that the fringe phase is an extremely sensitive measure of source position if the projected baseline $b\rm{sin}\theta$ is many wavelengths long and is the reason why interferometers can determine the positions of compact radio sources with exquisite accuracy.
+
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[trim=20pt 180pt 20pt 160pt,clip,width=12.0cm]{/home/eamon/thesis/figures/synth_beam.ps}
+\caption[The instantaneous point source responses of an interferometer.]{The instantaneous point source responses of an interferometer with two, three and four elements is indicated by the thick curves. The individual responses of the three pairs of two-element interferometers of the three-element interferometer and the six pairs of two-element interferometers of the four-element interferometer are plotted as thin curves. The main beama of the four-element interferometer is nearly Gaussian and has a width of $\sim \lambda /B$. This is known as the instantaneous synthesized beam of the interferometer.}
+\label{fig2h}
+\end{figure}
+
+If the antennas in an interferometric array are isotropic, then the  point-source response of the interferometer would be a sinusoid spanning the entire sky and the interferometer would be only sensitive to one Fourier component of the sky brightness distribution having angular period $\lambda/b\rm{sin}\theta$. The response of a two-element interferometer $R$ with non-isotropic antennas is this sinusoid multiplied by the product of the voltage patterns (i.e. defined as $f(u,v)$ in Section \ref{subsec:1}) of the individual antennas. If the antennas are identical then this product is the power pattern of the individual antennas called the primary beam. The primary beam is usually a Gaussian that is much wider than the fringe period as $D << b\rm{sin}\theta$. The result is that an interferometer with directive antennas responds to a finite range of angular frequencies centered on $b\rm{sin}\theta /\lambda$. The instantaneous point source response of an interferometer is known as the synthesized beam and is the point source response obtained by averaging the outputs of all antenna pairs. The synthesized beam of an interferometer is an important quantity as it defines the maximum spatial resolution of the instrument. The synthesized beams produced by an interferometer with a various number of antennas arranged in 1-D is shown in Figure \ref{fig2h}. The figure shows that the synthesized beam can be improved by acquiring more Fourier components (i.e. baselines) and rapidly approaches a Gaussian as $N$ increases. However, sidelobes are still significant and a broad negative``bowl'' exists between the main beam and the first sidelobes due to the absence of short spacings.
+
+\subsection{Coordinate Systems for Imaging}\label{subsec:6}
+The interferometer output can be expressed in terms of the radio brightness over the sky which is sometimes called specific intensity and has units W m$^{-2}$ Hz$^{-1}$ sr$^{-1}$. If the radio brightness in the direction of unit vector \textbf{s} at frequency $\nu$ is I(\textbf{s}), then the signal power received in bandwidth $\Delta \nu$ from the solid angle $d\Omega$ is $A(\textbf{s})I(\textbf{s})\Delta \nu d\Omega$, where $A(\textbf{s})$ is the effective collecting area in direction \textbf{s}. Then, the correlator output from  $d\Omega$ is
+\begin{equation}
+dR=A(\textbf{s})I(\textbf{s})\Delta \nu d\Omega \rm{cos}(2\pi \nu \tau _{\rm{g}})
+\end{equation}
+and is a function of the received power and the cosine fringe term. The correlator output can also be written in terms of baseline and source position vector
+\begin{equation}
+R=\Delta \nu \int _{4\pi}A(\textbf{s})I(\textbf{s}) \rm{cos}\left(\frac{2\pi \nu \textbf{b}.\textbf{s}}{c} \right)d\Omega
+\end{equation}
+where the integral is taken over the entire celestial sphere. 
 \section{Synthesis Imaging}\label{sec:4}
 Essential Radio 
