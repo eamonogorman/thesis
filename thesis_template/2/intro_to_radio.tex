@@ -177,11 +177,60 @@ The fringe phase completes a full period (i.e. $\Delta \phi=2\pi$) when an angul
 
 If the antennas in an interferometric array are isotropic, then the  point-source response of the interferometer would be a sinusoid spanning the entire sky and the interferometer would be only sensitive to one Fourier component of the sky brightness distribution having angular period $\lambda/b\rm{sin}\theta$. The response of a two-element interferometer $R$ with non-isotropic antennas is this sinusoid multiplied by the product of the voltage patterns (i.e. defined as $f(u,v)$ in Section \ref{subsec:1}) of the individual antennas. If the antennas are identical then this product is the power pattern of the individual antennas called the primary beam. The primary beam is usually a Gaussian that is much wider than the fringe period as $D << b\rm{sin}\theta$. The result is that an interferometer with directive antennas responds to a finite range of angular frequencies centered on $b\rm{sin}\theta /\lambda$. The instantaneous point source response of an interferometer is known as the synthesized beam and is the point source response obtained by averaging the outputs of all antenna pairs. The synthesized beam of an interferometer is an important quantity as it defines the maximum spatial resolution of the instrument. The synthesized beams produced by an interferometer with a various number of antennas arranged in 1-D is shown in Figure \ref{fig2h}. The figure shows that the synthesized beam can be improved by acquiring more Fourier components (i.e. baselines) and rapidly approaches a Gaussian as $N$ increases. However, sidelobes are still significant and a broad negative``bowl'' exists between the main beam and the first sidelobes due to the absence of short spacings.
 
-\subsection{Coordinate Systems for Imaging}\label{subsec:6}
-The interferometer output can be expressed in terms of the radio brightness over the sky which is sometimes called specific intensity and has units W m$^{-2}$ Hz$^{-1}$ sr$^{-1}$. If the radio brightness of a spatially incoherent extended source in the direction of unit vector \textbf{s} at frequency $\nu$ is $I$(\textbf{s}), then the response of the two-element interferometer near frequency $\nu =\omega/2\pi$ is obtained by treating the extended source as the sum of independent point sources:
+\subsection{Complex Visibility}\label{subsec:6}
+The interferometer output can be expressed in terms of the radio brightness over the sky, which is sometimes also called specific intensity and has units W m$^{-2}$ Hz$^{-1}$ sr$^{-1}$. If the radio brightness of a spatially incoherent extended source in the direction of unit vector \textbf{s} is $I$(\textbf{s}), then the response of the two-element interferometer with ``cosine'' correlator output near frequency $\nu =\omega/2\pi$ is obtained by treating the extended source as the sum of independent point sources:
 \begin{equation}
-R_{c}=\int _{4\pi}\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s}) \rm{cos}\left(\frac{2\pi \textbf{b}.\textbf{s}}{\lambda} \right)d\Omega
+R_{c}=\int _{\Omega}\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s}) \rm{cos}\left(\frac{2\pi \textbf{b}.\textbf{s}}{\lambda} \right)d\Omega
 \end{equation}
-where again $\mathcal{A}$ is the normalised antenna reception pattern and we call $\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s})$ the modified brightness distribution.
+where $\mathcal{A}$ is the normalised antenna reception pattern defined in Section \ref{subsec:1} and we call $\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s})$ the modified brightness distribution. However, the cosine function in the  ``cosine'' correlator output is only sensitive to the even part of the the sky brightness distribution, which can be written as the sum of even and odd parts:
+\begin{equation}
+I(\textbf{s})=I_{\rm{e}}(\textbf{s})+I_{\rm{o}}(\textbf{s}).
+\end{equation}
+A ``sine'' correlator whose output is odd, is needed to detect the odd part of $I(\textbf{s})$ and this is implemented by inserting a 90$^{\circ}$ phase delay into the signal of one of the antennas to give
+\begin{equation}
+R_{s}=\int _{\Omega}\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s}) \rm{sin}\left(\frac{2\pi \textbf{b}.\textbf{s}}{\lambda} \right)d\Omega
+\end{equation}
+
+It is convenient to write the cosines and sines as complex exponentials using the identity 
+\begin{equation}
+e^{i\phi} = \rm{cos}(\phi) + \mathit{i}\rm{sin}(\phi)
+\end{equation}
+and so the combination of ``cosine'' and ``sine'' correlators is called a ``complex'' correlator. The term \textit{visibility} was first introduced by \cite{michelson_1890} to describe the relative amplitudes of the optical fringes that he observed. The visibility is a complex quantity in radio astronomy and has dimensions of spectral power flux density (W m$^{-2}$ Hz$^{-1}$). The complex visibility is the response of a two-element interferometer with a complex correlator to an extended source with brightness distribution $I(\textbf{s})$  and is defined as
+\begin{equation}
+V _{\nu} = \int _{\Omega}\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s})\mathit{e}^{-2\pi \mathit{i} \nu \textbf{b}.\textbf{s}/c}d\Omega .
+\label{eq:visib}
+\end{equation}
+\subsection{Coordinate Systems for Imaging}\label{subsec:7}
+The baseline vector \textbf{b} has coordinates ($u,v,w$) in three dimenstions shown in Figure \ref{fig2h} where $w$ points in the directions of interest, i.e. towards a direction \textbf{$s_{0}$} that becomes the center of the synthesized image. $u$, $v$ and $w$ are measured in wavelenths (i.e. the components of $\textbf{b}/\lambda$) and have directions towards the East, the North and the phase tracking center, respectively. An arbitrary unit vector \textbf{s} has components ($l,m,n$) called direction cosines, where $n=\rm{cos}\theta=(1-l^2-m^2)^{1/2}$. Using these coordinates the parameters in Equation \ref{eq:visib} become
+\begin{equation}
+\begin{split}
+\frac{\nu \textbf{b}.\textbf{s}}{c}&=ul+vm+wn, \\
+d\Omega &= \frac{dl\,dm}{n}=\frac{dl\,dm}{\sqrt{1-l^2-m^2}}.
+\end{split}
+\end{equation}
+Therefore Equation \ref{eq:visib} can be defined in terms of the coordinate system layed out in Figure{x.} as
+\begin{equation}\label{eq:3-d_vis}
+\begin{split}
+&V(u,v,w)=\\
+&\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty} \mathcal{A}(l,m)I_{\nu}(l,m)\mathit{e}^{-2\pi \mathit{i}[ul+vm+w(\sqrt{1-l^2-m^2})] }\frac{dl\,dm}{\sqrt{1-l^2-m^2}}
+\end{split}
+\end{equation}
+which is not a three-dimensional Fourrier transform. This equation becomes a two-dimensional Fourrier transform if $w=0$ which is a good approximation for small field imaging, i.e. when $|l|$ and $|m|$ are small. In this case Equation \ref{eq:3-d_vis} can be inverted to find the modified sky brightness distribution:
+\begin{equation}
+\mathcal{A}(l,m)I_{\nu}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}V(u,v)\mathit{e}^{-2\pi \mathit{i}(ul+vm)}du\,dv.
+\end{equation}
+
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[trim=20pt 200pt 20pt 200pt,clip,width=12.0cm]{/home/eamon/thesis/figures/3dvis.ps}
+\caption[The ($u,v,w$) interferometric coordinate system.]{The ($u,v,w$) interferometric coordinate system. l, m, and n are the projections of the unit vector \textbf{s} onto the u, v, and w axes, respectively.}
+\label{fig2h}
+\end{figure}
+
 \section{Synthesis Imaging}\label{sec:4}
-Essential Radio 
+Essential Radio \\
+http://web.njit.edu/~gary/728/Lecture6.html
+\subsection{Visibility Sampling}\label{subsec:x}
+\subsection{Inverting the Visibilities}\label{subsec:x}
+\subsection{Deconvolution}\label{subsec:x}
+CLEAN vs MEM

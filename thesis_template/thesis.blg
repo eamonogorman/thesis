@@ -13,45 +13,45 @@ The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
-You've used 15 entries,
+You've used 16 entries,
             3018 wiz_defined-function locations,
-            735 strings with 7578 characters,
-and the built_in function-call counts, 9784 in all, are:
-= -- 778
-> -- 519
-< -- 10
-+ -- 184
-- -- 167
-* -- 827
-:= -- 1497
-add.period$ -- 43
-call.type$ -- 15
-change.case$ -- 129
-chr.to.int$ -- 15
-cite$ -- 16
-duplicate$ -- 682
-empty$ -- 681
-format.name$ -- 210
-if$ -- 1949
+            743 strings with 7638 characters,
+and the built_in function-call counts, 10240 in all, are:
+= -- 819
+> -- 529
+< -- 11
++ -- 188
+- -- 170
+* -- 858
+:= -- 1571
+add.period$ -- 46
+call.type$ -- 16
+change.case$ -- 135
+chr.to.int$ -- 16
+cite$ -- 17
+duplicate$ -- 719
+empty$ -- 720
+format.name$ -- 214
+if$ -- 2042
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 147
-newline$ -- 49
-num.names$ -- 65
-pop$ -- 309
+missing$ -- 154
+newline$ -- 52
+num.names$ -- 69
+pop$ -- 319
 preamble$ -- 1
-purify$ -- 114
+purify$ -- 119
 quote$ -- 0
-skip$ -- 264
+skip$ -- 277
 stack$ -- 0
-substring$ -- 372
-swap$ -- 387
+substring$ -- 395
+swap$ -- 405
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 135
 warning$ -- 1
-while$ -- 59
+while$ -- 63
 width$ -- 0
-write$ -- 164
+write$ -- 175
 (There was 1 warning)
