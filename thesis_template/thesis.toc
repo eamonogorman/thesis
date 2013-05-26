@@ -17,10 +17,10 @@
 \contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{15}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Complex Visibility}{18}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Coordinate Systems for Imaging}{19}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Synthesis Imaging}{21}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Visibility Sampling}{21}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Inverting the Visibilities}{21}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Deconvolution}{21}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.4}Synthesis Imaging}{20}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Visibility Sampling}{20}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Inverting the Visibilities}{20}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Deconvolution}{20}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Instrumentation and Observations}{22}{chapter.3}
 \contentsline {section}{\numberline {3.1}CARMA}{23}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}The Basic Instrument}{23}{subsection.3.1.1}

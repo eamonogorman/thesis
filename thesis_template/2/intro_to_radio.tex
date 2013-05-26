@@ -216,9 +216,10 @@ Therefore Equation \ref{eq:visib} can be defined in terms of the coordinate syst
 \end{split}
 \end{equation}
 which is not a three-dimensional Fourrier transform. This equation becomes a two-dimensional Fourrier transform if $w=0$ which is a good approximation for small field imaging, i.e. when $|l|$ and $|m|$ are small. In this case Equation \ref{eq:3-d_vis} can be inverted to find the modified sky brightness distribution:
-\begin{equation}
-\mathcal{A}(l,m)I_{\nu}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}V(u,v)\mathit{e}^{-2\pi \mathit{i}(ul+vm)}du\,dv.
+\begin{equation}\label{eq:2dft}
+\mathcal{A}(l,m)I_{\nu}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}V(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
 \end{equation}
+Therefore Equation \ref{eq:2dft} demonstrates the important Fourier Transform relationship between the sky brightness distribution and the complex visibility (i.e. the interferometer response).
 
 \begin{figure}[hbt!]
 \centering 
@@ -228,8 +229,7 @@ which is not a three-dimensional Fourrier transform. This equation becomes a two
 \end{figure}
 
 \section{Synthesis Imaging}\label{sec:4}
-Essential Radio \\
-http://web.njit.edu/~gary/728/Lecture6.html
+A synthesis imaging telescope consists of a number radio elements fixed on the ground and uses the Earth's rotation to vary the projected baseline coverage to increase the sampling of the $u-v$ plane. In this section we describe how Earth-rotation aperture synthesis is used to convert the complex visibilities outputted from the correlator to a final radio image of the oberved sky.
 \subsection{Visibility Sampling}\label{subsec:x}
 \subsection{Inverting the Visibilities}\label{subsec:x}
 \subsection{Deconvolution}\label{subsec:x}
