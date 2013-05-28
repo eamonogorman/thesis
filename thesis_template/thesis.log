@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  26 MAY 2013 19:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  28 MAY 2013 21:33
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -512,13 +512,13 @@ LaTeX Warning: Label `sec:2' multiply defined.
 LaTeX Warning: Label `sec:3' multiply defined.
 
 
-LaTeX Warning: Label `subsec:x' multiply defined.
-
-
-LaTeX Warning: Label `subsec:x' multiply defined.
-
-
 LaTeX Warning: Label `fig2h' multiply defined.
+
+
+LaTeX Warning: Label `subsec:x' multiply defined.
+
+
+LaTeX Warning: Label `subsec:x' multiply defined.
 
 ) (./3/instrum_obs.aux
 
@@ -737,21 +737,31 @@ File: /home/eamon/thesis/figures/synth_beam.ps Graphic file (type eps)
 </home/eamon/thesis/figures/synth_beam.ps> [17] [18] [19]
 File: /home/eamon/thesis/figures/3dvis.ps Graphic file (type eps)
 
-</home/eamon/thesis/figures/3dvis.ps>) [20] [21]
+</home/eamon/thesis/figures/3dvis.ps> [20]
+Overfull \hbox (1.61993pt too wide) in paragraph at lines 240--242
+\OT1/cmr/m/n/12 where we have used $\OML/cmm/m/it/12 I[]\OT1/cmr/m/n/12 (\OML/c
+mm/m/it/12 l; m\OT1/cmr/m/n/12 )$ to de-note the mod-i-fied sky bright-ness, $\
+U/eus/m/n/12 A\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l; m\OT1/cmr/m/n/12 )\OML/cmm/m
+/it/12 I[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l; m\OT1/cmr/m/n/12 )$,
+ []
+
+[21]
+File: /home/eamon/thesis/figures/uv_coverage.eps Graphic file (type eps)
+ </home/eamon/thesis/figures/uv_coverage.eps>) [22]
 \openout2 = `3/instrum_obs.aux'.
 
  (./3/instrum_obs.tex
 Chapter 3.
-) [22
+) [23
 
 
 
-] [23]
+] [24]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [24
+) [25
 
 
 
@@ -759,10 +769,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [25
+ [26
 
 
-]) [26] (./thesis.aux
+]) [27] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_obs.aux) (./appendix/app.aux))
@@ -771,12 +781,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8470 strings out of 495062
- 120995 string characters out of 1182645
- 207128 words of memory out of 3000000
- 11357 multiletter control sequences out of 15000+50000
+ 8474 strings out of 495062
+ 121075 string characters out of 1182645
+ 207296 words of memory out of 3000000
+ 11360 multiletter control sequences out of 15000+50000
  21709 words of font info for 77 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,19n,49p,1752b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (37 pages, 144832 bytes).
+Output written on thesis.dvi (38 pages, 151844 bytes).
