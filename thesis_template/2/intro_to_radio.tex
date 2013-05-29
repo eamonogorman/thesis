@@ -223,7 +223,7 @@ Therefore Equation \ref{eq:2dft} demonstrates the important Fourier Transform re
 
 \begin{figure}[hbt!]
 \centering 
-          \includegraphics[trim=20pt 200pt 20pt 200pt,clip,width=12.0cm]{/home/eamon/thesis/figures/3dvis.ps}
+          \includegraphics[trim=20pt 200pt 20pt 200pt,clip,width=10.0cm]{/home/eamon/thesis/figures/3dvis.ps}
 \caption[The ($u,v,w$) interferometric coordinate system.]{The ($u,v,w$) interferometric coordinate system. l, m, and n are the projections of the unit vector \textbf{s} onto the u, v, and w axes, respectively.}
 \label{fig2h}
 \end{figure}
@@ -232,6 +232,13 @@ Therefore Equation \ref{eq:2dft} demonstrates the important Fourier Transform re
 A synthesis imaging telescope consists of a number radio elements fixed on the ground and uses the Earth's rotation to vary the projected baseline coverage to increase the sampling of the $u-v$ plane. In this section we describe how Earth-rotation aperture synthesis is used to convert the complex visibilities outputted from the correlator to a final radio image of the observed sky.
 \subsection{Visibility Sampling}\label{subsec:x}
 Figure \ref{fig2i}  shows the overhead $u-v$ coverage of the VLA in its most extended configuration for a very short duration (i.e. snapshot) track. We define $u$ and $v$ as the east-west and north-south components of the projected baseline in wavelengths, respectively. As the Earth rotates, the projected baseline of each two-element pair in the array changes thus covering a different part of the $u-v$ plane. Over many hours, the $u-v$ points trace out portions of ellipses, and constructing a map over a long period of time is called Earth rotation aperture synthesis.
+
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[angle=90,trim=0pt 0pt 0pt 0pt,clip,width=13.5cm, height=5.0cm]{/home/eamon/thesis/figures/uv_coverage.eps}
+\caption[VLA antenna layout and two examples of $u-v$ coverage for different track lengths.]{\textit{Left:} The VLA in A-configuration is an example of an `Y' shaped array design. \textit{Middle:} The corresponding overhead snapshot $u-v$ coverage results in `snowflake' pattern. \textit{Right:} The corresponding $u-v$ coverage after a 12 hour track of a source at a declination of 60$^{\circ}$. Note the more intense u-v coverage in the direction of the three straight arms of the VLA for a snapshot track compared to the more uniform coverage over a longer duration track.}
+\label{fig2i}
+\end{figure}
 
 For every sky brightness distribution $I(l,m)$ there exists a continuous complex visibility function $V(u,v)$ that is its Fourier Transform. An array of antennas will only ever measure a certain set of values of the visibility function where the measured set is called the sampling function $S(u,v)$, which is zero where no data have been taken. Then the actual data provided by the array is known as the sampled visibility function, $S(u,v)V(u,v)$. If we take the inverse Fourrier transform of this function we get the \textit{dirty image}:
 
@@ -248,14 +255,16 @@ B(l,m)\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}S(u,v)\mathit{e}^{2\pi \ma
 \end{equation}
 is the \textit{point spread function} (PSF), or \textit{synthesized beam}, or diffraction pattern of the aperture (i.e. the inverse Fourrier Transform of the sampling function $S$). Equation \ref{eq:dirty_image} says that the dirty image $I^{D}$ is the true intensity distribution $I$, convolved with the synthesized beam $B$.
 
-
+\subsection{Imaging (Inverting the Visibilities)}\label{subsec:x}
+Image + FFT\\
+Weighting\\
+Gridding\\
 \begin{figure}[hbt!]
 \centering 
-          \includegraphics[angle=90,trim=0pt 0pt 0pt 0pt,clip,width=13.5cm, height=5.0cm]{/home/eamon/thesis/figures/uv_coverage.eps}
-\caption[VLA antenna layout and two examples of $u-v$ coverage for different track lengths.]{\textit{Left:} The VLA in A-configuration is an example of an `Y' shaped array design. \textit{Middle:} The corresponding overhead snapshot $u-v$ coverage results in `snowflake' pattern. \textit{Right:} The corresponding $u-v$ coverage after a 12 hour track of a source at a declination of 60$^{\circ}$. Note the more intense u-v coverage in the direction of the three straight arms of the VLA for a snapshot track compared to the more uniform coverage over a longer duration track.}
-\label{fig2i}
+          \includegraphics[trim=0pt 260pt 0pt 260pt,clip,width=14.0cm]{/home/eamon/thesis/figures/ft_ift.ps}
+\caption[]{}
+\label{fig2j}
 \end{figure}
-
-\subsection{Inverting the Visibilities}\label{subsec:x}
 \subsection{Deconvolution}\label{subsec:x}
-CLEAN vs MEM
+CLEAN +mUltiscale\\
+MEM
