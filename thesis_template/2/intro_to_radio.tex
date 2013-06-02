@@ -201,23 +201,23 @@ V _{\nu} = \int _{\Omega}\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s})\mathit{e}^{-
 \label{eq:visib}
 \end{equation}
 \subsection{Coordinate Systems for Imaging}\label{subsec:7}
-The baseline vector \textbf{b} has coordinates ($u,v,w$) in three dimenstions shown in Figure \ref{fig2h} where $w$ points in the directions of interest, i.e. towards a direction \textbf{$s_{0}$} that becomes the center of the synthesized image. $u$, $v$ and $w$ are measured in wavelenths (i.e. the components of $\textbf{b}/\lambda$) and have directions towards the East, the North and the phase tracking center, respectively. An arbitrary unit vector \textbf{s} has components ($l,m,n$) called direction cosines, where $n=\rm{cos}\theta=(1-l^2-m^2)^{1/2}$. Using these coordinates the parameters in Equation \ref{eq:visib} become
+The baseline vector \textbf{b} has coordinates ($u,v,w$) in three dimensions shown in Figure \ref{fig2h} where $w$ points in the directions of interest, i.e. towards a direction \textbf{$s_{0}$} that becomes the center of the synthesized image. $u$, $v$ and $w$ are measured in wavelenths (i.e. the components of $\textbf{b}/\lambda$) and have directions towards the East, the North and the phase tracking center, respectively. An arbitrary unit vector \textbf{s} has components ($l,m,n$) called direction cosines, where $n=\rm{cos}\theta=(1-l^2-m^2)^{1/2}$. Using these coordinates the parameters in Equation \ref{eq:visib} become
 \begin{equation}
 \begin{split}
 \frac{\nu \textbf{b}.\textbf{s}}{c}&=ul+vm+wn, \\
 d\Omega &= \frac{dl\,dm}{n}=\frac{dl\,dm}{\sqrt{1-l^2-m^2}}.
 \end{split}
 \end{equation}
-Therefore Equation \ref{eq:visib} can be defined in terms of the coordinate system layed out in Figure{x.} as
+Therefore Equation \ref{eq:visib} can be defined in terms of the coordinate system layed out in Figure \ref{fig2h} as
 \begin{equation}\label{eq:3-d_vis}
 \begin{split}
-&V(u,v,w)=\\
-&\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty} \mathcal{A}(l,m)I_{\nu}(l,m)\mathit{e}^{-2\pi \mathit{i}[ul+vm+w(\sqrt{1-l^2-m^2})] }\frac{dl\,dm}{\sqrt{1-l^2-m^2}}
+&V_{\nu}(u,v,w)=\\
+&\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty} \mathcal{A}_{\nu}(l,m)I_{\nu}(l,m)\mathit{e}^{-2\pi \mathit{i}[ul+vm+w(\sqrt{1-l^2-m^2})] }\frac{dl\,dm}{\sqrt{1-l^2-m^2}}
 \end{split}
 \end{equation}
 which is not a three-dimensional Fourrier transform. This equation becomes a two-dimensional Fourrier transform if $w=0$ which is a good approximation for small field imaging, i.e. when $|l|$ and $|m|$ are small. In this case Equation \ref{eq:3-d_vis} can be inverted to find the modified sky brightness distribution:
 \begin{equation}\label{eq:2dft}
-\mathcal{A}(l,m)I_{\nu}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}V(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
+\mathcal{A}_{\nu}(l,m)I_{\nu}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}V_{\nu}(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
 \end{equation}
 Therefore Equation \ref{eq:2dft} demonstrates the important Fourier Transform relationship between the sky brightness distribution and the complex visibility (i.e. the interferometer response).
 
@@ -231,7 +231,7 @@ Therefore Equation \ref{eq:2dft} demonstrates the important Fourier Transform re
 \section{Synthesis Imaging}\label{sec:4}
 A synthesis imaging telescope consists of a number radio elements fixed on the ground and uses the Earth's rotation to vary the projected baseline coverage to increase the sampling of the $u-v$ plane. In this section we describe how Earth-rotation aperture synthesis is used to convert the complex visibilities outputted from the correlator to a final radio image of the observed sky.
 \subsection{Visibility Sampling}\label{subsec:x}
-Figure \ref{fig2i}  shows the overhead $u-v$ coverage of the VLA in its most extended configuration for a very short duration (i.e. snapshot) track. We define $u$ and $v$ as the east-west and north-south components of the projected baseline in wavelengths, respectively. As the Earth rotates, the projected baseline of each two-element pair in the array changes thus covering a different part of the $u-v$ plane. Over many hours, the $u-v$ points trace out portions of ellipses, and constructing a map over a long period of time is called Earth rotation aperture synthesis.
+An example of how a radio interferometer samples the $u-v$ plane is shown in Figure \ref{fig2i}. The left panel of this figure shows the overhead view of the the VLA in its most extended configuration while the other two panels shows the corresponding $u-v$ coverage for different periods of time. We define $u$ and $v$ as the east-west and north-south components of the projected baseline in wavelengths, respectively. As the Earth rotates, the projected baseline of every two-element pair in the array changes, thus sampling a different part of the $u-v$ plane. The middle panel shows that the total $u-v$ coverage of the VLA for a very short duration track (i.e. a snapshot) results in a `snowflake' like pattern, with extra coverage in the direction of the arms of the array due to the larger number of baselines. Most radio interferometers have their own unique array configuration layout and thus produce a different `snapshot' $u-v$ coverage to that shown in Figure \ref{fig2i}. Over many hours, the $u-v$ points trace out portions of ellipses and eventually after a full Earth rotation the points can trace out full ellipses as shown in the right panel of Figure \ref{fig2i}. 
 
 \begin{figure}[hbt!]
 \centering 
@@ -240,31 +240,48 @@ Figure \ref{fig2i}  shows the overhead $u-v$ coverage of the VLA in its most ext
 \label{fig2i}
 \end{figure}
 
-For every sky brightness distribution $I(l,m)$ there exists a continuous complex visibility function $V(u,v)$ that is its Fourier Transform. An array of antennas will only ever measure a certain set of values of the visibility function where the measured set is called the sampling function $S(u,v)$, which is zero where no data have been taken. Then the actual data provided by the array is known as the sampled visibility function, $S(u,v)V(u,v)$. If we take the inverse Fourrier transform of this function we get the \textit{dirty image}:
+\subsection{Imaging (Inverting the Visibilities)}\label{subsec:x}
+For every sky brightness distribution $I(l,m)$ there exists a continuous complex visibility function $V(u,v)$ that is its Fourier Transform. An array of antennas will only ever measure a certain set of values of this visibility function where the measured set is called the sampling function $S(u,v)$. This function is zero where no data have been taken. The actual data provided by the array is known as the sampled visibility function, $S(u,v)V(u,v)$. If we take the inverse Fourrier transform of this function we get what is known as the \textit{dirty image}:
 
-\begin{equation}
-I_{\nu}^{D}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}S(u,v)V(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
+\begin{equation}\label{eq:dirtyim}
+I_{\nu}^{D}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}S(u,v)V_{\nu}(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
 \end{equation}
 where we have used $I_{\nu}(l,m)$ to denote the modified sky brightness, $\mathcal{A}(l,m)I_{\nu}(l,m)$, as the correction for primary beam can be made at the final stage of data processing. Using the convolution theorem, the relationship between the dirty image and the desired intensity distribution $I_{\nu}(u,v)$ is
 \begin{equation}\label{eq:dirty_image}
 I_{\nu}^{D}(u,v)=I_{\nu}(u,v)*B(l,m)
 \end{equation}
 where the asterisk implies convolution and
-\begin{equation}
-B(l,m)\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}S(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv
+\begin{equation}\label{beam_samp}
+B(l,m) = \int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}S(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv
 \end{equation}
 is the \textit{point spread function} (PSF), or \textit{synthesized beam}, or diffraction pattern of the aperture (i.e. the inverse Fourrier Transform of the sampling function $S$). Equation \ref{eq:dirty_image} says that the dirty image $I^{D}$ is the true intensity distribution $I$, convolved with the synthesized beam $B$.
 
-\subsection{Imaging (Inverting the Visibilities)}\label{subsec:x}
-Image + FFT\\
-Weighting\\
-Gridding\\
+In Figure \ref{fig2j} we graphically summarize what has been said above. The panels in the upper row show the sky plane representations of the true image, the point spread function and the dirty image, while the panels in the lower row show the corresponding $u-v$ plabe representations of the true visibility, the sampling function and the sampled visibility. In other words, Equation \ref{eq:2dft} is summarized graphically by the relationship between panels (a) and (d),  Equation \ref{beam_samp} by (b) and (e), and Equations \ref{eq:dirtyim} and \ref{eq:dirty_image} by (c) and (f).
+
 \begin{figure}[hbt!]
 \centering 
           \includegraphics[trim=0pt 260pt 0pt 260pt,clip,width=14.0cm]{/home/eamon/thesis/figures/ft_ift.ps}
 \caption[]{}
 \label{fig2j}
 \end{figure}
+
+Before the dirty image is computed, a weighting system is often applied to the visibilities to control the PSF. The two most common types of weighting system used are:
+\begin{equation}
+D_{k}=1,	\ \ \ \ \ \ \ \rm{natural \ weighting}
+\end{equation}
+\begin{equation}
+D_{k}=\frac{1}{N_{s}(k)}, \ \ \ \ \ \rm{uniform \ weighting}
+\end{equation}
+where $D_{k}$ is the weight to be applied to cell k, and ${N_{s}(k)}$ is the number of data samples falling into cell $k$ of characteristic width $s$. Natural weighting treats all points alike and gives the best signal-to-noise ratio for detecting weak sources. However, it produces a beam with a broad low-level plateau which is undesirable when imaging sources with both large and small scale structure. Uniform gridding produces fewer artifacts in the final map, while keeping the full resolution of the array but gives poorer signal-to-noise than natural weighting.
+
+The `direct Fourier transform' method can then be used to solve for the dirty image Equation \ref{eq:dirtyim}. However, if this method is evaluated at every point on a $N\times N$ grid, then the number of multiplications required goes as $N^{4}$. The fast Fourier transform (FFT) algorithm can also be used to solve Equation \ref{eq:dirtyim} but requires interpolating the data onto a regular grid (i.e. a process known as \textit{gridding}). This method is widely used for large data volumes as it requires only a few times $N^{2}\rm{log}_{2}\mathcal{N}$ operations - not $\mathcal{O}(N^4)$, and the total time taken for gridding and FFT is usually a lot less than would take using the direct Fourier transform method.
+
 \subsection{Deconvolution}\label{subsec:x}
-CLEAN +mUltiscale\\
+The solution to the inverse Fourier transform given in Equation \ref{eq:2dft}
+ is not unique, because the unmeasured points in the $u-v$ plane could have \textit{any} value without violating the data constraints. The `principle solution' is the one in which all missing $u-v$ measurements are set to zero and gives the dirty image discussed in the previous section. The dirty image is usually not a satisfactory representation of the sky as one would expect a more continuous distribution of visibilities than that provided by the array. The goal of the deconvolution process is to find a method that determines more reasonable values for the unmeasured $u-v$ data. A priori information is the key to choosing "reasonable" values. For example, we know that the Stokes parameter $I$ must be positive and that radio sources generally do not have sidelobe patterns.
+ 
+CLEAN
+
 MEM
+
+CLEAN vs MEM
