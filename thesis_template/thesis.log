@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  2 JUN 2013 15:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  3 JUN 2013 18:51
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -514,12 +514,6 @@ LaTeX Warning: Label `sec:3' multiply defined.
 
 LaTeX Warning: Label `fig2h' multiply defined.
 
-
-LaTeX Warning: Label `subsec:x' multiply defined.
-
-
-LaTeX Warning: Label `subsec:x' multiply defined.
-
 ) (./3/instrum_obs.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
@@ -750,21 +744,22 @@ U/eus/m/n/12 A\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l; m\OT1/cmr/m/n/12 )\OML/cmm/m
 
 [22]
 File: /home/eamon/thesis/figures/ft_ift.ps Graphic file (type eps)
- </home/eamon/thesis/figures/ft_ift.ps> [23]) [24]
+ </home/eamon/thesis/figures/ft_ift.ps> [23] [24] [25]) [26]
 \openout2 = `3/instrum_obs.aux'.
 
- (./3/instrum_obs.tex
+
+(./3/instrum_obs.tex
 Chapter 3.
-) [25
+) [27
 
 
 
-] [26]
+] [28]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [27
+) [29
 
 
 
@@ -772,10 +767,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [28
+ [30
 
 
-]) [29] (./thesis.aux
+]) [31] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_obs.aux) (./appendix/app.aux))
@@ -784,12 +779,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8479 strings out of 495062
- 121151 string characters out of 1182645
- 207488 words of memory out of 3000000
- 11364 multiletter control sequences out of 15000+50000
+ 8489 strings out of 495062
+ 121310 string characters out of 1182645
+ 207694 words of memory out of 3000000
+ 11374 multiletter control sequences out of 15000+50000
  21709 words of font info for 77 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,19n,49p,1752b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,49p,1753b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (40 pages, 161856 bytes).
+Output written on thesis.dvi (42 pages, 171324 bytes).
