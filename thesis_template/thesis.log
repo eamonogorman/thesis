@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  4 JUN 2013 19:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  5 JUN 2013 17:19
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -503,29 +503,11 @@ LaTeX Warning: Unused global option(s):
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux
 
-LaTeX Warning: Label `sec:1' multiply defined.
-
-
-LaTeX Warning: Label `sec:2' multiply defined.
-
-
 LaTeX Warning: Label `sec:3' multiply defined.
-
-
-LaTeX Warning: Label `fig2h' multiply defined.
 
 ) (./3/instrum_obs.aux
 
 LaTeX Warning: Label `sec:1' multiply defined.
-
-
-LaTeX Warning: Label `subsec:1' multiply defined.
-
-
-LaTeX Warning: Label `subsec:2' multiply defined.
-
-
-LaTeX Warning: Label `subsec:3' multiply defined.
 
 
 LaTeX Warning: Label `sec:2' multiply defined.
@@ -688,7 +670,7 @@ Chapter 2.
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+eus on input line 17.
+LaTeX Font Info:    Try loading font information for U+eus on input line 19.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2009/06/22 v3.00 Euler Script
 ) [5]
@@ -701,35 +683,35 @@ File: /home/eamon/thesis/figures/antenna_beam/fig2b.ps Graphic file (type eps)
 File: /home/eamon/thesis/figures/antenna_beam/fig2c.ps Graphic file (type eps)
 
 </home/eamon/thesis/figures/antenna_beam/fig2c.ps> [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 72--78
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--78
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
 
  []
 
 [8]
 File: /home/eamon/thesis/figures/fig2d.ps Graphic file (type eps)
  </home/eamon/thesis/figures/fig2d.ps> [9]
-Underfull \hbox (badness 10000) in paragraph at lines 94--100
+Underfull \hbox (badness 10000) in paragraph at lines 92--98
 
  []
 
 [10] [11]
 File: /home/eamon/thesis/figures/front_end.ps Graphic file (type eps)
  </home/eamon/thesis/figures/front_end.ps>
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 116--117
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 115--116
  [][][][][][][][][] 
  []
 
 [12] [13]
 File: /home/eamon/thesis/figures/youngs.ps Graphic file (type eps)
- </home/eamon/thesis/figures/youngs.ps> [14]
+ </home/eamon/thesis/figures/youngs.ps> [14] [15]
 File: /home/eamon/thesis/figures/visibility.ps Graphic file (type eps)
 
-</home/eamon/thesis/figures/visibility.ps> [15] [16]
+</home/eamon/thesis/figures/visibility.ps> [16]
 File: /home/eamon/thesis/figures/2_el.ps Graphic file (type eps)
 
 </home/eamon/thesis/figures/2_el.ps> [17]
@@ -741,16 +723,10 @@ File: /home/eamon/thesis/figures/3dvis.ps Graphic file (type eps)
 </home/eamon/thesis/figures/3dvis.ps> [22]
 File: /home/eamon/thesis/figures/uv_coverage.eps Graphic file (type eps)
 
-</home/eamon/thesis/figures/uv_coverage.eps> [23]
-Overfull \hbox (1.61993pt too wide) in paragraph at lines 273--275
-\OT1/cmr/m/n/12 where we have used $\OML/cmm/m/it/12 I[]\OT1/cmr/m/n/12 (\OML/c
-mm/m/it/12 l; m\OT1/cmr/m/n/12 )$ to de-note the mod-i-fied sky bright-ness, $\
-U/eus/m/n/12 A\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l; m\OT1/cmr/m/n/12 )\OML/cmm/m
-/it/12 I[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l; m\OT1/cmr/m/n/12 )$,
- []
-
+</home/eamon/thesis/figures/uv_coverage.eps> [23] [24]
 File: /home/eamon/thesis/figures/ft_ift.ps Graphic file (type eps)
-</home/eamon/thesis/figures/ft_ift.ps> [24] [25] [26] [27]) [28]
+
+</home/eamon/thesis/figures/ft_ift.ps> [25] [26] [27]) [28]
 \openout2 = `3/instrum_obs.aux'.
 
 
@@ -785,12 +761,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8492 strings out of 495062
- 121370 string characters out of 1182645
- 207773 words of memory out of 3000000
- 11376 multiletter control sequences out of 15000+50000
+ 8498 strings out of 495062
+ 121447 string characters out of 1182645
+ 208189 words of memory out of 3000000
+ 11382 multiletter control sequences out of 15000+50000
  21709 words of font info for 77 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,19n,49p,1753b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,49p,1760b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (44 pages, 179928 bytes).
+Output written on thesis.dvi (44 pages, 181240 bytes).
