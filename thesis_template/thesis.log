@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  7 JUN 2013 19:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  9 JUN 2013 18:32
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -513,6 +513,9 @@ LaTeX Warning: Label `tab:1' multiply defined.
 LaTeX Warning: Label `tab:3.1' multiply defined.
 
 
+LaTeX Warning: Label `tab:3.1' multiply defined.
+
+
 LaTeX Warning: Label `tab:1' multiply defined.
 
 ) (./appendix/app.aux))
@@ -724,16 +727,21 @@ Chapter 3.
 
 
 
-] [29] [30] [31
+] [29] [30]
+Overfull \hbox (5.92499pt too wide) in paragraph at lines 142--156
+ [] 
+ []
+
+[31
 
 
 ] [32]
-Overfull \hbox (5.92499pt too wide) in paragraph at lines 142--157
+Overfull \hbox (4.91939pt too wide) in paragraph at lines 167--183
  [] 
  []
 
 [33] [34]
-Overfull \hbox (9.7717pt too wide) in paragraph at lines 172--198
+Overfull \hbox (9.7717pt too wide) in paragraph at lines 196--222
  [] 
  []
 
@@ -766,10 +774,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  8500 strings out of 495062
  121447 string characters out of 1182645
- 209539 words of memory out of 3000000
+ 212564 words of memory out of 3000000
  11384 multiletter control sequences out of 15000+50000
  21709 words of font info for 77 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,19n,49p,1760b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (49 pages, 194960 bytes).
+Output written on thesis.dvi (49 pages, 199424 bytes).
