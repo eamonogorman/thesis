@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  10 JUN 2013 23:19
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  11 JUN 2013 21:01
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -518,6 +518,9 @@ LaTeX Warning: Label `tab:3.1' multiply defined.
 
 LaTeX Warning: Label `tab:1' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
 ) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
 
@@ -749,36 +752,36 @@ Overfull \hbox (9.7717pt too wide) in paragraph at lines 202--228
  []
 
 [36]
-File: /home/eamon/thesis/thesis_template/3/phase_center1.ps Graphic file (type 
-eps)
- </home/eamon/thesis/thesis_template/3/phase_center1.ps>
-File: /home/eamon/thesis/thesis_template/3/phase_center2.ps Graphic file (type 
-eps)
+File: /home/eamon/thesis/thesis_template/3/phase_center1_new.ps Graphic file (t
+ype eps)
+ </home/eamon/thesis/thesis_template/3/phase_center1_new.ps>
+File: /home/eamon/thesis/thesis_template/3/phase_center2_new.ps Graphic file (t
+ype eps)
 
-</home/eamon/thesis/thesis_template/3/phase_center2.ps>
-Overfull \hbox (25.97412pt too wide) in paragraph at lines 241--242
+</home/eamon/thesis/thesis_template/3/phase_center2_new.ps>
+Overfull \hbox (25.97418pt too wide) in paragraph at lines 241--242
  [][] 
  []
 
+[37
+
+
+]
 File: /home/eamon/thesis/thesis_template/3/atau_cx.ps Graphic file (type eps)
-</home/eamon/thesis/thesis_template/3/atau_cx.ps>
+ </home/eamon/thesis/thesis_template/3/atau_cx.ps>
 File: /home/eamon/thesis/thesis_template/3/atau_kkaq.ps Graphic file (type eps)
 
 
 </home/eamon/thesis/thesis_template/3/atau_kkaq.ps>
-Overfull \hbox (25.97234pt too wide) in paragraph at lines 251--252
- [][] 
- []
 
-) [37
+LaTeX Warning: Float too large for page by 0.68773pt on input line 257.
 
-
-] [38]
+[38]) [39] [40]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [39
+) [41
 
 
 
@@ -786,10 +789,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [40
+ [42
 
 
-]) [41] (./thesis.aux
+]) [43] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./appendix/app.aux))
@@ -798,12 +801,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8513 strings out of 495062
+ 8511 strings out of 495062
  121814 string characters out of 1182645
  213580 words of memory out of 3000000
- 11391 multiletter control sequences out of 15000+50000
+ 11389 multiletter control sequences out of 15000+50000
  21709 words of font info for 77 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,19n,49p,1760b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (52 pages, 210960 bytes).
+Output written on thesis.dvi (54 pages, 218404 bytes).

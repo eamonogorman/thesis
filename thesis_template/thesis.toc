@@ -28,5 +28,5 @@
 \contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{31}{section.3.4}
 \contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{31}{section.3.5}
 \contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{35}{section.3.6}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{39}{appendix.A}
-\contentsline {chapter}{References}{40}{section*.28}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{41}{appendix.A}
+\contentsline {chapter}{References}{42}{section*.28}
