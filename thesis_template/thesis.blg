@@ -7,51 +7,51 @@ A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
 A level-1 auxiliary file: 1/introduction.aux
 A level-1 auxiliary file: 2/intro_to_radio.aux
-A level-1 auxiliary file: 3/instrum_obs.aux
+A level-1 auxiliary file: 3/instrum_tar_obs.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
-You've used 17 entries,
+You've used 30 entries,
             3018 wiz_defined-function locations,
-            750 strings with 7762 characters,
-and the built_in function-call counts, 10684 in all, are:
-= -- 858
-> -- 539
-< -- 12
-+ -- 192
-- -- 173
-* -- 888
-:= -- 1644
-add.period$ -- 49
-call.type$ -- 17
-change.case$ -- 141
-chr.to.int$ -- 17
-cite$ -- 18
-duplicate$ -- 756
-empty$ -- 758
-format.name$ -- 218
-if$ -- 2131
+            826 strings with 9825 characters,
+and the built_in function-call counts, 19170 in all, are:
+= -- 1555
+> -- 952
+< -- 18
++ -- 338
+- -- 306
+* -- 1618
+:= -- 2933
+add.period$ -- 88
+call.type$ -- 30
+change.case$ -- 251
+chr.to.int$ -- 30
+cite$ -- 31
+duplicate$ -- 1355
+empty$ -- 1362
+format.name$ -- 381
+if$ -- 3825
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 161
-newline$ -- 55
-num.names$ -- 73
-pop$ -- 329
+missing$ -- 288
+newline$ -- 94
+num.names$ -- 127
+pop$ -- 568
 preamble$ -- 1
-purify$ -- 124
+purify$ -- 219
 quote$ -- 0
-skip$ -- 290
+skip$ -- 503
 stack$ -- 0
-substring$ -- 415
-swap$ -- 423
-text.length$ -- 2
+substring$ -- 814
+swap$ -- 765
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 144
+type$ -- 261
 warning$ -- 1
-while$ -- 67
+while$ -- 121
 width$ -- 0
-write$ -- 186
+write$ -- 330
 (There was 1 warning)

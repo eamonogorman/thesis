@@ -1,5 +1,34 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{30}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Baade} {\em et~al.\/}(1996){Baade}, {Kirsch}, {Reimers},
+  {Toussaint}, {Bennett}, {Brown} \& {Harper}}]{baade_1996}
+{\sc {Baade}, R., {Kirsch}, T., {Reimers}, D., {Toussaint}, F., {Bennett},
+  P.D., {Brown}, A. \& {Harper}, G.M.} (1996). {The Wind Outflow of zeta
+  Aurigae: A Model Revision Using Hubble Space Telescope Spectra}. {\em
+  \apj\/}, {\bf 466}, 979.
+
+\bibitem[{{Brown} {\em et~al.\/}(2008){Brown}, {Gray} \&
+  {Baliunas}}]{brown_2008}
+{\sc {Brown}, K.I.T., {Gray}, D.F. \& {Baliunas}, S.L.} (2008). {Long-Term
+  Spectroscopic Monitoring of Arcturus}. {\em \apj\/}, {\bf 679}, 1531--1540.
+
+\bibitem[{{Carpenter} {\em et~al.\/}(1999){Carpenter}, {Robinson}, {Harper},
+  {Bennett}, {Brown} \& {Mullan}}]{carpenter_1999}
+{\sc {Carpenter}, K.G., {Robinson}, R.D., {Harper}, G.M., {Bennett}, P.D.,
+  {Brown}, A. \& {Mullan}, D.J.} (1999). {GHRS Observations of Cool,
+  Low-Gravity Stars. V. The Outer Atmosphere and Wind of the Nearby K
+  Supergiant lambda Velorum}. {\em \apj\/}, {\bf 521}, 382--406.
+
+\bibitem[{{Chapman}(1981)}]{chapman_1981}
+{\sc {Chapman}, R.D.} (1981). {The 1979-1980 eclipse of Zeta Aurigae. I - The
+  circumstellar envelope}. {\em \apj\/}, {\bf 248}, 1043--1052.
+
+\bibitem[{{Crowley} {\em et~al.\/}(2008){Crowley}, {Espey} \&
+  {McCandliss}}]{crowley_2008}
+{\sc {Crowley}, C., {Espey}, B.R. \& {McCandliss}, S.R.} (2008). {EG And: Far
+  Ultraviolet Spectroscopic Explorer and Hubble Space Telescope STIS Monitoring
+  of an Eclipsing Symbiotic Binary}. {\em \apj\/}, {\bf 675}, 711--722.
 
 \bibitem[{{Decin} {\em et~al.\/}(2003){Decin}, {Vandenbussche}, {Waelkens},
   {Decin}, {Eriksson}, {Gustafsson}, {Plez} \& {Sauval}}]{decin_2003}
@@ -13,12 +42,34 @@
   angular diameters of stars cooler than the sun}. {\em \aap\/}, {\bf 270},
   315--334.
 
+\bibitem[{{Drake} \& {Linsky}(1986)}]{drake_1986}
+{\sc {Drake}, S. \& {Linsky}, J.} (1986). {Radio continuum emission from winds,
+  chromospheres, and coronae of cool giants and supergiants}. {\em \aj\/}, {\bf
+  91}, 602--620.
+
 \bibitem[{{Drake}(1985)}]{drake_1985}
 {\sc {Drake}, S.A.} (1985). {Modeling lines formed in the expanding
   chromospheres of red giants}. In J.E. {Beckman} \& L.~{Crivellari}, eds.,
   {\em Progress in stellar spectral line formation theory; Proceedings of the
   Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
   17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
+
+\bibitem[{{Dupree} {\em et~al.\/}(2005){Dupree}, {Lobel}, {Young}, {Ake},
+  {Linsky} \& {Redfield}}]{dupree_2005}
+{\sc {Dupree}, A.K., {Lobel}, A., {Young}, P.R., {Ake}, T.B., {Linsky}, J.L. \&
+  {Redfield}, S.} (2005). {A Far-Ultraviolet Spectroscopic Survey of Luminous
+  Cool Stars}. {\em \apj\/}, {\bf 622}, 629--652.
+
+\bibitem[{{Eaton}(2008)}]{eaton_2008}
+{\sc {Eaton}, J.A.} (2008). {A Model for the Chromosphere/Wind of 31 Cygni and
+  Its Implications for Single Stars}. {\em \aj\/}, {\bf 136}, 1964--1979.
+
+\bibitem[{{Eggen}(1971)}]{eggen_1971}
+{\sc {Eggen}, O.J.} (1971). {The Arcturus Group}. {\em \pasp\/}, {\bf 83}, 271.
+
+\bibitem[{{Eggen}(1996)}]{eggen_1996}
+{\sc {Eggen}, O.J.} (1996). {Star Streams and Galactic Structure}. {\em \aj\/},
+  {\bf 112}, 1595.
 
 \bibitem[{{Gray} {\em et~al.\/}(2006){Gray}, {Corbally}, {Garrison},
   {McFadden}, {Bubar}, {McGahee}, {O'Donoghue} \& {Knox}}]{gray_2006}
@@ -28,10 +79,12 @@
   Earlier than M0 within 40 pc-The Southern Sample}. {\em \aj\/}, {\bf 132},
   161--170.
 
-\bibitem[{{Harper} \& {Brown}(2006)}]{harper_2006}
-{\sc {Harper}, G.M. \& {Brown}, A.} (2006). {Electron Density and Turbulence
-  Gradients within the Extended Atmosphere of the M Supergiant Betelgeuse
-  ({$\alpha$} Orionis)}. {\em \apj\/}, {\bf 646}, 1179--1202.
+\bibitem[{{Harper} {\em et~al.\/}(2005){Harper}, {Brown}, {Bennett}, {Baade},
+  {Walder} \& {Hummel}}]{harper_2005}
+{\sc {Harper}, G.M., {Brown}, A., {Bennett}, P.D., {Baade}, R., {Walder}, R. \&
+  {Hummel}, C.A.} (2005). {VLA Observations of {$\zeta$} Aurigae: Confirmation
+  of the Slow Acceleration Wind Density Structure}. {\em \aj\/}, {\bf 129},
+  1018--1034.
 
 \bibitem[{{H{\"o}gbom}(1974)}]{hogbom_1974}
 {\sc {H{\"o}gbom}, J.A.} (1974). {Aperture Synthesis with a Non-Regular
@@ -65,6 +118,12 @@
 \bibitem[{{Michelson}(1890)}]{michelson_1890}
 {\sc {Michelson}, A.A.} (1890). {}. {\em Phil. Mag.\/}, {\bf 30}, 1--21.
 
+\bibitem[{{Navarro} {\em et~al.\/}(2004){Navarro}, {Helmi} \&
+  {Freeman}}]{navarro_2004}
+{\sc {Navarro}, J.F., {Helmi}, A. \& {Freeman}, K.C.} (2004). {The
+  Extragalactic Origin of the Arcturus Group}. {\em \apjl\/}, {\bf 601},
+  L43--L46.
+
 \bibitem[{Prothero \& Buell(2007)}]{prothero2007evolution}
 {\sc Prothero, D. \& Buell, C.} (2007). {\em Evolution: what the fossils say
   and why it matters\/}. Columbia University Press.
@@ -80,9 +139,10 @@
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
   the Dark\/}. Ballantine Books.
 
-\bibitem[{{Seaquist} \& {Taylor}(1990)}]{seaquist_taylor_1990}
-{\sc {Seaquist}, E.R. \& {Taylor}, A.R.} (1990). {The collective radio
-  properties of symbiotic stars}. {\em \apj\/}, {\bf 349}, 313--327.
+\bibitem[{{Sennhauser} \& {Berdyugina}(2011)}]{sennhauser_2011}
+{\sc {Sennhauser}, C. \& {Berdyugina}, S.V.} (2011). {First detection of a weak
+  magnetic field on the giant Arcturus: remnants of a solar dynamo?} {\em
+  \aap\/}, {\bf 529}, A100.
 
 \bibitem[{{Taylor} {\em et~al.\/}(1999){Taylor}, {Carilli} \&
   {Perley}}]{taylor_1999}
@@ -93,5 +153,16 @@
 \bibitem[{{van Leeuwen}(2007)}]{van_leeuwen_2007}
 {\sc {van Leeuwen}, F.} (2007). {Validation of the new Hipparcos reduction}.
   {\em \aap\/}, {\bf 474}, 653--664.
+
+\bibitem[{{Williams} {\em et~al.\/}(2009){Williams}, {Freeman}, {Helmi} \&
+  {RAVE Collaboration}}]{williams_2009}
+{\sc {Williams}, M.E.K., {Freeman}, K.C., {Helmi}, A. \& {RAVE Collaboration}}
+  (2009). {The Arcturus Moving Group: Its Place in the Galaxy}. In
+  J.~{Andersen}, {Nordstr{\"o}ara}, B.~{m} \& J.~{Bland-Hawthorn}, eds., {\em
+  IAU Symposium\/}, vol. 254 of {\em IAU Symposium\/}, 139--144.
+
+\bibitem[{{Wright}(1970)}]{wright_1970}
+{\sc {Wright}, K.O.} (1970). {The Zeta Aurigae stars}. {\em Vistas in
+  Astronomy\/}, {\bf 12}, 147--182.
 
 \end{thebibliography}

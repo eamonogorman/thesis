@@ -12,13 +12,13 @@
 \contentsline {subsection}{\numberline {2.1.2}Antenna Structural Design}{7}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Antenna Performance Parameters}{9}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Receiving System for an Interferometer}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Fundamentals of Radio Interferometry}{12}{section.2.3}
+\contentsline {section}{\numberline {2.3}Fundamentals of Radio Interferometry}{13}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Young's Slits}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{16}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{15}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Complex Visibility}{19}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Coordinate Systems for Imaging}{20}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Synthesis Imaging}{22}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Visibility Sampling}{22}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.4}Synthesis Imaging}{21}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Visibility Sampling}{21}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Imaging (Making a Dirty Map)}{22}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Deconvolution (Making a CLEAN map)}{25}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Targets, Instrumentation, and Observations}{28}{chapter.3}
@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.2}CARMA}{28}{section.3.2}
 \contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{28}{section.3.3}
 \contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{31}{section.3.4}
-\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{31}{section.3.5}
-\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{35}{section.3.6}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{41}{appendix.A}
-\contentsline {chapter}{References}{42}{section*.28}
+\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{33}{section.3.5}
+\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{36}{section.3.6}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{43}{appendix.A}
+\contentsline {chapter}{References}{44}{section*.28}
