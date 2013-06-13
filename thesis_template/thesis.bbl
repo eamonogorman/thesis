@@ -1,5 +1,9 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{40}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
+{\sc {Ayres}, T.R. \& {Linsky}, J.L.} (1975). {Stellar model chromospheres. III
+  - Arcturus /K2 III/}. {\em \apj\/}, {\bf 200}, 660--674.
 
 \bibitem[{{Baade} {\em et~al.\/}(1996){Baade}, {Kirsch}, {Reimers},
   {Toussaint}, {Bennett}, {Brown} \& {Harper}}]{baade_1996}
@@ -8,10 +12,9 @@
   Aurigae: A Model Revision Using Hubble Space Telescope Spectra}. {\em
   \apj\/}, {\bf 466}, 979.
 
-\bibitem[{{Brown} {\em et~al.\/}(2008){Brown}, {Gray} \&
-  {Baliunas}}]{brown_2008}
-{\sc {Brown}, K.I.T., {Gray}, D.F. \& {Baliunas}, S.L.} (2008). {Long-Term
-  Spectroscopic Monitoring of Arcturus}. {\em \apj\/}, {\bf 679}, 1531--1540.
+\bibitem[{{Brown}(2007)}]{brown_2007}
+{\sc {Brown}, K.I.T.} (2007). {Long-Term Spectroscopic and Precise Radial
+  Velocity Monitoring of Arcturus}. {\em \pasp\/}, {\bf 119}, 237--237.
 
 \bibitem[{{Carpenter} {\em et~al.\/}(1999){Carpenter}, {Robinson}, {Harper},
   {Bennett}, {Brown} \& {Mullan}}]{carpenter_1999}
@@ -42,11 +45,6 @@
   angular diameters of stars cooler than the sun}. {\em \aap\/}, {\bf 270},
   315--334.
 
-\bibitem[{{Drake} \& {Linsky}(1986)}]{drake_1986}
-{\sc {Drake}, S. \& {Linsky}, J.} (1986). {Radio continuum emission from winds,
-  chromospheres, and coronae of cool giants and supergiants}. {\em \aj\/}, {\bf
-  91}, 602--620.
-
 \bibitem[{{Drake}(1985)}]{drake_1985}
 {\sc {Drake}, S.A.} (1985). {Modeling lines formed in the expanding
   chromospheres of red giants}. In J.E. {Beckman} \& L.~{Crivellari}, eds.,
@@ -59,6 +57,12 @@
 {\sc {Dupree}, A.K., {Lobel}, A., {Young}, P.R., {Ake}, T.B., {Linsky}, J.L. \&
   {Redfield}, S.} (2005). {A Far-Ultraviolet Spectroscopic Survey of Luminous
   Cool Stars}. {\em \apj\/}, {\bf 622}, 629--652.
+
+\bibitem[{{Dziembowski} {\em et~al.\/}(2001){Dziembowski}, {Gough}, {Houdek} \&
+  {Sienkiewicz}}]{dziembowski_2001}
+{\sc {Dziembowski}, W.A., {Gough}, D.O., {Houdek}, G. \& {Sienkiewicz}, R.}
+  (2001). {Oscillations of {$\alpha$} UMa and other red giants}. {\em
+  \mnras\/}, {\bf 328}, 601--610.
 
 \bibitem[{{Eaton}(2008)}]{eaton_2008}
 {\sc {Eaton}, J.A.} (2008). {A Model for the Chromosphere/Wind of 31 Cygni and
@@ -79,12 +83,20 @@
   Earlier than M0 within 40 pc-The Southern Sample}. {\em \aj\/}, {\bf 132},
   161--170.
 
+\bibitem[{{Griffin}(1996)}]{griffin_1996}
+{\sc {Griffin}, R.E.M.} (1996). {Arcturus and human evolution}. {\em The
+  Observatory\/}, {\bf 116}, 404--405.
+
 \bibitem[{{Harper} {\em et~al.\/}(2005){Harper}, {Brown}, {Bennett}, {Baade},
   {Walder} \& {Hummel}}]{harper_2005}
 {\sc {Harper}, G.M., {Brown}, A., {Bennett}, P.D., {Baade}, R., {Walder}, R. \&
   {Hummel}, C.A.} (2005). {VLA Observations of {$\zeta$} Aurigae: Confirmation
   of the Slow Acceleration Wind Density Structure}. {\em \aj\/}, {\bf 129},
   1018--1034.
+
+\bibitem[{{Hatzes} \& {Cochran}(1993)}]{hatzes_1993}
+{\sc {Hatzes}, A.P. \& {Cochran}, W.D.} (1993). {Long-period radial velocity
+  variations in three K giants}. {\em \apj\/}, {\bf 413}, 339--348.
 
 \bibitem[{{H{\"o}gbom}(1974)}]{hogbom_1974}
 {\sc {H{\"o}gbom}, J.A.} (1974). {Aperture Synthesis with a Non-Regular
@@ -109,11 +121,33 @@
 {\sc {Kraus}, J.D., {Tiuri}, M., {Raisanen}, A.V. \& {Carr}, T.D.} (1986). {\em
   {Radio astronomy receivers}\/}.
 
+\bibitem[{{Lacour} {\em et~al.\/}(2008){Lacour}, {Meimon}, {Thi{\'e}baut},
+  {Perrin}, {Verhoelst}, {Pedretti}, {Schuller}, {Mugnier}, {Monnier},
+  {Berger}, {Haubois}, {Poncelet}, {Le Besnerais}, {Eriksson}, {Millan-Gabet},
+  {Ragland}, {Lacasse} \& {Traub}}]{lacour_2008}
+{\sc {Lacour}, S., {Meimon}, S., {Thi{\'e}baut}, E., {Perrin}, G., {Verhoelst},
+  T., {Pedretti}, E., {Schuller}, P.A., {Mugnier}, L., {Monnier}, J., {Berger},
+  J.P., {Haubois}, X., {Poncelet}, A., {Le Besnerais}, G., {Eriksson}, K.,
+  {Millan-Gabet}, R., {Ragland}, S., {Lacasse}, M. \& {Traub}, W.} (2008). {The
+  limb-darkened Arcturus: imaging with the IOTA/IONIC interferometer}. {\em
+  \aap\/}, {\bf 485}, 561--570.
+
 \bibitem[{{Massarotti} {\em et~al.\/}(2008){Massarotti}, {Latham}, {Stefanik}
   \& {Fogel}}]{massarotti_2008}
 {\sc {Massarotti}, A., {Latham}, D.W., {Stefanik}, R.P. \& {Fogel}, J.} (2008).
   {Rotational and Radial Velocities for a Sample of 761 HIPPARCOS Giants and
   the Role of Binarity}. {\em \aj\/}, {\bf 135}, 209--231.
+
+\bibitem[{{McMurry}(1999)}]{mcmurry_1999}
+{\sc {McMurry}, A.D.} (1999). {The outer atmosphere of Tau - I. A new
+  chromospheric model}. {\em \mnras\/}, {\bf 302}, 37--47.
+
+\bibitem[{{Merline}(1999)}]{merline_1999}
+{\sc {Merline}, W.J.} (1999). {Precise Velocity Observation of K-Giants:
+  Evidence for Solar-Like Oscillations in Arcturus}. In J.B. {Hearnshaw} \&
+  C.D. {Scarfe}, eds., {\em IAU Colloq. 170: Precise Stellar Radial
+  Velocities\/}, vol. 185 of {\em Astronomical Society of the Pacific
+  Conference Series\/}, 187.
 
 \bibitem[{{Michelson}(1890)}]{michelson_1890}
 {\sc {Michelson}, A.A.} (1890). {}. {\em Phil. Mag.\/}, {\bf 30}, 1--21.
@@ -124,9 +158,32 @@
   Extragalactic Origin of the Arcturus Group}. {\em \apjl\/}, {\bf 601},
   L43--L46.
 
+\bibitem[{{Perryman} {\em et~al.\/}(1997){Perryman}, {Lindegren}, {Kovalevsky},
+  {Hoeg}, {Bastian}, {Bernacca}, {Cr{\'e}z{\'e}}, {Donati}, {Grenon},
+  {Grewing}, {van Leeuwen}, {van der Marel}, {Mignard}, {Murray}, {Le Poole},
+  {Schrijver}, {Turon}, {Arenou}, {Froeschl{\'e}} \&
+  {Petersen}}]{perryman_1997}
+{\sc {Perryman}, M.A.C., {Lindegren}, L., {Kovalevsky}, J., {Hoeg}, E.,
+  {Bastian}, U., {Bernacca}, P.L., {Cr{\'e}z{\'e}}, M., {Donati}, F., {Grenon},
+  M., {Grewing}, M., {van Leeuwen}, F., {van der Marel}, H., {Mignard}, F.,
+  {Murray}, C.A., {Le Poole}, R.S., {Schrijver}, H., {Turon}, C., {Arenou}, F.,
+  {Froeschl{\'e}}, M. \& {Petersen}, C.S.} (1997). {The HIPPARCOS Catalogue}.
+  {\em \aap\/}, {\bf 323}, L49--L52.
+
 \bibitem[{Prothero \& Buell(2007)}]{prothero2007evolution}
 {\sc Prothero, D. \& Buell, C.} (2007). {\em Evolution: what the fossils say
   and why it matters\/}. Columbia University Press.
+
+\bibitem[{{Ram{\'{\i}}rez} \& {Allende Prieto}(2011)}]{ramirez_2011}
+{\sc {Ram{\'{\i}}rez}, I. \& {Allende Prieto}, C.} (2011). {Fundamental
+  Parameters and Chemical Composition of Arcturus}. {\em \apj\/}, {\bf 743},
+  135.
+
+\bibitem[{{Retter} {\em et~al.\/}(2003){Retter}, {Bedding}, {Buzasi},
+  {Kjeldsen} \& {Kiss}}]{retter_2003}
+{\sc {Retter}, A., {Bedding}, T.R., {Buzasi}, D.L., {Kjeldsen}, H. \& {Kiss},
+  L.L.} (2003). {Oscillations in Arcturus from WIRE Photometry}. {\em \apjl\/},
+  {\bf 591}, L151--L154.
 
 \bibitem[{{Robinson} {\em et~al.\/}(1998){Robinson}, {Carpenter} \&
   {Brown}}]{robinson_1998}
@@ -139,16 +196,21 @@
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
   the Dark\/}. Ballantine Books.
 
-\bibitem[{{Sennhauser} \& {Berdyugina}(2011)}]{sennhauser_2011}
-{\sc {Sennhauser}, C. \& {Berdyugina}, S.V.} (2011). {First detection of a weak
-  magnetic field on the giant Arcturus: remnants of a solar dynamo?} {\em
-  \aap\/}, {\bf 529}, A100.
+\bibitem[{{Soderhjelm} \& {Mignard}(1998)}]{Soderhjelm_1998O}
+{\sc {Soderhjelm}, S. \& {Mignard}, F.} (1998). {Arcturus as a double star}.
+  {\em The Observatory\/}, {\bf 118}, 365--366.
 
 \bibitem[{{Taylor} {\em et~al.\/}(1999){Taylor}, {Carilli} \&
   {Perley}}]{taylor_1999}
 {\sc {Taylor}, G.B., {Carilli}, C.L. \& {Perley}, R.A.}, eds. (1999). {\em
   {Synthesis Imaging in Radio Astronomy II}\/}, vol. 180 of {\em Astronomical
   Society of the Pacific Conference Series\/}.
+
+\bibitem[{{Turner} {\em et~al.\/}(1999){Turner}, {ten Brummelaar} \&
+  {Mason}}]{turner_1999}
+{\sc {Turner}, N.H., {ten Brummelaar}, T.A. \& {Mason}, B.D.} (1999). {Adaptive
+  Optics Observations of Arcturus using the Mount Wilson 100 Inch Telescope}.
+  {\em \pasp\/}, {\bf 111}, 556--558.
 
 \bibitem[{{van Leeuwen}(2007)}]{van_leeuwen_2007}
 {\sc {van Leeuwen}, F.} (2007). {Validation of the new Hipparcos reduction}.

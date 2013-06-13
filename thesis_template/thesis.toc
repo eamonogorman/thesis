@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.2}CARMA}{28}{section.3.2}
 \contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{28}{section.3.3}
 \contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{31}{section.3.4}
-\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{33}{section.3.5}
-\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{36}{section.3.6}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{43}{appendix.A}
-\contentsline {chapter}{References}{44}{section*.28}
+\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{34}{section.3.5}
+\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{37}{section.3.6}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{44}{appendix.A}
+\contentsline {chapter}{References}{45}{section*.28}
