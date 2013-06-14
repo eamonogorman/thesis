@@ -1,9 +1,14 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{44}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
 {\sc {Ayres}, T.R. \& {Linsky}, J.L.} (1975). {Stellar model chromospheres. III
   - Arcturus /K2 III/}. {\em \apj\/}, {\bf 200}, 660--674.
+
+\bibitem[{{Ayres} {\em et~al.\/}(2003){Ayres}, {Brown} \&
+  {Harper}}]{ayres_2003}
+{\sc {Ayres}, T.R., {Brown}, A. \& {Harper}, G.M.} (2003). {Buried Alive in the
+  Coronal Graveyard}. {\em \apj\/}, {\bf 598}, 610--625.
 
 \bibitem[{{Baade} {\em et~al.\/}(1996){Baade}, {Kirsch}, {Reimers},
   {Toussaint}, {Bennett}, {Brown} \& {Harper}}]{baade_1996}
@@ -15,6 +20,11 @@
 \bibitem[{{Brown}(2007)}]{brown_2007}
 {\sc {Brown}, K.I.T.} (2007). {Long-Term Spectroscopic and Precise Radial
   Velocity Monitoring of Arcturus}. {\em \pasp\/}, {\bf 119}, 237--237.
+
+\bibitem[{{Brown} {\em et~al.\/}(2008){Brown}, {Gray} \&
+  {Baliunas}}]{brown_2008}
+{\sc {Brown}, K.I.T., {Gray}, D.F. \& {Baliunas}, S.L.} (2008). {Long-Term
+  Spectroscopic Monitoring of Arcturus}. {\em \apj\/}, {\bf 679}, 1531--1540.
 
 \bibitem[{{Carpenter} {\em et~al.\/}(1999){Carpenter}, {Robinson}, {Harper},
   {Bennett}, {Brown} \& {Mullan}}]{carpenter_1999}
@@ -132,6 +142,11 @@
   limb-darkened Arcturus: imaging with the IOTA/IONIC interferometer}. {\em
   \aap\/}, {\bf 485}, 561--570.
 
+\bibitem[{{Linsky} \& {Haisch}(1979)}]{linsky_1979}
+{\sc {Linsky}, J.L. \& {Haisch}, B.M.} (1979). {Outer atmospheres of cool
+  stars. I - The sharp division into solar-type and non-solar-type stars}. {\em
+  \apjl\/}, {\bf 229}, L27--L32.
+
 \bibitem[{{Massarotti} {\em et~al.\/}(2008){Massarotti}, {Latham}, {Stefanik}
   \& {Fogel}}]{massarotti_2008}
 {\sc {Massarotti}, A., {Latham}, D.W., {Stefanik}, R.P. \& {Fogel}, J.} (2008).
@@ -195,6 +210,11 @@
 \bibitem[{Sagan(1997)}]{sagan1997demon}
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
   the Dark\/}. Ballantine Books.
+
+\bibitem[{{Sennhauser} \& {Berdyugina}(2011)}]{sennhauser_2011}
+{\sc {Sennhauser}, C. \& {Berdyugina}, S.V.} (2011). {First detection of a weak
+  magnetic field on the giant Arcturus: remnants of a solar dynamo?} {\em
+  \aap\/}, {\bf 529}, A100.
 
 \bibitem[{{Soderhjelm} \& {Mignard}(1998)}]{Soderhjelm_1998O}
 {\sc {Soderhjelm}, S. \& {Mignard}, F.} (1998). {Arcturus as a double star}.
