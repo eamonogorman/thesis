@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{49}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
@@ -25,6 +25,11 @@
   {Baliunas}}]{brown_2008}
 {\sc {Brown}, K.I.T., {Gray}, D.F. \& {Baliunas}, S.L.} (2008). {Long-Term
   Spectroscopic Monitoring of Arcturus}. {\em \apj\/}, {\bf 679}, 1531--1540.
+
+\bibitem[{{Carpenter} \& {Robinson}(1996)}]{carpenter_1996}
+{\sc {Carpenter}, K.G. \& {Robinson}, R.D.} (1996). {HST Studies of Carbon and
+  K-M Giant/Supergiant Stars}. In P.~{Benvenuti}, F.D. {Macchetto} \& E.J.
+  {Schreier}, eds., {\em Science with the Hubble Space Telescope - II\/}, 418.
 
 \bibitem[{{Carpenter} {\em et~al.\/}(1999){Carpenter}, {Robinson}, {Harper},
   {Bennett}, {Brown} \& {Mullan}}]{carpenter_1999}
@@ -108,6 +113,11 @@
 {\sc {Hatzes}, A.P. \& {Cochran}, W.D.} (1993). {Long-period radial velocity
   variations in three K giants}. {\em \apj\/}, {\bf 413}, 339--348.
 
+\bibitem[{{Hatzes} \& {Cochran}(1998)}]{hatzes_1998}
+{\sc {Hatzes}, A.P. \& {Cochran}, W.D.} (1998). {On the nature of the radial
+  velocity variability of Aldebaran - A search for spectral line bisector
+  variations}. {\em \mnras\/}, {\bf 293}, 469.
+
 \bibitem[{{H{\"o}gbom}(1974)}]{hogbom_1974}
 {\sc {H{\"o}gbom}, J.A.} (1974). {Aperture Synthesis with a Non-Regular
   Distribution of Interferometer Baselines}. {\em \aaps\/}, {\bf 15}, 417.
@@ -125,6 +135,13 @@
   A., {Hekker}, S., {Samadi}, R. \& {Deleuil}, M.} (2010). {Oscillating red
   giants in the CoRoT exofield: asteroseismic mass and radius determination}.
   {\em \aap\/}, {\bf 509}, A77.
+
+\bibitem[{{Kelch} {\em et~al.\/}(1978){Kelch}, {Chang}, {Furenlid}, {Linsky},
+  {Basri}, {Chiu} \& {Maran}}]{kelch_1978}
+{\sc {Kelch}, W.L., {Chang}, S.H., {Furenlid}, I., {Linsky}, J.L., {Basri},
+  G.S., {Chiu}, H.Y. \& {Maran}, S.P.} (1978). {Stellar model chromospheres.
+  VII - Capella /G5 III +/, Pollux /K0 III/, and Aldebaran /K5 III/}. {\em
+  \apj\/}, {\bf 220}, 962--979.
 
 \bibitem[{{Kraus} {\em et~al.\/}(1986){Kraus}, {Tiuri}, {Raisanen} \&
   {Carr}}]{kraus_1986}
@@ -200,6 +217,10 @@
   L.L.} (2003). {Oscillations in Arcturus from WIRE Photometry}. {\em \apjl\/},
   {\bf 591}, L151--L154.
 
+\bibitem[{{Richichi} \& {Roccatagliata}(2005)}]{richichi_2005}
+{\sc {Richichi}, A. \& {Roccatagliata}, V.} (2005). {Aldebaran's angular
+  diameter: How well do we know it?} {\em \aap\/}, {\bf 433}, 305--312.
+
 \bibitem[{{Robinson} {\em et~al.\/}(1998){Robinson}, {Carpenter} \&
   {Brown}}]{robinson_1998}
 {\sc {Robinson}, R.D., {Carpenter}, K.G. \& {Brown}, A.} (1998). {Goddard
@@ -225,6 +246,10 @@
 {\sc {Taylor}, G.B., {Carilli}, C.L. \& {Perley}, R.A.}, eds. (1999). {\em
   {Synthesis Imaging in Radio Astronomy II}\/}, vol. 180 of {\em Astronomical
   Society of the Pacific Conference Series\/}.
+
+\bibitem[{{Tsuji}(2008)}]{tsuji_2008}
+{\sc {Tsuji}, T.} (2008). {Cool luminous stars: the hybrid nature of their
+  infrared spectra}. {\em \aap\/}, {\bf 489}, 1271--1289.
 
 \bibitem[{{Turner} {\em et~al.\/}(1999){Turner}, {ten Brummelaar} \&
   {Mason}}]{turner_1999}

@@ -33,45 +33,45 @@ Repeated entry---line 743 of file mybib.bib
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
-You've used 44 entries,
+You've used 49 entries,
             3018 wiz_defined-function locations,
-            903 strings with 12277 characters,
-and the built_in function-call counts, 29326 in all, are:
-= -- 2367
-> -- 1558
-< -- 27
-+ -- 549
-- -- 503
-* -- 2501
-:= -- 4477
-add.period$ -- 130
-call.type$ -- 44
-change.case$ -- 388
-chr.to.int$ -- 44
-cite$ -- 45
-duplicate$ -- 2027
-empty$ -- 2018
-format.name$ -- 621
-if$ -- 5842
+            929 strings with 13084 characters,
+and the built_in function-call counts, 32470 in all, are:
+= -- 2633
+> -- 1699
+< -- 31
++ -- 599
+- -- 548
+* -- 2755
+:= -- 4954
+add.period$ -- 145
+call.type$ -- 49
+change.case$ -- 429
+chr.to.int$ -- 49
+cite$ -- 50
+duplicate$ -- 2256
+empty$ -- 2244
+format.name$ -- 686
+if$ -- 6477
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 441
-newline$ -- 136
-num.names$ -- 185
-pop$ -- 881
+missing$ -- 488
+newline$ -- 151
+num.names$ -- 207
+pop$ -- 972
 preamble$ -- 1
-purify$ -- 340
+purify$ -- 374
 quote$ -- 0
-skip$ -- 746
+skip$ -- 830
 stack$ -- 0
-substring$ -- 1235
-swap$ -- 1163
+substring$ -- 1374
+swap$ -- 1291
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 387
+type$ -- 432
 warning$ -- 1
-while$ -- 178
+while$ -- 199
 width$ -- 0
-write$ -- 485
+write$ -- 540
 (There were 5 error messages)

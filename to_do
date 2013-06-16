@@ -1,0 +1,20 @@
+The fits files can easily be transferred into ms's and read into CASA. 
+
+A nice small project would be to create a model 2-d sky image of our bright spots and use CASA's simulation tool to compare Anita's visibilities to that predicted by the simuation. This might tell us if the dip at 1d+6 wl's is real or not. The only thing with this is that you would have to create our own antenna layout file for e-merlin (as one does not exist in CASA). This probably isn't too much work.
+
+Another even easier thing to do would be to use this simulation tool to see how it would look like with the VLA at different wl's and see should we resolve the hotspots with the higher frequencies of the VLA, which we don't in reality. We could use Anita's final high-res image as the input 2-d model.
+
+The feed is an example of a transducer – it captures radio waves traveling through the air and transforms them into electric signals on a cable.
+
+within the imaging run
+Wide-field Imaging:
+Different parts of the primary telescope beam may have
+differing phase errors due to atmospheric non-isoplanicity or
+phase changes across the beam. Additional gain corrections
+will be required to account for the primary beam response.
+
+remove fast-switching from AJ paper, now just a short source-calibrator loop
+
+carpenter & robinson (1996): wind acceleration for alpha tau. Can this be re-done for arcturus?
+
+
