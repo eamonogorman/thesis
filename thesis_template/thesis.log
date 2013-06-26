@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  16 JUN 2013 20:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  26 JUN 2013 15:48
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -515,9 +515,6 @@ LaTeX Warning: Label `sec:3' multiply defined.
 
 ) (./3/instrum_tar_obs.aux
 
-LaTeX Warning: Label `tab:1' multiply defined.
-
-
 LaTeX Warning: Label `tab:3.1' multiply defined.
 
 
@@ -747,36 +744,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--93
 [31
 
 
-]
-Missing character: There is no â in font cmr8!
-Missing character: There is no ˆ in font cmr8!
-Missing character: There is no ’ in font cmr8!
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
+] [32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
 
  []
 
-[32] [33] [34]
+[34]
 
-LaTeX Warning: Command \r invalid in math mode on input line 148.
+LaTeX Warning: Command \r invalid in math mode on input line 149.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 148.
+LaTeX Warning: Command \r invalid in math mode on input line 149.
 
-[35] [36]
-File: /home/eamon/thesis/thesis_template/3/vla_antenna.ps Graphic file (type ep
-s)
- </home/eamon/thesis/thesis_template/3/vla_antenna.ps>
-Overfull \hbox (4.91939pt too wide) in paragraph at lines 195--211
+[35] [36] [37]
+File: /home/eamon/thesis/thesis_template/3/vla_antenna_new.ps Graphic file (typ
+e eps)
+ </home/eamon/thesis/thesis_template/3/vla_antenna_new.ps>
+Overfull \hbox (4.91939pt too wide) in paragraph at lines 197--213
  [] 
  []
 
-[37] [38] [39]
-Overfull \hbox (9.7717pt too wide) in paragraph at lines 224--250
+[38] [39] [40]
+Overfull \hbox (9.7717pt too wide) in paragraph at lines 226--252
  [] 
  []
 
-[40
+[41
 
 ]
 File: /home/eamon/thesis/thesis_template/3/phase_center1_new.ps Graphic file (t
@@ -786,11 +779,11 @@ File: /home/eamon/thesis/thesis_template/3/phase_center2_new.ps Graphic file (t
 ype eps)
 
 </home/eamon/thesis/thesis_template/3/phase_center2_new.ps>
-Overfull \hbox (25.97418pt too wide) in paragraph at lines 263--264
+Overfull \hbox (25.97418pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
-[41
+[42
 
 ]
 File: /home/eamon/thesis/thesis_template/3/atau_cx.ps Graphic file (type eps)
@@ -800,14 +793,14 @@ File: /home/eamon/thesis/thesis_template/3/atau_kkaq.ps Graphic file (type eps)
 
 </home/eamon/thesis/thesis_template/3/atau_kkaq.ps>
 
-LaTeX Warning: Float too large for page by 36.7732pt on input line 280.
+LaTeX Warning: Float too large for page by 36.7732pt on input line 282.
 
-[42]) [43] [44]
+[43]) [44] [45]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [45
+) [46
 
 
 
@@ -815,10 +808,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [46
+ [47
 
 
-] [47] [48]) [49] (./thesis.aux
+] [48] [49] [50]) [51] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./appendix/app.aux))
@@ -827,12 +820,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8818 strings out of 495062
- 126839 string characters out of 1182645
- 222170 words of memory out of 3000000
- 11691 multiletter control sequences out of 15000+50000
+ 8867 strings out of 495062
+ 127632 string characters out of 1182645
+ 219188 words of memory out of 3000000
+ 11740 multiletter control sequences out of 15000+50000
  22068 words of font info for 78 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,19n,49p,2263b,569s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,49p,2391b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (60 pages, 284504 bytes).
+Output written on thesis.dvi (62 pages, 299160 bytes).

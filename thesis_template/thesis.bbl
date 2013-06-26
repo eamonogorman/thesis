@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{55}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
@@ -16,6 +16,19 @@
   P.D., {Brown}, A. \& {Harper}, G.M.} (1996). {The Wind Outflow of zeta
   Aurigae: A Model Revision Using Hubble Space Telescope Spectra}. {\em
   \apj\/}, {\bf 466}, 979.
+
+\bibitem[{{Berio} {\em et~al.\/}(2011){Berio}, {Merle}, {Th{\'e}venin},
+  {Bonneau}, {Mourard}, {Chesneau}, {Delaa}, {Ligi}, {Nardetto}, {Perraut},
+  {Pichon}, {Stee}, {Tallon-Bosc}, {Clausse}, {Spang}, {McAlister}, {ten
+  Brummelaar}, {Sturmann}, {Sturmann}, {Turner}, {Farrington} \&
+  {Goldfinger}}]{berio_2011}
+{\sc {Berio}, P., {Merle}, T., {Th{\'e}venin}, F., {Bonneau}, D., {Mourard},
+  D., {Chesneau}, O., {Delaa}, O., {Ligi}, R., {Nardetto}, N., {Perraut}, K.,
+  {Pichon}, B., {Stee}, P., {Tallon-Bosc}, I., {Clausse}, J.M., {Spang}, A.,
+  {McAlister}, H., {ten Brummelaar}, T., {Sturmann}, J., {Sturmann}, L.,
+  {Turner}, N., {Farrington}, C. \& {Goldfinger}, P.J.} (2011). {Chromosphere
+  of K giant stars. Geometrical extent and spatial structure detection}. {\em
+  \aap\/}, {\bf 535}, A59.
 
 \bibitem[{{Brown}(2007)}]{brown_2007}
 {\sc {Brown}, K.I.T.} (2007). {Long-Term Spectroscopic and Precise Radial
@@ -108,6 +121,12 @@
   {Hummel}, C.A.} (2005). {VLA Observations of {$\zeta$} Aurigae: Confirmation
   of the Slow Acceleration Wind Density Structure}. {\em \aj\/}, {\bf 129},
   1018--1034.
+
+\bibitem[{{Harper} {\em et~al.\/}(2013){Harper}, {O'Riain} \&
+  {Ayres}}]{2013_harper}
+{\sc {Harper}, G.M., {O'Riain}, N. \& {Ayres}, T.R.} (2013). {Chromospheric
+  thermal continuum millimetre emission from non-dusty K and M red giants}.
+  {\em \mnras\/}, {\bf 428}, 2064--2073.
 
 \bibitem[{{Hatzes} \& {Cochran}(1993)}]{hatzes_1993}
 {\sc {Hatzes}, A.P. \& {Cochran}, W.D.} (1993). {Long-period radial velocity
@@ -228,6 +247,12 @@
   Comparison of the K5 III Stars alpha Tauri and gamma Draconis}. {\em \apj\/},
   {\bf 503}, 396.
 
+\bibitem[{{Ryde} {\em et~al.\/}(2002){Ryde}, {Lambert}, {Richter} \&
+  {Lacy}}]{ryde_2002}
+{\sc {Ryde}, N., {Lambert}, D.L., {Richter}, M.J. \& {Lacy}, J.H.} (2002).
+  {Detection of Water Vapor in the Photosphere of Arcturus}. {\em \apj\/}, {\bf
+  580}, 447--458.
+
 \bibitem[{Sagan(1997)}]{sagan1997demon}
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
   the Dark\/}. Ballantine Books.
@@ -251,6 +276,10 @@
 {\sc {Tsuji}, T.} (2008). {Cool luminous stars: the hybrid nature of their
   infrared spectra}. {\em \aap\/}, {\bf 489}, 1271--1289.
 
+\bibitem[{{Tsuji}(2009)}]{tsuji_2009}
+{\sc {Tsuji}, T.} (2009). {The K giant star Arcturus: the hybrid nature of its
+  infrared spectrum}. {\em \aap\/}, {\bf 504}, 543--559.
+
 \bibitem[{{Turner} {\em et~al.\/}(1999){Turner}, {ten Brummelaar} \&
   {Mason}}]{turner_1999}
 {\sc {Turner}, N.H., {ten Brummelaar}, T.A. \& {Mason}, B.D.} (1999). {Adaptive
@@ -261,12 +290,24 @@
 {\sc {van Leeuwen}, F.} (2007). {Validation of the new Hipparcos reduction}.
   {\em \aap\/}, {\bf 474}, 653--664.
 
+\bibitem[{{Wiedemann} {\em et~al.\/}(1994){Wiedemann}, {Ayres}, {Jennings} \&
+  {Saar}}]{wiedemann_1994}
+{\sc {Wiedemann}, G., {Ayres}, T.R., {Jennings}, D.E. \& {Saar}, S.H.} (1994).
+  {Carbon Monoxide Fundamental Bands in Late-Type Stars. III. Chromosphere or
+  CO-mosphere?} {\em \apj\/}, {\bf 423}, 806.
+
 \bibitem[{{Williams} {\em et~al.\/}(2009){Williams}, {Freeman}, {Helmi} \&
   {RAVE Collaboration}}]{williams_2009}
 {\sc {Williams}, M.E.K., {Freeman}, K.C., {Helmi}, A. \& {RAVE Collaboration}}
   (2009). {The Arcturus Moving Group: Its Place in the Galaxy}. In
   J.~{Andersen}, {Nordstr{\"o}ara}, B.~{m} \& J.~{Bland-Hawthorn}, eds., {\em
   IAU Symposium\/}, vol. 254 of {\em IAU Symposium\/}, 139--144.
+
+\bibitem[{{Wood} {\em et~al.\/}(2007){Wood}, {Harper}, {M{\"u}ller},
+  {Heerikhuisen} \& {Zank}}]{wood_2007}
+{\sc {Wood}, B.E., {Harper}, G.M., {M{\"u}ller}, H.R., {Heerikhuisen}, J. \&
+  {Zank}, G.P.} (2007). {The Wind-ISM Interaction of {$\alpha$} Tauri}. {\em
+  \apj\/}, {\bf 655}, 946--957.
 
 \bibitem[{{Wright}(1970)}]{wright_1970}
 {\sc {Wright}, K.O.} (1970). {The Zeta Aurigae stars}. {\em Vistas in
