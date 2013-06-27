@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  26 JUN 2013 15:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  27 JUN 2013 22:17
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -526,7 +526,8 @@ LaTeX Warning: Label `tab:1' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-) (./appendix/app.aux))
+) (./4/data_analysis.aux) (./5/aori.aux) (./6/aboo_atau.aux)
+(./appendix/app.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
@@ -548,8 +549,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 128.
-
-(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
@@ -796,11 +796,111 @@ File: /home/eamon/thesis/thesis_template/3/atau_kkaq.ps Graphic file (type eps)
 LaTeX Warning: Float too large for page by 36.7732pt on input line 282.
 
 [43]) [44] [45]
+\openout2 = `4/data_analysis.aux'.
+
+ (./4/data_analysis.tex
+Chapter 4.
+) [46
+
+
+
+]
+\openout2 = `5/aori.aux'.
+
+ (./5/aori.tex
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 4.
+
+) [47
+
+
+
+]
+\openout2 = `6/aboo_atau.aux'.
+
+ (./6/aboo_atau.tex
+Chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+[48
+
+
+
+] [49]
+
+LaTeX Warning: Reference `fig:fig3' on page 50 undefined on input line 65.
+
+
+LaTeX Warning: Reference `eq:eq1' on page 50 undefined on input line 67.
+
+
+LaTeX Warning: Reference `fig:fig4' on page 50 undefined on input line 67.
+
+[50]
+
+LaTeX Warning: Reference `fig:fig5' on page 51 undefined on input line 71.
+
+
+LaTeX Warning: Reference `fig:fig4' on page 51 undefined on input line 71.
+
+
+LaTeX Warning: Reference `eq:eq1' on page 51 undefined on input line 71.
+
+[51]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 73.
+
+) [52]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [46
+) [53
 
 
 
@@ -808,24 +908,28 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [47
+ [54
 
 
-] [48] [49] [50]) [51] (./thesis.aux
+] [55] [56] [57]) [58] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
-(./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./appendix/app.aux))
+(./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./4/data_analysis.aux)
+(./5/aori.aux) (./6/aboo_atau.aux) (./appendix/app.aux))
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8867 strings out of 495062
- 127632 string characters out of 1182645
- 219188 words of memory out of 3000000
- 11740 multiletter control sequences out of 15000+50000
- 22068 words of font info for 78 fonts, out of 3000000 for 9000
+ 9010 strings out of 495062
+ 129744 string characters out of 1182645
+ 221976 words of memory out of 3000000
+ 11859 multiletter control sequences out of 15000+50000
+ 27450 words of font info for 99 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,19n,49p,2391b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,49p,2391b,597s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (62 pages, 299160 bytes).
+Output written on thesis.dvi (69 pages, 339224 bytes).

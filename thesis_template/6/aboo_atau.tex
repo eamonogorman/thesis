@@ -1,0 +1,73 @@
+%!TEX root = ../thesis.tex
+%Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
+
+\chapter{Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants} \label{chap:6}
+
+\section{Introduction}\label{sec:6.1}
+\section{$\alpha$ Boo Radio Maps}\label{sec:6.2}
+\section{$\alpha$ Tau Radio Maps}\label{sec:6.3}
+\section{Results vs Previous Observations}\label{sec:6.4}
+\section{Results vs Existing Models}\label{sec:6.5}
+\section{Spectral Indices}\label{sec:6.6}
+Long wavelength radio emission from non-dusty K spectral-type red giants is due to thermal free-free emission in their partially ionized outflows while shorter wavelength radio emission emanates from nearly static lower atmospheric layers. The radio flux density-frequency relationship for these stars is usually found to be intermediate between that expected from the isothermal stellar disk emission, where $\alpha$ follows the Rayleigh-Jeans tail of the Planck function (i.e., $\alpha = +2$), and that from an optically thin plasma (i.e., $\alpha = -0.1$). We have shown in Chapter 1 that the expected radio spectrum from a spherically symmetric isothermal outflow with a constant velocity and ionization fraction varies as $\nu ^{0.6}$ \citep{wright_1975,olnon_1975,panagia_1975}. In reality however, thermal gradients will exist in the outflow when the heating mechanisms become insufficient to counteract adiabatic and line cooling, so one would expect a temperature decrease in the wind at some point. Also, if the radio emission emanates from the wind acceleration zone then the electron density will not follow $n_{e} \propto r^{-2}$. 
+
+We can relax some of the constant property wind model assumptions and assume that the electron density and temperature vary as a function of distance from the star $r$, and have the power-law form $n_{e} \propto r^{-p}$ and $T_{e} \propto r^{-n}$ respectively \citep[e.g.,][]{seaquist_1987}. Finding the spectral index for an outflow with these conditions is non-trivial so we highlight the main steps required to do so here. We assume the same geometry and notation used for the constant property wind model in Chapter 1, and again start by calculating the total optical depth for a ray with an impact parameter $b$, through the atmosphere:
+\begin{equation}
+\tau_{\nu} =\frac{0.212Z^2n^2_{\rm{e}}(R_{0})R_{0}^{2p}}{T^{1.35}\nu^{2.1}T_{e}^{1.35}(R_{0})R_{0}^{1.35n}}\int ^{\infty}_{-\infty} \frac{1}{(b^2 + z^2)^{(1.35n -2p)/2}} dz.
+\label{eq:eq6.6.1}
+\end{equation}
+The integral con be solved using the relationship
+\begin{equation}
+\int ^{\infty}_{-\infty} \frac{1}{(z^2 + b^2)^{t/2}} dz = b^{1-t}\sqrt{\pi}\left[\frac{\Gamma(t/2-0.5)}{\Gamma (t/2)} \right]
+\label{eq:eq6.6.2}
+\end{equation}
+and setting $t=(1.35n -2p)$. Here $\Gamma$ is the gamma function i.e., $\Gamma (y)= \int ^{\infty}_{0} u^{y-1}e^{-u}du$. The total optical depth along a ray is then 
+\begin{equation}
+\tau_{\nu}(b) = Gb^{1-2p +1.35n}
+\label{eq:eq6.6.3}
+\end{equation}
+where $G$ is a constant that incorporates $\nu$. As the total flux density is
+\begin{equation}
+F_{\nu} = \frac{2\pi}{D^2}\int ^{\infty}_{0} B_{\nu}[1 - e^{-\tau_{\nu}(b)}]bdb,
+\label{eq:eq6.6.4}
+\end{equation}
+we can now substitute the Rayleigh Jeans function for $B_{\nu}$ to get
+\begin{equation}
+F_{\nu}=\frac{4\pi k\nu^2T_{0}(R_{0})R_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})(b^2+z^2)^{-\frac{n}{2}}bdb.
+\label{eq:eq6.6.5}
+\end{equation}
+Expansion of the second term inside the integral gives
+\begin{equation}
+F_{\nu} \simeq \frac{4\pi k\nu^2T_{0}(R_{0})R_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})b^{1-n}db
+\label{eq:eq6.6.6}
+\end{equation}
+To progress further, Equation \ref{eq:eq6.6.3} can be rearranged to find $p$ and $dp$ in terms of $\tau _{\nu}$, and can then be inserted into Equation \ref{eq:eq6.6.6} to give
+\begin{equation}
+F_{\nu} \simeq \frac{4\pi k\nu^2T_{0}(R_{0})R_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})\left(\frac{\tau _{\nu}}{G} \right)^{\frac{1-2.35n +2p}{1-2p +1.35n}}\frac{d\tau _{\nu}}{G(1-2p + 1.35n)}.
+\label{eq:eq6.6.7}
+\end{equation}
+This allows $\nu$ to be separated out to give
+\begin{equation}
+F_{\nu} \propto \nu^2 G^{\frac{2.35n -2p -1}{1-2p +1.35n}} G^{-1}
+\label{eq:eq6.6.8}
+\end{equation}
+and as $G \propto \nu^{-2.1}$ we get
+\begin{equation}
+F_{\nu} \propto \nu^2 \nu^{\frac{4.2-2.1n}{1-2p +1.35n}},
+\label{eq:eq6.6.9}
+\end{equation}
+i.e.,
+\begin{equation}
+\alpha = \frac{4p -6.2 -0.6n}{2p-1-1.35n}.
+\label{eq:eq6.6.10}
+\end{equation}
+
+The radio spectra for both stars are shown in Figure \ref{fig:fig3}, together with the straight lines that were fitted to the long wavelength flux densities by minimizing the chi-square error statistic. For $\alpha$ Boo a power law with $F_{\nu} \propto \nu ^{1.05 \pm 0.05}$ fits the four longest wavelength data points well. This spectral index is larger than the 0.8 value obtained by \cite{drake_1986} whose value was based on a shorter wavelength (2 cm) value and a mean value of four low S/N measurements at 6 cm. $\alpha$ Tau was found to have a larger spectral index and a power law with $S_{\nu} \propto \nu ^{1.58 \pm 0.25}$ best fitted the three longest wavelength data points. This value is in agreement with \cite{drake_1986} who report a value $\ge 0.84$ and is lower than the value of 2.18 that can be derived from the shorter wavelength data given in \cite{wood_2007}. It should be emphasized that the spectral index for both stars is steeper than that expected from the constant property wind model. 
+
+Equation \ref{eq:eq1} can be used in conjunction with our new spectral index for each star to calculate possible density and temperature coefficients that may describe their outflow. The combinations of the electron temperature and density coefficients are shown for each star in Figure \ref{fig:fig4} along with the coefficients obtained by assuming either an isothermal flow or a constant velocity flow. One explanation for spectral indices of stellar outflows being larger than 0.6 is that the wind is still accelerating in the radio emitting region, if the thermal gradients are assumed to be small. Ignoring thermal gradients may be reasonable over the wind acceleration region since it is probable that some form of Alfv\'en waves are required to lift the material out of the gravitational potential. These waves would need to have large damping lengths and undergo some dissipation within a few stellar radii of the surface in order to produce the low terminal velocities \citep{hartmann_1980}. These large damping lengths could result in shallow thermal gradients close in. If we ignore thermal gradients, then the density coefficients are $p=$2.71 and 5.5 for $\alpha$ Boo  and $\alpha$ Tau, respectively. This assumption is reasonable at short wavelengths where the majority of the radio emission is expected to emanate from the chromosphere or wind acceleration zone, but at long VLA wavelengths (i.e., between 6 and 20 cm) we may indeed be sampling the wind very close to or at its terminal velocity and the wind may have substantial thermal gradients caused by adiabatic cooling. 
+
+To investigate this matter further,  we estimate the effective radius of the radio emitting region as a function of wavelength based on the Drake model for $\alpha$ Boo and the hybrid McMurry and Robinson model for $\alpha$ Tau. We follow the approach used by \cite{cassinelli_1977} and assume that the radio emission at each wavelength emanates from a surface at radial optical depth $\tau _{\rm{rad}}=$1/3. This is a modification of the Eddington-Barbier relation for an extended atmosphere where emission from smaller optical depths has added weight. Since the radio free-free opacity increases at longer wavelengths the optical depth along a line of sight into the stellar outflow also increases at longer wavelengths. This implies that the effective radius (i.e., the radius where $\tau _{\lambda} = \tau _{\rm{rad}}$) will increase with longer wavelengths and will be greater for outflows with higher densities of ionized material as $\tau _{\lambda} \propto \int \lambda ^{2.1}n_{\rm{ion}}n_{\rm{e}} dr$. 
+
+The higher degree of ionization in the mass outflow of $\alpha$ Boo in comparison to $\alpha$ Tau means that the latter has a substantially smaller effective radius at longer wavelengths, as seen in Figure \ref{fig:fig5}. At 6, 13, and 20 cm the effective radius of $\alpha$ Boo at $\tau _{\rm{rad}}$=1/3 is predicted to be 1.6, 2.8, and 3.7 $R_{\star}$ but is only $\sim$1.2 $R_{\star}$ at 6 and 13 cm for $\alpha$ Tau. \cite{robinson_1998} predict that $\alpha$ Tau's wind reaches $\sim$80\% of its terminal velocity by 3 $R_{\star}$, but even our longest-wavelength observations are highly unlikely to sample the wind outside the lower velocity layers closer to the star. For $\alpha$ Boo however, \cite{drake_1985} predicts that the wind has reached its terminal velocity by $\sim$2 $R_{\star}$ so based on this model our longest-wavelength measurements are of the region where the wind has reached a steady terminal velocity. From Figure \ref{fig:fig4}, this implies that the $n_{\rm{e}}$ coefficient $p=2$ and thus the $T_{\rm{e}}$ coefficient $n=1.65$. Pure adiabatic cooling with no heat source has $n=1.33$ so additional cooling routes must be operating, possibly due to recombination of H$^{+}$ and/or line cooling. Finally, the wind ionization balance may not have become \textit{frozen-in} in the region of $\alpha$ Boo's wind where the radio emission emanates from. If this is true, then the excess slope of the spectral index could be due to a combination of both cooling and changing ionization fraction. In this scenario the temperature coefficient $n$, would be smaller than our derived value because Equation \ref{eq:eq1} assumes a constant ionization fraction.
+
+\section{Analytical Advection Model for $\alpha$ Boo}\label{sec:6.7}

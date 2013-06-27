@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{62}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
@@ -51,6 +51,11 @@
   Low-Gravity Stars. V. The Outer Atmosphere and Wind of the Nearby K
   Supergiant lambda Velorum}. {\em \apj\/}, {\bf 521}, 382--406.
 
+\bibitem[{{Cassinelli} \& {Hartmann}(1977)}]{cassinelli_1977}
+{\sc {Cassinelli}, J.P. \& {Hartmann}, L.} (1977). {The effect of winds and
+  coronae of hot stars on the infrared and radio continua.} {\em \apj\/}, {\bf
+  212}, 488--493.
+
 \bibitem[{{Chapman}(1981)}]{chapman_1981}
 {\sc {Chapman}, R.D.} (1981). {The 1979-1980 eclipse of Zeta Aurigae. I - The
   circumstellar envelope}. {\em \apj\/}, {\bf 248}, 1043--1052.
@@ -72,6 +77,11 @@
 {\sc {di Benedetto}, G.P.} (1993). {Empirical effective temperatures and
   angular diameters of stars cooler than the sun}. {\em \aap\/}, {\bf 270},
   315--334.
+
+\bibitem[{{Drake} \& {Linsky}(1986)}]{drake_1986}
+{\sc {Drake}, S. \& {Linsky}, J.} (1986). {Radio continuum emission from winds,
+  chromospheres, and coronae of cool giants and supergiants}. {\em \aj\/}, {\bf
+  91}, 602--620.
 
 \bibitem[{{Drake}(1985)}]{drake_1985}
 {\sc {Drake}, S.A.} (1985). {Modeling lines formed in the expanding
@@ -127,6 +137,11 @@
 {\sc {Harper}, G.M., {O'Riain}, N. \& {Ayres}, T.R.} (2013). {Chromospheric
   thermal continuum millimetre emission from non-dusty K and M red giants}.
   {\em \mnras\/}, {\bf 428}, 2064--2073.
+
+\bibitem[{{Hartmann} \& {MacGregor}(1980)}]{hartmann_1980}
+{\sc {Hartmann}, L. \& {MacGregor}, K.B.} (1980). {Momentum and energy
+  deposition in late-type stellar atmospheres and winds}. {\em \apj\/}, {\bf
+  242}, 260--282.
 
 \bibitem[{{Hatzes} \& {Cochran}(1993)}]{hatzes_1993}
 {\sc {Hatzes}, A.P. \& {Cochran}, W.D.} (1993). {Long-period radial velocity
@@ -209,6 +224,15 @@
   Extragalactic Origin of the Arcturus Group}. {\em \apjl\/}, {\bf 601},
   L43--L46.
 
+\bibitem[{{Olnon}(1975)}]{olnon_1975}
+{\sc {Olnon}, F.M.} (1975). {Thermal bremsstrahlung radiospectra for
+  inhomogeneous objects, with an application to MWC 349.} {\em \aap\/}, {\bf
+  39}, 217--223.
+
+\bibitem[{{Panagia} \& {Felli}(1975)}]{panagia_1975}
+{\sc {Panagia}, N. \& {Felli}, M.} (1975). {The spectrum of the free-free
+  radiation from extended envelopes}. {\em \aap\/}, {\bf 39}, 1--5.
+
 \bibitem[{{Perryman} {\em et~al.\/}(1997){Perryman}, {Lindegren}, {Kovalevsky},
   {Hoeg}, {Bastian}, {Bernacca}, {Cr{\'e}z{\'e}}, {Donati}, {Grenon},
   {Grewing}, {van Leeuwen}, {van der Marel}, {Mignard}, {Murray}, {Le Poole},
@@ -256,6 +280,11 @@
 \bibitem[{Sagan(1997)}]{sagan1997demon}
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
   the Dark\/}. Ballantine Books.
+
+\bibitem[{{Seaquist} \& {Taylor}(1987)}]{seaquist_1987}
+{\sc {Seaquist}, E.R. \& {Taylor}, A.R.} (1987). {A detailed analysis of the
+  radio emission from the symbiotic star RX Puppis}. {\em \apj\/}, {\bf 312},
+  813--821.
 
 \bibitem[{{Sennhauser} \& {Berdyugina}(2011)}]{sennhauser_2011}
 {\sc {Sennhauser}, C. \& {Berdyugina}, S.V.} (2011). {First detection of a weak
@@ -308,6 +337,10 @@
 {\sc {Wood}, B.E., {Harper}, G.M., {M{\"u}ller}, H.R., {Heerikhuisen}, J. \&
   {Zank}, G.P.} (2007). {The Wind-ISM Interaction of {$\alpha$} Tauri}. {\em
   \apj\/}, {\bf 655}, 946--957.
+
+\bibitem[{{Wright} \& {Barlow}(1975)}]{wright_1975}
+{\sc {Wright}, A.E. \& {Barlow}, M.J.} (1975). {The radio and infrared spectrum
+  of early-type stars undergoing mass loss}. {\em \mnras\/}, {\bf 170}, 41--51.
 
 \bibitem[{{Wright}(1970)}]{wright_1970}
 {\sc {Wright}, K.O.} (1970). {The Zeta Aurigae stars}. {\em Vistas in

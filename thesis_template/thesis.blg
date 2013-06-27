@@ -8,70 +8,69 @@ A level-1 auxiliary file: 0/publications.aux
 A level-1 auxiliary file: 1/introduction.aux
 A level-1 auxiliary file: 2/intro_to_radio.aux
 A level-1 auxiliary file: 3/instrum_tar_obs.aux
+A level-1 auxiliary file: 4/data_analysis.aux
+A level-1 auxiliary file: 5/aori.aux
+A level-1 auxiliary file: 6/aboo_atau.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
-Repeated entry---line 644 of file mybib.bib
- : @article{robinson_1998
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 700 of file mybib.bib
+Repeated entry---line 686 of file mybib.bib
  : @article{sennhauser_2011
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 715 of file mybib.bib
+Repeated entry---line 701 of file mybib.bib
  : @article{brown_2008
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 729 of file mybib.bib
+Repeated entry---line 715 of file mybib.bib
  : @article{gray_2006
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 743 of file mybib.bib
+Repeated entry---line 729 of file mybib.bib
  : @article{hatzes_1993
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
-You've used 55 entries,
+You've used 62 entries,
             3018 wiz_defined-function locations,
-            961 strings with 14349 characters,
-and the built_in function-call counts, 37415 in all, are:
-= -- 3008
-> -- 2056
-< -- 32
-+ -- 722
-- -- 665
-* -- 3211
-:= -- 5707
-add.period$ -- 163
-call.type$ -- 55
-change.case$ -- 498
-chr.to.int$ -- 55
-cite$ -- 56
-duplicate$ -- 2564
-empty$ -- 2533
-format.name$ -- 819
-if$ -- 7443
+            1001 strings with 15335 characters,
+and the built_in function-call counts, 41246 in all, are:
+= -- 3358
+> -- 2180
+< -- 39
++ -- 768
+- -- 704
+* -- 3515
+:= -- 6294
+add.period$ -- 184
+call.type$ -- 62
+change.case$ -- 546
+chr.to.int$ -- 62
+cite$ -- 63
+duplicate$ -- 2847
+empty$ -- 2827
+format.name$ -- 889
+if$ -- 8220
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 563
-newline$ -- 169
-num.names$ -- 231
-pop$ -- 1136
+missing$ -- 618
+newline$ -- 190
+num.names$ -- 259
+pop$ -- 1230
 preamble$ -- 1
-purify$ -- 437
+purify$ -- 478
 quote$ -- 0
-skip$ -- 941
+skip$ -- 1038
 stack$ -- 0
-substring$ -- 1548
-swap$ -- 1480
+substring$ -- 1754
+swap$ -- 1630
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 486
+type$ -- 549
 warning$ -- 1
-while$ -- 223
+while$ -- 251
 width$ -- 0
-write$ -- 606
-(There were 5 error messages)
+write$ -- 683
+(There were 4 error messages)
