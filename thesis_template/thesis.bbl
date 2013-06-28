@@ -1,5 +1,22 @@
-\begin{thebibliography}{62}
+\begin{thebibliography}{73}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
+  {Ofman}}]{airapetian_2010}
+{\sc {Airapetian}, V., {Carpenter}, K.G. \& {Ofman}, L.} (2010). {Winds from
+  Luminous Late-type Stars. II. Broadband Frequency Distribution of Alfv{\'e}n
+  Waves}. {\em \apj\/}, {\bf 723}, 1210--1218.
+
+\bibitem[{{Altenhoff} {\em et~al.\/}(1986){Altenhoff}, {Huchtmeier}, {Schmidt},
+  {Schraml} \& {Stumpff}}]{altenhoff_1986}
+{\sc {Altenhoff}, W.J., {Huchtmeier}, W.K., {Schmidt}, J., {Schraml}, J.B. \&
+  {Stumpff}, P.} (1986). {Radio continuum observations of comet Halley}. {\em
+  \aap\/}, {\bf 164}, 227--230.
+
+\bibitem[{{Altenhoff} {\em et~al.\/}(1994){Altenhoff}, {Thum} \&
+  {Wendker}}]{altenhoff_1994}
+{\sc {Altenhoff}, W.J., {Thum}, C. \& {Wendker}, H.J.} (1994). {Radio emission
+  from stars: A survey at 250 GHz}. {\em \aap\/}, {\bf 281}, 161--183.
 
 \bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
 {\sc {Ayres}, T.R. \& {Linsky}, J.L.} (1975). {Stellar model chromospheres. III
@@ -16,6 +33,12 @@
   P.D., {Brown}, A. \& {Harper}, G.M.} (1996). {The Wind Outflow of zeta
   Aurigae: A Model Revision Using Hubble Space Telescope Spectra}. {\em
   \apj\/}, {\bf 466}, 979.
+
+\bibitem[{{Beasley} {\em et~al.\/}(1992){Beasley}, {Stewart} \&
+  {Carter}}]{beasley_1992}
+{\sc {Beasley}, A.J., {Stewart}, R.T. \& {Carter}, B.D.} (1992). {Non-thermal
+  radio emission from post-main-sequence stars}. {\em \mnras\/}, {\bf 254},
+  1--6.
 
 \bibitem[{{Berio} {\em et~al.\/}(2011){Berio}, {Merle}, {Th{\'e}venin},
   {Bonneau}, {Mourard}, {Chesneau}, {Delaa}, {Ligi}, {Nardetto}, {Perraut},
@@ -60,6 +83,13 @@
 {\sc {Chapman}, R.D.} (1981). {The 1979-1980 eclipse of Zeta Aurigae. I - The
   circumstellar envelope}. {\em \apj\/}, {\bf 248}, 1043--1052.
 
+\bibitem[{{Cohen} {\em et~al.\/}(2005){Cohen}, {Carbon}, {Welch}, {Lim},
+  {Schulz}, {McMurry}, {Forster} \& {Goorvitch}}]{cohen_2005}
+{\sc {Cohen}, M., {Carbon}, D.F., {Welch}, W.J., {Lim}, T., {Schulz}, B.,
+  {McMurry}, A.D., {Forster}, J.R. \& {Goorvitch}, D.} (2005). {Far-Infrared
+  and Millimeter Continuum Studies of K Giants: {$\alpha$} Bootis and
+  {$\alpha$} Tauri}. {\em \aj\/}, {\bf 129}, 2836--2848.
+
 \bibitem[{{Crowley} {\em et~al.\/}(2008){Crowley}, {Espey} \&
   {McCandliss}}]{crowley_2008}
 {\sc {Crowley}, C., {Espey}, B.R. \& {McCandliss}, S.R.} (2008). {EG And: Far
@@ -72,6 +102,13 @@
   K., {Gustafsson}, B., {Plez}, B. \& {Sauval}, A.J.} (2003). {ISO-SWS
   calibration and the accurate modelling of cool-star atmospheres. IV. G9 to M2
   stars}. {\em \aap\/}, {\bf 400}, 709--727.
+
+\bibitem[{{Dehaes} {\em et~al.\/}(2011){Dehaes}, {Bauwens}, {Decin},
+  {Eriksson}, {Raskin}, {Butler}, {Dowell}, {Ali} \& {Blommaert}}]{dehaes_2011}
+{\sc {Dehaes}, S., {Bauwens}, E., {Decin}, L., {Eriksson}, K., {Raskin}, G.,
+  {Butler}, B., {Dowell}, C.D., {Ali}, B. \& {Blommaert}, J.A.D.L.} (2011).
+  {Structure of the outer layers of cool standard stars}. {\em \aap\/}, {\bf
+  533}, A107.
 
 \bibitem[{{di Benedetto}(1993)}]{di_benedetto_1993}
 {\sc {di Benedetto}, G.P.} (1993). {Empirical effective temperatures and
@@ -89,6 +126,11 @@
   {\em Progress in stellar spectral line formation theory; Proceedings of the
   Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
   17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
+
+\bibitem[{{Drake} \& {Linsky}(1983)}]{drake_1983}
+{\sc {Drake}, S.A. \& {Linsky}, J.L.} (1983). {First detection of winds in red
+  giants by microwave continuum techniques}. {\em \apjl\/}, {\bf 274},
+  L77--L81.
 
 \bibitem[{{Dupree} {\em et~al.\/}(2005){Dupree}, {Lobel}, {Young}, {Ake},
   {Linsky} \& {Redfield}}]{dupree_2005}
@@ -113,6 +155,11 @@
 {\sc {Eggen}, O.J.} (1996). {Star Streams and Galactic Structure}. {\em \aj\/},
   {\bf 112}, 1595.
 
+\bibitem[{{Glassgold} \& {Huggins}(1986)}]{glassgold_1986}
+{\sc {Glassgold}, A.E. \& {Huggins}, P.J.} (1986). {The ionization structure of
+  the circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 306},
+  605--617.
+
 \bibitem[{{Gray} {\em et~al.\/}(2006){Gray}, {Corbally}, {Garrison},
   {McFadden}, {Bubar}, {McGahee}, {O'Donoghue} \& {Knox}}]{gray_2006}
 {\sc {Gray}, R.O., {Corbally}, C.J., {Garrison}, R.F., {McFadden}, M.T.,
@@ -133,7 +180,7 @@
   1018--1034.
 
 \bibitem[{{Harper} {\em et~al.\/}(2013){Harper}, {O'Riain} \&
-  {Ayres}}]{2013_harper}
+  {Ayres}}]{harper_2013}
 {\sc {Harper}, G.M., {O'Riain}, N. \& {Ayres}, T.R.} (2013). {Chromospheric
   thermal continuum millimetre emission from non-dusty K and M red giants}.
   {\em \mnras\/}, {\bf 428}, 2064--2073.
@@ -224,6 +271,12 @@
   Extragalactic Origin of the Arcturus Group}. {\em \apjl\/}, {\bf 601},
   L43--L46.
 
+\bibitem[{{O'Gorman} \& {Harper}(2011)}]{ogorman_2011}
+{\sc {O'Gorman}, E. \& {Harper}, G.M.} (2011). {What is Heating Arcturus'
+  Wind?} In C.~{Johns-Krull}, M.K. {Browning} \& A.A. {West}, eds., {\em 16th
+  Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun\/}, vol. 448
+  of {\em Astronomical Society of the Pacific Conference Series\/}, 691.
+
 \bibitem[{{Olnon}(1975)}]{olnon_1975}
 {\sc {Olnon}, F.M.} (1975). {Thermal bremsstrahlung radiospectra for
   inhomogeneous objects, with an application to MWC 349.} {\em \aap\/}, {\bf
@@ -291,9 +344,19 @@
   magnetic field on the giant Arcturus: remnants of a solar dynamo?} {\em
   \aap\/}, {\bf 529}, A100.
 
+\bibitem[{{Slee} {\em et~al.\/}(1989){Slee}, {Stewart}, {Bunton}, {Beasley},
+  {Carter} \& {Nelson}}]{slee_1989}
+{\sc {Slee}, O.B., {Stewart}, R.T., {Bunton}, J.D., {Beasley}, A.J., {Carter},
+  B.D. \& {Nelson}, G.J.} (1989). {A microwave survey of southern red giants}.
+  {\em \mnras\/}, {\bf 239}, 913--922.
+
 \bibitem[{{Soderhjelm} \& {Mignard}(1998)}]{Soderhjelm_1998O}
 {\sc {Soderhjelm}, S. \& {Mignard}, F.} (1998). {Arcturus as a double star}.
   {\em The Observatory\/}, {\bf 118}, 365--366.
+
+\bibitem[{{Spitzer}(1978)}]{spitzer_1978}
+{\sc {Spitzer}, L.} (1978). {\em Physical processes in the interstellar
+  medium\/}. New York Wiley-Interscience, 1978.\ 333 p.
 
 \bibitem[{{Taylor} {\em et~al.\/}(1999){Taylor}, {Carilli} \&
   {Perley}}]{taylor_1999}

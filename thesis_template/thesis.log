@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  27 JUN 2013 22:17
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  28 JUN 2013 17:43
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -858,49 +858,104 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 8.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
 [48
 
 
 
 ] [49]
 
-LaTeX Warning: Reference `fig:fig3' on page 50 undefined on input line 65.
-
-
-LaTeX Warning: Reference `eq:eq1' on page 50 undefined on input line 67.
-
-
-LaTeX Warning: Reference `fig:fig4' on page 50 undefined on input line 67.
-
-[50]
-
-LaTeX Warning: Reference `fig:fig5' on page 51 undefined on input line 71.
-
-
-LaTeX Warning: Reference `fig:fig4' on page 51 undefined on input line 71.
-
-
-LaTeX Warning: Reference `eq:eq1' on page 51 undefined on input line 71.
-
-[51]
-
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 73.
+(hyperref)                removing `\alpha' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 73.
+(hyperref)                removing `math shift' on input line 56.
 
-) [52]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 57.
+
+[50] [51] [52]
+File: /home/eamon/thesis/thesis_template/6/spec_index.ps Graphic file (type eps
+)
+ </home/eamon/thesis/thesis_template/6/spec_index.ps>
+Overfull \hbox (1.83563pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+[53]
+File: /home/eamon/thesis/thesis_template/6/den_temp_coef.ps Graphic file (type 
+eps)
+ </home/eamon/thesis/thesis_template/6/den_temp_coef.ps> [54]
+File: /home/eamon/thesis/thesis_template/6/eff_rad.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/6/eff_rad.ps> [55] [56]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 1.95872pt
+(hyperref)                removed on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 147.
+
+[57]
+
+LaTeX Warning: Reference `fig:fig4' on page 58 undefined on input line 154.
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
+
+
+LaTeX Warning: Reference `fig:fig0' on page 59 undefined on input line 180.
+
+
+LaTeX Warning: Reference `fig:fig1' on page 59 undefined on input line 180.
+
+
+LaTeX Warning: Reference `fig:fig0' on page 59 undefined on input line 180.
+
+) [59]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [53
+) [60
 
 
 
@@ -908,11 +963,11 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [54
+ [61
 
 
-] [55] [56] [57]) [58] (./thesis.aux
-(./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
+] [62] [63] [64] [65]) [66]
+(./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./4/data_analysis.aux)
 (./5/aori.aux) (./6/aboo_atau.aux) (./appendix/app.aux))
@@ -924,12 +979,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9010 strings out of 495062
- 129744 string characters out of 1182645
- 221976 words of memory out of 3000000
- 11859 multiletter control sequences out of 15000+50000
- 27450 words of font info for 99 fonts, out of 3000000 for 9000
+ 9128 strings out of 495062
+ 131820 string characters out of 1182645
+ 223751 words of memory out of 3000000
+ 11973 multiletter control sequences out of 15000+50000
+ 29198 words of font info for 106 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,19n,49p,2391b,597s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,49p,2391b,625s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (69 pages, 339224 bytes).
+Output written on thesis.dvi (77 pages, 394156 bytes).

@@ -30,47 +30,51 @@ Repeated entry---line 729 of file mybib.bib
  : @article{hatzes_1993
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1138 of file mybib.bib
+ : @article{wood_2007
+ :                   ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
-You've used 62 entries,
+You've used 73 entries,
             3018 wiz_defined-function locations,
-            1001 strings with 15335 characters,
-and the built_in function-call counts, 41246 in all, are:
-= -- 3358
-> -- 2180
-< -- 39
-+ -- 768
-- -- 704
-* -- 3515
-:= -- 6294
-add.period$ -- 184
-call.type$ -- 62
-change.case$ -- 546
-chr.to.int$ -- 62
-cite$ -- 63
-duplicate$ -- 2847
-empty$ -- 2827
-format.name$ -- 889
-if$ -- 8220
+            1058 strings with 17206 characters,
+and the built_in function-call counts, 48834 in all, are:
+= -- 3972
+> -- 2597
+< -- 44
++ -- 914
+- -- 839
+* -- 4186
+:= -- 7439
+add.period$ -- 217
+call.type$ -- 73
+change.case$ -- 646
+chr.to.int$ -- 73
+cite$ -- 74
+duplicate$ -- 3369
+empty$ -- 3338
+format.name$ -- 1062
+if$ -- 9729
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 618
-newline$ -- 190
-num.names$ -- 259
-pop$ -- 1230
+missing$ -- 732
+newline$ -- 223
+num.names$ -- 305
+pop$ -- 1463
 preamble$ -- 1
-purify$ -- 478
+purify$ -- 566
 quote$ -- 0
-skip$ -- 1038
+skip$ -- 1225
 stack$ -- 0
-substring$ -- 1754
-swap$ -- 1630
-text.length$ -- 4
+substring$ -- 2061
+swap$ -- 1934
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 549
+type$ -- 645
 warning$ -- 1
-while$ -- 251
+while$ -- 295
 width$ -- 0
-write$ -- 683
-(There were 4 error messages)
+write$ -- 804
+(There were 5 error messages)
