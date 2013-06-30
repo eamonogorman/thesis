@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  28 JUN 2013 17:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  30 JUN 2013 19:00
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -526,8 +526,11 @@ LaTeX Warning: Label `tab:1' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-) (./4/data_analysis.aux) (./5/aori.aux) (./6/aboo_atau.aux)
-(./appendix/app.aux))
+) (./4/data_analysis.aux) (./5/aori.aux) (./6/aboo_atau.aux
+
+LaTeX Warning: Label `eq:eq6.9.3' multiply defined.
+
+) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
@@ -549,7 +552,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 128.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
@@ -920,42 +924,37 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
 (hyperref)                removed on input line 145.
 
+[57] [58]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 147.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 147.
+(hyperref)                removing `math shift' on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 147.
-
-[57]
-
-LaTeX Warning: Reference `fig:fig4' on page 58 undefined on input line 154.
-
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
-
- []
+(hyperref)                removing `\alpha' on input line 209.
 
 
-LaTeX Warning: Reference `fig:fig0' on page 59 undefined on input line 180.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 209.
 
 
-LaTeX Warning: Reference `fig:fig1' on page 59 undefined on input line 180.
+LaTeX Warning: Reference `fig:fig0' on page 59 undefined on input line 212.
 
 
-LaTeX Warning: Reference `fig:fig0' on page 59 undefined on input line 180.
+LaTeX Warning: Reference `eq:eq2' on page 59 undefined on input line 212.
 
-) [59]
+
+LaTeX Warning: Reference `fig:fig1' on page 59 undefined on input line 212.
+
+
+LaTeX Warning: Reference `fig:fig0' on page 59 undefined on input line 212.
+
+[59]) [60]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [60
+) [61
 
 
 
@@ -963,10 +962,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [61
+ [62
 
 
-] [62] [63] [64] [65]) [66]
+] [63] [64] [65] [66]) [67]
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./4/data_analysis.aux)
@@ -979,12 +978,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9128 strings out of 495062
- 131820 string characters out of 1182645
- 223751 words of memory out of 3000000
+ 9130 strings out of 495062
+ 131847 string characters out of 1182645
+ 223718 words of memory out of 3000000
  11973 multiletter control sequences out of 15000+50000
- 29198 words of font info for 106 fonts, out of 3000000 for 9000
+ 29817 words of font info for 108 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,19n,49p,2391b,625s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (77 pages, 394156 bytes).
+Output written on thesis.dvi (78 pages, 395448 bytes).
