@@ -60,12 +60,12 @@ Long wavelength radio emission from non-dusty K spectral-type red giants is due 
 
 We therefore relax some of the constant property wind model assumptions and assume that the electron density and temperature vary as a function of distance from the star $r$, and have the power-law form $n_{e} \propto r^{-p}$ and $T_{e} \propto r^{-n}$, respectively \citep[e.g.,][]{seaquist_1987}. Finding the spectral index for an outflow with these conditions is non-trivial so we highlight the main steps required to do so here. We assume the same geometry and notation used for the constant property wind model in Chapter 1, and again start by calculating the total optical depth for a ray with an impact parameter $b$, through the atmosphere:
 \begin{equation}
-\tau_{\nu} =\frac{0.212Z^2n^2_{\rm{e}}(R_{0})R_{0}^{2p}}{T^{1.35}\nu^{2.1}T_{e}^{1.35}(R_{0})R_{0}^{1.35n}}\int ^{\infty}_{-\infty} \frac{1}{(b^2 + z^2)^{(1.35n -2p)/2}} dz.
+\tau_{\nu} =\frac{0.212Z^2n^2_{\rm{e}}(r_{0})r_{0}^{2p}}{T^{1.35}\nu^{2.1}T_{e}^{1.35}(r_{0})r_{0}^{1.35n}}\int ^{\infty}_{-\infty} \frac{1}{(b^2 + z^2)^{(1.35n -2p)/2}} dz.
 \label{eq:eq6.6.1}
 \end{equation}
 This integral can be solved using the relationship
 \begin{equation}
-\int ^{\infty}_{-\infty} \frac{1}{(b^2+z^2)^{t/2}} dz = b^{1-t}\sqrt{\pi}\left[\frac{\Gamma(t/2-0.5)}{\Gamma (t/2)} \right]
+\int ^{\infty}_{-\infty} \frac{1}{(b^2+z^2)^{t/2}} dz = b^{1-t}\sqrt{\pi}\left[\frac{\Gamma(0.5t-0.5)}{\Gamma (0.5t)} \right]
 \label{eq:eq6.6.2}
 \end{equation}
 and setting $t=(1.35n -2p)$. Here $\Gamma$ is the gamma function i.e., $\Gamma (y)= \int ^{\infty}_{0} u^{y-1}e^{-u}du$. The total optical depth along a ray is then 
@@ -80,17 +80,17 @@ F_{\nu} = \frac{2\pi}{D^2}\int ^{\infty}_{0} B_{\nu}[1 - e^{-\tau_{\nu}(b)}]bdb,
 \end{equation}
 we can now substitute in the Rayleigh Jeans function for $B_{\nu}$ (remembering that $T_{e}$ now depends on distance from the star) to get
 \begin{equation}
-F_{\nu}=\frac{4\pi k\nu^2 T_{e}(R_{0})R_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})(b^2+z^2)^{-\frac{n}{2}}bdb.
+F_{\nu}=\frac{4\pi k\nu^2 T_{e}(r_{0})r_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})(b^2+z^2)^{-\frac{n}{2}}bdb.
 \label{eq:eq6.6.5}
 \end{equation}
 Expansion of the second term inside the integral gives
 \begin{equation}
-F_{\nu} \simeq \frac{4\pi k\nu^2 T_{e}(R_{0})R_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})b^{1-n}db
+F_{\nu} \simeq \frac{4\pi k\nu^2 T_{e}(r_{0})r_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})b^{1-n}db.
 \label{eq:eq6.6.6}
 \end{equation}
 To progress further, Equation \ref{eq:eq6.6.3} can be rearranged to find $b$ and $db$ in terms of $\tau _{\nu}$, and can then be inserted into Equation \ref{eq:eq6.6.6} to give
 \begin{equation}
-F_{\nu} \simeq \frac{4\pi k\nu^2T_{0}(R_{0})R_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})\left(\frac{\tau _{\nu}}{G} \right)^{\frac{1-2.35n +2p}{1-2p +1.35n}}\frac{d\tau _{\nu}}{G(1-2p + 1.35n)}.
+F_{\nu} \simeq \frac{4\pi k\nu^2T_{0}(r_{0})r_{0}^{n}}{D^2c^2}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})\left(\frac{\tau _{\nu}}{G} \right)^{\frac{1-2.35n +2p}{1-2p +1.35n}}\frac{d\tau _{\nu}}{G(1-2p + 1.35n)}.
 \label{eq:eq6.6.7}
 \end{equation}
 This allows $\nu$ to be separated out to give
@@ -126,7 +126,7 @@ The radio spectra for both stars are shown in Figure \ref{fig6.6.1}, together wi
 \label{fig6.6.2}
 \end{figure}
 
-Equation \ref{eq:eq6.6.10} can be used in conjunction with our new spectral index for each star to calculate the density and temperature coefficients that may describe their outflows. The combinations of the electron temperature and density coefficients are shown for each star in Figure \ref{fig6.6.2} along with the coefficients obtained by assuming either an isothermal flow or a constant velocity flow. One explanation for spectral indices of stellar outflows being larger than 0.6 is that the wind is still accelerating in the radio emitting region, if the thermal gradients are assumed to be small. Ignoring thermal gradients may be reasonable over the wind acceleration region since it is probable that some form of Alfv\'en waves are required to lift the material out of the gravitational potential. These waves would need to have large damping lengths and undergo some dissipation within a few stellar radii of the surface in order to produce the low terminal velocities \citep{hartmann_1980}. These large damping lengths could result in shallow thermal gradients close in. If we ignore thermal gradients, then the density coefficients are $p=$2.71 and 5.5 for $\alpha$ Boo  and $\alpha$ Tau, respectively. This assumption is reasonable at short wavelengths where the majority of the radio emission is expected to emanate from the chromosphere or wind acceleration zone, but at long VLA wavelengths (i.e., between 6 and 20 cm) we may indeed be sampling the wind very close to or at its terminal velocity and the wind may have substantial thermal gradients caused by adiabatic cooling. 
+Equation \ref{eq:eq6.6.10} can be used in conjunction with our new spectral index for each star to calculate the density and temperature coefficients that may describe their outflows. The combinations of the electron temperature and density coefficients are shown for each star in Figure \ref{fig6.6.2} along with the coefficients obtained by assuming either an isothermal flow or a constant velocity flow. One explanation for spectral indices of stellar outflows being larger than 0.6 is that the wind is still accelerating in the radio emitting region, if the thermal gradients are assumed to be small. Ignoring thermal gradients may be reasonable over the wind acceleration region since it is probable that some form of Alfv\'en waves are required to lift the material out of the gravitational potential. These waves would need to have large damping lengths and undergo some dissipation within a few stellar radii of the surface in order to produce the low terminal velocities \citep{hartmann_1980}. These large damping lengths could result in shallow thermal gradients close in. If we ignore thermal gradients, then the density coefficients are $p=$2.71 and 5.5 for $\alpha$ Boo  and $\alpha$ Tau, respectively. This assumption is reasonable at short wavelengths where the majority of the radio emission is expected to emanate from the chromosphere or wind acceleration zone, but at long VLA wavelengths (i.e., between 6 and 20 cm) we may indeed be sampling the wind very close to or at its terminal velocity and the wind may have substantial thermal gradients caused by adiabatic expansion cooling. 
 
 To investigate this matter further,  we estimate the effective radius of the radio emitting region as a function of wavelength based on the Drake model for $\alpha$ Boo and the hybrid McMurry and Robinson model for $\alpha$ Tau. We follow the approach used by \cite{cassinelli_1977} and assume that the radio emission at each wavelength emanates from a surface at radial optical depth $\tau _{\rm{rad}}=$1/3. This is a modification of the Eddington-Barbier relation for an extended atmosphere where emission from smaller optical depths has added weight. Since the radio free-free opacity increases at longer wavelengths the optical depth along a line of sight into the stellar outflow also increases at longer wavelengths. This implies that the effective radius (i.e., the radius where $\tau _{\lambda} = \tau _{\rm{rad}}$) will increase with longer wavelengths and will be greater for outflows with higher densities of ionized material as $\tau _{\lambda} \propto \lambda ^{2.1}\int n_{\rm{ion}}(r)n_{\rm{e}}(r) dr$. 
 
@@ -140,45 +140,41 @@ To investigate this matter further,  we estimate the effective radius of the rad
 The large mass loss rate of $\alpha$ Boo in comparison to $\alpha$ Tau means that the latter has a substantially smaller effective radius at longer wavelengths, as seen in Figure \ref{fig6.6.3}. At 6, 13, and 20 cm the effective radius of $\alpha$ Boo at $\tau _{\rm{rad}}$=1/3 is predicted to be 1.6, 2.8, and 3.7 $R_{\star}$ but is only $\sim$1.2 $R_{\star}$ at 6 and 13 cm for $\alpha$ Tau. \cite{robinson_1998} predict that $\alpha$ Tau's wind reaches $\sim$80\% of its terminal velocity by 3 $R_{\star}$, but even our longest-wavelength observations are highly unlikely to sample the wind outside the lower velocity layers closer to the star. For $\alpha$ Boo however, \cite{drake_1985} predicts that the wind has reached its terminal velocity by $\sim$2 $R_{\star}$, so based on this model our longest-wavelength measurements are of the region where the wind has reached a steady terminal velocity. From Figure \ref{fig6.6.3}, this implies that the $n_{\rm{e}}$ coefficient is $p=2$ and thus the $T_{\rm{e}}$ coefficient is $n=1.65$. Pure adiabatic cooling with no heat source has $n=1.33$ so additional cooling routes must be operating, possibly due to recombination of H$^{+}$ and/or line cooling. Finally, the wind ionization balance may not have become \textit{frozen-in} in the region of $\alpha$ Boo's wind where the radio emission emanates from. If this is true, then the excess slope of the spectral index could be due to a combination of both cooling and changing ionization fraction. In this scenario the temperature coefficient $n$, would be smaller than our derived value because Equation \ref{eq:eq6.6.10} assumes a constant ionization fraction.
 
 \section{Analytical Advection Model for $\alpha$ Boo's \\ Wind}\label{sec:6.7}
-A failure of the Drake model for $\alpha$ Boo is that it overestimates our long wavelength VLA radio flux densities which sample the outer atmosphere, as clearly shown in Figure x. If these wavelengths are indeed sampling the wind at its terminal velocity then a reason for this overestimation may be that the wind is cooling closer in than predicted by the existing model, which assumes a constant temperature of 8,000 K out to $\sim$20 $R_{\star}$. The main mechanism for such cooling would be adiabatic expansion \citep{ogorman_2011} and would cause lower electron densities than those predicted by the existing model due to larger recombination rates. In the next two sections we derive the fractional ionized hydrogen in a stellar outflow with a temperature gradient based on the work of \cite{glassgold_1986}, and use this method to insert a temperature gradient into the outer atmosphere of the Drake model to see if such an atmosphere could match our new long wavelength VLA flux densities better.
+A failure of the Drake model for $\alpha$ Boo is that it overestimates our long wavelength VLA radio flux densities which sample the outer atmosphere, as clearly shown in Figure x. If these wavelengths are indeed sampling the wind at its terminal velocity then one reason for this overestimation is that the wind is cooling closer in than predicted by the existing model, which assumes a constant temperature of 8,000 K out to $\sim$20 $R_{\star}$. The main mechanism for such cooling would be adiabatic expansion \citep{ogorman_2011} and would cause lower electron densities than those predicted by the existing model due to larger recombination rates. In the next two sections we derive the fractional ionized hydrogen in a stellar outflow with a temperature gradient based on the work of \cite{glassgold_1986}, and use this method to insert a temperature gradient into the outer atmosphere of the Drake model to see if such an atmosphere could match our new long wavelength VLA flux densities better.
 
 \subsection{\ion{H}{ii} recombination in a stellar outflow}\label{sec:6.6.1}
 
-The time dependent rate/statistical equations in a steady flow can be written as
+The time dependent non-static rate/statistical equations can be written as
 \begin{equation}
-\frac{\partial n_{i}}{\partial t}+\grad{.(n_{i}v)} = \sum_{i\neq j}^n n_{j}P_{ji} - n_{i}\sum_{j\neq 1}^n P_{ij} 
+\frac{\partial n_{i}}{\partial t}+\grad{.(n_{i}v)} = \sum_{i\neq j}^n n_{j}P_{ji} - n_{i}\sum_{i\neq j}^n P_{ij} 
 \end{equation}
-where $v$ is the flow velocity, $n_{i,j}$ are the population densities of the energy levels $i,j$ which are a function of radial distance $r$, and  $P_{ji}=C_{ji}+R_{ji}$ is the total transition probability (s$^{-1}$) from energy level $j \rightarrow i$. $C_{ij}$ is the total collision rate (electrons, protons, and ions) and $R_{ij}$ are the problematic radiative rates. In 1-D spherical geometry
+where $v$ is the flow velocity, $n_{i,j}$ are the population densities of the energy levels $i,j$ which are functions of radial distance $r$, and  $P_{ij}=C_{ij}+R_{ij}$ are the total transition probabilities (s$^{-1}$) from energy levels $i \rightarrow j$. $C_{ij}$ are the total collision rates (electrons, protons, and ions), and $R_{ij}$ are the problematic radiative rates. In 1-D spherical geometry
 \begin{equation}
 \grad{.A} = \frac{1}{r^2}\frac{d}{dr}(r^2 A)
 \end{equation}
 where $A$ is some vector quantity and equals $n_{i}v$ in our case. Thus, for a steady flow the rate equations become
 \begin{equation}
-\frac{1}{r^2}\frac{d}{dr}(r^2 vn_{\rm{tot}}\frac{n_{i}}{n_{\rm{tot}}}) = \sum_{i\neq j}^{n} n_{j}P_{ji} - n_{i}\sum_{j\neq 1}^n P_{ij}
+\frac{1}{r^2}\frac{d}{dr}(r^2 vn_{\rm{tot}}\frac{n_{i}}{n_{\rm{tot}}}) = \sum_{i\neq j}^{n} n_{j}P_{ji} - n_{i}\sum_{i\neq j}^n P_{ij}
 \end{equation}
 where $n_{\rm{tot}}$ is the total hydrogen number density (i.e. $n_{\rm{tot}} = n_{\rm{HI}}+n_{\rm{HII}}$).
-We note that $r^2 vn_{\rm{tot}}$ is some constant of the flow and if we define the relative populations as $x_{i}=n_{i}/n_{\rm{tot}}$ we get
+We note that $r^2 vn_{\rm{tot}}$ is some constant of the flow defined by the mass continuity equation, and if we define the relative populations as $x_{i}=n_{i}/n_{\rm{tot}}$ we get
 \begin{equation}
 v\frac{d}{dr}(x_{i}) = \sum_{i\neq j}^{n} x_{j}P_{ji} - x_{i}\sum_{i\neq j}^n P_{ij}.
 \label{eq:eq6.9.1}
 \end{equation}
-To simplify this expression further, we follow the approach of \cite{glassgold_1986} and assume:
 
-1. A constant velocity mass outflow, i.e., $n_{\rm{tot}}=C/r^2$ where $C$ is a constant proportional to the ratio of the mass loss rate divided by the terminal velocity. 
-
-2. All hydrogen ionization processes cease beyond some distance $r_{1}$ (i.e. $P_{ij}=0$). The ionization of hydrogen in the chromosphere and wind is a two stage process: the $n = 2$ level is excited by electron collisions and Lyman-alpha scattering, followed by photoionization by the optically thin Balmer continuum. When the temperature begins to decrease in the wind the collisional excitation rate and thus ionization rate decrease rapidly.
-
-3. Only radiative recombination of hydrogen is considered [i.e. $R_{ji}=\alpha _{\rm{rr}}(T_e)n_e$ where $\alpha _{\rm{rr}}$ is the total radiative recombination coefficient].
-
-4. A fixed ion contribution from metals with a low first ionization potential, $x_{\rm{ion}}=n_{\rm{ion}}/n_{\rm{tot}}=10^{-4}$, as these are easily ionized in the outflow. The total electron density is then $n_e=n_{\rm{tot}}x_{\rm{HII}} + n_{\rm{tot}}x_{\rm{ion}}$ where  $x_{\rm{HII}}=n_{\rm{HII}}/(n_{\rm{HI}}+n_{\rm{HII}})$.
-
+To simplify Equation \ref{eq:eq6.9.1} further, we follow the approach of \cite{glassgold_1986} and assume:\\
+1. A constant velocity mass outflow, i.e., $n_{\rm{tot}}=C/r^2$ where $C$ is a constant proportional to the ratio of the mass loss rate divided by the terminal velocity.\\
+2. All hydrogen ionization processes cease beyond some distance $r_{1}$ (i.e. $P_{ij}=0$). The ionization of hydrogen in the chromosphere and wind is a two stage process: the $n = 2$ level is excited by electron collisions and Lyman-alpha scattering, followed by photoionization by the optically thin Balmer continuum. When the temperature begins to decrease in the wind the collisional excitation rate and thus ionization rate decrease rapidly.\\
+3. Only radiative recombination of hydrogen is considered [i.e. $R_{ji}=\alpha _{\rm{rr}}(T_e)n_e$ where $\alpha _{\rm{rr}}$ is the total radiative recombination coefficient].\\
+4. A fixed ion contribution from metals with a low first ionization potential, $x_{\rm{ion}}=n_{\rm{ion}}/n_{\rm{tot}}$, as these are easily ionized in the outflow. The total electron density is then $n_e=n_{\rm{tot}}x_{\rm{HII}} + n_{\rm{tot}}x_{\rm{ion}}$ where  $x_{\rm{HII}}=n_{\rm{HII}}/(n_{\rm{HI}}+n_{\rm{HII}})$.\\
 Using these assumptions Equation \ref{eq:eq6.9.1} becomes
 \begin{equation}
-\frac{dx_{\rm{HII}}}{dr}=\frac{\alpha C}{Vr^2}\left(x_{\rm{HII}}^2 +x_{\rm{ion}}x_{\rm{HII}} \right)
+\frac{dx_{\rm{HII}}}{dr}=\frac{\alpha _{\rm{rr}}C}{vr^2}\left(x_{\rm{HII}}^2 +x_{\rm{ion}}x_{\rm{HII}} \right)
 \end{equation}
-which can be rearranged to give
+which can be rearranged and integrated between $r_1$ and $r$ to give
 \begin{equation}
-\int_{x(r_1)}^{x_{\rm{HII}}(r)}\frac{dx_{\rm{HII}}}{x_{\rm{HII}}(x_{\rm{HII}}+x_{\rm{ion}})}=\int_{r_{1}}^r \frac{\alpha _{\rm{rr}} C }{vr^2}dr
+\int_{x_{\rm{HII}(r_1)}}^{x_{\rm{HII}}(r)}\frac{dx_{\rm{HII}}}{x_{\rm{HII}}(x_{\rm{HII}}+x_{\rm{ion}})}=\int_{r_{1}}^r \frac{\alpha _{\rm{rr}} C }{vr^2}dr.
 \end{equation}
 The ionization fraction beyond $r_{1}$ is then given by
 \begin{equation}
@@ -187,27 +183,54 @@ x_{\rm{HII}}(r)= \frac{x_{\rm{HII}}(r_1)x_{\rm{ion}}e^{-I(r)}}{x_{\rm{ion}}+x_{\
 \end{equation}
 where
 \begin{equation}
-I=\int_{r_{1}}^r \frac{x_{\rm{ion}} \alpha _{\rm{rr}}C }{vr^2}dr
+I(r)=\int_{r_{1}}^r \frac{x_{\rm{ion}} \alpha _{\rm{rr}}C }{vr^2}dr
 \end{equation}
-If we further assume a constant velocity, and if $T_{e} \propto r^{-n}$ and $\alpha _{\rm{rr}} \propto T_e ^{-\beta}$ giving $\alpha _{\rm{rr}} \propto r^{-ab}$, then
+If we further assume a constant velocity, $T_{e} \propto r^{-n}$, and $\alpha _{\rm{rr}} \propto T_e ^{-\beta}$ giving $\alpha _{\rm{rr}} \propto r^{-n\beta}$, then
 \begin{equation}
-x_{\rm{HII}}(r)=\frac{x_{\rm{HII}}(r_1)e^{-w}x_{\rm{ion}}}{x_{\rm{ion}}+x_{\rm{HII}}(r_1)(1-e^{-w})}
+x_{\rm{HII}}(r)=\frac{x_{\rm{HII}}(r_1)x_{\rm{ion}}e^{-w}}{x_{\rm{ion}}+x_{\rm{HII}}(r_1)(1-e^{-w})}
+\label{eq:eq6.9.1.5}
 \end{equation}
 where
 \begin{equation}
-I(r)=w\left[1-\left(\frac{r_1}{r}\right)^{1-b} \right]
-\label{eq:eq6.9.3}
+I(r)=w\left[1-\left(\frac{r_1}{r}\right)^{1-n\beta} \right]
+\label{eq:eq6.9.1.6}
 \end{equation}
 and 
 \begin{equation}
-w=\frac{x_{\rm{ion}}\alpha_{\rm{rr}}(r_1)C}{vr_1(1-b)}.
-\label{eq:eq6.9.3}
+w=\frac{x_{\rm{ion}}\alpha_{\rm{rr}}(r_1)C}{vr_1(1-n\beta)}.
+\label{eq:eq6.9.1.7}
 \end{equation}
-As $w$ is just a constant, $I(r)$ approaches a constant value for large $r$. This means that $x_{\rm{HII}}(r)$ also approaches a constant value for large $r$, i.e. the ionization fraction gets \textit{frozen-in}.
+As $w$ is just a constant, $I(r)$ approaches a constant value for large $r$. This means that $x_{\rm{HII}}(r)$ also approaches a constant value for large $r$, and the ionization fraction gets \textit{frozen-in}. This is a universal property of all stellar winds. \textbf{How does it depend on Mdot and $v$? Maybe add a plot.}
 
 
-\subsection{Application to $\alpha$ Boo's outflow}\label{sec:6.6.2}
+\subsection{Application to $\alpha$ Boo's Wind}\label{sec:6.6.2}
+To investigate the possibility that $\alpha$ Boo's wind may be undergoing more rapid cooling closer in to the star than originally predicted by the Drake Model, we adjusted one of the existing models [referred to as `Model A' in \cite{drake_1985}] to include a temperature power-law falloff of the form
+\begin{equation}
+T_{e}(r)= T_{e}(r_{1})\left(\frac{r_{1}}{r}\right)^{n},
+\label{eq:eq2}
+\end{equation}
+at some distance $r_{1}$ from the star. We set the temperature coefficient to the value obtained from our new VLA data assuming a constant velocity flow, i.e. $n=1.65$ (see Figure \ref{fig6.6.2}). We introduce the distance $r_{1}$ as the outer limit to ionization processes; at $r > r_{1}$, the ionization fraction is only determined by recombination. To calculate the new $n_{\rm{e}}$ densities in the wind regime where this temperature falloff occurs, we used Equations \ref{eq:eq6.9.1.5}, \ref{eq:eq6.9.1.6}, and \ref{eq:eq6.9.1.7} to calculate the hydrogen ionization fraction, $x_{\rm{H \, II}}=n_{\rm{H \, II}}/n_{\rm{H}}$. We assume a fixed ion contribution from metals with a low first ionization potential of $x_{\rm{ion}} = 1 \times 10^{-4}$. So, knowing that the total hydrogen density does not change, the density of electrons at any point in the wind is simply
+\begin{equation}
+n_{\rm{e}}(r)=n_{\rm{tot}}(r)[x_{\rm{H \, II}}(r) + 1\times 10^{4}]
+\end{equation}
 
+Using the same wind terminal velocity as that used in `Model A' (i.e. 35 km s$^{-1}$) and the mass loss rate defined in Table x, we find the constant proportional to the ratio of the mass loss rate divided by the terminal velocity to be $C = 1.7 \times 10^{32} $ cm$^{-1}$. We consider only radiative recombination of hydrogen and include the temperature variation of the recombination coefficient $\alpha _{B}$, which excludes captures to the n=1 level \citep{spitzer_1978}. The recombination coefficient varies with temperature as
+\begin{equation}
+\alpha _{B} = \alpha _{B}(r_{1})\left[\frac{T_{e}(r_1)}{T_{e}(r)}\right]^{0.77},
+\label{eq:eq3}
+\end{equation}
+where the power law coefficient is obtained by finding the slope of the recombination coefficients between 1,000 K and 16,000 K given in \cite{spitzer_1978}.
+
+Using these assumptions it can be shown that the ionization fraction beyond $r_{1}$ is given by \citep{1986ApJ...306..605G}
+\begin{equation}
+x_{\rm{HII}}(r)= \frac{x_{\rm{HII}}(r_1)x_{\rm{ion}}e^{-I(r)}}{x_{\rm{ion}}+x_{\rm{HII}}(r_1)[1 - e^{-I(r)}]}
+\label{eq:eq4}
+\end{equation}
+where
+\begin{equation}
+I(r) = \frac{4.7\times 10^9}{r_{1}}\left[\left( \frac{r_{1}}{r}\right)^{-0.27} -1 \right], \ \rm{and} \ \  r \geq r_{1}.
+\label{eq:eq5}
+\end{equation}
 
 We adjusted the value of $r_{1}$ to obtain the best fit to our long wavelength observations and found this happened when $r_{1}$ = 2.3 $R_{\star}$. To get this best fit, the existing atmospheric model (plotted in Figure \ref{fig:fig0}) needed to be adjusted so that it now has a narrower and slightly larger temperature plateau of $T_e = 10,000$ K between 1.2 and 2.3 $R_{\star}$, and a temperature profile and a density profile governed by Equation \ref{eq:eq2} and Equation \ref{eq:eq4} beyond $r_{1}$ = 2.3 $R_{\star}$, respectively. This gives good agreement with our new long wavelength VLA data as shown in Figure \ref{fig:fig1}. This new \textit{hybrid} model which is plotted along with the original Drake model in Figure \ref{fig:fig0}, still has the original ionization fraction of $x_{\rm{HII}} \approx 0.5$ inside 2.3 $R_{\star}$ but now contains an initial rapid decrease in $x_{\rm{HII}}$ beyond 2.3 $R_{\star}$ which then \textit{freezes-in} to a constant value of $\sim$0.04 beyond $\sim$10 $R_{\star}$.
 
