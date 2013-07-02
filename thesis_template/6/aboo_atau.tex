@@ -187,7 +187,7 @@ I(r)=\int_{r_{1}}^r \frac{x_{\rm{ion}} \alpha _{\rm{rr}}C }{vr^2}dr
 \end{equation}
 If we further assume a constant velocity, $T_{e} \propto r^{-n}$, and $\alpha _{\rm{rr}} \propto T_e ^{-\beta}$ giving $\alpha _{\rm{rr}} \propto r^{-n\beta}$, then
 \begin{equation}
-x_{\rm{HII}}(r)=\frac{x_{\rm{HII}}(r_1)x_{\rm{ion}}e^{-w}}{x_{\rm{ion}}+x_{\rm{HII}}(r_1)(1-e^{-w})}
+x_{\rm{HII}}(r)=\frac{x_{\rm{HII}}(r_1)x_{\rm{ion}}e^{-I(r)}}{x_{\rm{ion}}+x_{\rm{HII}}(r_1)(1-e^{-I(r)})}
 \label{eq:eq6.9.1.5}
 \end{equation}
 where
@@ -202,26 +202,25 @@ w=\frac{x_{\rm{ion}}\alpha_{\rm{rr}}(r_1)C}{vr_1(1-n\beta)}.
 \end{equation}
 As $w$ is just a constant, $I(r)$ approaches a constant value for large $r$. This means that $x_{\rm{HII}}(r)$ also approaches a constant value for large $r$, and the ionization fraction gets \textit{frozen-in}. This is a universal property of all stellar winds. \textbf{How does it depend on Mdot and $v$? Maybe add a plot.}
 
-
 \subsection{Application to $\alpha$ Boo's Wind}\label{sec:6.6.2}
-To investigate the possibility that $\alpha$ Boo's wind may be undergoing more rapid cooling closer in to the star than originally predicted by the Drake Model, we adjusted one of the existing models [referred to as `Model A' in \cite{drake_1985}] to include a temperature power-law falloff of the form
+To investigate the possibility that $\alpha$ Boo's wind may be undergoing more rapid cooling closer in to the star than originally predicted by the Drake Model, we adjust one of the existing models [referred to as `Model A' in \cite{drake_1985}] to include a temperature power-law falloff of the form
 \begin{equation}
 T_{e}(r)= T_{e}(r_{1})\left(\frac{r_{1}}{r}\right)^{n},
 \label{eq:eq2}
 \end{equation}
-at some distance $r_{1}$ from the star. We set the temperature coefficient to the value obtained from our new VLA data assuming a constant velocity flow, i.e. $n=1.65$ (see Figure \ref{fig6.6.2}). We introduce the distance $r_{1}$ as the outer limit to ionization processes; at $r > r_{1}$, the ionization fraction is only determined by recombination. To calculate the new $n_{\rm{e}}$ densities in the wind regime where this temperature falloff occurs, we used Equations \ref{eq:eq6.9.1.5}, \ref{eq:eq6.9.1.6}, and \ref{eq:eq6.9.1.7} to calculate the hydrogen ionization fraction, $x_{\rm{H \, II}}=n_{\rm{H \, II}}/n_{\rm{H}}$. We assume a fixed ion contribution from metals with a low first ionization potential of $x_{\rm{ion}} = 1 \times 10^{-4}$. So, knowing that the total hydrogen density does not change, the density of electrons at any point in the wind is simply
+at some distance $r_{1}$ from the star. We set the temperature coefficient to the value obtained from our new VLA data which was derived assuming a constant velocity flow, i.e. $n=1.65$ (see Figure \ref{fig6.6.2}). We introduce the distance $r_{1}$ as the outer limit to ionization processes; at $r > r_{1}$, the ionization fraction is only determined by recombination. To calculate the new electron densities in the wind regime where this temperature falloff occurs, we use Equations \ref{eq:eq6.9.1.5}, \ref{eq:eq6.9.1.6}, and \ref{eq:eq6.9.1.7} to calculate the hydrogen ionization fraction, $x_{\rm{H \, II}}=n_{\rm{H \, II}}/n_{\rm{H}}$. We assume a fixed ion contribution from metals with a low first ionization potential of $x_{\rm{ion}} = 1 \times 10^{-4}$. So, knowing that the total hydrogen density does not change, the electron density at any point in the wind post $r_1$ can be found by the following formula
 \begin{equation}
-n_{\rm{e}}(r)=n_{\rm{tot}}(r)[x_{\rm{H \, II}}(r) + 1\times 10^{4}]
+n_{\rm{e}}(r)=n_{\rm{tot}}(r)[x_{\rm{H \, II}}(r) + 1\times 10^{-4}].
 \end{equation}
 
-Using the same wind terminal velocity as that used in `Model A' (i.e. 35 km s$^{-1}$) and the mass loss rate defined in Table x, we find the constant proportional to the ratio of the mass loss rate divided by the terminal velocity to be $C = 1.7 \times 10^{32} $ cm$^{-1}$. We consider only radiative recombination of hydrogen and include the temperature variation of the recombination coefficient $\alpha _{B}$, which excludes captures to the n=1 level \citep{spitzer_1978}. The recombination coefficient varies with temperature as
-\begin{equation}
-\alpha _{B} = \alpha _{B}(r_{1})\left[\frac{T_{e}(r_1)}{T_{e}(r)}\right]^{0.77},
-\label{eq:eq3}
-\end{equation}
-where the power law coefficient is obtained by finding the slope of the recombination coefficients between 1,000 K and 16,000 K given in \cite{spitzer_1978}.
-
-Using these assumptions it can be shown that the ionization fraction beyond $r_{1}$ is given by \citep{1986ApJ...306..605G}
+Using the same wind terminal velocity as that used in `Model A' (i.e. 35 km s$^{-1}$) and the mass loss rate defined in Table x, we find the constant proportional to the ratio of the mass loss rate divided by the terminal velocity to be $C = 1.7 \times 10^{32} $ cm$^{-1}$ for $\alpha$ Boo. To calculate the temperature dependent radiative recombination coefficient $\alpha _{\rm{rr}}$ and its power law coefficient $\beta$ used in Equation \ref{eq:eq6.9.1.7}, we consider only radiative recombination of hydrogen and exclude captures to the n=1 level. \cite{spitzer_1978} has tabulated values for the variation of this recombination coefficient with temperature and it is often referred to as $\alpha _{B}$ in the literature when captures to the n=1 level are excluded. To find the power law form of $\alpha _{B}$ we found the best fit to the tabulated data between a \textit{reasonable} range of temperatures in the outflow of $\alpha$ Boo. This approach is shown in Figure \ref{fig6.9.2}, where $\beta$ was found to be 0.77 by fitting a power law to values of $\alpha _{B}$ between 1,000 and 16,000 K. For completeness, we also show in Figure \ref{fig6.9.2} the slight variation in $\beta$ if a wider range of temperatures is used and also if captures to the n=1 level are included.
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[trim=0pt 0pt 0pt 0pt,clip,width=13.0cm]{/home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps}
+\caption[The temperature dependent recombination rates for hydrogen.]{The temperature dependent recombination rates for hydrogen. The variation of the recombination rate excluding captures to the n=1 level $\alpha _{B}$, with temperature  is derived for the tabulated temperatures in \cite{spitzer_1978} (black) and for the more realistic temperatures existing in $\alpha$ Boo's outflow (blue). We also show the how the recombination coefficient varies with temperature if captures to the n=1 level are included (red).}
+\label{fig6.9.2}
+\end{figure}
+It can then be easily shown that the ionization fraction beyond $r_{1}$ is given by 
 \begin{equation}
 x_{\rm{HII}}(r)= \frac{x_{\rm{HII}}(r_1)x_{\rm{ion}}e^{-I(r)}}{x_{\rm{ion}}+x_{\rm{HII}}(r_1)[1 - e^{-I(r)}]}
 \label{eq:eq4}
@@ -232,6 +231,13 @@ I(r) = \frac{4.7\times 10^9}{r_{1}}\left[\left( \frac{r_{1}}{r}\right)^{-0.27} -
 \label{eq:eq5}
 \end{equation}
 
-We adjusted the value of $r_{1}$ to obtain the best fit to our long wavelength observations and found this happened when $r_{1}$ = 2.3 $R_{\star}$. To get this best fit, the existing atmospheric model (plotted in Figure \ref{fig:fig0}) needed to be adjusted so that it now has a narrower and slightly larger temperature plateau of $T_e = 10,000$ K between 1.2 and 2.3 $R_{\star}$, and a temperature profile and a density profile governed by Equation \ref{eq:eq2} and Equation \ref{eq:eq4} beyond $r_{1}$ = 2.3 $R_{\star}$, respectively. This gives good agreement with our new long wavelength VLA data as shown in Figure \ref{fig:fig1}. This new \textit{hybrid} model which is plotted along with the original Drake model in Figure \ref{fig:fig0}, still has the original ionization fraction of $x_{\rm{HII}} \approx 0.5$ inside 2.3 $R_{\star}$ but now contains an initial rapid decrease in $x_{\rm{HII}}$ beyond 2.3 $R_{\star}$ which then \textit{freezes-in} to a constant value of $\sim$0.04 beyond $\sim$10 $R_{\star}$.
+We then adjusted the value of $r_{1}$ to obtain the best fit to our long wavelength observations and found this happened when $r_{1}$ = 2.3 $R_{\star}$. To get this best fit, the existing atmospheric model (plotted in Figure x) needed to be adjusted so that it now has a narrower and slightly larger temperature plateau of $T_e = 10,000$ K between 1.2 and 2.3 $R_{\star}$, and a temperature profile and a density profile governed by Equation \ref{eq:eq2} and Equation \ref{eq:eq4} beyond $r_{1}$ = 2.3 $R_{\star}$, respectively. This gives much better agreement with our new long wavelength VLA data as shown in Figure x. This new \textit{hybrid} atmospheric model which is plotted along with the original Drake model in Figure x, still has the original ionization fraction of $x_{\rm{HII}} \approx 0.5$ inside 2.3 $R_{\star}$ but now contains an initial rapid decrease in $x_{\rm{HII}}$ beyond 2.3 $R_{\star}$ which then \textit{freezes-in} to a constant value of $\sim$0.04 beyond $\sim$10 $R_{\star}$.
 
 Encouraging as it is that such a simple analytical model can reproduce values close to the observed radio fluxes at long wavelengths, it must be stressed that this \textit{hybrid} model is just a first order approximation. It assumes that the excess slope from the radio spectrum is a result of rapid cooling only. It still does not reproduce the radio fluxes at wavelengths shorter than $\sim$3 cm and therefore a new atmospheric model is still required that can reproduce all of the observed flux densities. To do so, the non-trivial task of simultaneously solving the radiative transfer equation and non-LTE atomic level populations which include advection will be required.
+
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[trim=0pt 0pt 0pt 0pt,clip, scale=0.6, angle=90]{/home/eamon/thesis/thesis_template/6/hybrid_drake.ps}
+\caption[Hybrid Drake model which undergoes rapid wind cooling beyond $\sim$2.3 $R_{\star}$.]{Existing atmospheric model for $\alpha$ Boo \cite[`model A']{drake_1985} along with the same model which undergoes rapid wind cooling beyond $\sim$2.3 $R_{\star}$. The original Drake Model's have a temperature plateau of $\sim$8,000 K between 1.2 and $\sim$20 $R_{\star}$ (solid black line), reach a terminal velocity of $35-40$ km s$^{-1}$ within 2 $R_{\star}$ (solid green line), and have a wind which is 50\% ionized (dashed and dotted black lines).}
+\label{fig6.9.3}
+\end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  1 JUL 2013 21:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  2 JUL 2013 14:57
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -927,36 +927,30 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [57] [58]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 206.
+(hyperref)                removing `math shift' on input line 205.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 206.
+(hyperref)                removing `\alpha' on input line 205.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 206.
+(hyperref)                removing `math shift' on input line 205.
 
 [59]
-
-Package natbib Warning: Citation `1986ApJ...306..605G' on page 60 undefined on 
-input line 224.
-
-
-LaTeX Warning: Reference `fig:fig0' on page 60 undefined on input line 235.
-
-
-LaTeX Warning: Reference `fig:fig1' on page 60 undefined on input line 235.
-
-
-LaTeX Warning: Reference `fig:fig0' on page 60 undefined on input line 235.
-
-[60]) [61]
+File: /home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps Graphic fil
+e (type eps)
+ </home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps> [60]
+[61]
+File: /home/eamon/thesis/thesis_template/6/hybrid_drake.ps Graphic file (type e
+ps)
+ </home/eamon/thesis/thesis_template/6/hybrid_drake.ps>) [62] [63]
 \openout2 = `appendix/app.aux'.
 
- (./appendix/app.tex
+
+(./appendix/app.tex
 Appendix A.
-) [62
+) [64
 
 
 
@@ -964,31 +958,25 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [63
+ [65
 
 
-] [64] [65] [66] [67])
-
-Package natbib Warning: There were undefined citations.
-
-[68] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux
-) (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
+] [66] [67] [68] [69]) [70]
+(./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
+(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./4/data_analysis.aux)
 (./5/aori.aux) (./6/aboo_atau.aux) (./appendix/app.aux))
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9135 strings out of 495062
- 131914 string characters out of 1182645
- 224044 words of memory out of 3000000
+ 9137 strings out of 495062
+ 132038 string characters out of 1182645
+ 224182 words of memory out of 3000000
  11978 multiletter control sequences out of 15000+50000
  29817 words of font info for 108 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,19n,49p,2391b,625s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (79 pages, 404156 bytes).
+Output written on thesis.dvi (81 pages, 411572 bytes).
