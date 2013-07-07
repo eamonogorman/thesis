@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{List of Publications}{vi}{chapter*.1}
-\contentsline {chapter}{List of Figures}{ix}{section*.4}
-\contentsline {chapter}{List of Tables}{x}{section*.6}
+\contentsline {chapter}{List of Figures}{x}{section*.4}
+\contentsline {chapter}{List of Tables}{xii}{section*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}First Section}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Second Section}{1}{section.1.2}
@@ -33,16 +33,16 @@
 \contentsline {chapter}{\numberline {5}CARMA CO($J =2 - 1$) Observations of the Circumstellar \\ Envelope of Betelgeuse}{47}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{47}{section.5.1}
 \contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{48}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{48}{section.6.1}
-\contentsline {section}{\numberline {6.2}$\alpha $ Boo Radio Maps}{48}{section.6.2}
-\contentsline {section}{\numberline {6.3}$\alpha $ Tau Radio Maps}{48}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Previous Observations}{48}{section.6.4}
-\contentsline {section}{\numberline {6.5}Results vs Existing Models}{50}{section.6.5}
-\contentsline {section}{\numberline {6.6}Constraining $\alpha $ Tau's Molsphere}{50}{section.6.6}
-\contentsline {section}{\numberline {6.7}Estimation of Mass Loss Rates from the \\ Radio Data}{52}{section.6.7}
-\contentsline {section}{\numberline {6.8}Spectral Indices}{53}{section.6.8}
-\contentsline {section}{\numberline {6.9}Analytical Advection Model for $\alpha $ Boo's \\ Wind}{59}{section.6.9}
-\contentsline {subsection}{\numberline {6.9.1}\ion {H}{ii} recombination in a stellar outflow}{60}{subsection.6.9.1}
-\contentsline {subsection}{\numberline {6.9.2}Application to $\alpha $ Boo's Wind}{62}{subsection.6.9.2}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{66}{appendix.A}
-\contentsline {chapter}{References}{67}{section*.35}
+\contentsline {section}{\numberline {6.1}Introduction}{49}{section.6.1}
+\contentsline {section}{\numberline {6.2}$\alpha $ Boo Radio Maps}{49}{section.6.2}
+\contentsline {section}{\numberline {6.3}$\alpha $ Tau Radio Maps}{50}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results vs Previous Observations}{50}{section.6.4}
+\contentsline {section}{\numberline {6.5}Results vs Existing Models}{53}{section.6.5}
+\contentsline {section}{\numberline {6.6}Constraining $\alpha $ Tau's Molsphere}{53}{section.6.6}
+\contentsline {section}{\numberline {6.7}Estimation of Mass Loss Rates from the \\ Radio Data}{55}{section.6.7}
+\contentsline {section}{\numberline {6.8}Spectral Indices}{56}{section.6.8}
+\contentsline {section}{\numberline {6.9}Analytical Advection Model for $\alpha $ Boo's \\ Wind}{62}{section.6.9}
+\contentsline {subsection}{\numberline {6.9.1}\ion {H}{ii} recombination in a stellar outflow}{63}{subsection.6.9.1}
+\contentsline {subsection}{\numberline {6.9.2}Application to $\alpha $ Boo's Wind}{65}{subsection.6.9.2}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{69}{appendix.A}
+\contentsline {chapter}{References}{70}{section*.36}

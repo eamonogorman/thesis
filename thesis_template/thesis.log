@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  4 JUL 2013 17:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  7 JUL 2013 17:46
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -620,11 +620,11 @@ LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <24.88> not available
 (Font)              Font shape `T1/pbk/db/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <100> not available
 (Font)              Font shape `T1/pbk/db/n' tried instead on input line 3.
-) [6
+ [6
 
 
 
-] (./thesis.toc
+]) [7] (./thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
@@ -634,25 +634,25 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [7
+) [8
 
 
 ])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [8] (./thesis.lof)
+ [9] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
 
-[9
+[10
 
-] (./thesis.lot)
+] [11] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [10
+ [12
 
 ]
 \openout2 = `1/introduction.aux'.
@@ -839,31 +839,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 4.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
@@ -871,86 +847,160 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 
 
-] [49]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 57.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 57.
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 57.
+(hyperref)                removing `math shift' on input line 10.
 
-[50]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 72.
+(hyperref)                removing `\alpha' on input line 10.
 
-[51] [52] [53] [54]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+File: /home/eamon/thesis/thesis_template/6/atau_q_ka.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/6/atau_q_ka.ps>
+File: /home/eamon/thesis/thesis_template/6/aboo_q_ka_k.ps Graphic file (type ep
+s)
+
+</home/eamon/thesis/thesis_template/6/aboo_q_ka_k.ps>
+File: /home/eamon/thesis/thesis_template/6/atau_x_k.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/6/atau_x_k.ps>
+File: /home/eamon/thesis/thesis_template/6/aboo_c_x.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/6/aboo_c_x.ps>
+File: /home/eamon/thesis/thesis_template/6/atau_c_s.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/6/atau_c_s.ps>
+File: /home/eamon/thesis/thesis_template/6/aboo_l_s_ddt.ps Graphic file (type e
+ps)
+
+</home/eamon/thesis/thesis_template/6/aboo_l_s_ddt.ps>
+Overfull \hbox (25.9743pt too wide) in paragraph at lines 17--26
+ [][] 
+ []
+
+
+Overfull \hbox (20.2794pt too wide) in paragraph at lines 17--26
+ [] 
+ []
+
+
+Overfull \hbox (25.97197pt too wide) in paragraph at lines 17--26
+ [] 
+ []
+
+[49]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[50] [51] [52]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 82.
+
+[53]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 97.
+
+[54] [55] [56] [57]
 File: /home/eamon/thesis/thesis_template/6/spec_index.ps Graphic file (type eps
 )
  </home/eamon/thesis/thesis_template/6/spec_index.ps>
-Overfull \hbox (1.83563pt too wide) in paragraph at lines 161--162
+Overfull \hbox (1.83563pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
 File: /home/eamon/thesis/thesis_template/6/den_temp_coef.ps Graphic file (type 
 eps)
-</home/eamon/thesis/thesis_template/6/den_temp_coef.ps> [55] [56] [57]
+</home/eamon/thesis/thesis_template/6/den_temp_coef.ps> [58] [59] [60]
 File: /home/eamon/thesis/thesis_template/6/eff_rad.ps Graphic file (type eps)
 
 </home/eamon/thesis/thesis_template/6/eff_rad.ps>
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 188.
+(hyperref)                removing `math shift' on input line 213.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 188.
+(hyperref)                removing `\alpha' on input line 213.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 188.
+(hyperref)                removing `math shift' on input line 213.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 188.
+(hyperref)                removing `\\' on input line 213.
 
-[58] [59]
+[61] [62]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
-(hyperref)                removed on input line 191.
+(hyperref)                removed on input line 216.
 
-[60] [61]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 251.
-
+[63] [64]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 251.
+(hyperref)                removing `math shift' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 251.
+(hyperref)                removing `\alpha' on input line 276.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 276.
 
 File: /home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps Graphic fil
 e (type eps)
-</home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps> [62] [63]
+</home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps> [65] [66]
 File: /home/eamon/thesis/thesis_template/6/hybrid_drake.ps Graphic file (type e
 ps)
 
-</home/eamon/thesis/thesis_template/6/hybrid_drake.ps>) [64] [65]
+</home/eamon/thesis/thesis_template/6/hybrid_drake.ps>) [67] [68]
 \openout2 = `appendix/app.aux'.
 
 
 (./appendix/app.tex
 Appendix A.
-) [66
+) [69
 
 
 
@@ -958,10 +1008,10 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [67
+ [70
 
 
-] [68] [69] [70] [71]) [72]
+] [71] [72] [73] [74]) [75]
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./4/data_analysis.aux)
@@ -971,12 +1021,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9149 strings out of 495062
- 132210 string characters out of 1182645
- 224505 words of memory out of 3000000
- 11990 multiletter control sequences out of 15000+50000
+ 9162 strings out of 495062
+ 132596 string characters out of 1182645
+ 224543 words of memory out of 3000000
+ 11997 multiletter control sequences out of 15000+50000
  29817 words of font info for 108 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,19n,49p,2391b,623s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (83 pages, 426840 bytes).
+Output written on thesis.dvi (88 pages, 449440 bytes).
