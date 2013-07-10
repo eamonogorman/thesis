@@ -34,47 +34,60 @@ Repeated entry---line 1138 of file mybib.bib
  : @article{wood_2007
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1244 of file mybib.bib
+ : @article{ayres_1975
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1285 of file mybib.bib
+ : @article{gray_2006
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1443 of file mybib.bib
+ : @proceedings{taylor_1999
+ :                         ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
-You've used 74 entries,
+Warning--missing publisher in mihalas_1978
+You've used 88 entries,
             3018 wiz_defined-function locations,
-            1063 strings with 17364 characters,
-and the built_in function-call counts, 49269 in all, are:
-= -- 4010
-> -- 2607
-< -- 45
-+ -- 918
-- -- 842
-* -- 4215
-:= -- 7511
-add.period$ -- 220
-call.type$ -- 74
-change.case$ -- 652
-chr.to.int$ -- 74
-cite$ -- 75
-duplicate$ -- 3406
-empty$ -- 3375
-format.name$ -- 1066
-if$ -- 9816
-int.to.chr$ -- 1
+            1135 strings with 19344 characters,
+and the built_in function-call counts, 56585 in all, are:
+= -- 4641
+> -- 2853
+< -- 57
++ -- 1010
+- -- 919
+* -- 4783
+:= -- 8657
+add.period$ -- 261
+call.type$ -- 88
+change.case$ -- 748
+chr.to.int$ -- 87
+cite$ -- 90
+duplicate$ -- 3973
+empty$ -- 3949
+format.name$ -- 1176
+if$ -- 11286
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 739
-newline$ -- 226
-num.names$ -- 309
-pop$ -- 1473
+missing$ -- 850
+newline$ -- 268
+num.names$ -- 367
+pop$ -- 1665
 preamble$ -- 1
-purify$ -- 571
+purify$ -- 652
 quote$ -- 0
-skip$ -- 1238
+skip$ -- 1440
 stack$ -- 0
-substring$ -- 2078
-swap$ -- 1952
-text.length$ -- 5
+substring$ -- 2403
+swap$ -- 2251
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 654
-warning$ -- 1
-while$ -- 299
+type$ -- 777
+warning$ -- 2
+while$ -- 354
 width$ -- 0
-write$ -- 815
-(There were 5 error messages)
+write$ -- 968
+(There were 8 error messages)

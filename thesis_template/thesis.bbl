@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{88}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -17,6 +17,11 @@
   {Wendker}}]{altenhoff_1994}
 {\sc {Altenhoff}, W.J., {Thum}, C. \& {Wendker}, H.J.} (1994). {Radio emission
   from stars: A survey at 250 GHz}. {\em \aap\/}, {\bf 281}, 161--183.
+
+\bibitem[{{Ayres}(1996)}]{ayres_1996}
+{\sc {Ayres}, T.R.} (1996). {Thermal bifurcation as a driver of stellar surface
+  inhomogeneities (review)}. In K.G. {Strassmeier} \& J.L. {Linsky}, eds., {\em
+  Stellar Surface Structure\/}, vol. 176 of {\em IAU Symposium\/}, 371.
 
 \bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
 {\sc {Ayres}, T.R. \& {Linsky}, J.L.} (1975). {Stellar model chromospheres. III
@@ -62,6 +67,11 @@
 {\sc {Brown}, K.I.T., {Gray}, D.F. \& {Baliunas}, S.L.} (2008). {Long-Term
   Spectroscopic Monitoring of Arcturus}. {\em \apj\/}, {\bf 679}, 1531--1540.
 
+\bibitem[{{Carlsson}(1986)}]{carlsson_1986}
+{\sc {Carlsson}, M.} (1986). {A computer program for solving multi-level
+  non-LTE radiative transferproblems in moving or static atmospheres.} {\em
+  Uppsala Astronomical Observatory Reports\/}, {\bf 33}.
+
 \bibitem[{{Carpenter} \& {Robinson}(1996)}]{carpenter_1996}
 {\sc {Carpenter}, K.G. \& {Robinson}, R.D.} (1996). {HST Studies of Carbon and
   K-M Giant/Supergiant Stars}. In P.~{Benvenuti}, F.D. {Macchetto} \& E.J.
@@ -82,6 +92,11 @@
 \bibitem[{{Chapman}(1981)}]{chapman_1981}
 {\sc {Chapman}, R.D.} (1981). {The 1979-1980 eclipse of Zeta Aurigae. I - The
   circumstellar envelope}. {\em \apj\/}, {\bf 248}, 1043--1052.
+
+\bibitem[{{Charbonneau} \& {MacGregor}(1995)}]{charbonneau_1995}
+{\sc {Charbonneau}, P. \& {MacGregor}, K.B.} (1995). {Stellar Winds with
+  Non-WKB Alfven Waves. II. Wind Models for Cool, Evolved Stars}. {\em \apj\/},
+  {\bf 454}, 901.
 
 \bibitem[{{Cohen} {\em et~al.\/}(2005){Cohen}, {Carbon}, {Welch}, {Lim},
   {Schulz}, {McMurry}, {Forster} \& {Goorvitch}}]{cohen_2005}
@@ -127,10 +142,16 @@
   Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
   17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
 
-\bibitem[{{Drake} \& {Linsky}(1983)}]{drake_1983}
-{\sc {Drake}, S.A. \& {Linsky}, J.L.} (1983). {First detection of winds in red
-  giants by microwave continuum techniques}. {\em \apjl\/}, {\bf 274},
-  L77--L81.
+\bibitem[{{Drake} \& {Linsky}(1983{\natexlab{a}})}]{drake_1983}
+{\sc {Drake}, S.A. \& {Linsky}, J.L.} (1983{\natexlab{a}}). {First detection of
+  winds in red giants by microwave continuum techniques}. {\em \apjl\/}, {\bf
+  274}, L77--L81.
+
+\bibitem[{{Drake} \& {Linsky}(1983{\natexlab{b}})}]{drake_1983b}
+{\sc {Drake}, S.A. \& {Linsky}, J.L.} (1983{\natexlab{b}}). {The formation of
+  emission lines in the expanding chromospheres of luminous cool stars. I - The
+  importance of atmospheric extension and partial redistribution effects}. {\em
+  \apj\/}, {\bf 273}, 299--308.
 
 \bibitem[{{Dupree} {\em et~al.\/}(2005){Dupree}, {Lobel}, {Young}, {Ake},
   {Linsky} \& {Redfield}}]{dupree_2005}
@@ -172,6 +193,11 @@
 {\sc {Griffin}, R.E.M.} (1996). {Arcturus and human evolution}. {\em The
   Observatory\/}, {\bf 116}, 404--405.
 
+\bibitem[{{Harper}(1994)}]{harper_1994}
+{\sc {Harper}, G.M.} (1994). {A Computer Program for Solving Multilevel Non-Lte
+  Radiative Transfer Problems in Spherical Geometry in Moving or Static
+  Atmospheres}. {\em \mnras\/}, {\bf 268}, 894.
+
 \bibitem[{{Harper} {\em et~al.\/}(2005){Harper}, {Brown}, {Bennett}, {Baade},
   {Walder} \& {Hummel}}]{harper_2005}
 {\sc {Harper}, G.M., {Brown}, A., {Bennett}, P.D., {Baade}, R., {Walder}, R. \&
@@ -203,10 +229,23 @@
 {\sc {H{\"o}gbom}, J.A.} (1974). {Aperture Synthesis with a Non-Regular
   Distribution of Interferometer Baselines}. {\em \aaps\/}, {\bf 15}, 417.
 
+\bibitem[{{Holzer} {\em et~al.\/}(1983){Holzer}, {Fla} \& {Leer}}]{holzer_1983}
+{\sc {Holzer}, T.E., {Fla}, T. \& {Leer}, E.} (1983). {Alfven waves in stellar
+  winds}. {\em \apj\/}, {\bf 275}, 808--835.
+
+\bibitem[{{Hummer}(1988)}]{hummer_1988}
+{\sc {Hummer}, D.G.} (1988). {A fast and accurate method for evaluating the
+  nonrelativistic free-free Gaunt factor for hydrogenic ions}. {\em \apj\/},
+  {\bf 327}, 477--484.
+
 \bibitem[{{Jackson}(2008)}]{jackson_2008}
 {\sc {Jackson}, N.} (2008). {Principles of Interferometry}. In F.~{Bacciotti},
   L.~{Testi} \& E.~{Whelan}, eds., {\em Jets from Young Stars II\/}, vol. 742
   of {\em Lecture Notes in Physics, Berlin Springer Verlag\/}, 193.
+
+\bibitem[{{Johnson}(1973)}]{johnson_1973}
+{\sc {Johnson}, H.R.} (1973). {Cooling effect of CO in stellar atmospheres.}
+  {\em \apj\/}, {\bf 180}, 81--89.
 
 \bibitem[{{Kallinger} {\em et~al.\/}(2010){Kallinger}, {Weiss}, {Barban},
   {Baudin}, {Cameron}, {Carrier}, {De Ridder}, {Goupil}, {Gruberbauer},
@@ -229,6 +268,14 @@
 {\sc {Kraus}, J.D., {Tiuri}, M., {Raisanen}, A.V. \& {Carr}, T.D.} (1986). {\em
   {Radio astronomy receivers}\/}.
 
+\bibitem[{{Krogulec}(1988)}]{krogulec_1988}
+{\sc {Krogulec}, M.} (1988). {Alfven wave driven wind - Models of Alpha Boo
+  atmosphere}. {\em Acta Astronomica\/}, {\bf 38}, 107--126.
+
+\bibitem[{{Krogulec}(1989)}]{krogulec_1989}
+{\sc {Krogulec}, M.} (1989). {Alfven wave driven wind. II - Models of cool
+  giant and supergiant stars}. {\em Acta Astronomica\/}, {\bf 39}, 51--67.
+
 \bibitem[{{Lacour} {\em et~al.\/}(2008){Lacour}, {Meimon}, {Thi{\'e}baut},
   {Perrin}, {Verhoelst}, {Pedretti}, {Schuller}, {Mugnier}, {Monnier},
   {Berger}, {Haubois}, {Poncelet}, {Le Besnerais}, {Eriksson}, {Millan-Gabet},
@@ -239,6 +286,12 @@
   {Millan-Gabet}, R., {Ragland}, S., {Lacasse}, M. \& {Traub}, W.} (2008). {The
   limb-darkened Arcturus: imaging with the IOTA/IONIC interferometer}. {\em
   \aap\/}, {\bf 485}, 561--570.
+
+\bibitem[{{Lamers} {\em et~al.\/}(1987){Lamers}, {Cerruti-Sola} \&
+  {Perinotto}}]{lamers_1987}
+{\sc {Lamers}, H.J.G.L.M., {Cerruti-Sola}, M. \& {Perinotto}, M.} (1987). {The
+  'SEI' method for accurate and efficient calculations of line profiles in
+  spherically symmetric stellar winds}. {\em \apj\/}, {\bf 314}, 726--738.
 
 \bibitem[{{Linsky} \& {Haisch}(1979)}]{linsky_1979}
 {\sc {Linsky}, J.L. \& {Haisch}, B.M.} (1979). {Outer atmospheres of cool
@@ -265,6 +318,9 @@
 \bibitem[{{Michelson}(1890)}]{michelson_1890}
 {\sc {Michelson}, A.A.} (1890). {}. {\em Phil. Mag.\/}, {\bf 30}, 1--21.
 
+\bibitem[{{Mihalas}(1978)}]{mihalas_1978}
+{\sc {Mihalas}, D.} (1978). {\em {Stellar atmospheres /2nd edition/}\/}.
+
 \bibitem[{{Navarro} {\em et~al.\/}(2004){Navarro}, {Helmi} \&
   {Freeman}}]{navarro_2004}
 {\sc {Navarro}, J.F., {Helmi}, A. \& {Freeman}, K.C.} (2004). {The
@@ -276,6 +332,12 @@
   Wind?} In C.~{Johns-Krull}, M.K. {Browning} \& A.A. {West}, eds., {\em 16th
   Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun\/}, vol. 448
   of {\em Astronomical Society of the Pacific Conference Series\/}, 691.
+
+\bibitem[{{O'Gorman} {\em et~al.\/}(2013){O'Gorman}, {Harper}, {Brown}, {Drake}
+  \& {Richards}}]{ogorman_2013}
+{\sc {O'Gorman}, E., {Harper}, G.M., {Brown}, A., {Drake}, S. \& {Richards},
+  A.M.S.} (2013). {Multi-wavelength Radio Continuum Emission Studies of
+  Dust-free Red Giants}. {\em \aj\/}, {\bf 144}, 36.
 
 \bibitem[{{Ohnaka}(2013)}]{ohnaka_2013}
 {\sc {Ohnaka}, K.} (2013). {Spatially resolved, high-spectral resolution
@@ -290,6 +352,10 @@
 \bibitem[{{Panagia} \& {Felli}(1975)}]{panagia_1975}
 {\sc {Panagia}, N. \& {Felli}, M.} (1975). {The spectrum of the free-free
   radiation from extended envelopes}. {\em \aap\/}, {\bf 39}, 1--5.
+
+\bibitem[{{Perley} \& {Butler}(2013)}]{perley_2013}
+{\sc {Perley}, R.A. \& {Butler}, B.J.} (2013). {An Accurate Flux Density Scale
+  from 1 to 50 GHz}. {\em \apjs\/}, {\bf 204}, 19.
 
 \bibitem[{{Perryman} {\em et~al.\/}(1997){Perryman}, {Lindegren}, {Kovalevsky},
   {Hoeg}, {Bastian}, {Bernacca}, {Cr{\'e}z{\'e}}, {Donati}, {Grenon},

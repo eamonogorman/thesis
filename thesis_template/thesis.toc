@@ -27,22 +27,23 @@
 \contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{28}{section.3.3}
 \contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{31}{section.3.4}
 \contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{36}{section.3.5}
-\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{39}{section.3.6}
+\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{40}{section.3.6}
 \contentsline {chapter}{\numberline {4}Data Analysis}{46}{chapter.4}
 \contentsline {section}{\numberline {4.1}Measurement Equation}{46}{section.4.1}
 \contentsline {chapter}{\numberline {5}CARMA CO($J =2 - 1$) Observations of the Circumstellar \\ Envelope of Betelgeuse}{47}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{47}{section.5.1}
 \contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{48}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{49}{section.6.1}
-\contentsline {section}{\numberline {6.2}$\alpha $ Boo Radio Maps}{49}{section.6.2}
-\contentsline {section}{\numberline {6.3}$\alpha $ Tau Radio Maps}{50}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Previous Observations}{50}{section.6.4}
-\contentsline {section}{\numberline {6.5}Results vs Existing Models}{53}{section.6.5}
-\contentsline {section}{\numberline {6.6}Constraining $\alpha $ Tau's Molsphere}{53}{section.6.6}
-\contentsline {section}{\numberline {6.7}Estimation of Mass Loss Rates from the \\ Radio Data}{55}{section.6.7}
-\contentsline {section}{\numberline {6.8}Spectral Indices}{56}{section.6.8}
-\contentsline {section}{\numberline {6.9}Analytical Advection Model for $\alpha $ Boo's \\ Wind}{62}{section.6.9}
-\contentsline {subsection}{\numberline {6.9.1}\ion {H}{ii} recombination in a stellar outflow}{63}{subsection.6.9.1}
-\contentsline {subsection}{\numberline {6.9.2}Application to $\alpha $ Boo's Wind}{65}{subsection.6.9.2}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{69}{appendix.A}
-\contentsline {chapter}{References}{70}{section*.36}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{49}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{50}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{50}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{53}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{54}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results vs Existing Models}{58}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{61}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{67}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{67}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{70}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{74}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{75}{section.6.8}
+\contentsline {chapter}{\numberline {A}A Nice Appendix}{77}{appendix.A}
+\contentsline {chapter}{References}{78}{section*.40}
