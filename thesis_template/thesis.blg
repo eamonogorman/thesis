@@ -46,48 +46,59 @@ Repeated entry---line 1443 of file mybib.bib
  : @proceedings{taylor_1999
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1472 of file mybib.bib
+ : @article{holzer_1983
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1500 of file mybib.bib
+ : @article{hartmann_1982
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "1977ApJ...212..488C"
+Warning--I didn't find a database entry for "1998ApJ...503..396R"
+Warning--I didn't find a database entry for "1985pssl.proc..351D"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 88 entries,
+You've used 91 entries,
             3018 wiz_defined-function locations,
-            1135 strings with 19344 characters,
-and the built_in function-call counts, 56585 in all, are:
-= -- 4641
-> -- 2853
-< -- 57
-+ -- 1010
-- -- 919
-* -- 4783
-:= -- 8657
-add.period$ -- 261
-call.type$ -- 88
-change.case$ -- 748
-chr.to.int$ -- 87
-cite$ -- 90
-duplicate$ -- 3973
-empty$ -- 3949
-format.name$ -- 1176
-if$ -- 11286
+            1158 strings with 19955 characters,
+and the built_in function-call counts, 58418 in all, are:
+= -- 4801
+> -- 2928
+< -- 58
++ -- 1037
+- -- 943
+* -- 4945
+:= -- 8933
+add.period$ -- 270
+call.type$ -- 91
+change.case$ -- 771
+chr.to.int$ -- 90
+cite$ -- 93
+duplicate$ -- 4104
+empty$ -- 4084
+format.name$ -- 1211
+if$ -- 11653
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 850
-newline$ -- 268
-num.names$ -- 367
-pop$ -- 1665
+missing$ -- 876
+newline$ -- 277
+num.names$ -- 379
+pop$ -- 1713
 preamble$ -- 1
-purify$ -- 652
+purify$ -- 672
 quote$ -- 0
-skip$ -- 1440
+skip$ -- 1484
 stack$ -- 0
-substring$ -- 2403
-swap$ -- 2251
+substring$ -- 2499
+swap$ -- 2323
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 777
+type$ -- 804
 warning$ -- 2
-while$ -- 354
+while$ -- 366
 width$ -- 0
-write$ -- 968
-(There were 8 error messages)
+write$ -- 1001
+(There were 10 error messages)

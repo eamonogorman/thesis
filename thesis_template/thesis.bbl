@@ -1,4 +1,4 @@
-\begin{thebibliography}{88}
+\begin{thebibliography}{91}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -216,6 +216,12 @@
   deposition in late-type stellar atmospheres and winds}. {\em \apj\/}, {\bf
   242}, 260--282.
 
+\bibitem[{{Hartmann} {\em et~al.\/}(1982){Hartmann}, {Avrett} \&
+  {Edwards}}]{hartmann_1982}
+{\sc {Hartmann}, L., {Avrett}, E. \& {Edwards}, S.} (1982). {Wave-driven winds
+  from cool stars. II - Models for T Tauri stars}. {\em \apj\/}, {\bf 261},
+  279--292.
+
 \bibitem[{{Hatzes} \& {Cochran}(1993)}]{hatzes_1993}
 {\sc {Hatzes}, A.P. \& {Cochran}, W.D.} (1993). {Long-period radial velocity
   variations in three K giants}. {\em \apj\/}, {\bf 413}, 339--348.
@@ -242,6 +248,11 @@
 {\sc {Jackson}, N.} (2008). {Principles of Interferometry}. In F.~{Bacciotti},
   L.~{Testi} \& E.~{Whelan}, eds., {\em Jets from Young Stars II\/}, vol. 742
   of {\em Lecture Notes in Physics, Berlin Springer Verlag\/}, 193.
+
+\bibitem[{{Jatenco-Pereira} \& {Opher}(1989)}]{jatenco_1989}
+{\sc {Jatenco-Pereira}, V. \& {Opher}, R.} (1989). {Effect of diverging
+  magnetic fields on mass loss in late-type giant stars}. {\em \aap\/}, {\bf
+  209}, 327--336.
 
 \bibitem[{{Johnson}(1973)}]{johnson_1973}
 {\sc {Johnson}, H.R.} (1973). {Cooling effect of CO in stellar atmospheres.}
@@ -452,6 +463,13 @@
 \bibitem[{{van Leeuwen}(2007)}]{van_leeuwen_2007}
 {\sc {van Leeuwen}, F.} (2007). {Validation of the new Hipparcos reduction}.
   {\em \aap\/}, {\bf 474}, 653--664.
+
+\bibitem[{{Vidotto} {\em et~al.\/}(2006){Vidotto}, {Falceta-Gon{\c c}alves} \&
+  {Jatenco-Pereira}}]{vidotto_2006}
+{\sc {Vidotto}, A.A., {Falceta-Gon{\c c}alves}, D. \& {Jatenco-Pereira}, V.}
+  (2006). {A Self-Consistent Determination of the Temperature Profile and The
+  Magnetic Field Geometry in Winds of Late-Type Stars}. {\em \ssr\/}, {\bf
+  122}, 181--188.
 
 \bibitem[{{Wiedemann} {\em et~al.\/}(1994){Wiedemann}, {Ayres}, {Jennings} \&
   {Saar}}]{wiedemann_1994}

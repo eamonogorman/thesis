@@ -39,11 +39,11 @@
 \contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{53}{subsection.6.2.2}
 \contentsline {section}{\numberline {6.3}Results vs Previous Observations}{54}{section.6.3}
 \contentsline {section}{\numberline {6.4}Results vs Existing Models}{58}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{61}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{67}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{67}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{70}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{62}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{69}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{69}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{71}{subsection.6.6.2}
 \contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{74}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{75}{section.6.8}
-\contentsline {chapter}{\numberline {A}A Nice Appendix}{77}{appendix.A}
-\contentsline {chapter}{References}{78}{section*.40}
+\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{76}{section.6.8}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{79}{appendix.A}
+\contentsline {chapter}{References}{80}{section*.42}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  10 JUL 2013 16:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  11 JUL 2013 21:53
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -534,12 +534,13 @@ LaTeX Warning: Label `' multiply defined.
 
 ) (./4/data_analysis.aux) (./5/aori.aux) (./6/aboo_atau.aux
 
-LaTeX Warning: Label `fig6.6.1' multiply defined.
-
-
 LaTeX Warning: Label `eq:eq4' multiply defined.
 
-) (./appendix/app.aux))
+) (./appendix/app.aux
+
+LaTeX Warning: Label `tab:6.4.1' multiply defined.
+
+))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
@@ -561,8 +562,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 129.
-
-(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
@@ -650,14 +650,14 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [9] (./thesis.lof)
+ [9] (./thesis.lof
+[10
+
+])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
-
-[10
-
-] [11] (./thesis.lot)
+ [11] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
@@ -930,102 +930,111 @@ File: /home/eamon/thesis/thesis_template/6/atau_summary.ps Graphic file (type e
 ps)
  </home/eamon/thesis/thesis_template/6/atau_summary.ps> [57]
 
-LaTeX Warning: Reference `fig:6.2' on page 58 undefined on input line 148.
-
-
 LaTeX Warning: Command \r invalid in math mode on input line 148.
 
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
 [58
 
 
 
 
 ]
-
-LaTeX Warning: Command \r invalid in math mode on input line 152.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 152.
-
-[59] [60] [61] [62]
-File: /home/eamon/thesis/thesis_template/6/spec_index.ps Graphic file (type eps
-)
- </home/eamon/thesis/thesis_template/6/spec_index.ps>
-Overfull \hbox (1.83563pt too wide) in paragraph at lines 216--217
+File: /home/eamon/thesis/thesis_template/6/drake_vs_mc_robinson.ps Graphic file
+ (type eps)
+ </home/eamon/thesis/thesis_template/6/drake_vs_mc_robinson.ps>
+Overfull \hbox (12.20102pt too wide) in paragraph at lines 153--154
  [][] 
  []
 
-[63]
+[59]
+
+LaTeX Warning: Command \r invalid in math mode on input line 160.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 160.
+
+[60] [61] [62] [63]
+File: /home/eamon/thesis/thesis_template/6/spec_index.ps Graphic file (type eps
+)
+ </home/eamon/thesis/thesis_template/6/spec_index.ps>
+Overfull \hbox (1.83563pt too wide) in paragraph at lines 224--225
+ [][] 
+ []
+
+[64]
 File: /home/eamon/thesis/thesis_template/6/den_temp_coef.ps Graphic file (type 
 eps)
- </home/eamon/thesis/thesis_template/6/den_temp_coef.ps> [64]
+ </home/eamon/thesis/thesis_template/6/den_temp_coef.ps> [65] [66]
 File: /home/eamon/thesis/thesis_template/6/eff_rad.ps Graphic file (type eps)
 
-</home/eamon/thesis/thesis_template/6/eff_rad.ps> [65] [66]
-Overfull \hbox (13.05473pt too wide) in paragraph at lines 243--243
+</home/eamon/thesis/thesis_template/6/eff_rad.ps> [67]
+Overfull \hbox (13.05473pt too wide) in paragraph at lines 257--257
  |[]\OT1/cmr/bx/n/17.28 Analytical Ad-vec-tion Model for $\OML/cmm/m/it/17.28 
 $ \OT1/cmr/bx/n/17.28 Boo's Wind| 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 243.
+(hyperref)                removing `math shift' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 243.
+(hyperref)                removing `\alpha' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 243.
+(hyperref)                removing `math shift' on input line 257.
 
+[68]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
-(hyperref)                removed on input line 247.
+(hyperref)                removed on input line 261.
 
-[67] [68]
+[69] [70]
 File: /home/eamon/thesis/thesis_template/6/freeze-in.ps Graphic file (type eps)
 
  </home/eamon/thesis/thesis_template/6/freeze-in.ps>
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 315.
+(hyperref)                removing `math shift' on input line 329.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 315.
+(hyperref)                removing `\alpha' on input line 329.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 315.
+(hyperref)                removing `math shift' on input line 329.
 
-[69] [70]
+[71]
 File: /home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps Graphic fil
 e (type eps)
- </home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps>
-[71] [72]
+ </home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps> [72]
+[73]
 File: /home/eamon/thesis/thesis_template/6/hybrid_drake.ps Graphic file (type e
 ps)
  </home/eamon/thesis/thesis_template/6/hybrid_drake.ps>
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 355.
+(hyperref)                removing `math shift' on input line 369.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 355.
+(hyperref)                removing `\alpha' on input line 369.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 355.
+(hyperref)                removing `math shift' on input line 369.
 
-[73] [74]) [75] [76]
+[74] [75] [76]) [77] [78]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [77
+) [79
 
 
 
@@ -1033,28 +1042,25 @@ Appendix A.
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [78
+ [80
 
 
-] [79] [80] [81] [82] [83]) [84]
+] [81] [82] [83] [84] [85]) [86]
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux) (./4/data_analysis.aux)
 (./5/aori.aux) (./6/aboo_atau.aux) (./appendix/app.aux))
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9306 strings out of 495062
- 135131 string characters out of 1182645
- 225818 words of memory out of 3000000
- 12135 multiletter control sequences out of 15000+50000
+ 9334 strings out of 495062
+ 135663 string characters out of 1182645
+ 226242 words of memory out of 3000000
+ 12162 multiletter control sequences out of 15000+50000
  29817 words of font info for 108 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,19n,49p,2391b,649s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,50p,2473b,649s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (97 pages, 502500 bytes).
+Output written on thesis.dvi (99 pages, 518944 bytes).
