@@ -54,51 +54,52 @@ Repeated entry---line 1500 of file mybib.bib
  : @article{hartmann_1982
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "1977ApJ...212..488C"
-Warning--I didn't find a database entry for "1998ApJ...503..396R"
-Warning--I didn't find a database entry for "1985pssl.proc..351D"
+Repeated entry---line 1620 of file mybib.bib
+ : @article{glassgold_1986
+ :                        ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 91 entries,
+You've used 126 entries,
             3018 wiz_defined-function locations,
-            1158 strings with 19955 characters,
-and the built_in function-call counts, 58418 in all, are:
-= -- 4801
-> -- 2928
-< -- 58
-+ -- 1037
-- -- 943
-* -- 4945
-:= -- 8933
-add.period$ -- 270
-call.type$ -- 91
-change.case$ -- 771
-chr.to.int$ -- 90
-cite$ -- 93
-duplicate$ -- 4104
-empty$ -- 4084
-format.name$ -- 1211
-if$ -- 11653
+            1328 strings with 26912 characters,
+and the built_in function-call counts, 85048 in all, are:
+= -- 6896
+> -- 4570
+< -- 75
++ -- 1607
+- -- 1478
+* -- 7322
+:= -- 12931
+add.period$ -- 375
+call.type$ -- 126
+change.case$ -- 1132
+chr.to.int$ -- 125
+cite$ -- 128
+duplicate$ -- 5869
+empty$ -- 5787
+format.name$ -- 1853
+if$ -- 16935
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 876
-newline$ -- 277
-num.names$ -- 379
-pop$ -- 1713
+missing$ -- 1278
+newline$ -- 382
+num.names$ -- 523
+pop$ -- 2559
 preamble$ -- 1
-purify$ -- 672
+purify$ -- 988
 quote$ -- 0
-skip$ -- 1484
+skip$ -- 2130
 stack$ -- 0
-substring$ -- 2499
-swap$ -- 2323
-text.length$ -- 6
+substring$ -- 3556
+swap$ -- 3388
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 804
+type$ -- 1119
 warning$ -- 2
-while$ -- 366
+while$ -- 509
 width$ -- 0
-write$ -- 1001
-(There were 10 error messages)
+write$ -- 1390
+(There were 11 error messages)

@@ -23,27 +23,27 @@
 \contentsline {subsection}{\numberline {2.4.3}Deconvolution (Making a CLEAN map)}{25}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Targets, Instrumentation, and Observations}{28}{chapter.3}
 \contentsline {section}{\numberline {3.1}Betelgeuse}{28}{section.3.1}
-\contentsline {section}{\numberline {3.2}CARMA}{28}{section.3.2}
-\contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{28}{section.3.3}
-\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{31}{section.3.4}
-\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{36}{section.3.5}
-\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{40}{section.3.6}
-\contentsline {chapter}{\numberline {4}Data Analysis}{46}{chapter.4}
-\contentsline {section}{\numberline {4.1}Measurement Equation}{46}{section.4.1}
-\contentsline {chapter}{\numberline {5}CARMA CO($J =2 - 1$) Observations of the Circumstellar \\ Envelope of Betelgeuse}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{47}{section.5.1}
-\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{48}{chapter.6}
-\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{49}{section.6.1}
-\contentsline {section}{\numberline {6.2}Radio Maps}{50}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{50}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{53}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{54}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Existing Models}{58}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{62}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{69}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{69}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{71}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{74}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{76}{section.6.8}
-\contentsline {chapter}{\numberline {A}List of Abbreviations}{79}{appendix.A}
-\contentsline {chapter}{References}{80}{section*.42}
+\contentsline {section}{\numberline {3.2}CARMA}{32}{section.3.2}
+\contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{34}{section.3.3}
+\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{37}{section.3.4}
+\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{42}{section.3.5}
+\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{46}{section.3.6}
+\contentsline {chapter}{\numberline {4}Data Analysis}{52}{chapter.4}
+\contentsline {section}{\numberline {4.1}Measurement Equation}{52}{section.4.1}
+\contentsline {chapter}{\numberline {5}CARMA CO($J =2 - 1$) Observations of the Circumstellar \\ Envelope of Betelgeuse}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{53}{section.5.1}
+\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{54}{chapter.6}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{55}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{56}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{56}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{59}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{60}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results vs Existing Models}{64}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{68}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{74}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{75}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{78}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{80}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{82}{section.6.8}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{85}{appendix.A}
+\contentsline {chapter}{References}{86}{section*.45}
