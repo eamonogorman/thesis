@@ -1,4 +1,4 @@
-\begin{thebibliography}{126}
+\begin{thebibliography}{128}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -428,6 +428,20 @@
   'SEI' method for accurate and efficient calculations of line profiles in
   spherically symmetric stellar winds}. {\em \apj\/}, {\bf 314}, 726--738.
 
+\bibitem[{{Lebzelter} {\em et~al.\/}(2012){Lebzelter}, {Heiter}, {Abia},
+  {Eriksson}, {Ireland}, {Neilson}, {Nowotny}, {Maldonado}, {Merle},
+  {Peterson}, {Plez}, {Short}, {Wahlgren}, {Worley}, {Aringer}, {Bladh}, {de
+  Laverny}, {Goswami}, {Mora}, {Norris}, {Recio-Blanco}, {Scholz},
+  {Th{\'e}venin}, {Tsuji}, {Kordopatis}, {Montesinos} \&
+  {Wing}}]{lebzelter_2012}
+{\sc {Lebzelter}, T., {Heiter}, U., {Abia}, C., {Eriksson}, K., {Ireland}, M.,
+  {Neilson}, H., {Nowotny}, W., {Maldonado}, J., {Merle}, T., {Peterson}, R.,
+  {Plez}, B., {Short}, C.I., {Wahlgren}, G.M., {Worley}, C., {Aringer}, B.,
+  {Bladh}, S., {de Laverny}, P., {Goswami}, A., {Mora}, A., {Norris}, R.P.,
+  {Recio-Blanco}, A., {Scholz}, M., {Th{\'e}venin}, F., {Tsuji}, T.,
+  {Kordopatis}, G., {Montesinos}, B. \& {Wing}, R.F.} (2012). {Comparative
+  modelling of the spectra of cool giants}. {\em \aap\/}, {\bf 547}, A108.
+
 \bibitem[{{Levesque} {\em et~al.\/}(2005){Levesque}, {Massey}, {Olsen}, {Plez},
   {Josselin}, {Maeder} \& {Meynet}}]{levesque_2005}
 {\sc {Levesque}, E.M., {Massey}, P., {Olsen}, K.A.G., {Plez}, B., {Josselin},
@@ -679,6 +693,12 @@
 \bibitem[{{V{\"o}gler} \& {Sch{\"u}ssler}(2007)}]{vogler_2007}
 {\sc {V{\"o}gler}, A. \& {Sch{\"u}ssler}, M.} (2007). {A solar surface dynamo}.
   {\em \aap\/}, {\bf 465}, L43--L46.
+
+\bibitem[{{Wei} {\em et~al.\/}(2008){Wei}, {Woody}, {Teuben}, {La Vigne} \&
+  {Vogel}}]{wei_2008}
+{\sc {Wei}, L., {Woody}, D., {Teuben}, P., {La Vigne}, M. \& {Vogel}, S.}
+  (2008). {Bandpass Calibration for CARMA}. In {\em CARMA Memorandum Series\/},
+  vol.~45 of {\em BIMA memos\/}.
 
 \bibitem[{{Wiedemann} {\em et~al.\/}(1994){Wiedemann}, {Ayres}, {Jennings} \&
   {Saar}}]{wiedemann_1994}

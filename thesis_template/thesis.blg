@@ -58,48 +58,50 @@ Repeated entry---line 1620 of file mybib.bib
  : @article{glassgold_1986
  :                        ,
 I'm skipping whatever remains of this entry
+Warning--string name "july" is undefined
+--line 2147 of file mybib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 126 entries,
+You've used 128 entries,
             3018 wiz_defined-function locations,
-            1328 strings with 26912 characters,
-and the built_in function-call counts, 85048 in all, are:
-= -- 6896
-> -- 4570
-< -- 75
-+ -- 1607
-- -- 1478
-* -- 7322
-:= -- 12931
-add.period$ -- 375
-call.type$ -- 126
-change.case$ -- 1132
-chr.to.int$ -- 125
-cite$ -- 128
-duplicate$ -- 5869
-empty$ -- 5787
-format.name$ -- 1853
-if$ -- 16935
+            1338 strings with 27623 characters,
+and the built_in function-call counts, 87803 in all, are:
+= -- 7070
+> -- 4860
+< -- 76
++ -- 1705
+- -- 1574
+* -- 7590
+:= -- 13346
+add.period$ -- 381
+call.type$ -- 128
+change.case$ -- 1176
+chr.to.int$ -- 127
+cite$ -- 130
+duplicate$ -- 6017
+empty$ -- 5904
+format.name$ -- 1955
+if$ -- 17460
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1278
-newline$ -- 382
-num.names$ -- 523
-pop$ -- 2559
+missing$ -- 1323
+newline$ -- 388
+num.names$ -- 531
+pop$ -- 2678
 preamble$ -- 1
-purify$ -- 988
+purify$ -- 1028
 quote$ -- 0
-skip$ -- 2130
+skip$ -- 2189
 stack$ -- 0
-substring$ -- 3556
-swap$ -- 3388
-text.length$ -- 11
+substring$ -- 3590
+swap$ -- 3494
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1119
+type$ -- 1137
 warning$ -- 2
-while$ -- 509
+while$ -- 516
 width$ -- 0
-write$ -- 1390
+write$ -- 1412
 (There were 11 error messages)
