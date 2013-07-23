@@ -63,45 +63,45 @@ Warning--string name "july" is undefined
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 128 entries,
+You've used 136 entries,
             3018 wiz_defined-function locations,
-            1338 strings with 27623 characters,
-and the built_in function-call counts, 87803 in all, are:
-= -- 7070
-> -- 4860
-< -- 76
-+ -- 1705
-- -- 1574
-* -- 7590
-:= -- 13346
-add.period$ -- 381
-call.type$ -- 128
-change.case$ -- 1176
-chr.to.int$ -- 127
-cite$ -- 130
-duplicate$ -- 6017
-empty$ -- 5904
-format.name$ -- 1955
-if$ -- 17460
+            1377 strings with 28808 characters,
+and the built_in function-call counts, 92659 in all, are:
+= -- 7488
+> -- 5066
+< -- 80
++ -- 1779
+- -- 1640
+* -- 8005
+:= -- 14087
+add.period$ -- 405
+call.type$ -- 136
+change.case$ -- 1238
+chr.to.int$ -- 135
+cite$ -- 138
+duplicate$ -- 6361
+empty$ -- 6261
+format.name$ -- 2045
+if$ -- 18432
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1323
-newline$ -- 388
-num.names$ -- 531
-pop$ -- 2678
+missing$ -- 1393
+newline$ -- 412
+num.names$ -- 563
+pop$ -- 2806
 preamble$ -- 1
-purify$ -- 1028
+purify$ -- 1082
 quote$ -- 0
-skip$ -- 2189
+skip$ -- 2307
 stack$ -- 0
-substring$ -- 3590
-swap$ -- 3494
+substring$ -- 3843
+swap$ -- 3682
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1137
+type$ -- 1209
 warning$ -- 2
-while$ -- 516
+while$ -- 548
 width$ -- 0
-write$ -- 1412
+write$ -- 1500
 (There were 11 error messages)

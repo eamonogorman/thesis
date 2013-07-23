@@ -1,4 +1,4 @@
-\begin{thebibliography}{128}
+\begin{thebibliography}{136}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -146,6 +146,12 @@
   Ultraviolet Spectroscopic Explorer and Hubble Space Telescope STIS Monitoring
   of an Eclipsing Symbiotic Binary}. {\em \apj\/}, {\bf 675}, 711--722.
 
+\bibitem[{{Danchi} {\em et~al.\/}(1994){Danchi}, {Bester}, {Degiacomi},
+  {Greenhill} \& {Townes}}]{danchi_1994}
+{\sc {Danchi}, W.C., {Bester}, M., {Degiacomi}, C.G., {Greenhill}, L.J. \&
+  {Townes}, C.H.} (1994). {Characteristics of dust shells around 13 late-type
+  stars}. {\em \aj\/}, {\bf 107}, 1469--1513.
+
 \bibitem[{{Decin} {\em et~al.\/}(2003){Decin}, {Vandenbussche}, {Waelkens},
   {Decin}, {Eriksson}, {Gustafsson}, {Plez} \& {Sauval}}]{decin_2003}
 {\sc {Decin}, L., {Vandenbussche}, B., {Waelkens}, C., {Decin}, G., {Eriksson},
@@ -231,6 +237,12 @@
 {\sc {Glassgold}, A.E. \& {Huggins}, P.J.} (1986). {The ionization structure of
   the circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 306},
   605--617.
+
+\bibitem[{{Goldberg} {\em et~al.\/}(1975){Goldberg}, {Ramsey}, {Testerman} \&
+  {Carbon}}]{goldberg_1975}
+{\sc {Goldberg}, L., {Ramsey}, L., {Testerman}, L. \& {Carbon}, D.} (1975).
+  {High-resolution profiles of sodium and potassium lines in alpha Orionis}.
+  {\em \apj\/}, {\bf 199}, 427--431.
 
 \bibitem[{{Gray} {\em et~al.\/}(2006){Gray}, {Corbally}, {Garrison},
   {McFadden}, {Bubar}, {McGahee}, {O'Donoghue} \& {Knox}}]{gray_2006}
@@ -334,6 +346,16 @@
 {\sc {Hoogerwerf}, R., {de Bruijne}, J.H.J. \& {de Zeeuw}, P.T.} (2000). {The
   Origin of Runaway Stars}. {\em \apjl\/}, {\bf 544}, L133--L136.
 
+\bibitem[{{Huggins}(1987)}]{huggins_1987}
+{\sc {Huggins}, P.J.} (1987). {CO in the circumstellar envelope of Alpha
+  Orionis}. {\em \apj\/}, {\bf 313}, 400--407.
+
+\bibitem[{{Huggins} {\em et~al.\/}(1994){Huggins}, {Bachiller}, {Cox} \&
+  {Forveille}}]{huggins_1994}
+{\sc {Huggins}, P.J., {Bachiller}, R., {Cox}, P. \& {Forveille}, T.} (1994).
+  {Neutral carbon in the circumstellar envelope of alpha Orionis}. {\em
+  \apjl\/}, {\bf 424}, L127--L130.
+
 \bibitem[{{Hummer}(1988)}]{hummer_1988}
 {\sc {Hummer}, D.G.} (1988). {A fast and accurate method for evaluating the
   nonrelativistic free-free Gaunt factor for hydrogenic ions}. {\em \apj\/},
@@ -392,6 +414,17 @@
   environment of Betelgeuse. II. Diffraction-limited spectro-imaging from 7.76
   to 19.50 {$\mu$}m with VLT/VISIR}. {\em \aap\/}, {\bf 531}, A117.
 
+\bibitem[{{Knapp} \& {Morris}(1985)}]{knapp_1985}
+{\sc {Knapp}, G.R. \& {Morris}, M.} (1985). {Mass loss from evolved stars. III
+  - Mass loss rates for fifty stars from CO J = 1-0 observations}. {\em
+  \apj\/}, {\bf 292}, 640--669.
+
+\bibitem[{{Knapp} {\em et~al.\/}(1980){Knapp}, {Phillips} \&
+  {Huggins}}]{knapp_1980}
+{\sc {Knapp}, G.R., {Phillips}, T.G. \& {Huggins}, P.J.} (1980). {Detection of
+  CO Emission at 1.3-MILLIMETERS from the Betelgeuse Circumstellar Shell}. {\em
+  \apjl\/}, {\bf 242}, L25+.
+
 \bibitem[{{Kraus} {\em et~al.\/}(1986){Kraus}, {Tiuri}, {Raisanen} \&
   {Carr}}]{kraus_1986}
 {\sc {Kraus}, J.D., {Tiuri}, M., {Raisanen}, A.V. \& {Carr}, T.D.} (1986). {\em
@@ -415,6 +448,11 @@
   {Millan-Gabet}, R., {Ragland}, S., {Lacasse}, M. \& {Traub}, W.} (2008). {The
   limb-darkened Arcturus: imaging with the IOTA/IONIC interferometer}. {\em
   \aap\/}, {\bf 485}, 561--570.
+
+\bibitem[{{Lambert} \& {Vanden Bout}(1978)}]{lambert_1978}
+{\sc {Lambert}, D.L. \& {Vanden Bout}, P.A.} (1978). {Constraints on the
+  properties of circumstellar shells from observations of thermal CO and SiO
+  millimeter line emission}. {\em \apj\/}, {\bf 221}, 854--860.
 
 \bibitem[{{Lambert} {\em et~al.\/}(1984){Lambert}, {Brown}, {Hinkle} \&
   {Johnson}}]{lambert_1984}
@@ -699,6 +737,10 @@
 {\sc {Wei}, L., {Woody}, D., {Teuben}, P., {La Vigne}, M. \& {Vogel}, S.}
   (2008). {Bandpass Calibration for CARMA}. In {\em CARMA Memorandum Series\/},
   vol.~45 of {\em BIMA memos\/}.
+
+\bibitem[{{Weymann}(1962)}]{weymann_1962}
+{\sc {Weymann}, R.} (1962). {Physical Conditions in the Circumstellar Envelope
+  of {$\alpha$} Orionis.} {\em \apj\/}, {\bf 136}, 844--+.
 
 \bibitem[{{Wiedemann} {\em et~al.\/}(1994){Wiedemann}, {Ayres}, {Jennings} \&
   {Saar}}]{wiedemann_1994}
