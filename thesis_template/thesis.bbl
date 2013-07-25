@@ -1,4 +1,4 @@
-\begin{thebibliography}{136}
+\begin{thebibliography}{145}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -85,6 +85,10 @@
   eds., {\em Revealing the Molecular Universe: One Antenna is Never Enough\/},
   vol. 356 of {\em Astronomical Society of the Pacific Conference Series\/},
   17.
+
+\bibitem[{{Bottlinger}(1911)}]{bottlinger_1911}
+{\sc {Bottlinger}, C.F.} (1911). {Die Bahn des spektroskopischen Doppelsternes
+  {$\alpha$} Orionis}. {\em Astronomische Nachrichten\/}, {\bf 187}, 33.
 
 \bibitem[{{Brown}(2007)}]{brown_2007}
 {\sc {Brown}, K.I.T.} (2007). {Long-Term Spectroscopic and Precise Radial
@@ -206,6 +210,14 @@
   importance of atmospheric extension and partial redistribution effects}. {\em
   \apj\/}, {\bf 273}, 299--308.
 
+\bibitem[{{Dupree} {\em et~al.\/}(1990){Dupree}, {Baliunas}, {Hartmann},
+  {Guinan} \& {Sonneborn}}]{dupree_1990}
+{\sc {Dupree}, A.K., {Baliunas}, S.L., {Hartmann}, L., {Guinan}, E.F. \&
+  {Sonneborn}, G.} (1990). {Alpha ORI - Evidence for pulsation}. In
+  C.~{Cacciari} \& G.~{Clementini}, eds., {\em Confrontation Between Stellar
+  Pulsation and Evolution\/}, vol.~11 of {\em Astronomical Society of the
+  Pacific Conference Series\/}, 468--471.
+
 \bibitem[{{Dupree} {\em et~al.\/}(2005){Dupree}, {Lobel}, {Young}, {Ake},
   {Linsky} \& {Redfield}}]{dupree_2005}
 {\sc {Dupree}, A.K., {Lobel}, A., {Young}, P.R., {Ake}, T.B., {Linsky}, J.L. \&
@@ -229,6 +241,13 @@
 {\sc {Eggen}, O.J.} (1996). {Star Streams and Galactic Structure}. {\em \aj\/},
   {\bf 112}, 1595.
 
+\bibitem[{{Famaey} {\em et~al.\/}(2005){Famaey}, {Jorissen}, {Luri}, {Mayor},
+  {Udry}, {Dejonghe} \& {Turon}}]{famaey_2005}
+{\sc {Famaey}, B., {Jorissen}, A., {Luri}, X., {Mayor}, M., {Udry}, S.,
+  {Dejonghe}, H. \& {Turon}, C.} (2005). {Local kinematics of K and M giants
+  from CORAVEL/Hipparcos/Tycho-2 data. Revisiting the concept of
+  superclusters}. {\em \aap\/}, {\bf 430}, 165--186.
+
 \bibitem[{{Gilliland} \& {Dupree}(1996)}]{gilliland_1996}
 {\sc {Gilliland}, R.L. \& {Dupree}, A.K.} (1996). {First Image of the Surface
   of a Star with the Hubble Space Telescope}. {\em \apjl\/}, {\bf 463}, L29.
@@ -237,6 +256,10 @@
 {\sc {Glassgold}, A.E. \& {Huggins}, P.J.} (1986). {The ionization structure of
   the circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 306},
   605--617.
+
+\bibitem[{{Goldberg}(1984)}]{goldberg_1984}
+{\sc {Goldberg}, L.} (1984). {The variability of alpha Orionis}. {\em \pasp\/},
+  {\bf 96}, 366--371.
 
 \bibitem[{{Goldberg} {\em et~al.\/}(1975){Goldberg}, {Ramsey}, {Testerman} \&
   {Carbon}}]{goldberg_1975}
@@ -638,6 +661,11 @@
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
   the Dark\/}. Ballantine Books.
 
+\bibitem[{{Sanford}(1933)}]{sanford_1933}
+{\sc {Sanford}, R.F.} (1933). {No. 464. The variation in the radial velocity of
+  alpha Orionis from 1923 to 1931.} {\em Contributions from the Mount Wilson
+  Observatory / Carnegie Institution of Washington\/}, {\bf 464}, 1--10.
+
 \bibitem[{{Schwarzschild}(1975)}]{schwarzschild_1975}
 {\sc {Schwarzschild}, M.} (1975). {On the scale of photospheric convection in
   red giants and supergiants}. {\em \apj\/}, {\bf 195}, 137--144.
@@ -665,13 +693,32 @@
   B.D. \& {Nelson}, G.J.} (1989). {A microwave survey of southern red giants}.
   {\em \mnras\/}, {\bf 239}, 913--922.
 
+\bibitem[{{Smith} {\em et~al.\/}(1989){Smith}, {Patten} \&
+  {Goldberg}}]{smith_1989}
+{\sc {Smith}, M.A., {Patten}, B.M. \& {Goldberg}, L.} (1989). {Radial-velocity
+  variations in Alpha Ori, Alpha Sco, and Alpha HER}. {\em \aj\/}, {\bf 98},
+  2233--2248.
+
 \bibitem[{{Soderhjelm} \& {Mignard}(1998)}]{Soderhjelm_1998O}
 {\sc {Soderhjelm}, S. \& {Mignard}, F.} (1998). {Arcturus as a double star}.
   {\em The Observatory\/}, {\bf 118}, 365--366.
 
+\bibitem[{{Spencer Jones}(1928)}]{spencer_jones_1928}
+{\sc {Spencer Jones}, H.} (1928). {The radial velocity variations of a Orionis
+  and a Scorpii}. {\em \mnras\/}, {\bf 88}, 660.
+
 \bibitem[{{Spitzer}(1978)}]{spitzer_1978}
 {\sc {Spitzer}, L.} (1978). {\em Physical processes in the interstellar
   medium\/}. New York Wiley-Interscience, 1978.\ 333 p.
+
+\bibitem[{{Stebbins} \& {Huffer}(1931)}]{stebbins_1931}
+{\sc {Stebbins}, J. \& {Huffer}, C.M.} (1931). {Photo-electric studies of five
+  variable stars}. {\em Publications of the Washburn Observatory\/}, {\bf 15},
+  178--213.
+
+\bibitem[{{Stothers} \& {Leung}(1971)}]{stothers_1971}
+{\sc {Stothers}, R. \& {Leung}, K.C.} (1971). {Luminosities, masses and
+  periodicities of massive red supergiants.} {\em \aap\/}, {\bf 10}, 290--300.
 
 \bibitem[{{Tatebe} {\em et~al.\/}(2007){Tatebe}, {Chandler}, {Wishnow}, {Hale}
   \& {Townes}}]{tatebe_2007}

@@ -25,13 +25,16 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces The first detection of the ro-vibrational absorption lines of $\rm {{}^{12}C^{16}O}$ and $\rm {{}^{13}C^{16}O}$}}{56}{figure.caption.31}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Previous CO$J= 2-1$ rotational emission line profiles}}{57}{figure.caption.32}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Radial velocity data and model for $\alpha $ Ori.}}{59}{figure.caption.33}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Spectra integrated over a radius of 5$^{\prime \prime }$ for each array configuration image cube. The blueshifted emission component between $-16.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ and $-10.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ is almost resolved out in the C configuration image cube spectrum. The red and blue lines correspond to the high and low spectral resolution data respectively.\relax }}{60}{figure.caption.34}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Spectral profiles of the low spectral resolution multi-configuration image cube for circular extraction areas of radius 1$^{\prime \prime }$, 2$^{\prime \prime }$, 4$^{\prime \prime }$, 6$^{\prime \prime }$, 8$^{\prime \prime }$, and 10$^{\prime \prime }$. The signal-to-noise of the line profile reduces at larger extraction areas as more noise is included from the outer regions of the channel maps.\relax }}{63}{figure.caption.35}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{62}{figure.caption.33}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{70}{figure.caption.38}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{75}{figure.caption.39}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{76}{figure.caption.40}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{78}{figure.caption.41}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{82}{figure.caption.42}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{84}{figure.caption.43}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{86}{figure.caption.44}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{68}{figure.caption.36}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{76}{figure.caption.41}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{81}{figure.caption.42}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{82}{figure.caption.43}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{84}{figure.caption.44}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{88}{figure.caption.45}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{90}{figure.caption.46}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{92}{figure.caption.47}
 \addvspace {10\p@ }
