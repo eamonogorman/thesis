@@ -1,4 +1,4 @@
-\begin{thebibliography}{145}
+\begin{thebibliography}{147}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -85,6 +85,14 @@
   eds., {\em Revealing the Molecular Universe: One Antenna is Never Enough\/},
   vol. 356 of {\em Astronomical Society of the Pacific Conference Series\/},
   17.
+
+\bibitem[{{Bookbinder} {\em et~al.\/}(1987){Bookbinder}, {Stencel}, {Drake},
+  {Simon}, {Linsky} \& {Florkowski}}]{bookbinder_1987}
+{\sc {Bookbinder}, J.A., {Stencel}, R.E., {Drake}, S.A., {Simon}, T., {Linsky},
+  J.L. \& {Florkowski}, D.} (1987). {VLA Observations of Rapid 6 cm Flux
+  Variations in {$\alpha$} Ori}. In {J.~L.~Linsky \& R.~E.~Stencel}, ed., {\em
+  Cool Stars, Stellar Systems and the Sun\/}, vol. 291 of {\em Lecture Notes in
+  Physics, Berlin Springer Verlag\/}, 337.
 
 \bibitem[{{Bottlinger}(1911)}]{bottlinger_1911}
 {\sc {Bottlinger}, C.F.} (1911). {Die Bahn des spektroskopischen Doppelsternes
@@ -209,6 +217,15 @@
   emission lines in the expanding chromospheres of luminous cool stars. I - The
   importance of atmospheric extension and partial redistribution effects}. {\em
   \apj\/}, {\bf 273}, 299--308.
+
+\bibitem[{{Drake} {\em et~al.\/}(1992){Drake}, {Bookbinder}, {Florkowski},
+  {Linsky}, {Simon} \& {Stencel}}]{drake_1992}
+{\sc {Drake}, S.A., {Bookbinder}, J.A., {Florkowski}, D.R., {Linsky}, J.L.,
+  {Simon}, T. \& {Stencel}, R.E.} (1992). {Four Years of Monitoring a Orionis
+  with the VLA: Where have all the Flares Gone?} In {M.~S.~Giampapa \&
+  J.~A.~Bookbinder}, ed., {\em Cool Stars, Stellar Systems, and the Sun\/},
+  vol.~26 of {\em Astronomical Society of the Pacific Conference Series\/},
+  455.
 
 \bibitem[{{Dupree} {\em et~al.\/}(1990){Dupree}, {Baliunas}, {Hartmann},
   {Guinan} \& {Sonneborn}}]{dupree_1990}

@@ -60,48 +60,52 @@ Repeated entry---line 1620 of file mybib.bib
 I'm skipping whatever remains of this entry
 Warning--string name "july" is undefined
 --line 2147 of file mybib.bib
+Repeated entry---line 2414 of file mybib.bib
+ : @article{altenhoff_1994
+ :                        ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 145 entries,
+You've used 147 entries,
             3018 wiz_defined-function locations,
-            1429 strings with 30216 characters,
-and the built_in function-call counts, 98103 in all, are:
-= -- 7951
-> -- 5289
-< -- 87
-+ -- 1859
-- -- 1711
-* -- 8449
-:= -- 14916
-add.period$ -- 432
-call.type$ -- 145
-change.case$ -- 1308
-chr.to.int$ -- 144
-cite$ -- 147
-duplicate$ -- 6760
-empty$ -- 6667
-format.name$ -- 2140
-if$ -- 19531
+            1443 strings with 30781 characters,
+and the built_in function-call counts, 99923 in all, are:
+= -- 8081
+> -- 5407
+< -- 89
++ -- 1899
+- -- 1749
+* -- 8611
+:= -- 15176
+add.period$ -- 438
+call.type$ -- 147
+change.case$ -- 1334
+chr.to.int$ -- 146
+cite$ -- 149
+duplicate$ -- 6896
+empty$ -- 6781
+format.name$ -- 2184
+if$ -- 19897
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1474
-newline$ -- 439
-num.names$ -- 601
-pop$ -- 2952
+missing$ -- 1504
+newline$ -- 445
+num.names$ -- 613
+pop$ -- 3020
 preamble$ -- 1
-purify$ -- 1141
+purify$ -- 1161
 quote$ -- 0
-skip$ -- 2452
+skip$ -- 2508
 stack$ -- 0
-substring$ -- 4108
-swap$ -- 3905
-text.length$ -- 13
+substring$ -- 4142
+swap$ -- 3997
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1290
+type$ -- 1308
 warning$ -- 2
-while$ -- 586
+while$ -- 596
 width$ -- 0
-write$ -- 1600
-(There were 11 error messages)
+write$ -- 1624
+(There were 12 error messages)

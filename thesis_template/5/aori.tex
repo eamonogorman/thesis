@@ -76,11 +76,55 @@ The outflow velocities of S2 are $-15.4\>{\rm km\>s}^{-1}$ and $+13.2\>{\rm km\>
 The spectra in Figure \ref{fig:5.5} are taken from the low resolution multi-configuration image cube using circular extraction areas ranging in radius from 1$\arcsec$ to 10$\arcsec$ and demonstrates how the line profile changes over these different extraction areas. The most striking change in the line profile is the change in appearance of the extreme blue wing. At small extraction radii where we sample the most compact emission, the feature is weak in comparison to the rest of the line but becomes more dominant as we begin to sample more of the extended emission. This indicates that even the high absolute velocity components of the S2 flow have extended emission and this is why they are almost completely spatially filtered by CARMA's C configuration. The large reduction of flux at $-11\>{\rm km\>s}^{-1}$ suggests that there is more material moving towards the observer than at other lower absolute velocities indicating a non-isotropic (or non-spherical) S2 flow. This suggests a more sheet like (flatter) structure rather than a spherical cap.
 
 \section{Individual Configuration Image Cubes}\label{sec:5.4}
-2nd source
+
+We created three image cubes for each configuration by concatenating all good tracks together per configuration. The gradual formation of a ring type structure as one goes from high absolute velocities to lower absolute velocities indicative of a shell was not seen in any of these three image cubes. However, an additional spatially unresolved source was clearly detected in a number of the D configuration image cube maps (both high and low spectral resolution). The component is present in five continuous channel maps between $\sim$ $-4.0\>{\rm km\>s}^{-1}$ and $+2.4\>{\rm km\>s}^{-1}$ and is located $\sim$ 5$\arcsec$ S-W of $\alpha$ Ori. Its peak emission lies at $\sim$ $0\>{\rm km\>s}^{-1}$ and has a flux density of 1.8\,mJy which is approximately 60$\%$ of the total source flux density at this velocity. The middle row in Figure \ref{fig:5.6} are two of these D configuration channel maps which clearly show this discrete source. The contour levels are set at the $4\sigma$ level so the detection of the second source in the D configuration is significant. The corresponding channel maps in the E configuration image cube show extended emission out to ~8$\arcsec$ in the same S-W direction as can be seen in the lower panel of Figure \ref{fig:5.6}. There is only weak emission detected in the same position in the corresponding C configuration channel maps, probably due to the lower sensitivity resulting from the smaller HPBW (i.e. the flux is diluted). This discrete second source thus has the effect of adding extra emission to the corresponding multi-configuration image cube spectrum at the low absolute velocities where it is present. The presence of this addition source at these low absolute velocities is probably one of the reasons why \cite{huggins_1994} did not detect a horned shaped spectrum with his 12$\arcsec$ HPBW. We also note that that there is a weaker emission feature 7$\arcsec$ north north-west of $\alpha$ Ori in these maps also which too can be seen in Figure \ref{fig:5.6}. 
+
+\begin{figure}[htp]
+\mbox{
+          \includegraphics[trim=0pt 0pt 10pt 10pt,clip,height=6.2cm,width=14.0cm]{/home/eamon/thesis/thesis_template/5/c.ps}
+          }
+\mbox{
+          \includegraphics[trim=0pt 0pt 10pt 10pt,clip,height=6.2cm,width=14.0cm]{/home/eamon/thesis/thesis_template/5/d.ps}
+          }
+\mbox{
+          \includegraphics[trim=0pt 0pt 10pt 10pt,clip,height=6.2cm,width=14.0cm]{/home/eamon/thesis/thesis_template/5/e.ps}
+          }          
+\caption[Discrete sources in individual configuration image cubes]{Two channel maps from each of the three individual configuration image cubes. A spatially unresolved source is present in five continuous channel maps between $\sim$ $-4.0\>{\rm km\>s}^{-1}$ and $+2.4\>{\rm km\>s}^{-1}$ and is located $\sim$ 5$\arcsec$ S-W of $\alpha$ Ori. Contour levels begin at $4\sigma$ where $1\sigma$ is the rms channel noise. The restoring beam is shown in green in the lower left corner of each map.}
+\label{fig:5.6}
+\end{figure}
+
 \section{Multi-configuration Image Cubes}\label{sec:5.5}
 include \ion{K}{i} spectrum here
+
 \section{Determination of S1 and S2 shell sizes}\label{sec:5.6} 
+
 \section{Continuum Flux Densities}\label{sec:5.7}
+In Table \ref{tab:5.1} we show the derived continuum flux densities for each of the three configuration image cubes and also the multi-configuration image cube. The high spectral resolution ($\Delta v$ = $0.65\>{\rm km\>s}^{-1}$) image cubes were just wide enough to image the CO line but were too narrow to make accurate estimates of the continuum flux density. Therefore, all continuum flux density estimates are derived from the lower spectral resolution ($\Delta v$ = $1.3\>{\rm km\>s}^{-1}$) image cubes from which we were able to take accurate measurements at both sides of the line. We fitted elliptical Gaussians to $\sim$ 20 continuum channels using CASA's \textit{imfit} routine allowing the flux and corresponding uncertainties to be calculated. The source was unresolved in most of these continuum channels. 
+
+\begin{table}[!hbt]
+\begin{center}
+\caption[CARMA Continuum Fluxes at 230 GHz]
+{CARMA Continuum Fluxes at 230 GHz}
+\begin{tabular}{lccc}
+\hline
+\hline
+\rule{0pt}{2.5ex}Configuration & Restoring Beam & Flux & Uncertainty \\
+ & ($\arcsec \times \arcsec$) & (mJy) & (mJy) \\
+\hline
+\rule{0pt}{2.5ex}C & 0.96 $\times$ 0.76 & 234 & 18\\
+D & 2.33 $\times$ 1.87 & 389 & 72\\
+E & 4.93 $\times$ 3.84 & 278 & 40 \\
+Multi-configuration & 1.05 $\times$ 0.84 & 289 & 21\\
+\hline
+\rule{0pt}{2.0ex}
+\end{tabular}
+\label{tab:5.1}
+\end{center}
+\end{table}
+\setlength{\textfloatsep}{0.2cm}
+Betelgeuse is known to show brightness variations at many wavelengths. \cite{goldberg_1984} reports a decrease of half a magnitude in visual brightness over a period of six years. \cite{bookbinder_1987} found stochastic 30\%-40\% variations in flux density at 6\,cm over timescales as short as 10 days to as long as 8 months (i.e. the observational period). A more comprehensive study was carried out by \cite{drake_1992} who observed Betelgeuse with the VLA at centimeter wavelengths from 1986 to 1990 and found stochastic variability of 22\%, 15\%, and 21\% at 6\,cm, 3.6\,cm, and 2\,cm respectively at a variety of different timescales down to less than one month. The mm-continuum emission that we measure arises mainly from electron-ion and electron-atom bremsstrahlung and possibly dust emission, so it is not unreasonable to also expect variability at mm-wavelengths too. The D configuration data was acquired under adverse weather conditions and these data have the highest noise levels out of the three configurations. Its continuum emission measurement is approximately 50\% greater than the C and E configuration continuum measurements which were also acquired approximately two years after the D configuration data.  We believe the continuum emission derived from the multi-configuration image cube is a reasonable estimation of the mean mm-continuum flux density over the two year period and is in reasonably good agreement with the 250\,GHz flux density of \cite{altenhoff_1994} who report a mean value of 351$\pm$25\,mJy for 1986 $\rightarrow$ 1989.
+
+
 \section{Higher CO rotational lines}\label{sec:5.8}
 SOFIA, Hershel, SMA
 \section{e-Merlin Results}\label{sec:5.8}

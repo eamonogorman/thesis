@@ -35,24 +35,24 @@
 \contentsline {section}{\numberline {5.2}Adopted Radial Velocity}{58}{section.5.2}
 \contentsline {section}{\numberline {5.3}CARMA CO($J=2-1$) Spectra}{59}{section.5.3}
 \contentsline {section}{\numberline {5.4}Individual Configuration Image Cubes}{64}{section.5.4}
-\contentsline {section}{\numberline {5.5}Multi-configuration Image Cubes}{64}{section.5.5}
-\contentsline {section}{\numberline {5.6}Determination of S1 and S2 shell sizes}{64}{section.5.6}
-\contentsline {section}{\numberline {5.7}Continuum Flux Densities}{64}{section.5.7}
-\contentsline {section}{\numberline {5.8}Higher CO rotational lines}{64}{section.5.8}
-\contentsline {section}{\numberline {5.9}e-Merlin Results}{64}{section.5.9}
-\contentsline {section}{\numberline {5.10}VLA Pi-Town vs e-Merlin}{64}{section.5.10}
-\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{65}{chapter.6}
-\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{66}{section.6.1}
-\contentsline {section}{\numberline {6.2}Radio Maps}{67}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{67}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{70}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{71}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Existing Models}{75}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{79}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{85}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{86}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{89}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{91}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{93}{section.6.8}
-\contentsline {chapter}{\numberline {A}List of Abbreviations}{96}{appendix.A}
-\contentsline {chapter}{References}{97}{section*.51}
+\contentsline {section}{\numberline {5.5}Multi-configuration Image Cubes}{66}{section.5.5}
+\contentsline {section}{\numberline {5.6}Determination of S1 and S2 shell sizes}{66}{section.5.6}
+\contentsline {section}{\numberline {5.7}Continuum Flux Densities}{66}{section.5.7}
+\contentsline {section}{\numberline {5.8}Higher CO rotational lines}{67}{section.5.8}
+\contentsline {section}{\numberline {5.9}e-Merlin Results}{67}{section.5.9}
+\contentsline {section}{\numberline {5.10}VLA Pi-Town vs e-Merlin}{67}{section.5.10}
+\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{68}{chapter.6}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{69}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{70}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{70}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{73}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{74}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results vs Existing Models}{78}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{82}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{88}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{89}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{92}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{94}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{96}{section.6.8}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{99}{appendix.A}
+\contentsline {chapter}{References}{100}{section*.53}
