@@ -135,6 +135,7 @@ CARMA can now take measurements in eight bands yielding a maximum bandwidth of 4
 
 Bandpass and phase calibration were performed using 3C120 and 0530+135. 0532+075 was used as a secondary phase calibrator to determine the quality of the phase transfer from the primary phase calibrator. The observing sequence was to integrate on the primary phase calibrator for $\sim$ 2.5 minutes, the target for $\sim$ 18 minutes, and the secondary phase calibrator for $\sim$ 2.5 minutes. The cycle was repeated for each track which lasted between 1.5 hours and 5 hours. Absolute flux calibration was carried out with 0530+135 and 3C120 using the continuously updated CARMA flux catalog to obtain their flux values at each observation.
 
+
 \begin{landscape}
 \begin{table}[!ht]
 \begin{center}
@@ -371,3 +372,47 @@ The main problem at low VLA frequencies (L and S bands) is disturbances in the i
 %The additional time spent on the phase calibrator at the start of the SB is a requirement to make sure you get on source. 
 
 At high VLA frequencies (i.e. K, Ka, and Q band) the troposphere can cause major phase variations to incoming radio waves. To reduce this problem, the old VLA used a technique called \textit{fast switching} which reduced the setup overhead and slewing compared to traditional iterating between source and calibrator scans. This overhead is sufficiently reduced with the new VLA and no special fast switching mode is necessary. Instead regular but short duration source-calibrator loops are implemented. As a result, the calibration overheads for high frequency observing are typically considerably larger than for lower frequency observations. For both stars, the total cycle times for the Q, Ka, and K-band observations were 160, 230, and 290 s, respectively. These high frequency observations were combined into a single 2 hour SB for each star and commenced with X-band reference pointing with solutions being applied on-line. As mentioned in Section \ref{subsec:2.1.3}, the blind pointing errors of the VLA antennas can occasionally be as large as the HPBW of the primary beam at high frequencies. Thankfully, the pointing can be calibrated for using a technique known as \textit{reference pointing} whereby a nearby known calibrator is observed in interferometer pointing mode every hour or so. The measured local pointing corrections are then be applied to subsequent target observations. Reference pointing can reduce the rms pointing errors to as little as 2$\arcsec$ if the reference source is with 10$^\circ$ of the target source. After X-band pointing the target source was observed at Q-band to ensure the best pointing solutions were used as shown in the lower panel of Figure \ref{fig:3.7} for $\alpha$ Tau.  
+
+\section{VLA + Pie Town Observations of Betelgeuse}\label{sec:3.7}
+
+As part of our study of Betelgeuse's extended atmosphere we decided to re-visit some archival high spatial resolution VLA data from the early 2000's. This was motivated by the recent findings of \cite{richards_2013} who detected two hot chromospheric features  with the very long baseline interferometer e-MERLIN. The two features, also referred to as `hot spots', were found to have brightness temperatures well above the mean brightness temperature measured at the same radio wavelength, and were separated from each other by 90 mas. 
+
+Asymmetries in Betelgeuse's atmosphere were first detected in the radio by \cite{lim_1998}. To see how these asymmetries evolved with time, a multi-wavelength study into the temporal evolution of Betelgeuse's atmosphere was carried out with the old VLA over a number of years in the early 2000's in its most extended A configuration plus the Pie Town Link. This study focused on fitting various models to the visibility data as was done by \cite{lim_1998}, i.e., the analysis was carried out in the visibility plane. The detection of the two unique hot spots by \cite{richards_2013} inspired us to revisit this data which, because of the addition of the Pie Town link to the VLA, gave spatial resolution comparable to or exceeding that of e-Merlin at some wavelengths. In Table \label{tab:3.8}
+we summarize this unique data set.
+\begin{table}[!ht]
+\begin{center}
+\caption[Multi-wavelength VLA + Pie Town Observations of Betelgeuse]
+{Multi-wavelength VLA + Pie Town Observations of Betelgeuse}
+\begin{tabular}{lccccc}
+\hline
+\hline
+\rule{0pt}{2.5ex} Date & Band&$\lambda$& Time on Star&Restoring Beam&rms noise\\
+& & (cm)&  (hr) &(mas)&(mJy/beam)\\
+\hline
+\rule{0pt}{2.5ex}2004 Oct 21,30 & Q&0.7 & 1.2& $39\times 26$&0.37\\
+ & K&1.3 & 2.6& $80\times 41$&0.09\\
+ & U&2.0 & 3.3& $121\times 91$&0.08\\
+ & X&3.5 & 3.8& $208\times 126$&0.02\\
+ & C&6.2 & 2.9& $377\times 265$&0.02\\
+ & L&16.7 & 2.4& $1262\times 889$&0.03\\
+\hline
+\rule{0pt}{2.5ex}2003 Aug 10,12& Q&0.7 & 0.9& $40 \times 27$&0.46\\
+ & K&1.3 & 2.6& $80\times 42$&0.18\\
+ & U&2.0 & 3.3& $119\times 96$&0.10\\
+ & X&3.5 & 3.0& $204\times 139$&0.03\\
+ & C&6.2 & ?& ?&?\\
+ & L&16.7 & 2.6& $1247\times 931$&0.04\\
+\hline
+\rule{0pt}{2.5ex}2002 & K&1.3 & & &\\
+ & U&2.0 & &&\\
+ & X&3.5 & & &\\
+ & C&6.2 & & &\\
+ & L&16.7 & &&\\
+\hline
+\end{tabular}
+\label{tab:3.8}
+\end{center}
+\end{table}
+\\
+\\
+\textit{\textbf{The VLA + Pie Town Link}}\\

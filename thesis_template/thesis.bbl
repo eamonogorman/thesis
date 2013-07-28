@@ -1,4 +1,4 @@
-\begin{thebibliography}{147}
+\begin{thebibliography}{149}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -653,6 +653,14 @@
   L.L.} (2003). {Oscillations in Arcturus from WIRE Photometry}. {\em \apjl\/},
   {\bf 591}, L151--L154.
 
+\bibitem[{{Richards} {\em et~al.\/}(2013){Richards}, {Davis}, {Decin}, {Etoka},
+  {Harper}, {Lim}, {Garrington}, {Gray}, {McDonald}, {O'Gorman} \&
+  {Wittkowski}}]{richards_2013}
+{\sc {Richards}, A.M.S., {Davis}, R.J., {Decin}, L., {Etoka}, S., {Harper},
+  G.M., {Lim}, J.J., {Garrington}, S.T., {Gray}, M.D., {McDonald}, I.,
+  {O'Gorman}, E. \& {Wittkowski}, M.} (2013). {e-MERLIN resolves Betelgeuse at
+  {$\lambda$} 5 cm: hotspots at 5 R$_{⋆}$}. {\em \mnras\/}, {\bf 432}, L61.
+
 \bibitem[{{Richichi} \& {Roccatagliata}(2005)}]{richichi_2005}
 {\sc {Richichi}, A. \& {Roccatagliata}, V.} (2005). {Aldebaran's angular
   diameter: How well do we know it?} {\em \aap\/}, {\bf 433}, 305--312.
@@ -715,6 +723,11 @@
 {\sc {Smith}, M.A., {Patten}, B.M. \& {Goldberg}, L.} (1989). {Radial-velocity
   variations in Alpha Ori, Alpha Sco, and Alpha HER}. {\em \aj\/}, {\bf 98},
   2233--2248.
+
+\bibitem[{{Smith} {\em et~al.\/}(2009){Smith}, {Hinkle} \& {Ryde}}]{smith_2009}
+{\sc {Smith}, N., {Hinkle}, K.H. \& {Ryde}, N.} (2009). {Red Supergiants as
+  Potential Type IIn Supernova Progenitors: Spatially Resolved 4.6 {$\mu$}m CO
+  Emission Around VY CMa and Betelgeuse}. {\em \aj\/}, {\bf 137}, 3558--3573.
 
 \bibitem[{{Soderhjelm} \& {Mignard}(1998)}]{Soderhjelm_1998O}
 {\sc {Soderhjelm}, S. \& {Mignard}, F.} (1998). {Arcturus as a double star}.

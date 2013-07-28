@@ -67,45 +67,45 @@ I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 147 entries,
+You've used 149 entries,
             3018 wiz_defined-function locations,
-            1443 strings with 30781 characters,
-and the built_in function-call counts, 99923 in all, are:
-= -- 8081
-> -- 5407
+            1453 strings with 31287 characters,
+and the built_in function-call counts, 101640 in all, are:
+= -- 8210
+> -- 5535
 < -- 89
-+ -- 1899
-- -- 1749
-* -- 8611
-:= -- 15176
-add.period$ -- 438
-call.type$ -- 147
-change.case$ -- 1334
-chr.to.int$ -- 146
-cite$ -- 149
-duplicate$ -- 6896
-empty$ -- 6781
-format.name$ -- 2184
-if$ -- 19897
++ -- 1943
+- -- 1791
+* -- 8773
+:= -- 15436
+add.period$ -- 444
+call.type$ -- 149
+change.case$ -- 1358
+chr.to.int$ -- 148
+cite$ -- 151
+duplicate$ -- 7002
+empty$ -- 6879
+format.name$ -- 2232
+if$ -- 20231
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1504
-newline$ -- 445
-num.names$ -- 613
-pop$ -- 3020
+missing$ -- 1530
+newline$ -- 451
+num.names$ -- 621
+pop$ -- 3078
 preamble$ -- 1
-purify$ -- 1161
+purify$ -- 1183
 quote$ -- 0
-skip$ -- 2508
+skip$ -- 2546
 stack$ -- 0
-substring$ -- 4142
-swap$ -- 3997
+substring$ -- 4200
+swap$ -- 4063
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1308
+type$ -- 1326
 warning$ -- 2
-while$ -- 596
+while$ -- 604
 width$ -- 0
-write$ -- 1624
+write$ -- 1646
 (There were 12 error messages)
