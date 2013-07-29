@@ -29,13 +29,17 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Spectra integrated over a radius of 5$^{\prime \prime }$ for each array configuration image cube. The blueshifted emission component between $-16.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ and $-10.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ is almost resolved out in the C configuration image cube spectrum. The red and blue lines correspond to the high and low spectral resolution data respectively.\relax }}{62}{figure.caption.35}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Spectral profiles of the low spectral resolution multi-configuration image cube for circular extraction areas of radius 1$^{\prime \prime }$, 2$^{\prime \prime }$, 4$^{\prime \prime }$, 6$^{\prime \prime }$, 8$^{\prime \prime }$, and 10$^{\prime \prime }$. The signal-to-noise of the line profile reduces at larger extraction areas as more noise is included from the outer regions of the channel maps.\relax }}{65}{figure.caption.36}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Discrete sources in individual configuration image cubes}}{67}{figure.caption.37}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Geometry of a spherical symmetric flow.}}{69}{figure.caption.38}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Deriving $R_{\rm {chan}}$ per channel map}}{71}{figure.caption.39}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces S2 radius as a function of channel velocity}}{71}{figure.caption.39}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces \textit {Left Column:} Surface Brightness as a function of projected radius on sky, R (red line). The emission has been extracted from the low spectral resolution multi-configuration image cube and is integrated over the channels where S1 is present (bottom) and over the channels where only S2 is present (top). Intensity proportional to R${}^{-1}$ and R${}^{-2}$ is also shown for comparison. \textit {Right Column:} The corresponding visibility amplitude as a function of u-v distance (q) of both outflows can be modeled well by a R${}^{-1}$ fall off in intensity. The error bars in all plots represent the standard error of the mean.\relax }}{73}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{74}{figure.caption.39}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{82}{figure.caption.44}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{87}{figure.caption.45}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{88}{figure.caption.46}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{90}{figure.caption.47}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{94}{figure.caption.48}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{96}{figure.caption.49}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{98}{figure.caption.50}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{79}{figure.caption.42}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{87}{figure.caption.47}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{92}{figure.caption.48}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{93}{figure.caption.49}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{95}{figure.caption.50}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{99}{figure.caption.51}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{101}{figure.caption.52}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{103}{figure.caption.53}
 \addvspace {10\p@ }

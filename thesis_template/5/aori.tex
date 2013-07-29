@@ -93,7 +93,7 @@ We created three image cubes for each configuration by concatenating all good tr
 \label{fig:5.6}
 \end{figure}
 
-\section{Multi-configuration Image Cubes}\label{sec:5.5}
+\section{Multi-configuration Image Cube Inspection}\label{sec:5.5}
 
 A subset of the blueshifted velocity channel maps of the low spectral resolution multi-configuration image cube is presented in Figure \ref{fig:5.7}. The first channel map at $-17.9\>{\rm km\>s}^{-1}$ shows just the compact unresolved continuum emission with no extended emission present. Between $-16.7\>{\rm km\>s}^{-1}$ and $-9.0\>{\rm km\>s}^{-1}$ we see evidence for the development of a classical shell signature for the S2 flow. We first sample the highest velocity components where the emission is relatively compact (i.e. between $-16.7\>{\rm km\>s}^{-1}$ and $-12.9\>{\rm km\>s}^{-1}$) and then sample lower radial velocity components where S2 becomes a faint ring (i.e. between $-11.6\>{\rm km\>s}^{-1}$ and $-9.0\>{\rm km\>s}^{-1}$). At lower velocities again, these rings disappear into the noise of the maps and possibly extend out beyond the primary beam at zero velocity when the rings should have maximum spatial extent. The emission from the channel maps between $-15.3\>{\rm km\>s}^{-1}$ and $-11.6\>{\rm km\>s}^{-1}$ correspond to all the emission in the extreme blue wing component of the multi-configuration image cube line profile discussed in \S3.1. We can see in Figure \ref{fig:5.7} that all of this emission is greater than the C configuration resolving out scale of $\sim 6\arcsec$, therefore confirming that our C configuration line profile is mainly composed of S1 emission. The shell formation signature of S2 is also apparent in the redshifted velocity channel maps between $+7.5\>{\rm km\>s}^{-1}$ and $+13.8\>{\rm km\>s}^{-1}$ but the emission appears weaker and the rings fainter therefore indicating that S2 is somewhat fragmented. 
 
@@ -125,8 +125,73 @@ A subset of the blueshifted velocity channel maps of the low spectral resolution
 
 The multi-configuration maps also show the central compact emission from the S1 flow at velocities between $-10.3\>{\rm km\>s}^{-1}$ and $+11.3\>{\rm km\>s}^{-1}$. This S1 emission can be seen in the final two maps of Figure \ref{fig:fig3} as a central slightly elongated emission feature surrounded by the fainter rings of the S2 flow. In the maps where both S1 and S2 are present the emission from S1 appears brighter than the emission from S2. The spatial extent of the S1 flow varies from channel map to channel map but appears to be larger than the 2$\arcsec$ value given by \cite{smith_2009}, who observed off-star wind scattered ro-vibration CO lines. 
 
-\section{Determination of S1 and S2 shell sizes}\label{sec:5.6} 
+\section{Multi-configuration Image Cube Analysis}\label{sec:5.6}
 
+\subsection{Spatial Extent of S2}
+The spatial extent of the S1 and S2 flows around Betelgeuse were not directly determined from either the CO infrared absorption spectra of \cite{bernat_1979} or previous CO single dish radio observations \citep{knapp_1980, huggins_1987, huggins_1994}. Our low spectral resolution multi-configuration image cube has sufficient spatial resolution and signal-to-noise to make direct estimates of the maximum radius of both flows. The outer S2 flow is not seen in the low absolute velocity channel maps where its spatial extent is maximum and either lies outside of the primary beam or is lost into the noise near the edge of the maps. Therefore we cannot make a direct measurement of its maximum size. However, we can derive the maximum outer scale of the S2 flow by looking at the spatial scales of the S2 flow in the higher absolute velocity maps where S2 is present. 
+
+\begin{figure}[!ht]
+\centering 
+\includegraphics[trim=0pt 320pt 50pt 240pt, clip, scale=0.8]{/home/eamon/thesis/thesis_template/5/shell_size_est.ps}
+\caption[Geometry of a spherical symmetric flow.]{Geometry of a spherical symmetric flow used to derive the spatial extent of the S2 flow. By measuring the spatial extent of S2 (i.e., $R_{\rm{S2}}\rm{sin}\theta$) as a function of channel/velocity (i.e., $V_{\rm{S2}}\rm{cos}\theta$) the maximum spatial extent of the S2 flow can be derived.}
+\label{fig:5.8}
+\end{figure}
+
+If we assume that S2 is spherically symmetric with an outer radius $R_{\rm{S2}}$, and is undergoing steady expansion with velocity $V_{\rm{S2}}$, then its geometry is described by Figure \ref{fig:5.8}. As we sample the line at different velocities, the spatial extent of S2 changes and gets progressively larger at lower absolute velocities as shown in Figure \ref{fig:5.7}. We define the spatial extent of S2 in each map as
+\begin{equation}
+r_{\rm{chan}}=R_{S2}\times \rm{sin}\mathrm{\theta}
+\label{eq:5.6a}
+\end{equation}
+which can be measured in many of the channel maps. Each of these channel maps has an associated velocity $V_{\rm{chan}}$, which we know, and is related to the actual velocity of the S2 flow by
+\begin{equation}
+V_{\rm{chan}}=V_{S2}\times \rm{cos}\mathrm{\theta}.
+\label{eq:5.6b}
+\end{equation}
+Combining Equations \ref{eq:5.6a} and \ref{eq:5.6b} via the angle dependence, gives the following equation which contains $R_{\rm{S2}}$ as the only unknown parameter,
+\begin{equation}
+r_{\rm{chan}}= R_{\rm{S2}}\times \rm{sin}\left[\rm{cos}^{-1}\left(\frac{\mathit{V}_{chan}}{\mathit{V}_{S2}}\right) \right].
+\label{eq:5.6c}
+\end{equation} 
+
+We now use Equation \ref{eq:5.6c} to estimate the maximum projected spatial extent of S2 which occurs at zero velocity. An estimate of the S2 radius per channel ($r_{\rm{chan}}$) was found by creating annuli of increasing radius around the central emission in each relevant line channel map of the multi-configuration image cube, extracting all flux within each annulus and then plotting these fluxes against distance from the star for each channel map as demonstrated in Figure \ref{fig:5.9}. The maximum of these resultant curves was then deemed to be the maximum radius of S2 per channel map. Figure \ref{fig:5.10} shows these data over-plotted with two model outflows which were created using Equation \ref{eq:5.6c}. The blueshifted data points were best fitted by a model outflow of maximum radius 17$\arcsec$ and outflow velocity $17\>{\rm km\>s}^{-1}$, while the redshifted data points were best fitted by a model outflow of maximum radius 16$\arcsec$ and outflow velocity $14\>{\rm km\>s}^{-1}$. It is worth mentioning that this estimate for the spatial extent of S2 is only weakly dependent on our adopted radial velocity value for Betelgeuse and adopting a slightly different value would simply alter the outflow velocities.
+
+\begin{figure}
+\centering 
+\includegraphics[trim=0pt 0pt 0pt 0pt, clip, scale=0.65]{/home/eamon/thesis/thesis_template/5/annulus_flx_blue.eps}
+\caption[Deriving $R_{\rm{chan}}$ per channel map]{Deriving $R_{\rm{chan}}$ per channel map. The maximum of the curves representing the integrated flux as a function of distance from the star was deemed as the size of S2 in each channel map.}
+\label{fig:5.9}
+\centering 
+\includegraphics[trim=0pt 0pt 0pt 0pt, clip, scale=0.65]{/home/eamon/thesis/thesis_template/5/f13.eps}
+\caption[S2 radius as a function of channel velocity]{The derived S2 radius as a function of velocity (red points) overplotted with two model outflows. The blueshifted model (left) corresponds to an outflow with a maximum radius of 17$\arcsec$ and a velocity of $16.7\>{\rm km\>s}^{-1}$ while the redshifted model (right) corresponds to an outflow with a maximum radius of 16$\arcsec$ and a velocity of $13.8\>{\rm km\>s}^{-1}$. Note: The line profile is $1.9\>{\rm km\>s}^{-1}$ wider in the low resolution image cube ($\Delta v$ = $1.3\>{\rm km\>s}^{-1}$) than in the high resolution image cube.}
+\label{fig:5.10}
+\end{figure}
+
+\subsection{Intensity distribution of CO}
+In the left column of Figure \ref{x} we investigate the intensity distribution of CO emission as a function of projected radius, R, for both the S1 and S2 flows. From our discussions in \S \ref{results1} we can assume that all line emission between -15.4 $\rightarrow$ $-10.3\>{\rm km\>s}^{-1}$ and +12.4 $\rightarrow$ $+13.8\>{\rm km\>s}^{-1}$ emanates solely from the S2 flow. Using the low spectral resolution multi-configuration image cube we integrate the surface brightness over these channels and find that the intensity fall-off is proportional to R${}^{-1}$ (Figure \ref{fig:fig6}: \textit{top}). To investigate the S1 flow intensity distribution around $\alpha$ Ori we integrate the surface brightness over the channels between -9 $\rightarrow$ $+10.6\>{\rm km\>s}^{-1}$. Although these channels contain emission from both S1 and S2, most of the S2 emission here will have larger projected radii and thus the majority of the inner emission should emanate from the S1 flow.  Between 0.5$\arcsec$ and 4$\arcsec$ from the star the intensity is again found to be proportional to R${}^{-1}$ (Figure \ref{fig:fig6}: \textit{bottom}). Such an intensity distribution is expected for an optically thin homogeneous constant velocity outflow with $\rho \propto 1/\rm{R^{2}}$. Beyond 4$\arcsec$ the intensity fall off is more rapid and is close to a R${}^{-2}$ distribution which may mark the initiation of the current epoch of mass loss.
+
+\begin{figure}[hbt!]
+%\centering
+\mbox{
+          \includegraphics[scale=0.42]{/home/eamon/thesis/thesis_template/5/f14.eps}
+          \includegraphics[trim=30pt 0pt 0pt 0pt, clip, scale=0.42]{/home/eamon/thesis/thesis_template/5/f15.eps}
+          }
+\\
+\mbox{
+          \includegraphics[scale=0.42]{/home/eamon/thesis/thesis_template/5/f16.eps}
+          \includegraphics[trim=30pt 0pt 0pt 0pt, clip, scale=0.42]{/home/eamon/thesis/thesis_template/5/f17.eps}
+
+          }
+\\
+\caption{\textit{Left Column:} Surface Brightness as a function of projected radius on sky, R (red line). The emission has been extracted from the low spectral resolution multi-configuration image cube and is integrated over the channels where S1 is present (bottom) and over the channels where only S2 is present (top). Intensity proportional to R${}^{-1}$ and R${}^{-2}$ is also shown for comparison. \textit{Right Column:} The corresponding visibility amplitude as a function of u-v distance (q) of both outflows can be modeled well by a R${}^{-1}$ fall off in intensity. The error bars in all plots represent the standard error of the mean.}
+\label{fig:5.11}
+\end{figure}
+
+Insight can also be gained into how the intensity varies on different size scales by conducting analysis in the u-v plane and plotting the visibility amplitude of $\alpha$ Ori against u-v distance. The result of this is shown in the right column of Figure \ref{fig:fig6} where the same channels corresponding to the S1 and S2 flows have been used. The data are azimuthally averaged, and have been binned to produce one data point per k$\lambda$. The result for both the S1 and S2 data is a steep drop-off in visibility amplitude over a relatively short u-v distance, signaling that the sources are well resolved. Both sets of visibility data agree with an intensity proportional to $(a^2 + R^2){}^{-1/2}$, where $a$ is an inner spatial limit. This is because the Hankel transform of this function is $q^{-1}e^{-2\pi aq}$ \citep{2000fta..book.....B}, where q is the u-v distance, and a vertically scaled version of this function is shown to match the visibility data very well in Figure \ref{fig:fig6}. As analysis in both the sky and u-v plane indicate the intensity of both flows is proportional to R${}^{-1}$ we conclude that when azimuthally averaged, both outflows are  consistent with an optically thin and quasi-steady flow which is in agreement with \cite{2009AJ....137.3558S} (i.e. S1) and \cite{2002A&A...386.1009P} (i.e. S2). 
+
+\subsection{Spatial Extent of S1}
+An exact determination of the maximum spatial extent of the S1 flow is more difficult as we do not see the classical shell formation signature for it as we sample across velocities, like we do for S2. Instead its spatial extent varies over the channel maps with evidence of discrete clumps being present in many of these maps. At 20\% of maximum emission in the integrated intensity S1 map (i.e. composed of all channels between -9 $\rightarrow$ $+10.6\>{\rm km\>s}^{-1}$) the S1 flow extends out to a mean distance of $\sim$ 4$\arcsec$ and is even more extended in the S-W direction due to the presence of the second emission feature in the compact configuration data sets. The HPBW of 0.9$\arcsec$ is not sufficient to determine whether the S1 flow is discrete or an extension of the current wind phase seen in ultraviolet spectra, e.g., \cite{1997ApJ...479..970C}, and cm-radio continuum interferometry \citep{1998Natur.392..575L, harper_2001}.
+
+Graham's proceedings
 \section{Continuum Flux Densities}\label{sec:5.7}
 In Table \ref{tab:5.1} we show the derived continuum flux densities for each of the three configuration image cubes and also the multi-configuration image cube. The high spectral resolution ($\Delta v$ = $0.65\>{\rm km\>s}^{-1}$) image cubes were just wide enough to image the CO line but were too narrow to make accurate estimates of the continuum flux density. Therefore, all continuum flux density estimates are derived from the lower spectral resolution ($\Delta v$ = $1.3\>{\rm km\>s}^{-1}$) image cubes from which we were able to take accurate measurements at both sides of the line. We fitted elliptical Gaussians to $\sim$ 20 continuum channels using CASA's \textit{imfit} routine allowing the flux and corresponding uncertainties to be calculated. The source was unresolved in most of these continuum channels. 
 

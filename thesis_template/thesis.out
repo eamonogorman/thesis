@@ -35,8 +35,11 @@
 \BOOKMARK [1][]{section.5.2}{5.2 Adopted Radial Velocity}{chapter.5}
 \BOOKMARK [1][]{section.5.3}{5.3 CARMA CO\(J=2-1\) Spectra}{chapter.5}
 \BOOKMARK [1][]{section.5.4}{5.4 Individual Configuration Image Cubes}{chapter.5}
-\BOOKMARK [1][]{section.5.5}{5.5 Multi-configuration Image Cubes}{chapter.5}
-\BOOKMARK [1][]{section.5.6}{5.6 Determination of S1 and S2 shell sizes}{chapter.5}
+\BOOKMARK [1][]{section.5.5}{5.5 Multi-configuration Image Cube Inspection}{chapter.5}
+\BOOKMARK [1][]{section.5.6}{5.6 Multi-configuration Image Cube Analysis}{chapter.5}
+\BOOKMARK [2][]{subsection.5.6.1}{5.6.1 Spatial Extent of S2}{section.5.6}
+\BOOKMARK [2][]{subsection.5.6.2}{5.6.2 Intensity distribution of CO}{section.5.6}
+\BOOKMARK [2][]{subsection.5.6.3}{5.6.3 Spatial Extent of S1}{section.5.6}
 \BOOKMARK [1][]{section.5.7}{5.7 Continuum Flux Densities}{chapter.5}
 \BOOKMARK [1][]{section.5.8}{5.8 Higher CO rotational lines}{chapter.5}
 \BOOKMARK [1][]{section.5.9}{5.9 e-Merlin Results}{chapter.5}
@@ -56,4 +59,4 @@
 \BOOKMARK [1][]{section.6.7}{6.7 Constraining \040Tau's Molsphere}{chapter.6}
 \BOOKMARK [1][]{section.6.8}{6.8 Ionized Mass Loss Rates}{chapter.6}
 \BOOKMARK [0][]{appendix.A}{A List of Abbreviations}{}
-\BOOKMARK [0][]{section*.54}{References}{}
+\BOOKMARK [0][]{section*.57}{References}{}
