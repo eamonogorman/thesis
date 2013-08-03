@@ -48,6 +48,9 @@ $B_{\star}$ (G) & $\sim 1$ & \cite{auriere_2010} \\
 Chromosphere Model & $\ldots$ & \cite{harper_2001} \\
 Wind Model &  $\ldots$ &\cite{harper_2001}\\ 
 Outer CSE &  $\ldots$ &\cite{rodgers_1991}\\ 
+$^{12}$C/$^{13}$C & $6\pm 1$ &\cite{harris_1984}\\ 
+$^{16}$O/$^{17}$O & $525\pm 250$ &\cite{harris_1984}\\ 
+$^{16}$O/$^{18}$O & $700\pm 300$ &\cite{harris_1984}\\ 
 \hline
 \rule{0pt}{2.0ex}
 \end{tabular}
@@ -134,8 +137,6 @@ We used CARMA to obtain on-source profiles of the rotational transition line $\r
 CARMA can now take measurements in eight bands yielding a maximum bandwidth of 4 GHz per sideband. However, back when our data was obtained, the CARMA correlator took measurements in just three separate bands, each having an upper and lower sideband. One band was set to the low resolution 468\,MHz bandwidth mode (15 channels of 31.25\,MHz each) to observe continuum emission and was centered on the line. The other two bands were configured with 62\,MHz and 31\,MHz bandwidth across 63 channels (with a resolution of $1.3\>{\rm km\>s}^{-1}$ and $0.65\>{\rm km\>s}^{-1}$ respectively) and were also centered on the line. The line was measured in the upper sideband in the C and E array and in the lower sideband in the D array.
 
 Bandpass and phase calibration were performed using 3C120 and 0530+135. 0532+075 was used as a secondary phase calibrator to determine the quality of the phase transfer from the primary phase calibrator. The observing sequence was to integrate on the primary phase calibrator for $\sim$ 2.5 minutes, the target for $\sim$ 18 minutes, and the secondary phase calibrator for $\sim$ 2.5 minutes. The cycle was repeated for each track which lasted between 1.5 hours and 5 hours. Absolute flux calibration was carried out with 0530+135 and 3C120 using the continuously updated CARMA flux catalog to obtain their flux values at each observation.
-
-
 \begin{landscape}
 \begin{table}[!ht]
 \begin{center}
@@ -356,12 +357,12 @@ For this reason we applied for (and were awarded) 3 additional hours of director
 
 In radio interferometry, baseline-dependent additive errors in the visibilities can occasionally lead to artifacts occurring at phase center of the final image. Such errors may be caused by unflagged low level interference picked up by some antennas baselines. An example of this is demonstrated in Figure \ref{fig:3.6} in which two radio images of Betelgeuse at 15 GHz are shown (A. Brown, priv. comm.). The left panel was taken on 2$^{\rm{nd}}$ February 2002 and shows a 30$\sigma$ detection of Betelgeuse with low level background noise. The right panel which was taken two months later on 2$^{\rm{nd}}$ April 2002 shows a 45$\sigma$ detection of the star but also now shows a 15$\sigma$ artifact at phase center. If the target had been observed at phase center in this case, then this artifact would lead to an incorrect flux density measurement for the star. For our VLA observations, both $\alpha$ Boo and $\alpha$ Tau were slightly offset from the phase-center by $\sim 5$ synthesized beam widths in order to avoid source contamination by these rare but possible phase center artifacts and therefore avoiding spurious detections. 
 
-\begin{figure}[hbt!]
+\begin{figure}[ht!]
 \centering 
 \mbox{
-          \includegraphics[trim=60pt 170pt 60pt 220pt,clip,width=11cm,height=9.2cm]{/home/eamon/thesis/thesis_template/3/atau_cx.ps}}
+          \includegraphics[trim=60pt 170pt 60pt 220pt,clip,width=11cm,height=8.2cm]{/home/eamon/thesis/thesis_template/3/atau_cx.ps}}
 \mbox{
-          \includegraphics[trim=60pt 170pt 60pt 210pt,clip,width=11cm,height=9.2cm]{/home/eamon/thesis/thesis_template/3/atau_kkaq.ps}
+          \includegraphics[trim=60pt 170pt 60pt 210pt,clip,width=11cm,height=8.2cm]{/home/eamon/thesis/thesis_template/3/atau_kkaq.ps}
           }
 \caption[Overview of a low and high frequency VLA observation.]{Overview of a low and high frequency VLA SB for $\alpha$ Tau. \textit{Top Panel:} The low frequency observations consisted of interleaved
 observations of the target and a nearby phase calibrator with cycle times of 12 minutes. The X band observations were interspersed between C band observations to obtain a good spread in $u-v$ coverage. \textit{Bottom Panel:} The high frequency observations had short cycle times to compensate for tropospheric effects. Q band observations were taken first to ensure the best pointing solutions were applied to them. }
@@ -373,12 +374,11 @@ The main problem at low VLA frequencies (L and S bands) is disturbances in the i
 
 At high VLA frequencies (i.e. K, Ka, and Q band) the troposphere can cause major phase variations to incoming radio waves. To reduce this problem, the old VLA used a technique called \textit{fast switching} which reduced the setup overhead and slewing compared to traditional iterating between source and calibrator scans. This overhead is sufficiently reduced with the new VLA and no special fast switching mode is necessary. Instead regular but short duration source-calibrator loops are implemented. As a result, the calibration overheads for high frequency observing are typically considerably larger than for lower frequency observations. For both stars, the total cycle times for the Q, Ka, and K-band observations were 160, 230, and 290 s, respectively. These high frequency observations were combined into a single 2 hour SB for each star and commenced with X-band reference pointing with solutions being applied on-line. As mentioned in Section \ref{subsec:2.1.3}, the blind pointing errors of the VLA antennas can occasionally be as large as the HPBW of the primary beam at high frequencies. Thankfully, the pointing can be calibrated for using a technique known as \textit{reference pointing} whereby a nearby known calibrator is observed in interferometer pointing mode every hour or so. The measured local pointing corrections are then be applied to subsequent target observations. Reference pointing can reduce the rms pointing errors to as little as 2$\arcsec$ if the reference source is with 10$^\circ$ of the target source. After X-band pointing the target source was observed at Q-band to ensure the best pointing solutions were used as shown in the lower panel of Figure \ref{fig:3.7} for $\alpha$ Tau.  
 
-\section{VLA + Pie Town Observations of Betelgeuse}\label{sec:3.7}
+\section{VLA-Pie Town Observations of Betelgeuse}\label{sec:3.7}
 
-As part of our study of Betelgeuse's extended atmosphere we decided to re-visit some archival high spatial resolution VLA data from the early 2000's. This was motivated by the recent findings of \cite{richards_2013} who detected two hot chromospheric features  with the very long baseline interferometer e-MERLIN. The two features, also referred to as `hot spots', were found to have brightness temperatures well above the mean brightness temperature measured at the same radio wavelength, and were separated from each other by 90 mas. 
+As part of our study into Betelgeuse's extended atmosphere we decided to re-visit some archival high spatial resolution VLA data from the early 2000's. This was motivated by the recent findings of \cite{richards_2013} who detected two hot chromospheric features  with the very long baseline interferometer e-MERLIN. The two features, also referred to as `hot spots', were found to have brightness temperatures well above the mean brightness temperature measured at the same radio wavelength, and were separated from each other by 90 mas. We wanted to see if these features were present at other wavelengths and if so, how they varied over time.
 
-Asymmetries in Betelgeuse's atmosphere were first detected in the radio by \cite{lim_1998}. To see how these asymmetries evolved with time, a multi-wavelength study into the temporal evolution of Betelgeuse's atmosphere was carried out with the old VLA over a number of years in the early 2000's in its most extended A configuration plus the Pie Town Link. This study focused on fitting various models to the visibility data as was done by \cite{lim_1998}, i.e., the analysis was carried out in the visibility plane. The detection of the two unique hot spots by \cite{richards_2013} inspired us to revisit this data which, because of the addition of the Pie Town link to the VLA, gave spatial resolution comparable to or exceeding that of e-Merlin at some wavelengths. In Table \label{tab:3.8}
-we summarize this unique data set.
+Asymmetries in Betelgeuse's atmosphere were first detected in the radio by \cite{skinner_1997} and later confirmed by \cite{lim_1998}. To see how these asymmetries evolved with time, a multi-wavelength study into the temporal evolution of Betelgeuse's atmosphere was carried out with the old VLA over a number of years in the early 2000's in its most extended A configuration plus the Pie Town link\footnote{This data was carefully calibrated by Dr. Alexander Brown.}. This study focused on fitting various models to the visibility data as was done by \cite{lim_1998}, i.e., the analysis was mainly carried out in the visibility plane. The detection of the two unique hot spots in the e-MERLIN radio maps by \cite{richards_2013} inspired us to revisit this data which, because of the addition of the Pie Town link to the VLA, gave spatial resolution comparable to or exceeding that of e-MERLIN at some wavelengths. Our goal was to carry out the analysis in the image plane to make a direct comparison with the findings of \cite{richards_2013}. In Table \ref{tab:3.8} we summarize this unique data set which consists of almost four years of high resolution multi-wavelength  observations of Betelgeuse. To increase our observational time period we also include the short wavelength high resolution (i.e., A configuration) observations of the star from 1998. Betelgeuse was resolved at all wavelengths listed in Table \ref{tab:3.8} except at L band.
 \begin{table}[!ht]
 \begin{center}
 \caption[Multi-wavelength VLA + Pie Town Observations of Betelgeuse]
@@ -400,19 +400,39 @@ we summarize this unique data set.
  & K&1.3 & 2.6& $80\times 42$&0.18\\
  & U&2.0 & 3.3& $119\times 96$&0.10\\
  & X&3.5 & 3.0& $204\times 139$&0.03\\
- & C&6.2 & ?& ?&?\\
+ & C&6.2 & 2.8& $378\times 297$&0.03\\
  & L&16.7 & 2.6& $1247\times 931$&0.04\\
 \hline
-\rule{0pt}{2.5ex}2002 & K&1.3 & & &\\
- & U&2.0 & &&\\
- & X&3.5 & & &\\
- & C&6.2 & & &\\
- & L&16.7 & &&\\
+\rule{0pt}{2.5ex}2002 Feb 17,18& K&1.3 & 2.0& $82\times 47$&0.14\\
+ & U&2.0 & 2.0&$128\times 90$&0.11\\
+ & X&3.5 & 2.1&$200\times 135$ &0.03\\
+ & C&6.2 & 1.6& $372\times 273$&0.3\\
+ & L&16.7 & 1.1&$1312\times 951$&0.05\\
+\hline
+\rule{0pt}{2.5ex}2002 Apr 12,13& K&1.3 & 2.0& $91\times 59$&0.18\\
+ & U$^{a}$&2.0 & 2.0&$130\times 98$&0.39\\
+ & X&3.5 & 2.1& $224\times 154$&0.03\\
+ & C$^{b}$&6.2 &1.6 & $406\times 295$&0.3\\
+ & L&16.7 & 0.9&$1397\times 1146$&0.07\\
+\hline
+\rule{0pt}{2.5ex}2001 Jan 02& K&1.3 & 6.0& $78\times 42$&0.08\\
+\hline
+\rule{0pt}{2.5ex}2000 Dec 23& Q&0.7 & 6.0& $44\times 20$&0.18\\
+\hline
+\rule{0pt}{2.5ex}1998 Mar 29,30& Q$^{c}$&0.7 & 5.3& $39\times 36$&0.38\\
+ & K$^{c}$&1.3 & 6.3& $114\times 89$&0.25\\
 \hline
 \end{tabular}
 \label{tab:3.8}
+\begin{minipage}{14.0cm}
+$^{a}$ Spurious source seen at phase center of image.\\
+$^{b}$ The star was not detected in this data set.\\
+$^{c}$ No Pie Town link was used in this data.
+\end{minipage}
 \end{center}
 \end{table}
 \\
 \\
-\textit{\textbf{The VLA + Pie Town Link}}\\
+\textit{\textbf{The VLA-Pie Town Link}}\\
+The 25\,m antenna located at Pie Town, New Mexico is one of 10 antennas spread across the United States of America which together make up the Very Long Baseline Array (VLBA). It was successfully connected in real time via a 104\,km long fiber optic line to the VLA in 1999 and was operational at all old VLA frequencies prior to its upgrade to the Karl G. Jansky VLA. The Pie Town antenna is located approximately 52 km west of the center of the VLA, effectively doubling its resolution while in A configuration when connected. It is worth noting that the Pie Town link was only functional when the VLA was in A configuration. The extra collecting area together with 27 additional baselines also increases the sensitivity of the array. The Pie Town antenna generates IF signals in VLBA format and these are converted, at Pie Town, to a 50 MHz wide VLA signal where they are multiplexed and then modulated onto a single laser before being sent over 104\,km of fiber to the VLA. When the signal arrives at the VLA site it is received and converted back into an RF signal. The received RF signal is then amplified and filtered before its is sent on
+to the backend receiver.

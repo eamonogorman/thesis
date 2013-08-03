@@ -64,48 +64,53 @@ Repeated entry---line 2414 of file mybib.bib
  : @article{altenhoff_1994
  :                        ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "2000fta..book.....B"
+Warning--I didn't find a database entry for "2009AJ....137.3558S"
+Warning--I didn't find a database entry for "2002A&A...386.1009P"
+Warning--I didn't find a database entry for "1997ApJ...479..970C"
+Warning--I didn't find a database entry for "1998Natur.392..575L"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 149 entries,
+You've used 159 entries,
             3018 wiz_defined-function locations,
-            1453 strings with 31287 characters,
-and the built_in function-call counts, 101640 in all, are:
-= -- 8210
-> -- 5535
-< -- 89
-+ -- 1943
-- -- 1791
-* -- 8773
-:= -- 15436
-add.period$ -- 444
-call.type$ -- 149
-change.case$ -- 1358
-chr.to.int$ -- 148
-cite$ -- 151
-duplicate$ -- 7002
-empty$ -- 6879
-format.name$ -- 2232
-if$ -- 20231
+            1509 strings with 32846 characters,
+and the built_in function-call counts, 107237 in all, are:
+= -- 8706
+> -- 5739
+< -- 93
++ -- 2018
+- -- 1856
+* -- 9250
+:= -- 16297
+add.period$ -- 474
+call.type$ -- 159
+change.case$ -- 1427
+chr.to.int$ -- 158
+cite$ -- 161
+duplicate$ -- 7410
+empty$ -- 7306
+format.name$ -- 2330
+if$ -- 21349
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1530
-newline$ -- 451
-num.names$ -- 621
-pop$ -- 3078
+missing$ -- 1611
+newline$ -- 481
+num.names$ -- 659
+pop$ -- 3214
 preamble$ -- 1
-purify$ -- 1183
+purify$ -- 1244
 quote$ -- 0
-skip$ -- 2546
+skip$ -- 2678
 stack$ -- 0
-substring$ -- 4200
-swap$ -- 4063
-text.length$ -- 15
+substring$ -- 4504
+swap$ -- 4278
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1326
+type$ -- 1416
 warning$ -- 2
-while$ -- 604
+while$ -- 644
 width$ -- 0
-write$ -- 1646
+write$ -- 1755
 (There were 12 error messages)

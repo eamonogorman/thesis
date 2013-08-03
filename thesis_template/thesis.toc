@@ -24,40 +24,38 @@
 \contentsline {chapter}{\numberline {3}Targets, Instrumentation, and Observations}{28}{chapter.3}
 \contentsline {section}{\numberline {3.1}Betelgeuse}{29}{section.3.1}
 \contentsline {section}{\numberline {3.2}CARMA}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{36}{section.3.3}
-\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{39}{section.3.4}
-\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{44}{section.3.5}
-\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{48}{section.3.6}
-\contentsline {section}{\numberline {3.7}VLA + Pie Town Observations of Betelgeuse}{53}{section.3.7}
-\contentsline {chapter}{\numberline {4}Data Analysis}{56}{chapter.4}
-\contentsline {section}{\numberline {4.1}Measurement Equation}{56}{section.4.1}
-\contentsline {chapter}{\numberline {5}Multi-wavelength Study of Betelgeuse's Outer Atmosphere}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}CO molecules in the CSE of Betelgeuse}{57}{section.5.1}
-\contentsline {section}{\numberline {5.2}Adopted Radial Velocity}{60}{section.5.2}
-\contentsline {section}{\numberline {5.3}CARMA CO($J=2-1$) Spectra}{61}{section.5.3}
-\contentsline {section}{\numberline {5.4}Individual Configuration Image Cubes}{66}{section.5.4}
-\contentsline {section}{\numberline {5.5}Multi-configuration Image Cube Inspection}{68}{section.5.5}
-\contentsline {section}{\numberline {5.6}Multi-configuration Image Cube Analysis}{69}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Spatial Extent of S2}{69}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Intensity distribution of CO}{72}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Spatial Extent of S1}{73}{subsection.5.6.3}
-\contentsline {section}{\numberline {5.7}Continuum Flux Densities}{74}{section.5.7}
-\contentsline {section}{\numberline {5.8}Higher CO rotational lines}{74}{section.5.8}
-\contentsline {section}{\numberline {5.9}e-Merlin Results}{75}{section.5.9}
-\contentsline {section}{\numberline {5.10}Multi-wavelength VLA + Pie Town Analysis}{75}{section.5.10}
-\contentsline {section}{\numberline {5.11}Q-band VLA + Pie Town Analysis}{75}{section.5.11}
-\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{76}{chapter.6}
-\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{77}{section.6.1}
-\contentsline {section}{\numberline {6.2}Radio Maps}{78}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{78}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{81}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{82}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Existing Models}{86}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{90}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{96}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{97}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{100}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{102}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{104}{section.6.8}
-\contentsline {chapter}{\numberline {A}List of Abbreviations}{107}{appendix.A}
-\contentsline {chapter}{References}{108}{section*.57}
+\contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{37}{section.3.3}
+\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{40}{section.3.4}
+\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{45}{section.3.5}
+\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{49}{section.3.6}
+\contentsline {section}{\numberline {3.7}VLA-Pie Town Observations of Betelgeuse}{55}{section.3.7}
+\contentsline {chapter}{\numberline {4}Data Analysis}{58}{chapter.4}
+\contentsline {section}{\numberline {4.1}Measurement Equation}{58}{section.4.1}
+\contentsline {chapter}{\numberline {5}Multi-wavelength Study of Betelgeuse's Outer Atmosphere}{59}{chapter.5}
+\contentsline {section}{\numberline {5.1}CO molecules in the CSE of Betelgeuse}{60}{section.5.1}
+\contentsline {section}{\numberline {5.2}Adopted Radial Velocity}{63}{section.5.2}
+\contentsline {section}{\numberline {5.3}CARMA CO($J=2-1$) Spectra}{64}{section.5.3}
+\contentsline {section}{\numberline {5.4}Individual Configuration Image Cubes}{69}{section.5.4}
+\contentsline {section}{\numberline {5.5}Multi-configuration Image Cube Inspection}{71}{section.5.5}
+\contentsline {section}{\numberline {5.6}Spatial Extent of S2}{72}{section.5.6}
+\contentsline {section}{\numberline {5.7}Intensity distribution of CO}{74}{section.5.7}
+\contentsline {section}{\numberline {5.8}Spatial Extent of S1}{77}{section.5.8}
+\contentsline {section}{\numberline {5.9}Continuum Flux Densities}{77}{section.5.9}
+\contentsline {section}{\numberline {5.10}Higher CO rotational lines}{78}{section.5.10}
+\contentsline {section}{\numberline {5.11}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{78}{section.5.11}
+\contentsline {section}{\numberline {5.12}Multi-wavelength VLA-Pie Town Results}{78}{section.5.12}
+\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{80}{chapter.6}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{81}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{82}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{82}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{85}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{86}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results vs Existing Models}{90}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{94}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{100}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{101}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{104}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{106}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{108}{section.6.8}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{111}{appendix.A}
+\contentsline {chapter}{References}{112}{section*.58}
