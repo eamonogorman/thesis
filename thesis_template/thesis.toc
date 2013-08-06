@@ -38,24 +38,25 @@
 \contentsline {section}{\numberline {5.4}Individual Configuration Image Cubes}{69}{section.5.4}
 \contentsline {section}{\numberline {5.5}Multi-configuration Image Cube Inspection}{71}{section.5.5}
 \contentsline {section}{\numberline {5.6}Spatial Extent of S2}{72}{section.5.6}
-\contentsline {section}{\numberline {5.7}Intensity distribution of CO}{74}{section.5.7}
+\contentsline {section}{\numberline {5.7}Intensity distribution of CO}{75}{section.5.7}
 \contentsline {section}{\numberline {5.8}Spatial Extent of S1}{77}{section.5.8}
-\contentsline {section}{\numberline {5.9}Continuum Flux Densities}{77}{section.5.9}
-\contentsline {section}{\numberline {5.10}Higher CO rotational lines}{78}{section.5.10}
-\contentsline {section}{\numberline {5.11}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{78}{section.5.11}
-\contentsline {section}{\numberline {5.12}Multi-wavelength VLA-Pie Town Results}{78}{section.5.12}
-\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{80}{chapter.6}
-\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{81}{section.6.1}
-\contentsline {section}{\numberline {6.2}Radio Maps}{82}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{82}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{85}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{86}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Existing Models}{90}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{94}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{100}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{101}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{104}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{106}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{108}{section.6.8}
-\contentsline {chapter}{\numberline {A}List of Abbreviations}{111}{appendix.A}
-\contentsline {chapter}{References}{112}{section*.58}
+\contentsline {section}{\numberline {5.9}Continuum Flux Densities}{78}{section.5.9}
+\contentsline {section}{\numberline {5.10}Higher CO rotational lines}{79}{section.5.10}
+\contentsline {section}{\numberline {5.11}CARMA CO observations in Context}{79}{section.5.11}
+\contentsline {section}{\numberline {5.12}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{79}{section.5.12}
+\contentsline {section}{\numberline {5.13}Multi-wavelength VLA-Pie Town Results}{81}{section.5.13}
+\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{82}{chapter.6}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{83}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{84}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{84}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{87}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{88}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results vs Existing Models}{92}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{96}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{102}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{103}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{106}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{108}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{110}{section.6.8}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{113}{appendix.A}
+\contentsline {chapter}{References}{115}{section*.59}

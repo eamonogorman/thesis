@@ -64,53 +64,58 @@ Repeated entry---line 2414 of file mybib.bib
  : @article{altenhoff_1994
  :                        ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "2000fta..book.....B"
-Warning--I didn't find a database entry for "2009AJ....137.3558S"
-Warning--I didn't find a database entry for "2002A&A...386.1009P"
+Repeated entry---line 2621 of file mybib.bib
+ : @article{altenhoff_1994
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2648 of file mybib.bib
+ : @article{smith_2009
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "1997ApJ...479..970C"
 Warning--I didn't find a database entry for "1998Natur.392..575L"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
-You've used 159 entries,
+You've used 163 entries,
             3018 wiz_defined-function locations,
-            1509 strings with 32846 characters,
-and the built_in function-call counts, 107237 in all, are:
-= -- 8706
-> -- 5739
-< -- 93
-+ -- 2018
-- -- 1856
-* -- 9250
-:= -- 16297
-add.period$ -- 474
-call.type$ -- 159
-change.case$ -- 1427
-chr.to.int$ -- 158
-cite$ -- 161
-duplicate$ -- 7410
-empty$ -- 7306
-format.name$ -- 2330
-if$ -- 21349
+            1528 strings with 33545 characters,
+and the built_in function-call counts, 110119 in all, are:
+= -- 8930
+> -- 5888
+< -- 99
++ -- 2071
+- -- 1903
+* -- 9487
+:= -- 16721
+add.period$ -- 486
+call.type$ -- 163
+change.case$ -- 1467
+chr.to.int$ -- 168
+cite$ -- 165
+duplicate$ -- 7624
+empty$ -- 7507
+format.name$ -- 2389
+if$ -- 21936
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1611
-newline$ -- 481
-num.names$ -- 659
-pop$ -- 3214
+missing$ -- 1656
+newline$ -- 493
+num.names$ -- 679
+pop$ -- 3313
 preamble$ -- 1
-purify$ -- 1244
+purify$ -- 1275
 quote$ -- 0
-skip$ -- 2678
+skip$ -- 2764
 stack$ -- 0
-substring$ -- 4504
-swap$ -- 4278
-text.length$ -- 14
+substring$ -- 4593
+swap$ -- 4408
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1416
+type$ -- 1449
 warning$ -- 2
-while$ -- 644
+while$ -- 662
 width$ -- 0
-write$ -- 1755
-(There were 12 error messages)
+write$ -- 1801
+(There were 14 error messages)
