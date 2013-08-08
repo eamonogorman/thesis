@@ -1,4 +1,4 @@
-\begin{thebibliography}{163}
+\begin{thebibliography}{167}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -50,6 +50,14 @@
 {\sc {Beasley}, A.J., {Stewart}, R.T. \& {Carter}, B.D.} (1992). {Non-thermal
   radio emission from post-main-sequence stars}. {\em \mnras\/}, {\bf 254},
   1--6.
+
+\bibitem[{{Becklin} \& {Gehrz}(2009)}]{becklin_2009}
+{\sc {Becklin}, E.E. \& {Gehrz}, R.D.} (2009). {SOFIA: Stratospheric
+  Observatory for Infrared Astronomy}. In {D.~C.~Lis, J.~E.~Vaillancourt,
+  P.~F.~Goldsmith, T.~A.~Bell, N.~Z.~Scoville, \& J.~Zmuidzinas}, ed., {\em
+  Submillimeter Astrophysics and Technology: a Symposium Honoring Thomas G.
+  Phillips\/}, vol. 417 of {\em Astronomical Society of the Pacific Conference
+  Series\/}, 101.
 
 \bibitem[{{Bedecarrax} {\em et~al.\/}(2013){Bedecarrax}, {Petit},
   {Auri{\`e}re}, {Grunhut}, {Wade}, {Chiavassa}, {Donati},
@@ -317,6 +325,16 @@
 \bibitem[{{Griffin}(1996)}]{griffin_1996}
 {\sc {Griffin}, R.E.M.} (1996). {Arcturus and human evolution}. {\em The
   Observatory\/}, {\bf 116}, 404--405.
+
+\bibitem[{{Guesten} {\em et~al.\/}(2000){Guesten}, {Hartogh}, {Huebers},
+  {Graf}, {Jacobs}, {Roeser}, {Schaefer}, {Schieder}, {Stark}, {Stutzki}, {Van
+  der Wal} \& {Wunsch}}]{guesten_2000}
+{\sc {Guesten}, R., {Hartogh}, P., {Huebers}, H.W., {Graf}, U.U., {Jacobs}, K.,
+  {Roeser}, H.P., {Schaefer}, F., {Schieder}, R.T., {Stark}, R., {Stutzki}, J.,
+  {Van der Wal}, P. \& {Wunsch}, A.} (2000). {GREAT: the first-generation
+  German heterodyne receiver for SOFIA}. In {R.~K.~Melugin \& H.-P.~R{\"o}ser},
+  ed., {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series\/}, vol. 4014, 23--30.
 
 \bibitem[{{Harper}(1994)}]{harper_1994}
 {\sc {Harper}, G.M.} (1994). {A Computer Program for Solving Multilevel Non-Lte
@@ -614,6 +632,11 @@
 \bibitem[{{Mihalas}(1978)}]{mihalas_1978}
 {\sc {Mihalas}, D.} (1978). {\em {Stellar atmospheres /2nd edition/}\/}.
 
+\bibitem[{{Muxlow}(2003)}]{muxlow_2003}
+{\sc {Muxlow}, T.W.B.} (2003). {e-MERLIN - a Real-Time VLBI Array}. In Y.C.
+  {Minh}, ed., {\em New technologies in VLBI\/}, vol. 306 of {\em Astronomical
+  Society of the Pacific Conference Series\/}, 245.
+
 \bibitem[{{Navarro} {\em et~al.\/}(2004){Navarro}, {Helmi} \&
   {Freeman}}]{navarro_2004}
 {\sc {Navarro}, J.F., {Helmi}, A. \& {Freeman}, K.C.} (2004). {The
@@ -751,6 +774,9 @@
 \bibitem[{Sagan(1997)}]{sagan1997demon}
 {\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
   the Dark\/}. Ballantine Books.
+
+\bibitem[{{Saha}(2011)}]{saha_2011}
+{\sc {Saha}, S.K.} (2011). {\em {Aperture Synthesis}\/}.
 
 \bibitem[{{Sanford}(1933)}]{sanford_1933}
 {\sc {Sanford}, R.F.} (1933). {No. 464. The variation in the radial velocity of
