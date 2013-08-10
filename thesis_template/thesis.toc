@@ -39,27 +39,27 @@
 \contentsline {section}{\numberline {5.5}Multi-configuration Image Cube Inspection}{71}{section.5.5}
 \contentsline {section}{\numberline {5.6}Spatial Extent of S2}{72}{section.5.6}
 \contentsline {section}{\numberline {5.7}Intensity distribution of CO}{75}{section.5.7}
-\contentsline {section}{\numberline {5.8}Spatial Extent of S1}{77}{section.5.8}
+\contentsline {section}{\numberline {5.8}Spatial Extent of S1}{78}{section.5.8}
 \contentsline {section}{\numberline {5.9}Continuum Flux Densities}{78}{section.5.9}
-\contentsline {section}{\numberline {5.10}Higher CO rotational lines}{79}{section.5.10}
-\contentsline {section}{\numberline {5.11}CARMA CO observations in Context}{80}{section.5.11}
-\contentsline {section}{\numberline {5.12}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{80}{section.5.12}
-\contentsline {section}{\numberline {5.13}Multi-wavelength VLA-Pie Town Results}{87}{section.5.13}
-\contentsline {subsection}{\numberline {5.13.1}Confirmation of a Low Temperature Wind}{87}{subsection.5.13.1}
-\contentsline {subsection}{\numberline {5.13.2}Flux Density Variability}{87}{subsection.5.13.2}
-\contentsline {subsection}{\numberline {5.13.3}High Resolution Maps}{87}{subsection.5.13.3}
-\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{88}{chapter.6}
-\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{89}{section.6.1}
-\contentsline {section}{\numberline {6.2}Radio Maps}{90}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{90}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{93}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{94}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Existing Models}{98}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{102}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{108}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{109}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{112}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{114}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{116}{section.6.8}
-\contentsline {chapter}{\numberline {A}List of Abbreviations}{119}{appendix.A}
-\contentsline {chapter}{References}{121}{section*.61}
+\contentsline {section}{\numberline {5.10}Higher CO rotational lines}{80}{section.5.10}
+\contentsline {section}{\numberline {5.11}CARMA CO observations in Context}{84}{section.5.11}
+\contentsline {section}{\numberline {5.12}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{85}{section.5.12}
+\contentsline {section}{\numberline {5.13}Multi-wavelength VLA-Pie Town Results}{90}{section.5.13}
+\contentsline {subsection}{\numberline {5.13.1}Confirmation of a Low Temperature Wind}{91}{subsection.5.13.1}
+\contentsline {subsection}{\numberline {5.13.2}Flux Density Variability}{91}{subsection.5.13.2}
+\contentsline {subsection}{\numberline {5.13.3}High Resolution Maps}{91}{subsection.5.13.3}
+\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{92}{chapter.6}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{93}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{94}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{94}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{97}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{98}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results vs Existing Models}{102}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{106}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{112}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{113}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{116}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{118}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{120}{section.6.8}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{123}{appendix.A}
+\contentsline {chapter}{References}{125}{section*.63}

@@ -33,15 +33,17 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Deriving $R_{\rm {chan}}$ per channel map}}{74}{figure.caption.39}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces S2 radius as a function of channel velocity}}{74}{figure.caption.39}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces \textit {Left Column:} Surface Brightness as a function of projected radius on sky, $R$ (red line). The emission has been extracted from the low spectral resolution multi-configuration image cube and is integrated over the channels where S1 is present (bottom) and over the channels where only S2 is present (top). Intensity proportional to $R{}^{-1}$ and $R{}^{-2}$ is also shown for comparison. \textit {Right Column:} The corresponding visibility amplitude as a function of $u-v$ distance ($q$) of both outflows can be modeled well by a $R{}^{-1}$ fall off in intensity. The error bars in all plots represent the standard error of the mean.\relax }}{77}{figure.caption.40}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces First e-MERLIN results for Betelgeuse.}}{83}{figure.caption.43}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Predicted position of Betelgeuse on 2012 July using the astrometric solutions of \cite {harper_2001}.}}{84}{figure.caption.44}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces CARMA maps of the inner S1 flow.}}{79}{figure.caption.41}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces CO and SiO rotational emission lines from the CSE of Betelgeuse.}}{82}{figure.caption.43}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces First e-MERLIN results for Betelgeuse.}}{86}{figure.caption.45}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Predicted position of Betelgeuse on 2012 July using the astrometric solutions of \cite {harper_2001}.}}{88}{figure.caption.46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{91}{figure.caption.46}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{99}{figure.caption.51}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{104}{figure.caption.52}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{105}{figure.caption.53}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{107}{figure.caption.54}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{111}{figure.caption.55}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{113}{figure.caption.56}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{115}{figure.caption.57}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{95}{figure.caption.48}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{103}{figure.caption.53}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{108}{figure.caption.54}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{109}{figure.caption.55}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{111}{figure.caption.56}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{115}{figure.caption.57}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{117}{figure.caption.58}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{119}{figure.caption.59}
 \addvspace {10\p@ }

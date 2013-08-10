@@ -1,4 +1,4 @@
-\begin{thebibliography}{167}
+\begin{thebibliography}{171}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -87,6 +87,10 @@
   {Observations of CO circumstellar absorption in the 4.6 micron spectrum of
   Alpha Orionis}. {\em \apjl\/}, {\bf 233}, L135--L139.
 
+\bibitem[{{Blundell}(2007)}]{blundell_2007}
+{\sc {Blundell}, R.} (2007). {The Submillimeter Array}. In {\em IEEE MTT-S
+  International Microwave Symposium Digest\/}, 1857--1860.
+
 \bibitem[{{Bock}(2006)}]{bock_2006}
 {\sc {Bock}, D.C.J.} (2006). {CARMA: Combined Array for Research in
   Millimeter-Wave Astronomy}. In D.C. {Backer}, J.M. {Moran} \& J.L. {Turner},
@@ -133,6 +137,11 @@
 {\sc {Carpenter}, K.G. \& {Robinson}, R.D.} (1996). {HST Studies of Carbon and
   K-M Giant/Supergiant Stars}. In P.~{Benvenuti}, F.D. {Macchetto} \& E.J.
   {Schreier}, eds., {\em Science with the Hubble Space Telescope - II\/}, 418.
+
+\bibitem[{{Carpenter} \& {Robinson}(1997)}]{carpenter_1997}
+{\sc {Carpenter}, K.G. \& {Robinson}, R.D.} (1997). {GHRS Observations of Cool,
+  Low-Gravity Stars. III. Plasma Flows and Turbulence in the Outer Atmosphere
+  of alpha Orionis (M2 Iab)}. {\em \apj\/}, {\bf 479}, 970--+.
 
 \bibitem[{{Carpenter} {\em et~al.\/}(1999){Carpenter}, {Robinson}, {Harper},
   {Bennett}, {Brown} \& {Mullan}}]{carpenter_1999}
@@ -184,6 +193,70 @@
 {\sc {Danchi}, W.C., {Bester}, M., {Degiacomi}, C.G., {Greenhill}, L.J. \&
   {Townes}, C.H.} (1994). {Characteristics of dust shells around 13 late-type
   stars}. {\em \aj\/}, {\bf 107}, 1469--1513.
+
+\bibitem[{{de Graauw} {\em et~al.\/}(2010){de Graauw}, {Helmich}, {Phillips},
+  {Stutzki}, {Caux}, {Whyborn}, {Dieleman}, {Roelfsema}, {Aarts}, {Assendorp},
+  {Bachiller}, {Baechtold}, {Barcia}, {Beintema}, {Belitsky}, {Benz}, {Bieber},
+  {Boogert}, {Borys}, {Bumble}, {Ca{\"i}s}, {Caris}, {Cerulli-Irelli},
+  {Chattopadhyay}, {Cherednichenko}, {Ciechanowicz}, {Coeur-Joly}, {Comito},
+  {Cros}, {de Jonge}, {de Lange}, {Delforges}, {Delorme}, {den Boggende},
+  {Desbat}, {Diez-Gonz{\'a}lez}, {di Giorgio}, {Dubbeldam}, {Edwards},
+  {Eggens}, {Erickson}, {Evers}, {Fich}, {Finn}, {Franke}, {Gaier}, {Gal},
+  {Gao}, {Gallego}, {Gauffre}, {Gill}, {Glenz}, {Golstein}, {Goulooze},
+  {Gunsing}, {G{\"u}sten}, {Hartogh}, {Hatch}, {Higgins}, {Honingh}, {Huisman},
+  {Jackson}, {Jacobs}, {Jacobs}, {Jarchow}, {Javadi}, {Jellema}, {Justen},
+  {Karpov}, {Kasemann}, {Kawamura}, {Keizer}, {Kester}, {Klapwijk}, {Klein},
+  {Kollberg}, {Kooi}, {Kooiman}, {Kopf}, {Krause}, {Krieg}, {Kramer},
+  {Kruizenga}, {Kuhn}, {Laauwen}, {Lai}, {Larsson}, {Leduc}, {Leinz}, {Lin},
+  {Liseau}, {Liu}, {Loose}, {L{\'o}pez-Fernandez}, {Lord}, {Luinge}, {Marston},
+  {Mart{\'{\i}}n-Pintado}, {Maestrini}, {Maiwald}, {McCoey}, {Mehdi}, {Megej},
+  {Melchior}, {Meinsma}, {Merkel}, {Michalska}, {Monstein}, {Moratschke},
+  {Morris}, {Muller}, {Murphy}, {Naber}, {Natale}, {Nowosielski}, {Nuzzolo},
+  {Olberg}, {Olbrich}, {Orfei}, {Orleanski}, {Ossenkopf}, {Peacock}, {Pearson},
+  {Peron}, {Phillip-May}, {Piazzo}, {Planesas}, {Rataj}, {Ravera}, {Risacher},
+  {Salez}, {Samoska}, {Saraceno}, {Schieder}, {Schlecht}, {Schl{\"o}der},
+  {Schm{\"u}lling}, {Schultz}, {Schuster}, {Siebertz}, {Smit}, {Szczerba},
+  {Shipman}, {Steinmetz}, {Stern}, {Stokroos}, {Teipen}, {Teyssier}, {Tils},
+  {Trappe}, {van Baaren}, {van Leeuwen}, {van de Stadt}, {Visser}, {Wildeman},
+  {Wafelbakker}, {Ward}, {Wesselius}, {Wild}, {Wulff}, {Wunsch}, {Tielens},
+  {Zaal}, {Zirath}, {Zmuidzinas} \& {Zwart}}]{deGraauw_2010}
+{\sc {de Graauw}, T., {Helmich}, F.P., {Phillips}, T.G., {Stutzki}, J., {Caux},
+  E., {Whyborn}, N.D., {Dieleman}, P., {Roelfsema}, P.R., {Aarts}, H.,
+  {Assendorp}, R., {Bachiller}, R., {Baechtold}, W., {Barcia}, A., {Beintema},
+  D.A., {Belitsky}, V., {Benz}, A.O., {Bieber}, R., {Boogert}, A., {Borys}, C.,
+  {Bumble}, B., {Ca{\"i}s}, P., {Caris}, M., {Cerulli-Irelli}, P.,
+  {Chattopadhyay}, G., {Cherednichenko}, S., {Ciechanowicz}, M., {Coeur-Joly},
+  O., {Comito}, C., {Cros}, A., {de Jonge}, A., {de Lange}, G., {Delforges},
+  B., {Delorme}, Y., {den Boggende}, T., {Desbat}, J.M., {Diez-Gonz{\'a}lez},
+  C., {di Giorgio}, A.M., {Dubbeldam}, L., {Edwards}, K., {Eggens}, M.,
+  {Erickson}, N., {Evers}, J., {Fich}, M., {Finn}, T., {Franke}, B., {Gaier},
+  T., {Gal}, C., {Gao}, J.R., {Gallego}, J.D., {Gauffre}, S., {Gill}, J.J.,
+  {Glenz}, S., {Golstein}, H., {Goulooze}, H., {Gunsing}, T., {G{\"u}sten}, R.,
+  {Hartogh}, P., {Hatch}, W.A., {Higgins}, R., {Honingh}, E.C., {Huisman}, R.,
+  {Jackson}, B.D., {Jacobs}, H., {Jacobs}, K., {Jarchow}, C., {Javadi}, H.,
+  {Jellema}, W., {Justen}, M., {Karpov}, A., {Kasemann}, C., {Kawamura}, J.,
+  {Keizer}, G., {Kester}, D., {Klapwijk}, T.M., {Klein}, T., {Kollberg}, E.,
+  {Kooi}, J., {Kooiman}, P.P., {Kopf}, B., {Krause}, M., {Krieg}, J.M.,
+  {Kramer}, C., {Kruizenga}, B., {Kuhn}, T., {Laauwen}, W., {Lai}, R.,
+  {Larsson}, B., {Leduc}, H.G., {Leinz}, C., {Lin}, R.H., {Liseau}, R., {Liu},
+  G.S., {Loose}, A., {L{\'o}pez-Fernandez}, I., {Lord}, S., {Luinge}, W.,
+  {Marston}, A., {Mart{\'{\i}}n-Pintado}, J., {Maestrini}, A., {Maiwald}, F.W.,
+  {McCoey}, C., {Mehdi}, I., {Megej}, A., {Melchior}, M., {Meinsma}, L.,
+  {Merkel}, H., {Michalska}, M., {Monstein}, C., {Moratschke}, D., {Morris},
+  P., {Muller}, H., {Murphy}, J.A., {Naber}, A., {Natale}, E., {Nowosielski},
+  W., {Nuzzolo}, F., {Olberg}, M., {Olbrich}, M., {Orfei}, R., {Orleanski}, P.,
+  {Ossenkopf}, V., {Peacock}, T., {Pearson}, J.C., {Peron}, I., {Phillip-May},
+  S., {Piazzo}, L., {Planesas}, P., {Rataj}, M., {Ravera}, L., {Risacher}, C.,
+  {Salez}, M., {Samoska}, L.A., {Saraceno}, P., {Schieder}, R., {Schlecht}, E.,
+  {Schl{\"o}der}, F., {Schm{\"u}lling}, F., {Schultz}, M., {Schuster}, K.,
+  {Siebertz}, O., {Smit}, H., {Szczerba}, R., {Shipman}, R., {Steinmetz}, E.,
+  {Stern}, J.A., {Stokroos}, M., {Teipen}, R., {Teyssier}, D., {Tils}, T.,
+  {Trappe}, N., {van Baaren}, C., {van Leeuwen}, B.J., {van de Stadt}, H.,
+  {Visser}, H., {Wildeman}, K.J., {Wafelbakker}, C.K., {Ward}, J.S.,
+  {Wesselius}, P., {Wild}, W., {Wulff}, S., {Wunsch}, H.J., {Tielens}, X.,
+  {Zaal}, P., {Zirath}, H., {Zmuidzinas}, J. \& {Zwart}, F.} (2010). {The
+  Herschel-Heterodyne Instrument for the Far-Infrared (HIFI)}. {\em \aap\/},
+  {\bf 518}, L6.
 
 \bibitem[{{Decin} {\em et~al.\/}(2003){Decin}, {Vandenbussche}, {Waelkens},
   {Decin}, {Eriksson}, {Gustafsson}, {Plez} \& {Sauval}}]{decin_2003}
@@ -715,6 +788,15 @@
   {Murray}, C.A., {Le Poole}, R.S., {Schrijver}, H., {Turon}, C., {Arenou}, F.,
   {Froeschl{\'e}}, M. \& {Petersen}, C.S.} (1997). {The HIPPARCOS Catalogue}.
   {\em \aap\/}, {\bf 323}, L49--L52.
+
+\bibitem[{{Pilbratt} {\em et~al.\/}(2010){Pilbratt}, {Riedinger}, {Passvogel},
+  {Crone}, {Doyle}, {Gageur}, {Heras}, {Jewell}, {Metcalfe}, {Ott} \&
+  {Schmidt}}]{pilbratt_2010}
+{\sc {Pilbratt}, G.L., {Riedinger}, J.R., {Passvogel}, T., {Crone}, G.,
+  {Doyle}, D., {Gageur}, U., {Heras}, A.M., {Jewell}, C., {Metcalfe}, L.,
+  {Ott}, S. \& {Schmidt}, M.} (2010). {Herschel Space Observatory. An ESA
+  facility for far-infrared and submillimetre astronomy}. {\em \aap\/}, {\bf
+  518}, L1.
 
 \bibitem[{{Plez} \& {Lambert}(2002)}]{plez_2002}
 {\sc {Plez}, B. \& {Lambert}, D.L.} (2002). {The outer atmosphere of the M-type

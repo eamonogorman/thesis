@@ -72,51 +72,49 @@ Repeated entry---line 2648 of file mybib.bib
  : @article{smith_2009
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "1997ApJ...479..970C"
-Warning--I didn't find a database entry for "1998Natur.392..575L"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in kraus_1986
 Warning--missing publisher in mihalas_1978
 Warning--missing publisher in saha_2011
-You've used 167 entries,
+You've used 171 entries,
             3018 wiz_defined-function locations,
-            1551 strings with 34560 characters,
-and the built_in function-call counts, 113048 in all, are:
-= -- 9148
-> -- 6048
-< -- 105
-+ -- 2126
-- -- 1954
-* -- 9717
-:= -- 17155
-add.period$ -- 497
-call.type$ -- 167
-change.case$ -- 1508
-chr.to.int$ -- 172
-cite$ -- 170
-duplicate$ -- 7844
-empty$ -- 7710
-format.name$ -- 2450
-if$ -- 22533
+            1566 strings with 38248 characters,
+and the built_in function-call counts, 125491 in all, are:
+= -- 9868
+> -- 7672
+< -- 107
++ -- 2670
+- -- 2494
+* -- 10927
+:= -- 19046
+add.period$ -- 509
+call.type$ -- 171
+change.case$ -- 1710
+chr.to.int$ -- 176
+cite$ -- 174
+duplicate$ -- 8367
+empty$ -- 8062
+format.name$ -- 3002
+if$ -- 24898
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1704
-newline$ -- 505
-num.names$ -- 701
-pop$ -- 3418
+missing$ -- 1908
+newline$ -- 517
+num.names$ -- 717
+pop$ -- 3995
 preamble$ -- 1
-purify$ -- 1307
+purify$ -- 1503
 quote$ -- 0
-skip$ -- 2861
+skip$ -- 3107
 stack$ -- 0
-substring$ -- 4669
-swap$ -- 4544
+substring$ -- 4776
+swap$ -- 4983
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1482
+type$ -- 1518
 warning$ -- 3
-while$ -- 681
+while$ -- 698
 width$ -- 0
-write$ -- 1846
+write$ -- 1890
 (There were 14 error messages)
