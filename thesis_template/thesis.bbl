@@ -1,4 +1,4 @@
-\begin{thebibliography}{171}
+\begin{thebibliography}{176}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
@@ -127,6 +127,12 @@
   {Baliunas}}]{brown_2008}
 {\sc {Brown}, K.I.T., {Gray}, D.F. \& {Baliunas}, S.L.} (2008). {Long-Term
   Spectroscopic Monitoring of Arcturus}. {\em \apj\/}, {\bf 679}, 1531--1540.
+
+\bibitem[{{Buscher} {\em et~al.\/}(1990){Buscher}, {Baldwin}, {Warner} \&
+  {Haniff}}]{buscher_1990}
+{\sc {Buscher}, D.F., {Baldwin}, J.E., {Warner}, P.J. \& {Haniff}, C.A.}
+  (1990). {Detection of a bright feature on the surface of Betelgeuse}. {\em
+  \mnras\/}, {\bf 245}, 7P--11P.
 
 \bibitem[{{Carlsson}(1986)}]{carlsson_1986}
 {\sc {Carlsson}, M.} (1986). {A computer program for solving multi-level
@@ -387,6 +393,10 @@
   {High-resolution profiles of sodium and potassium lines in alpha Orionis}.
   {\em \apj\/}, {\bf 199}, 427--431.
 
+\bibitem[{{Gray}(2008)}]{gray_2008}
+{\sc {Gray}, D.F.} (2008). {Mass Motions in the Photosphere of Betelgeuse}.
+  {\em \aj\/}, {\bf 135}, 1450--1458.
+
 \bibitem[{{Gray} {\em et~al.\/}(2006){Gray}, {Corbally}, {Garrison},
   {McFadden}, {Bubar}, {McGahee}, {O'Donoghue} \& {Knox}}]{gray_2006}
 {\sc {Gray}, R.O., {Corbally}, C.J., {Garrison}, R.F., {McFadden}, M.T.,
@@ -537,6 +547,10 @@
 \bibitem[{{Johnson}(1973)}]{johnson_1973}
 {\sc {Johnson}, H.R.} (1973). {Cooling effect of CO in stellar atmospheres.}
   {\em \apj\/}, {\bf 180}, 81--89.
+
+\bibitem[{{Josselin} \& {Plez}(2007)}]{josselin_2007}
+{\sc {Josselin}, E. \& {Plez}, B.} (2007). {Atmospheric dynamics and the mass
+  loss process in red supergiant stars}. {\em \aap\/}, {\bf 469}, 671--680.
 
 \bibitem[{{Kaler} {\em et~al.\/}(1978){Kaler}, {Iben} \& {Becker}}]{kaler_1978}
 {\sc {Kaler}, J.B., {Iben}, I., Jr. \& {Becker}, S.A.} (1978). {On the
@@ -963,6 +977,11 @@
   Optics Observations of Arcturus using the Mount Wilson 100 Inch Telescope}.
   {\em \pasp\/}, {\bf 111}, 556--558.
 
+\bibitem[{{Tuthill} {\em et~al.\/}(1997){Tuthill}, {Haniff} \&
+  {Baldwin}}]{tuthill_1997}
+{\sc {Tuthill}, P.G., {Haniff}, C.A. \& {Baldwin}, J.E.} (1997). {Hotspots on
+  late-type supergiants}. {\em \mnras\/}, {\bf 285}, 529--539.
+
 \bibitem[{{Uitenbroek} {\em et~al.\/}(1998){Uitenbroek}, {Dupree} \&
   {Gilliland}}]{uitenbroek_1998}
 {\sc {Uitenbroek}, H., {Dupree}, A.K. \& {Gilliland}, R.L.} (1998). {Spatially
@@ -1014,6 +1033,12 @@
   (2009). {The Arcturus Moving Group: Its Place in the Galaxy}. In
   J.~{Andersen}, {Nordstr{\"o}ara}, B.~{m} \& J.~{Bland-Hawthorn}, eds., {\em
   IAU Symposium\/}, vol. 254 of {\em IAU Symposium\/}, 139--144.
+
+\bibitem[{{Wilson} {\em et~al.\/}(1992){Wilson}, {Baldwin}, {Buscher} \&
+  {Warner}}]{wilson_1992}
+{\sc {Wilson}, R.W., {Baldwin}, J.E., {Buscher}, D.F. \& {Warner}, P.J.}
+  (1992). {High-resolution imaging of Betelgeuse and Mira}. {\em \mnras\/},
+  {\bf 257}, 369--376.
 
 \bibitem[{{Woitke}(2006)}]{woitke_2006}
 {\sc {Woitke}, P.} (2006). {Too little radiation pressure on dust in the winds
