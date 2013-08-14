@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  13 AUG 2013 21:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  14 AUG 2013 18:00
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -982,15 +982,6 @@ s)
 
 LaTeX Warning: Float too large for page by 40.29018pt on input line 134.
 
-
-LaTeX Warning: Reference `fig:5.7' on page 71 undefined on input line 136.
-
-
-LaTeX Warning: Reference `fig:5.7' on page 71 undefined on input line 136.
-
-
-LaTeX Warning: Reference `fig:5.7' on page 71 undefined on input line 136.
-
 [71] [72]
 File: /home/eamon/thesis/thesis_template/5/shell_size_est.ps Graphic file (type
  eps)
@@ -999,22 +990,12 @@ Overfull \hbox (26.0248pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-
-LaTeX Warning: Reference `fig:5.7' on page 73 undefined on input line 148.
-
 [73]
-File: /home/eamon/thesis/thesis_template/5/annulus_flx_blue.eps Graphic file (t
-ype eps)
- </home/eamon/thesis/thesis_template/5/annulus_flx_blue.eps>
 File: /home/eamon/thesis/thesis_template/5/f13.eps Graphic file (type eps)
-
-</home/eamon/thesis/thesis_template/5/f13.eps>
-
-LaTeX Warning: Float too large for page by 20.19527pt on input line 173.
-
-[74] [75] [76]
+ </home/eamon/thesis/thesis_template/5/f13.eps> [74] [75] [76]
 File: /home/eamon/thesis/thesis_template/5/f14.eps Graphic file (type eps)
- </home/eamon/thesis/thesis_template/5/f14.eps>
+
+</home/eamon/thesis/thesis_template/5/f14.eps>
 File: /home/eamon/thesis/thesis_template/5/f15.eps Graphic file (type eps)
 
 </home/eamon/thesis/thesis_template/5/f15.eps>
@@ -1024,17 +1005,17 @@ File: /home/eamon/thesis/thesis_template/5/f16.eps Graphic file (type eps)
 File: /home/eamon/thesis/thesis_template/5/f17.eps Graphic file (type eps)
 
 </home/eamon/thesis/thesis_template/5/f17.eps>
-Overfull \hbox (11.53075pt too wide) in paragraph at lines 201--209
+Overfull \hbox (11.53075pt too wide) in paragraph at lines 202--210
 [][] 
  []
 
 
-Overfull \hbox (11.53075pt too wide) in paragraph at lines 201--209
+Overfull \hbox (11.53075pt too wide) in paragraph at lines 202--210
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--209
+Underfull \hbox (badness 10000) in paragraph at lines 202--210
 
  []
 
@@ -1044,21 +1025,13 @@ File: /home/eamon/thesis/thesis_template/5/s1_shell.ps Graphic file (type eps)
 File: /home/eamon/thesis/thesis_template/5/higher_co_lines.ps Graphic file (typ
 e eps)
 
-</home/eamon/thesis/thesis_template/5/higher_co_lines.ps> [82]
-
-LaTeX Warning: Text page 83 contains only floats.
-
-
-Overfull \vbox (7.5pt too high) has occurred while \output is active []
-
- [83]
-[84] [85]
+</home/eamon/thesis/thesis_template/5/higher_co_lines.ps> [82] [83] [84]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
-(hyperref)                removed on input line 296.
+(hyperref)                removed on input line 297.
 
-[86]
+[85]
 File: /home/eamon/thesis/thesis_template/5/emerlin_im.ps Graphic file (type eps
 )
  </home/eamon/thesis/thesis_template/5/emerlin_im.ps>
@@ -1066,35 +1039,36 @@ File: /home/eamon/thesis/thesis_template/5/emerlin_vis.ps Graphic file (type ep
 s)
 
 </home/eamon/thesis/thesis_template/5/emerlin_vis.ps>
-Overfull \hbox (20.2813pt too wide) in paragraph at lines 305--306
+Overfull \hbox (20.2813pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
-[87]
+[86] [87]
 File: /home/eamon/thesis/thesis_template/5/merlin_parallax.ps Graphic file (typ
 e eps)
- </home/eamon/thesis/thesis_template/5/merlin_parallax.ps> [88] [89]
+ </home/eamon/thesis/thesis_template/5/merlin_parallax.ps> [88]
 File: /home/eamon/thesis/thesis_template/5/3_plots_new.ps Graphic file (type ep
 s)
 
 </home/eamon/thesis/thesis_template/5/3_plots_new.ps>
-Overfull \hbox (14.22389pt too wide) in paragraph at lines 325--326
+Overfull \hbox (14.22389pt too wide) in paragraph at lines 326--327
  [][] 
  []
 
-[90] [91] [92] [93]
+[89] [90] [91] [92] [93]
 File: /home/eamon/thesis/thesis_template/5/vla-pi-town_96-2004.ps Graphic file 
 (type eps)
 
-</home/eamon/thesis/thesis_template/5/vla-pi-town_96-2004.ps> [94] [95]
+</home/eamon/thesis/thesis_template/5/vla-pi-town_96-2004.ps>
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
-(hyperref)                removed on input line 366.
+(hyperref)                removed on input line 367.
 
+[94]
 File: /home/eamon/thesis/thesis_template/5/2004_q_uniform.ps Graphic file (type
  eps)
-</home/eamon/thesis/thesis_template/5/2004_q_uniform.ps>
+ </home/eamon/thesis/thesis_template/5/2004_q_uniform.ps>
 File: /home/eamon/thesis/thesis_template/5/2003_q_uniform.ps Graphic file (type
  eps)
 
@@ -1110,21 +1084,21 @@ File: /home/eamon/thesis/thesis_template/5/1998_q_uniform.ps Graphic file (type
 File: /home/eamon/thesis/thesis_template/5/wedge.eps Graphic file (type eps)
 
 </home/eamon/thesis/thesis_template/5/wedge.eps>
-Overfull \hbox (6.02734pt too wide) in paragraph at lines 375--383
+Overfull \hbox (6.02734pt too wide) in paragraph at lines 376--384
 [][] 
  []
 
 
-Overfull \hbox (6.02734pt too wide) in paragraph at lines 375--383
+Overfull \hbox (6.02734pt too wide) in paragraph at lines 376--384
 [] 
  []
 
 
-Overfull \hbox (42.675pt too wide) in paragraph at lines 375--383
+Overfull \hbox (42.675pt too wide) in paragraph at lines 376--384
 [][][][][][][][] 
  []
 
-) [96] [97] [98]
+) [95] [96] [97]
 \openout2 = `6/aboo_atau.aux'.
 
  (./6/aboo_atau.tex
@@ -1133,11 +1107,11 @@ Chapter 6.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 4.
 
-[99
+[98
 
 
 
-] [100]
+] [99]
 File: /home/eamon/thesis/thesis_template/6/atau_q_ka.ps Graphic file (type eps)
 
  </home/eamon/thesis/thesis_template/6/atau_q_ka.ps>
@@ -1187,7 +1161,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 74.
 
-[101] [102] [103
+[100] [101] [102
 
 ]
 
@@ -1202,26 +1176,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 79.
 
-[104
+[103
 
-] [105] [106]
+] [104] [105]
 File: /home/eamon/thesis/thesis_template/6/aboo_summary.ps Graphic file (type e
 ps)
  </home/eamon/thesis/thesis_template/6/aboo_summary.ps>
 
 LaTeX Warning: Float too large for page by 10.05667pt on input line 146.
 
-[107]
+[106]
 File: /home/eamon/thesis/thesis_template/6/atau_summary.ps Graphic file (type e
 ps)
- </home/eamon/thesis/thesis_template/6/atau_summary.ps> [108]
+ </home/eamon/thesis/thesis_template/6/atau_summary.ps> [107]
 
 LaTeX Warning: Command \r invalid in math mode on input line 148.
 
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[109
+[108
 
 
 
@@ -1234,14 +1208,14 @@ Overfull \hbox (12.20102pt too wide) in paragraph at lines 153--154
  [][] 
  []
 
-[110]
+[109]
 
 LaTeX Warning: Command \r invalid in math mode on input line 160.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 160.
 
-[111] [112] [113] [114]
+[110] [111] [112] [113]
 File: /home/eamon/thesis/thesis_template/6/spec_index.ps Graphic file (type eps
 )
  </home/eamon/thesis/thesis_template/6/spec_index.ps>
@@ -1249,16 +1223,16 @@ Overfull \hbox (1.83563pt too wide) in paragraph at lines 224--225
  [][] 
  []
 
-[115]
+[114]
 File: /home/eamon/thesis/thesis_template/6/den_temp_coef.ps Graphic file (type 
 eps)
- </home/eamon/thesis/thesis_template/6/den_temp_coef.ps> [116]
+ </home/eamon/thesis/thesis_template/6/den_temp_coef.ps> [115]
 
-LaTeX Warning: Reference `eq:eq1' on page 117 undefined on input line 240.
+LaTeX Warning: Reference `eq:eq1' on page 116 undefined on input line 240.
 
-[117]
+[116]
 File: /home/eamon/thesis/thesis_template/6/eff_rad.ps Graphic file (type eps)
- </home/eamon/thesis/thesis_template/6/eff_rad.ps> [118]
+ </home/eamon/thesis/thesis_template/6/eff_rad.ps> [117]
 Overfull \hbox (13.05473pt too wide) in paragraph at lines 253--253
  |[]\OT1/cmr/bx/n/17.28 Analytical Ad-vec-tion Model for $\OML/cmm/m/it/17.28 
 $ \OT1/cmr/bx/n/17.28 Boo's Wind| 
@@ -1276,16 +1250,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 253.
 
-[119]
+[118]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95872pt
 (hyperref)                removed on input line 257.
 
-[120] [121]
+[119] [120]
 File: /home/eamon/thesis/thesis_template/6/freeze-in.ps Graphic file (type eps)
 
- </home/eamon/thesis/thesis_template/6/freeze-in.ps> [122]
+ </home/eamon/thesis/thesis_template/6/freeze-in.ps> [121]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 325.
@@ -1299,11 +1273,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 325.
 
 
-LaTeX Warning: Reference `tab:3.4.1' on page 123 undefined on input line 336.
+LaTeX Warning: Reference `tab:3.4.1' on page 122 undefined on input line 336.
 
 File: /home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps Graphic fil
 e (type eps)
-</home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps> [123] [124]
+</home/eamon/thesis/thesis_template/6/spitzer_recomb_coeff.eps> [122] [123]
 File: /home/eamon/thesis/thesis_template/6/hybrid_drake.ps Graphic file (type e
 ps)
 
@@ -1320,20 +1294,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 365.
 
-[125] [126] [127]) [128] [129]
+[124] [125] [126]) [127] [128]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [130
+) [129
 
 
 
-] [131] (./thesis.bbl (./thesis.brf)
+] [130] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [132
+ [131
 
 
 ]
@@ -1342,12 +1316,12 @@ Underfull \hbox (badness 1308) in paragraph at lines 108--108
 in-sky, J.L. &
  []
 
-[133] [134] [135] [136] [137] [138] [139] [140] [141]
+[132] [133] [134] [135] [136] [137] [138] [139] [140]
 Missing character: There is no â in font cmr7!
 Missing character: There is no ‹ in font cmr7!
 Missing character: There is no † in font cmr7!
- [142] [143] [144])
-[145] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux)
+ [141] [142] [143])
+[144] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux)
 (./0/dedication.aux) (./0/acknowledgement.aux) (./0/publications.aux)
 (./1/introduction.aux) (./2/intro_to_radio.aux) (./3/instrum_tar_obs.aux)
 (./4/data_analysis.aux) (./5/aori.aux) (./6/aboo_atau.aux) (./appendix/app.aux)
@@ -1360,12 +1334,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10160 strings out of 495062
- 150722 string characters out of 1182645
- 257363 words of memory out of 3000000
- 12945 multiletter control sequences out of 15000+50000
+ 10157 strings out of 495062
+ 150636 string characters out of 1182645
+ 257345 words of memory out of 3000000
+ 12943 multiletter control sequences out of 15000+50000
  26229 words of font info for 94 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,19n,50p,2350b,982s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (160 pages, 934260 bytes).
+Output written on thesis.dvi (159 pages, 932632 bytes).

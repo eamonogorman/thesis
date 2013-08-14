@@ -26,27 +26,26 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Bernat (1979) CO line profile showing two sharp line cores.}}{61}{figure.caption.32}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Previous CO$J= 2-1$ rotational emission line profiles}}{62}{figure.caption.33}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Radial velocity data and model for $\alpha $ Ori.}}{64}{figure.caption.34}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Spectra integrated over a radius of 5$^{\prime \prime }$ for each array configuration image cube. The blueshifted emission component between $-16.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ and $-10.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ is almost resolved out in the C configuration image cube spectrum. The red and blue lines correspond to the high and low spectral resolution data respectively.\relax }}{66}{figure.caption.35}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Spectral profiles of the low spectral resolution multi-configuration image cube for circular extraction areas of radius 1$^{\prime \prime }$, 2$^{\prime \prime }$, 4$^{\prime \prime }$, 6$^{\prime \prime }$, 8$^{\prime \prime }$, and 10$^{\prime \prime }$. The signal-to-noise of the line profile reduces at larger extraction areas as more noise is included from the outer regions of the channel maps.\relax }}{68}{figure.caption.36}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Spectra integrated over a radius of 5$^{\prime \prime }$ for each array configuration image cube. The red and blue lines correspond to the high and low spectral resolution data respectively. The blueshifted emission component between $-16.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ and $-10.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ is almost resolved out in the C configuration image cube spectrum along with material with low absolute velocities. \relax }}{65}{figure.caption.35}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Spectral profiles of the low spectral resolution multi-configuration image cube for circular extraction areas of radius 1$^{\prime \prime }$, 2$^{\prime \prime }$, 4$^{\prime \prime }$, 6$^{\prime \prime }$, 8$^{\prime \prime }$, and 10$^{\prime \prime }$. The S/N of the line profile reduces at larger extraction areas as more noise is included from the outer more noisy regions of the channel maps.\relax }}{68}{figure.caption.36}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Discrete sources in individual configuration image cubes}}{70}{figure.caption.37}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Channel maps from the multi-configuration image cube}}{72}{figure.caption.38}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Geometry of a spherical symmetric flow.}}{74}{figure.caption.39}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Deriving $R_{\rm {chan}}$ per channel map}}{75}{figure.caption.40}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces S2 radius as a function of channel velocity}}{75}{figure.caption.40}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces \textit {Left Column:} Surface Brightness as a function of projected radius on sky, $R$ (red line). The emission has been extracted from the low spectral resolution multi-configuration image cube and is integrated over the channels where S1 is present (bottom) and over the channels where only S2 is present (top). Intensity proportional to $R{}^{-1}$ and $R{}^{-2}$ is also shown for comparison. \textit {Right Column:} The corresponding visibility amplitude as a function of $u-v$ distance ($q$) of both outflows can be modeled well by a $R{}^{-1}$ fall off in intensity. The error bars in all plots represent the standard error of the mean.\relax }}{78}{figure.caption.41}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces CARMA maps of the inner S1 flow.}}{80}{figure.caption.42}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces CO and SiO rotational emission lines from the CSE of Betelgeuse.}}{83}{figure.caption.44}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces First e-MERLIN results for Betelgeuse.}}{87}{figure.caption.46}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Predicted position of Betelgeuse on 2012 July using the astrometric solutions of \cite {harper_2008}.}}{89}{figure.caption.47}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Radio flux density variation of Betelgeuse between 1996 and 2004.}}{95}{figure.caption.49}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces High resolution Q band images spanning six years.}}{97}{figure.caption.50}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces S2 radius as a function of channel velocity}}{75}{figure.caption.40}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces \textit {Left Column:} Surface Brightness as a function of projected radius on sky, $R$ (red line). The emission has been extracted from the low spectral resolution multi-configuration image cube and is integrated over the channels where S1 is present (bottom) and over the channels where only S2 is present (top). Intensity proportional to $R{}^{-1}$ and $R{}^{-2}$ is also shown for comparison. \textit {Right Column:} The corresponding visibility amplitude as a function of $u-v$ distance ($q$) of both outflows can be modeled well by a $R{}^{-1}$ fall off in intensity. The error bars in all plots represent the standard error of the mean.\relax }}{77}{figure.caption.41}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces CARMA maps of the inner S1 flow.}}{79}{figure.caption.42}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces CO and SiO rotational emission lines from the CSE of Betelgeuse.}}{83}{figure.caption.44}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces First e-MERLIN results for Betelgeuse.}}{87}{figure.caption.46}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Predicted position of Betelgeuse on 2012 July using the astrometric solutions of \cite {harper_2008}.}}{89}{figure.caption.47}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Radio flux density variation of Betelgeuse between 1996 and 2004.}}{95}{figure.caption.49}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces High resolution Q band images spanning six years.}}{96}{figure.caption.50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{102}{figure.caption.51}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{110}{figure.caption.56}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{115}{figure.caption.57}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{116}{figure.caption.58}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{118}{figure.caption.59}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{122}{figure.caption.60}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{124}{figure.caption.61}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{126}{figure.caption.62}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{101}{figure.caption.51}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{109}{figure.caption.56}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{114}{figure.caption.57}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{115}{figure.caption.58}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{117}{figure.caption.59}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{121}{figure.caption.60}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{123}{figure.caption.61}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{125}{figure.caption.62}
 \addvspace {10\p@ }
