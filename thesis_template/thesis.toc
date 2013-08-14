@@ -1,64 +1,34 @@
 \select@language {english}
 \contentsline {chapter}{List of Publications}{vi}{chapter*.1}
-\contentsline {chapter}{List of Figures}{xi}{section*.4}
-\contentsline {chapter}{List of Tables}{xiv}{section*.6}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}First Section}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Second Section}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Second Section}{2}{section.1.3}
-\contentsline {chapter}{\numberline {2}Introduction to Radio Interferometry}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Radio Antenna Fundamentals}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Properties of a Radio Antenna}{4}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Antenna Structural Design}{7}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Antenna Performance Parameters}{9}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Receiving System for an Interferometer}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Fundamentals of Radio Interferometry}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Young's Slits}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{15}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Complex Visibility}{19}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Coordinate Systems for Imaging}{20}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Synthesis Imaging}{21}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Visibility Sampling}{21}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Imaging (Making a Dirty Map)}{22}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Deconvolution (Making a CLEAN map)}{25}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Targets, Instrumentation, and Observations}{28}{chapter.3}
-\contentsline {section}{\numberline {3.1}Betelgeuse}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}CARMA}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{37}{section.3.3}
-\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{40}{section.3.4}
-\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{45}{section.3.5}
-\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{49}{section.3.6}
-\contentsline {section}{\numberline {3.7}VLA-Pie Town Observations of Betelgeuse}{55}{section.3.7}
-\contentsline {chapter}{\numberline {4}Data Analysis}{58}{chapter.4}
-\contentsline {section}{\numberline {4.1}Measurement Equation}{58}{section.4.1}
-\contentsline {chapter}{\numberline {5}Multi-wavelength Study of Betelgeuse's Extended Atmosphere}{59}{chapter.5}
-\contentsline {section}{\numberline {5.1}CO molecules in the CSE of Betelgeuse}{60}{section.5.1}
-\contentsline {section}{\numberline {5.2}Adopted Radial Velocity}{63}{section.5.2}
-\contentsline {section}{\numberline {5.3}CARMA CO($J=2-1$) Spectra}{64}{section.5.3}
-\contentsline {section}{\numberline {5.4}Individual Configuration Image Cubes}{69}{section.5.4}
-\contentsline {section}{\numberline {5.5}Multi-configuration Image Cube Inspection}{71}{section.5.5}
-\contentsline {section}{\numberline {5.6}Spatial Extent of S2}{73}{section.5.6}
-\contentsline {section}{\numberline {5.7}Intensity distribution of CO}{75}{section.5.7}
-\contentsline {section}{\numberline {5.8}Spatial Extent of S1}{78}{section.5.8}
-\contentsline {section}{\numberline {5.9}Continuum Flux Densities}{79}{section.5.9}
-\contentsline {section}{\numberline {5.10}Higher CO rotational lines}{81}{section.5.10}
-\contentsline {section}{\numberline {5.11}CARMA CO observations in Context}{84}{section.5.11}
-\contentsline {section}{\numberline {5.12}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{86}{section.5.12}
-\contentsline {section}{\numberline {5.13}VLA-Pie Town Maps vs e-MERLIN}{91}{section.5.13}
-\contentsline {section}{\numberline {5.14}Long Term Radio Variability}{93}{section.5.14}
-\contentsline {section}{\numberline {5.15}0.7\tmspace +\thinmuskip {.1667em}cm VLA-Pie Town Maps}{94}{section.5.15}
-\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{98}{chapter.6}
-\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{99}{section.6.1}
-\contentsline {section}{\numberline {6.2}Radio Maps}{100}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{100}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{103}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results vs Previous Observations}{104}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results vs Existing Models}{108}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{112}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{118}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{119}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{122}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{124}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass Loss Rates}{126}{section.6.8}
-\contentsline {chapter}{\numberline {A}List of Abbreviations}{129}{appendix.A}
-\contentsline {chapter}{References}{131}{section*.66}
+\contentsline {chapter}{List of Figures}{x}{section*.4}
+\contentsline {chapter}{List of Tables}{xi}{section*.6}
+\contentsline {chapter}{\numberline {1}Introduction to Radio Interferometry}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Radio Antenna Fundamentals}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Properties of a Radio Antenna}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Antenna Structural Design}{5}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Antenna Performance Parameters}{7}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Receiving System for an Interferometer}{9}{section.1.2}
+\contentsline {section}{\numberline {1.3}Fundamentals of Radio Interferometry}{11}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Young's Slits}{11}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}The Two-element Interferometer}{13}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Complex Visibility}{17}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Coordinate Systems for Imaging}{18}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Synthesis Imaging}{19}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Visibility Sampling}{19}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Imaging (Making a Dirty Map)}{20}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Deconvolution (Making a CLEAN map)}{23}{subsection.1.4.3}
+\contentsline {chapter}{\numberline {2}Targets, Instrumentation, and Observations}{26}{chapter.2}
+\contentsline {section}{\numberline {2.1}Betelgeuse}{27}{section.2.1}
+\contentsline {section}{\numberline {2.2}CARMA}{31}{section.2.2}
+\contentsline {section}{\numberline {2.3}CARMA Observations of Betelgeuse}{35}{section.2.3}
+\contentsline {section}{\numberline {2.4}Arcturus and Aldebaran}{38}{section.2.4}
+\contentsline {section}{\numberline {2.5}The Karl G. Jansky Very Large Array}{43}{section.2.5}
+\contentsline {section}{\numberline {2.6}VLA Observations of Arcturus and Aldebaran}{47}{section.2.6}
+\contentsline {section}{\numberline {2.7}VLA-Pie Town Observations of Betelgeuse}{53}{section.2.7}
+\contentsline {chapter}{\numberline {3}Data Analysis}{56}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Measurement Equation}{56}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data Examination and Flagging}{56}{section.3.2}
+\contentsline {section}{\numberline {3.3}Calibration}{56}{section.3.3}
+\contentsline {section}{\numberline {3.4}Imaging}{56}{section.3.4}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{58}{appendix.A}
+\contentsline {chapter}{References}{60}{section*.34}
