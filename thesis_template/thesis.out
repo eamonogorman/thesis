@@ -1,33 +1,9 @@
 \BOOKMARK [0][]{chapter*.1}{List of Publications}{}
 \BOOKMARK [0][]{section*.4}{List of Figures}{}
 \BOOKMARK [0][]{section*.6}{List of Tables}{}
-\BOOKMARK [0][]{chapter.1}{1 Introduction to Radio Interferometry}{}
-\BOOKMARK [1][]{section.1.1}{1.1 Radio Antenna Fundamentals}{chapter.1}
-\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Properties of a Radio Antenna}{section.1.1}
-\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Antenna Structural Design}{section.1.1}
-\BOOKMARK [2][]{subsection.1.1.3}{1.1.3 Antenna Performance Parameters}{section.1.1}
-\BOOKMARK [1][]{section.1.2}{1.2 Receiving System for an Interferometer}{chapter.1}
-\BOOKMARK [1][]{section.1.3}{1.3 Fundamentals of Radio Interferometry}{chapter.1}
-\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Young's Slits}{section.1.3}
-\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 The Two-element Interferometer}{section.1.3}
-\BOOKMARK [2][]{subsection.1.3.3}{1.3.3 Complex Visibility}{section.1.3}
-\BOOKMARK [2][]{subsection.1.3.4}{1.3.4 Coordinate Systems for Imaging}{section.1.3}
-\BOOKMARK [1][]{section.1.4}{1.4 Synthesis Imaging}{chapter.1}
-\BOOKMARK [2][]{subsection.1.4.1}{1.4.1 Visibility Sampling}{section.1.4}
-\BOOKMARK [2][]{subsection.1.4.2}{1.4.2 Imaging \(Making a Dirty Map\)}{section.1.4}
-\BOOKMARK [2][]{subsection.1.4.3}{1.4.3 Deconvolution \(Making a CLEAN map\)}{section.1.4}
-\BOOKMARK [0][]{chapter.2}{2 Targets, Instrumentation, and Observations}{}
-\BOOKMARK [1][]{section.2.1}{2.1 Betelgeuse}{chapter.2}
-\BOOKMARK [1][]{section.2.2}{2.2 CARMA}{chapter.2}
-\BOOKMARK [1][]{section.2.3}{2.3 CARMA Observations of Betelgeuse}{chapter.2}
-\BOOKMARK [1][]{section.2.4}{2.4 Arcturus and Aldebaran}{chapter.2}
-\BOOKMARK [1][]{section.2.5}{2.5 The Karl G. Jansky Very Large Array}{chapter.2}
-\BOOKMARK [1][]{section.2.6}{2.6 VLA Observations of Arcturus and Aldebaran}{chapter.2}
-\BOOKMARK [1][]{section.2.7}{2.7 VLA-Pie Town Observations of Betelgeuse}{chapter.2}
-\BOOKMARK [0][]{chapter.3}{3 Data Analysis}{}
-\BOOKMARK [1][]{section.3.1}{3.1 The Measurement Equation}{chapter.3}
-\BOOKMARK [1][]{section.3.2}{3.2 Data Examination and Flagging}{chapter.3}
-\BOOKMARK [1][]{section.3.3}{3.3 Calibration}{chapter.3}
-\BOOKMARK [1][]{section.3.4}{3.4 Imaging}{chapter.3}
+\BOOKMARK [0][]{chapter.1}{1 Data Analysis}{}
+\BOOKMARK [1][]{section.1.1}{1.1 Data Examination and Flagging}{chapter.1}
+\BOOKMARK [1][]{section.1.2}{1.2 Calibration}{chapter.1}
+\BOOKMARK [1][]{section.1.3}{1.3 Imaging}{chapter.1}
 \BOOKMARK [0][]{appendix.A}{A List of Abbreviations}{}
-\BOOKMARK [0][]{section*.34}{References}{}
+\BOOKMARK [0][]{section*.12}{References}{}
