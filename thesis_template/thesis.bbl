@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{7}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Hamaker} {\em et~al.\/}(1996){Hamaker}, {Bregman} \&
@@ -28,6 +28,10 @@
   A.M.S.} (2013). {Multi-wavelength Radio Continuum Emission Studies of
   Dust-free Red Giants}. {\em \aj\/}, {\bf 144}, 36.
 
+\bibitem[{{Perley} \& {Butler}(2013)}]{perley_2013}
+{\sc {Perley}, R.A. \& {Butler}, B.J.} (2013). {An Accurate Flux Density Scale
+  from 1 to 50 GHz}. {\em \apjs\/}, {\bf 204}, 19.
+
 \bibitem[{{Sault} {\em et~al.\/}(1995){Sault}, {Teuben} \&
   {Wright}}]{sault_1995}
 {\sc {Sault}, R.J., {Teuben}, P.J. \& {Wright}, M.C.H.} (1995). {A
@@ -35,5 +39,10 @@
   {Hayes}, eds., {\em Astronomical Data Analysis Software and Systems IV\/},
   vol.~77 of {\em Astronomical Society of the Pacific Conference Series\/},
   433.
+
+\bibitem[{{White}(2009)}]{white_2009}
+{\sc {White}, S.M.} (2009). {Single Dish Aperture Effciency Measurements at
+  CARMA}. In {\em CARMA Memorandum Series\/}, vol.~49 of {\em CARMA Memorandum
+  Series\/}.
 
 \end{thebibliography}

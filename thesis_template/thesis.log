@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  16 AUG 2013 20:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  18 AUG 2013 22:56
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -514,8 +514,11 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./4/data_analysis.aux)
-(./appendix/app.aux))
+(./0/acknowledgement.aux) (./0/publications.aux) (./4/data_analysis.aux
+
+LaTeX Warning: Label `fig:4.3' multiply defined.
+
+) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
@@ -537,7 +540,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 129.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
@@ -660,54 +664,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--14
 
 
 ] [2]
-File: /home/eamon/thesis/thesis_template/4/cash_flow.ps Graphic file (type eps)
+File: /home/eamon/thesis/thesis_template/4/c_overview.ps Graphic file (type eps
+)
+ </home/eamon/thesis/thesis_template/4/c_overview.ps>
+Overfull \hbox (21.11133pt too wide) in paragraph at lines 22--23
+ [][] 
+ []
 
- </home/eamon/thesis/thesis_template/4/cash_flow.ps> [3] [4]
-File: /home/eamon/thesis/thesis_template/4/cash_flow.ps Graphic file (type eps)
-
-
-</home/eamon/thesis/thesis_template/4/cash_flow.ps>
+[3] [4]
+File: /home/eamon/thesis/thesis_template/4/rfi_thesis_new.ps Graphic file (type
+ eps)
+ </home/eamon/thesis/thesis_template/4/rfi_thesis_new.ps>
 
 LaTeX Warning: Reference `chap:2' on page 5 undefined on input line 40.
 
-[5]
+[5] [6]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
-) [6]
+File: /home/eamon/thesis/thesis_template/4/calib_overview.ps Graphic file (type
+ eps)
+
+</home/eamon/thesis/thesis_template/4/calib_overview.ps> [7] [8]
+File: /home/eamon/thesis/thesis_template/4/opacity.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/4/opacity.ps> [9]
+File: /home/eamon/thesis/thesis_template/4/bandpass.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/4/bandpass.ps>
+Overfull \hbox (32.6785pt too wide) in paragraph at lines 86--87
+ [][] 
+ []
+
+[10] [11]
+File: /home/eamon/thesis/thesis_template/4/calib_x_phase_amp.ps Graphic file (t
+ype eps)
+ </home/eamon/thesis/thesis_template/4/calib_x_phase_amp.ps>
+Overfull \hbox (32.6785pt too wide) in paragraph at lines 104--105
+ [][] 
+ []
+
+) [12] [13]
 \openout2 = `appendix/app.aux'.
 
-
-(./appendix/app.tex
+ (./appendix/app.tex
 Appendix A.
-) [7
+) [14
 
 
 
-] [8] (./thesis.bbl (./thesis.brf)
+] [15] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [9
+) [16
 
 
-] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux) (
-./0/acknowledgement.aux)
-(./0/publications.aux) (./4/data_analysis.aux) (./appendix/app.aux))
+] (./thesis.aux
+(./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
+(./0/acknowledgement.aux) (./0/publications.aux) (./4/data_analysis.aux)
+(./appendix/app.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 8328 strings out of 495062
- 118300 string characters out of 1182645
- 201116 words of memory out of 3000000
- 11245 multiletter control sequences out of 15000+50000
- 14996 words of font info for 50 fonts, out of 3000000 for 9000
+ 8377 strings out of 495062
+ 119293 string characters out of 1182645
+ 202582 words of memory out of 3000000
+ 11288 multiletter control sequences out of 15000+50000
+ 16590 words of font info for 56 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,45p,1758b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,45p,1756b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (20 pages, 52172 bytes).
+Output written on thesis.dvi (27 pages, 81808 bytes).
