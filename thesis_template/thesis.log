@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  18 AUG 2013 22:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  19 AUG 2013 21:12
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -518,6 +518,9 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `fig:4.3' multiply defined.
 
+
+LaTeX Warning: Label `fig:4.7' multiply defined.
+
 ) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
 
@@ -707,20 +710,58 @@ Overfull \hbox (32.6785pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
-) [12] [13]
+[12]
+
+LaTeX Warning: Reference `chap:2' on page 13 undefined on input line 112.
+
+
+LaTeX Warning: Reference `tab:3.6' on page 13 undefined on input line 119.
+
+[13]
+File: /home/eamon/thesis/thesis_template/4/l_thesis.ps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/4/l_thesis.ps>
+Overfull \hbox (14.22453pt too wide) in paragraph at lines 125--126
+ [][][][][][][][][] 
+ []
+
+File: /home/eamon/thesis/thesis_template/4/thesis_clean.eps Graphic file (type 
+eps)
+</home/eamon/thesis/thesis_template/4/thesis_clean.eps>
+File: /home/eamon/thesis/thesis_template/4/thesis_multi.eps Graphic file (type 
+eps)
+
+</home/eamon/thesis/thesis_template/4/thesis_multi.eps>
+File: /home/eamon/thesis/thesis_template/4/thesis_clean_resid.eps Graphic file 
+(type eps)
+
+</home/eamon/thesis/thesis_template/4/thesis_clean_resid.eps>
+File: /home/eamon/thesis/thesis_template/4/thesis_multi_resid.eps Graphic file 
+(type eps)
+
+</home/eamon/thesis/thesis_template/4/thesis_multi_resid.eps>
+Overfull \hbox (20.70296pt too wide) in paragraph at lines 148--153
+ [][] 
+ []
+
+
+Overfull \hbox (20.70296pt too wide) in paragraph at lines 148--153
+ [] 
+ []
+
+) [14] [15] [16]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [14
+) [17
 
 
 
-] [15] (./thesis.bbl (./thesis.brf)
+] [18] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [16
+) [19
 
 
 ] (./thesis.aux
@@ -735,12 +776,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8377 strings out of 495062
- 119293 string characters out of 1182645
- 202582 words of memory out of 3000000
- 11288 multiletter control sequences out of 15000+50000
+ 8393 strings out of 495062
+ 119729 string characters out of 1182645
+ 202731 words of memory out of 3000000
+ 11299 multiletter control sequences out of 15000+50000
  16590 words of font info for 56 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,45p,1756b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (27 pages, 81808 bytes).
+Output written on thesis.dvi (30 pages, 94504 bytes).

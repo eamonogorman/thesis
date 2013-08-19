@@ -97,7 +97,7 @@ Once a bandpass solution has been applied, the next step is to derive correction
 During gain calibration, the relative gain amplitudes and phases for different antennas are determined using the phase calibrator. The \textit{gaincal} task is used to do this. The absolute flux density scale of the phase calibrator is later determined by comparison against the gain amplitudes $g_{i}$ derived for the flux calibrator. To find the relative phases, a zero phase is determined by selecting a reference antenna for which the phase is defined to be zero. In the first step new solutions of complex gains $g_{i}$ and $\theta _{i}$ are derived for the flux density calibrator which are corrected for the bandpass shape (here we assume the flux density calibrator has been used as the bandpass calibrator as was the case for our observations). The second and final step requires the determination of the appropriate complex gains from the phase calibrator.
 
 \subsection{Flux Scale Calibration and Application of Solutions}\label{subsec:2.4}
-The penultimate stage of the calibration process is to use the known flux density of our flux calibrator (whose flux density was set using \textit{setjy} above) to derive the flux density of the phase calibrator, which was previously assumed to be a point source of 1\,Jy located at the phase center. This is achieved using the \textit{fluxscale} task. The final step of the calibration process is to apply the calibration solutions to the actual data, using the task \textit{applycal}. During this process, the calibration solutions are applied to the DATA column in the measurement set, and the results are written in the CORRECTED$\_$DATA column of the measurement set. For the calibrators, the phase and amplitude calibration comes from their own solutions and the bandpass solutions come from the bandpass calibrator. For the science target we again apply the bandpass solution from the bandpass calibrator but the gain solutions come from the close by phase calibrator. Once calibration of the data is complete, it is worth spending time inspecting the corrected data to make sure there are no obvious errors in the data. If such errors are indeed found at this stage, then their cause will need to be flagged and the data must be re-calibrated. Some insightful plots to investigate how successful the calibration was, are: amplitude vs time, amplitude vs $u-v$ distance, and amplitude vs phase. If a point source has being successfully calibrated then it will have an appearance similar to that in Figure \ref{fig:4.6}, i.e., a compact ball of visibilities centered at zero phase and at the amplitude found for that source. 
+The penultimate stage of the calibration process is to use the known flux density of our flux calibrator (whose flux density was set using \textit{setjy} above) to derive the flux density of the phase calibrator, which was previously assumed to be a point source of 1\,Jy located at the phase center. This is achieved using the \textit{fluxscale} task. The final step of the calibration process is to apply the calibration solutions to the actual data, using the task \textit{applycal}. During this process, the calibration solutions are applied to the DATA column in the measurement set, and the results are written in the CORRECTED$\_$DATA column of the measurement set. For the calibrators, the phase and amplitude calibration comes from their own solutions and the bandpass solutions come from the bandpass calibrator. For the science target we again apply the bandpass solution from the bandpass calibrator but the gain solutions come from the close by phase calibrator.
 
 \begin{figure}[hbt!]
 \centering 
@@ -106,10 +106,28 @@ The penultimate stage of the calibration process is to use the known flux densit
 \label{fig:4.6}
 \end{figure}
 
+Once calibration of the data is complete, it is worth spending time inspecting the corrected data to make sure there are no obvious errors in the data. If such errors are indeed found at this stage, then their cause will need to be flagged and the data must be re-calibrated. Some insightful plots to investigate how successful the calibration was, are: amplitude vs time, amplitude vs $u-v$ distance, and amplitude vs phase. If a point source has being successfully calibrated then it will have an appearance similar to that in Figure \ref{fig:4.6}, i.e., a compact ball of visibilities centered at zero phase and at the amplitude found for that source. Once the data has been successfully calibrated, the science data is split off into a separate measurement set using the \textit{split} task. The calibrated visibilities can then be directly analyzed by fitting simple models (e.g. point sources, disks, etc.,) to them or, as is more common, Fourier transformed and CLEANed to create an image of the source.
+
 \section{Imaging}\label{sec:4.3}
+We have shown in Chapter \ref{chap:2} that the visibility as a function of baseline coordinates $(u,v)$ is the Fourier transform of the sky brightness distribution as a function of the sky coordinates $(l,m)$, i.e.,
+\begin{equation}
+I(l,m)=\int \int V(u,v)e^{2\pi i(ul +vm)}dudv.
+\end{equation}
+Fourier transforming the calibrated visibilities results in a dirty image which can then be deconvolved to produce a good estimate of the true sky brightness distribution. CASA has a single task called \textit{clean} which carries out both of these operations on the data. in the following two sections we describe how both the VLA and the CRAMA visibility data sets were imaged using this task.
 
-% evla paper
+\subsection{Imaging the VLA Data}\label{sec:4.3.1}
+The calibrated visibilities were both Fourier transformed and deconvolved using the CASA \textit{clean} task in multi-frequency synthesis imaging mode. This imaging mode separately grids the multiple spectral channels onto the \textit{u-v} plane and therefore improves the overall \textit{u-v} coverage. As all science targets were expected to be point sources at all wavelengths, resolution was not paramount and so we used natural weighting for maximum sensitivity. The cell size was chosen so that the synthesized beam was about five pixels across. The FOV of the VLA at short wavelengths is small (see Table \ref{tab:3.6}) and at these wavelengths there are less serendipitous background objects. This meant that the science targets were the only objects within a few primary beams of phase center and so it was sufficient to place just one CLEAN circle around the target source. The general procedure was to first use \textit{clean} to create a dirty image (i.e., by setting \textit{niter}\,=\,0) allowing the root mean square noise of this dirty image, $\sigma _{\rm{rms}}$, to be determined. The final CLEAN image was then created by setting \textit{niter} to a very large number  and setting the CLEANing threshold to be $\sim 3\sigma _{\rm{rms}}$. Setting \textit{niter} to a very large number ensures that this CLEANing threshold is reached.
 
+At long VLA wavelengths the primary beam becomes larger and the background sky sources become brighter. The new wide bandwidth capabilities of the VLA means that it is quite sensitive even far from phase center. For example, at $\sim 20$\,cm (L-band), the HPBW of the primary beam is $\sim 30^{\prime}$ and yet the primary beam gain is as much as 10\% around $1^{\circ}$ away. In Figure \ref{fig:4.7} we show a wide field view of our VLA 20\,cm image clearly showing many serendipitous sources out to and beyond the HPBW of the primary beam, all of which needed to be individually CLEANed to reduce their sidelobe contamination of the final image. For this reason the image sizes were usually set to a few times the size of the primary beam (if not too computationally expensive) so that any nearby strong serendipitous sources could be CLEANed. These images were again CLEANed interactively, and also took sky curvature into account. CLEANing was carried out interactively with CLEAN circles first placed around the strongest sources in the image and then placed around weaker sources as they appeared in the residual image. 
+ 
+\begin{figure}[hbt!]
+\centering 
+\includegraphics[trim=130pt 0pt 100pt 0pt,clip,width=15cm,height=12cm]{/home/eamon/thesis/thesis_template/4/l_thesis.ps}  
+\caption[Wide field view of the VLA 20\,cm image.]{Wide field view of the VLA 20\,cm image showing the many serendipitous background sources close to Arcturus. CLEAN circles were placed around all these sources during interactive CLEANing. The blue circle marks the FOV (i.e., the HPBW of the primary beam) of the VLA at 20\,cm while the pink cross in the center marks the expected position of Arcturus. The contour levels are set at $(0.005,0.01,0.05,0.1,0.2,0.4,0.6,0.8)\times 80.3$\,mJy, where $80.3$\,mJy is the flux of the brightest source in the image.}
+\label{fig:4.7}
+\end{figure}
+
+\subsection{Imaging the CARMA Data}\label{sec:4.3.2}
 %The image cubes were multiscale CLEANed down to the
 %3 threshold using natural weighting and were corrected for
 %primary beam attenuation. The multiscale algorithm (Rich et al.
@@ -118,12 +136,20 @@ The penultimate stage of the calibration process is to use the known flux densit
 %channel maps. Each scale was approximately set to three times
 %smaller than the preceding scale.
 %
-%The visibilities were then both Fourier transformed and deconvolved using the CASA \textit{clean} task in multi-frequency synthesis imaging mode, which separately grids the multiple spectral channels onto the \textit{u-v} plane and therefore improves the overall \textit{u-v} coverage. We used natural weighting for maximum sensitivity and the cell size was chosen so that the synthesized beam was about five pixels across. For the high frequencies it was usually sufficient to place just one CLEAN circle around the target source.  For the low frequencies however, the image sizes were usually set to a few times the size of the primary beam so that nearby strong serendipitous sources could be CLEANed thus reducing their sidelobe contamination of the final image. These images were CLEANed interactively, taking sky curvature into account, down to about the $3\sigma$  level with clean boxes placed around sources as they appeared in the residual image. All images were corrected for  primary beam attenuation. 
-%
 %CLEAN vs MEM vs Multi-scale Clean (for Peter!)
 %
-%second sources (maps)
-%
-%Dirty Image, PSF
-%
-%Show images of calibrators
+%is an extended source with many spatial scales, the most basic (yet still reasonable) imaging procedure is to use clean with multiple scales. As is suggested, we will use a set of scales (which are expressed in units of the requested pixel, or cell, size) which are representative of the scales that are present in the data, including a zero-scale for point sources.
+
+\begin{figure}[hbt!]
+\centering 
+\mbox{
+\includegraphics[trim=127pt 0pt 130pt 0pt,clip,scale=0.7]{/home/eamon/thesis/thesis_template/4/thesis_clean.eps}  
+\includegraphics[trim=127pt 0pt 130pt 0pt,clip,scale=0.7]{/home/eamon/thesis/thesis_template/4/thesis_multi.eps}  
+}
+\mbox{
+\includegraphics[trim=127pt 0pt 130pt 0pt,clip,scale=0.7]{/home/eamon/thesis/thesis_template/4/thesis_clean_resid.eps}  
+\includegraphics[trim=127pt 0pt 130pt 0pt,clip,scale=0.7]{/home/eamon/thesis/thesis_template/4/thesis_multi_resid.eps}  
+}
+\caption[]{}
+\label{fig:4.7}
+\end{figure}
