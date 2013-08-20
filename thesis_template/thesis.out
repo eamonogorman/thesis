@@ -1,15 +1,71 @@
 \BOOKMARK [0][]{chapter*.1}{List of Publications}{}
 \BOOKMARK [0][]{section*.4}{List of Figures}{}
 \BOOKMARK [0][]{section*.6}{List of Tables}{}
-\BOOKMARK [0][]{chapter.1}{1 Data Analysis}{}
-\BOOKMARK [1][]{section.1.1}{1.1 Data Examination and Flagging}{chapter.1}
-\BOOKMARK [1][]{section.1.2}{1.2 Calibration}{chapter.1}
-\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 Prior Calibration}{section.1.2}
-\BOOKMARK [2][]{subsection.1.2.2}{1.2.2 Bandpass Calibration}{section.1.2}
-\BOOKMARK [2][]{subsection.1.2.3}{1.2.3 Gain Calibration}{section.1.2}
-\BOOKMARK [2][]{subsection.1.2.4}{1.2.4 Flux Scale Calibration and Application of Solutions}{section.1.2}
-\BOOKMARK [1][]{section.1.3}{1.3 Imaging}{chapter.1}
-\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Imaging the VLA Data}{section.1.3}
-\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Imaging the CARMA Data}{section.1.3}
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}
+\BOOKMARK [1][]{section.1.1}{1.1 First Section}{chapter.1}
+\BOOKMARK [1][]{section.1.2}{1.2 Second Section}{chapter.1}
+\BOOKMARK [1][]{section.1.3}{1.3 Second Section}{chapter.1}
+\BOOKMARK [0][]{chapter.2}{2 Introduction to Radio Interferometry}{}
+\BOOKMARK [1][]{section.2.1}{2.1 Radio Antenna Fundamentals}{chapter.2}
+\BOOKMARK [2][]{subsection.2.1.1}{2.1.1 Properties of a Radio Antenna}{section.2.1}
+\BOOKMARK [2][]{subsection.2.1.2}{2.1.2 Antenna Structural Design}{section.2.1}
+\BOOKMARK [2][]{subsection.2.1.3}{2.1.3 Antenna Performance Parameters}{section.2.1}
+\BOOKMARK [1][]{section.2.2}{2.2 Receiving System for an Interferometer}{chapter.2}
+\BOOKMARK [1][]{section.2.3}{2.3 Fundamentals of Radio Interferometry}{chapter.2}
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Young's Slits}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 The Two-element Interferometer}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 Complex Visibility}{section.2.3}
+\BOOKMARK [2][]{subsection.2.3.4}{2.3.4 Coordinate Systems for Imaging}{section.2.3}
+\BOOKMARK [1][]{section.2.4}{2.4 Synthesis Imaging}{chapter.2}
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Visibility Sampling}{section.2.4}
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 Imaging \(Making a Dirty Map\)}{section.2.4}
+\BOOKMARK [2][]{subsection.2.4.3}{2.4.3 Deconvolution \(Making a CLEAN map\)}{section.2.4}
+\BOOKMARK [0][]{chapter.3}{3 Targets, Instrumentation, and Observations}{}
+\BOOKMARK [1][]{section.3.1}{3.1 Betelgeuse}{chapter.3}
+\BOOKMARK [1][]{section.3.2}{3.2 CARMA}{chapter.3}
+\BOOKMARK [1][]{section.3.3}{3.3 CARMA Observations of Betelgeuse}{chapter.3}
+\BOOKMARK [1][]{section.3.4}{3.4 Arcturus and Aldebaran}{chapter.3}
+\BOOKMARK [1][]{section.3.5}{3.5 The Karl G. Jansky Very Large Array}{chapter.3}
+\BOOKMARK [1][]{section.3.6}{3.6 VLA Observations of Arcturus and Aldebaran}{chapter.3}
+\BOOKMARK [1][]{section.3.7}{3.7 VLA-Pie Town Observations of Betelgeuse}{chapter.3}
+\BOOKMARK [0][]{chapter.4}{4 Radio Interferometric Data Analysis}{}
+\BOOKMARK [1][]{section.4.1}{4.1 Data Examination and Flagging}{chapter.4}
+\BOOKMARK [1][]{section.4.2}{4.2 Calibration}{chapter.4}
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Prior Calibration}{section.4.2}
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Bandpass Calibration}{section.4.2}
+\BOOKMARK [2][]{subsection.4.2.3}{4.2.3 Gain Calibration}{section.4.2}
+\BOOKMARK [2][]{subsection.4.2.4}{4.2.4 Flux Scale Calibration and Application of Solutions}{section.4.2}
+\BOOKMARK [1][]{section.4.3}{4.3 Imaging}{chapter.4}
+\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Imaging the VLA Data}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Imaging the CARMA Data}{section.4.3}
+\BOOKMARK [0][]{chapter.5}{5 Multi-wavelength Study of Betelgeuse's Extended Atmosphere}{}
+\BOOKMARK [1][]{section.5.1}{5.1 CO molecules in the CSE of Betelgeuse}{chapter.5}
+\BOOKMARK [1][]{section.5.2}{5.2 Adopted Radial Velocity}{chapter.5}
+\BOOKMARK [1][]{section.5.3}{5.3 CARMA CO\(J=2-1\) Spectra}{chapter.5}
+\BOOKMARK [1][]{section.5.4}{5.4 Individual Configuration Image Cubes}{chapter.5}
+\BOOKMARK [1][]{section.5.5}{5.5 Multi-configuration Image Cube Inspection}{chapter.5}
+\BOOKMARK [1][]{section.5.6}{5.6 Spatial Extent of S2}{chapter.5}
+\BOOKMARK [1][]{section.5.7}{5.7 Intensity distribution of CO}{chapter.5}
+\BOOKMARK [1][]{section.5.8}{5.8 Spatial Extent of S1}{chapter.5}
+\BOOKMARK [1][]{section.5.9}{5.9 Continuum Flux Densities}{chapter.5}
+\BOOKMARK [1][]{section.5.10}{5.10 Higher CO rotational lines}{chapter.5}
+\BOOKMARK [1][]{section.5.11}{5.11 CARMA CO observations in Context}{chapter.5}
+\BOOKMARK [1][]{section.5.12}{5.12 e-Merlin 6cm Results}{chapter.5}
+\BOOKMARK [1][]{section.5.13}{5.13 VLA-Pie Town Maps vs e-MERLIN}{chapter.5}
+\BOOKMARK [1][]{section.5.14}{5.14 Long Term Radio Variability}{chapter.5}
+\BOOKMARK [1][]{section.5.15}{5.15 0.7cm VLA-Pie Town Maps}{chapter.5}
+\BOOKMARK [0][]{chapter.6}{6 Multi-wavelength Radio Continuum Emission Studies of \040Dust-free Red Giants}{}
+\BOOKMARK [1][]{section.6.1}{6.1 Why Study Red Giants with the VLA?}{chapter.6}
+\BOOKMARK [1][]{section.6.2}{6.2 Radio Maps}{chapter.6}
+\BOOKMARK [2][]{subsection.6.2.1}{6.2.1 \040Boo Maps}{section.6.2}
+\BOOKMARK [2][]{subsection.6.2.2}{6.2.2 \040Tau Maps}{section.6.2}
+\BOOKMARK [1][]{section.6.3}{6.3 Results vs Previous Observations}{chapter.6}
+\BOOKMARK [1][]{section.6.4}{6.4 Results vs Existing Models}{chapter.6}
+\BOOKMARK [1][]{section.6.5}{6.5 Spectral Indices}{chapter.6}
+\BOOKMARK [1][]{section.6.6}{6.6 Analytical Advection Model for \040Boo's Wind}{chapter.6}
+\BOOKMARK [2][]{subsection.6.6.1}{6.6.1 Hii recombination in a stellar outflow}{section.6.6}
+\BOOKMARK [2][]{subsection.6.6.2}{6.6.2 Application to \040Boo's Wind}{section.6.6}
+\BOOKMARK [1][]{section.6.7}{6.7 Constraining \040Tau's Molsphere}{chapter.6}
+\BOOKMARK [1][]{section.6.8}{6.8 Ionized Mass Loss Rates}{chapter.6}
 \BOOKMARK [0][]{appendix.A}{A List of Abbreviations}{}
-\BOOKMARK [0][]{section*.18}{References}{}
+\BOOKMARK [0][]{section*.75}{References}{}

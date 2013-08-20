@@ -242,11 +242,17 @@ Therefore Equation \ref{eq:visib} can be defined in terms of the coordinate syst
 &\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty} \mathcal{A}_{\nu}(l,m)I_{\nu}(l,m)\mathit{e}^{-2\pi \mathit{i}[ul+vm+w(\sqrt{1-l^2-m^2})] }\frac{dl\,dm}{\sqrt{1-l^2-m^2}}
 \end{split}
 \end{equation}
-which is not a three-dimensional Fourier transform. This equation becomes a two-dimensional Fourier transform if $w=0$ which is a good approximation for small field imaging, i.e., when $|l|$ and $|m|$ are small. In this case Equation \ref{eq:3-d_vis} can be inverted to find the modified sky brightness distribution:
-\begin{equation}\label{eq:2dft}
-\mathcal{A}_{\nu}(l,m)I_{\nu}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}V_{\nu}(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
+which is not a three-dimensional Fourier transform. This equation becomes a two-dimensional Fourier transform if $w=0$ which is a good approximation for small field imaging, i.e., when $|l|$ and $|m|$ are small. Thus, for an incoherent source in the far field observed with a small FOV and ignoring the response of the primary beam, the complex visibility  is the 2-dimensional Fourier Transform of the sky brightness distribution
+\begin{equation}\label{eq:2-d_vis}
+V_{\nu}(u,v)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty} I_{\nu}(l,m)\mathit{e}^{-2\pi \mathit{i}[ul+vm]}dl\,dm.
 \end{equation}
-Therefore Equation \ref{eq:2dft} demonstrates the important Fourier Transform relationship between the sky brightness distribution and the complex visibility (i.e., the interferometer response).
+This Fourier transform relationship is the result of the van Cittert-Zernike theorem \citep{van_cittert_1934}, upon which synthesis imaging is based. Since $I_{\nu}(l,m)$ is real, $V(u,v)$ is Hermitian [i.e.,$V(-u,-v) = V^{*}(u,v)$] and so one measurement of the sky brightness gives two measurements of the complex visibility. Also, $V(u=0,v=0)$ is the integral of $I_{\nu}(l,m)dldm$, which is the total flux. An interferometer cannot measure this value because it cannot take measurements at $(u=0,v=0)$. 
+
+%In this case Equation \ref{eq:3-d_vis} can be inverted to find the modified sky brightness distribution:
+%\begin{equation}\label{eq:2dft}
+%\mathcal{A}_{\nu}(l,m)I_{\nu}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}V_{\nu}(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
+%\end{equation}
+%Therefore Equation \ref{eq:2dft} demonstrates the important Fourier Transform relationship between the sky brightness distribution and the complex visibility (i.e., the interferometer response).
 
 \begin{figure}[hbt!]
 \centering 
@@ -307,7 +313,7 @@ The `direct Fourier transform' method can then be used to solve for the dirty im
 The solution to the inverse Fourier transform given in Equation \ref{eq:2dft}
  is not unique, because the unmeasured points in the $u-v$ plane could have \textit{any} value without violating the data constraints. The `principle solution' is the one in which all missing $u-v$ measurements are set to zero and gives the dirty image discussed in the previous section. The dirty image is usually not a satisfactory representation of the sky as one would expect a more continuous distribution of visibilities than that provided by the array. The goal of the deconvolution process is to find a method that determines more reasonable values for the unmeasured $u-v$ data. A priori information is the key to choosing `reasonable' values. For example, we know that the Stokes parameter $I$ must be positive and that radio sources generally do not have sidelobe patterns.
  
-The CLEAN algorithm \citep{hogbom_1974} is the most widely used technique in radio interferometry to deconvolve the true sky intensity from the dirty beam. It assumes that the radio source can be represented by a number of point sources in an otherwise empty field and a simple iterative process is used to find the strengths and positions of these point sources. The final CLEAN image (i.e., the deconvolved image) is the sum of these point sources convolved with a CLEAN beam, which is usually an elliptical Gaussian of the same size and shape as the inner part of the dirty beam. The CLEAN algorithm obeys the following steps:
+The CLEAN algorithm \citep{hogbom_1974, schwarz_1978, cornwell_1999} is the most widely used technique in radio interferometry to deconvolve the true sky intensity from the dirty beam. It assumes that the radio source can be represented by a number of point sources in an otherwise empty field and a simple iterative process is used to find the strengths and positions of these point sources. The final CLEAN image (i.e., the deconvolved image) is the sum of these point sources convolved with a CLEAN beam, which is usually an elliptical Gaussian of the same size and shape as the inner part of the dirty beam. The CLEAN algorithm obeys the following steps:
 \begin{enumerate}
 \item Find the strength and position of the brightest point in the dirty image. It may also be desirable to search for peaks in specified areas of the image, called CLEAN windows or regions.
 \item At this position in the dirty image, subtract the dirty beam multiplied by the peak strength and a damping factor $g$ ($g \le 1$, usually called the loop gain).
