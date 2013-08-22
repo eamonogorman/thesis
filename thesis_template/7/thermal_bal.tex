@@ -1,0 +1,61 @@
+%!TEX root = ../thesis.tex
+%Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
+%: ----------------------- introduction file header -----------------------
+\chapter{Introduction}
+\label{chap:7}
+
+
+etc....
+
+\section{Introduction}\label{sec:1}
+
+ 
+
+\section{Thermal Model for a Spherically Symmetric Outflow}\label{sec:2}
+In this section we derive an expression to describe how the temperature in a stellar outflow changes as a function of distance from the star. In doing so, we also present the notation that is used in subsequent sections to describe the magnitude of the heating and cooling taking place at certain regions in a stellar outflow. We assume all quantities vary radially (i.e, spherical symmetry) and that the mass loss rate is constant (i.e., time independent). The continuity equation can then be written as
+\begin{equation}
+\label{eq:1}
+v\frac{d\rho}{dr}=-\rho \left(\frac{dv}{dr}+\frac{2v}{r} \right)
+\end{equation}
+where $v$ and $\rho$ are the flow velocity and mass density at a distance $r$ from the star. The first law of thermodynamics tells us that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system on its environment. For a reversible process in a closed system the work done is $PdV$, where $P$ and $V$ are the pressure and volume of the system. Writing the first law of thermodynamics in terms of rates per unit mass then gives
+\begin{equation}
+\frac{du}{dt}=\frac{dq}{dt}-\frac{P}{m}\frac{dV}{dt}
+\end{equation}
+where $u$ is the internal energy per unit mass and $q$ is the net heat gained per unit mass. The time dependence in the first and last term can be switched to a radial dependence via $v=dr/dt$, and $m/\rho$ can be substituted for $V$ to get
+\begin{equation}
+v\frac{du}{dr}=-\frac{P}{\rho}\left(v\frac{d\rho}{dr} \right)+\frac{dq}{dt}.
+\end{equation}
+Substituting in Equation \ref{eq:1} and using $u=3nkT/2\rho$ and $P=nkT$ gives
+\begin{equation}
+v\left(\frac{3nk}{2\rho}\frac{dT}{dr}\right)=-\frac{nkT}{\rho}\left(\frac{dv}{dr} + \frac{2v}{r}\right) +\frac{dq}{dt}.
+\end{equation}
+If we define $\Gamma$ and $\Lambda$ are the heating and cooling rates per unit volume respectively, then we can rearrange this equation to get
+\begin{equation}
+\frac{dT}{dr}=-\frac{4T}{3r}-\frac{2T}{3v}\frac{dv}{dr}+\frac{2(\Gamma-\Lambda)}{3nkv}.
+\end{equation}
+The first two terms on the right account for adiabatic expansion cooling. The second term is important in the wind acceleration region but is zero once the wind has reached its terminal velocity. The third term accounts for all other heating and cooling processes. This equation is equivalent to Equation 8 in \cite{goldreich_1976} and can also be written in dimensionless form \citep{rodgers_1991} by multiplying across by $r/T$ as follows:
+\begin{equation} 
+\frac{d(lnT)}{d(lnr)}=-\frac{4}{3}-\frac{2r}{3v}\frac{dv}{dr}+\displaystyle\sum_{i=1}\mathcal{H}_{i}-\displaystyle\sum_{j=1}\mathcal{L}_{j}
+\end{equation} 
+where 
+\begin{equation}
+\mathcal{H}_{i}=\frac{2\rho r}{3nkvT}\Gamma_{i} 
+\end{equation} 
+and 
+\begin{equation}
+\mathcal{L}_{j}=\frac{2\rho r}{3nkvT}\Lambda_{j}
+\end{equation} 
+are the various heating and cooling contributions respectively, normalized to constant velocity adiabatic expansion cooling and $\rho$ is the mass density. Finally this equation can be expressed in terms of the gas kinetic temperature's local power law slope, $\lambda$
+\begin{equation} \label{eq:lambda}
+\frac{d(lnT)}{d(lnr)}=-\lambda=\lambda_{ac}+\displaystyle\sum_{i=1}\lambda_{i}
+\end{equation} 
+which contains all of the wind heating and cooling processes, including that from adiabatic expansion cooling, $\lambda_{ac}$.
+
+
+\section{Cooling Mechanisms}\label{sec:3}
+give shang table with abundances
+
+\subsection{Adiabatic Expansion Cooling}\label{sec:3.1}
+
+\section{Heating Mechanisms}\label{sec:3}
+
