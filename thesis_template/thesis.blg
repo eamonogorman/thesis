@@ -10,44 +10,44 @@ A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 2 entries,
+You've used 3 entries,
             3018 wiz_defined-function locations,
-            654 strings with 4801 characters,
-and the built_in function-call counts, 1157 in all, are:
-= -- 104
-> -- 38
-< -- 2
-+ -- 14
-- -- 12
-* -- 94
-:= -- 180
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 14
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 82
-empty$ -- 87
-format.name$ -- 22
-if$ -- 231
+            663 strings with 5067 characters,
+and the built_in function-call counts, 1878 in all, are:
+= -- 160
+> -- 67
+< -- 4
++ -- 24
+- -- 21
+* -- 151
+:= -- 280
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 23
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 145
+empty$ -- 140
+format.name$ -- 37
+if$ -- 380
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 16
-newline$ -- 10
-num.names$ -- 8
-pop$ -- 28
+missing$ -- 29
+newline$ -- 13
+num.names$ -- 14
+pop$ -- 53
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 18
 quote$ -- 0
-skip$ -- 29
+skip$ -- 53
 stack$ -- 0
-substring$ -- 64
-swap$ -- 44
-text.length$ -- 0
+substring$ -- 81
+swap$ -- 86
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 27
 warning$ -- 0
-while$ -- 8
+while$ -- 13
 width$ -- 0
-write$ -- 25
+write$ -- 37

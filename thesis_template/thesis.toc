@@ -2,11 +2,14 @@
 \contentsline {chapter}{List of Publications}{vi}{chapter*.1}
 \contentsline {chapter}{List of Figures}{ix}{section*.4}
 \contentsline {chapter}{List of Tables}{x}{section*.6}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Thermal Model for a Spherically Symmetric Outflow}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Cooling Mechanisms}{3}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Adiabatic Expansion Cooling}{3}{subsection.1.3.1}
-\contentsline {section}{\numberline {1.4}Heating Mechanisms}{3}{section.1.4}
-\contentsline {chapter}{\numberline {A}List of Abbreviations}{4}{appendix.A}
-\contentsline {chapter}{References}{6}{section*.9}
+\contentsline {chapter}{\numberline {1}A Thermal Energy Balance for Arcturus' Outflow}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation for a Thermal Energy Balance}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Thermal Model for a Spherically Symmetric Outflow}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Cooling Processes}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Adiabatic Expansion Cooling}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Radiative Recombination Cooling}{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Lyman-alpha Cooling}{5}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Other Line Cooling}{5}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Heating Mechanisms}{5}{section.1.4}
+\contentsline {chapter}{\numberline {A}List of Abbreviations}{6}{appendix.A}
+\contentsline {chapter}{References}{8}{section*.10}

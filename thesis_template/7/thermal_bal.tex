@@ -1,15 +1,28 @@
 %!TEX root = ../thesis.tex
 %Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
 %: ----------------------- introduction file header -----------------------
-\chapter{Introduction}
+\chapter{A Thermal Energy Balance for Arcturus' Outflow}
 \label{chap:7}
 
+The chapter investigates the various heating and cooling processes that control the thermal structure of Arcturus' mass outflow region. We use the hybrid chromosphere and wind model derived in Section \ref{sec:6.6.2} as the basis to derive the magnitude of these processes as function of distance from the star. The effect of adiabatic expansion cooling and cooling by various lines are investigated. This work is a continuation of the initial findings of \cite{ogorman_2011}.
+%is controlled by numerous cooling and heating processes. The cooling is from wind expansion and acceleration together with radiative cooling by atomic and singly ionized species. The heating is from the deposition of magnetic wave energy, ambipolar diffusion, and radiative heating (Harper 2001). 
 
-etc....
+\pagebreak
 
-\section{Introduction}\label{sec:1}
+\section{Motivation for a Thermal Energy Balance}\label{sec:1}
+We have shown in Chapter \ref{chap:1} that for a monotonic ideal gas, the energy per unit mass, $u(r)$, is the sum of the kinetic and gravitational energies, and the enthalpy
+\begin{equation}
+\label{eq:7.1}
+u(r)=\frac{v(r)^2}{2}-\frac{GM_{\star}}{r}+\frac{5\mathcal{R}T}{2\mu}.
+\end{equation}
+The lower boundary of a stellar outflow is the photosphere which is gravitationally bound to the star. This implies that the energy in Equation \ref{eq:7.1} must be negative at this point. If a star is to have an outflow, then its energy must become positive at large $r$ to escape the gravitational well [i.e., $v(r)^2 \geq v_{\rm{esc}}(r)^2$]. Therefore, energy must be added to the gas if its velocity is to reach (or exceed) the escape velocity. The addition of this energy can be either in the form of heat input per unit mass, $q(r)$, or in the form of momentum input [i.e., an outward force, $f(r)$]. In other words, differentiating Equation \ref{eq:7.1} with respect to $r$ gives the change in energy per distance from the star, and this becomes
+\begin{equation}
+\label{eq:7.2}
+\frac{d\,u(r)}{dr}=f(r)+q(r),
+\end{equation}
+which is just a form of the \textit{Bernoulli} equation. The unknown fundamental mechanisms responsible for driving the winds of cool evolved stars must therefore manifest themselves in either one or both of the quantities on the right hand side of Equation \ref{eq:7.2}. Therefore, studying the heating deposition , $q(r)$, taking place in Arcturus's outflow is a valuable exercise and should provide insight into its wind driving mechanism(s).
 
- 
+Our multi-wavelength radio study of Arcturus allowed us to refine its existing atmospheric model. We found that our long wavelength VLA flux density measurements could be reproduced by the existing model if the almost isothermal outflow was replaced with an outflow that contained a large thermal gradient. This new hybrid model is graphically summarized in Figure \ref{fig:6.10}. The goal in this chapter is to use this new model as a foundation to study the thermal energy balance in Arcturus's atmosphere. The simple idea behind this is that all the heating and cooling processes taking place in the outflow should combine to produce the derived thermal profile from Chapter \ref{chap:6}. Knowing the main mechanisms through which the plasma can cool thus allows us to examine the possible mechanisms which heat the plasma to the known temperature. Investigating the magnitude of the heating deposition of various mechanisms then then tells us if such a mechanism can play a part in the mass loss process.
 
 \section{Thermal Model for a Spherically Symmetric Outflow}\label{sec:2}
 In this section we derive an expression to describe how the temperature in a stellar outflow changes as a function of distance from the star. In doing so, we also present the notation that is used in subsequent sections to describe the magnitude of the heating and cooling taking place at certain regions in a stellar outflow. We assume all quantities vary radially (i.e, spherical symmetry) and that the mass loss rate is constant (i.e., time independent). The continuity equation can then be written as
@@ -21,7 +34,7 @@ where $v$ and $\rho$ are the flow velocity and mass density at a distance $r$ fr
 \begin{equation}
 \frac{du}{dt}=\frac{dq}{dt}-\frac{P}{m}\frac{dV}{dt}
 \end{equation}
-where $u$ is the internal energy per unit mass and $q$ is the net heat gained per unit mass. The time dependence in the first and last term can be switched to a radial dependence via $v=dr/dt$, and $m/\rho$ can be substituted for $V$ to get
+where $u$ is the internal energy per unit mass and $q$ is the net heat gained per unit mass. The time dependence in the first and last terms can be switched to a radial dependence via $v=dr/dt$, and $m/\rho$ can be substituted for $V$ to get
 \begin{equation}
 v\frac{du}{dr}=-\frac{P}{\rho}\left(v\frac{d\rho}{dr} \right)+\frac{dq}{dt}.
 \end{equation}
@@ -35,7 +48,7 @@ If we define $\Gamma$ and $\Lambda$ are the heating and cooling rates per unit v
 \end{equation}
 The first two terms on the right account for adiabatic expansion cooling. The second term is important in the wind acceleration region but is zero once the wind has reached its terminal velocity. The third term accounts for all other heating and cooling processes. This equation is equivalent to Equation 8 in \cite{goldreich_1976} and can also be written in dimensionless form \citep{rodgers_1991} by multiplying across by $r/T$ as follows:
 \begin{equation} 
-\frac{d(lnT)}{d(lnr)}=-\frac{4}{3}-\frac{2r}{3v}\frac{dv}{dr}+\displaystyle\sum_{i=1}\mathcal{H}_{i}-\displaystyle\sum_{j=1}\mathcal{L}_{j}
+\frac{d(\mathrm{ln}\,T)}{d(\mathrm{ln}\,r)}=-\frac{4}{3}-\frac{2}{3}\frac{d(\mathrm{ln}\,v)}{d(\mathrm{ln}\,r)}+\displaystyle\sum_{i=1}\mathcal{H}_{i}-\displaystyle\sum_{j=1}\mathcal{L}_{j}
 \end{equation} 
 where 
 \begin{equation}
@@ -45,17 +58,42 @@ and
 \begin{equation}
 \mathcal{L}_{j}=\frac{2\rho r}{3nkvT}\Lambda_{j}
 \end{equation} 
-are the various heating and cooling contributions respectively, normalized to constant velocity adiabatic expansion cooling and $\rho$ is the mass density. Finally this equation can be expressed in terms of the gas kinetic temperature's local power law slope, $\lambda$
+are the various heating and cooling contributions respectively, normalized to constant velocity adiabatic expansion cooling. Finally this equation can be expressed in terms of the gas kinetic temperature's local power law slope, $\lambda$, 
 \begin{equation} \label{eq:lambda}
-\frac{d(lnT)}{d(lnr)}=-\lambda=\lambda_{ac}+\displaystyle\sum_{i=1}\lambda_{i}
+\frac{d(\mathrm{ln}\,T)}{d(\mathrm{ln}\,r)}=-\lambda
+\end{equation}
+where 
+\begin{equation}
+\lambda =\lambda_{0}+\displaystyle\sum_{i=1}\lambda_{i}
 \end{equation} 
-which contains all of the wind heating and cooling processes, including that from adiabatic expansion cooling, $\lambda_{ac}$.
+which contains all of the wind heating and cooling processes, including that from adiabatic expansion cooling, $\lambda_{0}$. We note that positive and negative $\lambda$'s represent cooling and heating, respectively. This notation will be used throughout this chapter and allows the various heating and cooling process to be easily compared to the $4/3$ exponent, characteristic of a constant velocity outflow undergoing adiabatic expansion cooling.
 
-
-\section{Cooling Mechanisms}\label{sec:3}
-give shang table with abundances
+\section{Cooling Processes}\label{sec:3}
+We now assess the important cooling processes which take place in Arcturus' atmosphere between $1.2-10\,R_{\star}$. 
 
 \subsection{Adiabatic Expansion Cooling}\label{sec:3.1}
 
+\subsection{Radiative Recombination Cooling}\label{sec:3.3}
+
+\subsection{Lyman-alpha Cooling}\label{sec:3.2}
+
+\subsection{Other Line Cooling}\label{sec:3.4}
+\begin{table}[!hb]
+\begin{center}
+\caption[Ionized mass loss rates for $\alpha$ Boo and $\alpha$ Tau.]
+{Ionized}
+\begin{tabular}{ccc}
+\hline
+\hline
+\rule{0pt}{2.5ex} &  &  \\
+\hline
+\rule{0pt}{2.5ex}&   &  \\
+							&   &  \\
+							&  &  \\
+\hline
+\end{tabular}
+\label{tab:6.5b}
+\end{center}
+\end{table}
 \section{Heating Mechanisms}\label{sec:3}
 
