@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  22 AUG 2013 22:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  23 AUG 2013 20:35
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -668,20 +668,23 @@ LaTeX Warning: Reference `fig:6.10' on page 2 undefined on input line 25.
 
 LaTeX Warning: Reference `chap:6' on page 2 undefined on input line 25.
 
-[2] [3] [4]) [5]
+[2] [3] [4]
+File: /home/eamon/thesis/thesis_template/7/adiab.ps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/7/adiab.ps> [5]) [6] [7]
 \openout2 = `appendix/app.aux'.
 
- (./appendix/app.tex
+
+(./appendix/app.tex
 Appendix A.
-) [6
+) [8
 
 
 
-] [7] (./thesis.bbl (./thesis.brf)
+] [9] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [8
+) [10
 
 
 ] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux) (
@@ -695,12 +698,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8322 strings out of 495062
- 118109 string characters out of 1182645
- 202416 words of memory out of 3000000
- 11240 multiletter control sequences out of 15000+50000
+ 8338 strings out of 495062
+ 118388 string characters out of 1182645
+ 202638 words of memory out of 3000000
+ 11253 multiletter control sequences out of 15000+50000
  15596 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,45p,1061b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (19 pages, 49452 bytes).
+Output written on thesis.dvi (21 pages, 57356 bytes).
