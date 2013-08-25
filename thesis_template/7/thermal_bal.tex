@@ -71,7 +71,7 @@ where
 which contains all of the wind heating and cooling processes, including that from adiabatic expansion cooling, $\lambda_{0}$. We note that positive and negative $\lambda$'s represent cooling and heating, respectively. This notation will be used throughout this chapter and allows the various heating and cooling process to be easily compared to the $4/3$ exponent, characteristic of a constant velocity outflow undergoing adiabatic expansion cooling.
 
 \section{Cooling Processes}\label{sec:3}
-We now assess the important cooling processes which take place in Arcturus' atmosphere between $\sim 1-10\,R_{\star}$. 
+The three ways in which the gas in Arcturus' partially ionized outflow can cool are through adiabatic expansion, radiative recombination, and collisional excitation of neutral and ionized atoms. We now assess the importance of each of these cooling processes between $\sim 1-10\,R_{\star}$. 
 
 \subsection{Adiabatic Expansion Cooling}\label{sec:3.1}
 Adiabatic expansion cooling is the thermodynamic process in which a fixed quantity of gas cools as it expands into a larger volume of gas. It is composed of a geometric term and a velocity gradient term; these being the first two terms on the right of Equation \ref{eq:1.8}. As shown in Figure \ref{fig:7.1}, the dominant term close to the photosphere is the velocity gradient term due to the rapid wind acceleration while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Adiabatic expansion cooling is a very efficient cooling mechanism in the atmospheres of all stars. To show this we take the atmosphere of Arcturus as an example and assume the absence of all heating mechanisms. The geometric factor alone then will lower the gas temperature to decrease by a factor of $10^4$ by $1500\,R_{\star}$ which is below the cosmic background temperature. 
@@ -79,7 +79,7 @@ Adiabatic expansion cooling is the thermodynamic process in which a fixed quanti
 \begin{figure}[!ht]
 \centering 
          \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=8cm,height=12cm, angle=90]{/home/eamon/thesis/thesis_template/7/adiab.ps}
-\caption[]{The effect of adiabatic expansion cooling in Arcturus' outflow. The dominant term close to the photosphere is the velocity gradient term from Equation \ref{eq:1.8} due to the rapid wind acceleration, while further out where the wind reaches its terminal velocity, the geometric term becomes dominant.}
+\caption[]{The effects of adiabatic expansion, radiative recombination, and Lyman $\alpha$ cooling in Arcturus' outflow. For adiabatic expansion cooling, the dominant term close to the photosphere is the velocity gradient term from Equation \ref{eq:1.8} due to the rapid wind acceleration, while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Radiative recombination is also an important cooling mechanism between $\sim 1-4\,R_{\star}$. The Lyman $\alpha$ cooling function is very sensitive to $T$ and is the dominant cooling process out to $2.8\,R_{\star}$.}
 \label{fig:7.1}
 \end{figure}
 
@@ -90,19 +90,22 @@ Radiative recombination is the process by which an electron is captured by an io
 \end{equation}
 where $\frac{3}{2}kT$ is the average thermal energy of a captured electron and $\alpha ^{n}$ is the hydrogen recombination rate coefficient summed over $n$ levels. The hydrogen recombination rate coefficient excluding captures to the $n=1$ level is given as 
 \begin{equation}
-\alpha _{B}= \frac{2.06\times 10^{-11}}{T^{1/2}}\phi _{2}(\beta) \ \ \ \ \ \rm{s^{-1}\,cm^{-3}}.
+\alpha _{B}= \frac{2.06\times 10^{-11}}{T^{1/2}}\phi _{2}(\beta) \ \ \ \ \ \rm{s^{-1}\,cm^{3}}.
 \end{equation}
 $\phi _{2}(\beta)$ is a function that varies with temperature and has been tabulated for various temperatures by \citep{spitzer_1978}. Recombination to the ground state is excluded because the process produces another ionizing
 photon that can be easily absorbed again, producing the net effect that the recombination had not occurred. The radiative recombination cooling contribution can then be calculated using Equation \ref{eq:1.10}.
 
-
-
-
-
 \subsection{Lyman-alpha Cooling}\label{sec:3.2}
+At temperatures of a few thousand degrees, the excited levels in neural H can become populated from electron collisions and thus can be a source of cooling. The analytical expression for the resulting net cooling rate per volume is
+\begin{equation}
+\label{eq:ly_alpha}
+\Lambda _{\rm{eH}} = 7.3\times 10^{-19}n_{\rm{e}}n_{\rm{HI}}e^{-118,400/T(K)} \ \ \ \ \ \rm{erg\,s^{-1}\,cm^{-3}}
+\end{equation}
+\cite{spitzer_1978}. Most of the resulting radiation comes from the $n=2$ level (Lyman $\alpha$) and this is why the cooling rate is almost proportional to exp$(-E_{12}/kT)$, where $E_{12}/k=118319\,K$. Equation \ref{eq:ly_alpha} is a very sensitive function of the gas temperature and as can be seen from Figure \ref{fig:7.1}, is the dominant cooling process out to $2.8\,R_{\star}$. The sharp falloff in temperature in Arcturus' outflow post $2.3\,R_{\star}$ results in this mechanism going from being a very efficient cooling process within $2.3\,R_{\star}$ to having a negligible effect by $\sim 3.1\,R_{\star}$.
+
 
 \subsection{Other Line Cooling}\label{sec:3.4}
-\begin{table}[!hb]
+\begin{table}[!ht]
 \begin{center}
 \caption[Ionized mass loss rates for $\alpha$ Boo and $\alpha$ Tau.]
 {Ionized}

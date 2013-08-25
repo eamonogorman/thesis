@@ -5,28 +5,40 @@
 \label{chap:1}
 
 
+\label{chap:1}
+ 
+ 
 Here is the introduction of the thesis, complete with a few references  \citep{sagan1997demon, prothero2007evolution}.  Section \ref{sec:1} contains Equation \ref{eqn:1}, Section \ref{sec:2} has Figure \ref{fig:1} and Section \ref{sec:3} has Table \ref{tab:1}. Chapter \ref{chap:2} has pretty much nothing in it.
-
-\section{First Section}\label{sec:1}
-This section has an equation. Here it is:
+\pagebreak
+\section{The problem}\label{sec:1}
+\section{History}\label{sec:1}
+lamors and cass
+maybe radio HR diagram
+\section{Stellar Radio Emission Mechanisms}\label{sec:3.1}
+ 
+into hr radio diagram
+ 
+\subsection{Elementary Formulas}\label{subsec:3.1.1}
+In thermodynamic equilibrium the specific intensity $I_{\nu}$ of the radiation of a black body with temperature $T$ is given by the Planck law
+\begin{equation}\label{eq:1.1}
+I_{\nu}(T)d\nu=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT}-1}d\nu
+\end{equation}
+and has units of flux per frequency interval per solid angle. One can easily switch to specific intensity in terms of wavelength by $I_{\lambda}=(c/\lambda ^2)I_{\nu}d\nu$ which is more often used in optical astronomy. When $h\nu \ll kT$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
 \begin{equation}
-L_{\odot} = 4\pi R_{\odot}^2 \sigma T_{e}^{4}
 \label{eqn:1}
+I_{\nu}(T)d\nu=\dfrac{2\nu ^2kT}{c^2}.
 \end{equation}
 which is a nice way of describing the luminosity. 
-
+and can be used for all thermal radio sources except in the millimeter or sub-millimeter regime at low temperatures \citep{rohlfs_1996}.
  
+ 
+continue with tools of radio astron
 
+The brightness temperature is the temperature at which a blackbody would have to be in order to reproduce the observed specific intensity of an object at frequency $\nu$.
+
+isothermal disk (books chap 1 and 11)
+ 
 \section{Second Section}\label{sec:2}
+give example of flux from nearest star
 
-So this section has a figure in it\footnote{And also a footnote.}. That figure depicts the basic structure of a red giant. 
-\begin{figure}[ht!]
-\includegraphics[width=\textwidth]{writeup_images/c_carma_s2.eps}
-\caption[Red Giant and Asymptotic Giant Branch Stars]
-%Putting the name here in square brackets won't show up in the text but will show up as the name of the figure in the list of figures at the start of the thesis
-{Red Giant and Asymptotic Giant Branch Stars. The left side of the figure shows the basic structure of a star on the giant branch of the HR diagram, while the right side shows a similar star after it has evolved to ascend the asymptotic giant branch. \emph{Image Credit: Australian Telescope National Facility.}
-\label{fig:1}}
-\end{figure}
-
-\section{Second Section}\label{sec:3}
 

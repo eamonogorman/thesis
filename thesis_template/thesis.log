@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  23 AUG 2013 20:35
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  25 AUG 2013 12:39
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -514,9 +514,12 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./7/thermal_bal.aux
+(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux
 
-LaTeX Warning: Label `sec:3' multiply defined.
+LaTeX Warning: Label `chap:1' multiply defined.
+
+
+LaTeX Warning: Label `sec:1' multiply defined.
 
 ) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
@@ -643,12 +646,29 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
  [10
 
 ]
-\openout2 = `7/thermal_bal.aux'.
+\openout2 = `1/introduction.aux'.
 
- (./7/thermal_bal.tex
+ (./1/introduction.tex
 Chapter 1.
 
-LaTeX Warning: Reference `sec:6.6.2' on page 1 undefined on input line 7.
+Package natbib Warning: Citation `sagan1997demon' on page 1 undefined on input 
+line 11.
+
+
+Package natbib Warning: Citation `prothero2007evolution' on page 1 undefined on
+ input line 11.
+
+
+LaTeX Warning: Reference `fig:1' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sec:3' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Reference `tab:1' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Reference `chap:2' on page 1 undefined on input line 11.
 
 [1
 
@@ -656,40 +676,32 @@ LaTeX Warning: Reference `sec:6.6.2' on page 1 undefined on input line 7.
 
 ]
 
-LaTeX Warning: Reference `chap:1' on page 2 undefined on input line 13.
+Package natbib Warning: Citation `rohlfs_1996' on page 2 undefined on input lin
+e 32.
 
-LaTeX Font Info:    Try loading font information for U+eus on input line 16.
-(/usr/share/texmf-texlive/tex/latex/amsfonts/ueus.fd
-File: ueus.fd 2009/06/22 v3.00 Euler Script
-)
-
-LaTeX Warning: Reference `fig:6.10' on page 2 undefined on input line 25.
-
-
-LaTeX Warning: Reference `chap:6' on page 2 undefined on input line 25.
-
-[2] [3] [4]
-File: /home/eamon/thesis/thesis_template/7/adiab.ps Graphic file (type eps)
- </home/eamon/thesis/thesis_template/7/adiab.ps> [5]) [6] [7]
+) [2]
 \openout2 = `appendix/app.aux'.
 
-
-(./appendix/app.tex
+ (./appendix/app.tex
 Appendix A.
-) [8
+) [3
 
 
 
-] [9] (./thesis.bbl (./thesis.brf)
+] [4] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [10
+)
+
+Package natbib Warning: There were undefined citations.
+
+[5
 
 
 ] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux) (
-./0/acknowledgement.aux)
-(./0/publications.aux) (./7/thermal_bal.aux) (./appendix/app.aux))
+./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
+(./appendix/app.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -698,12 +710,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8338 strings out of 495062
- 118388 string characters out of 1182645
- 202638 words of memory out of 3000000
- 11253 multiletter control sequences out of 15000+50000
- 15596 words of font info for 53 fonts, out of 3000000 for 9000
+ 8312 strings out of 495062
+ 117974 string characters out of 1182645
+ 199894 words of memory out of 3000000
+ 11235 multiletter control sequences out of 15000+50000
+ 14996 words of font info for 50 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,45p,1061b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,45p,374b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (21 pages, 57356 bytes).
+Output written on thesis.dvi (16 pages, 32968 bytes).
