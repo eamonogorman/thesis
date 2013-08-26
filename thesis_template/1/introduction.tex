@@ -15,55 +15,74 @@ Here is the introduction of the thesis, complete with a few references  \citep{s
  
 \section{Radio Emission from Stellar Atmospheres} 
 lamors and cass
-maybe radio HR diagram
+give example of flux from nearest star 
+into hr radio diagram
 \subsection{Brightness Temperature}\label{subsec:3.1.1}
-In thermodynamic equilibrium the spectral distribution or brightness, $B_{\nu}$, of the radiation of a black body with temperature $T$ is given by the Planck law
+In thermodynamic equilibrium the spectral distribution or brightness, $B_{\nu}$, of the radiation of a black body with temperature $T_{e}$ is given by the Planck law
 \begin{equation}\label{eq:1.1}
-B_{\nu}(T)=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT}-1}
+B_{\nu}(T_{e})=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT_{e}}-1}
 \end{equation}
 and has units of flux per frequency interval per solid angle. One can easily switch to a wavelength scale using  $B_{\nu}(T)d\nu = B_{\lambda}(T)d\lambda$. When $h\nu \ll kT$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
 \begin{equation}
 \label{eq:1.2}
-B_{\nu}(T)d\nu=\dfrac{2\nu ^2kT}{c^2}.
+B_{\nu}(T_{e})=\dfrac{2\nu ^2kT_{e}}{c^2}=I_{\nu}(T_{e}).
 \end{equation}
-This equation does not contain Plank's constant and therefore is the classical limit of the Planck Law. It can be used for all thermal radio sources except in the millimeter or sub-millimeter regime at low temperatures \citep{rohlfs_1996}. In the Rayleigh-Jeans relation, the brightness is strictly proportional to the thermodynamic temperature of the black body. In radio astronomy it is customary to measure the brightness of an object by its \textit{brightness temperature}, $T_{\rm{b}}$. Therefore, the brightness temperature is the temperature at which a blackbody would have to be in order to reproduce the observed brightness of an object at frequency $\nu$ and is defined as
-\begin{equation}
-T_{\rm{b}}=\frac{c^2}{2k\nu ^2}B_{\nu}. 
+This equation does not contain Plank's constant and therefore is the classical limit of the Planck Law. We have also include the specific intensity, $I_{\nu}$, here as it has the same units of the spectral brightness and is regularly used instead. This equation is valid for all thermal radio sources except in the millimeter or sub-millimeter regime at low temperatures \citep{rohlfs_1996}. In the Rayleigh-Jeans relation, the brightness is strictly proportional to the thermodynamic temperature of the black body. In radio astronomy it is customary to measure the brightness of an object by its \textit{brightness temperature}, $T_{\rm{b}}$. Therefore, the brightness temperature is the temperature at which a blackbody would have to be in order to reproduce the observed brightness of an object at frequency $\nu$ and is defined as
+\begin{equation}\label{eq:1.3}
+T_{\rm{b}}=\frac{c^2}{2k\nu ^2}B_{\nu}=\frac{c^2}{2k\nu ^2}I_{\nu}. 
 \end{equation}
 If $h\nu /kT \ll 1$ and if $B_{\nu}$ is emitted by a blackbody, then $T_{\rm{b}}$ is the thermodynamic temperature of the source. If other processes are responsible for the emission or if the frequency is so high that Equation \ref{eq:1.2} is not valid, then $T_{\rm{b}}$ is different from the thermodynamic temperature of a black body.
 
-The equation of radiative transfer describes the change in specific intensity, $I_{\nu}$, of a ray along the line of sight in a slab of material of thickness $ds$
-\begin{equation}
+The equation of radiative transfer describes the change in specific intensity of a ray along the line of sight in a slab of material of thickness $ds$
+\begin{equation}\label{eq:1.4}
 \frac{dI_{\nu}}{ds}=\varepsilon _{\nu} - \kappa _{\nu}I_{\nu}
 \end{equation}
-where $\varepsilon _{\nu}$ and $\kappa _{\nu}$ are the emissivity (in erg\,s$^{-1}$\,cm$^{-3}$\,Hz$^{-1}$\,sr$^{-1}$) and the absorption coefficient (opacity) (in cm$^{1}$) of a plasma of temperature, $T_{\rm{eff}}$. In thermodynamic equilibrium the radiation is in complete equilibrium with its surroundings and the brightness distribution is described by the Planck function
-\begin{equation}
-\dfrac{dI_{\nu}}{ds}=0, \ \ \ \ \ \ I_{\nu}= B_{\nu}(T)=\frac{\varepsilon _{\nu}}{\kappa _{\nu}}
+where $\varepsilon _{\nu}$ and $\kappa _{\nu}$ are the emissivity (in erg\,s$^{-1}$\,cm$^{-3}$\,Hz$^{-1}$\,sr$^{-1}$) and the absorption coefficient (i.e., opacity) (in cm$^{-1}$) of the plasma. In thermodynamic equilibrium the radiation is in complete equilibrium with its surroundings and the brightness distribution is described by the Planck function
+\begin{equation}\label{eq:1.5}
+\dfrac{dI_{\nu}}{ds}=0, \ \ \ \ \ \ I_{\nu}= \frac{\varepsilon _{\nu}}{\kappa _{\nu}}=\frac{c^2}{2k\nu ^2}T_{e}.
 \end{equation}
-In local thermodynamic equilibrium (LTE), the emissivity and the opacity are related by Kirchhoff's law
+Equation \ref{eq:1.4} can then be solved by first defining the optical depth, $d\tau _{\nu}$ as
 \begin{equation}
-B_{\nu}(T)=\frac{\varepsilon _{\nu}}{\kappa _{\nu}}
+d\tau _{\nu}=-\kappa _{\nu}ds,
 \end{equation}
-and so the radiative transfer equation can be wrote as
+and then integrated by parts between 0 to $s$, and $\tau$ to 0, to give 
 \begin{equation}
-\dfrac{dI_{\nu}}{d\tau _{\nu}}=I_{\nu}-B_{\nu}(T)
+I(s) = I(0)e^{-\tau(s)} + \int ^0 _{\tau (s)}e^{-\tau} \frac{\varepsilon _{\nu}}{\kappa _{\nu}}d\tau.
 \end{equation}
-where the optical depth, $d\tau _{\nu}$ is defined as
+The second term within the integral is known as the source function, $S_{\nu}$, and this can be taken outside of the integral in the case of a homogeneous source, i.e. one for which both the emissivity and absorption coefficient are constant along the ray path. The solution then to the equation of radiative transfer for a homogeneous source is
 \begin{equation}
-d\tau _{\nu}=-\kappa _{\nu}ds.
+I_{\nu} = I_{0}e^{-\tau} + \frac{\varepsilon _{\nu}}{\kappa _{\nu}}(1 - e^{-\tau}).
 \end{equation}
+Using Equations \ref{eq:1.3} and \ref{eq:1.5} one obtains
+\begin{equation}
+T_{b} = T_{0}e^{-\tau} + T_{e}(1 - e^{-\tau})
+\end{equation}
+which assumes thermodynamic equilibrium and so only holds for a thermal source. If $T_{e}$ is replaced with $T_{\rm{eff}} = h\nu/k$  then this equation becomes valid for a homogeneous nonthermal sources so that
+\begin{equation}
+T_{b} = T_{0}e^{-\tau} + T_{\rm{eff}}(1 - e^{-\tau}).
+\end{equation}
+For an isolated source, there are two limiting cases:
+\begin{equation}
+T_{b} = T_{e} \ \ \ \ \mathrm{(i.e.,\ for\ optically\ thick}\ \tau \gg 1)
+\end{equation}
+and
+\begin{equation}
+T_{b} = \tau T_{e} \ \ \ \ \mathrm{(i.e.,\ for\ optically\ thin}\ \tau \ll 1).
+\end{equation}
+In these equations, $T_{e}$ can also be replaced by $T_{\rm{eff}}$ if the radio emission emission is non-thermal and are only valid if the source is resolved.
 
-sub in t brightess and when its equal to temp or not.
+\subsection{Brightness Temperature and Flux Density}\label{subsec:3.1.2}
+In the previous section we have shown that at radio wavelengths, we are able to directly measure the gas temperature if we are able to spatially resolve an optically thick stellar atmosphere which emits thermal radiation. Unfortunately, the number of stars that can have their atmospheres spatially resolved at radio wavelengths is low due to their relatively small angular diameters. Moreover, the number of stars whose radio emission is mainly thermal and can be spatially resolved are even smaller due to their lower brightness temperatures compared to the non-thermal emitters and thus sensitivity becomes an issue.
 
+\subsection{Radio Free-free Opacity}\label{subsec:3.1.2}
 optically thick/ thin (notes)
 
 derive radio opacity and plot a graph as in notes
 
-then what with a wind
+\subsection{Radio Excess from Stellar Winds}\label{subsec:3.1.3}
 
-\section{Stellar Radio Emission Mechanisms}\label{sec:3.1}
-give example of flux from nearest star 
- 
-into hr radio diagram
+
+\section{Stellar Radio Emission Mechanisms}\label{sec:3.1.4}
+
 
 

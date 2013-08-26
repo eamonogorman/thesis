@@ -103,24 +103,46 @@ At temperatures of a few thousand degrees, the excited levels in neural H can be
 \end{equation}
 \cite{spitzer_1978}. Most of the resulting radiation comes from the $n=2$ level (Lyman $\alpha$) and this is why the cooling rate is almost proportional to exp$(-E_{12}/kT)$, where $E_{12}/k=118319\,K$. Equation \ref{eq:ly_alpha} is a very sensitive function of the gas temperature and as can be seen from Figure \ref{fig:7.1}, is the dominant cooling process out to $2.8\,R_{\star}$. The sharp falloff in temperature in Arcturus' outflow post $2.3\,R_{\star}$ results in this mechanism going from being a very efficient cooling process within $2.3\,R_{\star}$ to having a negligible effect by $\sim 3.1\,R_{\star}$.
 
-
 \subsection{Other Line Cooling}\label{sec:3.4}
+Due to its large abundance, H is expected to be the most efficient line cooling mechanism in the inner atmosphere of Arcturus. Nevertheless, it is also worth investigating the effects of line cooling from heavier elements which may become important at lower temperature further out in the atmosphere where line cooling from H has almost ceased. Line cooling from these heavy elements is due mainly to electron impact excitation of electronic levels of the neutral and ionized species at high temperatures, while at lower temperatures (i.e. further out in the CSE) line cooling is mainly due to the electron impact excitation of fine structure levels of the neutral and ionized constituents \citep{dalgarno_1972}. Table \ref{tab:7.1} lists the most relevant heavy elements for this study based on abundance and suitable line transitions. 
+
 \begin{table}[!ht]
 \begin{center}
-\caption[Ionized mass loss rates for $\alpha$ Boo and $\alpha$ Tau.]
-{Ionized}
-\begin{tabular}{ccc}
+\caption[]{Elemental Abundance in Arcturus's Outflow}
+\begin{tabular}{cccc}
 \hline
 \hline
-\rule{0pt}{2.5ex} &  &  \\
+\rule{0pt}{2.5ex} Element & Abundance & IP (eV) & Reference \\
 \hline
-\rule{0pt}{2.5ex}&   &  \\
-							&   &  \\
-							&  &  \\
+\rule{-2.5pt}{2.5ex}	O &  $4.7\times 10^{-4}$ & 13.6 & \cite{ramirez_2011}\\
+					C &  $2.1\times 10^{-4}$ & 11.3 & \cite{ramirez_2011}\\
+					N$^{1}$ &  $6.7\times 10^{-5}$& 14.5 & \cite{asplund_2009}\\
+					Mg & $3.0\times 10^{-5}$ & 7.6 & \cite{ramirez_2011}\\
+					Si & $2.0\times 10^{-5}$ & 8.2 & \cite{ramirez_2011}\\
+					Fe & $1.0\times 10^{-5}$ & 7.9 & \cite{decin_2003}\\
 \hline
 \end{tabular}
-\label{tab:6.5b}
+\label{tab:7.1}
+\begin{minipage}{12.5cm}
+\rule{-2.5pt}{2.5ex}{\footnotesize $^{1}$\,Assumed solar abundance.}
+\end{minipage}
 \end{center}
 \end{table}
+
+The line cooling rate per unit volume due to the transition $ul$ in a medium where the optical depth is not negligible is 
+\begin{equation}
+\Lambda _{\rm{line}} =\sum_{u\rightarrow l} n_{u}A_{ul}E_{ul}\rho (\tau) \ \ \ \ \ \rm{erg}\,\rm{s^{-1}\,cm^{-3}}
+\end{equation}
+where $n_{u}$ is the population of the upper level, $A_{ul}$ is the spontaneous emission coefficient of the transition, and $E_{ul}$ is the energy of the radiated photon. Here, the sum is over all possible upper to lower transitions and $\rho (\tau)$ is the probability the photon will escape the gas without being reabsorbed. This function lowers the line cooling rate and can be written as 
+\begin{equation}
+\rho (\tau) = \frac{1-\mathrm{exp}(-3\tau /2)}{3\tau /2}
+\end{equation}
+\citep{castor_2004}.
+
 \section{Heating Mechanisms}\label{sec:3}
+
+
+
+
+
 

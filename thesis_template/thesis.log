@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  26 AUG 2013 11:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  26 AUG 2013 23:50
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -521,6 +521,9 @@ LaTeX Warning: Label `chap:1' multiply defined.
 
 LaTeX Warning: Label `sec:1' multiply defined.
 
+
+LaTeX Warning: Label `subsec:3.1.2' multiply defined.
+
 ) (./appendix/app.aux))
 \openout1 = `thesis.aux'.
 
@@ -672,20 +675,20 @@ LaTeX Warning: Reference `chap:2' on page 1 undefined on input line 11.
 
 
 
-] [2]) [3]
+] [2] [3]) [4]
 \openout2 = `appendix/app.aux'.
 
  (./appendix/app.tex
 Appendix A.
-) [4
+) [5
 
 
 
-] [5] (./thesis.bbl (./thesis.brf)
+] [6] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [6
+) [7
 
 
 ] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux) (
@@ -699,12 +702,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8301 strings out of 495062
- 117838 string characters out of 1182645
- 200807 words of memory out of 3000000
- 11224 multiletter control sequences out of 15000+50000
+ 8309 strings out of 495062
+ 117946 string characters out of 1182645
+ 201091 words of memory out of 3000000
+ 11232 multiletter control sequences out of 15000+50000
  14688 words of font info for 49 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,11n,45p,741b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,45p,893b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (17 pages, 38168 bytes).
+Output written on thesis.dvi (18 pages, 45300 bytes).
