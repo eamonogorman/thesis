@@ -12,33 +12,58 @@ Here is the introduction of the thesis, complete with a few references  \citep{s
 \pagebreak
 \section{The problem}\label{sec:1}
 \section{History}\label{sec:1}
+ 
+\section{Radio Emission from Stellar Atmospheres} 
 lamors and cass
 maybe radio HR diagram
+\subsection{Brightness Temperature}\label{subsec:3.1.1}
+In thermodynamic equilibrium the spectral distribution or brightness, $B_{\nu}$, of the radiation of a black body with temperature $T$ is given by the Planck law
+\begin{equation}\label{eq:1.1}
+B_{\nu}(T)=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT}-1}
+\end{equation}
+and has units of flux per frequency interval per solid angle. One can easily switch to a wavelength scale using  $B_{\nu}(T)d\nu = B_{\lambda}(T)d\lambda$. When $h\nu \ll kT$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
+\begin{equation}
+\label{eq:1.2}
+B_{\nu}(T)d\nu=\dfrac{2\nu ^2kT}{c^2}.
+\end{equation}
+This equation does not contain Plank's constant and therefore is the classical limit of the Planck Law. It can be used for all thermal radio sources except in the millimeter or sub-millimeter regime at low temperatures \citep{rohlfs_1996}. In the Rayleigh-Jeans relation, the brightness is strictly proportional to the thermodynamic temperature of the black body. In radio astronomy it is customary to measure the brightness of an object by its \textit{brightness temperature}, $T_{\rm{b}}$. Therefore, the brightness temperature is the temperature at which a blackbody would have to be in order to reproduce the observed brightness of an object at frequency $\nu$ and is defined as
+\begin{equation}
+T_{\rm{b}}=\frac{c^2}{2k\nu ^2}B_{\nu}. 
+\end{equation}
+If $h\nu /kT \ll 1$ and if $B_{\nu}$ is emitted by a blackbody, then $T_{\rm{b}}$ is the thermodynamic temperature of the source. If other processes are responsible for the emission or if the frequency is so high that Equation \ref{eq:1.2} is not valid, then $T_{\rm{b}}$ is different from the thermodynamic temperature of a black body.
+
+The equation of radiative transfer describes the change in specific intensity, $I_{\nu}$, of a ray along the line of sight in a slab of material of thickness $ds$
+\begin{equation}
+\frac{dI_{\nu}}{ds}=\varepsilon _{\nu} - \kappa _{\nu}I_{\nu}
+\end{equation}
+where $\varepsilon _{\nu}$ and $\kappa _{\nu}$ are the emissivity (in erg\,s$^{-1}$\,cm$^{-3}$\,Hz$^{-1}$\,sr$^{-1}$) and the absorption coefficient (opacity) (in cm$^{1}$) of a plasma of temperature, $T_{\rm{eff}}$. In thermodynamic equilibrium the radiation is in complete equilibrium with its surroundings and the brightness distribution is described by the Planck function
+\begin{equation}
+\dfrac{dI_{\nu}}{ds}=0, \ \ \ \ \ \ I_{\nu}= B_{\nu}(T)=\frac{\varepsilon _{\nu}}{\kappa _{\nu}}
+\end{equation}
+In local thermodynamic equilibrium (LTE), the emissivity and the opacity are related by Kirchhoff's law
+\begin{equation}
+B_{\nu}(T)=\frac{\varepsilon _{\nu}}{\kappa _{\nu}}
+\end{equation}
+and so the radiative transfer equation can be wrote as
+\begin{equation}
+\dfrac{dI_{\nu}}{d\tau _{\nu}}=I_{\nu}-B_{\nu}(T)
+\end{equation}
+where the optical depth, $d\tau _{\nu}$ is defined as
+\begin{equation}
+d\tau _{\nu}=-\kappa _{\nu}ds.
+\end{equation}
+
+sub in t brightess and when its equal to temp or not.
+
+optically thick/ thin (notes)
+
+derive radio opacity and plot a graph as in notes
+
+then what with a wind
+
 \section{Stellar Radio Emission Mechanisms}\label{sec:3.1}
+give example of flux from nearest star 
  
 into hr radio diagram
- 
-\subsection{Elementary Formulas}\label{subsec:3.1.1}
-In thermodynamic equilibrium the specific intensity $I_{\nu}$ of the radiation of a black body with temperature $T$ is given by the Planck law
-\begin{equation}\label{eq:1.1}
-I_{\nu}(T)d\nu=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT}-1}d\nu
-\end{equation}
-and has units of flux per frequency interval per solid angle. One can easily switch to specific intensity in terms of wavelength by $I_{\lambda}=(c/\lambda ^2)I_{\nu}d\nu$ which is more often used in optical astronomy. When $h\nu \ll kT$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
-\begin{equation}
-\label{eqn:1}
-I_{\nu}(T)d\nu=\dfrac{2\nu ^2kT}{c^2}.
-\end{equation}
-which is a nice way of describing the luminosity. 
-and can be used for all thermal radio sources except in the millimeter or sub-millimeter regime at low temperatures \citep{rohlfs_1996}.
- 
- 
-continue with tools of radio astron
-
-The brightness temperature is the temperature at which a blackbody would have to be in order to reproduce the observed specific intensity of an object at frequency $\nu$.
-
-isothermal disk (books chap 1 and 11)
- 
-\section{Second Section}\label{sec:2}
-give example of flux from nearest star
 
 

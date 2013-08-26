@@ -1,22 +1,16 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{3}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Goldreich} \& {Scoville}(1976)}]{goldreich_1976}
-{\sc {Goldreich}, P. \& {Scoville}, N.} (1976). {OH-IR stars. I - Physical
-  properties of circumstellar envelopes}. {\em \apj\/}, {\bf 205}, 144--154.
+\bibitem[{Prothero \& Buell(2007)}]{prothero2007evolution}
+{\sc Prothero, D. \& Buell, C.} (2007). {\em Evolution: what the fossils say
+  and why it matters\/}. Columbia University Press.
 
-\bibitem[{{O'Gorman} \& {Harper}(2011)}]{ogorman_2011}
-{\sc {O'Gorman}, E. \& {Harper}, G.M.} (2011). {What is Heating Arcturus'
-  Wind?} In C.~{Johns-Krull}, M.K. {Browning} \& A.A. {West}, eds., {\em 16th
-  Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun\/}, vol. 448
-  of {\em Astronomical Society of the Pacific Conference Series\/}, 691.
+\bibitem[{{Rohlfs} \& {Wilson}(1996)}]{rohlfs_1996}
+{\sc {Rohlfs}, K. \& {Wilson}, T.L.} (1996). {\em {Tools of Radio
+  Astronomy}\/}.
 
-\bibitem[{{Rodgers} \& {Glassgold}(1991)}]{rodgers_1991}
-{\sc {Rodgers}, B. \& {Glassgold}, A.E.} (1991). {The temperature of the
-  circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 382}, 606--616.
-
-\bibitem[{{Spitzer}(1978)}]{spitzer_1978}
-{\sc {Spitzer}, L.} (1978). {\em Physical processes in the interstellar
-  medium\/}. New York Wiley-Interscience, 1978.\ 333 p.
+\bibitem[{Sagan(1997)}]{sagan1997demon}
+{\sc Sagan, C.} (1997). {\em The Demon-Haunted World: Science as a Candle in
+  the Dark\/}. Ballantine Books.
 
 \end{thebibliography}
