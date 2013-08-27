@@ -103,8 +103,8 @@ At temperatures of a few thousand degrees, the excited levels in neural H can be
 \end{equation}
 \cite{spitzer_1978}. Most of the resulting radiation comes from the $n=2$ level (Lyman $\alpha$) and this is why the cooling rate is almost proportional to exp$(-E_{12}/kT)$, where $E_{12}/k=118319\,K$. Equation \ref{eq:ly_alpha} is a very sensitive function of the gas temperature and as can be seen from Figure \ref{fig:7.1}, is the dominant cooling process out to $2.8\,R_{\star}$. The sharp falloff in temperature in Arcturus' outflow post $2.3\,R_{\star}$ results in this mechanism going from being a very efficient cooling process within $2.3\,R_{\star}$ to having a negligible effect by $\sim 3.1\,R_{\star}$.
 
-\subsection{Other Line Cooling}\label{sec:3.4}
-Due to its large abundance, H is expected to be the most efficient line cooling mechanism in the inner atmosphere of Arcturus. Nevertheless, it is also worth investigating the effects of line cooling from heavier elements which may become important at lower temperature further out in the atmosphere where line cooling from H has almost ceased. Line cooling from these heavy elements is due mainly to electron impact excitation of electronic levels of the neutral and ionized species at high temperatures, while at lower temperatures (i.e. further out in the CSE) line cooling is mainly due to the electron impact excitation of fine structure levels of the neutral and ionized constituents \citep{dalgarno_1972}. Table \ref{tab:7.1} lists the most relevant heavy elements for this study based on abundance and suitable line transitions. 
+\subsection{Other Line Coolants}\label{sec:3.4}
+Due to its large abundance, H is expected to be the most efficient line cooling mechanism in the inner atmosphere of Arcturus. Nevertheless, it is also worth investigating the effects of line cooling from heavier elements which may become important at lower temperature further out in the atmosphere where line cooling from H has almost ceased. Line cooling from these heavy elements is due mainly to electron impact excitation of electronic levels of the neutral and ionized species at high temperatures, while at lower temperatures (i.e. further out in the CSE) line cooling is mainly due to the electron impact excitation of fine structure levels of the neutral and ionized constituents \citep{dalgarno_1972}. Table \ref{tab:7.1} lists the most relevant heavy elements for this study based on abundance and suitable line transitions. All heavy elements with an ionization potential (IP) lower than O were assumed fully ionized,  while the ionization balance of O was based on the IUE line profile analysis of \cite{judge_1986}.
 
 \begin{table}[!ht]
 \begin{center}
@@ -137,12 +137,26 @@ where $n_{u}$ is the population of the upper level, $A_{ul}$ is the spontaneous 
 \begin{equation}
 \rho (\tau) = \frac{1-\mathrm{exp}(-3\tau /2)}{3\tau /2}
 \end{equation}
-\citep{castor_2004}.
+\citep{castor_2004}. The level populations were found by simultaneously solving the statistical equilibrium equations and the non-LTE fractional fractional populations formula, i.e.,
+\begin{equation}
+\frac{n_u}{n_l}=\frac{g_u}{g_l}\mathrm{exp} \left( \frac{-E_{21}}{kT}\right)\left( 1+\frac{n_{\mathrm{cr}}}{n_{\mathrm{tot}}} \right)^{-1}.
+\end{equation}
+Here $g_{u}$ and $g_{l}$ are the degeneracy (the number of states with the same energy) of the levels and $n_{\rm{tot}}$ is the total number density of all particles in the gas. The critical density, $n_{\rm{cr}}$, is the ratio of the radiative and collisional rates
+\begin{equation}
+n_{\rm{cr}}=\frac{A_{ul}\rho _{ul}}{C_{ul}}.
+\end{equation}
+and tells us whether LTE is an accurate approximation at that point in the outflow.
 
-\section{Heating Mechanisms}\label{sec:3}
+The line cooling from these heavy elements was found to be only significant within $1.5\,R_{\star}$, the most efficient of which being the \ion{C}{ii}\,$^{2}P \rightarrow ^{2}P$ semi-forbidden transition (2326\,\AA). Line cooling due to the fine structure levels of these elements was found to be negligible due to the high temperature regime. In Figure \ref{fig:7.2} we plot the sum of all the cooling mechanisms taking place in Arcturus' outflow. The cooling taking place within the first $3\,R_{\star}$ is mainly due to Lyman Alpha emission line while the cooling further out is mainly due to gas expansion, with a small contribution from radiative recombination. 
 
+\begin{figure}[!ht]
+\centering 
+         \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=7cm,height=12cm, angle=90]{/home/eamon/thesis/thesis_template/7/tot_cooling.ps}
+\caption[Summation of all cooling mechanisms]{Summation of all the cooling mechanisms taking place in Arcturus' outflow. The cooling taking place within the first $3\,R\star$ is mainly due to Lyman Alpha emission line while the cooling further out is from gas expansion, with a small contribution from radiative recombination.}
+\label{fig:7.2}
+\end{figure}
 
+\section{Heating Mechanisms}\label{sec:4}
+In the following sections we investigate various possible heating mechanisms taking place in Arcturus's outflow and the  overall efficiency of these mechanisms at various distance from the star. 
 
-
-
-
+\subsection{Photoionization Heating}\label{sec:4.1}

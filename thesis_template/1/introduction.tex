@@ -15,23 +15,28 @@ Here is the introduction of the thesis, complete with a few references  \citep{s
  
 \section{Radio Emission from Stellar Atmospheres} 
 lamors and cass
-give example of flux from nearest star 
+
+\begin{equation}
+F_{\nu}\approx 0.1\left(\frac{T_{b}}{10^6\,K}\right)\left(\frac{\nu}{1\,\mathrm{GHz}}\right)^2\left(\frac{r}{10^{11}\,\mathrm{cm}}\right)^2\left(\frac{1\,\mathrm{pc}}{d}\right)^2\ \ \ \ \ \mathrm{mJy}
+\end{equation}
+\citep{gudel_2002}
+
 into hr radio diagram
 \subsection{Brightness Temperature}\label{subsec:3.1.1}
 In thermodynamic equilibrium the spectral distribution or brightness, $B_{\nu}$, of the radiation of a black body with temperature $T_{e}$ is given by the Planck law
 \begin{equation}\label{eq:1.1}
 B_{\nu}(T_{e})=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT_{e}}-1}
 \end{equation}
-and has units of flux per frequency interval per solid angle. One can easily switch to a wavelength scale using  $B_{\nu}(T)d\nu = B_{\lambda}(T)d\lambda$. When $h\nu \ll kT$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
+and has units of flux per frequency interval per solid angle. One can easily switch to a wavelength scale using  $B_{\nu}d\nu = B_{\lambda}d\lambda$. When $h\nu \ll kT_{e}$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
 \begin{equation}
 \label{eq:1.2}
 B_{\nu}(T_{e})=\dfrac{2\nu ^2kT_{e}}{c^2}=I_{\nu}(T_{e}).
 \end{equation}
 This equation does not contain Plank's constant and therefore is the classical limit of the Planck Law. We have also include the specific intensity, $I_{\nu}$, here as it has the same units of the spectral brightness and is regularly used instead. This equation is valid for all thermal radio sources except in the millimeter or sub-millimeter regime at low temperatures \citep{rohlfs_1996}. In the Rayleigh-Jeans relation, the brightness is strictly proportional to the thermodynamic temperature of the black body. In radio astronomy it is customary to measure the brightness of an object by its \textit{brightness temperature}, $T_{\rm{b}}$. Therefore, the brightness temperature is the temperature at which a blackbody would have to be in order to reproduce the observed brightness of an object at frequency $\nu$ and is defined as
 \begin{equation}\label{eq:1.3}
-T_{\rm{b}}=\frac{c^2}{2k\nu ^2}B_{\nu}=\frac{c^2}{2k\nu ^2}I_{\nu}. 
+T_{\rm{b}}=\frac{c^2}{2k\nu ^2}I_{\nu}. 
 \end{equation}
-If $h\nu /kT \ll 1$ and if $B_{\nu}$ is emitted by a blackbody, then $T_{\rm{b}}$ is the thermodynamic temperature of the source. If other processes are responsible for the emission or if the frequency is so high that Equation \ref{eq:1.2} is not valid, then $T_{\rm{b}}$ is different from the thermodynamic temperature of a black body.
+If $h\nu /kT \ll 1$ and if $I_{\nu}$ is emitted by a blackbody, then $T_{\rm{b}}$ is the thermodynamic temperature of the source. If non-thermal processes are responsible for the emission or if the frequency is so high that Equation \ref{eq:1.2} is not valid, then $T_{\rm{b}}$ is different from the thermodynamic temperature of a black body.
 
 The equation of radiative transfer describes the change in specific intensity of a ray along the line of sight in a slab of material of thickness $ds$
 \begin{equation}\label{eq:1.4}
@@ -41,7 +46,7 @@ where $\varepsilon _{\nu}$ and $\kappa _{\nu}$ are the emissivity (in erg\,s$^{-
 \begin{equation}\label{eq:1.5}
 \dfrac{dI_{\nu}}{ds}=0, \ \ \ \ \ \ I_{\nu}= \frac{\varepsilon _{\nu}}{\kappa _{\nu}}=\frac{c^2}{2k\nu ^2}T_{e}.
 \end{equation}
-Equation \ref{eq:1.4} can then be solved by first defining the optical depth, $d\tau _{\nu}$ as
+Equation \ref{eq:1.4} can then be solved by first defining the optical depth, $d\tau _{\nu}$, as
 \begin{equation}
 d\tau _{\nu}=-\kappa _{\nu}ds,
 \end{equation}
@@ -62,17 +67,33 @@ which assumes thermodynamic equilibrium and so only holds for a thermal source. 
 T_{b} = T_{0}e^{-\tau} + T_{\rm{eff}}(1 - e^{-\tau}).
 \end{equation}
 For an isolated source, there are two limiting cases:
-\begin{equation}
+\begin{equation}\label{eq:1.11}
 T_{b} = T_{e} \ \ \ \ \mathrm{(i.e.,\ for\ optically\ thick}\ \tau \gg 1)
 \end{equation}
 and
-\begin{equation}
+\begin{equation}\label{eq:1.12}
 T_{b} = \tau T_{e} \ \ \ \ \mathrm{(i.e.,\ for\ optically\ thin}\ \tau \ll 1).
 \end{equation}
-In these equations, $T_{e}$ can also be replaced by $T_{\rm{eff}}$ if the radio emission emission is non-thermal and are only valid if the source is resolved.
+In these equations, $T_{e}$ can also be replaced by $T_{\rm{eff}}$ if the radio emission emission is non-thermal. Also, these equations are only valid if the source is spatially resolved. If the source is unresolved then an upper limit to $T_{e}/T_{\rm{eff}}$ is found.
 
 \subsection{Brightness Temperature and Flux Density}\label{subsec:3.1.2}
-In the previous section we have shown that at radio wavelengths, we are able to directly measure the gas temperature if we are able to spatially resolve an optically thick stellar atmosphere which emits thermal radiation. Unfortunately, the number of stars that can have their atmospheres spatially resolved at radio wavelengths is low due to their relatively small angular diameters. Moreover, the number of stars whose radio emission is mainly thermal and can be spatially resolved are even smaller due to their lower brightness temperatures compared to the non-thermal emitters and thus sensitivity becomes an issue.
+The flux density, $F_{\nu}$, is a fundamental quantity measured by a radio telescope and is usually measured in Janskys (Jy) where 1\,Jy$ = 1\times 10^{-26}$\,W\,m$^{-2}$\,Hz$^{-1}$. The observed flux density measured by the radio telescope is
+\begin{equation}\label{eq:1.13}
+F_{\nu} = \int _{\Omega} I_{\nu}\,d\Omega
+\end{equation}
+where $\Omega$ is the solid angle subtended by the star ($\Omega \approx \pi R_{\star}^2/d^2$). The radio emission from evolved cool stars is almost purely thermal and so Equation \ref{eq:1.13} becomes 
+\begin{equation}
+F_{\nu} =  \frac{\pi R_{\star}^2}{d^2}\frac{2k\nu ^2T_{b}}{c^2}.
+\end{equation}
+The angular diameter of a star in radians is $\phi _{\star}=2R_{\star}/d$ and so
+\begin{equation}
+F_{\nu}=\frac{\pi k\phi _{\star}^2 T_b}{2\lambda ^2}
+\end{equation}
+If $\phi _{\star}$ has major and minor axes $\phi _{\rm{maj}}$ and $\phi _{\rm{min}}$ then
+\begin{equation}
+T_{b} (K)=1.96F_{\nu}(\mathrm{mJy})\left(\frac{\lambda}{\mathrm{cm}}\right)^2\left(\frac{\phi _{\mathrm{min}}}{\mathrm{arcsec}} \frac{\phi _{\mathrm{min}}}{\mathrm{arcsec}}\right)^{-1}.
+\end{equation}
+Therefore, if an optically thick stellar atmosphere can be spatially resolved (i.e., $\phi _{\rm{maj}}$ and $\phi _{\rm{min}}$ can be measured) then the flux density at a particular wavelength tells gives the brightness temperature and therefore the electron temperature. Unfortunately, the number of stars that can have their atmospheres spatially resolved at radio wavelengths is low due to their relatively small angular diameters. However, different layers of stellar atmospheres can still be probed due to the nature of the free-free radio opacity which is discussed in the next section.
 
 \subsection{Radio Free-free Opacity}\label{subsec:3.1.2}
 optically thick/ thin (notes)
