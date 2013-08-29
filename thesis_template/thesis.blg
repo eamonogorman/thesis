@@ -5,51 +5,56 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
-A level-1 auxiliary file: 7/thermal_bal.aux
+A level-1 auxiliary file: 1/introduction.aux
 A level-1 auxiliary file: appendix/app.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
+Repeated entry---line 3165 of file mybib.bib
+ : @article{hummer_1988
+ :                     ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--missing publisher in castor_2004
-You've used 10 entries,
+Warning--empty journal in Altenhoff_1960
+Warning--missing publisher in rohlfs_1996
+You've used 4 entries,
             3018 wiz_defined-function locations,
-            705 strings with 6166 characters,
-and the built_in function-call counts, 5801 in all, are:
-= -- 485
-> -- 245
-< -- 9
-+ -- 88
-- -- 78
-* -- 468
-:= -- 897
-add.period$ -- 29
-call.type$ -- 10
-change.case$ -- 75
-chr.to.int$ -- 10
-cite$ -- 11
-duplicate$ -- 425
-empty$ -- 429
-format.name$ -- 113
-if$ -- 1161
+            667 strings with 5185 characters,
+and the built_in function-call counts, 2092 in all, are:
+= -- 175
+> -- 76
+< -- 3
++ -- 28
+- -- 24
+* -- 165
+:= -- 334
+add.period$ -- 11
+call.type$ -- 4
+change.case$ -- 27
+chr.to.int$ -- 4
+cite$ -- 6
+duplicate$ -- 154
+empty$ -- 162
+format.name$ -- 34
+if$ -- 413
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 88
-newline$ -- 34
-num.names$ -- 42
-pop$ -- 169
+missing$ -- 31
+newline$ -- 16
+num.names$ -- 16
+pop$ -- 59
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 24
 quote$ -- 0
-skip$ -- 159
+skip$ -- 59
 stack$ -- 0
-substring$ -- 239
-swap$ -- 233
-text.length$ -- 1
+substring$ -- 92
+swap$ -- 78
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
-warning$ -- 1
-while$ -- 39
+type$ -- 33
+warning$ -- 2
+while$ -- 15
 width$ -- 0
-write$ -- 111
-(There was 1 warning)
+write$ -- 44
+(There was 1 error message)

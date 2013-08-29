@@ -1,51 +1,22 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{4}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Asplund} {\em et~al.\/}(2009){Asplund}, {Grevesse}, {Sauval} \&
-  {Scott}}]{asplund_2009}
-{\sc {Asplund}, M., {Grevesse}, N., {Sauval}, A.J. \& {Scott}, P.} (2009). {The
-  Chemical Composition of the Sun}. {\em \araa\/}, {\bf 47}, 481--522.
+\bibitem[{{Altenhoff} {\em et~al.\/}(1960){Altenhoff}, {Mezger}, {Wendker} \&
+  {Westerhout}}]{Altenhoff_1960}
+{\sc {Altenhoff}, W.J., {Mezger}, P.G., {Wendker}, H.J. \& {Westerhout}, G.}
+  (1960). {Ver\"{o}ff. Sternw\"{a}rte, Bonn}. {\bf 59}, 48.
 
-\bibitem[{{Castor}(2004)}]{castor_2004}
-{\sc {Castor}, J.I.} (2004). {\em {Radiation Hydrodynamics}\/}.
+\bibitem[{{G{\"u}del}(2002)}]{gudel_2002}
+{\sc {G{\"u}del}, M.} (2002). {Stellar Radio Astronomy: Probing Stellar
+  Atmospheres from Protostars to Giants}. {\em \araa\/}, {\bf 40}, 217--261.
 
-\bibitem[{{Dalgarno} \& {McCray}(1972)}]{dalgarno_1972}
-{\sc {Dalgarno}, A. \& {McCray}, R.A.} (1972). {Heating and Ionization of HI
-  Regions}. {\em \araa\/}, {\bf 10}, 375.
+\bibitem[{{Hummer}(1988)}]{hummer_1988}
+{\sc {Hummer}, D.G.} (1988). {A fast and accurate method for evaluating the
+  nonrelativistic free-free Gaunt factor for hydrogenic ions}. {\em \apj\/},
+  {\bf 327}, 477--484.
 
-\bibitem[{{Decin} {\em et~al.\/}(2003){Decin}, {Vandenbussche}, {Waelkens},
-  {Decin}, {Eriksson}, {Gustafsson}, {Plez} \& {Sauval}}]{decin_2003}
-{\sc {Decin}, L., {Vandenbussche}, B., {Waelkens}, C., {Decin}, G., {Eriksson},
-  K., {Gustafsson}, B., {Plez}, B. \& {Sauval}, A.J.} (2003). {ISO-SWS
-  calibration and the accurate modelling of cool-star atmospheres. IV. G9 to M2
-  stars}. {\em \aap\/}, {\bf 400}, 709--727.
-
-\bibitem[{{Goldreich} \& {Scoville}(1976)}]{goldreich_1976}
-{\sc {Goldreich}, P. \& {Scoville}, N.} (1976). {OH-IR stars. I - Physical
-  properties of circumstellar envelopes}. {\em \apj\/}, {\bf 205}, 144--154.
-
-\bibitem[{{Judge}(1986)}]{judge_1986}
-{\sc {Judge}, P.G.} (1986). {Constraints on the outer atmospheric structure of
-  late-type giant stars with IUE - Methods and application to Arcturus (Alpha
-  Boo K2III)}. {\em \mnras\/}, {\bf 221}, 119--153.
-
-\bibitem[{{O'Gorman} \& {Harper}(2011)}]{ogorman_2011}
-{\sc {O'Gorman}, E. \& {Harper}, G.M.} (2011). {What is Heating Arcturus'
-  Wind?} In C.~{Johns-Krull}, M.K. {Browning} \& A.A. {West}, eds., {\em 16th
-  Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun\/}, vol. 448
-  of {\em Astronomical Society of the Pacific Conference Series\/}, 691.
-
-\bibitem[{{Ram{\'{\i}}rez} \& {Allende Prieto}(2011)}]{ramirez_2011}
-{\sc {Ram{\'{\i}}rez}, I. \& {Allende Prieto}, C.} (2011). {Fundamental
-  Parameters and Chemical Composition of Arcturus}. {\em \apj\/}, {\bf 743},
-  135.
-
-\bibitem[{{Rodgers} \& {Glassgold}(1991)}]{rodgers_1991}
-{\sc {Rodgers}, B. \& {Glassgold}, A.E.} (1991). {The temperature of the
-  circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 382}, 606--616.
-
-\bibitem[{{Spitzer}(1978)}]{spitzer_1978}
-{\sc {Spitzer}, L.} (1978). {\em Physical processes in the interstellar
-  medium\/}. New York Wiley-Interscience, 1978.\ 333 p.
+\bibitem[{{Rohlfs} \& {Wilson}(1996)}]{rohlfs_1996}
+{\sc {Rohlfs}, K. \& {Wilson}, T.L.} (1996). {\em {Tools of Radio
+  Astronomy}\/}.
 
 \end{thebibliography}

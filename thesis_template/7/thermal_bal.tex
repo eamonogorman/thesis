@@ -79,7 +79,7 @@ Adiabatic expansion cooling is the thermodynamic process in which a fixed quanti
 \begin{figure}[!ht]
 \centering 
          \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=8cm,height=12cm, angle=90]{/home/eamon/thesis/thesis_template/7/adiab.ps}
-\caption[]{The effects of adiabatic expansion, radiative recombination, and Lyman $\alpha$ cooling in Arcturus' outflow. For adiabatic expansion cooling, the dominant term close to the photosphere is the velocity gradient term from Equation \ref{eq:1.8} due to the rapid wind acceleration, while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Radiative recombination is also an important cooling mechanism between $\sim 1-4\,R_{\star}$. The Lyman $\alpha$ cooling function is very sensitive to $T$ and is the dominant cooling process out to $2.8\,R_{\star}$.}
+\caption[]{The net cooling from adiabatic expansion, radiative recombination, and Lyman $\alpha$ cooling in Arcturus' outflow. For adiabatic expansion cooling, the dominant term close to the photosphere is the velocity gradient term from Equation \ref{eq:1.8} due to the rapid wind acceleration, while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Radiative recombination is also an important cooling mechanism between $\sim 1-4\,R_{\star}$. The Lyman $\alpha$ cooling function is very sensitive to $T$ and is the dominant cooling process out to $2.8\,R_{\star}$.}
 \label{fig:7.1}
 \end{figure}
 
@@ -96,7 +96,7 @@ $\phi _{2}(\beta)$ is a function that varies with temperature and has been tabul
 photon that can be easily absorbed again, producing the net effect that the recombination had not occurred. The radiative recombination cooling contribution can then be calculated using Equation \ref{eq:1.10}.
 
 \subsection{Lyman-alpha Cooling}\label{sec:3.2}
-At temperatures of a few thousand degrees, the excited levels in neural H can become populated from electron collisions and thus can be a source of cooling. The analytical expression for the resulting net cooling rate per volume is
+Collisions between electrons and gas atoms (or ions) causes energy to be exchanged between the thermal kinetic of the gas and the internal energy of the individual gas atoms (or ions). Collisional excitation cools the gas while collisional de-excitation heats the gas. At temperatures of a few thousand degrees, the excited levels in neural H can become populated from electron collisions and thus can be a source of cooling. The analytical expression for the resulting net cooling rate per volume is
 \begin{equation}
 \label{eq:ly_alpha}
 \Lambda _{\rm{eH}} = 7.3\times 10^{-19}n_{\rm{e}}n_{\rm{HI}}e^{-118,400/T(K)} \ \ \ \ \ \rm{erg\,s^{-1}\,cm^{-3}}
@@ -141,22 +141,50 @@ where $n_{u}$ is the population of the upper level, $A_{ul}$ is the spontaneous 
 \begin{equation}
 \frac{n_u}{n_l}=\frac{g_u}{g_l}\mathrm{exp} \left( \frac{-E_{21}}{kT}\right)\left( 1+\frac{n_{\mathrm{cr}}}{n_{\mathrm{tot}}} \right)^{-1}.
 \end{equation}
-Here $g_{u}$ and $g_{l}$ are the degeneracy (the number of states with the same energy) of the levels and $n_{\rm{tot}}$ is the total number density of all particles in the gas. The critical density, $n_{\rm{cr}}$, is the ratio of the radiative and collisional rates
+Here $g_{u}$ and $g_{l}$ are the degeneracy (the number of states with the same energy) of the levels and $n_{\rm{tot}}$ is the total number density of all particles in the gas. The critical density, $n_{\rm{cr}}$, is the ratio of the radiative and collisional de-excitation rates
 \begin{equation}
 n_{\rm{cr}}=\frac{A_{ul}\rho _{ul}}{C_{ul}}.
 \end{equation}
 and tells us whether LTE is an accurate approximation at that point in the outflow.
 
-The line cooling from these heavy elements was found to be only significant within $1.5\,R_{\star}$, the most efficient of which being the \ion{C}{ii}\,$^{2}P \rightarrow ^{2}P$ semi-forbidden transition (2326\,\AA). Line cooling due to the fine structure levels of these elements was found to be negligible due to the high temperature regime. In Figure \ref{fig:7.2} we plot the sum of all the cooling mechanisms taking place in Arcturus' outflow. The cooling taking place within the first $3\,R_{\star}$ is mainly due to Lyman Alpha emission line while the cooling further out is mainly due to gas expansion, with a small contribution from radiative recombination. 
+The line cooling from these heavy elements was found to be only significant within $1.5\,R_{\star}$; the most efficient of which being the \ion{C}{ii}\,$^{2}P \rightarrow ^{2}P$ semi-forbidden transition (2326\,\AA). As the density decreases so too do the number of collisions, and so when atoms/ions radiate they are less likely to be re-excited. Therefore line cooling from these heavy elements is only important at high densities, i.e., close to the star. Line cooling due to the fine structure levels of these elements was found to be negligible due to the high temperature regime. In Figure \ref{fig:7.2} we plot the sum of all the cooling mechanisms taking place in Arcturus' outflow. The cooling taking place within the first $3\,R_{\star}$ is mainly due to Lyman Alpha emission line while the cooling further out is mainly due to gas expansion, with a small contribution from radiative recombination. 
 
 \begin{figure}[!ht]
 \centering 
          \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=7cm,height=12cm, angle=90]{/home/eamon/thesis/thesis_template/7/tot_cooling.ps}
-\caption[Summation of all cooling mechanisms]{Summation of all the cooling mechanisms taking place in Arcturus' outflow. The cooling taking place within the first $3\,R\star$ is mainly due to Lyman Alpha emission line while the cooling further out is from gas expansion, with a small contribution from radiative recombination.}
+\caption[Summation of all cooling mechanisms]{Summation of all the cooling mechanisms normalized to constant adiabatic cooling taking place in Arcturus' outflow. The cooling taking place within the first $3\,R\star$ is mainly due to Lyman Alpha emission line while the cooling further out is from gas expansion, with a small contribution from radiative recombination.}
 \label{fig:7.2}
 \end{figure}
 
 \section{Heating Mechanisms}\label{sec:4}
-In the following sections we investigate various possible heating mechanisms taking place in Arcturus's outflow and the  overall efficiency of these mechanisms at various distance from the star. 
+In the following sections we investigate various possible heating mechanisms taking place in Arcturus's outflow and the  overall efficiency of these mechanisms at various distances from the star. 
 
 \subsection{Photoionization Heating}\label{sec:4.1}
+The UV radiation field of Arcturus can photoionize atoms producing energetic electrons which heat the atmosphere. The energy released per second per unit volume due to the photoionization of an atom $X$ can be written as
+\begin{equation}\label{eq:7.20}
+\Gamma (X) = n(X)\int ^{\lambda _{th}}_{\lambda _{min}}\frac{4\pi J_{\lambda}}{E _{\lambda}}\sigma _{X}(\lambda)(E_{\lambda} - E_{\lambda _{th}})d\lambda
+\end{equation}
+Here, $E_{\lambda} - E_{\lambda _{th}}$ is the energy added to the gas by one ionization, i.e., the energy of the incident photon minus the threshold energy for ionization, which is specific to each element. $J_{\lambda}$ is the 
+mean intensity of radiation at a point and so $4\pi J_{\lambda}/E _{\lambda}$ is the number of incident photons per unit area per unit time per unit wavelength interval. $\sigma _{X}(\lambda)$ is the ionization cross section for an atom $X$ by photons with an energy $E_{\lambda}$ below a threshold wavelength, $\lambda _{th}$, and is a function of wavelength.
+
+To calculate the mean intensity, the incident flux must be known. The flux at the stellar surface, $F_{\star}$, is related to the flux observed at Earth, $F_{\oplus}$, by
+\begin{equation}
+F_{\star}= \left(\frac{d}{R_{\star}}\right)^2F_{\oplus}=\left(\frac{2}{\phi}\right)^2F_{\oplus}
+\end{equation}
+The mean intensity at a point in the atmosphere is then
+\begin{equation}
+J(r)=W(r)I_{\star} =\frac{W}{\pi}\left(\frac{2}{\phi}\right)^2F_{\oplus}
+\end{equation}
+where $W(r)$ is the radiation dilution factor and is given by
+\begin{equation}
+W(r)=\left(1 - \sqrt{1-\left(\frac{R_{\star}}{r}\right)^2} \right)
+\end{equation}
+The incident flux measurements (i.e., $F_{\oplus}$) which vary as a function of wavelength were obtained from the online StarCAT catalog \citep{ayres_2010}. Any missing data was interpolated or extrapolated upon to provide a continuous $J(r)$ between 912\,\AA and 3646\,\AA\,\,[i.e., the ionization threshold for the H\,($n=2$) level]. The photoionization cross section values for atoms with IPs less than 13.6\,eV along with the values for the H\,($n=2$) level were taken from \cite{mathisen_1984} and are shown as a function of wavelength in Figure \ref{fig:7.2}. The net heating due to photoionization was then found by using Equation \ref{eq:7.20} for each of these species resulting in significant heating inside $\sim 1.4\,R_{\star}$ as shown in Figure \ref{x}. However, by $\sim 2\,R_{\star}$ its heating ability is about one order of magnitude weaker than adiabatic cooling at the same distance and so photionization heating is not an efficient mechanism at heating Arcturus' outflow.
+\begin{figure}[!ht]
+\centering 
+         \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=8.5cm,height=13cm, angle=90]{/home/eamon/thesis/thesis_template/7/cross_secs.ps}
+\caption[]{The photoionization cross section values for atoms with IPs less than 13.6\,eV which were used in this study. The photoionization of H from the $n=2$ level was also considered and its cross section is also shown. The ionization threshold for H\,(n=2) is 3646\,\AA .}
+\label{fig:7.2}
+\end{figure}
+
+\subsection{Ambipolar Diffusion Heating}\label{sec:4.1}
