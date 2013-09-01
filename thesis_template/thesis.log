@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  30 AUG 2013 00:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  1 SEP 2013 18:15
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -493,6 +493,24 @@ Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@partial=\box60
 \AP@footins=\box61
 )
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count128
+\LTcapwidth=\dimen148
+\LT@head=\box62
+\LT@firsthead=\box63
+\LT@foot=\box64
+\LT@lastfoot=\box65
+\LT@cols=\count129
+\LT@rows=\count130
+\c@LT@tables=\count131
+\c@LT@chunks=\count132
+\LT@p@ftn=\toks32
+)
 (./Latex/StyleFiles/backrefx.sty
 
 LaTeX Warning: You have requested package `Latex/StyleFiles/backrefx',
@@ -514,32 +532,40 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux
+(./0/acknowledgement.aux) (./0/publications.aux) (./7/thermal_bal.aux
 
-LaTeX Warning: Label `subsec:3.1.2' multiply defined.
+LaTeX Warning: Label `fig:7.2' multiply defined.
 
-) (./appendix/app.aux))
+
+LaTeX Warning: Label `sec:4.1' multiply defined.
+
+) (./appendix/app1.aux) (./appendix/app2.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texmf-texlive/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 129.
+Package hyperref Info: Link coloring ON on input line 130.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -547,20 +573,20 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count128
+\c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
  (./thesis.out)
 (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 129.
-\AtBeginShipoutBox=\box62
+Package backref Info: ** backref set up for natbib ** on input line 130.
+\AtBeginShipoutBox=\box66
 File: images/tcd_crest.eps Graphic file (type eps)
  <images/tcd_crest.eps>
-Overfull \hbox (3.0672pt too wide) in paragraph at lines 181--182
+Overfull \hbox (3.0672pt too wide) in paragraph at lines 182--183
 [][][][][][][][][] 
  []
 
@@ -643,59 +669,79 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
  [10
 
 ]
-\openout2 = `1/introduction.aux'.
+\openout2 = `7/thermal_bal.aux'.
 
- (./1/introduction.tex
+ (./7/thermal_bal.tex
 Chapter 1.
+
+LaTeX Warning: Reference `sec:6.6.2' on page 1 undefined on input line 7.
+
 [1
 
 
 
 ]
-Overfull \hbox (2.10475pt too wide) in paragraph at lines 10--10
- |[]\OT1/cmr/bx/n/17.28 The Prob-lem with Cool Evolved Stel-lar Out-
- []
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
+LaTeX Warning: Reference `chap:1' on page 2 undefined on input line 13.
 
-Overfull \hbox (0.69473pt too wide) in paragraph at lines 28--37
-\OT1/cmr/m/n/12 Stellar struc-ture  In-ter-nal and At-mo-spheric ta-ble of scal
-e heights, pres-sure/density
- []
+LaTeX Font Info:    Try loading font information for U+eus on input line 16.
+(/usr/share/texmf-texlive/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2009/06/22 v3.00 Euler Script
+)
 
-[2] [3] [4] [5]
-
-LaTeX Warning: Reference `x' on page 6 undefined on input line 139.
-
-[6]
-File: /home/eamon/thesis/thesis_template/1/radio_opacity.ps Graphic file (type 
-eps)
- </home/eamon/thesis/thesis_template/1/radio_opacity.ps> [7]) [8]
-\openout2 = `appendix/app.aux'.
+LaTeX Warning: Reference `fig:6.10' on page 2 undefined on input line 25.
 
 
-(./appendix/app.tex
+LaTeX Warning: Reference `chap:6' on page 2 undefined on input line 25.
+
+[2] [3] [4]
+File: /home/eamon/thesis/thesis_template/7/adiab.ps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/7/adiab.ps> [5] [6] [7]
+[8]
+File: /home/eamon/thesis/thesis_template/7/tot_cooling.ps Graphic file (type ep
+s)
+ </home/eamon/thesis/thesis_template/7/tot_cooling.ps> [9]
+
+LaTeX Warning: Reference `x' on page 10 undefined on input line 182.
+
+File: /home/eamon/thesis/thesis_template/7/cross_secs.ps Graphic file (type eps
+)
+</home/eamon/thesis/thesis_template/7/cross_secs.ps> [10] [11]
+
+LaTeX Warning: Reference `x' on page 12 undefined on input line 199.
+
+
+LaTeX Warning: Reference `' on page 12 undefined on input line 199.
+
+) [12]
+\openout2 = `appendix/app1.aux'.
+
+ (./appendix/app1.tex
 Appendix A.
-) [9
+[13
 
 
 
-] [10] (./thesis.bbl (./thesis.brf)
+]) [14]
+\openout2 = `appendix/app2.aux'.
+
+ (./appendix/app2.tex
+Appendix B.
+[15
+
+
+
+] [16]) [17] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [11
+ [18
 
 
-] (./thesis.aux
+]) [19] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
-(./appendix/app.aux))
+(./0/acknowledgement.aux) (./0/publications.aux) (./7/thermal_bal.aux)
+(./appendix/app1.aux) (./appendix/app2.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -704,12 +750,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8341 strings out of 495062
- 118397 string characters out of 1182645
- 202841 words of memory out of 3000000
- 11261 multiletter control sequences out of 15000+50000
- 16545 words of font info for 56 fonts, out of 3000000 for 9000
+ 8590 strings out of 495062
+ 122054 string characters out of 1182645
+ 207657 words of memory out of 3000000
+ 11485 multiletter control sequences out of 15000+50000
+ 19964 words of font info for 72 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,45p,893b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,47p,1088b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (22 pages, 65572 bytes).
+Output written on thesis.dvi (30 pages, 112372 bytes).

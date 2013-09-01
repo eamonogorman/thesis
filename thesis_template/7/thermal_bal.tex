@@ -177,7 +177,7 @@ J(r)=W(r)I_{\star} =\frac{W}{\pi}\left(\frac{2}{\phi}\right)^2F_{\oplus}
 \end{equation}
 where $W(r)$ is the radiation dilution factor and is given by
 \begin{equation}
-W(r)=\left(1 - \sqrt{1-\left(\frac{R_{\star}}{r}\right)^2} \right)
+W(r)=\frac{1}{2}\left(1 - \sqrt{1-\left(\frac{R_{\star}}{r}\right)^2} \right)
 \end{equation}
 The incident flux measurements (i.e., $F_{\oplus}$) which vary as a function of wavelength were obtained from the online StarCAT catalog \citep{ayres_2010}. Any missing data was interpolated or extrapolated upon to provide a continuous $J(r)$ between 912\,\AA and 3646\,\AA\,\,[i.e., the ionization threshold for the H\,($n=2$) level]. The photoionization cross section values for atoms with IPs less than 13.6\,eV along with the values for the H\,($n=2$) level were taken from \cite{mathisen_1984} and are shown as a function of wavelength in Figure \ref{fig:7.2}. The net heating due to photoionization was then found by using Equation \ref{eq:7.20} for each of these species resulting in significant heating inside $\sim 1.4\,R_{\star}$ as shown in Figure \ref{x}. However, by $\sim 2\,R_{\star}$ its heating ability is about one order of magnitude weaker than adiabatic cooling at the same distance and so photionization heating is not an efficient mechanism at heating Arcturus' outflow.
 \begin{figure}[!ht]
@@ -188,3 +188,18 @@ The incident flux measurements (i.e., $F_{\oplus}$) which vary as a function of 
 \end{figure}
 
 \subsection{Ambipolar Diffusion Heating}\label{sec:4.1}
+If a magnetic field remains frozen to the electrons and ions in a plasma, the charged plasma and field can drift through the gas of neutral atoms. The collisions, chiefly between positive ions and neutral hydrogen atoms \citep{spitzer_1978}, result in an exchange of momentum between the magnetic field and the neutral gas which results in a net heating. The recent possible detection of a weak ($B < 1\,G$) mean longitudinal magnetic field for Arcturus \citep{Sennhauser_2011} suggests that ambipolar diffusion heating should be considered as a possible heating mechanism.  We use the expression given by \cite{shang_2002} to define the volumetric rate of ambipolar  diffusion 
+\begin{equation}\label{eq:1.24}
+\Gamma = \frac{\rho _{n}|\mathbf{f}_{L}|^2}{\gamma \rho _{i}(\rho _{n}+\rho _{i})^2}.
+\end{equation}
+Here, $\rho _{n}$ and $\rho _{i}$ are the mass densities of the neutral and ionic species, respectively, $\gamma$ is the ion-neutral momentum transfer coefficient, and $\textbf{f}_{L}$ is the volumetric Lorentz force
+\begin{equation}
+\textbf{f}_{L}=\frac{1}{4\pi}(\grad \times \textbf{B})\times \textbf{B}.
+\end{equation}
+In Appendix \ref{x} we give a derivation for Equation \ref{eq:1.24} and demonstrate how the $\gamma$ coefficient can be transformed into a quartic equation by eliminating a term known as the slip velocity, $w$ ($w\equiv v_{i}-v_{n}$). The derivation of \ref{eq:1.24} assumes that the difference in acceleration in the neutrals and ions can be ignored. As shown in Appendix \ref{}, the radial Lorentz force is found from the equation of motion:
+\begin{equation}
+\rho _{n}v_{n}\frac{dv_{n}}{dr}+\rho _{i}v_{i}\frac{dv_{i}}{dr}=-\frac{GM_{\star}}{r^2}(\rho _{n} + \rho _{i})+\mathbf{f}_{L}.
+\end{equation}
+This then allows the $\gamma$ coefficient and thus the volumetric heating to be calculated. The effect of radial ambipolar diffusion heating was found to be about three orders of magnitude less than adiabatic constant velocity expansion cooling and is therefore a negligible heating mechanism. This is due to the relatively high ionization balance in Arcturus' outflow.
+
+
