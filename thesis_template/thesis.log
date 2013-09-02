@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  1 SEP 2013 18:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  2 SEP 2013 23:32
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -532,12 +532,24 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./7/thermal_bal.aux
+(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux
 
-LaTeX Warning: Label `fig:7.2' multiply defined.
+LaTeX Warning: Label `sec:2' multiply defined.
 
 
-LaTeX Warning: Label `sec:4.1' multiply defined.
+LaTeX Warning: Label `sec:1.4.2' multiply defined.
+
+
+LaTeX Warning: Label `subsec:3.1.2' multiply defined.
+
+
+LaTeX Warning: Label `fig:1.5.3' multiply defined.
+
+
+LaTeX Warning: Label `fig:1.5.4' multiply defined.
+
+
+LaTeX Warning: Label `fig:1.5.4' multiply defined.
 
 ) (./appendix/app1.aux) (./appendix/app2.aux))
 \openout1 = `thesis.aux'.
@@ -669,78 +681,109 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
  [10
 
 ]
-\openout2 = `7/thermal_bal.aux'.
+\openout2 = `1/introduction.aux'.
 
- (./7/thermal_bal.tex
+ (./1/introduction.tex
 Chapter 1.
-
-LaTeX Warning: Reference `sec:6.6.2' on page 1 undefined on input line 7.
-
 [1
 
 
 
 ]
+Overfull \hbox (17.78278pt too wide) in paragraph at lines 12--12
+ |[]\OT1/cmr/bx/n/17.28 Motivation for Re-search-ing Cool Evolved Stel-
+ []
 
-LaTeX Warning: Reference `chap:1' on page 2 undefined on input line 13.
+[2]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [3]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
 
-LaTeX Font Info:    Try loading font information for U+eus on input line 16.
-(/usr/share/texmf-texlive/tex/latex/amsfonts/ueus.fd
-File: ueus.fd 2009/06/22 v3.00 Euler Script
+Overfull \hbox (0.69473pt too wide) in paragraph at lines 35--48
+\OT1/cmr/m/n/12 Stellar struc-ture  In-ter-nal and At-mo-spheric ta-ble of scal
+e heights, pres-sure/density
+ []
+
+File: /home/eamon/thesis/thesis_template/1/radio_hr.ps Graphic file (type eps)
+</home/eamon/thesis/thesis_template/1/radio_hr.ps>
+Overfull \hbox (14.23807pt too wide) in paragraph at lines 62--63
+ [][][][][][][][][] 
+ []
+
+[4] [5] [6] [7] [8]
+
+LaTeX Warning: Reference `x' on page 9 undefined on input line 156.
+
+[9]
+
+Package caption Warning: \label before \caption on input line 240.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:1.5.4' on page 10 undefined on input line 182.
+
+File: /home/eamon/thesis/thesis_template/1/radio_opacity.ps Graphic file (type 
+eps)
+</home/eamon/thesis/thesis_template/1/radio_opacity.ps>
+
+LaTeX Warning: Reference `chap:6' on page 10 undefined on input line 197.
+
+[10]
+File: /home/eamon/thesis/thesis_template/1/radio_spec.ps Graphic file (type eps
 )
-
-LaTeX Warning: Reference `fig:6.10' on page 2 undefined on input line 25.
-
-
-LaTeX Warning: Reference `chap:6' on page 2 undefined on input line 25.
-
-[2] [3] [4]
-File: /home/eamon/thesis/thesis_template/7/adiab.ps Graphic file (type eps)
- </home/eamon/thesis/thesis_template/7/adiab.ps> [5] [6] [7]
-[8]
-File: /home/eamon/thesis/thesis_template/7/tot_cooling.ps Graphic file (type ep
-s)
- </home/eamon/thesis/thesis_template/7/tot_cooling.ps> [9]
-
-LaTeX Warning: Reference `x' on page 10 undefined on input line 182.
-
-File: /home/eamon/thesis/thesis_template/7/cross_secs.ps Graphic file (type eps
-)
-</home/eamon/thesis/thesis_template/7/cross_secs.ps> [10] [11]
-
-LaTeX Warning: Reference `x' on page 12 undefined on input line 199.
+ </home/eamon/thesis/thesis_template/1/radio_spec.ps>
+Overfull \hbox (14.23807pt too wide) in paragraph at lines 201--202
+ [][][][][][][][][] 
+ []
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 199.
+Package caption Warning: \label before \caption on input line 240.
+See the caption package documentation for explanation.
 
-) [12]
+
+LaTeX Warning: Reference `fig:1.5.4' on page 11 undefined on input line 206.
+
+[11] [12]
+
+LaTeX Warning: Reference `chap:6' on page 13 undefined on input line 237.
+
+File: /home/eamon/thesis/thesis_template/1/newell.ps Graphic file (type eps)
+</home/eamon/thesis/thesis_template/1/newell.ps>) [13] [14]
 \openout2 = `appendix/app1.aux'.
 
- (./appendix/app1.tex
+
+(./appendix/app1.tex
 Appendix A.
-[13
-
-
-
-]) [14]
-\openout2 = `appendix/app2.aux'.
-
- (./appendix/app2.tex
-Appendix B.
 [15
 
 
 
-] [16]) [17] (./thesis.bbl (./thesis.brf)
+]) [16]
+\openout2 = `appendix/app2.aux'.
+
+ (./appendix/app2.tex
+Appendix B.
+[17
+
+
+
+] [18]) [19] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [18
+ [20
 
 
-]) [19] (./thesis.aux
+]) [21] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./7/thermal_bal.aux)
+(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./appendix/app1.aux) (./appendix/app2.aux))
 
 LaTeX Warning: There were undefined references.
@@ -750,12 +793,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8590 strings out of 495062
- 122054 string characters out of 1182645
- 207657 words of memory out of 3000000
- 11485 multiletter control sequences out of 15000+50000
- 19964 words of font info for 72 fonts, out of 3000000 for 9000
+ 8687 strings out of 495062
+ 123713 string characters out of 1182645
+ 208543 words of memory out of 3000000
+ 11585 multiletter control sequences out of 15000+50000
+ 19830 words of font info for 69 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,47p,1088b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,49p,1699b,513s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (30 pages, 112372 bytes).
+Output written on thesis.dvi (32 pages, 132108 bytes).
