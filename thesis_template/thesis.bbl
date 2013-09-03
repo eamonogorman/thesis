@@ -1,5 +1,9 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Adams} \& {MacCormack}(1935)}]{adams_1935}
+{\sc {Adams}, W.S. \& {MacCormack}, E.} (1935). {Systematic Displacements of
+  Lines in the Spectra of Certain Bright Stars}. {\em \apj\/}, {\bf 81}, 119.
 
 \bibitem[{{Altenhoff} {\em et~al.\/}(1960){Altenhoff}, {Mezger}, {Wendker} \&
   {Westerhout}}]{Altenhoff_1960}
@@ -25,6 +29,10 @@
   Low-Gravity Stars. V. The Outer Atmosphere and Wind of the Nearby K
   Supergiant lambda Velorum}. {\em \apj\/}, {\bf 521}, 382--406.
 
+\bibitem[{{Chiosi} \& {Maeder}(1986)}]{chiosi_1986}
+{\sc {Chiosi}, C. \& {Maeder}, A.} (1986). {The evolution of massive stars with
+  mass loss}. {\em \araa\/}, {\bf 24}, 329--375.
+
 \bibitem[{{Crowley} {\em et~al.\/}(2009){Crowley}, {Espey}, {Harper} \&
   {Roche}}]{crowley_2009}
 {\sc {Crowley}, C., {Espey}, B.R., {Harper}, G.M. \& {Roche}, J.} (2009).
@@ -32,6 +40,10 @@
   {\em 15th Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun\/},
   vol. 1094 of {\em American Institute of Physics Conference Series\/},
   267--274.
+
+\bibitem[{{Deutsch}(1956)}]{deutsch_1956}
+{\sc {Deutsch}, A.J.} (1956). {The Circumstellar Envelope of Alpha Herculis.}
+  {\em \apj\/}, {\bf 123}, 210.
 
 \bibitem[{{Drake} \& {Linsky}(1986)}]{drake_1986}
 {\sc {Drake}, S. \& {Linsky}, J.} (1986). {Radio continuum emission from winds,
@@ -43,6 +55,10 @@
 {\sc {Dupree}, A.K., {Lobel}, A., {Young}, P.R., {Ake}, T.B., {Linsky}, J.L. \&
   {Redfield}, S.} (2005). {A Far-Ultraviolet Spectroscopic Survey of Luminous
   Cool Stars}. {\em \apj\/}, {\bf 622}, 629--652.
+
+\bibitem[{{Eaton}(2008)}]{eaton_2008}
+{\sc {Eaton}, J.A.} (2008). {A Model for the Chromosphere/Wind of 31 Cygni and
+  Its Implications for Single Stars}. {\em \aj\/}, {\bf 136}, 1964--1979.
 
 \bibitem[{{Falceta-Gon{\c c}alves} {\em et~al.\/}(2006){Falceta-Gon{\c
   c}alves}, {Vidotto} \& {Jatenco-Pereira}}]{falceta_2006}
@@ -69,11 +85,12 @@
 {\sc {Harper}, G.M.} (1988). {\em {The outer atmospheres of hybrid giants}\/}.
   Ph.D. thesis, Oxford Univ.~(England).
 
-\bibitem[{{Harper}(1996)}]{harper_1996}
-{\sc {Harper}, G.M.} (1996). {HST and IUE Observations of Stellar Mass-Loss
-  from K and Early M EvolvedStars}. In Y.~{Uchida}, T.~{Kosugi} \& H.S.
-  {Hudson}, eds., {\em IAU Colloq. 153: Magnetodynamic Phenomena in the Solar
-  Atmosphere - Prototypes of Stellar Magnetic Activity\/}, 131.
+\bibitem[{{Harper}(2010)}]{harper_2010}
+{\sc {Harper}, G.M.} (2010). {Betelgeuse: A Case Study of an Inhomogeneous
+  Extended Atmosphere}. In C.~{Leitherer}, P.D. {Bennett}, P.W. {Morris} \&
+  J.T. {Van Loon}, eds., {\em Hot and Cool: Bridging Gaps in Massive Star
+  Evolution\/}, vol. 425 of {\em Astronomical Society of the Pacific Conference
+  Series\/}, 152.
 
 \bibitem[{{Harper} {\em et~al.\/}(2001){Harper}, {Brown} \&
   {Lim}}]{harper_2001}
@@ -123,10 +140,19 @@
 {\sc {Rohlfs}, K. \& {Wilson}, T.L.} (1996). {\em {Tools of Radio
   Astronomy}\/}.
 
+\bibitem[{{Schr{\"o}der} \& {Sedlmayr}(2001)}]{schroder_2001}
+{\sc {Schr{\"o}der}, K.P. \& {Sedlmayr}, E.} (2001). {The galactic mass
+  injection from cool stellar winds of the 1 to 2.5 M$_{sun}$ stars in the
+  solar neighbourhood}. {\em \aap\/}, {\bf 366}, 913--922.
+
 \bibitem[{{Shang} {\em et~al.\/}(2002){Shang}, {Glassgold}, {Shu} \&
   {Lizano}}]{shang_2002}
 {\sc {Shang}, H., {Glassgold}, A.E., {Shu}, F.H. \& {Lizano}, S.} (2002).
   {Heating and Ionization of X-Winds}. {\em \apj\/}, {\bf 564}, 853--876.
+
+\bibitem[{{Spitzer}(1939)}]{spitzer_1939}
+{\sc {Spitzer}, L., Jr.} (1939). {Spectra of M Supergiant Stars.} {\em \apj\/},
+  {\bf 90}, 494.
 
 \bibitem[{{Sutmann} \& {Cuntz}(1995)}]{sutmann_1995}
 {\sc {Sutmann}, G. \& {Cuntz}, M.} (1995). {Generation of mass loss in K
@@ -137,6 +163,13 @@
 {\sc {Suzuki}, T.K.} (2007). {Structured Red Giant Winds with Magnetized Hot
   Bubbles and the Corona/Cool Wind Dividing Line}. {\em \apj\/}, {\bf 659},
   1592--1610.
+
+\bibitem[{{van Loon}(2010)}]{van_loon_2010}
+{\sc {van Loon}, J.T.} (2010). {The Effects of Red Supergiant Mass Loss on
+  Supernova Ejecta and the Circumburst Medium}. In C.~{Leitherer}, P.D.
+  {Bennett}, P.W. {Morris} \& J.T. {Van Loon}, eds., {\em Hot and Cool:
+  Bridging Gaps in Massive Star Evolution\/}, vol. 425 of {\em Astronomical
+  Society of the Pacific Conference Series\/}, 279.
 
 \bibitem[{{Zuckerman} {\em et~al.\/}(1995){Zuckerman}, {Kim} \&
   {Liu}}]{zukerman_1995}
