@@ -27,7 +27,7 @@ Our multi-wavelength radio study of Arcturus allowed us to refine its existing a
 \section{Thermal Model for a Spherically Symmetric Outflow}\label{sec:2}
 In this section we derive an expression to describe how the temperature in a stellar outflow changes as a function of distance from the star. In doing so, we also present the notation that is used in subsequent sections to describe the magnitude of the heating and cooling taking place at certain regions in a stellar outflow. We assume all quantities vary radially (i.e, spherical symmetry) and that the mass loss rate is constant (i.e., time independent). The continuity equation can then be written as
 \begin{equation}
-\label{eq:1}
+\label{eq:7.3}
 v\frac{d\rho}{dr}=-\rho \left(\frac{dv}{dr}+\frac{2v}{r} \right)
 \end{equation}
 where $v$ and $\rho$ are the flow velocity and mass density at a distance $r$ from the star. The first law of thermodynamics tells us that the change in internal energy of a system is equal to the heat added to the system minus the work done by the system on its environment. For a reversible process in a closed system the work done is $PdV$, where $P$ and $V$ are the pressure and volume of the system. Writing the first law of thermodynamics in terms of rates per unit mass then gives
@@ -38,7 +38,7 @@ where $u$ is the internal energy per unit mass and $q$ is the net heat gained pe
 \begin{equation}
 v\frac{du}{dr}=-\frac{P}{\rho}\left(v\frac{d\rho}{dr} \right)+\frac{dq}{dt}.
 \end{equation}
-Substituting in Equation \ref{eq:1} and using $u=3nkT/2\rho$ and $P=nkT$ gives
+Substituting in Equation \ref{eq:7.3} and using $u=3nkT/2\rho$ and $P=nkT$ gives
 \begin{equation}
 v\left(\frac{3nk}{2\rho}\frac{dT}{dr}\right)=-\frac{nkT}{\rho}\left(\frac{dv}{dr} + \frac{2v}{r}\right) +\frac{dq}{dt}.
 \end{equation}
@@ -48,7 +48,7 @@ If we define $\Gamma$ and $\Lambda$ are the heating and cooling rates per unit v
 \end{equation}
 The first two terms on the right account for adiabatic expansion cooling. The second term is important in the wind acceleration region but is zero once the wind has reached its terminal velocity. The third term accounts for all other heating and cooling processes. This equation is equivalent to Equation 8 in \cite{goldreich_1976} and can also be written in dimensionless form \citep{rodgers_1991} by multiplying across by $r/T$ as follows:
 \begin{equation} 
-\label{eq:1.8}
+\label{eq:7.8}
 \frac{d(\mathrm{ln}\,T)}{d(\mathrm{ln}\,r)}=-\frac{4}{3}-\frac{2}{3}\frac{d(\mathrm{ln}\,v)}{d(\mathrm{ln}\,r)}+\displaystyle\sum_{i=1}\mathcal{H}_{i}-\displaystyle\sum_{j=1}\mathcal{L}_{j}
 \end{equation} 
 where 
@@ -74,12 +74,12 @@ which contains all of the wind heating and cooling processes, including that fro
 The three ways in which the gas in Arcturus' partially ionized outflow can cool are through adiabatic expansion, radiative recombination, and collisional excitation of neutral and ionized atoms. We now assess the importance of each of these cooling processes between $\sim 1-10\,R_{\star}$. 
 
 \subsection{Adiabatic Expansion Cooling}\label{sec:3.1}
-Adiabatic expansion cooling is the thermodynamic process in which a fixed quantity of gas cools as it expands into a larger volume of gas. It is composed of a geometric term and a velocity gradient term; these being the first two terms on the right of Equation \ref{eq:1.8}. As shown in Figure \ref{fig:7.1}, the dominant term close to the photosphere is the velocity gradient term due to the rapid wind acceleration while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Adiabatic expansion cooling is a very efficient cooling mechanism in the atmospheres of all stars. To show this we take the atmosphere of Arcturus as an example and assume the absence of all heating mechanisms. The geometric factor alone then will lower the gas temperature to decrease by a factor of $10^4$ by $1500\,R_{\star}$ which is below the cosmic background temperature. 
+Adiabatic expansion cooling is the thermodynamic process in which a fixed quantity of gas cools as it expands into a larger volume of gas. It is composed of a geometric term and a velocity gradient term; these being the first two terms on the right of Equation \ref{eq:7.8}. As shown in Figure \ref{fig:7.1}, the dominant term close to the photosphere is the velocity gradient term due to the rapid wind acceleration while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Adiabatic expansion cooling is a very efficient cooling mechanism in the atmospheres of all stars. To show this we take the atmosphere of Arcturus as an example and assume the absence of all heating mechanisms. The geometric factor alone then will lower the gas temperature to decrease by a factor of $10^4$ by $1500\,R_{\star}$ which is below the cosmic background temperature. 
 
 \begin{figure}[!ht]
 \centering 
          \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=8cm,height=12cm, angle=90]{/home/eamon/thesis/thesis_template/7/adiab.ps}
-\caption[]{The net cooling from adiabatic expansion, radiative recombination, and Lyman $\alpha$ cooling in Arcturus' outflow. For adiabatic expansion cooling, the dominant term close to the photosphere is the velocity gradient term from Equation \ref{eq:1.8} due to the rapid wind acceleration, while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Radiative recombination is also an important cooling mechanism between $\sim 1-4\,R_{\star}$. The Lyman $\alpha$ cooling function is very sensitive to $T$ and is the dominant cooling process out to $2.8\,R_{\star}$.}
+\caption[]{The net cooling from adiabatic expansion, radiative recombination, and Lyman $\alpha$ cooling in Arcturus' outflow. For adiabatic expansion cooling, the dominant term close to the photosphere is the velocity gradient term from Equation \ref{eq:7.8} due to the rapid wind acceleration, while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Radiative recombination is also an important cooling mechanism between $\sim 1-4\,R_{\star}$. The Lyman $\alpha$ cooling function is very sensitive to $T$ and is the dominant cooling process out to $2.8\,R_{\star}$.}
 \label{fig:7.1}
 \end{figure}
 

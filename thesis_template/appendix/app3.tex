@@ -1,0 +1,62 @@
+%!TEX root = ../thesis.tex
+%Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
+
+\chapter{Ambipolar Diffusion Heating}\label{app:3}
+
+Considering a steady flow accelerating in an inertial frame, the equation of motion can be written as
+\begin{equation}\label{eq:b1}
+\rho _{n}\pmb{a}_{n} = \rho _{n}\pmb{g} + \pmb{f}_{d}
+\end{equation}
+for the neutral species $n$, and 
+\begin{equation}\label{eq:b2}
+\rho _{i}\pmb{a}_{i} = \rho _{i}\pmb{g} - \pmb{f}_{d} + \pmb{f} _{L}
+\end{equation}
+for the ion species, $i$. The flow acceleration is defined as $\pmb{a}\equiv (\pmb{v}.\grad )\pmb{v}$ and the gravitational acceleration is $\pmb{g} \equiv \grad (GM_{\star}/r)$. The volumetric drag force of the ions on the neutrals is defined as
+\begin{equation}\label{eq:b3}
+\pmb{f}_{d}=\gamma \rho _{n}\rho _{i}(\pmb{v}_{i}-\pmb{v}_{n})
+\end{equation}
+and $\pmb{f} _{L}$ is the volumetric Lorentz force. The equation of motion for the combined ion-neutral fluid is found by addition of Equations \ref{eq:b1} and \ref{eq:b2}
+\begin{equation}
+\rho \pmb{a} = \rho \pmb{g} +  \pmb{f} _{L}
+\end{equation}
+where $\rho \equiv \rho _{n} + \rho _{i}$ is the mass density without the electrons and $\pmb{a} \equiv (\rho _n\pmb{a}_{n} + \rho _{i}\pmb{a}_{i})/\rho$ is the total acceleration.
+
+The gravitational acceleration term can then be eliminated from Equations \ref{eq:b1} and \ref{eq:b2} to give
+\begin{equation}
+\pmb{a} _{n} - \pmb{a} _{i} = \left(\frac{1}{\rho _{n}}+ \frac{1}{\rho _{i}} \right)\pmb{f} _{d}-\frac{1}{\rho _{i}}\pmb{f} _{L}.
+\end{equation}
+Assuming then that the acceleration of the neutrals and ions are the same we get
+\begin{equation}\label{eq:b6}
+\pmb{f} _{d} =  \left(\frac{\rho _{n}}{\rho _{n}+\rho _{i}} \right)\pmb{f} _{L}.
+\end{equation}
+This equation tells us that for a lightly ionized outflow the drag force is almost equal to the Lorentz force. We can now obtain an expression for the slip velocity, $\pmb{w}$, by subbing this equation into Equation \ref{eq:b3}
+\begin{equation}\label{eq:b7}
+\pmb{w} = \pmb{v} _{i} - \pmb{v} _{n} = \frac{\pmb{f} _{L}}{\gamma \rho _{i}(\rho _{n} + \rho _{n})}.
+\end{equation}
+The slip velocity becomes large when the ion density becomes small, but does not become large when the neutral density becomes small because the large density of ions drag the few neutrals that are present along with the rest of the mostly ionized plasma. The heating rate per unit volume due to ambipolar diffusion heating is
+\begin{equation}
+\Gamma =\pmb{f} _{d}.\pmb{w}
+\end{equation}
+and substitution of Equations \ref{eq:b6} and \ref{eq:b7} gives
+\begin{equation}
+\Gamma =\frac{\rho _{n}|\pmb{f} _{L}|^2}{\gamma \rho _{i}(\rho _{n} + \rho _{i})^2},
+\end{equation}
+and so for a completely ionized plasma, $\Gamma =0$.
+
+In order to calculate the ambipolar diffusion heating, we need to find a value for the ion-neutral momentum transfer coefficient, $\gamma$ (in units cm$^3$\,s$^{-1}$\,g$^{-1}$) which depends on the collisional coefficient rates, cross sections, slip speed, and gas composition. \cite{shang_2002} give the following expression
+\begin{equation}\label{eq:b10}
+\gamma =\frac{2.13\times 10^{14}}{1-0.714x_{e}}\left( \left[ 3.23 +41.0T_{4}^{0.5}\times \left(1+1.338\times 10^{-3}\frac{w_{5}^{2}}{T_{4}} \right)^{0.5}\right]x_{HI}+0.243\right)
+\end{equation} 
+where $T_{4}$ is the temperature in units of $10^4$\,K, $w_{5}$ is the slip speed in units of km\,s$^{-1}$. We have assumed no molecular hydrogen to be present and the fractional abundance of He, $x_{He}=0.1$.  Subbing Equation \ref{eq:b7} into Equation \ref{eq:b10} gives a quartic equation for $\gamma$, i.e., 
+\begin{eqnarray*}
+\gamma^{4}-(2AE + 2ABx_{HI})\gamma^{3} + (A^{2}E^{2} + 2A^{2}BEx_{HI} + \\ A^{2}B^{2}x_{HI}^{2}-A^{2}C^{2}x_{HI}^{2})\gamma^{2} - GA^{2}C^{2}x_{HI}^{2} = 0
+\end{eqnarray*} 
+where\\
+$A=\frac{2.13\times 10^{14}}{1-0.714x_{e}}$, $B=3.23$, $C=41.0T^{0.5}_{4}$, $D=\frac{1.338\times 10^{-3}}{T_{4}}$, $E=0.243$, $F=\frac{\pmb{f} _{L}}{\rho_{i}(\rho_{n}+\rho_{i})}$, and $G=\frac{DF^{2}}{1\times10^{10}}$. Finally the radial and azimuthal Lorentz forces and thus the corresponding volumetric ambipolar heating rates can be calculated by using the following expressions for the flow and gravitational accelerations:
+\begin{equation}
+\pmb{a} = v\frac{dv}{dr}\pmb{r} + \frac{v}{r}\frac{dv}{d\theta}\pmb{\theta}+\frac{v}{r\mathrm{sin}\,\theta}\frac{dv}{d\phi}\pmb{\phi}
+\end{equation}
+and
+\begin{equation}
+\pmb{g} = -\frac{GM_{\star}}{r^2}\pmb{r} + \frac{1}{r}\frac{d}{d\theta}\left(\frac{GM_{\star}}{r} \right)\pmb{\theta} +\frac{1}{r\mathrm{sin}\,\theta}\frac{d}{d\phi}\left(\frac{GM_{\star}}{r} \right)\pmb{\phi}.
+\end{equation}
