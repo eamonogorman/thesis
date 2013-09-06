@@ -1,4 +1,4 @@
-\begin{thebibliography}{89}
+\begin{thebibliography}{94}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ayres}(2010)}]{ayres_2010}
@@ -56,6 +56,11 @@
   eds., {\em Revealing the Molecular Universe: One Antenna is Never Enough\/},
   vol. 356 of {\em Astronomical Society of the Pacific Conference Series\/},
   17.
+
+\bibitem[{{Bowers} \& {Knapp}(1987)}]{bowers_1987}
+{\sc {Bowers}, P.F. \& {Knapp}, G.R.} (1987). {Detection of H I emission from
+  the circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 315},
+  305--314.
 
 \bibitem[{{Brown}(2007)}]{brown_2007}
 {\sc {Brown}, K.I.T.} (2007). {Long-Term Spectroscopic and Precise Radial
@@ -235,6 +240,16 @@
 {\sc {Hoogerwerf}, R., {de Bruijne}, J.H.J. \& {de Zeeuw}, P.T.} (2000). {The
   Origin of Runaway Stars}. {\em \apjl\/}, {\bf 544}, L133--L136.
 
+\bibitem[{{Huggins}(1987)}]{huggins_1987}
+{\sc {Huggins}, P.J.} (1987). {CO in the circumstellar envelope of Alpha
+  Orionis}. {\em \apj\/}, {\bf 313}, 400--407.
+
+\bibitem[{{Jewell} {\em et~al.\/}(1991){Jewell}, {Snyder}, {Walmsley}, {Wilson}
+  \& {Gensheimer}}]{jewell_1991}
+{\sc {Jewell}, P.R., {Snyder}, L.E., {Walmsley}, C.M., {Wilson}, T.L. \&
+  {Gensheimer}, P.D.} (1991). {Observational properties of V = 1, J = 1 - 0 SiO
+  masers}. {\em \aap\/}, {\bf 242}, 211--234.
+
 \bibitem[{{Kallinger} {\em et~al.\/}(2010){Kallinger}, {Weiss}, {Barban},
   {Baudin}, {Cameron}, {Carrier}, {De Ridder}, {Goupil}, {Gruberbauer},
   {Hatzes}, {Hekker}, {Samadi} \& {Deleuil}}]{kallinger_2010}
@@ -274,6 +289,12 @@
   environment of Betelgeuse. II. Diffraction-limited spectro-imaging from 7.76
   to 19.50 {$\mu$}m with VLT/VISIR}. {\em \aap\/}, {\bf 531}, A117.
 
+\bibitem[{{Knapp} {\em et~al.\/}(1980){Knapp}, {Phillips} \&
+  {Huggins}}]{knapp_1980}
+{\sc {Knapp}, G.R., {Phillips}, T.G. \& {Huggins}, P.J.} (1980). {Detection of
+  CO Emission at 1.3-MILLIMETERS from the Betelgeuse Circumstellar Shell}. {\em
+  \apjl\/}, {\bf 242}, L25+.
+
 \bibitem[{{Lacour} {\em et~al.\/}(2008){Lacour}, {Meimon}, {Thi{\'e}baut},
   {Perrin}, {Verhoelst}, {Pedretti}, {Schuller}, {Mugnier}, {Monnier},
   {Berger}, {Haubois}, {Poncelet}, {Le Besnerais}, {Eriksson}, {Millan-Gabet},
@@ -284,6 +305,11 @@
   {Millan-Gabet}, R., {Ragland}, S., {Lacasse}, M. \& {Traub}, W.} (2008). {The
   limb-darkened Arcturus: imaging with the IOTA/IONIC interferometer}. {\em
   \aap\/}, {\bf 485}, 561--570.
+
+\bibitem[{{Lambert} \& {Vanden Bout}(1978)}]{lambert_1978}
+{\sc {Lambert}, D.L. \& {Vanden Bout}, P.A.} (1978). {Constraints on the
+  properties of circumstellar shells from observations of thermal CO and SiO
+  millimeter line emission}. {\em \apj\/}, {\bf 221}, 854--860.
 
 \bibitem[{{Lambert} {\em et~al.\/}(1984){Lambert}, {Brown}, {Hinkle} \&
   {Johnson}}]{lambert_1984}
