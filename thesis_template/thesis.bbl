@@ -1,5 +1,12 @@
-\begin{thebibliography}{94}
+\begin{thebibliography}{98}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Abia} {\em et~al.\/}(2012){Abia}, {Palmerini}, {Busso} \&
+  {Cristallo}}]{abia_2012}
+{\sc {Abia}, C., {Palmerini}, S., {Busso}, M. \& {Cristallo}, S.} (2012).
+  {Carbon and oxygen isotopic ratios in Arcturus and Aldebaran. Constraining
+  the parameters for non-convective mixing on the red giant branch}. {\em
+  \aap\/}, {\bf 548}, A55.
 
 \bibitem[{{Ayres}(2010)}]{ayres_2010}
 {\sc {Ayres}, T.R.} (2010). {StarCAT: A Catalog of Space Telescope Imaging
@@ -70,6 +77,12 @@
   {Baliunas}}]{brown_2008}
 {\sc {Brown}, K.I.T., {Gray}, D.F. \& {Baliunas}, S.L.} (2008). {Long-Term
   Spectroscopic Monitoring of Arcturus}. {\em \apj\/}, {\bf 679}, 1531--1540.
+
+\bibitem[{{Carilli} {\em et~al.\/}(1996){Carilli}, {Holdaway} \&
+  {Sowinski}}]{carilli_1996}
+{\sc {Carilli}, C.L., {Holdaway}, M.A. \& {Sowinski}, K.P.} (1996). {Faster
+  Switching at the VLA}. In {\em VLA Scientific Memo. No. 169\/}, vol. 169 of
+  {\em VLA memos\/}.
 
 \bibitem[{{Carpenter} \& {Robinson}(1996)}]{carpenter_1996}
 {\sc {Carpenter}, K.G. \& {Robinson}, R.D.} (1996). {HST Studies of Carbon and
@@ -154,6 +167,17 @@
 {\sc {Eggen}, O.J.} (1996). {Star Streams and Galactic Structure}. {\em \aj\/},
   {\bf 112}, 1595.
 
+\bibitem[{{Engargiola} {\em et~al.\/}(2004){Engargiola}, {Navarrini},
+  {Plambeck} \& {Wadefalk}}]{engargiola_2004}
+{\sc {Engargiola}, G.A., {Navarrini}, A., {Plambeck}, R.L. \& {Wadefalk}, N.}
+  (2004). {Simple 1-mm receivers with fixed tuned double sideband SIS mixer and
+  wideband InP MMIC amplifier}. In C.M. {Bradford}, P.A.R. {Ade}, J.E.
+  {Aguirre}, J.J. {Bock}, M.~{Dragovan}, L.~{Duband}, L.~{Earle}, J.~{Glenn},
+  H.~{Matsuhara}, B.J. {Naylor}, H.T. {Nguyen}, M.~{Yun} \& J.~{Zmuidzinas},
+  eds., {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series\/}, vol. 5498 of {\em Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series\/}, 556--566.
+
 \bibitem[{{Gilliland} \& {Dupree}(1996)}]{gilliland_1996}
 {\sc {Gilliland}, R.L. \& {Dupree}, A.K.} (1996). {First Image of the Surface
   of a Star with the Hubble Space Telescope}. {\em \apjl\/}, {\bf 463}, L29.
@@ -169,6 +193,10 @@
 \bibitem[{{Griffin}(1996)}]{griffin_1996}
 {\sc {Griffin}, R.E.M.} (1996). {Arcturus and human evolution}. {\em The
   Observatory\/}, {\bf 116}, 404--405.
+
+\bibitem[{{Griffin} \& {Lynas-Gray}(1999)}]{griffin_1999}
+{\sc {Griffin}, R.E.M. \& {Lynas-Gray}, A.E.} (1999). {The Effective
+  Temperature of Arcturus}. {\em \aj\/}, {\bf 117}, 2998--3006.
 
 \bibitem[{{Harper}(2010)}]{harper_2010}
 {\sc {Harper}, G.M.} (2010). {Betelgeuse: A Case Study of an Inhomogeneous
@@ -535,7 +563,7 @@
   {Vogel}}]{wei_2008}
 {\sc {Wei}, L., {Woody}, D., {Teuben}, P., {La Vigne}, M. \& {Vogel}, S.}
   (2008). {Bandpass Calibration for CARMA}. In {\em CARMA Memorandum Series\/},
-  vol.~45 of {\em BIMA memos\/}.
+  vol.~45.
 
 \bibitem[{{Wiedemann} {\em et~al.\/}(1994){Wiedemann}, {Ayres}, {Jennings} \&
   {Saar}}]{wiedemann_1994}
@@ -550,10 +578,6 @@
   J.~{Andersen}, {Nordstr{\"o}ara}, B.~{m} \& J.~{Bland-Hawthorn}, eds., {\em
   IAU Symposium\/}, vol. 254 of {\em IAU Symposium\/}, 139--144.
 
-\bibitem[{{Woitke}(2006)}]{woitke_2006}
-{\sc {Woitke}, P.} (2006). {Too little radiation pressure on dust in the winds
-  of oxygen-rich AGB stars}. {\em \aap\/}, {\bf 460}, L9--L12.
-
 \bibitem[{{Wood} {\em et~al.\/}(2007){Wood}, {Harper}, {M{\"u}ller},
   {Heerikhuisen} \& {Zank}}]{wood_2007}
 {\sc {Wood}, B.E., {Harper}, G.M., {M{\"u}ller}, H.R., {Heerikhuisen}, J. \&
@@ -563,6 +587,10 @@
 \bibitem[{{Wright}(1970)}]{wright_1970}
 {\sc {Wright}, K.O.} (1970). {The Zeta Aurigae stars}. {\em Vistas in
   Astronomy\/}, {\bf 12}, 147--182.
+
+\bibitem[{{Wright}(2009)}]{wright_2009}
+{\sc {Wright}, M.} (2009). {Bandpass Calibration and Stability}. In {\em CARMA
+  Memorandum Series\/}, vol.~55.
 
 \bibitem[{{Wright}(1999)}]{wright_1999}
 {\sc {Wright}, M.C.H.} (1999). {Image Fidelity}. In {\em BIMA memo 73: Image
