@@ -5,7 +5,7 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
-A level-1 auxiliary file: 3/instrum_tar_obs.aux
+A level-1 auxiliary file: 7/thermal_bal.aux
 A level-1 auxiliary file: appendix/app1.aux
 A level-1 auxiliary file: appendix/app2.aux
 A level-1 auxiliary file: appendix/app3.aux
@@ -15,94 +15,51 @@ Repeated entry---line 686 of file mybib.bib
  : @article{sennhauser_2011
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 701 of file mybib.bib
- : @article{brown_2008
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 715 of file mybib.bib
- : @article{gray_2006
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 729 of file mybib.bib
- : @article{hatzes_1993
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1138 of file mybib.bib
- : @article{wood_2007
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1244 of file mybib.bib
- : @article{ayres_1975
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1285 of file mybib.bib
- : @article{gray_2006
- :                   ,
-I'm skipping whatever remains of this entry
-Warning--string name "july" is undefined
---line 2147 of file mybib.bib
-Warning--string name "july" is undefined
---line 2161 of file mybib.bib
-Repeated entry---line 3322 of file mybib.bib
- : @article{linsky_1979
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3443 of file mybib.bib
- : @article{carpenter_1999
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3553 of file mybib.bib
- : @article{harper_2010
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3902 of file mybib.bib
- : @article{lambert_1978
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4003 of file mybib.bib
- : @article{abia_2012
- :                   ,
+Repeated entry---line 3405 of file mybib.bib
+ : @article{hartmann_1980
+ :                       ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 98 entries,
+Warning--missing publisher in castor_2004
+You've used 29 entries,
             3018 wiz_defined-function locations,
-            1175 strings with 23657 characters,
-and the built_in function-call counts, 71994 in all, are:
-= -- 5698
-> -- 4293
-< -- 52
-+ -- 1494
-- -- 1396
-* -- 6332
-:= -- 10873
-add.period$ -- 294
-call.type$ -- 98
-change.case$ -- 971
-chr.to.int$ -- 98
-cite$ -- 98
-duplicate$ -- 4828
-empty$ -- 4686
-format.name$ -- 1691
-if$ -- 14285
+            824 strings with 9441 characters,
+and the built_in function-call counts, 16660 in all, are:
+= -- 1439
+> -- 649
+< -- 22
++ -- 235
+- -- 206
+* -- 1345
+:= -- 2566
+add.period$ -- 86
+call.type$ -- 29
+change.case$ -- 215
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 1220
+empty$ -- 1252
+format.name$ -- 297
+if$ -- 3352
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1092
-newline$ -- 298
-num.names$ -- 406
-pop$ -- 2253
+missing$ -- 245
+newline$ -- 91
+num.names$ -- 120
+pop$ -- 449
 preamble$ -- 1
-purify$ -- 847
+purify$ -- 183
 quote$ -- 0
-skip$ -- 1753
+skip$ -- 442
 stack$ -- 0
-substring$ -- 2905
-swap$ -- 2869
-text.length$ -- 11
+substring$ -- 805
+swap$ -- 657
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 882
-warning$ -- 0
-while$ -- 400
+type$ -- 255
+warning$ -- 1
+while$ -- 116
 width$ -- 0
-write$ -- 1088
-(There were 12 error messages)
+write$ -- 320
+(There were 2 error messages)

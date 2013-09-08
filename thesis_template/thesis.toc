@@ -2,15 +2,19 @@
 \contentsline {chapter}{List of Publications}{vi}{chapter*.1}
 \contentsline {chapter}{List of Figures}{ix}{section*.4}
 \contentsline {chapter}{List of Tables}{x}{section*.6}
-\contentsline {chapter}{\numberline {1}Targets, Instrumentation, and Observations}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Betelgeuse}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}CARMA}{6}{section.1.2}
-\contentsline {section}{\numberline {1.3}CARMA Observations of Betelgeuse}{10}{section.1.3}
-\contentsline {section}{\numberline {1.4}Arcturus and Aldebaran}{13}{section.1.4}
-\contentsline {section}{\numberline {1.5}The Karl G. Jansky Very Large Array}{18}{section.1.5}
-\contentsline {section}{\numberline {1.6}VLA Observations of Arcturus and Aldebaran}{22}{section.1.6}
-\contentsline {section}{\numberline {1.7}VLA-Pie Town Observations of Betelgeuse}{28}{section.1.7}
-\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{31}{appendix.A}
-\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{33}{appendix.B}
-\contentsline {chapter}{\numberline {C}Ambipolar Diffusion Heating}{35}{appendix.C}
-\contentsline {chapter}{References}{38}{section*.23}
+\contentsline {chapter}{\numberline {1}A Thermal Energy Balance for Arcturus' Outflow}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation for a Thermal Energy Balance}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Thermal Model for a Spherically Symmetric Outflow}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Cooling Processes}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Adiabatic Expansion Cooling}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Radiative Recombination Cooling}{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Lyman-alpha Cooling}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Other Line Coolants}{7}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Heating Mechanisms}{10}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Photoionization Heating}{10}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Ambipolar Diffusion Heating}{12}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Turbulent Heating}{13}{subsection.1.4.3}
+\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{16}{appendix.A}
+\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{18}{appendix.B}
+\contentsline {chapter}{\numberline {C}Ambipolar Diffusion Heating}{20}{appendix.C}
+\contentsline {chapter}{References}{23}{section*.14}
