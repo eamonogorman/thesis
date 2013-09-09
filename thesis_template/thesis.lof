@@ -1,8 +1,71 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Summation of all cooling mechanisms}}{9}{figure.caption.9}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Example of diverging flux tubes}}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The Linsky-Haisch dividing line.}}{5}{figure.caption.7}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Stellar winds across the HR diagram.}}{11}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Radiation and power pattern of a uniformly illuminated antenna.}}{29}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Common optical systems used for radio antennas.}}{32}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of a superheterodyne receiver.}}{35}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Fringe pattern produced by Young's slits under various situations.}}{37}{figure.caption.17}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Visibilities for various source sizes.}}{39}{figure.caption.18}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Simplified schematic diagram of a two-element interferometer.}}{40}{figure.caption.19}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The instantaneous point source responses of an interferometer.}}{41}{figure.caption.20}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The ($u,v,w$) interferometric coordinate system.}}{45}{figure.caption.21}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces VLA antenna layout and two examples of $u-v$ coverage for different track lengths.}}{46}{figure.caption.22}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The Fourier transform pairs in synthesis imaging.}}{48}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces VLA spatially resolved analysis of Betelgeuse.}}{55}{figure.caption.25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The three CARMA array configurations used.}}{57}{figure.caption.26}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The layout of antenna pads for CARMA.}}{57}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Major components in the signal path for CARMA.}}{59}{figure.caption.28}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {IUE} \ion {Mg}{ii} \textit {k} line and Drake models.}}{67}{figure.caption.31}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Main features of a VLA antenna.}}{72}{figure.caption.33}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Importance of offsetting source from phase center.}}{75}{figure.caption.36}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Overview of a low and high frequency VLA observation.}}{77}{figure.caption.37}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Radio interferometry work flow chart.}}{83}{figure.caption.39}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Data examination of a VLA data set.}}{85}{figure.caption.40}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Eliminating RFI from the L band data set.}}{87}{figure.caption.41}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Calibration workflow diagram.}}{89}{figure.caption.42}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Atmospheric opacity at the VLA site.}}{90}{figure.caption.43}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Gain variation as a function of frequency.}}{91}{figure.caption.44}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Example of a well calibrated source.}}{93}{figure.caption.45}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Wide field view of the VLA 20\tmspace +\thinmuskip {.1667em}cm image.}}{96}{figure.caption.46}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparing CLEAN to Multi-scale CLEAN.}}{98}{figure.caption.47}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Bernat (1979) CO line profile showing two sharp line cores.}}{102}{figure.caption.48}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Previous CO$J= 2-1$ rotational emission line profiles}}{103}{figure.caption.49}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Radial velocity data and model for $\alpha $ Ori.}}{105}{figure.caption.50}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Spectra integrated over a radius of 5$^{\prime \prime }$ for each array configuration image cube. The red and blue lines correspond to the high and low spectral resolution data respectively. The blueshifted emission component between $-16.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ and $-10.0\mskip \medmuskip {\rm km\mskip \medmuskip s}^{-1}$ is almost resolved out in the C configuration image cube spectrum along with material with low absolute velocities. \relax }}{106}{figure.caption.51}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Spectral profiles of the low spectral resolution multi-configuration image cube for circular extraction areas of radius 1$^{\prime \prime }$, 2$^{\prime \prime }$, 4$^{\prime \prime }$, 6$^{\prime \prime }$, 8$^{\prime \prime }$, and 10$^{\prime \prime }$. The S/N of the line profile reduces at larger extraction areas as more noise is included from the outer more noisy regions of the channel maps.\relax }}{109}{figure.caption.52}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Discrete sources in individual configuration image cubes}}{111}{figure.caption.53}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Channel maps from the multi-configuration image cube}}{113}{figure.caption.54}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Geometry of a spherical symmetric flow.}}{115}{figure.caption.55}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces S2 radius as a function of channel velocity}}{116}{figure.caption.56}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces \textit {Left Column:} Surface Brightness as a function of projected radius on sky, $R$ (red line). The emission has been extracted from the low spectral resolution multi-configuration image cube and is integrated over the channels where S1 is present (bottom) and over the channels where only S2 is present (top). Intensity proportional to $R{}^{-1}$ and $R{}^{-2}$ is also shown for comparison. \textit {Right Column:} The corresponding visibility amplitude as a function of $u-v$ distance ($q$) of both outflows can be modeled well by a $R{}^{-1}$ fall off in intensity. The error bars in all plots represent the standard error of the mean.\relax }}{118}{figure.caption.57}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces CARMA maps of the inner S1 flow.}}{120}{figure.caption.58}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces CO and SiO rotational emission lines from the CSE of Betelgeuse.}}{124}{figure.caption.60}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces First e-MERLIN results for Betelgeuse.}}{128}{figure.caption.62}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Predicted position of Betelgeuse on 2012 July using the astrometric solutions of \cite {harper_2008}.}}{130}{figure.caption.63}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Radio flux density variation of Betelgeuse between 1996 and 2004.}}{136}{figure.caption.65}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces High resolution Q band images spanning six years.}}{137}{figure.caption.66}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau.}}{142}{figure.caption.67}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau.}}{150}{figure.caption.72}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau.}}{155}{figure.caption.73}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients for $\alpha $ Boo and $\alpha $ Tau.}}{156}{figure.caption.74}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength for $\alpha $ Boo and $\alpha $ Tau.}}{158}{figure.caption.75}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in} in a stellar wind.}}{162}{figure.caption.76}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen.}}{164}{figure.caption.77}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Drake model which undergoes rapid wind cooling beyond $\sim $2.3 $R_{\star }$.}}{166}{figure.caption.78}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Summation of all cooling mechanisms}}{178}{figure.caption.82}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Example of diverging flux tubes}}{182}{figure.caption.84}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Main heating mechanisms in Arcturus' wind}}{184}{figure.caption.85}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Net thermal balance}}{185}{figure.caption.86}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Kolmogorov spectrum}}{197}{figure.caption.88}

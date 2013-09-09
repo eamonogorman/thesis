@@ -4,8 +4,7 @@
 \chapter{A Thermal Energy Balance for Arcturus' Outflow}
 \label{chap:7}
 
-The chapter investigates the various heating and cooling processes that control the thermal structure of Arcturus' mass outflow region. We use the hybrid chromosphere and wind model derived in Section \ref{sec:6.6.2} as the basis to derive the magnitude of these processes as function of distance from the star. The effect of adiabatic expansion cooling and cooling by various lines are investigated. This work is a continuation of the initial findings of \cite{ogorman_2011}.
-%is controlled by numerous cooling and heating processes. The cooling is from wind expansion and acceleration together with radiative cooling by atomic and singly ionized species. The heating is from the deposition of magnetic wave energy, ambipolar diffusion, and radiative heating (Harper 2001). 
+The chapter investigates the various heating and cooling processes that control the thermal structure of Arcturus' mass outflow region. We use the hybrid chromosphere and wind model derived in Chapter \ref{chap:6} as the basis to derive the magnitude of these processes as function of distance from the star. The analysis focuses on distances relatively close to the star (i.e., between $1.2\rightarrow 10\,R_{\star}$) and includes the wind acceleration zone (i.e., between $\sim 1.2\rightarrow 1.7\,R_{\star}$), a region where much of the energy that drives the wind is injected. The effect of adiabatic expansion cooling, line cooling from neutral and ionic species, and radiative recombination are investigated wind coolents. The heating mechanisms investigated are the deposition of magnetic wave energy, ambipolar diffusion, and radiative heating. This work is a continuation of the initial findings of \cite{ogorman_2011}.
 
 \pagebreak
 
@@ -212,31 +211,46 @@ The dissipation of turbulent fluctuations can make a significant contribution to
 \label{fig:7.4}
 \end{figure}
 
-The idea of MHD turbulent heating of Arcturus' atmosphere is based on what is known to happen in the solar atmosphere. For the Sun, most of the photospheric magnetic field is located in small flux tubes (of diameter $\sim 100$\,km) concentrated in the intergranular downflow lanes with field strengths of $\sim 1400$\,G \citep{berger_2001}. These flux tubes, whose geometries are shown in Figure \ref{fig:7.4}, have relatively small photospheric filling factors of $f_{\star} \sim 0.1-1\, \%$, however, and so the total magnetic flux density is much lower when spatially averaged over the entire solar disk and is the order of $f_{\star}B_{\star}=1-10$\,G \citep{schrijver_1989}. The same structures may be present in the atmosphere of Arcturus, which possibly has a total magnetic flux of $f_{\star}B_{\star} \sim 0.5$\,G \citep{Sennhauser_2011}. Alfv\'en waves then propagate up these flux tubes and are partially reflected by radial gradients in the density and magnetic field strength. The counter-propagating wave packets then interact with one another along these flux tubes, developing into strong MHD turbulence \citep{iroshnikov_1964}. The energy flux in the cascade from large to small eddies terminates in dissipation and heating \citep[e.g.,][]{matthaeus_1999, cranmer_2005} 
+The idea of MHD turbulent heating of Arcturus' atmosphere is based on what is known to happen in the solar atmosphere. For the Sun, most of the photospheric magnetic field is located in small flux tubes (of diameter $\sim 100$\,km) concentrated in the intergranular downflow lanes with field strengths of $\sim 1400$\,G \citep{berger_2001}. These flux tubes, whose geometries are shown in Figure \ref{fig:7.4}, have relatively small photospheric filling factors of $f_{\star} \sim 0.1-1\, \%$, however, and so the total magnetic flux density is much lower when spatially averaged over the entire solar disk and is the order of $f_{\star}B_{\star}=1-10$\,G \citep{schrijver_1989}. The same structures may be present in the atmosphere of Arcturus, which possibly has of a weak ($B < 1\,G$) mean longitudinal magnetic field \citep{Sennhauser_2011}. Alfv\'en waves then propagate up these flux tubes and are partially reflected by radial gradients in the density and magnetic field strength. The counter-propagating wave packets then interact with one another along these flux tubes, developing into strong MHD turbulence \citep{iroshnikov_1964}. The energy flux in the cascade from large to small eddies terminates in dissipation and heating \citep[e.g.,][]{matthaeus_1999, cranmer_2005} 
 
 In this study, we adopt the following phenomenological form for the MHD turbulent heating rate per unit volume,
 \begin{equation}
 \Gamma_{turb} =\frac{1}{2}\frac{\rho U^{2}}{L/U}\ \ \ \rm{erg \ s^{-1} \ cm^{-3}},
 \end{equation} 
-where $U$ is the characteristic velocity and $L$ is the characteristic length scale. For solar studies, the characteristic length scale would be the size of the granular cells which are responsible for perturbing the flux tubes (i.e., $100-1000$\,km), which are similar in size to the solar photospheric scale height (i.e, $H_{\odot} \sim 270$\,km). Unlike the Sun, we cannot determine $L$ via observations we here we set it to the photospheric scale height observationa 
-
- the local density scale height. 
-
-
-
-The characteristic velocity is taken to be the local hydrogen sound speedThe subsequent heating contribution from this process can then be written as
+where $U$ is the characteristic velocity and $L$ is the characteristic length scale. For solar studies, the characteristic length scale at the photosphere would be the size of the granular cells which are responsible for perturbing the flux tubes (i.e., $100-1000$\,km), which are similar in size to the solar photospheric scale height (i.e, $H_{\odot} \sim 270$\,km). Unlike the Sun, we cannot determine $L$ via observations and choose $L$ to be the local density scale height:
 \begin{equation}
-\lambda_{turb} \propto \frac{m_{H}\sqrt{T}}{v}\frac{d(ln\ \rho)}{d(ln\ r)}
+L = \rho \left(\dfrac{d\rho}{dr} \right)^{-1}.
+\end{equation}
+The characteristic velocity is taken to be the local hydrogen sound speed, i.e., 
+\begin{equation}
+U=\sqrt{\frac{5}{3}\dfrac{P}{\rho}}=12.85\times 10^{5}\sqrt{\frac{T_{e}}{10^4}}.
+\end{equation}
+This simple description of turbulent heating assumes an ideal \cite{kolmogorov_1941} hydrodynamic cascade\footnote{See Appendix \ref{app:4}} but such simple descriptions have already successfully reproduced many properties of coronal heating for the Sun \citep{cranmer_2012}. The dissipation of turbulent fluctuations in Arcturus' wind make a significant heating contribution out to many stellar radii, as can be seen in Figure \ref{fig:7.5}. It can be shown that 
+\begin{equation}
+\lambda_{turb} \propto \frac{\sqrt{T_e}}{v}\frac{d(\mathrm{ln}\,\rho)}{d(\mathrm{ln}\,r)},
 \end{equation} 
-where $v$ is the wind velocity. 
+and so when the wind has reached its terminal velocity, the turbulent heating varies as $\lambda_{turb} \propto \sqrt{T_e}$.
 
-This phenomenological description of turbulent heating has successfully reproduced many properties of coronal heating for the Sun \citep{cranmer_2012}.
+\begin{figure}[!ht]
+\centering 
+         \includegraphics[trim=0pt 0pt 0pt 0pt,clip, scale=0.5,angle=90]{/home/eamon/thesis/thesis_template/7/tot_heating.ps}
+\caption[Main heating mechanisms in Arcturus' wind]{The main heating mechanism in Arcturus' wind is from the dissipation of turbulence. Photoionization of H also contributes to heating close to the star, while the heating from ambipolar diffusion is found to be negligible.}
+\label{fig:7.5}
+\end{figure}
 
-Some descriptions of turbulence
-and magnetic reconnection specify only the energy that is input into the system on
-the largest spatial scales. These models thus employ various phenomenological assumptions
-about how that energy is eventually dissipated
+\section{Thermal Energy Balance}\label{sec:7.5}
+We first use the new atmospheric model for Arcturus, which is based on the multi-wavelength VLA observations outlined in Chapter \ref{chap:6}, to find its gas kinetic temperature local power law slope, $\lambda$. To do so, we substitute its temperature profile into Equation \ref{eq:lambda}. As the flow is isothermal between $1.2$ and $2.3\,R_{\star}$, the power law slope is zero as shown in Figure \ref{fig:7.6}. Beyond $2.3\,R_{\star}$, this model contains a temperature power-law slope of $T_e \propto r^{-1.65}$, and therefore $\lambda = -1.65$. For clarity, we have excluded the data within $1.2\,R_{\star}$ throughout this section as the density and temperature gradients within this region are very large (see Figure \ref{fig:6.15}), and can make the calculated $\lambda$ many orders of magnitude greater than those beyond $1.2\,R_{\star}$. The majority of the wind acceleration occurs beyond $1.2\,R_{\star}$ so the velocity gradient is still taken into account in our analysis.
 
-and assumes an ideal kolmogorov (1941) hydrodynamic cascade see appendix
-$l$ is the length of the largest driving eddies
+\begin{figure}[!ht]
+\centering 
+         \includegraphics[trim=0pt 20pt 0pt 40pt,clip, scale=0.6,angle=90]{/home/eamon/thesis/thesis_template/7/therm_bal.ps}
+\caption[Net thermal balance]{The gas kinetic temperature local power law slopes used for calculating the thermal energy balance. The green solid line is the power law slope of the new atmospheric model for Arcturus described in Chapter \ref{chap:6}. The blue dashed line is the net cooling as a result of combining all of the cooling and heating processes described in Sections \ref{sec:7.3} and \ref{sec:7.4}. The red dot-dashed line is the required additional heating/cooling to reproduce the thermal structure of our model atmosphere. A significant additional energy input is required within $3\,R_{\star}$ to reproduce our model atmosphere, while some additional cooling is required beyond $3\,R_{\star}$. }
+\label{fig:7.6}
+\end{figure}
 
+In theory, if we were able to precisely account for all of the heating and cooling processes taking place in Arcturus' atmosphere, then a summation of their power law slopes would reproduce the power law slope of the model atmosphere (assuming the model atmosphere to be an exact representation of the actual atmosphere). The dashed blue line in Figure \ref{fig:7.6} represents a summation of all the heating and cooling processes discussed in Sections  \ref{sec:7.3} and \ref{sec:7.4}. The result of this is a considerable net cooling at all distances from the star. Within $\sim 3\,R_{\star}$, this net cooling far exceeds that predicted by the atmospheric model. This implies that one or more additional energy inputs must be acting on the inner region of of the outflow, which have not been accounted for in Section \ref{sec:7.4}. The magnitude of this required additional heating within $\sim 3\,R{\star}$ is also shown in Figure \ref{fig:7.6} and is represented by the dot-dashed red line. Beyond, $\sim 3\,R_{\star}$ the temperature power law slope of the model atmosphere is less than the slope of the calculated net cooling. This is because the model atmosphere of Arcturus is cooling super-adiabatically beyond $2.3\,R_{\star}$ where $\lambda = -1.65$, while we have found that the only significant cooling process beyond $\sim 3\,R_{\star}$ is adiabatic expansion where $\lambda = -1.33$. 
+
+\section{Discussion}\label{sec:7.6}
+In Section \ref{sec:7.3} we found that the effect of Ly\,$\alpha$ line cooling becomes small beyond $\sim 3\,R_{\star}$. At greater distances we found that the only efficient cooling mechanism is adiabatic expansion. Since the velocity gradient is zero at these distances, the temperature local power law slope is $\lambda = -1.33$. The fact that we have not found any other efficient cooling mechanism beyond $\sim 3\,R_{\star}$ does hint that the temperature power-law coefficient of $-1.65$, in the new atmospheric model for Arcturus, may be slightly too large. One explanation for this might be because we assumed a constant ionization fraction when investigating the radio spectral indices in Chapter \ref{chap:6} (i.e., the ionization balance was assumed to be \textit{frozen-in}). Allowing the ionization balance to vary would have produced a smaller temperature power-law coefficient but this approach would have given too many free parameters and no unique wind solution would have been attainable. 
+
+The value of the red dot-dashed line in Figure \ref{fig:7.6} would be zero at all radii if our model atmosphere was a complete description of the true value and if we had accounted for all of the heating and cooling processes. It is clear from this figure that the best results (i.e., closest values to zero) are found at distances beyond  $3\,R_{\star}$ where adiabatic expansion cooling produces a power law slope which is reasonably close the the model value. However, within $\sim 3\,R_{\star}$ it is very clear that some additional heating source is required to maintain the temperature profile of our model atmosphere. A more rigorous treatment (i.e., a non-phenomenological description) of heating due to the turbulent dissipation of Alfv\'ven waves may a possible route of investigation, although one would wonder how the different descriptions of the same process could produce such vastly differnt results. 
