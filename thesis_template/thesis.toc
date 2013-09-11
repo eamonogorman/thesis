@@ -13,18 +13,14 @@
 \contentsline {section}{\numberline {1.5}Red Giant and Red Supergiant Evolution}{14}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Change in Atmospheric Dynamics}{15}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Evolutionary Tracks}{16}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Radio Emission from Stellar Atmospheres}{16}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Free-free Emission}{16}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Molecular Line Emission}{16}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Other Emission Mechanisms}{16}{subsection.1.6.3}
-\contentsline {section}{\numberline {1.7}Radio Observations of Stellar Atmospheres}{17}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Brightness Temperature}{18}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Brightness Temperature and Flux Density}{20}{subsection.1.7.2}
-\contentsline {subsection}{\numberline {1.7.3}Thermal Free-free Radio Opacity}{21}{subsection.1.7.3}
-\contentsline {subsection}{\numberline {1.7.4}Radio Excess from Stellar Outflows}{22}{subsection.1.7.4}
-\contentsline {section}{\numberline {1.8}Outline and Goals of this Thesis}{25}{section.1.8}
-\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{27}{appendix.A}
-\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{29}{appendix.B}
-\contentsline {chapter}{\numberline {C}Ambipolar Diffusion Heating}{31}{appendix.C}
-\contentsline {chapter}{\numberline {D}Turbulent Heating}{34}{appendix.D}
-\contentsline {chapter}{References}{37}{section*.18}
+\contentsline {section}{\numberline {1.6}Radio Emission from Stellar Atmospheres}{19}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Free-free Emission}{20}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Molecular Line Emission}{20}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Other Emission Mechanisms}{20}{subsection.1.6.3}
+\contentsline {section}{\numberline {1.7}Radio Observations of Stellar Atmospheres}{21}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Brightness Temperature}{21}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Brightness Temperature and Flux Density}{23}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {1.7.3}Thermal Free-free Radio Opacity}{24}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {1.7.4}Radio Excess from Stellar Outflows}{25}{subsection.1.7.4}
+\contentsline {section}{\numberline {1.8}Outline and Goals of this Thesis}{29}{section.1.8}
+\contentsline {chapter}{References}{30}{section*.18}

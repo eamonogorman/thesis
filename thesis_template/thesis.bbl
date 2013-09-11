@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{72}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Adams} \& {MacCormack}(1935)}]{adams_1935}
@@ -10,14 +10,9 @@
 {\sc {Altenhoff}, W.J., {Mezger}, P.G., {Wendker}, H.J. \& {Westerhout}, G.}
   (1960). {Ver\"{o}ff. Sternw\"{a}rte, Bonn}. {\bf 59}, 48.
 
-\bibitem[{{Ayres}(2010{\natexlab{a}})}]{ayres_2010b}
-{\sc {Ayres}, T.} (2010{\natexlab{a}}). {A stellar perspective on
-  chromospheres.} {\em \memsai\/}, {\bf 81}, 553.
-
-\bibitem[{{Ayres}(2010{\natexlab{b}})}]{ayres_2010}
-{\sc {Ayres}, T.R.} (2010{\natexlab{b}}). {StarCAT: A Catalog of Space
-  Telescope Imaging Spectrograph Ultraviolet Echelle Spectra of Stars}. {\em
-  \apjs\/}, {\bf 187}, 149--171.
+\bibitem[{{Ayres}(2010)}]{ayres_2010b}
+{\sc {Ayres}, T.} (2010). {A stellar perspective on chromospheres.} {\em
+  \memsai\/}, {\bf 81}, 553.
 
 \bibitem[{{Ayres} {\em et~al.\/}(1981){Ayres}, {Linsky}, {Vaiana}, {Golub} \&
   {Rosner}}]{ayres_1981}
@@ -102,13 +97,6 @@
   chromospheres, and coronae of cool giants and supergiants}. {\em \aj\/}, {\bf
   91}, 602--620.
 
-\bibitem[{{Drake}(1985)}]{drake_1985}
-{\sc {Drake}, S.A.} (1985). {Modeling lines formed in the expanding
-  chromospheres of red giants}. In J.E. {Beckman} \& L.~{Crivellari}, eds.,
-  {\em Progress in stellar spectral line formation theory; Proceedings of the
-  Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
-  17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
-
 \bibitem[{{Dupree} {\em et~al.\/}(2005){Dupree}, {Lobel}, {Young}, {Ake},
   {Linsky} \& {Redfield}}]{dupree_2005}
 {\sc {Dupree}, A.K., {Lobel}, A., {Young}, P.R., {Ake}, T.B., {Linsky}, J.L. \&
@@ -189,6 +177,10 @@
   nonrelativistic free-free Gaunt factor for hydrogenic ions}. {\em \apj\/},
   {\bf 327}, 477--484.
 
+\bibitem[{{Iben}(1967)}]{iben_1967}
+{\sc {Iben}, I., Jr.} (1967). {Stellar Evolution Within and off the Main
+  Sequence}. {\em \araa\/}, {\bf 5}, 571.
+
 \bibitem[{{Iben}(1993)}]{iben_1993}
 {\sc {Iben}, I., Jr.} (1993). {On Why Intermediate-Mass Stars Become Giants
   after the Exhaustion of Hydrogen in Their Cores}. {\em \apj\/}, {\bf 415},
@@ -214,6 +206,12 @@
 {\sc {Lamers}, H.J.G.L.M. \& {Cassinelli}, J.P.} (1999). {\em {Introduction to
   Stellar Winds}\/}.
 
+\bibitem[{{Levesque}(2010)}]{levesque_2010}
+{\sc {Levesque}, E.M.} (2010). {The Physical Properties of Red Supergiants}. In
+  C.~{Leitherer}, P.D. {Bennett}, P.W. {Morris} \& J.T. {Van Loon}, eds., {\em
+  Hot and Cool: Bridging Gaps in Massive Star Evolution\/}, vol. 425 of {\em
+  Astronomical Society of the Pacific Conference Series\/}, 103.
+
 \bibitem[{{Lim} {\em et~al.\/}(1998){Lim}, {Carilli}, {White}, {Beasley} \&
   {Marson}}]{lim_1998}
 {\sc {Lim}, J., {Carilli}, C.L., {White}, S.M., {Beasley}, A.J. \& {Marson},
@@ -235,12 +233,10 @@
 {\sc {Macchetto}, F. \& {Penston}, M.V.} (1978). {The International Ultraviolet
   Explorer}. {\em ESA Bulletin\/}, {\bf 13}, 9--14.
 
-\bibitem[{{McClintock} {\em et~al.\/}(1978){McClintock}, {Moos}, {Henry},
-  {Linsky} \& {Barker}}]{mcclintock_1978}
-{\sc {McClintock}, W., {Moos}, H.W., {Henry}, R.C., {Linsky}, J.L. \& {Barker},
-  E.S.} (1978). {Ultraviolet observations of cool stars. VI - L alpha and MG II
-  emission line profiles (and a search for flux variability) in Arcturus}. {\em
-  \apjs\/}, {\bf 37}, 223--233.
+\bibitem[{{Maeder} \& {Meynet}(1987)}]{maeder_1987}
+{\sc {Maeder}, A. \& {Meynet}, G.} (1987). {Grids of evolutionary models of
+  massive stars with mass loss and overshooting - Properties of Wolf-Rayet
+  stars sensitive to overshooting}. {\em \aap\/}, {\bf 182}, 243--263.
 
 \bibitem[{{Morton}(1967)}]{morton_1967}
 {\sc {Morton}, D.C.} (1967). {Mass Loss from Three OB Supergiants in Orion}.
@@ -258,6 +254,10 @@
 {\sc {Owocki}, S.} (2004). {Stellar wind mechanisms and instabilities}. In
   M.~{Heydari-Malayeri}, P.~{Stee} \& J.P. {Zahn}, eds., {\em EAS Publications
   Series\/}, vol.~13 of {\em EAS Publications Series\/}, 163--250.
+
+\bibitem[{{Panagia} \& {Felli}(1975)}]{panagia_1975}
+{\sc {Panagia}, N. \& {Felli}, M.} (1975). {The spectrum of the free-free
+  radiation from extended envelopes}. {\em \aap\/}, {\bf 39}, 1--5.
 
 \bibitem[{{Parker}(1958)}]{parker_1958}
 {\sc {Parker}, E.N.} (1958). {Dynamics of the Interplanetary Gas and Magnetic
@@ -302,15 +302,6 @@
 {\sc {Schr{\"o}der}, K.P. \& {Sedlmayr}, E.} (2001). {The galactic mass
   injection from cool stellar winds of the 1 to 2.5 M$_{sun}$ stars in the
   solar neighbourhood}. {\em \aap\/}, {\bf 366}, 913--922.
-
-\bibitem[{{Shang} {\em et~al.\/}(2002){Shang}, {Glassgold}, {Shu} \&
-  {Lizano}}]{shang_2002}
-{\sc {Shang}, H., {Glassgold}, A.E., {Shu}, F.H. \& {Lizano}, S.} (2002).
-  {Heating and Ionization of X-Winds}. {\em \apj\/}, {\bf 564}, 853--876.
-
-\bibitem[{{Shu}(1992)}]{shu_1992}
-{\sc {Shu}, F.H.} (1992). {\em {The physics of astrophysics. Volume II: Gas
-  dynamics.}\/}.
 
 \bibitem[{{Simon} {\em et~al.\/}(1982){Simon}, {Linsky} \&
   {Stencel}}]{simon_1982}
