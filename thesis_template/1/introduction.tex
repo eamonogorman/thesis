@@ -2,10 +2,9 @@
 %Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
 %: ----------------------- introduction file header -----------------------
 \chapter{Introduction} \label{chap:1}
-
-Stellar winds in general ism planets
-
-Empirical studies are vital to constrain physical parameters of the mass loss process. 
+\vspace{-1cm}
+\textit{This chapter begins with outlining the motivation for studying winds from cool evolved stars while highlighting the problems associated their mass-loss mechanisms. The fundamental physics governing these winds along with their physical properties are then discussed in detail. Their mass outflows are subsequently compared with other types of stars across the Hertzsprung Russel diagram. The second half of this chapter focuses on radio emission from stellar winds. The radio emission mechanisms that are relevant to this thesis are discussed and the terminology required to study cool evolved stellar winds at radio wavelengths is introduced.}
+% This chapter concludes with a brief outline of the remaining chapters within this thesis.}
 
 \pagebreak
 
@@ -210,7 +209,7 @@ If we assume the Sun to be a nearly ideal blackbody with temperature $T=5800\,K$
 \begin{figure}[ht!]
 \centering 
           \includegraphics[trim=10pt 210pt 10pt 180pt,clip,width=15.0cm, height=11.0cm]{/home/eamon/thesis/thesis_template/1/radio_hr.ps}
-\caption[Radio H-R diagram.]{Sample of the radio detected stars plotted on a H-R diagram. The filled symbols represent non-thermal emitters while the open symbols represent the thermal emitters. The larger symbols are more radio luminous than the smaller symbols. In general, the sparse thermal emitters are stars with ionized or partially ionized extended stellar atmospheres whose radio emission comes from free-free interactions. From \cite{white_2000}.}
+\caption[Radio H-R diagram.]{Sample of the radio detected stars plotted on a H-R diagram. The filled symbols represent non-thermal emitters while the open symbols represent the thermal emitters. The larger symbols are more radio luminous than the smaller symbols. In general, the sparse thermal emitters are stars with ionized or partially ionized extended stellar atmospheres whose radio emission comes from free-free interactions. Figure from \cite{white_2000}.}
 \label{fig:1.6.1}
 \end{figure}
 
@@ -219,15 +218,33 @@ It is clear that the majority of the main sequence and sub-gaint objects are non
 Single (non-binary) cool evolved stars lack the characteristics which make the other stars, described above, radio bright. Even though they have convective zones, they rotate too slowly to generate, via a dynamo, the magnetic activity which make sub-giant binaries and young cool dwarfs strong non-thermal radio emitters. They also lack the intense UV radiation field of the massive hot main sequence stars and their outflows are generally only weakly ionized. However, their large angular diameters coupled with their relatively large mass loss rates, means that their partially ionized outflows can be detected at radio wavelengths. Red giants are feeble radio emitters however and up until this thesis, only a small number have been detected at one or more radio wavelengths, and these have been modest signal-to-noise measurements. On the other hand, a few close-by red supergiants, like Betelgeuse, have mass-loss rates many orders of magnitude greater than the red giants and their partially ionized outflows can be easily detected at multiple radio wavelengths. These red supergiants also contain extended circumstellar envelopes (CSEs) which can be  sources of molecular line emission at radio wavelengths. Prior to this thesis, these CSEs have only been studied with single dish radio antennas providing no spatial information on the gas distribution. 
 
 \section{Radio Emission Mechanisms}\label{sec:1.7}
-We now describe the two fundamental radio emission mechanisms which are the foundation of this thesis; namely, thermal Bremsstrahlung or free-free emission, and line emission from molecules. Before that, it is worth mentioning the two 
+The two radio emission mechanisms which are of most relevance in this thesis are thermal Bremsstrahlung/free-free emission, and molecular line emission. Both of these emission mechanisms produce incoherent radiation and are discussed in the following sections. Under certain plasma conditions, coherent radiation can be produced due to resonances between particles and characteristic waves.  This results in electron energy being converted into some natural wave mode of the plasma, such as Langmuir waves (plasma oscillation) or electron-cyclotron waves. The main characteristic frequencies of a plasma are the electron plasma frequency
+\begin{equation}
+\nu _{p} = \frac{\omega _{p}}{2\pi}=\left( \frac{n_e e^2}{\pi m_e}\right)^{1/2} \approx 9000 n_e ^{1/2}\ \ \ \ \rm{Hz}
+\end{equation}
+and the electron-cyclotron frequency
+\begin{equation}
+\nu _{B}= \frac{\Omega _{B}}{2\pi}=\frac{eB}{2\pi m_e c} \approx 2.8\times 10^{6}B\ \ \ \ \rm{Hz}
+\end{equation}
+where $n_e$ is the electron number density with units $\rm{cm}^{-3}$, and $B$ is the magnetic field strength with units G. 
 
+\subsection{Thermal Free-free (Bremsstrahlung) Emission}\label{sec:1.7.1}
+Thermal Bremsstrahlung from an ionized or partially ionized plasma is often called free-free emission because it is produced by free electrons which are deflected off ions without being captured. For free-free radio emission, the distant Coulomb interactions of electrons with ions, which cause small angle deflections, are much more important than the rare close encounters and large deflections \citep{dulk_1985}. The free-free emission, which is the energy radiated per unit volume, per unit time, per unit frequency, is given in \cite{rybicki_1979} as:
+\begin{equation}\label{eq:1.7.1}
+\varepsilon _{\nu} ^{ff} = 6.8 \times 10^{-38}Z^{2}n_{e}n_{i}T^{-1/2}e^{-h\nu /kT}g_{ff}\ \ \ \ \rm{erg}\,\rm{cm}^{-3}\,s^{-1}\,\rm{Hz}^{-1}
+\end{equation}
+Here, $g_{ff}$ is the free-free Gaunt factor and is a correction factor which is a function of electron energy and frequency of emission. Extensive tables and graphs of $g_{ff}$ exist in the literature \citep[e.g.,][]{karzas_1961}. The free-free emissivity, which is a fundamental term in the equation of radiative transfer is then
+\begin{equation}\label{eq:1.7.2}
+j_{\nu} ^{ff}=\frac{\varepsilon _{\nu} ^{ff}}{4\pi}.
+\end{equation}
 
-
-
-
-\subsection{Free-free (Bremsstrahlung) Emission}\label{sec:1.7.1}
 \subsection{Molecular Line Emission}\label{sec:1.7.2}
-j most prob here (CO and SiO)
+\begin{figure}[hbt!]
+\centering 
+          \includegraphics[trim=0pt 0pt 0pt 0pt,clip,angle=90,width=14.0cm, height=10.0cm]{/home/eamon/thesis/thesis_template/1/rotational_levels.ps}
+\caption[]{}
+\label{fig:1.7.2}
+\end{figure}
 \section{Radio Observations of Stellar Atmospheres}\label{sec:1.8}
 In the following sections we present the basic definitions used to describe radio observations of stellar atmospheres. We define the \textit{brightness temperature} which is commonly used in radio astronomy to measure the brightness of a source, along with its relationship to the fundamental quantity measured by a radio telescope, the \textit{flux density}. Focusing on thermal emission, we describe how the flux density varies with frequency when observing both optically thin and optically thick stellar atmospheres.
 
@@ -250,11 +267,11 @@ If $h\nu /kT \ll 1$ and if $I_{\nu}$ is emitted by a blackbody, then $T_{\rm{b}}
 
 The equation of radiative transfer describes the change in specific intensity of a ray along the line of sight in a slab of material of thickness $ds$
 \begin{equation}\label{eq:1.4}
-\frac{dI_{\nu}}{ds}=\varepsilon _{\nu} - \kappa _{\nu}I_{\nu},
+\frac{dI_{\nu}}{ds}=j_{\nu} - \kappa _{\nu}I_{\nu},
 \end{equation}
-where $\varepsilon _{\nu}$ and $\kappa _{\nu}$ are the emissivity (in erg\,s$^{-1}$\,cm$^{-3}$\,Hz$^{-1}$\,sr$^{-1}$) and the absorption/opacity coefficient (in cm$^{-1}$) of the plasma. In thermodynamic equilibrium the radiation is in complete equilibrium with its surroundings and the brightness distribution is described by the Planck function
+where $j_{\nu}$ and $\kappa _{\nu}$ are the emissivity (in erg\,s$^{-1}$\,cm$^{-3}$\,Hz$^{-1}$\,sr$^{-1}$) and the absorption/opacity coefficient (in cm$^{-1}$) of the plasma. In thermodynamic equilibrium the radiation is in complete equilibrium with its surroundings and the brightness distribution is described by the Planck function
 \begin{equation}\label{eq:1.5}
-\dfrac{dI_{\nu}}{ds}=0, \ \ \ \ \ \ I_{\nu}= \frac{\varepsilon _{\nu}}{\kappa _{\nu}}=B_{\nu}(T_e).
+\dfrac{dI_{\nu}}{ds}=0, \ \ \ \ \ \ I_{\nu}= \frac{j_{\nu}}{\kappa _{\nu}}=B_{\nu}(T_e).
 %=\frac{c^2}{2k\nu ^2}T_{e}.
 \end{equation}
 Equation \ref{eq:1.4} can be solved by first defining the optical depth, $d\tau _{\nu}$, as
@@ -263,11 +280,11 @@ d\tau _{\nu}=-\kappa _{\nu}ds,
 \end{equation}
 and then integrated by parts between 0 to $s$, and $\tau$ to 0, to give 
 \begin{equation}
-I(s) = I(0)e^{-\tau(s)} + \int ^0 _{\tau (s)}e^{-\tau} \frac{\varepsilon _{\nu}}{\kappa _{\nu}}d\tau.
+I(s) = I(0)e^{-\tau(s)} + \int ^0 _{\tau (s)}e^{-\tau} \frac{j_{\nu}}{\kappa _{\nu}}d\tau.
 \end{equation}
 The second term within the integral is known as the source function, $S_{\nu}$, and this can be taken outside of the integral in the case of a homogeneous source, i.e., one for which both the emissivity and absorption coefficient are constant along the ray path. The solution then to the equation of radiative transfer for a homogeneous source is
 \begin{equation}\label{eq:1.9}
-I_{\nu} = I_{0}e^{-\tau} + \frac{\varepsilon _{\nu}}{\kappa _{\nu}}(1 - e^{-\tau}).
+I_{\nu} = I_{0}e^{-\tau} + \frac{j_{\nu}}{\kappa _{\nu}}(1 - e^{-\tau}).
 \end{equation}
 Using Equations \ref{eq:1.3} and \ref{eq:1.5} one obtains
 \begin{equation}
@@ -308,13 +325,13 @@ T_{b} (K)=1.96F_{\nu}(\mathrm{mJy})\left(\frac{\lambda}{\mathrm{cm}}\right)^2\le
 Therefore, if an optically thick stellar atmosphere can be spatially resolved (i.e., $\phi _{\rm{maj}}$ and $\phi _{\rm{min}}$ can be measured) then the flux density at a particular wavelength tells gives the brightness temperature and therefore the electron temperature. Unfortunately, the number of stars that can have their atmospheres spatially resolved at radio wavelengths is low due to their relatively small angular diameters. However, different layers of stellar atmospheres can still be probed due to the nature of the free-free radio opacity which is discussed in the next section.
 
 \subsection{Thermal Free-free Radio Opacity}\label{sec:1.8.3}
-In Section \ref{sec:1.4.1} we derived an expression for the thermal free-free emissivity of an ionized gas. Since we assumed LTE at some temperature $T$, we can use Kirchoff's law to find the thermal radio free-free opacity (absorption coefficient):
+In Section \ref{sec:1.7.1} we gave an expression for the thermal free-free emissivity of an ionized gas. Since we assumed LTE at some temperature $T$, we can use Kirchoff's law to find the thermal radio free-free opacity (absorption coefficient):
 \begin{equation}
-\kappa _{\nu}^{ff}=\frac{\epsilon _{\nu}^{ff}c^2}{2kT_{e}\nu ^2}
+\frac{j_{\nu}^{ff}}{\kappa _{\nu}^{ff}}=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT}-1}
 \end{equation}
-Substituting in Equation \ref{x} then gives a value for the radio opacity which is corrected for stimulated emission
+Using Equation \ref{eq:1.7.1} and \ref{eq:1.7.2} then provides a value for the free-free radio opacity
 \begin{equation}
-\kappa _{\nu}^{ff} = \frac{0.018Z^2n_{e}n_{i}g_{ff}(\nu ,T_{e})}{T_{e}^{1.5}\nu ^{2}}
+\kappa _{\nu}^{ff} = \frac{0.018Z^2n_{e}n_{i}g_{ff}(\nu ,T_{e})}{T_{e}^{1.5}\nu ^{2}}\ \ \ \ \rm{cm^{-1}}.
 \end{equation}
 The Gaunt factor is slightly dependent on temperature and frequency and at cm-wavelengths is given by
 \begin{equation}
@@ -406,7 +423,7 @@ where $\mu$ is the mean atomic weight of the gas and $m_{\rm{H}}$ is the mass of
 The free-free emission from evolved cool stars is weak (usually less than 1\,mJy at $\lambda > 3$\,cm) and therefore only a handful of these stars have known radio spectral indices at long wavelengths. The small number of such stars whose spectral indices are known have values which are greater than 0.6 \citep[e.g.][]{drake_1986} due the assumptions in the constant property wind model being too simplistic. Betelgeuse is by far the best studied evolved cool star at radio wavelengths and its radio spectrum is shown in Figure \ref{fig:1.5.5} \citep{newell_1982}. Its spectral index clearly deviates from 0.6. In Chapter \ref{chap:6} we derive a new version of Equation \ref{eq:1.32} which accounts for a thermal gradient in the outflow along with flow acceleration. Nevertheless, Figure \ref{fig:1.5.5} is a good example of the radio flux excess which is present for all all cool evolved. Even though the observed flux density decreases to longer wavelengths, the excess increases relative to the expected photospheric flux as clearly seen in Figure \ref{fig:1.5.5}.
 
 \subsection{Molecular Emission Lines from Stellar Winds}\label{sec:1.8.5}
-The large mass loss rates of red supergiants along with their low outflow velocities, results in relatively high density winds. This means that these winds are very extended compared to the size of the star itself. The low temperature regime ($T< 1000\,K$) of the outer winds (i.e., the CSE) favour the formation of molecules whose line emission profiles have traditionally been studied with single dish radio antennas. As shown in Figure \ref{fig:1.8.5}, these line profiles are generally either flat topped, if the lines are optically thin, or parabolic, if the lines are optically thick. These profile shapes are based on the assumption that the radio antenna is unable to spatially resolve the CSE, which has traditionally been common due to the low resolution of single dish radio antennas. If however, the antenna has the capability to resolve the CSE, then the optically thin line profiles become horned shaped and the optically thick line profiles become less parabolic, as shown in Figure \ref{fig:1.8.5}. This is due to the fact the radio antenna does not detect the most extended emission, which has the lowest absolute velocities, and therefore the emission at the center of the line profile is lower than the rest of the line in the optically thin case.
+The large mass loss rates of red supergiants along with their low outflow velocities, results in relatively high density winds. This means that these winds are very extended compared to the size of the star itself. The low temperature regime ($T< 1000\,K$) of the outer winds (i.e., the CSE) favour the formation of molecules whose emission line profiles have traditionally been studied with single dish radio antennas. As shown in Figure \ref{fig:1.8.5}, these line profiles are generally either flat topped, if the lines are optically thin, or parabolic, if the lines are optically thick. These profile shapes are based on the assumption that the radio antenna is unable to spatially resolve the CSE, which has traditionally been common due to the low resolution of single dish radio antennas. If however, the antenna has the capability to resolve the CSE, then the optically thin line profiles become horned shaped and the optically thick line profiles become less parabolic, as shown in Figure \ref{fig:1.8.5}. This is due to the fact the radio antenna does not detect the most extended emission, which has the lowest absolute velocities, and therefore the flux density at the center of the line profile is lower than the rest of the line in the optically thin case.
 
 \begin{figure}[hbt!]
 \centering 
@@ -415,7 +432,9 @@ The large mass loss rates of red supergiants along with their low outflow veloci
 \label{fig:1.8.5}
 \end{figure}
 
-If these molecular line profiles are observed with a radio interferometer, the appearance of the line can be the same as in Figure \ref{fig:1.8.5}, but the reasons will be different. To explain these reasons, we concentrate on an optically thin emission line. If the emission is unresolved by the interferometer, then as before the profile will be flat topped. However, if the emission is resolved by the interferometer then the profile may take on two different appearances, depending on the \textit{resolving-out scale}\footnote{ An interferometer cannot not recover emission on scales larger than this. See Chapter \ref{chap:2}.} of the interferometer. If the emission occurs on scales that are less then the interferometer's resolving-out scale then all emission is detected and the profile will just have a flat topped appearance. However, if the emission is extended on scales larger then the resolving-out scale, then the interferometer will not detect the material at low absolute velocities (i.e., the most extended material) and the profile will have a horned-shaped appearance. Molecular emission lines from red supergiants generally have lines widths of the order $20\rightarrow 50$\,km\,s$^{-1}$, indicative of $10 \rightarrow 25$\,km\,s$^{-1} $outflows. Even though these velocities are lower than the photospheric escape velocity (generally of the order $50\rightarrow 100$\,km\,s$^{-1}$), these molecular emission lines are formed in the CSE where the escape velocity is much lower than at the photosphere and so these lines are indicative of mass loss.
+If these molecular line profiles are observed with a radio interferometer, the appearance of the line can be the same as in Figure \ref{fig:1.8.5}, but the reasons will be different. To explain these reasons, we concentrate on an optically thin emission line. If the emission is unresolved by the interferometer, then as before the profile will be flat topped. However, if the emission is resolved by the interferometer then the profile may take on two different appearances, depending on the \textit{resolving-out scale}\footnote{ An interferometer cannot not recover emission on scales larger than this. See Chapter \ref{chap:2}.} of the interferometer. If the emission occurs on scales that are less then the interferometer's resolving-out scale then all emission is recovered and the profile will just have a flat topped appearance. However, if the emission is extended on scales larger then the resolving-out scale, then the interferometer will not detect the material at low absolute velocities (i.e., the most extended material) and the profile will have a horned-shaped appearance.
+
+Molecular emission lines from red supergiants generally have lines widths of the order $20\rightarrow 50$\,km\,s$^{-1}$, indicative of $10 \rightarrow 25$\,km\,s$^{-1} $outflows. Even though these velocities are lower than the photospheric escape velocity (generally of the order $50\rightarrow 100$\,km\,s$^{-1}$), these molecular emission lines are formed in the CSE where the escape velocity is much lower than at the photosphere and so these lines are indicative of mass loss.
 
 The most important molecule used in the study red supergiant outflows is CO as it can be observed in both O-rich and C-rich stars. CO is a very stable molecule and can form in the photospheres of very cool stars and persist far out into the CSE. In typical CSE conditions, the rotational levels in CO are excited via collisions with H$_{2}$ molecules and photo-excitation of the vibrational levels by IR photons in a process known as \textit{infrared pumping} \citep{lamers_1999}. It is the de-excitation of the rotational transitions of $v=0$ which produce emission lines at radio (i.e., mm) wavelengths. If collisions are the dominant means of populating the rotational levels (i.e., collisions are more important than infrared pumping) then the distribution of the molecules over the $J$ levels will be approximately in local thermodynamic equilibrium (LTE) with respect to the gas temperature. If however, infrared pumping is the most efficient means of populating the levels, then the distribution will deviate from LTE. 
 
