@@ -15,7 +15,7 @@ for the ion species, $i$. The flow acceleration is defined as $\pmb{a}\equiv (\p
 \begin{equation}\label{eq:b3}
 \pmb{f}_{d}=\gamma \rho _{n}\rho _{i}(\pmb{v}_{i}-\pmb{v}_{n})
 \end{equation}
-and $\pmb{f} _{L}$ is the volumetric Lorentz force. The equation of motion for the combined ion-neutral fluid is found by addition of Equations \ref{eq:b1} and \ref{eq:b2}
+and $\pmb{f} _{L}$ is the volumetric Lorentz force. The equation of motion for the combined ion-neutral fluid is found by the addition of Equations \ref{eq:b1} and \ref{eq:b2}
 \begin{equation}
 \rho \pmb{a} = \rho \pmb{g} +  \pmb{f} _{L}
 \end{equation}
@@ -47,12 +47,12 @@ In order to calculate the ambipolar diffusion heating, we need to find a value f
 \begin{equation}\label{eq:b10}
 \gamma =\frac{2.13\times 10^{14}}{1-0.714x_{e}}\left( \left[ 3.23 +41.0T_{4}^{0.5}\times \left(1+1.338\times 10^{-3}\frac{w_{5}^{2}}{T_{4}} \right)^{0.5}\right]x_{HI}+0.243\right)
 \end{equation} 
-where $T_{4}$ is the temperature in units of $10^4$\,K, $w_{5}$ is the slip speed in units of km\,s$^{-1}$. We have assumed no molecular hydrogen to be present and the fractional abundance of He, $x_{He}=0.1$.  Subbing Equation \ref{eq:b7} into Equation \ref{eq:b10} gives a quartic equation for $\gamma$, i.e., 
+where $T_{4}$ is the temperature in units of $10^4$\,K, and $w_{5}$ is the slip velocity in units of km\,s$^{-1}$. We have assumed no molecular hydrogen to be present and the fractional abundance of He, $x_{He}=0.1$.  Subbing Equation \ref{eq:b7} into Equation \ref{eq:b10} gives a quartic equation for $\gamma$, i.e., 
 \begin{eqnarray*}
 \gamma^{4}-(2AE + 2ABx_{HI})\gamma^{3} + (A^{2}E^{2} + 2A^{2}BEx_{HI} + \\ A^{2}B^{2}x_{HI}^{2}-A^{2}C^{2}x_{HI}^{2})\gamma^{2} - GA^{2}C^{2}x_{HI}^{2} = 0
 \end{eqnarray*} 
 where\\
-$A=\frac{2.13\times 10^{14}}{1-0.714x_{e}}$, $B=3.23$, $C=41.0T^{0.5}_{4}$, $D=\frac{1.338\times 10^{-3}}{T_{4}}$, $E=0.243$, $F=\frac{\pmb{f} _{L}}{\rho_{i}(\rho_{n}+\rho_{i})}$, and $G=\frac{DF^{2}}{1\times10^{10}}$. Finally the radial and azimuthal Lorentz forces and thus the corresponding volumetric ambipolar heating rates can be calculated by using the following expressions for the flow and gravitational accelerations:
+$A=\frac{2.13\times 10^{14}}{1-0.714x_{e}}$, $B=3.23$, $C=41.0T^{0.5}_{4}$, $D=\frac{1.338\times 10^{-3}}{T_{4}}$, $E=0.243$, $F=\frac{\pmb{f} _{L}}{\rho_{i}(\rho_{n}+\rho_{i})}$, and $G=\frac{DF^{2}}{1\times10^{10}}$. Finally the components of the Lorentz force and thus the corresponding volumetric ambipolar heating rates can be calculated by using the following expressions for the flow and gravitational accelerations:
 \begin{equation}
 \pmb{a} = v\frac{dv}{dr}\pmb{r} + \frac{v}{r}\frac{dv}{d\theta}\pmb{\theta}+\frac{v}{r\mathrm{sin}\,\theta}\frac{dv}{d\phi}\pmb{\phi}
 \end{equation}

@@ -1,23 +1,23 @@
 %!TEX root = ../thesis.tex
 %Adding the above line, with the name of your base .tex file (in this case "thesis.tex") will allow you to compile the whole thesis even when working inside one of the chapter tex files
 %: ----------------------- introduction file header -----------------------
-\chapter{A Thermal Energy Balance for Arcturus' Outflow}
+\chapter{Thermal Energy Balance of Arcturus' Outflow}
 \label{chap:7}
 
-The chapter investigates the various heating and cooling processes that control the thermal structure of Arcturus' mass outflow region. We use the hybrid chromosphere and wind model derived in Chapter \ref{chap:6} as the basis to derive the magnitude of these processes as function of distance from the star. The analysis focuses on distances relatively close to the star (i.e., between $1.2\rightarrow 10\,R_{\star}$) and includes the wind acceleration zone (i.e., between $\sim 1.2\rightarrow 1.7\,R_{\star}$), a region where much of the energy that drives the wind is injected. The effect of adiabatic expansion cooling, line cooling from neutral and ionic species, and radiative recombination are investigated wind coolents. The heating mechanisms investigated are the deposition of magnetic wave energy, ambipolar diffusion, and radiative heating. This work is a continuation of the initial findings of \cite{ogorman_2011}.
+The chapter investigates the various heating and cooling processes that control the thermal structure of Arcturus' mass outflow region. We use the hybrid chromosphere and wind model derived in Chapter \ref{chap:6} as the basis to derive the magnitude of these processes as function of distance from the star. The analysis focuses on distances relatively close to the star (i.e., between $1.2\rightarrow 10\,R_{\star}$) and includes the wind acceleration zone (i.e., between $\sim 1.2\rightarrow 1.7\,R_{\star}$), a region where much of the energy that drives the wind is injected. The effect of adiabatic expansion cooling, line cooling from neutral and ionic species, and radiative recombination are investigated as wind coolants. The heating mechanisms investigated are the deposition of magnetic wave energy, ambipolar diffusion, and radiative heating. This work is a continuation of the initial findings of \cite{ogorman_2011}.
 
 \pagebreak
 
 \section{Motivation for a Thermal Energy Balance}\label{sec:7.1}
-We have shown in Chapter \ref{chap:1} that for a monotonic ideal gas, the energy per unit mass, $u(r)$, is the sum of the kinetic and gravitational energies, and the enthalpy
+We have shown in Chapter \ref{chap:1} that for a monotonic ideal gas, the energy per unit mass, $e(r)$, is the sum of the kinetic and gravitational energies, and the enthalpy
 \begin{equation}
 \label{eq:7.1}
-u(r)=\frac{v(r)^2}{2}-\frac{GM_{\star}}{r}+\frac{5\mathcal{R}T}{2\mu}.
+e(r)=\frac{v(r)^2}{2}-\frac{GM_{\star}}{r}+\frac{5\mathcal{R}T}{2\mu}.
 \end{equation}
-The lower boundary of a stellar outflow is the photosphere which is gravitationally bound to the star. This implies that the energy in Equation \ref{eq:7.1} must be negative at this point. If a star is to have an outflow, then its energy must become positive at large $r$ to escape the gravitational well [i.e., $v(r)^2 \geq v_{\rm{esc}}(r)^2$]. Therefore, energy must be added to the gas if its velocity is to reach (or exceed) the local escape velocity. The addition of this energy can be either in the form of heat input per unit mass, $q(r)$, or in the form of momentum input [i.e., an outward force, $f(r)$]. In other words, differentiating Equation \ref{eq:7.1} with respect to $r$ gives the change in energy per distance from the star, and this becomes
+The lower boundary of a stellar outflow is the photosphere which is gravitationally bound to the star. This implies that the energy in Equation \ref{eq:7.1} must be negative at this point. If a star is to have an outflow, then the energy must become positive at large $r$ to escape the gravitational well [i.e., $v(r)^2 \geq v_{\rm{esc}}(r)^2$]. Therefore, energy must be added to the gas if the velocity is to reach (or exceed) the local escape velocity. The addition of this energy can be either in the form of heat input per unit mass, $q(r)$, or in the form of momentum input [i.e., an outward force per unit mass, $f(r)$]. In other words, differentiating Equation \ref{eq:7.1} with respect to $r$ gives the change in energy per unit distance from the star, and this becomes
 \begin{equation}
 \label{eq:7.2}
-\frac{d\,u(r)}{dr}=f(r)+q(r),
+\frac{d\,e(r)}{dr}=f(r)+\frac{dq(r)}{dr},
 \end{equation}
 which is just a form of the \textit{Bernoulli} equation. The unknown fundamental mechanisms responsible for driving the winds of cool evolved stars must therefore manifest themselves in either one or both of the quantities on the right hand side of Equation \ref{eq:7.2}. Therefore, studying the heating deposition , $q(r)$, taking place in Arcturus's outflow is a valuable exercise and should provide insight into its wind driving mechanism(s).
 
@@ -59,7 +59,7 @@ and
 \label{eq:1.10}
 \mathcal{L}_{j}=\frac{2r}{3nkvT}\Lambda_{j}
 \end{equation} 
-are the various heating and cooling contributions respectively, normalized to constant velocity adiabatic expansion cooling. Finally this equation can be expressed in terms of the gas kinetic temperature's local power law slope, $\lambda$, 
+are the various heating and cooling rates per unit volume respectively, normalized to constant velocity adiabatic expansion cooling. Finally this equation can be expressed in terms of the gas kinetic temperature's local power law slope, $\lambda$, 
 \begin{equation} \label{eq:lambda}
 \frac{d(\mathrm{ln}\,T)}{d(\mathrm{ln}\,r)}=-\lambda
 \end{equation}
@@ -67,13 +67,13 @@ where
 \begin{equation}
 \lambda =\lambda_{0}+\displaystyle\sum_{i=1}\lambda_{i}
 \end{equation} 
-which contains all of the wind heating and cooling processes, including that from adiabatic expansion cooling, $\lambda_{0}$. We note that positive and negative $\lambda$'s represent cooling and heating, respectively. This notation will be used throughout this chapter and allows the various heating and cooling process to be easily compared to the $4/3$ exponent, characteristic of a constant velocity outflow undergoing adiabatic expansion cooling.
+which contains all of the wind heating and cooling processes, including that from adiabatic expansion cooling, $\lambda_{0}$. We note that positive and negative $\lambda$'s represent heating and cooling, respectively. This notation will be used throughout this chapter and allows the various heating and cooling process to be easily compared to the $4/3$ exponent, characteristic of a constant velocity outflow undergoing adiabatic expansion cooling.
 
 \section{Cooling Processes}\label{sec:7.3}
 The three ways in which the gas in Arcturus' partially ionized outflow can cool are through adiabatic expansion, radiative recombination, and collisional excitation of neutral and ionized atoms. We now assess the importance of each of these cooling processes between $\sim 1-10\,R_{\star}$. 
 
 \subsection{Adiabatic Expansion Cooling}\label{sec:7.3.1}
-Adiabatic expansion cooling is the thermodynamic process in which a fixed quantity of gas cools as it expands into a larger volume of gas. It is composed of a geometric term and a velocity gradient term; these being the first two terms on the right of Equation \ref{eq:7.8}. As shown in Figure \ref{fig:7.1}, the dominant term close to the photosphere is the velocity gradient term due to the rapid wind acceleration while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Adiabatic expansion cooling is a very efficient cooling mechanism in the atmospheres of all stars. To show this we take the atmosphere of Arcturus as an example and assume the absence of all heating mechanisms. The geometric factor alone then will lower the gas temperature to decrease by a factor of $10^4$ by $1500\,R_{\star}$ which is below the cosmic background temperature. 
+Adiabatic expansion cooling is the thermodynamic process in which a fixed quantity of gas cools as it expands into a larger volume of gas. It is composed of a geometric term and a velocity gradient term; these being the first two terms on the right of Equation \ref{eq:7.8}. As shown in Figure \ref{fig:7.1}, the dominant term close to the photosphere is the velocity gradient term due to the rapid wind acceleration while further out where the wind reaches its terminal velocity, the geometric term becomes dominant. Adiabatic expansion cooling is a very efficient cooling mechanism in stellar outflows. To demonstrate this we take the atmosphere of Arcturus as an example and assume the absence of all other heating and cooling mechanisms. Considering only the adiabatic geometric cooling factor, the gas temperature would decrease by a factor of $10^4$ by $1500\,R_{\star}$ which would lower the gas temperature to below the cosmic background temperature. 
 
 \begin{figure}[!ht]
 \centering 
@@ -92,10 +92,10 @@ where $\frac{3}{2}kT$ is the average thermal energy of a captured electron and $
 \alpha _{B}= \frac{2.06\times 10^{-11}}{T^{1/2}}\phi _{2}(\beta) \ \ \ \ \ \rm{s^{-1}\,cm^{3}}.
 \end{equation}
 $\phi _{2}(\beta)$ is a function that varies with temperature and has been tabulated for various temperatures by \citep{spitzer_1978}. Recombination to the ground state is excluded because the process produces another ionizing
-photon that can be easily absorbed again, producing the net effect that the recombination had not occurred. The radiative recombination cooling contribution can then be calculated using Equation \ref{eq:1.10}.
+photon that can be easily absorbed again, producing the net effect that the recombination had not occurred. The radiative recombination cooling contribution can then be calculated using Equation \ref{eq:1.10}, and as shown in Figure \ref{fig:7.1}, its contribution is significant between between $\sim 1-4\,R_{\star}$. 
 
 \subsection{Lyman-alpha Cooling}\label{sec:7.3.3}
-Collisions between electrons and gas atoms (or ions) causes energy to be exchanged between the thermal kinetic of the gas and the internal energy of the individual gas atoms (or ions). Collisional excitation cools the gas while collisional de-excitation heats the gas. At temperatures of a few thousand degrees, the excited levels in neural H can become populated from electron collisions and thus can be a source of cooling. The analytical expression for the resulting net cooling rate per volume is
+Collisions between electrons and gas atoms (or ions) causes energy to be exchanged between the thermal kinetic energy of the gas and the internal energy of the individual gas atoms (or ions). Collisional excitation cools the gas while collisional de-excitation heats the gas. At temperatures of a few thousand degrees, the excited levels in neural hydrogen can become populated from electron collisions and thus can be a source of cooling. The analytical expression for the resulting net cooling rate per volume is
 \begin{equation}
 \label{eq:ly_alpha}
 \Lambda _{\rm{eH}} = 7.3\times 10^{-19}n_{\rm{e}}n_{\rm{HI}}e^{-118,400/T(K)} \ \ \ \ \ \rm{erg\,s^{-1}\,cm^{-3}}
@@ -103,7 +103,7 @@ Collisions between electrons and gas atoms (or ions) causes energy to be exchang
 \cite{spitzer_1978}. Most of the resulting radiation comes from the $n=2$ level (Lyman $\alpha$) and this is why the cooling rate is almost proportional to exp$(-E_{12}/kT)$, where $E_{12}/k=118319\,K$. Equation \ref{eq:ly_alpha} is a very sensitive function of the gas temperature and as can be seen from Figure \ref{fig:7.1}, is the dominant cooling process out to $2.8\,R_{\star}$. The sharp falloff in temperature in Arcturus' outflow post $2.3\,R_{\star}$ results in this mechanism going from being a very efficient cooling process within $2.3\,R_{\star}$ to having a negligible effect by $\sim 3.1\,R_{\star}$.
 
 \subsection{Other Line Coolants}\label{sec:7.3.4}
-Due to its large abundance, H is expected to be the most efficient line cooling mechanism in the inner atmosphere of Arcturus. Nevertheless, it is also worth investigating the effects of line cooling from heavier elements which may become important at lower temperature further out in the atmosphere where line cooling from H has almost ceased. Line cooling from these heavy elements is due mainly to electron impact excitation of electronic levels of the neutral and ionized species at high temperatures, while at lower temperatures (i.e. further out in the CSE) line cooling is mainly due to the electron impact excitation of fine structure levels of the neutral and ionized constituents \citep{dalgarno_1972}. Table \ref{tab:7.1} lists the most relevant heavy elements for this study based on abundance and suitable line transitions. All heavy elements with an ionization potential (IP) lower than O were assumed fully ionized,  while the ionization balance of O was based on the IUE line profile analysis of \cite{judge_1986}.
+Due to its large abundance, hydrogen is expected to be the most efficient line cooling mechanism in the inner atmosphere of Arcturus. Nevertheless, it is also worth investigating the effects of line cooling from heavier elements which may become important at lower temperature further out in the atmosphere where line cooling from H has almost ceased. Line cooling from these heavy elements is due mainly to electron impact excitation of electronic levels of the neutral and ionized species at high temperatures, while at lower temperatures (i.e. further out in the CSE) line cooling is mainly due to the electron impact excitation of fine structure levels of the neutral and ionized constituents \citep{dalgarno_1972}. Table \ref{tab:7.1} lists the most relevant heavy elements for this study based on abundance and suitable line transitions. All heavy elements with an ionization potential (IP) lower than O were assumed fully ionized,  while the ionization balance of O was based on the IUE line profile analysis of \cite{judge_1986}.
 
 \begin{table}[!ht]
 \begin{center}
@@ -146,8 +146,6 @@ n_{\rm{cr}}=\frac{A_{ul}\rho _{ul}}{C_{ul}}.
 \end{equation}
 and tells us whether LTE is an accurate approximation at that point in the outflow.
 
-The line cooling from these heavy elements was found to be only significant within $1.5\,R_{\star}$; the most efficient of which being the \ion{C}{ii}\,$^{2}P \rightarrow ^{2}P$ semi-forbidden transition (2326\,\AA). As the density decreases so too do the number of collisions, and so when atoms/ions radiate they are less likely to be re-excited. Therefore line cooling from these heavy elements is only important at high densities, i.e., close to the star. Line cooling due to the fine structure levels of these elements was found to be negligible due to the high temperature regime. In Figure \ref{fig:7.2} we plot the sum of all the cooling mechanisms taking place in Arcturus' outflow. The cooling taking place within the first $3\,R_{\star}$ is mainly due to Lyman Alpha emission line while the cooling further out is mainly due to gas expansion, with a small contribution from radiative recombination. 
-
 \begin{figure}[!ht]
 \centering 
          \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=7cm,height=12cm, angle=90]{/home/eamon/thesis/thesis_template/7/tot_cooling.ps}
@@ -155,20 +153,29 @@ The line cooling from these heavy elements was found to be only significant with
 \label{fig:7.2}
 \end{figure}
 
+The line cooling from these heavy elements was found to be only significant within $1.5\,R_{\star}$; the most efficient of which being the \ion{C}{ii}\,$^{2}P \rightarrow ^{2}P$ semi-forbidden transition (2326\,\AA). As the density decreases so too do the number of collisions, and so when atoms/ions radiate they are less likely to be re-excited. Therefore line cooling from these heavy elements is only important at high densities, i.e., close to the star. Line cooling due to the fine structure levels of these elements was found to be negligible due to the high temperature regime. In Figure \ref{fig:7.2} we plot the sum of all the cooling mechanisms taking place in Arcturus' outflow. The cooling taking place within the first $3\,R_{\star}$ is mainly due to Lyman Alpha emission line while the cooling further out is mainly due to gas expansion, with a small contribution from radiative recombination. 
+
 \section{Heating Mechanisms}\label{sec:7.4}
 In the following sections we investigate various possible heating mechanisms taking place in Arcturus's outflow and the  overall efficiency of these mechanisms at various distances from the star. 
 
 \subsection{Photoionization Heating}\label{sec:7.4.1}
 The UV radiation field of Arcturus can photoionize atoms producing energetic electrons which heat the atmosphere. The energy released per second per unit volume due to the photoionization of an atom $X$ can be written as
 \begin{equation}\label{eq:7.20}
-\Gamma (X) = n(X)\int ^{\lambda _{th}}_{\lambda _{min}}\frac{4\pi J_{\lambda}}{E _{\lambda}}\sigma _{X}(\lambda)(E_{\lambda} - E_{\lambda _{th}})d\lambda
+\Gamma (X) = n(X)\int ^{\lambda _{th}}_{\lambda _{min}}\frac{4\pi J_{\lambda}}{E _{\lambda}}\sigma _{X}(\lambda)(E_{\lambda} - E_{\lambda _{th}})d\lambda .
 \end{equation}
 Here, $E_{\lambda} - E_{\lambda _{th}}$ is the energy added to the gas by one ionization, i.e., the energy of the incident photon minus the threshold energy for ionization, which is specific to each element. $J_{\lambda}$ is the 
 mean intensity of radiation at a point and so $4\pi J_{\lambda}/E _{\lambda}$ is the number of incident photons per unit area per unit time per unit wavelength interval. $\sigma _{X}(\lambda)$ is the ionization cross section for an atom $X$ by photons with an energy $E_{\lambda}$ below a threshold wavelength, $\lambda _{th}$, and is a function of wavelength.
 
+\begin{figure}[!ht]
+\centering 
+         \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=8.5cm,height=13cm, angle=90]{/home/eamon/thesis/thesis_template/7/cross_secs.ps}
+\caption[]{The photoionization cross section values for atoms with IPs less than 13.6\,eV which were used in this study. The photoionization of H from the $n=2$ level was also considered and its cross section is also shown. The ionization threshold for H\,(n=2) is 3646\,\AA .}
+\label{fig:7.3}
+\end{figure}
+
 To calculate the mean intensity, the incident flux must be known. The flux at the stellar surface, $F_{\star}$, is related to the flux observed at Earth, $F_{\oplus}$, by
 \begin{equation}
-F_{\star}= \left(\frac{d}{R_{\star}}\right)^2F_{\oplus}=\left(\frac{2}{\phi}\right)^2F_{\oplus}
+F_{\star}= \left(\frac{d}{R_{\star}}\right)^2F_{\oplus}=\left(\frac{2}{\phi}\right)^2F_{\oplus}.
 \end{equation}
 The mean intensity at a point in the atmosphere is then
 \begin{equation}
@@ -176,15 +183,9 @@ J(r)=W(r)I_{\star} =\frac{W}{\pi}\left(\frac{2}{\phi}\right)^2F_{\oplus}
 \end{equation}
 where $W(r)$ is the radiation dilution factor and is given by
 \begin{equation}
-W(r)=\frac{1}{2}\left(1 - \sqrt{1-\left(\frac{R_{\star}}{r}\right)^2} \right)
+W(r)=\frac{1}{2}\left(1 - \sqrt{1-\left(\frac{R_{\star}}{r}\right)^2} \right).
 \end{equation}
-The incident flux measurements (i.e., $F_{\oplus}$) which vary as a function of wavelength were obtained from the online StarCAT catalog \citep{ayres_2010}. Any missing data was interpolated or extrapolated upon to provide a continuous $J(r)$ between 912\,\AA and 3646\,\AA\,\,[i.e., the ionization threshold for the H\,($n=2$) level]. The photoionization cross section values for atoms with IPs less than 13.6\,eV along with the values for the H\,($n=2$) level were taken from \cite{mathisen_1984} and are shown as a function of wavelength in Figure \ref{fig:7.3}. The net heating due to photoionization was then found by using Equation \ref{eq:7.20} for each of these species resulting in significant heating inside $\sim 1.4\,R_{\star}$ as shown in Figure \ref{7.5}. However, by $\sim 2\,R_{\star}$ its heating ability is about one order of magnitude weaker than adiabatic cooling at the same distance and so photionization heating is not an efficient mechanism at heating Arcturus' outflow.
-\begin{figure}[!ht]
-\centering 
-         \includegraphics[trim=0pt 0pt 0pt 0pt,clip, width=8.5cm,height=13cm, angle=90]{/home/eamon/thesis/thesis_template/7/cross_secs.ps}
-\caption[]{The photoionization cross section values for atoms with IPs less than 13.6\,eV which were used in this study. The photoionization of H from the $n=2$ level was also considered and its cross section is also shown. The ionization threshold for H\,(n=2) is 3646\,\AA .}
-\label{fig:7.3}
-\end{figure}
+The incident flux measurements (i.e., $F_{\oplus}$) which vary as a function of wavelength were obtained from the online StarCAT catalog \citep{ayres_2010}. Any missing data were interpolated or extrapolated upon to provide a continuous $J(r)$ between 912\,\AA and 3646\,\AA\,\,[i.e., the ionization threshold for the H\,($n=2$) level]. The photoionization cross section values for atoms with IPs less than 13.6\,eV along with the values for the H\,($n=2$) level were taken from \cite{mathisen_1984} and are shown as a function of wavelength in Figure \ref{fig:7.3}. The net heating due to photoionization was then found by using Equation \ref{eq:7.20} for each of these species resulting in significant heating inside $\sim 1.4\,R_{\star}$ as shown in Figure \ref{fig:7.5}. However, by $\sim 2\,R_{\star}$ its heating ability is about one order of magnitude weaker than adiabatic cooling at the same distance and so photionization heating is not an efficient mechanism at heating Arcturus' outflow.
 
 \subsection{Ambipolar Diffusion Heating}\label{sec:7.4.2}
 If a magnetic field remains frozen to the electrons and ions in a plasma, the charged plasma and field can drift through the gas of neutral atoms. The collisions, chiefly between positive ions and neutral hydrogen atoms \citep{spitzer_1978}, result in an exchange of momentum between the magnetic field and the neutral gas which results in a net heating. The recent possible detection of a weak ($B < 1\,G$) mean longitudinal magnetic field for Arcturus \citep{Sennhauser_2011} suggests that ambipolar diffusion heating should be considered as a possible heating mechanism.  We use the expression given by \cite{shang_2002} to define the volumetric rate of ambipolar  diffusion 
@@ -195,9 +196,9 @@ Here, $\rho _{n}$ and $\rho _{i}$ are the mass densities of the neutral and ioni
 \begin{equation}
 \textbf{f}_{L}=\frac{1}{4\pi}(\grad \times \textbf{B})\times \textbf{B}.
 \end{equation}
-In Appendix \ref{x} we give a derivation for Equation \ref{eq:1.24} and demonstrate how the $\gamma$ coefficient can be transformed into a quartic equation by eliminating a term known as the slip velocity, $w$ ($w\equiv v_{i}-v_{n}$). The derivation of \ref{eq:1.24} assumes that the difference in acceleration in the neutrals and ions can be ignored. As shown in Appendix \ref{}, the radial Lorentz force is found from the equation of motion:
+In Appendix \ref{app:3} we provide a derivation for Equation \ref{eq:1.24} and demonstrate how the $\gamma$ coefficient can be transformed into a quartic equation by eliminating a term known as the slip velocity, $w$ ($w\equiv v_{i}-v_{n}$). The derivation of \ref{eq:1.24} assumes that the difference in acceleration in the neutrals and ions can be ignored. As shown in Appendix \ref{app:3}, the radial Lorentz force is found from the equation of motion:
 \begin{equation}
-\rho _{n}v_{n}\frac{dv_{n}}{dr}+\rho _{i}v_{i}\frac{dv_{i}}{dr}=-\frac{GM_{\star}}{r^2}(\rho _{n} + \rho _{i})+\mathbf{f}_{L}.
+\rho _{n}v_{n}\frac{dv_{n}}{dr}+\rho _{i}v_{i}\frac{dv_{i}}{dr}=-\frac{GM_{\star}}{r^2}(\rho _{n} + \rho _{i})+f_{L}.
 \end{equation}
 This then allows the $\gamma$ coefficient and thus the volumetric heating to be calculated. The effect of radial ambipolar diffusion heating was found to be about three orders of magnitude less than adiabatic constant velocity expansion cooling and is therefore a negligible heating mechanism. This is due to the relatively high ionization balance in Arcturus' outflow.
 
@@ -217,13 +218,13 @@ In this study, we adopt the following phenomenological form for the MHD turbulen
 \begin{equation}
 \Gamma_{turb} =\frac{1}{2}\frac{\rho U^{2}}{L/U}\ \ \ \rm{erg \ s^{-1} \ cm^{-3}},
 \end{equation} 
-where $U$ is the characteristic velocity and $L$ is the characteristic length scale. For solar studies, the characteristic length scale at the photosphere would be the size of the granular cells which are responsible for perturbing the flux tubes (i.e., $100-1000$\,km), which are similar in size to the solar photospheric scale height (i.e, $H_{\odot} \sim 270$\,km). Unlike the Sun, we cannot determine $L$ via observations and choose $L$ to be the local density scale height:
+where $U$ is the characteristic velocity and $L$ is the characteristic length scale. For solar studies, the characteristic length scale at the photosphere would be the size of the granular cells which are responsible for perturbing the flux tubes (i.e., $100-1000$\,km), which are similar in size to the solar photospheric density scale height (i.e, $H_{\odot} \sim 270$\,km). Unlike the Sun, we cannot determine $L$ via observations and choose $L$ to be the local density scale height:
 \begin{equation}
 L = \rho \left(\dfrac{d\rho}{dr} \right)^{-1}.
 \end{equation}
 The characteristic velocity is taken to be the local hydrogen sound speed, i.e., 
 \begin{equation}
-U=\sqrt{\frac{5}{3}\dfrac{P}{\rho}}=12.85\times 10^{5}\sqrt{\frac{T_{e}}{10^4}}.
+U=\sqrt{\frac{5}{3}\dfrac{P}{\rho}}=12.85\times 10^{5}\sqrt{\frac{T_{e}}{10^4}}\ \ \ \ \rm{cm}\,\rm{s}^{-1}.
 \end{equation}
 This simple description of turbulent heating assumes an ideal \cite{kolmogorov_1941} hydrodynamic cascade\footnote{See Appendix \ref{app:4}} but such simple descriptions have already successfully reproduced many properties of coronal heating for the Sun \citep{cranmer_2012}. The dissipation of turbulent fluctuations in Arcturus' wind make a significant heating contribution out to many stellar radii, as can be seen in Figure \ref{fig:7.5}. It can be shown that 
 \begin{equation}
@@ -239,7 +240,7 @@ and so when the wind has reached its terminal velocity, the turbulent heating va
 \end{figure}
 
 \section{Thermal Energy Balance}\label{sec:7.5}
-We first use the new atmospheric model for Arcturus, which is based on the multi-wavelength VLA observations outlined in Chapter \ref{chap:6}, to find its gas kinetic temperature local power law slope, $\lambda$. To do so, we substitute its temperature profile into Equation \ref{eq:lambda}. As the flow is isothermal between $1.2$ and $2.3\,R_{\star}$, the power law slope is zero as shown in Figure \ref{fig:7.6}. Beyond $2.3\,R_{\star}$, this model contains a temperature power-law slope of $T_e \propto r^{-1.65}$, and therefore $\lambda = -1.65$. For clarity, we have excluded the data within $1.2\,R_{\star}$ throughout this section as the density and temperature gradients within this region are very large (see Figure \ref{fig:6.15}), and can make the calculated $\lambda$ many orders of magnitude greater than those beyond $1.2\,R_{\star}$. The majority of the wind acceleration occurs beyond $1.2\,R_{\star}$ so the velocity gradient is still taken into account in our analysis.
+We first find its gas kinetic temperature local power law slope, $\lambda$, for the new atmospheric model of Arcturus which we developed in Chapter \ref{chap:6}, to. To do so, we substitute its temperature profile into Equation \ref{eq:lambda}. As the flow is isothermal between $1.2$ and $2.3\,R_{\star}$, the power law slope is zero as shown in Figure \ref{fig:7.6}. Beyond $2.3\,R_{\star}$, this model contains a temperature power-law slope of $T_e \propto r^{-1.65}$, and therefore $\lambda = -1.65$. For clarity, we have excluded the data within $1.2\,R_{\star}$ throughout this section as the density and temperature gradients within this region are very large, and can make the calculated $\lambda$ many orders of magnitude greater than those beyond $1.2\,R_{\star}$. The majority of the wind acceleration occurs beyond $1.2\,R_{\star}$ so the velocity gradient is still taken into account in our analysis.
 
 \begin{figure}[!ht]
 \centering 
@@ -251,6 +252,6 @@ We first use the new atmospheric model for Arcturus, which is based on the multi
 In theory, if we were able to precisely account for all of the heating and cooling processes taking place in Arcturus' atmosphere, then a summation of their power law slopes would reproduce the power law slope of the model atmosphere (assuming the model atmosphere to be an exact representation of the actual atmosphere). The dashed blue line in Figure \ref{fig:7.6} represents a summation of all the heating and cooling processes discussed in Sections  \ref{sec:7.3} and \ref{sec:7.4}. The result of this is a considerable net cooling at all distances from the star. Within $\sim 3\,R_{\star}$, this net cooling far exceeds that predicted by the atmospheric model. This implies that one or more additional energy inputs must be acting on the inner region of of the outflow, which have not been accounted for in Section \ref{sec:7.4}. The magnitude of this required additional heating within $\sim 3\,R{\star}$ is also shown in Figure \ref{fig:7.6} and is represented by the dot-dashed red line. Beyond, $\sim 3\,R_{\star}$ the temperature power law slope of the model atmosphere is less than the slope of the calculated net cooling. This is because the model atmosphere of Arcturus is cooling super-adiabatically beyond $2.3\,R_{\star}$ where $\lambda = -1.65$, while we have found that the only significant cooling process beyond $\sim 3\,R_{\star}$ is adiabatic expansion where $\lambda = -1.33$. 
 
 \section{Discussion}\label{sec:7.6}
-In Section \ref{sec:7.3} we found that the effect of Ly\,$\alpha$ line cooling becomes small beyond $\sim 3\,R_{\star}$. At greater distances we found that the only efficient cooling mechanism is adiabatic expansion. Since the velocity gradient is zero at these distances, the temperature local power law slope is $\lambda = -1.33$. The fact that we have not found any other efficient cooling mechanism beyond $\sim 3\,R_{\star}$ does hint that the temperature power-law coefficient of $-1.65$, in the new atmospheric model for Arcturus, may be slightly too large. One explanation for this might be because we assumed a constant ionization fraction when investigating the radio spectral indices in Chapter \ref{chap:6} (i.e., the ionization balance was assumed to be \textit{frozen-in}). Allowing the ionization balance to vary would have produced a smaller temperature power-law coefficient but this approach would have given too many free parameters and no unique wind solution would have been attainable. 
+In Section \ref{sec:7.3} we found that the effect of Ly\,$\alpha$ line cooling becomes small beyond $\sim 3\,R_{\star}$ and at greater distances we found that the only efficient cooling mechanism is adiabatic expansion. Since the velocity gradient is zero at these greater distances, the temperature local power law slope is $\lambda = -1.33$. The fact that we have not found any other efficient cooling mechanism beyond $\sim 3\,R_{\star}$ does hint that the temperature power-law coefficient of $-1.65$, in the new atmospheric model for Arcturus, may too severe. The fact that we assumed a constant ionization fraction when investigating the radio spectral indices in Chapter \ref{chap:6} (i.e., the ionization balance was assumed to be \textit{frozen-in}) may be a reason for this. Allowing the ionization balance to vary would have produced a smaller temperature power-law coefficient but this approach would have given too many free parameters and no unique wind solution would have been attainable via out analytical approach. 
 
-The value of the red dot-dashed line in Figure \ref{fig:7.6} would be zero at all radii if our model atmosphere was a complete description of the true value and if we had accounted for all of the heating and cooling processes. It is clear from this figure that the best results (i.e., closest values to zero) are found at distances beyond  $3\,R_{\star}$ where adiabatic expansion cooling produces a power law slope which is reasonably close the the model value. However, within $\sim 3\,R_{\star}$ it is very clear that some additional heating source is required to maintain the temperature profile of our model atmosphere. A more rigorous treatment (i.e., a non-phenomenological description) of heating due to the turbulent dissipation of Alfv\'ven waves may a possible route of investigation, although one would wonder how the different descriptions of the same process could produce such vastly differnt results. 
+The value of the red dot-dashed line in Figure \ref{fig:7.6} would be zero at all radii if our model atmosphere was a complete description of the true value and if we had accounted for all of the heating and cooling processes. It is clear from this figure that the best results (i.e., closest values to zero) are found at distances beyond  $3\,R_{\star}$ where adiabatic expansion cooling produces a power law slope which is reasonably close the the model value. However, within $\sim 3\,R_{\star}$ it is very clear that some major additional heating source is required to maintain the temperature profile of our model atmosphere. A more rigorous treatment (i.e., a non-phenomenological description) of heating due to the turbulent dissipation of Alfv\'en waves may be one possible route for further investigation, although one would wonder how the different descriptions of the same process could produce such vastly different results. 
