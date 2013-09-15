@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  15 SEP 2013 00:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  16 SEP 2013 00:48
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -542,10 +542,10 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux
 
-LaTeX Warning: Label `eq:1.11' multiply defined.
+LaTeX Warning: Label `eq:1.7.2' multiply defined.
 
 
-LaTeX Warning: Label `eq:1.12' multiply defined.
+LaTeX Warning: Label `eq:1.7.2' multiply defined.
 
 
 LaTeX Warning: Label `fig:1.5.4' multiply defined.
@@ -690,7 +690,7 @@ Chapter 1.
 
 
 ]
-Overfull \hbox (17.78278pt too wide) in paragraph at lines 11--11
+Overfull \hbox (17.78278pt too wide) in paragraph at lines 10--10
  |[]\OT1/cmr/bx/n/17.28 Motivation for Re-search-ing Cool Evolved Stel-
  []
 
@@ -698,20 +698,15 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+Underfull \hbox (badness 10000) in paragraph at lines 14--18
 
  []
 
-[2]
-Overfull \hbox (6.64279pt too wide) in paragraph at lines 20--20
- |[]\OT1/cmr/bx/n/17.28 On the Na-ture of Cool Evolved Stel-lar Winds| 
- []
-
-[3]
+[2] [3]
 File: /home/eamon/thesis/thesis_template/1/dividing_line.ps Graphic file (type 
 eps)
  </home/eamon/thesis/thesis_template/1/dividing_line.ps>
-Overfull \hbox (14.23563pt too wide) in paragraph at lines 25--26
+Overfull \hbox (14.23563pt too wide) in paragraph at lines 24--25
  [][][][][][][][][] 
  []
 
@@ -723,33 +718,33 @@ File: /home/eamon/thesis/thesis_template/1/mg_ca_oplot.ps Graphic file (type ep
 s)
 
 </home/eamon/thesis/thesis_template/1/mg_ca_oplot.ps>
-Overfull \hbox (17.43701pt too wide) in paragraph at lines 37--38
+Overfull \hbox (17.43701pt too wide) in paragraph at lines 36--37
  [][] 
  []
 
 [5] [6] [7]
-LaTeX Font Info:    Try loading font information for U+eus on input line 71.
+LaTeX Font Info:    Try loading font information for U+eus on input line 70.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2009/06/22 v3.00 Euler Script
 ) [8] [9]
 File: /home/eamon/thesis/thesis_template/1/cranmer.ps Graphic file (type eps)
 
 </home/eamon/thesis/thesis_template/1/cranmer.ps>
-Overfull \hbox (14.23795pt too wide) in paragraph at lines 114--115
+Overfull \hbox (14.23795pt too wide) in paragraph at lines 113--114
  [][][][][][][][][] 
  []
 
-[10] [11] [12]
+[10] [11] [12] [13]
 
-LaTeX Warning: Reference `chap:3' on page 13 undefined on input line 131.
+LaTeX Warning: Reference `chap:3' on page 14 undefined on input line 129.
 
-[13] [14] [15]
-Overfull \hbox (19.15178pt too wide) in paragraph at lines 145--166
+[14] [15]
+Overfull \hbox (19.15178pt too wide) in paragraph at lines 143--164
  [] 
  []
 
 
-Overfull \hbox (142.26378pt too wide) in paragraph at lines 145--166
+Overfull \hbox (142.26378pt too wide) in paragraph at lines 143--164
  []$[]$ 
  []
 
@@ -757,61 +752,65 @@ Overfull \hbox (142.26378pt too wide) in paragraph at lines 145--166
 File: /home/eamon/thesis/thesis_template/1/rsg_track2.ps Graphic file (type eps
 )
  </home/eamon/thesis/thesis_template/1/rsg_track2.ps>
-Overfull \hbox (14.23215pt too wide) in paragraph at lines 177--178
+Overfull \hbox (14.23215pt too wide) in paragraph at lines 174--175
  [][][][][][][][][] 
  []
 
 File: /home/eamon/thesis/thesis_template/1/rg_track1.ps Graphic file (type eps)
 
 </home/eamon/thesis/thesis_template/1/rg_track1.ps>
-Overfull \hbox (14.23215pt too wide) in paragraph at lines 186--187
+Overfull \hbox (14.23215pt too wide) in paragraph at lines 183--184
  [][][][][][][][][] 
  []
 
 [17] [18] [19]
 File: /home/eamon/thesis/thesis_template/1/radio_hr.ps Graphic file (type eps)
  </home/eamon/thesis/thesis_template/1/radio_hr.ps>
-Overfull \hbox (14.23807pt too wide) in paragraph at lines 211--212
+Overfull \hbox (14.23807pt too wide) in paragraph at lines 205--206
  [][][][][][][][][] 
  []
 
-
-LaTeX Warning: Reference `sec:1.7.4' on page 20 undefined on input line 216.
-
-[20] [21] [22]
+[20] [21] [22] [23]
+File: /home/eamon/thesis/thesis_template/1/ladder.ps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/1/ladder.ps>
 File: /home/eamon/thesis/thesis_template/1/rotational_levels.ps Graphic file (t
 ype eps)
- </home/eamon/thesis/thesis_template/1/rotational_levels.ps>
-[23] [24] [25] [26] [27]
+
+</home/eamon/thesis/thesis_template/1/rotational_levels.ps>
+Overfull \hbox (25.96796pt too wide) in paragraph at lines 252--253
+ [][] 
+ []
+
+[24] [25] [26] [27] [28] [29] [30]
 File: /home/eamon/thesis/thesis_template/1/radio_opacity.ps Graphic file (type 
 eps)
 
 </home/eamon/thesis/thesis_template/1/radio_opacity.ps>
 
-LaTeX Warning: Reference `chap:6' on page 28 undefined on input line 372.
+LaTeX Warning: Reference `chap:6' on page 31 undefined on input line 397.
 
-[28] [29]
+[31]
 File: /home/eamon/thesis/thesis_template/1/radio_spec.ps Graphic file (type eps
 )
  </home/eamon/thesis/thesis_template/1/radio_spec.ps>
-Overfull \hbox (14.23807pt too wide) in paragraph at lines 376--377
+Overfull \hbox (14.23807pt too wide) in paragraph at lines 401--402
  [][][][][][][][][] 
  []
 
-[30]
+[32] [33]
 File: /home/eamon/thesis/thesis_template/1/newell.ps Graphic file (type eps)
  </home/eamon/thesis/thesis_template/1/newell.ps>
 
-LaTeX Warning: Reference `chap:6' on page 31 undefined on input line 423.
+LaTeX Warning: Reference `chap:6' on page 34 undefined on input line 448.
 
-[31] [32]
+[34]
 File: /home/eamon/thesis/thesis_template/1/final_beam.ps Graphic file (type eps
 )
  </home/eamon/thesis/thesis_template/1/final_beam.ps>
 
-LaTeX Warning: Reference `chap:2' on page 33 undefined on input line 435.
+LaTeX Warning: Reference `chap:2' on page 35 undefined on input line 460.
 
-[33] [34]) [35]
+[35] [36]) [37]
 \openout2 = `appendix/app1.aux'.
 
  (./appendix/app1.tex
@@ -822,17 +821,17 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[36
+[38
 
 
 
-]) [37]
+]) [39]
 \openout2 = `appendix/app2.aux'.
 
  (./appendix/app2.tex
 Appendix B.
 
-LaTeX Warning: Reference `chap:7' on page 38 undefined on input line 6.
+LaTeX Warning: Reference `chap:7' on page 40 undefined on input line 6.
 
 File: /home/eamon/thesis/thesis_template/appendix/ogorman_e_fig6.eps Graphic fi
 le (type eps)
@@ -845,20 +844,20 @@ Overfull \hbox (8.90819pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-) [38
+) [40
 
 
 
-] [39] (./thesis.bbl (./thesis.brf)
+] [41] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [40
+ [42
 
 
-] [41] [42] [43] [44]) [45]
-(./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
+] [43] [44] [45] [46] [47])
+[48] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux
+) (./0/acknowledgement.aux) (./0/publications.aux) (./1/introduction.aux)
 (./appendix/app1.aux) (./appendix/app2.aux))
 
 LaTeX Warning: There were undefined references.
@@ -868,12 +867,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9245 strings out of 495062
- 133484 string characters out of 1182645
- 215913 words of memory out of 3000000
- 12126 multiletter control sequences out of 15000+50000
+ 9284 strings out of 495062
+ 134151 string characters out of 1182645
+ 216967 words of memory out of 3000000
+ 12164 multiletter control sequences out of 15000+50000
  19990 words of font info for 72 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,49p,2175b,631s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,49p,2170b,659s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (57 pages, 293808 bytes).
+Output written on thesis.dvi (60 pages, 312756 bytes).

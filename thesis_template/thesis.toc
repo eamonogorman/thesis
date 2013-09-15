@@ -4,26 +4,26 @@
 \contentsline {chapter}{List of Tables}{xi}{section*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation for Researching Cool Evolved Stellar Winds}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}On the Nature of Cool Evolved Stellar Winds}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Basic Concepts of Stellar Winds}{7}{section.1.3}
+\contentsline {section}{\numberline {1.2}On the Nature of Cool Evolved Stellar Atmospheres}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Basic Concepts of Stellar Winds}{8}{section.1.3}
 \contentsline {section}{\numberline {1.4}Stellar Wind Driving Mechanisms Across the H-R Diagram}{10}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Radiatively Driven Winds}{11}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Solar Type Winds}{12}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}Cool Evolved Stellar Winds}{13}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Red Giant and Red Supergiant Evolution}{14}{section.1.5}
+\contentsline {section}{\numberline {1.5}Red Giant and Red Supergiant Evolution}{15}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Change in Atmospheric Dynamics}{15}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Evolutionary Tracks}{16}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Radio Emission from Stellar Atmospheres}{19}{section.1.6}
+\contentsline {section}{\numberline {1.6}Radio Emission from Stellar Atmospheres}{20}{section.1.6}
 \contentsline {section}{\numberline {1.7}Radio Emission Mechanisms}{22}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Thermal Free-free (Bremsstrahlung) Emission}{22}{subsection.1.7.1}
-\contentsline {subsection}{\numberline {1.7.2}Molecular Line Emission}{23}{subsection.1.7.2}
-\contentsline {section}{\numberline {1.8}Radio Observations of Stellar Atmospheres}{24}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Brightness Temperature}{24}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}Brightness Temperature and Flux Density}{26}{subsection.1.8.2}
-\contentsline {subsection}{\numberline {1.8.3}Thermal Free-free Radio Opacity}{27}{subsection.1.8.3}
-\contentsline {subsection}{\numberline {1.8.4}Radio Excess from Stellar Winds}{28}{subsection.1.8.4}
-\contentsline {subsection}{\numberline {1.8.5}Molecular Emission Lines from Stellar Winds}{33}{subsection.1.8.5}
-\contentsline {section}{\numberline {1.9}Outline and Goals of this Thesis}{35}{section.1.9}
-\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{36}{appendix.A}
-\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{38}{appendix.B}
-\contentsline {chapter}{References}{40}{section*.21}
+\contentsline {subsection}{\numberline {1.7.1}Thermal Free-free (Bremsstrahlung) Emission}{23}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Molecular Line Emission}{24}{subsection.1.7.2}
+\contentsline {section}{\numberline {1.8}Radio Observations of Stellar Atmospheres}{26}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Brightness Temperature}{26}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Brightness Temperature and Flux Density}{28}{subsection.1.8.2}
+\contentsline {subsection}{\numberline {1.8.3}Thermal Free-free Radio Opacity}{29}{subsection.1.8.3}
+\contentsline {subsection}{\numberline {1.8.4}Radio Excess from Stellar Winds}{32}{subsection.1.8.4}
+\contentsline {subsection}{\numberline {1.8.5}Molecular Emission Lines from Stellar Winds}{35}{subsection.1.8.5}
+\contentsline {section}{\numberline {1.9}Outline and Goals of this Thesis}{37}{section.1.9}
+\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{38}{appendix.A}
+\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{40}{appendix.B}
+\contentsline {chapter}{References}{42}{section*.21}

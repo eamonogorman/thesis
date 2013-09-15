@@ -1,4 +1,4 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{85}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Adams} \& {MacCormack}(1935)}]{adams_1935}
@@ -30,6 +30,37 @@
 {\sc {Ayres}, T.R., {Brown}, A., {Harper}, G.M., {Bennett}, P.D., {Linsky},
   J.L., {Carpenter}, K.G. \& {Robinson}, R.D.} (1997). {Digging Deeper in the
   Coronal Graveyard}. {\em \apj\/}, {\bf 491}, 876.
+
+\bibitem[{{Beck} {\em et~al.\/}(2011){Beck}, {Bedding}, {Mosser}, {Stello},
+  {Garcia}, {Kallinger}, {Hekker}, {Elsworth}, {Frandsen}, {Carrier}, {De
+  Ridder}, {Aerts}, {White}, {Huber}, {Dupret}, {Montalb{\'a}n}, {Miglio},
+  {Noels}, {Chaplin}, {Kjeldsen}, {Christensen-Dalsgaard}, {Gilliland},
+  {Brown}, {Kawaler}, {Mathur} \& {Jenkins}}]{beck_2011}
+{\sc {Beck}, P.G., {Bedding}, T.R., {Mosser}, B., {Stello}, D., {Garcia}, R.A.,
+  {Kallinger}, T., {Hekker}, S., {Elsworth}, Y., {Frandsen}, S., {Carrier}, F.,
+  {De Ridder}, J., {Aerts}, C., {White}, T.R., {Huber}, D., {Dupret}, M.A.,
+  {Montalb{\'a}n}, J., {Miglio}, A., {Noels}, A., {Chaplin}, W.J., {Kjeldsen},
+  H., {Christensen-Dalsgaard}, J., {Gilliland}, R.L., {Brown}, T.M., {Kawaler},
+  S.D., {Mathur}, S. \& {Jenkins}, J.M.} (2011). {Kepler Detected Gravity-Mode
+  Period Spacings in a Red Giant Star}. {\em Science\/}, {\bf 332}, 205--.
+
+\bibitem[{{Bedding} {\em et~al.\/}(2011){Bedding}, {Mosser}, {Huber},
+  {Montalb{\'a}n}, {Beck}, {Christensen-Dalsgaard}, {Elsworth},
+  {Garc{\'{\i}}a}, {Miglio}, {Stello}, {White}, {De Ridder}, {Hekker}, {Aerts},
+  {Barban}, {Belkacem}, {Broomhall}, {Brown}, {Buzasi}, {Carrier}, {Chaplin},
+  {di Mauro}, {Dupret}, {Frandsen}, {Gilliland}, {Goupil}, {Jenkins},
+  {Kallinger}, {Kawaler}, {Kjeldsen}, {Mathur}, {Noels}, {Aguirre} \&
+  {Ventura}}]{bedding_2011}
+{\sc {Bedding}, T.R., {Mosser}, B., {Huber}, D., {Montalb{\'a}n}, J., {Beck},
+  P., {Christensen-Dalsgaard}, J., {Elsworth}, Y.P., {Garc{\'{\i}}a}, R.A.,
+  {Miglio}, A., {Stello}, D., {White}, T.R., {De Ridder}, J., {Hekker}, S.,
+  {Aerts}, C., {Barban}, C., {Belkacem}, K., {Broomhall}, A.M., {Brown}, T.M.,
+  {Buzasi}, D.L., {Carrier}, F., {Chaplin}, W.J., {di Mauro}, M.P., {Dupret},
+  M.A., {Frandsen}, S., {Gilliland}, R.L., {Goupil}, M.J., {Jenkins}, J.M.,
+  {Kallinger}, T., {Kawaler}, S., {Kjeldsen}, H., {Mathur}, S., {Noels}, A.,
+  {Aguirre}, S.V. \& {Ventura}, P.} (2011). {Gravity modes as a way to
+  distinguish between hydrogen- and helium-burning red giant stars}. {\em
+  \nat\/}, {\bf 471}, 608--611.
 
 \bibitem[{{Berio} {\em et~al.\/}(2011){Berio}, {Merle}, {Th{\'e}venin},
   {Bonneau}, {Mourard}, {Chesneau}, {Delaa}, {Ligi}, {Nardetto}, {Perraut},
@@ -100,6 +131,15 @@
 \bibitem[{{Deutsch}(1956)}]{deutsch_1956}
 {\sc {Deutsch}, A.J.} (1956). {The Circumstellar Envelope of Alpha Herculis.}
   {\em \apj\/}, {\bf 123}, 210.
+
+\bibitem[{{Dohm-Palmer} \& {Skillman}(2002)}]{dohm-palmer_2002}
+{\sc {Dohm-Palmer}, R.C. \& {Skillman}, E.D.} (2002). {The Ratio of Blue to Red
+  Supergiants in Sextans A from Hubble Space Telescope Imaging}. {\em \aj\/},
+  {\bf 123}, 1433--1437.
+
+\bibitem[{{Draine}(2011)}]{draine_2011}
+{\sc {Draine}, B.T.} (2011). {\em {Physics of the Interstellar and
+  Intergalactic Medium}\/}.
 
 \bibitem[{{Drake} \& {Linsky}(1986)}]{drake_1986}
 {\sc {Drake}, S. \& {Linsky}, J.} (1986). {Radio continuum emission from winds,

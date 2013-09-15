@@ -34,53 +34,59 @@ Repeated entry---line 3971 of file mybib.bib
  : @article{gehrz_1971
  :                    ,
 I'm skipping whatever remains of this entry
+Illegal end of database file---line 4549 of file mybib.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Altenhoff_1960
 Warning--missing publisher in dalgarno_1987
+Warning--missing publisher in draine_2011
 Warning--missing publisher in gradshteyn_1994
 Warning--missing publisher in lamers_1999
 Warning--missing publisher in rohlfs_1996
 Warning--missing publisher in rybicki_1979
 Warning--empty journal in stancliffe_2009
-You've used 81 entries,
+You've used 85 entries,
             3018 wiz_defined-function locations,
-            1097 strings with 16784 characters,
-and the built_in function-call counts, 47829 in all, are:
-= -- 4053
-> -- 1982
-< -- 63
-+ -- 713
-- -- 631
-* -- 3903
-:= -- 7329
-add.period$ -- 238
-call.type$ -- 81
-change.case$ -- 618
-chr.to.int$ -- 80
-cite$ -- 88
-duplicate$ -- 3512
-empty$ -- 3543
-format.name$ -- 883
-if$ -- 9604
+            1115 strings with 18513 characters,
+and the built_in function-call counts, 53215 in all, are:
+= -- 4403
+> -- 2553
+< -- 65
++ -- 906
+- -- 820
+* -- 4412
+:= -- 8155
+add.period$ -- 249
+call.type$ -- 85
+change.case$ -- 700
+chr.to.int$ -- 84
+cite$ -- 93
+duplicate$ -- 3780
+empty$ -- 3765
+format.name$ -- 1084
+if$ -- 10637
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 716
-newline$ -- 247
-num.names$ -- 340
-pop$ -- 1330
+missing$ -- 802
+newline$ -- 259
+num.names$ -- 356
+pop$ -- 1553
 preamble$ -- 1
-purify$ -- 527
+purify$ -- 606
 quote$ -- 0
-skip$ -- 1275
+skip$ -- 1388
 stack$ -- 0
-substring$ -- 2186
-swap$ -- 1938
+substring$ -- 2290
+swap$ -- 2130
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 714
-warning$ -- 7
-while$ -- 330
+type$ -- 747
+warning$ -- 8
+while$ -- 345
 width$ -- 0
-write$ -- 888
-(There were 6 error messages)
+write$ -- 930
+(There were 7 error messages)
