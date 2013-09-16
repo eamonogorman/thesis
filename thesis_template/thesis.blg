@@ -5,88 +5,56 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
-A level-1 auxiliary file: 1/introduction.aux
+A level-1 auxiliary file: 8/con_fut.aux
 A level-1 auxiliary file: appendix/app1.aux
 A level-1 auxiliary file: appendix/app2.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
-Repeated entry---line 3179 of file mybib.bib
- : @article{hummer_1988
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3322 of file mybib.bib
- : @article{linsky_1979
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3405 of file mybib.bib
- : @article{hartmann_1980
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3443 of file mybib.bib
- : @article{carpenter_1999
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3553 of file mybib.bib
- : @article{harper_2010
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3971 of file mybib.bib
- : @article{gehrz_1971
- :                    ,
-I'm skipping whatever remains of this entry
 Illegal end of database file---line 4549 of file mybib.bib
  : 
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty journal in Altenhoff_1960
-Warning--missing publisher in dalgarno_1987
-Warning--missing publisher in draine_2011
-Warning--missing publisher in gradshteyn_1994
-Warning--missing publisher in lamers_1999
-Warning--missing publisher in rohlfs_1996
-Warning--missing publisher in rybicki_1979
-Warning--empty journal in stancliffe_2009
-You've used 85 entries,
+You've used 3 entries,
             3018 wiz_defined-function locations,
-            1115 strings with 18513 characters,
-and the built_in function-call counts, 53215 in all, are:
-= -- 4403
-> -- 2553
-< -- 65
-+ -- 906
-- -- 820
-* -- 4412
-:= -- 8155
-add.period$ -- 249
-call.type$ -- 85
-change.case$ -- 700
-chr.to.int$ -- 84
-cite$ -- 93
-duplicate$ -- 3780
-empty$ -- 3765
-format.name$ -- 1084
-if$ -- 10637
-int.to.chr$ -- 2
+            662 strings with 5302 characters,
+and the built_in function-call counts, 1919 in all, are:
+= -- 162
+> -- 73
+< -- 2
++ -- 26
+- -- 23
+* -- 147
+:= -- 294
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 24
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 139
+empty$ -- 148
+format.name$ -- 29
+if$ -- 393
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 802
-newline$ -- 259
-num.names$ -- 356
-pop$ -- 1553
+missing$ -- 27
+newline$ -- 13
+num.names$ -- 14
+pop$ -- 51
 preamble$ -- 1
-purify$ -- 606
+purify$ -- 19
 quote$ -- 0
-skip$ -- 1388
+skip$ -- 58
 stack$ -- 0
-substring$ -- 2290
-swap$ -- 2130
-text.length$ -- 6
+substring$ -- 103
+swap$ -- 76
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 747
-warning$ -- 8
-while$ -- 345
+type$ -- 27
+warning$ -- 0
+while$ -- 14
 width$ -- 0
-write$ -- 930
-(There were 7 error messages)
+write$ -- 36
+(There was 1 error message)

@@ -8,6 +8,8 @@
 \pagebreak
 
 \section{Motivation for Researching Cool Evolved Stellar Winds}\label{sec:1.1}
+This thesis attempts to understand the dynamics and thermodynamics of the atmospheres of red giants and red supergiants with the ultimate goal of gaining a broader understanding of their mass-loss processes. Insight
+
 
 Mass-loss from non-coronal spectral-type K through mid-M evolved stars plays a crucial role in galactic evolution and ultimately provides part of the material required for the next generation of stars and planets. This mass-loss occurs via a cool ($T_{e} \lesssim 10^4\,K$) wind with terminal velocities typically less than the photospheric escape velocity ($10 \leq v_{\infty} \leq 50$\,km\,s$^{-1}$). The mass-loss rates for the red giants are significant, typically $10^{-11}-10^{-9}$\,$M_{\odot}$\,yr$^{-1}$, and are even higher for the more short-lived red supergiants, typically $10^{-6}-10^{-4}$\,$M_{\odot}$\,yr$^{-1}$. This implies that a substantial fraction of the star's initial mass can be dispersed to the interstellar medium (ISM) during these post main sequence evolutionary stages \citep[e.g.,][]{schroder_2001}. Mass-loss from these stars is therefore a crucial factor governing stellar evolution \citep{chiosi_1986}, and also in explaining the frequency of supernovae in the galaxy \citep{van_loon_2010,dohm-palmer_2002}. Despite the importance of this phenomenon, and decades of study, the mechanisms that drive winds from evolved spectral-type K through mid-M stars remain unknown (clearly laid out by \citealt{holzer_1985} but still unsolved, e.g., \citealt{crowley_2009}). There is insufficient atomic, molecular, or dust opacity to drive a radiation-driven outflow \citep{zukerman_1995,jones_2008} and acoustic/pulsation models cannot drive the observed mass-loss rates \citep{sutmann_1995}. Ultraviolet (UV) and optical observations reveal an absence of significant hot wind plasma, and the winds are thus too cool to be Parker-type thermally-driven flows \cite[e.g.,][]{linsky_1979,haisch_1980,ayres_1981}. 
 
@@ -228,7 +230,7 @@ Thermal Bremsstrahlung from an ionized or partially ionized plasma is often call
 \varepsilon _{\nu} ^{ff} = 6.8 \times 10^{-38}Z^{2}n_{e}n_{i}T^{-1/2}e^{-h\nu /kT}g_{ff}\ \ \ \ \rm{erg}\,\rm{cm}^{-3}\,s^{-1}\,\rm{Hz}^{-1}
 \end{equation}
 Here, $g_{ff}$ is the free-free Gaunt factor and is a correction factor which is a function of electron energy and frequency of emission. Extensive tables and graphs of $g_{ff}$ exist in the literature \citep[e.g.,][]{karzas_1961}. The free-free emissivity, which is a fundamental term in the equation of radiative transfer is then
-\begin{equation}\label{eq:1.7.2}
+\begin{equation}\label{eq:1.7.2a}
 j_{\nu} ^{ff}=\frac{\varepsilon _{\nu} ^{ff}}{4\pi}.
 \end{equation}
 The free-free radio opacity can then be found from Kirchoff's law and is discussed in Section \ref{sec:1.8.3}.
@@ -239,7 +241,7 @@ A diatomic molecule such as CO or SiO, can vibrate (stretch) along the internucl
 E_{\mathrm{rot}} = \frac{I\omega ^2}{2}
 \end{equation}
 where $I = m_{r}r_{0}^2$ is the moment of inertia, $m_{r}$ is the reduced mass, $r_{0}$ is the separation of the two masses, and $\omega$ is the angular velocity of the rotation. The quantization of angular momentum, $L$, to integer multiples of $\hbar$ leads to $L=J\hbar$, where $J=1,2,\dots$. Equation \ref{eq:1.7.2} can then be written as
-\begin{equation}\label{eq:1.7.2}
+\begin{equation}
 E_{\mathrm{rot}} = \frac{L^2}{2I}=\frac{J(J+1)\hbar ^2}{2I}=\frac{J(J+1)\hbar ^2}{2m_{r}r_0 ^2}=B_{v}J(J+1)
 \end{equation}
 where $B_{v}$ is the \textit{rotation constant} and is subscripted $v$ because the moment of inertia depends on the vibrational state. 
@@ -265,13 +267,17 @@ Z(T) & = & \sum\limits_{i}g_{i}e^{-E_{i}/kT} \\
               & \approx & \int ^{\infty} _{0}(2J+1)e^{-BJ(J+1)/kT} dJ =kT/B.
 \end{eqnarray}
 The relative rotational populations within a given vibrational state are then
-\begin{equation}
+\begin{equation}\label{eq:1.24a}
 \dfrac{n_{J}(v)}{n(v)} \approx \frac{(2J+1)B}{kT}e^{-BJ(J+1)/kT}
 \end{equation}
-which depends only on $T$. This distribution is plotted in Figure \ref{fig:1.7.2} for the ground vibrational levels of CO and SiO and shows how the levels are populated with respect to one another at two different temperatures\footnote{These temperatures are the expected values of the CSE flows of Betelgeuse.}. The distribution is such that at low temperatures, the rotational levels are more relatively populated at lower $J$s, while higher $J$s become relatively more populated at higher temperatures.
+which depends only on $T$. This distribution is plotted in Figure \ref{fig:1.7.2} for the ground vibrational levels of CO and SiO and shows how the levels are populated with respect to one another at two different temperatures\footnote{These temperatures are the expected values of the CSE flows of Betelgeuse.}. The distribution is such that at low temperatures, the rotational levels are more relatively populated at lower $J$s, while higher $J$s become relatively more populated at higher temperatures. Differentiating Equation \ref{eq:1.24a} with respect to $J$
+gives the most probable occupied rotational state, $J_{\rm{mp}}$, as a function of temperature,
+\begin{equation}
+J_{\mathrm{mp}}=\sqrt{\frac{T}{2B}}-\frac{1}{2}.
+\end{equation}
 
 \section{Radio Observations of Stellar Atmospheres}\label{sec:1.8}
-In the following sections we present the basic definitions used to describe radio observations of stellar atmospheres. We define the \textit{brightness temperature} which is commonly used in radio astronomy to measure the brightness of a source, along with its relationship to the fundamental quantity measured by a radio telescope, the \textit{flux density}. Focusing on thermal emission, we describe how the flux density varies with frequency when observing both optically thin and optically thick stellar atmospheres.
+In the following sections we present the basic definitions used to describe radio observations of stellar atmospheres. We define the \textit{brightness temperature} which is commonly used in radio astronomy to measure the brightness of a source, along with its relationship to the fundamental quantity measured by a radio telescope, the \textit{flux density}. Focusing on thermal emission, we describe how the flux density varies with frequency when observing both optically thin and optically thick stellar atmospheres, and conclude by discussing how molecular emission line profiles can be studied at radio wavelengths.
 
 %At this point it is well to draw the distinction between blackbody radiation, where I, = B,, and thermal radiation, where S,, = B,. Thermal radiation becomes blackbody radiation only for optically thick media
 \subsection{Brightness Temperature}\label{sec:1.8.1}
@@ -279,7 +285,7 @@ In thermodynamic equilibrium the spectral distribution or brightness, $B_{\nu}$,
 \begin{equation}\label{eq:1.1}
 B_{\nu}(T_{e})=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT_{e}}-1}
 \end{equation}
-and has units of flux per frequency interval per solid angle. One can easily switch to a wavelength scale using  $B_{\nu}d\nu = B_{\lambda}d\lambda$. When $h\nu \ll kT_{e}$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
+and has units of erg\,s$^{-1}$\,cm$^{-1}$\,Hz$^{-1}$\,sr$^{-1}$. One can easily switch to a wavelength scale using  $B_{\nu}d\nu = B_{\lambda}d\lambda$. When $h\nu \ll kT_{e}$ Equation \ref{eq:1.1} becomes the \textit{Rayleigh-Jeans Law}
 \begin{equation}
 \label{eq:1.2}
 B_{\nu}(T_{e})=I_{\nu}(T_{e})=\dfrac{2\nu ^2kT_{e}}{c^2}.
@@ -327,10 +333,10 @@ and
 \begin{equation}\label{eq:1.12}
 T_{b} = \tau T_{e} \ \ \ \ \mathrm{(i.e.,\ for\ optically\ thin}\ \tau \ll 1).
 \end{equation}
-In these equations, $T_{e}$ can also be replaced by $T_{\rm{eff}}$ if the radio emission emission is non-thermal. Also, these equations are only valid if the source is spatially resolved. If the source is unresolved then an upper limit to $T_{e}/T_{\rm{eff}}$ is found.
+In these equations, $T_{e}$ can also be replaced by $T_{\rm{eff}}$ if the radio emission emission is non-thermal. Also, these equations are only valid if the source is spatially resolved. If the source is unresolved then a lower limit to $T_{e}$ or $T_{\rm{eff}}$ is found.
 
 \subsection{Brightness Temperature and Flux Density}\label{sec:1.8.2}
-The flux density, $F_{\nu}$, is a fundamental quantity measured by a radio telescope and is usually measured in Janskys (Jy) where 1\,Jy$ = 1\times 10^{-26}$\,W\,m$^{-2}$\,Hz$^{-1}$. The observed flux density measured by the radio telescope is
+The flux density, $F_{\nu}$, is a fundamental quantity measured by a radio telescope and is usually measured in Janskys (Jy) where 1\,Jy$ = 1\times 10^{-26}$\,W\,m$^{-2}$\,Hz$^{-1}$. The observed flux density measured by the radio telescope is related to the specific intensity by
 \begin{equation}\label{eq:1.13}
 F_{\nu} = \int _{\Omega} I_{\nu}\,d\Omega
 \end{equation}
@@ -341,20 +347,20 @@ F_{\nu} =  \frac{\pi R_{\star}^2}{d^2}\frac{2k\nu ^2T_{b}}{c^2}.
 \end{equation}
 The angular diameter of a star in radians is $\phi _{\star}=2R_{\star}/d$ and so
 \begin{equation}
-F_{\nu}=\frac{\pi k\phi _{\star}^2 T_b}{2\lambda ^2}
+F_{\nu}=\frac{\pi k\phi _{\star}^2 T_b}{2\lambda ^2}.
 \end{equation}
 If $\phi _{\star}$ has major and minor axes $\phi _{\rm{maj}}$ and $\phi _{\rm{min}}$ then
 \begin{equation}
 T_{b} (K)=1.96F_{\nu}(\mathrm{mJy})\left(\frac{\lambda}{\mathrm{cm}}\right)^2\left(\frac{\phi _{\mathrm{min}}}{\mathrm{arcsec}} \frac{\phi _{\mathrm{min}}}{\mathrm{arcsec}}\right)^{-1}.
 \end{equation}
-Therefore, if an optically thick stellar atmosphere can be spatially resolved (i.e., $\phi _{\rm{maj}}$ and $\phi _{\rm{min}}$ can be measured) then the flux density at a particular wavelength tells gives the brightness temperature and therefore the electron temperature. Unfortunately, the number of stars that can have their atmospheres spatially resolved at radio wavelengths is low due to their relatively small angular diameters. However, different layers of stellar atmospheres can still be probed due to the nature of the free-free radio opacity which is discussed in the next section.
+Therefore, if an optically thick stellar atmosphere can be spatially resolved (i.e., $\phi _{\rm{maj}}$ and $\phi _{\rm{min}}$ can be measured) then the flux density at a particular wavelength tells gives the brightness temperature and therefore the electron temperature. Unfortunately, the number of stars that can have their atmospheres spatially resolved at radio wavelengths is low due to their relatively small angular diameters. However, different layers of stellar atmospheres can still be probed, even if the emission is unresolved, due to the nature of the free-free radio opacity which is discussed in the next section.
 
 \subsection{Thermal Free-free Radio Opacity}\label{sec:1.8.3}
-In Section \ref{sec:1.7.1} we gave an expression for the thermal free-free emissivity of an ionized gas. Since we assumed LTE at some temperature $T$, we can use Kirchoff's law to find the thermal radio free-free opacity (absorption coefficient):
+In Section \ref{sec:1.7.1} we gave an expression for the thermal free-free emissivity of an ionized gas. Since we assumed local thermodynamic equilibrium (LTE) at some temperature $T$, we can use Kirchoff's law to find the thermal radio free-free opacity (absorption coefficient):
 \begin{equation}
 \frac{j_{\nu}^{ff}}{\kappa _{\nu}^{ff}}=\frac{2h\nu ^3}{c^2}\frac{1}{e^{h\nu /kT}-1}
 \end{equation}
-Using Equation \ref{eq:1.7.1} and \ref{eq:1.7.2} then provides a value for the free-free radio opacity
+Using Equation \ref{eq:1.7.1} and \ref{eq:1.7.2a} then provides a value for the free-free radio opacity
 \begin{equation}
 \kappa _{\nu}^{ff} = \frac{0.018Z^2n_{e}n_{i}g_{ff}(\nu ,T_{e})}{T_{e}^{1.5}\nu ^{2}}\ \ \ \ \rm{cm^{-1}}.
 \end{equation}
@@ -380,7 +386,7 @@ An example of such a source is an isolated \ion{H}{ii} region. At long enough wa
 \begin{equation}
 F_{\nu} \propto \frac{2kT_{e}\nu ^2}{c^2}\tau _{\nu} \propto \nu ^{-0.1}.
 \end{equation}
-These two scenarios are shown in Figure \ref{fig:1.5.4} along with the point where these two slopes intersect which corresponds to the frequency at which $\tau \simeq 1$. When the radio spectrum is plotted on a log-log plot as in Figure \ref{fig:1.5.3}, the spectral slope is referred to as the spectral index, $\alpha$, and is defined:
+These two scenarios are shown in Figure \ref{fig:1.5.3} along with the point where these two slopes intersect which corresponds to the frequency at which $\tau \simeq 1$. When the radio spectrum is plotted on a log-log plot as in Figure \ref{fig:1.5.3}, the spectral slope is referred to as the spectral index, $\alpha$, and is defined:
 \begin{equation}
 \alpha = \frac{d\,\mathrm{log}\,F_{\nu}}{d\,\mathrm{log}\,\nu}.
 \end{equation}
@@ -392,9 +398,8 @@ These two scenarios are shown in Figure \ref{fig:1.5.4} along with the point whe
 \label{fig:1.5.3}
 \end{figure}
 
-
 \subsection{Radio Excess from Stellar Winds}\label{sec:1.8.4}
-Cool evolved stars have ionized or partially ionized outflows which emit an excess of continuum emission at long wavelengths. This flux excess is due to thermal free-free emission and is measured relative to the expected photospheric radio flux. If the atmosphere only consisted of a static homogeneous isothermal chromosphere then the radio spectrum would be the summation of the Rayleigh-Jeans tail of the Planck function from the photosphere and the \ion{H}{ii} spectrum discussed in the previous section. At long wavelengths then, this spectrum would again have a power law of slope $F_{\nu} \propto \nu ^{2}$. Cool evolved stellar atmospheres cannot in general be described by this simple model because they possess stellar winds which are escaping the gravitational potential of the star. The atmospheric density thus varies with distance from the star. In this section we briefly outline a simple analytical model for the centimeter radio flux for a star with a isothermal, constant velocity and ionization fraction wind. In Chapter \ref{chap:6} we relax some of these assumptions about the atmosphere's properties to derive a more complete description of the centimeter radio spectrum for these stars.
+Most cool evolved stars have partially ionized outflows which emit an excess of continuum emission at long wavelengths. This flux excess is due to thermal free-free emission and is measured relative to the expected photospheric radio flux. If the atmosphere only consisted of a static homogeneous isothermal chromosphere then the radio spectrum would be the summation of the Rayleigh-Jeans tail of the Planck function from the photosphere and the \ion{H}{ii} spectrum discussed in the previous section. At long wavelengths then, this spectrum would again have a power law of slope $F_{\nu} \propto \nu ^{2}$. Cool evolved stellar atmospheres cannot in general be described by this simple model because they possess stellar winds which are escaping the gravitational potential of the star. The atmospheric density thus varies with distance from the star. In this section we briefly outline a simple analytical model for the centimeter radio flux for a star with an isothermal, constant velocity and ionization fraction wind. In Chapter \ref{chap:6} we relax some of these assumptions about the atmosphere's properties to derive a more complete description of the centimeter radio spectrum for these stars.
 
 \begin{figure}[hbt!]\label{fig:1.5.4}
 \centering 
@@ -409,7 +414,7 @@ To calculate the optical depth, we assume spherical geometry and integrate along
 \end{equation}
 where the opacity is defined in Equation \ref{eq:1.22}. For a constant velocity the electron density is just $n_{e}(r)=n_{e}(r_{0})^2(r_{0}/r)^2$ and so the optical depth can be written as
 \begin{equation}
-\tau _{\nu} = \frac{0.212n_{e}(r_{0})^2r_{0}^4}{T^{1.35}\nu ^{2.1}}\int ^{\infty} _{\infty}\frac{dz}{(b^2 + z^2)^2}
+\tau _{\nu} = \frac{0.212n_{e}(r_{0})^2r_{0}^4}{T^{1.35}\nu ^{2.1}}\int ^{\infty} _{\infty}\frac{dz}{(b^2 + z^2)^2}.
 \end{equation}
 The solution to this integral is given by
 \begin{equation}
@@ -417,12 +422,12 @@ The solution to this integral is given by
 \end{equation}
 and so the total optical depth along a ray with impact parameter $b$ is:
 \begin{equation}
-\tau _{\nu} = \frac{C}{b^3}\ \ \ \ \ \ \mathrm{where}\ \ \ C=\frac{0.333n_{e}(r_{0})^2r_{0}^4}{T^{1.35}\nu ^{2.1}}
+\tau _{\nu} = \frac{C}{b^3}\ \ \ \ \ \ \mathrm{where}\ \ \ C=\frac{0.333n_{e}(r_{0})^2r_{0}^4}{T^{1.35}\nu ^{2.1}}.
 \end{equation}
 
 To calculate the flux density we use Equation \ref{eq:1.13} and assume that the source function is given by the Planck function in the Rayleigh-Jeans approximation:
 \begin{equation}
-F_{\nu} = \frac{2\pi}{d^2}\frac{2\nu ^2 kT}{c^2} \int ^{\infty} _{0}(1-e^{-C/b^3})bdb
+F_{\nu} = \frac{2\pi}{d^2}\frac{2\nu ^2 kT}{c^2} \int ^{\infty} _{0}(1-e^{-C/b^3})bdb.
 \end{equation}
 This integral can be solved using the following expression
 \begin{equation}
@@ -434,7 +439,7 @@ F_{\nu} = 2.574\frac{\pi k}{c^2}\dfrac{n_e(r_0)^{4/3}r_0^{8/3}T^{0.1}\nu ^{0.6}}
 \end{equation}
 Substituting in the mass continuity equation gives
 \begin{equation}\label{eq:1.33}
-F_{\nu} = 0.277\frac{k}{\mu ^{4/3} c^2 m_{\mathrm{H}}^{4/3}}\dfrac{\dot{M}^{4/3}T^{0.1}\nu ^{0.6}}{v^{4/3}d^2}.
+F_{\nu} = 0.277\frac{k}{c^2 m_{\mathrm{H}}^{4/3}}\dfrac{\dot{M}^{4/3}T^{0.1}\nu ^{0.6}}{\mu ^{4/3}v^{4/3}d^2}.
 \end{equation}
 where $\mu$ is the mean atomic weight of the gas and $m_{\rm{H}}$ is the mass of a hydrogen atom. This equation shows that the expected spectral index for an isothermal constant velocity and ionization fraction stellar outflow (i.e., a constant property wind) is $\alpha =0.6$. Equation \ref{eq:1.33} is equivalent to Equation 24 in \cite{panagia_1975}.
 
@@ -445,7 +450,7 @@ where $\mu$ is the mean atomic weight of the gas and $m_{\rm{H}}$ is the mass of
 \label{fig:1.5.5}
 \end{figure}
 
-The free-free emission from evolved cool stars is weak (usually less than 1\,mJy at $\lambda > 3$\,cm) and therefore only a handful of these stars have known radio spectral indices at long wavelengths. The small number of such stars whose spectral indices are known have values which are greater than 0.6 \citep[e.g.][]{drake_1986} due the assumptions in the constant property wind model being too simplistic. Betelgeuse is by far the best studied evolved cool star at radio wavelengths and its radio spectrum is shown in Figure \ref{fig:1.5.5} \citep{newell_1982}. Its spectral index clearly deviates from 0.6. In Chapter \ref{chap:6} we derive a new version of Equation \ref{eq:1.32} which accounts for a thermal gradient in the outflow along with flow acceleration. Nevertheless, Figure \ref{fig:1.5.5} is a good example of the radio flux excess which is present for all all cool evolved. Even though the observed flux density decreases to longer wavelengths, the excess increases relative to the expected photospheric flux as clearly seen in Figure \ref{fig:1.5.5}.
+The free-free emission from evolved cool stars is weak (usually less than 1\,mJy at $\lambda > 3$\,cm) and therefore only a handful of these stars have known radio spectral indices at long wavelengths. The small number of such stars whose spectral indices are known have values which are greater than 0.6 \citep[e.g.][]{drake_1986} due the assumptions in the constant property wind model being too simplistic. Betelgeuse is by far the best studied evolved cool star at radio wavelengths and its radio spectrum is shown in Figure \ref{fig:1.5.5} \citep{newell_1982}. Its spectral index is $\sim 1.3$ which is significantly larger than 0.6. In Chapter \ref{chap:6} we derive a new version of Equation \ref{eq:1.32} which accounts for a thermal gradient in the outflow along with flow acceleration. Nevertheless, Figure \ref{fig:1.5.5} is a good example of the radio flux excess which is present for all all cool evolved. Even though the observed flux density decreases to longer wavelengths, the excess increases relative to the expected photospheric flux as clearly seen in Figure \ref{fig:1.5.5}.
 
 \subsection{Molecular Emission Lines from Stellar Winds}\label{sec:1.8.5}
 The large mass-loss rates of red supergiants along with their low outflow velocities, results in relatively high density winds. This means that these winds are very extended compared to the size of the star itself. The low temperature regime ($T< 1000\,K$) of the outer winds (i.e., the CSE) favour the formation of molecules whose emission line profiles have traditionally been studied with single dish radio antennas. As shown in Figure \ref{fig:1.8.5}, these line profiles are generally either flat topped, if the lines are optically thin, or parabolic, if the lines are optically thick. These profile shapes are based on the assumption that the radio antenna is unable to spatially resolve the CSE, which has traditionally been common due to the low resolution of single dish radio antennas. If however, the antenna has the capability to resolve the CSE, then the optically thin line profiles become horned shaped and the optically thick line profiles become less parabolic, as shown in Figure \ref{fig:1.8.5}. This is due to the fact the radio antenna does not detect the most extended emission, which has the lowest absolute velocities, and therefore the flux density at the center of the line profile is lower than the rest of the line in the optically thin case.
@@ -457,10 +462,23 @@ The large mass-loss rates of red supergiants along with their low outflow veloci
 \label{fig:1.8.5}
 \end{figure}
 
-If these molecular line profiles are observed with a radio interferometer, the appearance of the line can be the same as in Figure \ref{fig:1.8.5}, but the reasons will be different. To explain these reasons, we concentrate on an optically thin emission line. If the emission is unresolved by the interferometer, then as before the profile will be flat topped. However, if the emission is resolved by the interferometer then the profile may take on two different appearances, depending on the \textit{resolving-out scale}\footnote{ An interferometer cannot not recover emission on scales larger than this. See Chapter \ref{chap:2}.} of the interferometer. If the emission occurs on scales that are less then the interferometer's resolving-out scale then all emission is recovered and the profile will just have a flat topped appearance. However, if the emission is extended on scales larger then the resolving-out scale, then the interferometer will not detect the material at low absolute velocities (i.e., the most extended material) and the profile will have a horned-shaped appearance.
+If these molecular line profiles are observed with a radio interferometer, the appearance of the line can be the same as in Figure \ref{fig:1.8.5}, but the reasons will be different. To explain these reasons, we concentrate on an optically thin emission line. If the emission is unresolved by the interferometer, then as before the profile will be flat topped. However, if the emission is resolved by the interferometer then the profile may take on two different appearances, depending on the \textit{resolving-out scale}\footnote{ An interferometer cannot not recover emission on scales larger than this. See Chapter \ref{chap:2}.} of the interferometer. If the emission occurs on scales that are less then the interferometer's resolving-out scale then all emission is recovered and the profile will just have a flat topped appearance. However, if the emission is extended on scales larger then the resolving-out scale, then the interferometer will not detect the material at low absolute velocities (i.e., the most extended material) and the profile will have a horned-shaped appearance - similar to a line profile which has been resolved with a single dish antenna.
 
 Molecular emission lines from red supergiants generally have lines widths of the order $20\rightarrow 50$\,km\,s$^{-1}$, indicative of $10 \rightarrow 25$\,km\,s$^{-1} $outflows. Even though these velocities are lower than the photospheric escape velocity (generally of the order $50\rightarrow 100$\,km\,s$^{-1}$), these molecular emission lines are formed in the CSE where the escape velocity is much lower than at the photosphere and so these lines are indicative of mass-loss.
 
-The most important molecule used in the study red supergiant outflows is CO as it can be observed in both O-rich and C-rich stars. CO is a very stable molecule and can form in the photospheres of very cool stars and persist far out into the CSE. In typical CSE conditions, the rotational levels in CO are excited via collisions with H$_{2}$ molecules and photo-excitation of the vibrational levels by IR photons in a process known as \textit{infrared pumping} \citep{lamers_1999}. It is the de-excitation of the rotational transitions of $v=0$ which produce emission lines at radio (i.e., mm) wavelengths. If collisions are the dominant means of populating the rotational levels (i.e., collisions are more important than infrared pumping) then the distribution of the molecules over the $J$ levels will be approximately in local thermodynamic equilibrium (LTE) with respect to the gas temperature. If however, infrared pumping is the most efficient means of populating the levels, then the distribution will deviate from LTE. 
+The most important molecule used in the study red supergiant outflows is CO as it can be observed in both O-rich and C-rich stars. CO is a very stable molecule and can form in the photospheres of very cool stars and persist far out into the CSE. In typical CSE conditions, the rotational levels in CO are excited via collisions with H$_{2}$ molecules and photo-excitation of the vibrational levels by IR photons in a process known as \textit{infrared pumping} \citep{lamers_1999}. It is the de-excitation of the rotational transitions of $v=0$ which produce emission lines at radio (i.e., mm) wavelengths. If collisions are the dominant means of populating the rotational levels (i.e., collisions are more important than infrared pumping) then the distribution over the $J$ levels will be approximately in LTE with respect to the gas temperature. If however, infrared pumping is the most efficient means of populating the levels, then the distribution will deviate from LTE. 
 
-\section{Outline and Goals of this Thesis}
+\section{Thesis Outline}
+The major observations used in this thesis were taken at radio wavelengths and utilized the most sensitive radio interferometers available. For this reason, \textit{Chapter \ref{chap:2}} is dedicated to introducing the fundamental concepts of radio interferometry. It explains the basic workings of an interferometer and introduces essential radio interferometric  terminology including the ``complex visibility'' and its relation to the sky brightness distribution.
+
+\textit{Chapter \ref{chap:3}} introduces the three science targets of this thesis; namely, the red supergiant, Betelgeuse, and the red giants, Arcturus and Aldebaran. The properties and capabilities of the radio interferometers used to observe these targets are also described and an overview of the observations is provided.
+
+The radio interferometric data reduction process is outlined in \textit{Chaper \ref{chap:4}}. Flowcharts are used to describe the three main steps involved in the analysis of the data; namely, flagging, calibration, and imaging. Examples from the CARMA and VLA data sets are provided at each stage of the data reduction process and the problems specific to data obtained at both short and long wavelengths are discussed. 
+
+The results of our millimeter observations of the CSE of Betelgeuse are discussed in detail in \textit{Chapter \ref{chap:5}}. The image cubes of the CO($J=2-1$) line and the resulting spectra are presented along with spectra of higher CO rotational lines. We also present the results of high spatial resolution centimeter continuum observations of the inner atmosphere of Betelgeuse.
+
+Our multi-wavelength centimeter observations of two red giants, Arcturus and Aldebaran, are presented in \textit{Chapter \ref{chap:6}}. Previous observations and existing semi-empirical atmospheric models our compared with our high S/N measurements. We discuss the possible physical properties of their stellar atmospheres based on spectral indices and develop a new outer atmospheric model for Arcturus.
+
+Chapter \ref{chap:7} investigates the various heating and cooling processes that control the thermal structure of Arcturus' mass outflow region using the newly developed atmospheric model. The analysis focuses on the inner region of Arcturus' atmosphere where most of the energy that drives its wind is being deposited. 
+
+Chapter \ref{chap:8} presents the main conclusions of this thesis and highlights future work which could complement and build on the findings of this thesis.
