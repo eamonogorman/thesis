@@ -16,45 +16,45 @@ Illegal end of database file---line 4549 of file mybib.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 3 entries,
+You've used 5 entries,
             3018 wiz_defined-function locations,
-            662 strings with 5302 characters,
-and the built_in function-call counts, 1919 in all, are:
-= -- 162
-> -- 73
+            676 strings with 5678 characters,
+and the built_in function-call counts, 3280 in all, are:
+= -- 277
+> -- 138
 < -- 2
-+ -- 26
-- -- 23
-* -- 147
-:= -- 294
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 24
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 139
-empty$ -- 148
-format.name$ -- 29
-if$ -- 393
++ -- 49
+- -- 44
+* -- 273
+:= -- 497
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 41
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 231
+empty$ -- 245
+format.name$ -- 56
+if$ -- 664
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 27
-newline$ -- 13
-num.names$ -- 14
-pop$ -- 51
+missing$ -- 46
+newline$ -- 19
+num.names$ -- 22
+pop$ -- 88
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 34
 quote$ -- 0
-skip$ -- 58
+skip$ -- 89
 stack$ -- 0
-substring$ -- 103
-swap$ -- 76
+substring$ -- 179
+swap$ -- 128
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 27
+type$ -- 45
 warning$ -- 0
-while$ -- 14
+while$ -- 22
 width$ -- 0
-write$ -- 36
+write$ -- 58
 (There was 1 error message)
