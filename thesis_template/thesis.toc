@@ -9,8 +9,8 @@
 \contentsline {section}{\numberline {1.2}Future Work}{6}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Probing the S1 flow of Betelgeuse with ALMA}{7}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Multi-epoch centimeter observations of Betelgeuse}{9}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Developing new atmospheric models for Arcturus and Aldebaran}{9}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Jansky VLA Survey of Red Giants}{9}{subsection.1.2.4}
-\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{10}{appendix.A}
-\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{12}{appendix.B}
-\contentsline {chapter}{References}{14}{section*.11}
+\contentsline {subsection}{\numberline {1.2.3}Developing new atmospheric models for Arcturus and Aldebaran}{12}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Karl G. Jansky VLA Survey of Red Giants}{12}{subsection.1.2.4}
+\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{14}{appendix.A}
+\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{16}{appendix.B}
+\contentsline {chapter}{References}{18}{section*.14}

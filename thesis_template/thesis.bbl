@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Ayres}(2010)}]{ayres_2010}
@@ -19,6 +19,15 @@
   Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
   17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
 
+\bibitem[{{Drake} {\em et~al.\/}(1992){Drake}, {Bookbinder}, {Florkowski},
+  {Linsky}, {Simon} \& {Stencel}}]{drake_1992}
+{\sc {Drake}, S.A., {Bookbinder}, J.A., {Florkowski}, D.R., {Linsky}, J.L.,
+  {Simon}, T. \& {Stencel}, R.E.} (1992). {Four Years of Monitoring a Orionis
+  with the VLA: Where have all the Flares Gone?} In {M.~S.~Giampapa \&
+  J.~A.~Bookbinder}, ed., {\em Cool Stars, Stellar Systems, and the Sun\/},
+  vol.~26 of {\em Astronomical Society of the Pacific Conference Series\/},
+  455.
+
 \bibitem[{{Glassgold} \& {Huggins}(1986)}]{glassgold_1986}
 {\sc {Glassgold}, A.E. \& {Huggins}, P.J.} (1986). {The ionization structure of
   the circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 306},
@@ -29,6 +38,12 @@
 {\sc {Harper}, G.M., {Brown}, A. \& {Lim}, J.} (2001). {A Spatially Resolved,
   Semiempirical Model for the Extended Atmosphere of {$\alpha$} Orionis (M2
   Iab)}. {\em \apj\/}, {\bf 551}, 1073--1098.
+
+\bibitem[{{Harper} {\em et~al.\/}(2008){Harper}, {Brown} \&
+  {Guinan}}]{harper_2008}
+{\sc {Harper}, G.M., {Brown}, A. \& {Guinan}, E.F.} (2008). {A New
+  VLA-Hipparcos Distance to Betelgeuse and its Implications}. {\em \aj\/}, {\bf
+  135}, 1430--1440.
 
 \bibitem[{{Kervella} {\em et~al.\/}(2011){Kervella}, {Perrin}, {Chiavassa},
   {Ridgway}, {Cami}, {Haubois} \& {Verhoelst}}]{kervella_2011}
@@ -54,5 +69,21 @@
   S., {Richter}, M.J. \& {Requena-Torres}, M.A.} (2012). {CARMA CO(J = 2 - 1)
   Observations of the Circumstellar Envelope of Betelgeuse}. {\em \aj\/}, {\bf
   144}, 36.
+
+\bibitem[{{Ohnaka} {\em et~al.\/}(2011){Ohnaka}, {Weigelt}, {Millour},
+  {Hofmann}, {Driebe}, {Schertl}, {Chelli}, {Massi}, {Petrov} \&
+  {Stee}}]{ohnaka_2011}
+{\sc {Ohnaka}, K., {Weigelt}, G., {Millour}, F., {Hofmann}, K.H., {Driebe}, T.,
+  {Schertl}, D., {Chelli}, A., {Massi}, F., {Petrov}, R. \& {Stee}, P.} (2011).
+  {Imaging the dynamical atmosphere of the red supergiant Betelgeuse in the CO
+  first overtone lines with VLTI/AMBER}. {\em \aap\/}, {\bf 529}, A163.
+
+\bibitem[{{Richards} {\em et~al.\/}(2013){Richards}, {Davis}, {Decin}, {Etoka},
+  {Harper}, {Lim}, {Garrington}, {Gray}, {McDonald}, {O'Gorman} \&
+  {Wittkowski}}]{richards_2013}
+{\sc {Richards}, A.M.S., {Davis}, R.J., {Decin}, L., {Etoka}, S., {Harper},
+  G.M., {Lim}, J.J., {Garrington}, S.T., {Gray}, M.D., {McDonald}, I.,
+  {O'Gorman}, E. \& {Wittkowski}, M.} (2013). {e-MERLIN resolves Betelgeuse at
+  {$\lambda$} 5 cm: hotspots at 5 R$_{⋆}$}. {\em \mnras\/}, {\bf 432}, L61.
 
 \end{thebibliography}

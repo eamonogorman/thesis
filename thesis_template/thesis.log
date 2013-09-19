@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  19 SEP 2013 01:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  19 SEP 2013 23:47
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -542,7 +542,7 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./8/con_fut.aux
 
-LaTeX Warning: Label `sec:8.2.3' multiply defined.
+LaTeX Warning: Label `fig:8.3' multiply defined.
 
 ) (./appendix/app1.aux) (./appendix/app2.aux))
 \openout1 = `thesis.aux'.
@@ -731,7 +731,29 @@ LaTeX Warning: Text page 8 contains only floats.
 Overfull \vbox (3.0723pt too high) has occurred while \output is active []
 
 
-[8]) [9]
+[8] [9]
+File: /home/eamon/thesis/thesis_template/8/rhys_morris.ps Graphic file (type ep
+s)
+ </home/eamon/thesis/thesis_template/8/rhys_morris.ps>
+Overfull \hbox (14.23064pt too wide) in paragraph at lines 118--119
+ [][][][][][][][][] 
+ []
+
+[10] [11]
+
+LaTeX Warning: Reference `chap:6' on page 12 undefined on input line 125.
+
+File: /home/eamon/thesis/thesis_template/8/advec_outline.ps Graphic file (type 
+eps)
+</home/eamon/thesis/thesis_template/8/advec_outline.ps>
+Overfull \hbox (42.69356pt too wide) in paragraph at lines 131--132
+ [][][][][][][][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 38.65784pt on input line 134.
+
+) [12] [13]
 \openout2 = `appendix/app1.aux'.
 
  (./appendix/app1.tex
@@ -742,17 +764,17 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[10
+[14
 
 
 
-]) [11]
+]) [15]
 \openout2 = `appendix/app2.aux'.
 
  (./appendix/app2.tex
 Appendix B.
 
-LaTeX Warning: Reference `chap:7' on page 12 undefined on input line 6.
+LaTeX Warning: Reference `chap:7' on page 16 undefined on input line 6.
 
 File: /home/eamon/thesis/thesis_template/appendix/ogorman_e_fig6.eps Graphic fi
 le (type eps)
@@ -765,18 +787,22 @@ Overfull \hbox (8.90819pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-) [12
+) [16
 
 
 
-] [13] (./thesis.bbl (./thesis.brf)
+] [17] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [14
+ [18
 
 
-] (./thesis.aux
+]
+Missing character: There is no â in font cmr7!
+Missing character: There is no ‹ in font cmr7!
+Missing character: There is no † in font cmr7!
+) [19] (./thesis.aux
 (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
 (./0/acknowledgement.aux) (./0/publications.aux) (./8/con_fut.aux)
 (./appendix/app1.aux) (./appendix/app2.aux))
@@ -788,12 +814,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8587 strings out of 495062
- 122155 string characters out of 1182645
- 209357 words of memory out of 3000000
- 11481 multiletter control sequences out of 15000+50000
+ 8628 strings out of 495062
+ 122880 string characters out of 1182645
+ 210535 words of memory out of 3000000
+ 11520 multiletter control sequences out of 15000+50000
  18590 words of font info for 65 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,11n,49p,1765b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,49p,1765b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (26 pages, 87904 bytes).
+Output written on thesis.dvi (31 pages, 111132 bytes).
