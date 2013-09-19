@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  18 SEP 2013 00:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  19 SEP 2013 01:14
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -540,8 +540,11 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./8/con_fut.aux)
-(./appendix/app1.aux) (./appendix/app2.aux))
+(./0/acknowledgement.aux) (./0/publications.aux) (./8/con_fut.aux
+
+LaTeX Warning: Label `sec:8.2.3' multiply defined.
+
+) (./appendix/app1.aux) (./appendix/app2.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
@@ -681,17 +684,57 @@ Chapter 1.
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
- [2] [3]) [4]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+ [2] [3]
+Overfull \hbox (1.99326pt too wide) in paragraph at lines 35--36
+[]\OT1/cmr/m/n/12 High spa-tial res-o-lu-tion multi-wavelength archival VLA+Pi 
+Town data, taken
+ []
+
+[4]
+Missing character: There is no â in font cmr8!
+Missing character: There is no ˆ in font cmr8!
+Missing character: There is no ’ in font cmr8!
+ [5] [6]
+
+LaTeX Warning: Reference `chap:5' on page 7 undefined on input line 69.
+
+File: /home/eamon/thesis/thesis_template/8/dust_alma.ps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/8/dust_alma.ps>
+Overfull \hbox (14.23064pt too wide) in paragraph at lines 73--74
+ [][][][][][][][][] 
+ []
+
+File: /home/eamon/thesis/thesis_template/8/co_alma.ps Graphic file (type eps)
+</home/eamon/thesis/thesis_template/8/co_alma.ps>
+Overfull \hbox (14.23064pt too wide) in paragraph at lines 80--81
+ [][][][][][][][][] 
+ []
+
+
+LaTeX Warning: Reference `chap:5' on page 7 undefined on input line 81.
+
+
+LaTeX Warning: Reference `chap:5' on page 7 undefined on input line 81.
+
+[7]
+
+LaTeX Warning: Text page 8 contains only floats.
+
+
+Overfull \vbox (3.0723pt too high) has occurred while \output is active []
+
+
+[8]) [9]
 \openout2 = `appendix/app1.aux'.
 
-
-(./appendix/app1.tex
+ (./appendix/app1.tex
 Appendix A.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -699,17 +742,17 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[5
+[10
 
 
 
-]) [6]
+]) [11]
 \openout2 = `appendix/app2.aux'.
 
  (./appendix/app2.tex
 Appendix B.
 
-LaTeX Warning: Reference `chap:7' on page 7 undefined on input line 6.
+LaTeX Warning: Reference `chap:7' on page 12 undefined on input line 6.
 
 File: /home/eamon/thesis/thesis_template/appendix/ogorman_e_fig6.eps Graphic fi
 le (type eps)
@@ -722,37 +765,35 @@ Overfull \hbox (8.90819pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-) [7
+) [12
 
 
 
-] [8] (./thesis.bbl (./thesis.brf)
+] [13] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
-) [9
+) [14
 
 
-] (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux) (
-./0/acknowledgement.aux)
-(./0/publications.aux) (./8/con_fut.aux) (./appendix/app1.aux)
-(./appendix/app2.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+] (./thesis.aux
+(./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
+(./0/acknowledgement.aux) (./0/publications.aux) (./8/con_fut.aux)
+(./appendix/app1.aux) (./appendix/app2.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 8539 strings out of 495062
- 121262 string characters out of 1182645
+ 8587 strings out of 495062
+ 122155 string characters out of 1182645
  209357 words of memory out of 3000000
- 11437 multiletter control sequences out of 15000+50000
- 17342 words of font info for 60 fonts, out of 3000000 for 9000
+ 11481 multiletter control sequences out of 15000+50000
+ 18590 words of font info for 65 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,11n,47p,1397b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,49p,1765b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (21 pages, 58704 bytes).
+Output written on thesis.dvi (26 pages, 87904 bytes).

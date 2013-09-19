@@ -6,9 +6,11 @@
 \contentsline {section}{\numberline {1.1}Principle Results}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Multi-wavelength Study of Betelgeuse's Extended Atmosphere}{2}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Multi-wavelength Radio Continuum Emission Studies of Dust-free Red Giants}{4}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Future Work}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}y}{4}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}y}{4}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{5}{appendix.A}
-\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{7}{appendix.B}
-\contentsline {chapter}{References}{9}{section*.9}
+\contentsline {section}{\numberline {1.2}Future Work}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Probing the S1 flow of Betelgeuse with ALMA}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Multi-epoch centimeter observations of Betelgeuse}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Developing new atmospheric models for Arcturus and Aldebaran}{9}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Jansky VLA Survey of Red Giants}{9}{subsection.1.2.4}
+\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{10}{appendix.A}
+\contentsline {chapter}{\numberline {B}Discrete Absorption Feature}{12}{appendix.B}
+\contentsline {chapter}{References}{14}{section*.11}
