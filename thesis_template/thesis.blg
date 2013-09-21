@@ -5,55 +5,179 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
+A level-1 auxiliary file: 1/introduction.aux
+A level-1 auxiliary file: 2/intro_to_radio.aux
+A level-1 auxiliary file: 3/instrum_tar_obs.aux
+A level-1 auxiliary file: 4/data_analysis.aux
+A level-1 auxiliary file: 5/aori.aux
+A level-1 auxiliary file: 6/aboo_atau.aux
+A level-1 auxiliary file: 7/thermal_bal.aux
+Case mismatch error between cite keys Sennhauser_2011 and sennhauser_2011
+---line 71 of file 7/thermal_bal.aux
+ : \citation{Sennhauser_2011
+ :                          }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys Sennhauser_2011 and sennhauser_2011
+---line 85 of file 7/thermal_bal.aux
+ : \citation{Sennhauser_2011
+ :                          }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: 8/con_fut.aux
 A level-1 auxiliary file: appendix/app1.aux
 A level-1 auxiliary file: appendix/app2.aux
 The style file: Latex/Classes/jmb.bst
+Reallocated field_info (elt_size=4) to 11417 items from 5000.
 Database file #1: mybib.bib
+Repeated entry---line 686 of file mybib.bib
+ : @article{sennhauser_2011
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 701 of file mybib.bib
+ : @article{brown_2008
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 715 of file mybib.bib
+ : @article{gray_2006
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 729 of file mybib.bib
+ : @article{hatzes_1993
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1138 of file mybib.bib
+ : @article{wood_2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1244 of file mybib.bib
+ : @article{ayres_1975
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1285 of file mybib.bib
+ : @article{gray_2006
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1443 of file mybib.bib
+ : @proceedings{taylor_1999
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1472 of file mybib.bib
+ : @article{holzer_1983
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1500 of file mybib.bib
+ : @article{hartmann_1982
+ :                       ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1620 of file mybib.bib
  : @article{glassgold_1986
  :                        ,
 I'm skipping whatever remains of this entry
+Warning--string name "july" is undefined
+--line 2147 of file mybib.bib
+Warning--string name "july" is undefined
+--line 2161 of file mybib.bib
+Warning--string name "march" is undefined
+--line 2175 of file mybib.bib
+Repeated entry---line 2442 of file mybib.bib
+ : @article{altenhoff_1994
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2649 of file mybib.bib
+ : @article{altenhoff_1994
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2676 of file mybib.bib
+ : @article{smith_2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2868 of file mybib.bib
+ : @article{plez_2002
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3179 of file mybib.bib
+ : @article{hummer_1988
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3322 of file mybib.bib
+ : @article{linsky_1979
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3405 of file mybib.bib
+ : @article{hartmann_1980
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3443 of file mybib.bib
+ : @article{carpenter_1999
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3553 of file mybib.bib
+ : @article{harper_2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3902 of file mybib.bib
+ : @article{lambert_1978
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3971 of file mybib.bib
+ : @article{gehrz_1971
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4003 of file mybib.bib
+ : @article{abia_2012
+ :                   ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 13 entries,
+Warning--empty journal in Altenhoff_1960
+Warning--missing publisher in castor_2004
+Warning--missing publisher in dalgarno_1987
+Warning--missing publisher in draine_2011
+Warning--missing publisher in gradshteyn_1994
+Warning--missing publisher in kraus_1986
+Warning--missing publisher in lamers_1999
+Warning--missing publisher in mihalas_1978
+Warning--missing publisher in rohlfs_1996
+Warning--missing publisher in rybicki_1979
+Warning--missing publisher in saha_2011
+Warning--empty journal in stancliffe_2009
+You've used 279 entries,
             3018 wiz_defined-function locations,
-            729 strings with 7551 characters,
-and the built_in function-call counts, 9615 in all, are:
-= -- 758
-> -- 573
-< -- 5
-+ -- 199
-- -- 186
-* -- 847
-:= -- 1457
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 130
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 648
-empty$ -- 625
-format.name$ -- 222
-if$ -- 1906
-int.to.chr$ -- 1
+            2091 strings with 54947 characters,
+and the built_in function-call counts, 191842 in all, are:
+= -- 15369
+> -- 10683
+< -- 190
++ -- 3741
+- -- 3458
+* -- 16417
+:= -- 29176
+add.period$ -- 826
+call.type$ -- 279
+change.case$ -- 2583
+chr.to.int$ -- 283
+cite$ -- 291
+duplicate$ -- 13190
+empty$ -- 12865
+format.name$ -- 4284
+if$ -- 38177
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 144
-newline$ -- 43
-num.names$ -- 56
-pop$ -- 300
+missing$ -- 2918
+newline$ -- 841
+num.names$ -- 1171
+pop$ -- 5918
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 2243
 quote$ -- 0
-skip$ -- 242
+skip$ -- 4850
 stack$ -- 0
-substring$ -- 375
-swap$ -- 385
-text.length$ -- 1
+substring$ -- 7668
+swap$ -- 7690
+text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 117
-warning$ -- 0
-while$ -- 55
+type$ -- 2475
+warning$ -- 12
+while$ -- 1134
 width$ -- 0
-write$ -- 147
-(There was 1 error message)
+write$ -- 3073
+(There were 25 error messages)

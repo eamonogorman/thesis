@@ -105,23 +105,23 @@ x1=[0.4,0.4] & y1=[0,0.1]
 plots, x1,y1,color=0, thick=2
 
 ; ########### Font #################
-xyouts, 0.64, 0.17, 'VLA Data',chars=1.5
+xyouts, 0.64, 0.17, 'VLA Data',chars=1.4
 
-xyouts, -0.06, 0.20, 'Compute',chars=1.5
-xyouts, -0.06, 0.17, 'radio',chars=1.5
-xyouts, -0.06, 0.14, 'spectrum',chars=1.5
+xyouts, -0.06, 0.20, 'Compute',chars=1.4
+xyouts, -0.06, 0.17, 'radio',chars=1.4
+xyouts, -0.06, 0.14, 'spectrum',chars=1.4
 
-xyouts, 0.64, 0.45, 'Energy',chars=1.5
-xyouts, 0.64, 0.42, 'balance',chars=1.5
+xyouts, 0.64, 0.45, 'Energy',chars=1.4
+xyouts, 0.64, 0.42, 'balance',chars=1.4
 
-xyouts, 0, 0.45, 'n!dHI!n',chars=1.5
-xyouts, 0, 0.42, 'n!de!n',chars=1.5
-xyouts, 0, 0.39, 'n!dHII!n',chars=1.5 
+xyouts, 0, 0.45, 'n!dHI!n',chars=1.4
+xyouts, 0, 0.42, 'n!de!n',chars=1.4
+xyouts, 0, 0.39, 'n!dHII!n',chars=1.4
 
-xyouts, -0.07, 0.72, 'Rate',chars=1.5
-xyouts, -0.07, 0.69, 'equations',chars=1.5
-xyouts, -0.07, 0.66, 'with',chars=1.5
-xyouts, -0.07, 0.63, 'advection',chars=1.5
+xyouts, -0.07, 0.72, 'Rate',chars=1.4
+xyouts, -0.07, 0.69, 'equations',chars=1.4
+xyouts, -0.07, 0.66, 'with',chars=1.4
+xyouts, -0.07, 0.63, 'advection',chars=1.4
 
 xyouts, 0.64, 0.72, 'Radiative',chars=1.4
 xyouts, 0.64, 0.69, 'transfer',chars=1.4
