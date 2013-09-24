@@ -87,7 +87,7 @@ arrow, 0.24,0.42,0.55,0.42,color=0,/DATA, thick=2
 arrow, 0.24,0.12,0.55,0.12,color=0,/DATA, thick=2
 
 arrow, 0.55,0.72,0.24,0.72,color=0,/DATA, thick=2
-arrow, 0.55,0.22,0.24,0.22,color=0,/DATA, thick=2
+;arrow, 0.55,0.22,0.24,0.22,color=0,/DATA, thick=2
 
 ;############## Vertical Arrows ###############
 arrow, 0.4,0.83,0.4,0.74,color=0,/DATA, thick=2
@@ -96,13 +96,14 @@ arrow, 0.05,0.58,0.05,0.52,color=0,/DATA, thick=2
 arrow, 0.05,0.33,0.05,0.27,color=0,/DATA, thick=2
 
 ; ################ big arrow ########
-arrow, -0.18,0.93,0.18,0.93,color=0,/DATA
+arrow, -0.18,0.93,0.18,0.93,color=0,/DATA, thick=2.0
 x1=[-0.18,-0.18] & y1=[0,0.93]
-plots, x1,y1,color=0, thick=2
+plots, x1,y1,color=0, thick=1.8
 x1=[-0.18,0.4] & y1=[0,0]
-plots, x1,y1,color=0, thick=2
+plots, x1,y1,color=0, thick=1.8
 x1=[0.4,0.4] & y1=[0,0.1]
-plots, x1,y1,color=0, thick=2
+; plots, x1,y1,color=0, thick=2
+arrow, x1[1],y1[1],x1[0],y1[0],color=0,/DATA, thick=1.8
 
 ; ########### Font #################
 xyouts, 0.64, 0.17, 'VLA Data',chars=1.4
@@ -123,10 +124,10 @@ xyouts, -0.07, 0.69, 'equations',chars=1.4
 xyouts, -0.07, 0.66, 'with',chars=1.4
 xyouts, -0.07, 0.63, 'advection',chars=1.4
 
-xyouts, 0.64, 0.72, 'Radiative',chars=1.4
-xyouts, 0.64, 0.69, 'transfer',chars=1.4
-xyouts, 0.64, 0.66, 'equation',chars=1.4
-xyouts, 0.62, 0.62, 'PRD +',chars=1.2
+xyouts, 0.64, 0.72, 'Radiative',chars=1.2
+xyouts, 0.64, 0.695, 'transfer',chars=1.2
+xyouts, 0.64, 0.665, 'equation',chars=1.2
+xyouts, 0.615, 0.625, 'PRD +',chars=1.2
 xyouts, 0.75, 0.632, 'escape',chars=1.2
 xyouts, 0.75, 0.608, 'prob',chars=1.2
 
@@ -136,8 +137,12 @@ xyouts, 0.35, 0.91, 'v(r)',chars=1.1
 xyouts, 0.35, 0.885, 'dM/dt',chars=1.1
 xyouts, 0.35, 0.86, 'T(r)',chars=1.1
 
-xyouts, 0.37, 0.69, 'I',chars=1.5
+nu=textoidl('\nu')
+xyouts, 0.37, 0.69, 'I!d'+nu+'!n',chars=1.5
 xyouts, 0.37, 0.59, 'n!di!n',chars=1.5
+
+xyouts, 0.3, 0.13, 'compare',chars=1.3
+xyouts, 0.42, 0.04, 'refine',chars=1.3
 
 DEVICE, /CLOSE
 

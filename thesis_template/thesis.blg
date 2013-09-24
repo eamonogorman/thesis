@@ -5,87 +5,59 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
-A level-1 auxiliary file: 1/introduction.aux
+A level-1 auxiliary file: 2/intro_to_radio.aux
+A level-1 auxiliary file: appendix/app1.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
-Repeated entry---line 3179 of file mybib.bib
- : @article{hummer_1988
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3322 of file mybib.bib
- : @article{linsky_1979
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3405 of file mybib.bib
- : @article{hartmann_1980
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3443 of file mybib.bib
- : @article{carpenter_1999
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3553 of file mybib.bib
- : @article{harper_2010
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3971 of file mybib.bib
- : @article{gehrz_1971
- :                    ,
+Repeated entry---line 1443 of file mybib.bib
+ : @proceedings{taylor_1999
+ :                         ,
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 4651 of file mybib.bib
  :     title 
  :           = "{}",
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty journal in Altenhoff_1960
-Warning--missing publisher in dalgarno_1987
-Warning--missing publisher in draine_2011
-Warning--missing publisher in gradshteyn_1994
-Warning--missing publisher in lamers_1999
-Warning--missing publisher in rohlfs_1996
-Warning--missing publisher in ryan_2010
-Warning--missing publisher in rybicki_1979
-Warning--missing publisher in shu_1991
-Warning--empty journal in stancliffe_2009
-You've used 87 entries,
+Warning--missing publisher in kraus_1986
+You've used 8 entries,
             3018 wiz_defined-function locations,
-            1123 strings with 19005 characters,
-and the built_in function-call counts, 54783 in all, are:
-= -- 4507
-> -- 2710
-< -- 67
-+ -- 959
-- -- 872
-* -- 4560
-:= -- 8408
-add.period$ -- 253
-call.type$ -- 87
-change.case$ -- 723
-chr.to.int$ -- 87
-cite$ -- 97
-duplicate$ -- 3853
-empty$ -- 3837
-format.name$ -- 1149
-if$ -- 10929
+            694 strings with 5669 characters,
+and the built_in function-call counts, 4428 in all, are:
+= -- 352
+> -- 164
+< -- 8
++ -- 59
+- -- 51
+* -- 352
+:= -- 680
+add.period$ -- 22
+call.type$ -- 8
+change.case$ -- 57
+chr.to.int$ -- 8
+cite$ -- 9
+duplicate$ -- 357
+empty$ -- 347
+format.name$ -- 67
+if$ -- 885
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 827
-newline$ -- 265
-num.names$ -- 362
-pop$ -- 1625
+missing$ -- 71
+newline$ -- 28
+num.names$ -- 37
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 632
+purify$ -- 47
 quote$ -- 0
-skip$ -- 1424
+skip$ -- 135
 stack$ -- 0
-substring$ -- 2308
-swap$ -- 2172
-text.length$ -- 6
+substring$ -- 151
+swap$ -- 202
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 756
-warning$ -- 10
-while$ -- 348
+type$ -- 69
+warning$ -- 1
+while$ -- 32
 width$ -- 0
-write$ -- 947
-(There were 7 error messages)
+write$ -- 90
+(There were 2 error messages)
