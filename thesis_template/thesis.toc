@@ -7,15 +7,15 @@
 \contentsline {section}{\numberline {1.2}Adopted Radial Velocity}{5}{section.1.2}
 \contentsline {section}{\numberline {1.3}CARMA CO($J=2-1$) Spectra}{6}{section.1.3}
 \contentsline {section}{\numberline {1.4}Individual Configuration Image Cubes}{11}{section.1.4}
-\contentsline {section}{\numberline {1.5}Multi-configuration Image Cube Inspection}{13}{section.1.5}
-\contentsline {section}{\numberline {1.6}Spatial Extent of S2}{14}{section.1.6}
-\contentsline {section}{\numberline {1.7}Intensity distribution of CO}{16}{section.1.7}
-\contentsline {section}{\numberline {1.8}Spatial Extent of S1}{18}{section.1.8}
-\contentsline {section}{\numberline {1.9}Continuum Flux Densities}{21}{section.1.9}
-\contentsline {section}{\numberline {1.10}Higher CO rotational lines}{22}{section.1.10}
+\contentsline {section}{\numberline {1.5}Multi-configuration Image Cube Inspection}{12}{section.1.5}
+\contentsline {section}{\numberline {1.6}Spatial Extent of S2}{13}{section.1.6}
+\contentsline {section}{\numberline {1.7}Intensity distribution of CO}{15}{section.1.7}
+\contentsline {section}{\numberline {1.8}Spatial Extent of S1}{17}{section.1.8}
+\contentsline {section}{\numberline {1.9}Continuum Flux Densities}{20}{section.1.9}
+\contentsline {section}{\numberline {1.10}Higher CO rotational lines}{21}{section.1.10}
 \contentsline {section}{\numberline {1.11}CARMA CO observations in Context}{25}{section.1.11}
 \contentsline {section}{\numberline {1.12}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{27}{section.1.12}
 \contentsline {section}{\numberline {1.13}VLA-Pie Town Maps vs e-MERLIN}{32}{section.1.13}
 \contentsline {section}{\numberline {1.14}Long Term Radio Variability}{34}{section.1.14}
-\contentsline {section}{\numberline {1.15}0.7\tmspace +\thinmuskip {.1667em}cm VLA-Pie Town Maps}{36}{section.1.15}
+\contentsline {section}{\numberline {1.15}0.7\tmspace +\thinmuskip {.1667em}cm VLA-Pie Town Maps}{37}{section.1.15}
 \contentsline {chapter}{References}{39}{section*.26}
