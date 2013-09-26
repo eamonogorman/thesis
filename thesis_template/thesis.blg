@@ -5,59 +5,118 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
-A level-1 auxiliary file: 2/intro_to_radio.aux
-A level-1 auxiliary file: appendix/app1.aux
+A level-1 auxiliary file: 5/aori.aux
+A level-1 auxiliary file: 6/aboo_atau.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
+Repeated entry---line 715 of file mybib.bib
+ : @article{gray_2006
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1138 of file mybib.bib
+ : @article{wood_2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1244 of file mybib.bib
+ : @article{ayres_1975
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1285 of file mybib.bib
+ : @article{gray_2006
+ :                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 1443 of file mybib.bib
  : @proceedings{taylor_1999
  :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1472 of file mybib.bib
+ : @article{holzer_1983
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1500 of file mybib.bib
+ : @article{hartmann_1982
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1620 of file mybib.bib
+ : @article{glassgold_1986
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2442 of file mybib.bib
+ : @article{altenhoff_1994
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2649 of file mybib.bib
+ : @article{altenhoff_1994
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2676 of file mybib.bib
+ : @article{smith_2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2868 of file mybib.bib
+ : @article{plez_2002
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3179 of file mybib.bib
+ : @article{hummer_1988
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3405 of file mybib.bib
+ : @article{hartmann_1980
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3902 of file mybib.bib
+ : @article{lambert_1978
+ :                      ,
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 4651 of file mybib.bib
  :     title 
  :           = "{}",
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--missing publisher in kraus_1986
-You've used 8 entries,
+Warning--missing publisher in gradshteyn_1994
+Warning--missing publisher in lamers_1999
+Warning--missing publisher in mihalas_1978
+Warning--missing publisher in saha_2011
+You've used 110 entries,
             3018 wiz_defined-function locations,
-            694 strings with 5669 characters,
-and the built_in function-call counts, 4428 in all, are:
-= -- 352
-> -- 164
-< -- 8
-+ -- 59
-- -- 51
-* -- 352
-:= -- 680
-add.period$ -- 22
-call.type$ -- 8
-change.case$ -- 57
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 357
-empty$ -- 347
-format.name$ -- 67
-if$ -- 885
-int.to.chr$ -- 1
+            1255 strings with 26270 characters,
+and the built_in function-call counts, 78594 in all, are:
+= -- 6248
+> -- 4659
+< -- 71
++ -- 1625
+- -- 1512
+* -- 6811
+:= -- 11951
+add.period$ -- 325
+call.type$ -- 110
+change.case$ -- 1065
+chr.to.int$ -- 115
+cite$ -- 114
+duplicate$ -- 5272
+empty$ -- 5106
+format.name$ -- 1857
+if$ -- 15607
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 71
-newline$ -- 28
-num.names$ -- 37
-pop$ -- 133
+missing$ -- 1187
+newline$ -- 334
+num.names$ -- 461
+pop$ -- 2468
 preamble$ -- 1
-purify$ -- 47
+purify$ -- 938
 quote$ -- 0
-skip$ -- 135
+skip$ -- 1957
 stack$ -- 0
-substring$ -- 151
-swap$ -- 202
-text.length$ -- 3
+substring$ -- 3043
+swap$ -- 3108
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 69
-warning$ -- 1
-while$ -- 32
+type$ -- 972
+warning$ -- 4
+while$ -- 448
 width$ -- 0
-write$ -- 90
-(There were 2 error messages)
+write$ -- 1212
+(There were 16 error messages)
