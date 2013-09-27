@@ -47,10 +47,10 @@ b=[0.5,0.5]
 plots, a,b, thick=4,color=4
 arrow, 1.9, 0.8, 0, 0.5,/DATA,color=4,thick=4,hsize=400.0
 ;arrow, xt, yt, xh, yh, 
-xyouts, 2.0,0.8, 'HPBW~'+lambda+'/D', color=4,charsize=1.5
+xyouts, 1.0,0.9, 'HPBW=0.89'+lambda+'/D', color=4,charsize=1.5
 
-arrow, -0.5, -0.15,1.0, 0,/DATA,color=4,thick=4,hsize=400.0
-xyouts, -5.5,-0.20, '1st null at 1.22'+lambda+'/D', color=4,charsize=1.5
+;arrow, -0.5, -0.15,1.0, 0,/DATA,color=4,thick=4,hsize=400.0
+;xyouts, -5.5,-0.20, '1st null at 1.22'+lambda+'/D', color=4,charsize=1.5
 
 arrow, -2.2, 0.39,-1.6, 0.05,/DATA,color=4,thick=4,hsize=400.0
 xyouts, -5.5,0.4, '1st sidelobe', color=4,charsize=1.5

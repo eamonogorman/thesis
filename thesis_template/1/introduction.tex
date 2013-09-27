@@ -215,7 +215,7 @@ It is clear that the majority of the main sequence and subgaint objects are non-
 Single (non-binary) cool evolved stars lack the characteristics which make the other stars, described above, radio bright. Even though they have outer convective zones, they rotate too slowly to generate, via an $\alpha - \Omega$ dynamo, the type of magnetic activity which make subgiant binaries and young cool dwarfs strong non-thermal radio emitters. They also lack the intense UV radiation field of the massive hot main sequence stars and their outflows are generally only partially ionized ($10^{-4} - 10^{-1}$). However, their large angular diameters coupled with their relatively large mass-loss rates, means that their partially ionized outflows can be detected at radio wavelengths. Red giants are feeble radio emitters however and up until the work presented in this thesis, only a small number have been detected at one or more radio wavelengths, and these have been modest S/N measurements. On the other hand, a few close-by red supergiants, like Betelgeuse, have mass-loss rates many orders of magnitude greater than the red giants and their partially ionized outflows can be easily detected at multiple radio wavelengths. These red supergiants also contain extended circumstellar envelopes (CSEs) which can be  sources of molecular line emission at radio wavelengths. 
 
 \section{Radio Emission Mechanisms}\label{sec:1.7}
-The two radio emission mechanisms which are most relevant in this thesis are thermal Bremsstrahlung/free-free emission, and molecular line emission. Both of these emission mechanisms produce incoherent radiation and are discussed in the following sections. Under certain plasma conditions, coherent radiation can be produced due to resonances between particles and characteristic electromagnetic waves.  This results in electron energy being converted into some natural wave mode of the plasma, such as Langmuir waves (plasma oscillation) or electron-cyclotron waves. The main characteristic frequencies of a plasma are the electron plasma frequency
+The two radio emission mechanisms which are most relevant in this thesis are thermal Bremsstrahlung/free-free emission, and molecular line emission. Both of these emission mechanisms produce incoherent radiation and are discussed in the following sections. Under certain plasma conditions, coherent radiation can be produced due to resonances between particles and some natural wave mode of the plasma, such as Langmuir waves (plasma oscillation) or electron-cyclotron waves. The main characteristic frequencies of the emission from these waves are the electron plasma frequency
 \begin{equation}
 \nu _{p} = \frac{\omega _{p}}{2\pi}=\left( \frac{n_e e^2}{\pi m_e}\right)^{1/2} \approx 9000 n_e ^{1/2}\ \ \ \ \rm{Hz}
 \end{equation}
@@ -223,7 +223,7 @@ and the electron-cyclotron frequency
 \begin{equation}
 \nu _{B}= \frac{\Omega _{B}}{2\pi}=\frac{eB}{2\pi m_e c} \approx 2.8B\ \ \ \ \rm{MHz}
 \end{equation}
-where $n_e$ is the electron number density with units $\rm{cm}^{-3}$, and $B$ is the magnetic field strength with units G\footnote{1 Gauss (G)\,$= 1\times 10^{-4}$ tesla (T).}. 
+where $n_e$ is the electron number density with units $\rm{cm}^{-3}$, and $B$ is the magnetic field strength with units G\footnote{1 Gauss (G)\,$= 1\times 10^{-4}$ tesla (T).}. The largest electron densities in the atmospheres of cool evolved stars are typically of the order $n_{e} \sim 10^{9}$\,cm$^{-3}$ \citep{judge_1998}, giving a plasma frequency of $\sim 280$\,MHz. The radio observations discussed in this thesis were all carried out at frequencies $\nu > 1$\,GHz, well above the plasma frequency, and we can therefore safely make the assumption that the the atmospheric refractive index is $\sim 1$ for cool evolved stars. These stars are also expected to have magnetic field strengths of $\lesssim 10$\,G \cite[e.g.,][]{bedecarrax_2013,sennhauser_2011} and so the electron-cyclotron frequency in their atmospheres are expected to be of the order $\nu _{B} \sim 30$\,MHz, again well below our observing frequencies. The radio emission from these stars is therefore not expected to be circularly polarized. We now discuss the important radio emission mechanisms in the atmospheres of cool evolved stars.
 
 \subsection{Thermal Free-free (Bremsstrahlung) Emission}\label{sec:1.7.1}
 Thermal Bremsstrahlung from an ionized or partially ionized plasma is often called free-free emission because it is produced by free electrons which are deflected off ions without being captured. For free-free radio emission, the distant Coulomb interactions of electrons with ions, which cause small angle deflections, are much more important than the rare close encounters and large deflections \citep{dulk_1985}. The free-free emission, which is the energy radiated per unit volume, per unit time, per unit frequency, is given in \cite{rybicki_1979} as:
@@ -270,22 +270,32 @@ Z(T) & = & \sum\limits_{i}^{\infty}g_{i}e^{-E_{i}/kT} \\
 \end{eqnarray}
 where we have replaced the sum over discrete values of $J$ with a continuous integral \citep{shu_1991}. The relative rotational populations within a given vibrational state are then
 \begin{equation}\label{eq:1.24a}
-\dfrac{n_{J}(v)}{n(v)} \approx \frac{(2J+1)B_{v}}{kT}e^{-B_{v}J(J+1)/T}.
+\dfrac{n_{J}(v)}{n(v)} \approx \frac{(2J+1)B_{v}}{T}e^{-B_{v}J(J+1)/T}.
 \end{equation}
 This distribution is plotted in Figure \ref{fig:1.7.2} for the ground vibrational levels of CO and SiO and shows how the levels are populated with respect to one another at two different temperatures\footnote{These are the expected excitation temperatures of the two CSE flows of Betelgeuse.}. The distribution is such that at low temperatures, the rotational levels are more relatively populated at lower $J$s, while higher $J$s become relatively more populated at higher temperatures. Differentiating Equation \ref{eq:1.24a} with respect to $J$
-gives the most probable occupied rotational state, $J_{\rm{mp}}$, as a function of temperature,
+gives the most probable occupied rotational state, $J_{\rm{mp}}$, as a function of temperature \citep{rodgers_1991},
 \begin{equation}
 J_{\mathrm{mp}}=\sqrt{\frac{T}{2B_{v}}}-\frac{1}{2}.
 \end{equation}
-The total flux produced by a transition out of the most probable occupied state, $J_{\mathrm{mp}}, J_{\mathrm{mp}}-1$, will not necessarily be the transition that emits the most flux. This is because the total flux produced by any rotational transition is
+Using the excitation temperatures of the two flows around Betelgeuse from \cite{bernat_1979} gives $J_{\mathrm{mp}}=6$ (S1; $T_{\mathrm{exc}}=200$\,K) and $J_{\mathrm{mp}}=3$ (S2; $T_{\mathrm{exc}}=70$\,K).
+
+The total flux produced by a transition out of the most probable occupied state, $J_{\mathrm{mp}}, J_{\mathrm{mp}}-1$, will not necessarily be the transition that emits the most flux. To show this we first note that the emissivity for any rotational transition is
 \begin{equation}
-F_{J,J-1}=\Delta E_{J,J-1}n_{J}A_{{J,J-1}}
+\epsilon _{J,J-1}=\Delta E_{J,J-1}n_{J}A_{{J,J-1}} = \Delta E_{J,J-1}n_{H}A_{\mathrm{mol}}\frac{n_{J}}{n_{\mathrm{mol}}}A_{{J,J-1}}
 \end{equation}
 where the spontaneous emission coefficient can be written as
 \begin{equation}
 A_{J,J-1} =2.14\times 10^{-7}\frac{J^4}{2J+1} \ \ \ \rm{s}^{-1}
 \end{equation}\label{eq:1.27aa}
-\citep{draine_2011}, and $\Delta E_{J,J-1}=2B_{v}J$. Therefore, the total flux not only depends on the population of the level but also on the change in energy and the probability of undergoing that transition.
+\citep{draine_2011}, $\Delta E_{J,J-1}=2B_{v}J$, and $A_{\mathrm{mol}}$ is the molecular abundance. Therefore, the total flux not only depends on the population of the level but also on the change in energy and the probability of undergoing that transition. The integrated flux is then
+\begin{equation}
+F(J)\propto \frac{BJ^5}{T}e^{-J(J+1)B/T}
+\end{equation}
+which can be differentiated with respect to $J$ to find the peak transition that emits the most flux, $J_{\mathrm{peak}}$,
+\begin{equation}
+J_{\mathrm{peak}} = \frac{-1 \pm \sqrt{1+40T/B}}{4}.
+\end{equation}
+For CO, $J_{\mathrm{peak}} = \sqrt{T/1.1}$, which again for the two flows around Betelgeuse is just $J_{\mathrm{peak}}=14$ (S1; $T_{\mathrm{exc}}=200$\,K) and $J_{\mathrm{peak}}=8$ (S2; $T_{\mathrm{exc}}=70$\,K). 
 
 \section{Radio Observations of Stellar Atmospheres}\label{sec:1.8}
 In the following sections we present the basic definitions used to describe radio observations of stellar atmospheres. We define the \textit{brightness temperature} which is commonly used in radio astronomy to measure the brightness of a source, along with its relationship to the fundamental quantity measured by a radio telescope, the \textit{flux density}. Focusing on thermal emission, we describe how the flux density varies with frequency when observing both optically thin and optically thick stellar atmospheres, and conclude by discussing how molecular emission line profiles can be studied at radio wavelengths.
