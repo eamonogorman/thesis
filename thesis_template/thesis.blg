@@ -12,16 +12,6 @@ A level-1 auxiliary file: 4/data_analysis.aux
 A level-1 auxiliary file: 5/aori.aux
 A level-1 auxiliary file: 6/aboo_atau.aux
 A level-1 auxiliary file: 7/thermal_bal.aux
-Case mismatch error between cite keys Sennhauser_2011 and sennhauser_2011
----line 78 of file 7/thermal_bal.aux
- : \citation{Sennhauser_2011
- :                          }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Sennhauser_2011 and sennhauser_2011
----line 93 of file 7/thermal_bal.aux
- : \citation{Sennhauser_2011
- :                          }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: 8/con_fut.aux
 A level-1 auxiliary file: appendix/app1.aux
 The style file: Latex/Classes/jmb.bst
@@ -151,24 +141,24 @@ Warning--missing publisher in shu_1991
 Warning--empty journal in stancliffe_2009
 You've used 286 entries,
             3018 wiz_defined-function locations,
-            2116 strings with 55893 characters,
-and the built_in function-call counts, 195111 in all, are:
-= -- 15651
+            2117 strings with 55917 characters,
+and the built_in function-call counts, 195093 in all, are:
+= -- 15649
 > -- 10772
 < -- 199
 + -- 3775
 - -- 3485
-* -- 16645
-:= -- 29697
+* -- 16643
+:= -- 29695
 add.period$ -- 844
 call.type$ -- 286
 change.case$ -- 2624
 chr.to.int$ -- 290
 cite$ -- 301
 duplicate$ -- 13445
-empty$ -- 13135
+empty$ -- 13133
 format.name$ -- 4333
-if$ -- 38840
+if$ -- 38836
 int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 2968
@@ -180,7 +170,7 @@ purify$ -- 2279
 quote$ -- 0
 skip$ -- 4956
 stack$ -- 0
-substring$ -- 7801
+substring$ -- 7795
 swap$ -- 7816
 text.length$ -- 33
 text.prefix$ -- 0
@@ -190,4 +180,4 @@ warning$ -- 15
 while$ -- 1160
 width$ -- 0
 write$ -- 3145
-(There were 27 error messages)
+(There were 25 error messages)

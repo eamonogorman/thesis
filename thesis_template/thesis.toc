@@ -18,11 +18,11 @@
 \contentsline {subsection}{\numberline {1.7.1}Thermal Free-free (Bremsstrahlung) Emission}{23}{subsection.1.7.1}
 \contentsline {subsection}{\numberline {1.7.2}Molecular Line Emission}{24}{subsection.1.7.2}
 \contentsline {section}{\numberline {1.8}Radio Observations of Stellar Atmospheres}{27}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Brightness Temperature}{27}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.1}Brightness Temperature}{28}{subsection.1.8.1}
 \contentsline {subsection}{\numberline {1.8.2}Brightness Temperature and Flux Density}{30}{subsection.1.8.2}
 \contentsline {subsection}{\numberline {1.8.3}Thermal Free-free Radio Opacity}{31}{subsection.1.8.3}
 \contentsline {subsection}{\numberline {1.8.4}Radio Excess from Stellar Winds}{33}{subsection.1.8.4}
-\contentsline {subsection}{\numberline {1.8.5}Molecular Emission Lines from Stellar Winds}{36}{subsection.1.8.5}
+\contentsline {subsection}{\numberline {1.8.5}Molecular Emission Lines from Stellar Winds}{37}{subsection.1.8.5}
 \contentsline {section}{\numberline {1.9}Thesis Outline}{39}{section.1.9}
 \contentsline {chapter}{\numberline {2}Introduction to Radio Interferometry}{41}{chapter.2}
 \contentsline {section}{\numberline {2.1}Radio Antenna Fundamentals}{42}{section.2.1}
@@ -37,13 +37,13 @@
 \contentsline {subsection}{\numberline {2.3.4}Coordinate Systems for Imaging}{59}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Synthesis Imaging}{60}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Visibility Sampling}{61}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Imaging (Making a Dirty Map)}{62}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Imaging (Making a Dirty Map)}{61}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Deconvolution (Making a CLEAN map)}{64}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Targets, Instrumentation, and Observations}{67}{chapter.3}
 \contentsline {section}{\numberline {3.1}Betelgeuse}{68}{section.3.1}
 \contentsline {section}{\numberline {3.2}CARMA}{72}{section.3.2}
 \contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{76}{section.3.3}
-\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{77}{section.3.4}
+\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{78}{section.3.4}
 \contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{85}{section.3.5}
 \contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{88}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}OSRO and DDT Observations}{88}{subsection.3.6.1}
@@ -59,7 +59,7 @@
 \contentsline {section}{\numberline {4.3}Imaging}{109}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Imaging the VLA Data}{110}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Imaging the CARMA Data}{112}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {5}Multi-wavelength Radio Study of Betelgeuse's Extended Atmosphere}{115}{chapter.5}
+\contentsline {chapter}{\numberline {5}Multi-wavelength Radio Emission Study of Betelgeuse's Extended Atmosphere}{115}{chapter.5}
 \contentsline {section}{\numberline {5.1}CO molecules in the CSE of Betelgeuse}{116}{section.5.1}
 \contentsline {section}{\numberline {5.2}Adopted Radial Velocity}{119}{section.5.2}
 \contentsline {section}{\numberline {5.3}CARMA CO($J=2-1$) Spectra}{120}{section.5.3}
@@ -105,8 +105,8 @@
 \contentsline {section}{\numberline {7.6}Discussion}{205}{section.7.6}
 \contentsline {chapter}{\numberline {8}Conclusions and Future Work}{206}{chapter.8}
 \contentsline {section}{\numberline {8.1}Principle Results}{207}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Multi-wavelength Study of Betelgeuse's Extended Atmosphere}{207}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Multi-wavelength Radio Continuum Emission Studies of Dust-free Red Giants}{209}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.1}Betelgeuse's Extended Atmosphere}{207}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Dust-free Red Giants}{209}{subsection.8.1.2}
 \contentsline {section}{\numberline {8.2}Future Work}{211}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Probing the S1 flow of Betelgeuse with ALMA}{212}{subsection.8.2.1}
 \contentsline {subsection}{\numberline {8.2.2}Multi-epoch centimeter observations of Betelgeuse}{214}{subsection.8.2.2}
