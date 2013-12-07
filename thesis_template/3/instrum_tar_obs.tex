@@ -7,7 +7,7 @@
 Two unique data sets were analyzed as part of this thesis. The first data set was a millimeter interferometric multi-configuration study of Betelgeuse's circumstellar environment (CSE) at 1.3 mm. In the first half of this chapter we give a detailed introduction to Betelgeuse and discuss our current understanding of the star and its stellar atmosphere. We give a description of the millimeter interferometer CARMA, which we used to study its complex CSE on a number of spatial scales and also describe our observations which spanned $\sim 2.5$ yr. The second data set consisted of a multi-wavelength centimeter study of two non-dusty red gaints, Arcturus and Aldebaran. In the second half of this chapter we give a detailed introduction to both of these stars, including a description of their stellar properties, and their existing atmospheric models which we test against our data in Chapter \ref{chap:6}. We give a short discription of the VLA, which was the centimeter interferometer we used to study these stars, and describe our VLA observations. Finally, we briefly describe how the Pie Town antenna can be connected to the VLA, and outline our VLA-Pie Town observations of Betelgeuse.
 
 \section{Betelgeuse}\label{sec:3.1}
-Betelgeuse ($\alpha$ Ori: M2 Iab) is one of a pair\footnote{The other being Antares ($\alpha$ Sco: M1.5 Iab + B2.5 V; $d=170 \pm 29$\,pc)} of nearest red supergiants ($d = 197 \pm 45$\,pc, \citealt{harper_2008}). It has a limb darkened angular diameter of $44.28 \pm 0.15$\,mas \citep{haubois_2009} which means that it subtends the largest angular diameter of any star in the northern sky apart from the Sun. It is by far the best studied red supergiant and has been observed with various techniques from the radio to the UV. According to \cite{harper_2001}, Betelgeuse probably was a runaway star from the star-formation region Ori OB1 \cite[see, e.g.,][]{hoogerwerf_2000}, and was a spectral type O9 V star while on the main sequence, where it had a mass of $\sim 20\,M_{\odot}$. The evolutionary models of \cite{meynet_2003} suggest that its current mass is $18 \ M_{\odot}$ which corresponds to a surface gravity of 0.5 cm s$^{-2}$  (i.e., $2\times 10^{-5}g_{\odot}$). Its mass loss is characterized by low velocity outflows ($10-17$ km s$^{-1}$) and a mass loss rate of $\sim 3\times 10^{-6} \ M_{\odot} \ \rm{yr}^{-1}$ \citep{harper_2001}. Like most late-type evolved stars, Betelgeuse's  terminal wind velocity $v_{\infty}$ is smaller than the surface escape speed $v_{\rm{esc}}$ (values given in Table \ref{tab:3.1}). This means that most of the energy and momentum are deposited into its flow within the first few stellar radii.
+Betelgeuse ($\alpha$ Ori: M2 Iab) is one of a pair\footnote{The other being Antares ($\alpha$ Sco: M1.5 Iab + B2.5 V; $d=170 \pm 29$\,pc)} of nearest red supergiants ($d = 197 \pm 45$\,pc, \citealt{harper_2008}). It has a limb darkened angular diameter of $44.28 \pm 0.15$\,mas\footnote{mas$\,=\,$milliarcsecond} \citep{haubois_2009} which means that it subtends the largest angular diameter of any star in the northern sky apart from the Sun. It is by far the best studied red supergiant and has been observed with various techniques from the radio to the UV. According to \cite{harper_2001}, Betelgeuse probably was a runaway star from the star-formation region Ori OB1 \cite[see, e.g.,][]{hoogerwerf_2000}, and was a spectral type O9 V star while on the main sequence, where it had a mass of $\sim 20\,M_{\odot}$. The evolutionary models of \cite{meynet_2003} suggest that its current mass is $18 \ M_{\odot}$ which corresponds to a surface gravity of 0.5 cm s$^{-2}$  (i.e., $2\times 10^{-5}g_{\odot}$). Its mass loss is characterized by low velocity outflows ($10-17$ km s$^{-1}$) and a mass loss rate of $\sim 3\times 10^{-6} \ M_{\odot} \ \rm{yr}^{-1}$ \citep{harper_2001}. Like most late-type evolved stars, Betelgeuse's  terminal wind velocity $v_{\infty}$ is smaller than the surface escape speed $v_{\rm{esc}}$ (values given in Table \ref{tab:3.1}). This means that most of the energy and momentum are deposited into its flow within the first few stellar radii.
 
 \begin{table}[!hbt]
 \begin{center}
@@ -94,7 +94,7 @@ The Combined Array for Research in Millimeter-wave Astronomy (CARMA) \citep{bock
 
 CARMA is a reconfigurable array and has 5 different configurations providing baselines ranging between 8 m and 2 km; A configuration being the most extended and E configuration being the most compact. Figure \ref{fig3.3} gives an overview of how these configurations are achieved at Cedar Flat. As the resolution is set by the array configuration and frequency of observation, we list the various achievable resolutions (i.e., the HPBW of the synthesized beam) for each of CARMA's 5 configurations at 230 GHz, in Table \ref{tab:3.2}.  We also list the largest angular scale that can be imaged at 230 GHz as this is an important property of each configuration, especially when imaging extended emission. This limitation is unique to interferometers and means that structures on angular scales significantly larger than the fringe spacing formed by the shortest baseline are not measured. This information can only be obtained by observing in a smaller array configuration or by using the mosaicing method. The HPBW of the primary beam (i.e., the FOV) at a frequency $\nu$, is $50\arcsec \times (230\,\rm{GHz}/\nu)$ for the 6.1 m antennas, and is $30\times  \arcsec(230\,\rm{GHz}/\nu)$ for the 10.4 m antennas.
 
-\begin{table}[!hbt]
+\begin{table}[!t]
 \begin{center}
 \caption[Properties of the 5 CARMA Array Configurations]
 {Properties of the 5 CARMA configurations.}
@@ -115,8 +115,9 @@ Largest Angular Scale $\theta _{\rm{LAS}}$ ($\arcsec$) & 1.1& 2.0& 6.2& 14.6& 18
 \end{tabular}
 \label{tab:3.2}
 \end{center}
-\end{table}
 \vspace*{-5mm}
+\end{table}
+%\vspace*{-5mm}
 
 \begin{figure}[!ht]
 \centering 
@@ -136,7 +137,7 @@ The radio frequency gain $G_{\rm{RF}}(\nu _{RF})$, results from components befor
 A noise signal is passed through all of the remaining correlator configuration dependent components and the selectable analog filters are measured by this noise source. The noise source can be used to correct for the baseband response, although it does not include the signal path which precedes the noise source injection \citep{wright_2009}. The power measurement, $P_{\rm{sys}}$, used for the system noise temperature measurement is calculated after the analog filters and before the Automatic Level Control (ALC) amplifier which ensures that the digitizers operate at a constant level.
 
 \section{CARMA Observations of Betelgeuse}\label{sec:3.3}
-We used CARMA to obtain on-source spectral emission profiles of the rotational transition line $\rm{{}^{12}}$C$\rm{{}^{16}}$O($J=$ 2-1) which has a rest frequency of 230.538\,GHz (1.3\,mm). Table \ref{tab:3.3} summarizes our complete set of multi-configuration observations\footnote{These design of the CARMA scheduling blocks were carried out by Dr. Joanna Brown.} which span the period 2007 May - 2009 November. Our first set of observations took place in June 2007 when CARMA was in D configuration providing a spatial resolution of $2.1\arcsec$. A total of 5 D configuration tracks were carried out and one which took place in 18 May 2007 was excluded from the final analysis due to large levels of noise in the final map, due to poor weather conditions. We obtained five E configuration (the most compact configuration available) tracks during the summer of 2009  which provided a relatively low spatial resolution of $4.4\arcsec$ but gave the best sensitivity to extended emission. However, only one track was found to be of sufficient quality to be included in the final analysis. Our C configuration observations provided sub-arcsecond resolution at 230\,GHz (i.e., $0.9\arcsec$) and were originally scheduled for December 2008 but were postponed for a full year due to very poor weather conditions at  Cedar Flat that season. We obtained a total of 4 usable tracks in C configuration amounting to 8.4 hours on source. The FOV of the individual 10.4\,m antennas is $\sim$ 32$\arcsec$ at the observed frequency.
+We used CARMA to obtain on-source spectral emission profiles of the rotational transition line $\rm{{}^{12}}$C$\rm{{}^{16}}$O($J=$ 2-1) which has a rest frequency of 230.538\,GHz (1.3\,mm). Table \ref{tab:3.3} summarizes our complete set of multi-configuration observations\footnote{The design of the CARMA scheduling blocks were carried out by Dr. Joanna Brown.} which span the period 2007 May - 2009 November. Our first set of observations took place in June 2007 when CARMA was in D configuration providing a spatial resolution of $2.1\arcsec$. A total of 5 D configuration tracks were carried out and one which took place in 18 May 2007 was excluded from the final analysis due to large levels of noise in the final map, due to poor weather conditions. We obtained five E configuration (the most compact configuration available) tracks during the summer of 2009  which provided a relatively low spatial resolution of $4.4\arcsec$ but gave the best sensitivity to extended emission. However, only one track was found to be of sufficient quality to be included in the final analysis. Our C configuration observations provided sub-arcsecond resolution at 230\,GHz (i.e., $0.9\arcsec$) and were originally scheduled for December 2008 but were postponed for a full year due to very poor weather conditions at  Cedar Flat that season. We obtained a total of 4 usable tracks in C configuration amounting to 8.4 hours on source. The FOV of the individual 10.4\,m antennas is $\sim$ 32$\arcsec$ at the observed frequency.
 
 \afterpage{
 \begin{landscape}
@@ -190,7 +191,9 @@ Arcturus ($\alpha$ Bootis: K2 III) is the nearest ($d=11.3 \pm 0.1$\,pc, \cite{p
 
 Arcturus is an important target for high spatial and spectral resolution calibration. Thus when the Hipparcos catalog flagged Arcturus as a two component object \citep{perryman_1997} it caused debate in the community. However, the uncertainties in the  Hipparcos data \citep{Soderhjelm_1998O} along with a non-detection in both adaptive optics observations \citep{turner_1999} and sensitive interferometric techniques \citep{lacour_2008} suggest that Arcturus is single and can still be used as a calibrator. Nevertheless, \cite{lacour_2008} still do not rule out the possibility of a planetary companion of a few Jovian masses as suggested by its long period radial velocity variations of $\sim 233$ days \citep{hatzes_1993,brown_2007}. Variations on timescales of a few days are also seen in its radial velocity \citep{merline_1999} and photometry \citep{retter_2003}. The photometric amplitude oscillations can vary by up to a percent and may be the manifestation of convection such as large-scale granulation, or solar-like oscillations \citep{dziembowski_2001}. 
 
+\afterpage{
 \begin{table}[!hb]\small
+\vspace{+25mm}
 \begin{center}
 \caption[Basic Properties of $\alpha$ Bootis and $\alpha$ Tauri]
 {Basic Properties of $\alpha$ Bootis and $\alpha$ Tauri.}
@@ -233,13 +236,14 @@ References.-(1) \cite{perryman_1997}; (2) \cite{van_leeuwen_2007}; (3) \cite{kal
 \end{minipage}
 \end{center}
 \end{table}
+\clearpage}
 
 The first detailed model of the atmosphere of Arcturus was the 1-D time-independent semi-empirical model of \cite{ayres_1975} which was based on diagnostics observable from the ground (i.e., \ion{Ca}{ii} $H$ and $K$ and the \ion{Ca}{ii} IR triplet) and early satellite observations of the \ion{Mg}{ii} $h$ and $k$ emission lines with the Orbiting Astronomical Observatory 3 (\textit{OAO-3} or \textit{Copernicus}). They were able to calculate temperature and mass column densities for the upper photosphere and chromosphere and estimated the temperature at the top of the chromosphere to be $\sim 8000$ K. They also found $T_{\rm{min}}/T_{\rm{eff}} \sim 0.77$, which is similar to that of the Sun. The important \textit{IUE} cool star survey by \cite{linsky_1979} placed Arcturus on the right of the dividing line. This meant that its atmosphere showed lines formed at temperatures no hotter than $10,000 - 20,000$ K, suggestive of a chromosphere only. However, they also developed a hot coronal wind model for the star and found it to be consistent with the absence of a detection of transition region material in the \textit{IUE} spectra; i.e., the high temperature transition region emission line fluxes could be below the detection limit. \cite{drake_1985} developed a semi-empirical chromosphere and wind model for Arcturus based on the \ion{Mg}{ii} $k$ emission line from the \textit{IUE} (see Figure \ref{fig:3.4.1}) and estimated a mass loss rate of $2\times 10^{-10}$ $M_{\odot}$ yr$^{-1}$.
 
-\begin{figure}[hbt!]
+\begin{figure}[t!]
 \centering 
           \includegraphics[trim=0pt 100pt 0pt 100pt,clip,width=10cm, height=10cm]{/home/eamon/thesis/thesis_template/3/drake_mg.ps}
-\caption[\textit{IUE} \ion{Mg}{ii} \textit{k} line and Drake models]{\textit{IUE} \ion{Mg}{ii} \textit{k} line profile for Arcturus over-plotted with the model atmospheres of \cite{drake_1985}. The superior resolution and sensitivity of the \textit{HST} profile in Figure \ref{fig:1.2.2} is probable the main reason for the difference in line profile shapes.}
+\caption[\textit{IUE} \ion{Mg}{ii} \textit{k} line and Drake models]{\textit{IUE} \ion{Mg}{ii} \textit{k} line profile for Arcturus over-plotted with the model atmospheres of \cite{drake_1985}. The superior resolution and sensitivity of the \textit{HST} profile in Figure \ref{fig:1.2.2} is probably the main reason for the difference in line profile shapes.}
 \label{fig:3.4.1}
 \end{figure}
 
@@ -288,7 +292,7 @@ Apart from the addition of more feeds at the center of the reflector, and a refu
 
 Each antenna is 25\,m in diameter giving the array a total collecting area equivalent to a single dish of 130 m in diameter. Each antenna has an off-axis Cassegrain design with a rotatable sub-reflector at the prime focus of the main reflector and is supported by four feed legs as shown in Figure \ref{fig:3.5}. All feeds are located on a feed ring at the Cassegrain focus and the observing feed is changed by rotating the asymmetric sub-reflector about the main reflector axis so that the secondary focal point moves to the desired feed. The standard observing mode for all feeds is circular polarization. RF signals from each feed  are sent via a waveguide to the antenna vortex room located directly underneath the main reflector, where they are feed into low noise front ends. The vortex room is temperature controlled and also contains cryogenic cooling systems for the front end, portions of the LO, and IF equipment. IF signals from each antenna are sent by cable to a shielded room where the signals are cross correlated.
 
-\begin{figure}[hbt!]
+\begin{figure}[t!]
 \centering 
           \includegraphics[trim=0pt 220pt 0pt 220pt,clip,width=\textwidth]{/home/eamon/thesis/thesis_template/3/vla_antenna1.ps}
 \caption[Main features of a VLA antenna]{Main features of a VLA antenna. The sub-reflector is located at the prime focus on a rotational mount, which is supported by four feed legs. The 8 feeds are located in a ring at the secondary focus. The feeds send the RF signal to the front end located in the vortex room directly beneath the main reflector. \textit{Image Credits:} NRAO/AUI.}
@@ -402,7 +406,7 @@ Asymmetries in Betelgeuse's atmosphere were first detected at radio wavelengths 
 \begin{table}[!ht]
 \begin{center}
 \caption[Multi-wavelength VLA + Pie Town Observations of Betelgeuse]
-{Multi-wavelength VLA + Pie Town Observations of Betelgeuse}
+{Multi-wavelength VLA + Pie Town Observations of Betelgeuse.}
 \begin{tabular}{lccccc}
 \hline
 \hline

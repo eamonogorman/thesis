@@ -71,7 +71,7 @@ Our 2011 VLA data were acquired just after an array re-configuration, which mean
 
 The final a priori calibration step is to provide a flux density value to the flux calibrator via CASA's \textit{setjy} task. The VLA flux calibrators were assigned values using the ``Perley-Butler 2010" flux density standard models  and with assumed systematic uncertainties of 3\% at all frequencies \citep{perley_2013}. At the time, no Ka or S-band flux density standard models were available so instead for these we used the K and L-band models, respectively, which were scaled according to their spectral indices. The absolute flux scale for CARMA observations is often determined by observing a planet and using a model of its flux as a function of baseline length. However, no such models were available in the earlier versions of CASA which we used at the time and so the flux calibration was carried out with the quasers, 0530+135 and 3C120. The continuously updated CARMA flux catalog was accessed via the \textit{xplore} GUI to obtain their flux values at each observation. The flux of these objects are more unpredictable and the systematic uncertainties are about 20\%.
 
-\begin{figure}[hbt!]
+\begin{figure}[t!]
 \centering 
 \includegraphics[trim=20pt 320pt 0pt 300pt,clip,scale=0.7]{/home/eamon/thesis/thesis_template/4/opacity.ps}  
 \caption[Atmospheric opacity at the VLA site]{Calculation of the atmospheric opacity at the VLA site between $1-50$\,GHz on 2011 February 11. The adjustment values applied to the data were based on the average of a seasonal model and information from the weather station obtained during the observations.}
