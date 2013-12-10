@@ -29,8 +29,9 @@ Another important way to represent the data at this stage of the flagging proces
 No RFI was present in any of the CARMA data sets and in any of the VLA data sets at wavelengths $\lesssim 3$\,cm (i.e., X, K, Ka, and Q bands). For the 2011 long wavelength ($> 3$\,cm) data, the two sub-bands were centered at relatively RFI free regions of the bandpass and only a very small amount of RFI had to be manually flagged. The 2012 wide-band data were taken at 10 and 20\,cm (i.e., S and L band) and many of the sub-bands were severely contaminated with RFI, especially at 20\,cm. In Figure \ref{fig:4.3} we plot the visibility amplitude of the flux calibrator 3C286 against frequency for the 2012 wide-band data set at 20\,cm. The upper panel shows the raw data before any RFI had been removed. Some of the sub-bands were badly contaminated with RFI ($>90\%$) and had to be completely flagged. The remaining sub-bands were initially Hanning smoothed to suppress Gibbs ringing. This action spreads the single-channel RFI into three channels, but importantly removes the effects of some of the worst RFI from a number of channels and allows as much good data to be retained as possible. The \textit{testautoflag} task was then used to conservatively flag RFI from all sources and any remaining RFI was manually flagged. The final result for the flux calibrator is shown in the bottom panel of Figure \ref{fig:4.3} with only some residual RFI still remaining, particularly between 1 and 1.2\,GHz.
 
 \begin{figure}[hbt!]
+\vspace{9mm}
 \centering 
-\includegraphics[trim=30pt 70pt 20pt 70pt,clip,width=14cm,height=14cm]{/home/eamon/thesis/thesis_template/4/rfi_thesis_new.ps}  
+\includegraphics[trim=30pt 70pt 20pt 70pt,clip,width=14cm,height=16cm]{/home/eamon/thesis/thesis_template/4/rfi_thesis_new.ps}  
 \caption[Eliminating RFI from the L band data set]{Eliminating RFI from the 20\,cm wide-band data set. \textit{Top panel:} Raw visibility amplitudes showing the presence of high levels of RFI in many sub-bands. \textit{Bottom panel:} Post flagging visibility amplitudes. Some of the sub-bands were so severely contaminated with RFI that they had to be completely flagged. The data is still uncalibrated at this stage and the gain as a function of frequency is clearly present.}
 \label{fig:4.3}
 \end{figure}
@@ -49,7 +50,7 @@ where $ J_{ij}$ represents the accumulation of all corruptions affecting baselin
 
 For the purpose of the work presented in this thesis, the Measurement Equation can be written as
 \begin{equation}
-V_{ij}'(u,v,\nu) = b_{ij}(t)[B_{i}(\nu ,t)B_{j}^{*}(\nu ,t)](t)g_{i}(t)g_{j}(t)V_{ij}(u,v,\nu)e^{i[\theta _{i}(t) - \theta _{j}(t)]}
+V_{ij}'(u,v,\nu) = b_{ij}(t)[B_{i}(\nu ,t)B_{j}^{*}(\nu ,t)]g_{i}(t)g_{j}(t)V_{ij}(u,v,\nu)e^{i[\theta _{i}(t) - \theta _{j}(t)]}
 \end{equation}
 where
 \begin{itemize}
@@ -59,7 +60,7 @@ where
 \end{itemize}
 The general calibration strategy is then to derive a series of scaling factors from both the phase and flux calibrators, which are then collectively applied to the science target in the final stage of calibration. A general workflow diagram describing the main steps involved in calibration process are summarized in Figure \ref{fig:4.4}. We now discuss each of these steps while placing emphases on our CARMA and VLA data.
 
-\begin{figure}[hbt!]
+\begin{figure}[t!]
 \centering 
 \includegraphics[trim=20pt 160pt 0pt 140pt,clip,scale=0.6]{/home/eamon/thesis/thesis_template/4/calib_overview.ps}  
 \caption[Calibration workflow diagram]{A workflow diagram outlining the main steps involved in calibrating radio interferometric data. Each of these steps are discussed in the text in relation to our CARMA and VLA observations (CASA cookbook, NRAO).}
@@ -69,8 +70,6 @@ The general calibration strategy is then to derive a series of scaling factors f
 \subsection{Prior Calibration}
 Our 2011 VLA data were acquired just after an array re-configuration, which meant that the positions of some of the antennas were not accurately known at the time of observations. This resulted in some data points having inaccurate $u-v$ coordinates. During the course of observations in each configuration, the exact position of all antennas become known and so the $u-v$ data could be calibrated to account for the discrepancies in the $u-v$ coordinates.  At the VLA site, atmospheric opacites become significant at frequencies $\gtrsim 20$\,GHz as shown in Figure \ref{fig:4.5} and so opacity corrections were applied to the high frequency data sets. The adjustment values were based on the average of a seasonal model (based on many years of measurements) and information from the weather station obtained during the observations. For the CARMA data, the opacity at 1.3\,mm is measured by a tipper \citep{white_2009}. The tipper reflects radiation from the blank sky at different inclinations onto a radiometer. The voltage from the radiometer can then be plotted against inclination to allow the opacity to be calculated. 
 
-The final a priori calibration step is to provide a flux density value to the flux calibrator via CASA's \textit{setjy} task. The VLA flux calibrators were assigned values using the ``Perley-Butler 2010" flux density standard models  and with assumed systematic uncertainties of 3\% at all frequencies \citep{perley_2013}. At the time, no Ka or S-band flux density standard models were available so instead for these we used the K and L-band models, respectively, which were scaled according to their spectral indices. The absolute flux scale for CARMA observations is often determined by observing a planet and using a model of its flux as a function of baseline length. However, no such models were available in the earlier versions of CASA which we used at the time and so the flux calibration was carried out with the quasers, 0530+135 and 3C120. The continuously updated CARMA flux catalog was accessed via the \textit{xplore} GUI to obtain their flux values at each observation. The flux of these objects are more unpredictable and the systematic uncertainties are about 20\%.
-
 \begin{figure}[t!]
 \centering 
 \includegraphics[trim=20pt 320pt 0pt 300pt,clip,scale=0.7]{/home/eamon/thesis/thesis_template/4/opacity.ps}  
@@ -78,17 +77,19 @@ The final a priori calibration step is to provide a flux density value to the fl
 \label{fig:4.5}
 \end{figure}
 
+The final a priori calibration step is to provide a flux density value to the flux calibrator via CASA's \textit{setjy} task. The VLA flux calibrators were assigned values using the ``Perley-Butler 2010" flux density standard models  and with assumed systematic uncertainties of 3\% at all frequencies \citep{perley_2013}. At the time, no Ka or S-band flux density standard models were available so instead for these we used the K and L-band models, respectively, which were scaled according to their spectral indices. The absolute flux scale for CARMA observations is often determined by observing a planet and using a model of its flux as a function of baseline length. However, no such models were available in the earlier versions of CASA which we used at the time and so the flux calibration was carried out with the quasers, 0530+135 and 3C120. The continuously updated CARMA flux catalog was accessed via the \textit{xplore} GUI to obtain their flux values at each observation. The flux of these objects are more unpredictable and the systematic uncertainties are about 20\%.
+
 \subsection{Bandpass Calibration}
 The bandpass is the relative gain as a function of frequency and solving for it is the first part of the calibration process. Variation in frequency arises from frequency dependent effects in signal transmission. Such variation is shown in Figure \ref{fig:4.6} for both phase and amplitude for a single antenna. For the VLA data, the flux calibrators were also used as the bandpass calibrators. Their phases were found to vary significantly over the $5-10$ minutes of observation especially at high frequencies; in most cases by a few 10s of degrees. Before a solution to the bandpass could be found, these phase variations needed to be corrected, to prevent decorrelation of the vector averaged bandpass solution. The complex bandpass, $B_i$, could then be solved using the \textit{bandpass} task and applying the antenna positions and phase solutions. The bandpass solutions  were then applied to the bandpass calibrator to check that both the amplitude and phase were then almost constant across channels/frequency.
 
-\begin{figure}[hbt!]
+The CARMA data contained three spectral windows (i.e., 468, 62, and 31\,MHz in width), each having independent bandpass shapes in both amplitude and phase. In theory, one could calculate the bandpass of each spectral window individually by observing a bright astronomical source. However, for narrow spectral windows this would be too costly in observing time in order to reach a sufficient S/N. Thankfully, for each of these spectral windows, the gain calibrations are typically the same  after the full bandpass dependence has been removed. The strategy to calibrate the CARMA data was to initially carry out the bandpass calibration on the wideband data (i.e., 468\,MHz) using the same strategy outlined in the previous paragraph, and then carry out the gain calibration on this wideband data. Once this had been done, these bandpass independent gain solutions were applied to the narrow band data (i.e., 62, and 31\,MHz) while solving for their bandpass. This narrow band bandpass solution could then be applied to the target and phase calibrator.
+
+\begin{figure}[t!]
 \centering 
 \includegraphics[trim=20pt 320pt 0pt 300pt,clip,scale=0.77]{/home/eamon/thesis/thesis_template/4/bandpass.ps}  
 \caption[Gain variation as a function of frequency]{One antenna's gain variation as a function of frequency for the flux calibrator 3C138 at 1.3\,cm. Bandpass calibration corrects for this variation.}
 \label{fig:4.6}
 \end{figure}
-
-The CARMA data contained three spectral windows (i.e., 468, 62, and 31\,MHz in width), each having independent bandpass shapes in both amplitude and phase. In theory, one could calculate the bandpass of each spectral window individually by observing a bright astronomical source. However, for narrow spectral windows this would be too costly in observing time in order to reach a sufficient S/N. Thankfully, for each of these spectral windows, the gain calibrations are typically the same  after the full bandpass dependence has been removed. The strategy to calibrate the CARMA data was to initially carry out the bandpass calibration on the wideband data (i.e., 468\,MHz) using the same strategy outlined in the previous paragraph, and then carry out the gain calibration on this wideband data. Once this had been done, these bandpass independent gain solutions were applied to the narrow band data (i.e., 62, and 31\,MHz) while solving for their bandpass. This narrow band bandpass solution could then be applied to the target and phase calibrator.
 
 \subsection{Gain Calibration}
 
@@ -119,9 +120,10 @@ Taking the inverse Fourier transform of the calibrated visibilities results in a
 
 The calibrated visibilities were both inverse Fourier transformed and deconvolved using the CASA \textit{clean} task in multi-frequency synthesis imaging mode. This imaging mode separately grids the multiple spectral channels onto the \textit{u-v} plane and therefore improves the overall \textit{u-v} coverage. As all science targets were expected to be point sources at all wavelengths, resolution was not paramount and so we used natural weighting for maximum sensitivity. The cell size was chosen so that the synthesized beam was about five pixels across. The FOV of the VLA at short wavelengths is small (see Table \ref{tab:3.6}) and at these wavelengths there are less serendipitous background objects. This meant that the science targets were the only objects within a few primary beams of the phase center and so it was sufficient to place just one CLEAN circle around the target source. The general procedure was to first use \textit{clean} to create a dirty image (i.e., by setting \textit{niter}\,=\,0) allowing the root mean square noise of this dirty image, $\sigma _{\rm{rms}}$, to be determined. The final CLEAN image was then created by setting \textit{niter} to a very large number  and setting the CLEANing threshold to be $\sim 3\sigma _{\rm{rms}}$. Setting \textit{niter} to a very large number ensures that this CLEANing threshold is reached.
 
-\begin{figure}[hbt!]
+\begin{figure}[t!]
 \centering 
-\includegraphics[trim=130pt 0pt 100pt 0pt,clip,width=15cm,height=12cm]{/home/eamon/thesis/thesis_template/4/l_thesis.ps}  
+\vspace{28mm}
+\includegraphics[trim=130pt 0pt 100pt 0pt,clip,width=15cm,height=12.5cm]{/home/eamon/thesis/thesis_template/4/l_thesis.ps}  
 \caption[Wide field view of the VLA 20\,cm image]{Wide field view of the VLA 20\,cm CLEANed image showing the many serendipitous background sources close to Arcturus (pink cross). Many of these sources were a few orders of magnitude brighter than Arcturus at 20\,cm. CLEAN circles were placed around all these sources during interactive CLEANing. The blue circle marks the FOV (i.e., the HPBW of the primary beam) of the VLA at 20\,cm while the pink cross in the center marks the position of Arcturus. The contour levels are set at $(0.005,0.01,0.05,0.1,0.2,0.4,0.6,0.8)\times 80.3$\,mJy, where $80.3$\,mJy is the flux of the brightest source in the image.}
 \label{fig:4.8}
 \end{figure}
@@ -133,6 +135,7 @@ At long VLA wavelengths the primary beam becomes larger and the background sky s
 The CO emission around Betelgeuse is extended and has many different spatial scales. Traditional deconvolution techniques such as the CLEAN and MEM algorithms are scale-free and have no concept of source size. Both algorithms treat each pixel as an independent degree of freedom. However, adjacent pixels in an image are not independent due to the limiting resolution set by the dirty beam and the intrinsic source size. For example a Gaussian source covering 50 pixels can be characterized by only 5 parameters, not 50. The CASA multi-scale algorithm uses ``Multi-scale CLEAN'' \citep{cornwell_2008} which is a scale sensitive algorithm that employs fewer degrees of freedom to model plausible sky brightness distributions. Instead of deconvolving using just delta-functions (or pixels) as in other clean algorithms, Multi-scale CLEAN carries out the deconvolution using delta-functions and circular Gaussians of various scales. It has been shown to produce more realistic representations of the sky brightness distribution for extended complex emission than the traditional CLEAN algorithm does \citep{rich_2008}.
 
 \begin{figure}[hbt!]
+\vspace{10mm}
 \centering 
 \mbox{
 \includegraphics[trim=127pt 0pt 130pt 0pt,clip,scale=0.7]{/home/eamon/thesis/thesis_template/4/thesis_clean.eps}  

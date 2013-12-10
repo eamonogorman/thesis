@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.7)  7 DEC 2013 18:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  10 DEC 2013 14:11
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -542,8 +542,11 @@ LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./thesis.aux (./0/declaration.aux) (./0/abstract.aux) (./0/dedication.aux)
-(./0/acknowledgement.aux) (./0/publications.aux) (./3/instrum_tar_obs.aux)
-(./appendix/app1.aux))
+(./0/acknowledgement.aux) (./0/publications.aux) (./5/aori.aux
+
+LaTeX Warning: Label `sec:5.15' multiply defined.
+
+) (./appendix/app1.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
@@ -653,224 +656,308 @@ LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <100> not available
 
 
 
-]) [8] (./thesis.toc)
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
-
+]) [8] (./thesis.toc
+Overfull \hbox (5.04445pt too wide) in paragraph at lines 5--5
+ [] []\OT1/cmr/bx/n/12 Multi-wavelength Ra-dio Emis-sion Study of Betel-geuse's
+ Ex-tended 
+ []
 
 [9
 
 
-] (./thesis.lof)
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+ [10] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [10
+ [11
 
 ] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [11
+ [12
 
 ]
-\openout2 = `3/instrum_tar_obs.aux'.
+\openout2 = `5/aori.aux'.
 
- (./3/instrum_tar_obs.tex
+ (./5/aori.tex
 Chapter 1.
-
-LaTeX Warning: Reference `chap:6' on page 1 undefined on input line 7.
-
 [1
 
 
 
 ]
-Overfull \hbox (2.05817pt too wide) in paragraph at lines 16--59
- [] 
+
+LaTeX Warning: Reference `chap:1' on page 2 undefined on input line 16.
+
+
+Overfull \hbox (1.08417pt too wide) in paragraph at lines 15--17
+\OT1/cmr/m/n/12 which can be used to show O/C$= 2\OML/cmm/m/it/12 :\OT1/cmr/m/n
+/12 5$. [][]Lam-bert \OT1/cmr/m/it/12 et al.[][] \OT1/cmr/m/n/12 ([]1984[][]) a
+lso found log$[]$$\OML/cmm/m/it/12 ^^O$\OT1/cmr/m/n/12 (N)$=
  []
 
 [2]
+File: /home/eamon/thesis/thesis_template/5/bernat_new1.ps Graphic file (type ep
+s)
+ </home/eamon/thesis/thesis_template/5/bernat_new1.ps> [3]
+File: /home/eamon/thesis/thesis_template/5/huggins_1987.ps Graphic file (type e
+ps)
 
-LaTeX Warning: Text page 3 contains only floats.
+</home/eamon/thesis/thesis_template/5/huggins_1987.ps>
+File: /home/eamon/thesis/thesis_template/5/huggins_1994.ps Graphic file (type e
+ps)
 
-
-Overfull \vbox (5.40863pt too high) has occurred while \output is active []
-
-
-[3]
-File: /home/eamon/thesis/thesis_template/3/lim1.ps Graphic file (type eps)
- </home/eamon/thesis/thesis_template/3/lim1.ps>
-File: /home/eamon/thesis/thesis_template/3/lim2.ps Graphic file (type eps)
-
-</home/eamon/thesis/thesis_template/3/lim2.ps>
-Overfull \hbox (8.71968pt too wide) in paragraph at lines 71--72
+</home/eamon/thesis/thesis_template/5/huggins_1994.ps>
+Overfull \hbox (11.74329pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
 [4]
-
-LaTeX Warning: Reference `chap:5' on page 5 undefined on input line 78.
+Overfull \hbox (0.51424pt too wide) in paragraph at lines 41--42
+\OT1/cmr/m/n/12 Before we dis-cuss the CO($\OML/cmm/m/it/12 J \OT1/cmr/m/n/12 =
+ 2 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 1$) spec-tra ob-tained from our multi-c
+onfiguration
+ []
 
 [5]
-File: /home/eamon/thesis/thesis_template/3/carma_configs.ps Graphic file (type 
-eps)
- </home/eamon/thesis/thesis_template/3/carma_configs.ps>
-Overfull \hbox (3.57922pt too wide) in paragraph at lines 86--87
+File: /home/eamon/thesis/thesis_template/5/vrad1_new.ps Graphic file (type eps)
+
+ </home/eamon/thesis/thesis_template/5/vrad1_new.ps>
+File: /home/eamon/thesis/thesis_template/5/vrad2_new.ps Graphic file (type eps)
+
+
+</home/eamon/thesis/thesis_template/5/vrad2_new.ps>
+Overfull \hbox (14.58015pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
-File: /home/eamon/thesis/thesis_template/3/carma_layout.ps Graphic file (type e
-ps)
-</home/eamon/thesis/thesis_template/3/carma_layout.ps> [6] [7]
-File: /home/eamon/thesis/thesis_template/3/carma_path.ps Graphic file (type eps
-)
 
-</home/eamon/thesis/thesis_template/3/carma_path.ps> [8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 185--191
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 56.
+
+
+LaTeX Warning: Reference `tab:3.3' on page 6 undefined on input line 59.
+
+[6]
+File: /home/eamon/thesis/thesis_template/5/f1.eps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/5/f1.eps>
+
+LaTeX Warning: Reference `tab:3.2' on page 7 undefined on input line 69.
+
+[7]
+
+LaTeX Warning: Reference `chap:3' on page 8 undefined on input line 71.
+
+[8]
+File: /home/eamon/thesis/thesis_template/5/f2.eps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/5/f2.eps> [9] [10]
+
+LaTeX Warning: Reference `fig:5.6' on page 11 undefined on input line 106.
+
+
+LaTeX Warning: Reference `fig:5.6' on page 11 undefined on input line 106.
+
+
+LaTeX Warning: Reference `fig:5.6' on page 11 undefined on input line 106.
+
+[11]
+
+LaTeX Warning: Reference `fig:5.7' on page 12 undefined on input line 136.
+
+
+LaTeX Warning: Reference `fig:5.7' on page 12 undefined on input line 136.
+
+
+LaTeX Warning: Reference `fig:5.7' on page 12 undefined on input line 136.
+
+[12]
+File: /home/eamon/thesis/thesis_template/5/shell_size_new1.ps Graphic file (typ
+e eps)
+ </home/eamon/thesis/thesis_template/5/shell_size_new1.ps>
+
+LaTeX Warning: Reference `fig:5.7' on page 13 undefined on input line 148.
+
+[13]
+File: /home/eamon/thesis/thesis_template/5/f13.eps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/5/f13.eps> [14] [15] [16]
+File: /home/eamon/thesis/thesis_template/5/f14.eps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/5/f14.eps>
+File: /home/eamon/thesis/thesis_template/5/f15.eps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/5/f15.eps>
+File: /home/eamon/thesis/thesis_template/5/f16.eps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/5/f16.eps>
+File: /home/eamon/thesis/thesis_template/5/f17.eps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/5/f17.eps>
+Overfull \hbox (11.53075pt too wide) in paragraph at lines 200--208
+[][] 
+ []
+
+
+Overfull \hbox (11.53075pt too wide) in paragraph at lines 200--208
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--208
 
  []
 
-[12
+[17] [18]
+File: /home/eamon/thesis/thesis_template/5/s1_shell.ps Graphic file (type eps)
+ </home/eamon/thesis/thesis_template/5/s1_shell.ps> [19] [20]
+File: /home/eamon/thesis/thesis_template/5/higher_co_lines.ps Graphic file (typ
+e eps)
+
+</home/eamon/thesis/thesis_template/5/higher_co_lines.ps> [21] [22] [23]
+
+LaTeX Warning: Reference `eq:1.20aa' on page 24 undefined on input line 269.
 
 
-] [13] [14]
-Overfull \hbox (11.44363pt too wide) in paragraph at lines 242--242
- [] 
- []
+LaTeX Warning: Reference `eq:1.27aa' on page 24 undefined on input line 269.
 
-[15]
-File: /home/eamon/thesis/thesis_template/3/drake_mg.ps Graphic file (type eps)
- </home/eamon/thesis/thesis_template/3/drake_mg.ps>
+File: /home/eamon/thesis/thesis_template/5/sio.ps Graphic file (type eps)
+</home/eamon/thesis/thesis_template/5/sio.ps> [24] [25]
 
-LaTeX Warning: Reference `fig:1.2.2' on page 16 undefined on input line 246.
-
-
-LaTeX Warning: Reference `fig:1.2.2' on page 16 undefined on input line 246.
-
-[16
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
-
- []
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 258.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 258.
-
-[17]
-
-LaTeX Warning: Reference `chap:6' on page 18 undefined on input line 260.
-
-[18]
-
-LaTeX Warning: Reference `fig2.9' on page 19 undefined on input line 291.
-
-[19] [20]
-File: /home/eamon/thesis/thesis_template/3/vla_antenna1.ps Graphic file (type e
-ps)
- </home/eamon/thesis/thesis_template/3/vla_antenna1.ps>
-Overfull \hbox (4.91939pt too wide) in paragraph at lines 306--322
- [] 
- []
-
-[21] [22] [23]
-Overfull \hbox (22.23962pt too wide) in paragraph at lines 368--368
- [] 
- []
-
-[24
-
-]
-File: /home/eamon/thesis/thesis_template/3/phase_center1_new.ps Graphic file (t
-ype eps)
- </home/eamon/thesis/thesis_template/3/phase_center1_new.ps>
-File: /home/eamon/thesis/thesis_template/3/phase_center2_new.ps Graphic file (t
-ype eps)
-
-</home/eamon/thesis/thesis_template/3/phase_center2_new.ps>
-Overfull \hbox (8.89003pt too wide) in paragraph at lines 379--380
- [][] 
- []
-
-File: /home/eamon/thesis/thesis_template/3/atau_cx.ps Graphic file (type eps)
-</home/eamon/thesis/thesis_template/3/atau_cx.ps>
-File: /home/eamon/thesis/thesis_template/3/atau_kkaq.ps Graphic file (type eps)
-
-
-</home/eamon/thesis/thesis_template/3/atau_kkaq.ps> [25
-
-]
-
-LaTeX Warning: Reference `subsec:2.1.3' on page 26 undefined on input line 399.
-
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 1.95872pt
+(hyperref)                removed on input line 307.
 
 [26]
-
-LaTeX Warning: Text page 27 contains only floats.
-
-
-Overfull \vbox (7.86395pt too high) has occurred while \output is active []
-
-
-[27]
-Overfull \hbox (5.78288pt too wide) in paragraph at lines 410--456
- [] 
- []
-
+File: /home/eamon/thesis/thesis_template/5/emerlin_im.ps Graphic file (type eps
 )
-Underfull \hbox (badness 10000) in paragraph at lines 405--229
+ </home/eamon/thesis/thesis_template/5/emerlin_im.ps>
+File: /home/eamon/thesis/thesis_template/5/emerlin_vis.ps Graphic file (type ep
+s)
 
+</home/eamon/thesis/thesis_template/5/emerlin_vis.ps>
+Overfull \hbox (20.2813pt too wide) in paragraph at lines 316--317
+ [][] 
  []
 
-[28] [29] [30]
+[27] [28]
+File: /home/eamon/thesis/thesis_template/5/merlin_parallax.ps Graphic file (typ
+e eps)
+ </home/eamon/thesis/thesis_template/5/merlin_parallax.ps> [29]
+File: /home/eamon/thesis/thesis_template/5/3_plots_new.ps Graphic file (type ep
+s)
+
+</home/eamon/thesis/thesis_template/5/3_plots_new.ps>
+Overfull \hbox (14.22389pt too wide) in paragraph at lines 336--337
+ [][] 
+ []
+
+[30] [31]
+
+LaTeX Warning: Reference `chap:3' on page 32 undefined on input line 345.
+
+
+LaTeX Warning: Reference `tab:3.8' on page 32 undefined on input line 355.
+
+[32] [33]
+File: /home/eamon/thesis/thesis_template/5/vla-pi-town_96-2004.ps Graphic file 
+(type eps)
+ </home/eamon/thesis/thesis_template/5/vla-pi-town_96-2004.ps>
+[34]
+File: /home/eamon/thesis/thesis_template/5/disk_temps.ps Graphic file (type eps
+)
+ </home/eamon/thesis/thesis_template/5/disk_temps.ps> [35] [36]
+
+LaTeX Warning: Reference `eq:1.43aa' on page 37 undefined on input line 384.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 1.95872pt
+(hyperref)                removed on input line 386.
+
+[37]
+File: /home/eamon/thesis/thesis_template/5/2004_q_uniform.ps Graphic file (type
+ eps)
+ </home/eamon/thesis/thesis_template/5/2004_q_uniform.ps>
+File: /home/eamon/thesis/thesis_template/5/2003_q_uniform.ps Graphic file (type
+ eps)
+
+</home/eamon/thesis/thesis_template/5/2003_q_uniform.ps>
+File: /home/eamon/thesis/thesis_template/5/2000_q_uniform.ps Graphic file (type
+ eps)
+
+</home/eamon/thesis/thesis_template/5/2000_q_uniform.ps>
+File: /home/eamon/thesis/thesis_template/5/1998_q_uniform.ps Graphic file (type
+ eps)
+
+</home/eamon/thesis/thesis_template/5/1998_q_uniform.ps>
+File: /home/eamon/thesis/thesis_template/5/wedge.eps Graphic file (type eps)
+
+</home/eamon/thesis/thesis_template/5/wedge.eps>
+Overfull \hbox (6.02734pt too wide) in paragraph at lines 395--403
+[][] 
+ []
+
+
+Overfull \hbox (6.02734pt too wide) in paragraph at lines 395--403
+[] 
+ []
+
+
+Overfull \hbox (42.675pt too wide) in paragraph at lines 395--403
+[][][][][][] 
+ []
+
+[38] [39]) [40]
 \openout2 = `appendix/app1.aux'.
 
  (./appendix/app1.tex
 Appendix A.
-[31
+[41
 
 
 
-]) [32] (./thesis.bbl (./thesis.brf)
+]) [42] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write8
 \openout8 = `thesis.brf'.
 
- [33
+
+Underfull \hbox (badness 1308) in paragraph at lines 34--34
+[]\OT1/cmr/m/sc/10 Bookbinder, J.A., Sten-cel, R.E., Drake, S.A., Si-mon, T., L
+in-sky, J.L. &
+ []
+
+[43
 
 
-]
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...hitecture}. In {\em NRC-EVLA Memo ##
-                                                   014\/}, vol.~14 of {\em N...
-l.85 
-     
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[34] [35] [36] [37]
+] [44] [45] [46]
 Missing character: There is no â in font cmr7!
 Missing character: There is no ‹ in font cmr7!
 Missing character: There is no † in font cmr7!
- [38] [39]) [40] (./thesis.aux (./0/declaration.aux)
+ [47]) [48] (./thesis.aux (./0/declaration.aux)
 (./0/abstract.aux) (./0/dedication.aux) (./0/acknowledgement.aux)
-(./0/publications.aux) (./3/instrum_tar_obs.aux) (./appendix/app1.aux))
+(./0/publications.aux) (./5/aori.aux) (./appendix/app1.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 9319 strings out of 495062
- 134917 string characters out of 1182645
- 226513 words of memory out of 3000000
- 12216 multiletter control sequences out of 15000+50000
- 20196 words of font info for 71 fonts, out of 3000000 for 9000
+ 9097 strings out of 495062
+ 131360 string characters out of 1182645
+ 216611 words of memory out of 3000000
+ 11978 multiletter control sequences out of 15000+50000
+ 20935 words of font info for 73 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,49p,1837b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,13n,49p,2319b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (52 pages, 300896 bytes).
+Output written on thesis.dvi (61 pages, 322492 bytes).
