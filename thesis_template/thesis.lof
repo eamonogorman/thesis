@@ -1,21 +1,9 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Bernat (1979) CO line profile showing two sharp line cores}}{3}{figure.caption.7}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Previous CO($J= 2-1$) rotational emission line profiles}}{4}{figure.caption.8}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Radial velocity data and model for $\alpha $ Ori}}{6}{figure.caption.9}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Spectra for each CARMA configuration}}{7}{figure.caption.10}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Spectra extracted over various regions}}{10}{figure.caption.11}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Geometry of a spherical symmetric flow}}{14}{figure.caption.12}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces S2 radius as a function of channel velocity}}{15}{figure.caption.13}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Surface brightness vs. projected radius}}{17}{figure.caption.14}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces CARMA maps of the inner S1 flow}}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces CO rotational emission lines from the CSE of Betelgeuse}}{23}{figure.caption.17}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces SiO rotational emission line from the CSE of Betelgeuse}}{24}{figure.caption.18}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces First e-MERLIN results for Betelgeuse}}{28}{figure.caption.20}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Predicted position of Betelgeuse on 2012 July}}{30}{figure.caption.21}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces 1-D model vs. e-MERLIN observations}}{31}{figure.caption.22}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Radio flux density variation of Betelgeuse between $1996\rightarrow 2004$}}{35}{figure.caption.23}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Atmospheric temperature profile between $1998-2013$}}{36}{figure.caption.24}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Pie Town Q band images spanning six years}}{39}{figure.caption.25}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Simulating ALMA dust observations}}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Simulating ALMA CO($J=6-5$) observations}}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces MERLIN $+$ ``old'' VLA image of Betelgeuse}}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Block diagram for a new semi-empirical model}}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Ionized stellar mass-loss rate vs. stellar radius}}{16}{figure.caption.13}
 \addvspace {10\p@ }

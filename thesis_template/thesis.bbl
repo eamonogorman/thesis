@@ -1,18 +1,11 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Altenhoff} {\em et~al.\/}(1994){Altenhoff}, {Thum} \&
-  {Wendker}}]{altenhoff_1994}
-{\sc {Altenhoff}, W.J., {Thum}, C. \& {Wendker}, H.J.} (1994). {Radio emission
-  from stars: A survey at 250 GHz}. {\em \aap\/}, {\bf 281}, 161--183.
-
-\bibitem[{{Becklin} \& {Gehrz}(2009)}]{becklin_2009}
-{\sc {Becklin}, E.E. \& {Gehrz}, R.D.} (2009). {SOFIA: Stratospheric
-  Observatory for Infrared Astronomy}. In {D.~C.~Lis, J.~E.~Vaillancourt,
-  P.~F.~Goldsmith, T.~A.~Bell, N.~Z.~Scoville, \& J.~Zmuidzinas}, ed., {\em
-  Submillimeter Astrophysics and Technology: a Symposium Honoring Thomas G.
-  Phillips\/}, vol. 417 of {\em Astronomical Society of the Pacific Conference
-  Series\/}, 101.
+\bibitem[{{Ayres} {\em et~al.\/}(1981){Ayres}, {Linsky}, {Vaiana}, {Golub} \&
+  {Rosner}}]{ayres_1981}
+{\sc {Ayres}, T.R., {Linsky}, J.L., {Vaiana}, G.S., {Golub}, L. \& {Rosner},
+  R.} (1981). {The cool half of the H-R diagram in soft X-rays}. {\em \apj\/},
+  {\bf 250}, 293--299.
 
 \bibitem[{{Bernat} {\em et~al.\/}(1979){Bernat}, {Hall}, {Hinkle} \&
   {Ridgway}}]{bernat_1979}
@@ -20,122 +13,24 @@
   {Observations of CO circumstellar absorption in the 4.6 micron spectrum of
   Alpha Orionis}. {\em \apjl\/}, {\bf 233}, L135--L139.
 
-\bibitem[{{Blundell}(2007)}]{blundell_2007}
-{\sc {Blundell}, R.} (2007). {The Submillimeter Array}. In {\em IEEE MTT-S
-  International Microwave Symposium Digest\/}, 1857--1860.
+\bibitem[{{Blackwell} {\em et~al.\/}(1986){Blackwell}, {Booth}, {Petford},
+  {Leggett}, {Mountain} \& {Selby}}]{blackwell_1986}
+{\sc {Blackwell}, D.E., {Booth}, A.J., {Petford}, A.D., {Leggett}, S.K.,
+  {Mountain}, C.M. \& {Selby}, M.J.} (1986). {The infrared flux method and its
+  use for study of Alpha Boo, MU HER and Beta Dra; relation to the VEGA 1.2-5
+  micron infrared excess}. {\em \mnras\/}, {\bf 221}, 427--443.
 
-\bibitem[{{Bookbinder} {\em et~al.\/}(1987){Bookbinder}, {Stencel}, {Drake},
-  {Simon}, {Linsky} \& {Florkowski}}]{bookbinder_1987}
-{\sc {Bookbinder}, J.A., {Stencel}, R.E., {Drake}, S.A., {Simon}, T., {Linsky},
-  J.L. \& {Florkowski}, D.} (1987). {VLA Observations of Rapid 6 cm Flux
-  Variations in {$\alpha$} Ori}. In {J.~L.~Linsky \& R.~E.~Stencel}, ed., {\em
-  Cool Stars, Stellar Systems and the Sun\/}, vol. 291 of {\em Lecture Notes in
-  Physics, Berlin Springer Verlag\/}, 337.
+\bibitem[{{Drake} \& {Linsky}(1986)}]{drake_1986}
+{\sc {Drake}, S. \& {Linsky}, J.} (1986). {Radio continuum emission from winds,
+  chromospheres, and coronae of cool giants and supergiants}. {\em \aj\/}, {\bf
+  91}, 602--620.
 
-\bibitem[{{Boothroyd} \& {Sackmann}(1999)}]{boothroyd_1999}
-{\sc {Boothroyd}, A.I. \& {Sackmann}, I.J.} (1999). {The CNO Isotopes: Deep
-  Circulation in Red Giants and First and Second Dredge-up}. {\em \apj\/}, {\bf
-  510}, 232--250.
-
-\bibitem[{{Bottlinger}(1911)}]{bottlinger_1911}
-{\sc {Bottlinger}, C.F.} (1911). {Die Bahn des spektroskopischen Doppelsternes
-  {$\alpha$} Orionis}. {\em Astronomische Nachrichten\/}, {\bf 187}, 33.
-
-\bibitem[{Bracewell(2000)}]{bracewell_2000}
-{\sc Bracewell, R.N.} (2000). {\em The Fourier Transform and Its
-  Applications\/}. Colombus, OH: McGraw Hill, 3rd edn.
-
-\bibitem[{{Buscher} {\em et~al.\/}(1990){Buscher}, {Baldwin}, {Warner} \&
-  {Haniff}}]{buscher_1990}
-{\sc {Buscher}, D.F., {Baldwin}, J.E., {Warner}, P.J. \& {Haniff}, C.A.}
-  (1990). {Detection of a bright feature on the surface of Betelgeuse}. {\em
-  \mnras\/}, {\bf 245}, 7P--11P.
-
-\bibitem[{{Carpenter} \& {Robinson}(1997)}]{carpenter_1997}
-{\sc {Carpenter}, K.G. \& {Robinson}, R.D.} (1997). {GHRS Observations of Cool,
-  Low-Gravity Stars. III. Plasma Flows and Turbulence in the Outer Atmosphere
-  of alpha Orionis (M2 Iab)}. {\em \apj\/}, {\bf 479}, 970--+.
-
-\bibitem[{{Charbonnel}(1995)}]{charbonnel_1995}
-{\sc {Charbonnel}, C.} (1995). {A Consistent Explanation for 12C/ 13C, 7Li and
-  3He Anomalies in Red Giant Stars}. {\em \apjl\/}, {\bf 453}, L41.
-
-\bibitem[{{Chiavassa} {\em et~al.\/}(2010){Chiavassa}, {Haubois}, {Young},
-  {Plez}, {Josselin}, {Perrin} \& {Freytag}}]{chiavassa_2010}
-{\sc {Chiavassa}, A., {Haubois}, X., {Young}, J.S., {Plez}, B., {Josselin}, E.,
-  {Perrin}, G. \& {Freytag}, B.} (2010). {Radiative hydrodynamics simulations
-  of red supergiant stars. II. Simulations of convection on Betelgeuse match
-  interferometric observations}. {\em \aap\/}, {\bf 515}, A12.
-
-\bibitem[{{Danchi} {\em et~al.\/}(1994){Danchi}, {Bester}, {Degiacomi},
-  {Greenhill} \& {Townes}}]{danchi_1994}
-{\sc {Danchi}, W.C., {Bester}, M., {Degiacomi}, C.G., {Greenhill}, L.J. \&
-  {Townes}, C.H.} (1994). {Characteristics of dust shells around 13 late-type
-  stars}. {\em \aj\/}, {\bf 107}, 1469--1513.
-
-\bibitem[{{de Graauw} {\em et~al.\/}(2010){de Graauw}, {Helmich}, {Phillips},
-  {Stutzki}, {Caux}, {Whyborn}, {Dieleman}, {Roelfsema}, {Aarts}, {Assendorp},
-  {Bachiller}, {Baechtold}, {Barcia}, {Beintema}, {Belitsky}, {Benz}, {Bieber},
-  {Boogert}, {Borys}, {Bumble}, {Ca{\"i}s}, {Caris}, {Cerulli-Irelli},
-  {Chattopadhyay}, {Cherednichenko}, {Ciechanowicz}, {Coeur-Joly}, {Comito},
-  {Cros}, {de Jonge}, {de Lange}, {Delforges}, {Delorme}, {den Boggende},
-  {Desbat}, {Diez-Gonz{\'a}lez}, {di Giorgio}, {Dubbeldam}, {Edwards},
-  {Eggens}, {Erickson}, {Evers}, {Fich}, {Finn}, {Franke}, {Gaier}, {Gal},
-  {Gao}, {Gallego}, {Gauffre}, {Gill}, {Glenz}, {Golstein}, {Goulooze},
-  {Gunsing}, {G{\"u}sten}, {Hartogh}, {Hatch}, {Higgins}, {Honingh}, {Huisman},
-  {Jackson}, {Jacobs}, {Jacobs}, {Jarchow}, {Javadi}, {Jellema}, {Justen},
-  {Karpov}, {Kasemann}, {Kawamura}, {Keizer}, {Kester}, {Klapwijk}, {Klein},
-  {Kollberg}, {Kooi}, {Kooiman}, {Kopf}, {Krause}, {Krieg}, {Kramer},
-  {Kruizenga}, {Kuhn}, {Laauwen}, {Lai}, {Larsson}, {Leduc}, {Leinz}, {Lin},
-  {Liseau}, {Liu}, {Loose}, {L{\'o}pez-Fernandez}, {Lord}, {Luinge}, {Marston},
-  {Mart{\'{\i}}n-Pintado}, {Maestrini}, {Maiwald}, {McCoey}, {Mehdi}, {Megej},
-  {Melchior}, {Meinsma}, {Merkel}, {Michalska}, {Monstein}, {Moratschke},
-  {Morris}, {Muller}, {Murphy}, {Naber}, {Natale}, {Nowosielski}, {Nuzzolo},
-  {Olberg}, {Olbrich}, {Orfei}, {Orleanski}, {Ossenkopf}, {Peacock}, {Pearson},
-  {Peron}, {Phillip-May}, {Piazzo}, {Planesas}, {Rataj}, {Ravera}, {Risacher},
-  {Salez}, {Samoska}, {Saraceno}, {Schieder}, {Schlecht}, {Schl{\"o}der},
-  {Schm{\"u}lling}, {Schultz}, {Schuster}, {Siebertz}, {Smit}, {Szczerba},
-  {Shipman}, {Steinmetz}, {Stern}, {Stokroos}, {Teipen}, {Teyssier}, {Tils},
-  {Trappe}, {van Baaren}, {van Leeuwen}, {van de Stadt}, {Visser}, {Wildeman},
-  {Wafelbakker}, {Ward}, {Wesselius}, {Wild}, {Wulff}, {Wunsch}, {Tielens},
-  {Zaal}, {Zirath}, {Zmuidzinas} \& {Zwart}}]{deGraauw_2010}
-{\sc {de Graauw}, T., {Helmich}, F.P., {Phillips}, T.G., {Stutzki}, J., {Caux},
-  E., {Whyborn}, N.D., {Dieleman}, P., {Roelfsema}, P.R., {Aarts}, H.,
-  {Assendorp}, R., {Bachiller}, R., {Baechtold}, W., {Barcia}, A., {Beintema},
-  D.A., {Belitsky}, V., {Benz}, A.O., {Bieber}, R., {Boogert}, A., {Borys}, C.,
-  {Bumble}, B., {Ca{\"i}s}, P., {Caris}, M., {Cerulli-Irelli}, P.,
-  {Chattopadhyay}, G., {Cherednichenko}, S., {Ciechanowicz}, M., {Coeur-Joly},
-  O., {Comito}, C., {Cros}, A., {de Jonge}, A., {de Lange}, G., {Delforges},
-  B., {Delorme}, Y., {den Boggende}, T., {Desbat}, J.M., {Diez-Gonz{\'a}lez},
-  C., {di Giorgio}, A.M., {Dubbeldam}, L., {Edwards}, K., {Eggens}, M.,
-  {Erickson}, N., {Evers}, J., {Fich}, M., {Finn}, T., {Franke}, B., {Gaier},
-  T., {Gal}, C., {Gao}, J.R., {Gallego}, J.D., {Gauffre}, S., {Gill}, J.J.,
-  {Glenz}, S., {Golstein}, H., {Goulooze}, H., {Gunsing}, T., {G{\"u}sten}, R.,
-  {Hartogh}, P., {Hatch}, W.A., {Higgins}, R., {Honingh}, E.C., {Huisman}, R.,
-  {Jackson}, B.D., {Jacobs}, H., {Jacobs}, K., {Jarchow}, C., {Javadi}, H.,
-  {Jellema}, W., {Justen}, M., {Karpov}, A., {Kasemann}, C., {Kawamura}, J.,
-  {Keizer}, G., {Kester}, D., {Klapwijk}, T.M., {Klein}, T., {Kollberg}, E.,
-  {Kooi}, J., {Kooiman}, P.P., {Kopf}, B., {Krause}, M., {Krieg}, J.M.,
-  {Kramer}, C., {Kruizenga}, B., {Kuhn}, T., {Laauwen}, W., {Lai}, R.,
-  {Larsson}, B., {Leduc}, H.G., {Leinz}, C., {Lin}, R.H., {Liseau}, R., {Liu},
-  G.S., {Loose}, A., {L{\'o}pez-Fernandez}, I., {Lord}, S., {Luinge}, W.,
-  {Marston}, A., {Mart{\'{\i}}n-Pintado}, J., {Maestrini}, A., {Maiwald}, F.W.,
-  {McCoey}, C., {Mehdi}, I., {Megej}, A., {Melchior}, M., {Meinsma}, L.,
-  {Merkel}, H., {Michalska}, M., {Monstein}, C., {Moratschke}, D., {Morris},
-  P., {Muller}, H., {Murphy}, J.A., {Naber}, A., {Natale}, E., {Nowosielski},
-  W., {Nuzzolo}, F., {Olberg}, M., {Olbrich}, M., {Orfei}, R., {Orleanski}, P.,
-  {Ossenkopf}, V., {Peacock}, T., {Pearson}, J.C., {Peron}, I., {Phillip-May},
-  S., {Piazzo}, L., {Planesas}, P., {Rataj}, M., {Ravera}, L., {Risacher}, C.,
-  {Salez}, M., {Samoska}, L.A., {Saraceno}, P., {Schieder}, R., {Schlecht}, E.,
-  {Schl{\"o}der}, F., {Schm{\"u}lling}, F., {Schultz}, M., {Schuster}, K.,
-  {Siebertz}, O., {Smit}, H., {Szczerba}, R., {Shipman}, R., {Steinmetz}, E.,
-  {Stern}, J.A., {Stokroos}, M., {Teipen}, R., {Teyssier}, D., {Tils}, T.,
-  {Trappe}, N., {van Baaren}, C., {van Leeuwen}, B.J., {van de Stadt}, H.,
-  {Visser}, H., {Wildeman}, K.J., {Wafelbakker}, C.K., {Ward}, J.S.,
-  {Wesselius}, P., {Wild}, W., {Wulff}, S., {Wunsch}, H.J., {Tielens}, X.,
-  {Zaal}, P., {Zirath}, H., {Zmuidzinas}, J. \& {Zwart}, F.} (2010). {The
-  Herschel-Heterodyne Instrument for the Far-Infrared (HIFI)}. {\em \aap\/},
-  {\bf 518}, L6.
+\bibitem[{{Drake}(1985)}]{drake_1985}
+{\sc {Drake}, S.A.} (1985). {Modeling lines formed in the expanding
+  chromospheres of red giants}. In J.E. {Beckman} \& L.~{Crivellari}, eds.,
+  {\em Progress in stellar spectral line formation theory; Proceedings of the
+  Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
+  17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
 
 \bibitem[{{Drake} {\em et~al.\/}(1992){Drake}, {Bookbinder}, {Florkowski},
   {Linsky}, {Simon} \& {Stencel}}]{drake_1992}
@@ -146,63 +41,16 @@
   vol.~26 of {\em Astronomical Society of the Pacific Conference Series\/},
   455.
 
-\bibitem[{{Dupree} {\em et~al.\/}(1990){Dupree}, {Baliunas}, {Hartmann},
-  {Guinan} \& {Sonneborn}}]{dupree_1990}
-{\sc {Dupree}, A.K., {Baliunas}, S.L., {Hartmann}, L., {Guinan}, E.F. \&
-  {Sonneborn}, G.} (1990). {Alpha ORI - Evidence for pulsation}. In
-  C.~{Cacciari} \& G.~{Clementini}, eds., {\em Confrontation Between Stellar
-  Pulsation and Evolution\/}, vol.~11 of {\em Astronomical Society of the
-  Pacific Conference Series\/}, 468--471.
+\bibitem[{{Fracassini} {\em et~al.\/}(1981){Fracassini}, {Pasinetti} \&
+  {Manzolini}}]{fracassini_1981}
+{\sc {Fracassini}, M., {Pasinetti}, L.E. \& {Manzolini}, F.} (1981). {Catalogue
+  of apparent diameters and absolute radii of stars /CADARS/}. {\em \aaps\/},
+  {\bf 45}, 145--174.
 
-\bibitem[{{Eggleton} {\em et~al.\/}(2007){Eggleton}, {Dearborn} \&
-  {Lattanzio}}]{eggleton_2007}
-{\sc {Eggleton}, P.P., {Dearborn}, D.S.P. \& {Lattanzio}, J.C.} (2007).
-  {Compulsory Deep Mixing of $^{3}$He and CNO Isotopes on the First Giant
-  Branch}. In R.J. {Stancliffe}, G.~{Houdek}, R.G. {Martin} \& C.A. {Tout},
-  eds., {\em Unsolved Problems in Stellar Physics: A Conference in Honor of
-  Douglas Gough\/}, vol. 948 of {\em American Institute of Physics Conference
-  Series\/}, 27--34.
-
-\bibitem[{{Famaey} {\em et~al.\/}(2005){Famaey}, {Jorissen}, {Luri}, {Mayor},
-  {Udry}, {Dejonghe} \& {Turon}}]{famaey_2005}
-{\sc {Famaey}, B., {Jorissen}, A., {Luri}, X., {Mayor}, M., {Udry}, S.,
-  {Dejonghe}, H. \& {Turon}, C.} (2005). {Local kinematics of K and M giants
-  from CORAVEL/Hipparcos/Tycho-2 data. Revisiting the concept of
-  superclusters}. {\em \aap\/}, {\bf 430}, 165--186.
-
-\bibitem[{{Gilliland} \& {Dupree}(1996)}]{gilliland_1996}
-{\sc {Gilliland}, R.L. \& {Dupree}, A.K.} (1996). {First Image of the Surface
-  of a Star with the Hubble Space Telescope}. {\em \apjl\/}, {\bf 463}, L29.
-
-\bibitem[{{Goldberg}(1984)}]{goldberg_1984}
-{\sc {Goldberg}, L.} (1984). {The variability of alpha Orionis}. {\em \pasp\/},
-  {\bf 96}, 366--371.
-
-\bibitem[{{Goldberg} {\em et~al.\/}(1975){Goldberg}, {Ramsey}, {Testerman} \&
-  {Carbon}}]{goldberg_1975}
-{\sc {Goldberg}, L., {Ramsey}, L., {Testerman}, L. \& {Carbon}, D.} (1975).
-  {High-resolution profiles of sodium and potassium lines in alpha Orionis}.
-  {\em \apj\/}, {\bf 199}, 427--431.
-
-\bibitem[{{Gray}(2008)}]{gray_2008}
-{\sc {Gray}, D.F.} (2008). {Mass Motions in the Photosphere of Betelgeuse}.
-  {\em \aj\/}, {\bf 135}, 1450--1458.
-
-\bibitem[{{Guesten} {\em et~al.\/}(2000){Guesten}, {Hartogh}, {Huebers},
-  {Graf}, {Jacobs}, {Roeser}, {Schaefer}, {Schieder}, {Stark}, {Stutzki}, {Van
-  der Wal} \& {Wunsch}}]{guesten_2000}
-{\sc {Guesten}, R., {Hartogh}, P., {Huebers}, H.W., {Graf}, U.U., {Jacobs}, K.,
-  {Roeser}, H.P., {Schaefer}, F., {Schieder}, R.T., {Stark}, R., {Stutzki}, J.,
-  {Van der Wal}, P. \& {Wunsch}, A.} (2000). {GREAT: the first-generation
-  German heterodyne receiver for SOFIA}. In {R.~K.~Melugin \& H.-P.~R{\"o}ser},
-  ed., {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
-  Conference Series\/}, vol. 4014, 23--30.
-
-\bibitem[{{Harper}(2013)}]{harper_2013b}
-{\sc {Harper}, G.M.} (2013). {Atmospheric structure and dynamics: the spatial
-  and temporal domains}. In P.~{Kervella}, T.~{Le Bertre} \& G.~{Perrin}, eds.,
-  {\em EAS Publications Series\/}, vol.~60 of {\em EAS Publications Series\/},
-  59--68.
+\bibitem[{{Glassgold} \& {Huggins}(1986)}]{glassgold_1986}
+{\sc {Glassgold}, A.E. \& {Huggins}, P.J.} (1986). {The ionization structure of
+  the circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 306},
+  605--617.
 
 \bibitem[{{Harper} {\em et~al.\/}(2001){Harper}, {Brown} \&
   {Lim}}]{harper_2001}
@@ -216,39 +64,6 @@
   VLA-Hipparcos Distance to Betelgeuse and its Implications}. {\em \aj\/}, {\bf
   135}, 1430--1440.
 
-\bibitem[{{Harris} \& {Lambert}(1984)}]{harris_1984}
-{\sc {Harris}, M.J. \& {Lambert}, D.L.} (1984). {Oxygen isotopes in the
-  atmospheres of Betelgeuse and Antares}. {\em \apj\/}, {\bf 281}, 739--745.
-
-\bibitem[{{Hartmann} \& {Avrett}(1984)}]{hartmann_1984}
-{\sc {Hartmann}, L. \& {Avrett}, E.H.} (1984). {On the extended chromosphere of
-  Alpha Orionis}. {\em \apj\/}, {\bf 284}, 238--249.
-
-\bibitem[{{Hinkle} {\em et~al.\/}(1976){Hinkle}, {Lambert} \&
-  {Snell}}]{hinkle_1976}
-{\sc {Hinkle}, K.H., {Lambert}, D.L. \& {Snell}, R.L.} (1976). {The C-12/C-13
-  ratio in stellar atmospheres. VI - Five luminous cool stars}. {\em \apj\/},
-  {\bf 210}, 684--693.
-
-\bibitem[{{Huggins}(1987)}]{huggins_1987}
-{\sc {Huggins}, P.J.} (1987). {CO in the circumstellar envelope of Alpha
-  Orionis}. {\em \apj\/}, {\bf 313}, 400--407.
-
-\bibitem[{{Huggins} {\em et~al.\/}(1994){Huggins}, {Bachiller}, {Cox} \&
-  {Forveille}}]{huggins_1994}
-{\sc {Huggins}, P.J., {Bachiller}, R., {Cox}, P. \& {Forveille}, T.} (1994).
-  {Neutral carbon in the circumstellar envelope of alpha Orionis}. {\em
-  \apjl\/}, {\bf 424}, L127--L130.
-
-\bibitem[{{Josselin} \& {Plez}(2007)}]{josselin_2007}
-{\sc {Josselin}, E. \& {Plez}, B.} (2007). {Atmospheric dynamics and the mass
-  loss process in red supergiant stars}. {\em \aap\/}, {\bf 469}, 671--680.
-
-\bibitem[{{Kaler} {\em et~al.\/}(1978){Kaler}, {Iben} \& {Becker}}]{kaler_1978}
-{\sc {Kaler}, J.B., {Iben}, I., Jr. \& {Becker}, S.A.} (1978). {On the
-  enhancement of helium and nitrogen in planetary nebulae}. {\em \apjl\/}, {\bf
-  224}, L63--L66.
-
 \bibitem[{{Kervella} {\em et~al.\/}(2011){Kervella}, {Perrin}, {Chiavassa},
   {Ridgway}, {Cami}, {Haubois} \& {Verhoelst}}]{kervella_2011}
 {\sc {Kervella}, P., {Perrin}, G., {Chiavassa}, A., {Ridgway}, S.T., {Cami},
@@ -256,65 +71,22 @@
   environment of Betelgeuse. II. Diffraction-limited spectro-imaging from 7.76
   to 19.50 {$\mu$}m with VLT/VISIR}. {\em \aap\/}, {\bf 531}, A117.
 
-\bibitem[{{Knapp} \& {Morris}(1985)}]{knapp_1985}
-{\sc {Knapp}, G.R. \& {Morris}, M.} (1985). {Mass loss from evolved stars. III
-  - Mass loss rates for fifty stars from CO J = 1-0 observations}. {\em
-  \apj\/}, {\bf 292}, 640--669.
+\bibitem[{{Luck} \& {Challener}(1995)}]{luck_1995}
+{\sc {Luck}, R.E. \& {Challener}, S.L.} (1995). {Chemical Abundances for Very
+  Strong-Lined Giants}. {\em \aj\/}, {\bf 110}, 2968.
 
-\bibitem[{{Knapp} {\em et~al.\/}(1980){Knapp}, {Phillips} \&
-  {Huggins}}]{knapp_1980}
-{\sc {Knapp}, G.R., {Phillips}, T.G. \& {Huggins}, P.J.} (1980). {Detection of
-  CO Emission at 1.3-MILLIMETERS from the Betelgeuse Circumstellar Shell}. {\em
-  \apjl\/}, {\bf 242}, L25+.
+\bibitem[{{McMurry}(1999)}]{mcmurry_1999}
+{\sc {McMurry}, A.D.} (1999). {The outer atmosphere of Tau - I. A new
+  chromospheric model}. {\em \mnras\/}, {\bf 302}, 37--47.
 
-\bibitem[{{Lamb} {\em et~al.\/}(1976){Lamb}, {Iben} \& {Howard}}]{lamb_1976}
-{\sc {Lamb}, S.A., {Iben}, I., Jr. \& {Howard}, W.M.} (1976). {On the evolution
-  of massive stars through the core carbon-burning phase}. {\em \apj\/}, {\bf
-  207}, 209--232.
+\bibitem[{{McWilliam}(1990)}]{mcwilliam_1990}
+{\sc {McWilliam}, A.} (1990). {High-resolution spectroscopic survey of 671 GK
+  giants. I - Stellar atmosphere parameters and abundances}. {\em \apjs\/},
+  {\bf 74}, 1075--1128.
 
-\bibitem[{{Lambert} \& {Vanden Bout}(1978)}]{lambert_1978}
-{\sc {Lambert}, D.L. \& {Vanden Bout}, P.A.} (1978). {Constraints on the
-  properties of circumstellar shells from observations of thermal CO and SiO
-  millimeter line emission}. {\em \apj\/}, {\bf 221}, 854--860.
-
-\bibitem[{{Lambert} {\em et~al.\/}(1974){Lambert}, {Dearborn} \&
-  {Sneden}}]{lambert_1974}
-{\sc {Lambert}, D.L., {Dearborn}, D.S. \& {Sneden}, C.} (1974). {The C-12/C-13
-  ratio in stellar atmospheres. II - CN and CO in alpha Orionis}. {\em \apj\/},
-  {\bf 193}, 621--630.
-
-\bibitem[{{Lambert} {\em et~al.\/}(1984){Lambert}, {Brown}, {Hinkle} \&
-  {Johnson}}]{lambert_1984}
-{\sc {Lambert}, D.L., {Brown}, J.A., {Hinkle}, K.H. \& {Johnson}, H.R.} (1984).
-  {Carbon, nitrogen, and oxygen abundances in Betelgeuse}. {\em \apj\/}, {\bf
-  284}, 223--237.
-
-\bibitem[{{Levesque} {\em et~al.\/}(2005){Levesque}, {Massey}, {Olsen}, {Plez},
-  {Josselin}, {Maeder} \& {Meynet}}]{levesque_2005}
-{\sc {Levesque}, E.M., {Massey}, P., {Olsen}, K.A.G., {Plez}, B., {Josselin},
-  E., {Maeder}, A. \& {Meynet}, G.} (2005). {The Effective Temperature Scale of
-  Galactic Red Supergiants: Cool, but Not As Cool As We Thought}. {\em \apj\/},
-  {\bf 628}, 973--985.
-
-\bibitem[{{Lim} {\em et~al.\/}(1998){Lim}, {Carilli}, {White}, {Beasley} \&
-  {Marson}}]{lim_1998}
-{\sc {Lim}, J., {Carilli}, C.L., {White}, S.M., {Beasley}, A.J. \& {Marson},
-  R.G.} (1998). {Large convection cells as the source of Betelgeuse's extended
-  atmosphere}. {\em \nat\/}, {\bf 392}, 575--577.
-
-\bibitem[{{Meynet} \& {Maeder}(2003)}]{meynet_2003}
-{\sc {Meynet}, G. \& {Maeder}, A.} (2003). {Stellar evolution with rotation. X.
-  Wolf-Rayet star populations at solar metallicity}. {\em \aap\/}, {\bf 404},
-  975--990.
-
-\bibitem[{{Muxlow}(2003)}]{muxlow_2003}
-{\sc {Muxlow}, T.W.B.} (2003). {e-MERLIN - a Real-Time VLBI Array}. In Y.C.
-  {Minh}, ed., {\em New technologies in VLBI\/}, vol. 306 of {\em Astronomical
-  Society of the Pacific Conference Series\/}, 245.
-
-\bibitem[{{Newell} \& {Hjellming}(1982)}]{newell_1982}
-{\sc {Newell}, R.T. \& {Hjellming}, R.M.} (1982). {Radio emission from the
-  extended chromosphere of Alpha Orionis}. {\em \apjl\/}, {\bf 263}, L85--L87.
+\bibitem[{{Morris}(2001)}]{morris_2001}
+{\sc {Morris}, R.A.H.} (2001). Ph.D. thesis, University of Wales,
+  Cardiff~(Wales).
 
 \bibitem[{{O'Gorman} {\em et~al.\/}(2012){O'Gorman}, {Harper}, {Brown},
   {Brown}, {Redfield}, {Richter} \& {Requena-Torres}}]{ogorman_2012}
@@ -323,25 +95,13 @@
   Observations of the Circumstellar Envelope of Betelgeuse}. {\em \aj\/}, {\bf
   144}, 36.
 
-\bibitem[{{Pavlenko} {\em et~al.\/}(2003){Pavlenko}, {Jones} \&
-  {Longmore}}]{pavlenko_2003}
-{\sc {Pavlenko}, Y.V., {Jones}, H.R.A. \& {Longmore}, A.J.} (2003). {Carbon
-  abundances and $^{12}$C/$^{13}$C from globular cluster giants}. {\em
-  \mnras\/}, {\bf 345}, 311--324.
-
-\bibitem[{{Pilbratt} {\em et~al.\/}(2010){Pilbratt}, {Riedinger}, {Passvogel},
-  {Crone}, {Doyle}, {Gageur}, {Heras}, {Jewell}, {Metcalfe}, {Ott} \&
-  {Schmidt}}]{pilbratt_2010}
-{\sc {Pilbratt}, G.L., {Riedinger}, J.R., {Passvogel}, T., {Crone}, G.,
-  {Doyle}, D., {Gageur}, U., {Heras}, A.M., {Jewell}, C., {Metcalfe}, L.,
-  {Ott}, S. \& {Schmidt}, M.} (2010). {Herschel Space Observatory. An ESA
-  facility for far-infrared and submillimetre astronomy}. {\em \aap\/}, {\bf
-  518}, L1.
-
-\bibitem[{{Plez} \& {Lambert}(2002)}]{plez_2002}
-{\sc {Plez}, B. \& {Lambert}, D.L.} (2002). {The outer atmosphere of the M-type
-  supergiant alpha Orionis: K I 7699 {\AA}emission}. {\em \aap\/}, {\bf 386},
-  1009--1018.
+\bibitem[{{Ohnaka} {\em et~al.\/}(2011){Ohnaka}, {Weigelt}, {Millour},
+  {Hofmann}, {Driebe}, {Schertl}, {Chelli}, {Massi}, {Petrov} \&
+  {Stee}}]{ohnaka_2011}
+{\sc {Ohnaka}, K., {Weigelt}, G., {Millour}, F., {Hofmann}, K.H., {Driebe}, T.,
+  {Schertl}, D., {Chelli}, A., {Massi}, F., {Petrov}, R. \& {Stee}, P.} (2011).
+  {Imaging the dynamical atmosphere of the red supergiant Betelgeuse in the CO
+  first overtone lines with VLTI/AMBER}. {\em \aap\/}, {\bf 529}, A163.
 
 \bibitem[{{Richards} {\em et~al.\/}(2013){Richards}, {Davis}, {Decin}, {Etoka},
   {Harper}, {Lim}, {Garrington}, {Gray}, {McDonald}, {O'Gorman} \&
@@ -350,72 +110,5 @@
   G.M., {Lim}, J.J., {Garrington}, S.T., {Gray}, M.D., {McDonald}, I.,
   {O'Gorman}, E. \& {Wittkowski}, M.} (2013). {e-MERLIN resolves Betelgeuse at
   {$\lambda$} 5 cm: hotspots at 5 R$_{⋆}$}. {\em \mnras\/}, {\bf 432}, L61.
-
-\bibitem[{{Saha}(2011)}]{saha_2011}
-{\sc {Saha}, S.K.} (2011). {\em {Aperture Synthesis}\/}.
-
-\bibitem[{{Sanford}(1933)}]{sanford_1933}
-{\sc {Sanford}, R.F.} (1933). {No. 464. The variation in the radial velocity of
-  alpha Orionis from 1923 to 1931.} {\em Contributions from the Mount Wilson
-  Observatory / Carnegie Institution of Washington\/}, {\bf 464}, 1--10.
-
-\bibitem[{{Schwarzschild}(1975)}]{schwarzschild_1975}
-{\sc {Schwarzschild}, M.} (1975). {On the scale of photospheric convection in
-  red giants and supergiants}. {\em \apj\/}, {\bf 195}, 137--144.
-
-\bibitem[{{Skinner} {\em et~al.\/}(1997){Skinner}, {Dougherty}, {Meixner},
-  {Bode}, {Davis}, {Drake}, {Arens} \& {Jernigan}}]{skinner_1997}
-{\sc {Skinner}, C.J., {Dougherty}, S.M., {Meixner}, M., {Bode}, M.F., {Davis},
-  R.J., {Drake}, S.A., {Arens}, J.F. \& {Jernigan}, J.G.} (1997).
-  {Circumstellar environments - V. The asymmetric chromosphere and dust shell
-  of alpha Orionis}. {\em \mnras\/}, {\bf 288}, 295--306.
-
-\bibitem[{{Smith} {\em et~al.\/}(1989){Smith}, {Patten} \&
-  {Goldberg}}]{smith_1989}
-{\sc {Smith}, M.A., {Patten}, B.M. \& {Goldberg}, L.} (1989). {Radial-velocity
-  variations in Alpha Ori, Alpha Sco, and Alpha HER}. {\em \aj\/}, {\bf 98},
-  2233--2248.
-
-\bibitem[{{Smith} {\em et~al.\/}(2009){Smith}, {Hinkle} \& {Ryde}}]{smith_2009}
-{\sc {Smith}, N., {Hinkle}, K.H. \& {Ryde}, N.} (2009). {Red Supergiants as
-  Potential Type IIn Supernova Progenitors: Spatially Resolved 4.6 {$\mu$}m CO
-  Emission Around VY CMa and Betelgeuse}. {\em \aj\/}, {\bf 137}, 3558--3573.
-
-\bibitem[{{Spencer Jones}(1928)}]{spencer_jones_1928}
-{\sc {Spencer Jones}, H.} (1928). {The radial velocity variations of a Orionis
-  and a Scorpii}. {\em \mnras\/}, {\bf 88}, 660.
-
-\bibitem[{{Spinrad} \& {Vardya}(1966)}]{spinrad_1966}
-{\sc {Spinrad}, H. \& {Vardya}, M.S.} (1966). {Approximate Abundances of the
-  Light Elements from the Molecular Spectra of M and S Stars}. {\em \apj\/},
-  {\bf 146}, 399.
-
-\bibitem[{{Stebbins} \& {Huffer}(1931)}]{stebbins_1931}
-{\sc {Stebbins}, J. \& {Huffer}, C.M.} (1931). {Photo-electric studies of five
-  variable stars}. {\em Publications of the Washburn Observatory\/}, {\bf 15},
-  178--213.
-
-\bibitem[{{Stothers} \& {Leung}(1971)}]{stothers_1971}
-{\sc {Stothers}, R. \& {Leung}, K.C.} (1971). {Luminosities, masses and
-  periodicities of massive red supergiants.} {\em \aap\/}, {\bf 10}, 290--300.
-
-\bibitem[{{Tsuji}(1979)}]{tsuji_1979}
-{\sc {Tsuji}, T.} (1979). {A probe of optically thin dust shells around
-  late-type stars.} {\em \pasj\/}, {\bf 31}, 43--60.
-
-\bibitem[{{Tuthill} {\em et~al.\/}(1997){Tuthill}, {Haniff} \&
-  {Baldwin}}]{tuthill_1997}
-{\sc {Tuthill}, P.G., {Haniff}, C.A. \& {Baldwin}, J.E.} (1997). {Hotspots on
-  late-type supergiants}. {\em \mnras\/}, {\bf 285}, 529--539.
-
-\bibitem[{{Weymann}(1962)}]{weymann_1962}
-{\sc {Weymann}, R.} (1962). {Physical Conditions in the Circumstellar Envelope
-  of {$\alpha$} Orionis.} {\em \apj\/}, {\bf 136}, 844--+.
-
-\bibitem[{{Wilson} {\em et~al.\/}(1992){Wilson}, {Baldwin}, {Buscher} \&
-  {Warner}}]{wilson_1992}
-{\sc {Wilson}, R.W., {Baldwin}, J.E., {Buscher}, D.F. \& {Warner}, P.J.}
-  (1992). {High-resolution imaging of Betelgeuse and Mira}. {\em \mnras\/},
-  {\bf 257}, 369--376.
 
 \end{thebibliography}

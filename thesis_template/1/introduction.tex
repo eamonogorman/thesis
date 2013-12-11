@@ -258,9 +258,9 @@ where $B_{v}$ is the \textit{rotation constant} and is subscripted $v$ because t
 
 Pure rotational transitions, $J\rightarrow J-1$, have energy $h\nu = 2B_{v}J$. It is straightforward to show that the rotational transitions $J=1-0$ and $J=2-1$ of the CO molecule results in spectral lines at frequency 115.2712 and 230.5424\,GHz. A radio spectrum of a particular diatomic molecular species will resemble a \textit{ladder} as shown in Figure \ref{fig:1.7.2}. Each step in the plot are all harmonics of the fundamental frequency that is determined solely by the moment of inertia of that species. As $\nu \propto m^{-1}r_{0}^{-2}$, large heavy molecules in CSEs may be seen at centimeter wavelengths, but smaller and lighter molecules such as CO and SiO emit only at millimeter wavelengths. 
 Rotational states are usually populated according to Boltzmann's law at densities and temperatures where vibrational levels cannot be excited. In this case the Boltzmann equation can be used to find the relative populations of the levels:
-\begin{equation}
+\begin{equation}\label{eq:1.20aa}
 \frac{n_{J}}{n_{0}}=(2J+1)e^{-B_{v}J(J+1)/T}.
-\end{equation}\label{eq:1.20aa}
+\end{equation}
 The partition function, $Z(T)$, is found by summing over all levels, $i$,
 \begin{eqnarray}
 Z(T) & = & \sum\limits_{i}^{\infty}g_{i}e^{-E_{i}/kT} \\
@@ -283,9 +283,9 @@ The total flux produced by a transition out of the most probable occupied state,
 \varepsilon _{J,J-1}=\Delta E_{J,J-1}n_{J}A_{{J,J-1}} = \Delta E_{J,J-1}n_{H}A_{\mathrm{mol}}\frac{n_{J}}{n_{\mathrm{mol}}}A_{{J,J-1}}
 \end{equation}
 where the spontaneous emission coefficient can be written as
-\begin{equation}
+\begin{equation}\label{eq:1.27aa}
 A_{J,J-1} =2.14\times 10^{-7}\frac{J^4}{2J+1} \ \ \ \rm{s}^{-1}
-\end{equation}\label{eq:1.27aa}
+\end{equation}
 \citep{draine_2011}, $\Delta E_{J,J-1}=2B_{v}J$, and $A_{\mathrm{mol}}$ is the molecular abundance. Therefore, the total flux not only depends on the population of the level but also on the change in energy and the probability of undergoing that transition. The integrated flux is then
 \begin{equation}
 F(J)\propto \frac{B_{v}J^5}{T}e^{-J(J+1)B/T}
