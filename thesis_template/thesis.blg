@@ -5,59 +5,92 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
-A level-1 auxiliary file: 8/con_fut.aux
+A level-1 auxiliary file: 1/introduction.aux
 A level-1 auxiliary file: appendix/app1.aux
 The style file: Latex/Classes/jmb.bst
 Database file #1: mybib.bib
-Repeated entry---line 1620 of file mybib.bib
- : @article{glassgold_1986
+Repeated entry---line 686 of file mybib.bib
+ : @article{sennhauser_2011
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3179 of file mybib.bib
+ : @article{hummer_1988
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3322 of file mybib.bib
+ : @article{linsky_1979
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3405 of file mybib.bib
+ : @article{hartmann_1980
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3443 of file mybib.bib
+ : @article{carpenter_1999
  :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3971 of file mybib.bib
+ : @article{gehrz_1971
+ :                    ,
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 4651 of file mybib.bib
  :     title 
  :           = "{}",
 I'm skipping whatever remains of this entry
+Repeated entry---line 4746 of file mybib.bib
+ : @article{judge_1998
+ :                    ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty title in morris_2001
-You've used 18 entries,
+Warning--empty journal in Altenhoff_1960
+Warning--missing publisher in dalgarno_1987
+Warning--missing publisher in draine_2011
+Warning--missing publisher in gradshteyn_1994
+Warning--missing publisher in lamers_1999
+Warning--missing publisher in rohlfs_1996
+Warning--missing publisher in ryan_2010
+Warning--missing publisher in rybicki_1979
+Warning--missing publisher in shu_1991
+Warning--empty journal in stancliffe_2009
+You've used 89 entries,
             3018 wiz_defined-function locations,
-            753 strings with 8206 characters,
-and the built_in function-call counts, 12546 in all, are:
-= -- 1010
-> -- 704
-< -- 8
-+ -- 246
-- -- 228
-* -- 1095
-:= -- 1911
-add.period$ -- 53
-call.type$ -- 18
-change.case$ -- 168
-chr.to.int$ -- 18
-cite$ -- 19
-duplicate$ -- 854
-empty$ -- 831
-format.name$ -- 281
-if$ -- 2486
+            1135 strings with 19108 characters,
+and the built_in function-call counts, 55313 in all, are:
+= -- 4582
+> -- 2663
+< -- 68
++ -- 945
+- -- 856
+* -- 4595
+:= -- 8485
+add.period$ -- 259
+call.type$ -- 89
+change.case$ -- 729
+chr.to.int$ -- 89
+cite$ -- 99
+duplicate$ -- 3916
+empty$ -- 3907
+format.name$ -- 1144
+if$ -- 11045
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 186
-newline$ -- 58
-num.names$ -- 76
-pop$ -- 387
+missing$ -- 831
+newline$ -- 271
+num.names$ -- 368
+pop$ -- 1625
 preamble$ -- 1
-purify$ -- 147
+purify$ -- 636
 quote$ -- 0
-skip$ -- 314
+skip$ -- 1449
 stack$ -- 0
-substring$ -- 511
-swap$ -- 495
-text.length$ -- 1
+substring$ -- 2349
+swap$ -- 2195
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 1
-while$ -- 74
+type$ -- 774
+warning$ -- 10
+while$ -- 356
 width$ -- 0
-write$ -- 201
-(There were 2 error messages)
+write$ -- 969
+(There were 8 error messages)
