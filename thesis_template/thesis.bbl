@@ -1,188 +1,117 @@
-\begin{thebibliography}{89}
+\begin{thebibliography}{49}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Adams} \& {MacCormack}(1935)}]{adams_1935}
-{\sc {Adams}, W.S. \& {MacCormack}, E.} (1935). {Systematic Displacements of
-  Lines in the Spectra of Certain Bright Stars}. {\em \apj\/}, {\bf 81}, 119.
+\bibitem[{{Airapetian} {\em et~al.\/}(2010){Airapetian}, {Carpenter} \&
+  {Ofman}}]{airapetian_2010}
+{\sc {Airapetian}, V., {Carpenter}, K.G. \& {Ofman}, L.} (2010). {Winds from
+  Luminous Late-type Stars. II. Broadband Frequency Distribution of Alfv{\'e}n
+  Waves}. {\em \apj\/}, {\bf 723}, 1210--1218.
 
-\bibitem[{{Altenhoff} {\em et~al.\/}(1960){Altenhoff}, {Mezger}, {Wendker} \&
-  {Westerhout}}]{Altenhoff_1960}
-{\sc {Altenhoff}, W.J., {Mezger}, P.G., {Wendker}, H.J. \& {Westerhout}, G.}
-  (1960). {Ver\"{o}ff. Sternw\"{a}rte, Bonn}. {\bf 59}, 48.
+\bibitem[{{Altenhoff} {\em et~al.\/}(1986){Altenhoff}, {Huchtmeier}, {Schmidt},
+  {Schraml} \& {Stumpff}}]{altenhoff_1986}
+{\sc {Altenhoff}, W.J., {Huchtmeier}, W.K., {Schmidt}, J., {Schraml}, J.B. \&
+  {Stumpff}, P.} (1986). {Radio continuum observations of comet Halley}. {\em
+  \aap\/}, {\bf 164}, 227--230.
 
-\bibitem[{{Ayres}(2010)}]{ayres_2010b}
-{\sc {Ayres}, T.} (2010). {A stellar perspective on chromospheres.} {\em
-  \memsai\/}, {\bf 81}, 553.
+\bibitem[{{Altenhoff} {\em et~al.\/}(1994){Altenhoff}, {Thum} \&
+  {Wendker}}]{altenhoff_1994}
+{\sc {Altenhoff}, W.J., {Thum}, C. \& {Wendker}, H.J.} (1994). {Radio emission
+  from stars: A survey at 250 GHz}. {\em \aap\/}, {\bf 281}, 161--183.
 
-\bibitem[{{Ayres} {\em et~al.\/}(1981){Ayres}, {Linsky}, {Vaiana}, {Golub} \&
-  {Rosner}}]{ayres_1981}
-{\sc {Ayres}, T.R., {Linsky}, J.L., {Vaiana}, G.S., {Golub}, L. \& {Rosner},
-  R.} (1981). {The cool half of the H-R diagram in soft X-rays}. {\em \apj\/},
-  {\bf 250}, 293--299.
+\bibitem[{{Ayres}(1996)}]{ayres_1996}
+{\sc {Ayres}, T.R.} (1996). {Thermal bifurcation as a driver of stellar surface
+  inhomogeneities (review)}. In K.G. {Strassmeier} \& J.L. {Linsky}, eds., {\em
+  Stellar Surface Structure\/}, vol. 176 of {\em IAU Symposium\/}, 371.
 
-\bibitem[{{Ayres} {\em et~al.\/}(1997){Ayres}, {Brown}, {Harper}, {Bennett},
-  {Linsky}, {Carpenter} \& {Robinson}}]{ayres_1997}
-{\sc {Ayres}, T.R., {Brown}, A., {Harper}, G.M., {Bennett}, P.D., {Linsky},
-  J.L., {Carpenter}, K.G. \& {Robinson}, R.D.} (1997). {Digging Deeper in the
-  Coronal Graveyard}. {\em \apj\/}, {\bf 491}, 876.
+\bibitem[{{Ayres} \& {Linsky}(1975)}]{ayres_1975}
+{\sc {Ayres}, T.R. \& {Linsky}, J.L.} (1975). {Stellar model chromospheres. III
+  - Arcturus /K2 III/}. {\em \apj\/}, {\bf 200}, 660--674.
 
-\bibitem[{{Beck} {\em et~al.\/}(2011){Beck}, {Bedding}, {Mosser}, {Stello},
-  {Garcia}, {Kallinger}, {Hekker}, {Elsworth}, {Frandsen}, {Carrier}, {De
-  Ridder}, {Aerts}, {White}, {Huber}, {Dupret}, {Montalb{\'a}n}, {Miglio},
-  {Noels}, {Chaplin}, {Kjeldsen}, {Christensen-Dalsgaard}, {Gilliland},
-  {Brown}, {Kawaler}, {Mathur} \& {Jenkins}}]{beck_2011}
-{\sc {Beck}, P.G., {Bedding}, T.R., {Mosser}, B., {Stello}, D., {Garcia}, R.A.,
-  {Kallinger}, T., {Hekker}, S., {Elsworth}, Y., {Frandsen}, S., {Carrier}, F.,
-  {De Ridder}, J., {Aerts}, C., {White}, T.R., {Huber}, D., {Dupret}, M.A.,
-  {Montalb{\'a}n}, J., {Miglio}, A., {Noels}, A., {Chaplin}, W.J., {Kjeldsen},
-  H., {Christensen-Dalsgaard}, J., {Gilliland}, R.L., {Brown}, T.M., {Kawaler},
-  S.D., {Mathur}, S. \& {Jenkins}, J.M.} (2011). {Kepler Detected Gravity-Mode
-  Period Spacings in a Red Giant Star}. {\em Science\/}, {\bf 332}, 205--.
+\bibitem[{{Beasley} {\em et~al.\/}(1992){Beasley}, {Stewart} \&
+  {Carter}}]{beasley_1992}
+{\sc {Beasley}, A.J., {Stewart}, R.T. \& {Carter}, B.D.} (1992). {Non-thermal
+  radio emission from post-main-sequence stars}. {\em \mnras\/}, {\bf 254},
+  1--6.
 
-\bibitem[{{Bedding} {\em et~al.\/}(2011){Bedding}, {Mosser}, {Huber},
-  {Montalb{\'a}n}, {Beck}, {Christensen-Dalsgaard}, {Elsworth},
-  {Garc{\'{\i}}a}, {Miglio}, {Stello}, {White}, {De Ridder}, {Hekker}, {Aerts},
-  {Barban}, {Belkacem}, {Broomhall}, {Brown}, {Buzasi}, {Carrier}, {Chaplin},
-  {di Mauro}, {Dupret}, {Frandsen}, {Gilliland}, {Goupil}, {Jenkins},
-  {Kallinger}, {Kawaler}, {Kjeldsen}, {Mathur}, {Noels}, {Aguirre} \&
-  {Ventura}}]{bedding_2011}
-{\sc {Bedding}, T.R., {Mosser}, B., {Huber}, D., {Montalb{\'a}n}, J., {Beck},
-  P., {Christensen-Dalsgaard}, J., {Elsworth}, Y.P., {Garc{\'{\i}}a}, R.A.,
-  {Miglio}, A., {Stello}, D., {White}, T.R., {De Ridder}, J., {Hekker}, S.,
-  {Aerts}, C., {Barban}, C., {Belkacem}, K., {Broomhall}, A.M., {Brown}, T.M.,
-  {Buzasi}, D.L., {Carrier}, F., {Chaplin}, W.J., {di Mauro}, M.P., {Dupret},
-  M.A., {Frandsen}, S., {Gilliland}, R.L., {Goupil}, M.J., {Jenkins}, J.M.,
-  {Kallinger}, T., {Kawaler}, S., {Kjeldsen}, H., {Mathur}, S., {Noels}, A.,
-  {Aguirre}, S.V. \& {Ventura}, P.} (2011). {Gravity modes as a way to
-  distinguish between hydrogen- and helium-burning red giant stars}. {\em
-  \nat\/}, {\bf 471}, 608--611.
+\bibitem[{{Boice} {\em et~al.\/}(1981){Boice}, {Kuhn}, {Robinson} \&
+  {Worden}}]{boice_1981}
+{\sc {Boice}, D.C., {Kuhn}, J.R., {Robinson}, R.D. \& {Worden}, S.P.} (1981).
+  {Possible radio flaring activity on a late-type giant star, Alpha Ceti}. {\em
+  \apjl\/}, {\bf 245}, L71--L74.
 
-\bibitem[{{Bedecarrax} {\em et~al.\/}(2013){Bedecarrax}, {Petit},
-  {Auri{\`e}re}, {Grunhut}, {Wade}, {Chiavassa}, {Donati},
-  {Konstantinova-Antova} \& {Perrin}}]{bedecarrax_2013}
-{\sc {Bedecarrax}, I., {Petit}, P., {Auri{\`e}re}, M., {Grunhut}, J., {Wade},
-  G., {Chiavassa}, A., {Donati}, J.F., {Konstantinova-Antova}, R. \& {Perrin},
-  G.} (2013). {Long-term spectropolarimetric monitoring of the cool supergiant
-  betelgeuse}. In {\em EAS Publications Series\/}, vol.~60 of {\em EAS
-  Publications Series\/}, 161--165.
+\bibitem[{{Carlsson}(1986)}]{carlsson_1986}
+{\sc {Carlsson}, M.} (1986). {A computer program for solving multi-level
+  non-LTE radiative transferproblems in moving or static atmospheres.} {\em
+  Uppsala Astronomical Observatory Reports\/}, {\bf 33}.
 
-\bibitem[{{Berio} {\em et~al.\/}(2011){Berio}, {Merle}, {Th{\'e}venin},
-  {Bonneau}, {Mourard}, {Chesneau}, {Delaa}, {Ligi}, {Nardetto}, {Perraut},
-  {Pichon}, {Stee}, {Tallon-Bosc}, {Clausse}, {Spang}, {McAlister}, {ten
-  Brummelaar}, {Sturmann}, {Sturmann}, {Turner}, {Farrington} \&
-  {Goldfinger}}]{berio_2011}
-{\sc {Berio}, P., {Merle}, T., {Th{\'e}venin}, F., {Bonneau}, D., {Mourard},
-  D., {Chesneau}, O., {Delaa}, O., {Ligi}, R., {Nardetto}, N., {Perraut}, K.,
-  {Pichon}, B., {Stee}, P., {Tallon-Bosc}, I., {Clausse}, J.M., {Spang}, A.,
-  {McAlister}, H., {ten Brummelaar}, T., {Sturmann}, J., {Sturmann}, L.,
-  {Turner}, N., {Farrington}, C. \& {Goldfinger}, P.J.} (2011). {Chromosphere
-  of K giant stars. Geometrical extent and spatial structure detection}. {\em
-  \aap\/}, {\bf 535}, A59.
+\bibitem[{{Cassinelli} \& {Hartmann}(1977)}]{cassinelli_1977}
+{\sc {Cassinelli}, J.P. \& {Hartmann}, L.} (1977). {The effect of winds and
+  coronae of hot stars on the infrared and radio continua.} {\em \apj\/}, {\bf
+  212}, 488--493.
 
-\bibitem[{{Bernat} \& {Lambert}(1976)}]{bernat_1976}
-{\sc {Bernat}, A.P. \& {Lambert}, D.L.} (1976). {K I 7699 A emission from the
-  Betelgeuse shell}. {\em \apj\/}, {\bf 210}, 395--401.
+\bibitem[{{Charbonneau} \& {MacGregor}(1995)}]{charbonneau_1995}
+{\sc {Charbonneau}, P. \& {MacGregor}, K.B.} (1995). {Stellar Winds with
+  Non-WKB Alfven Waves. II. Wind Models for Cool, Evolved Stars}. {\em \apj\/},
+  {\bf 454}, 901.
 
-\bibitem[{{Bernat} {\em et~al.\/}(1979){Bernat}, {Hall}, {Hinkle} \&
-  {Ridgway}}]{bernat_1979}
-{\sc {Bernat}, A.P., {Hall}, D.N.B., {Hinkle}, K.H. \& {Ridgway}, S.T.} (1979).
-  {Observations of CO circumstellar absorption in the 4.6 micron spectrum of
-  Alpha Orionis}. {\em \apjl\/}, {\bf 233}, L135--L139.
+\bibitem[{{Cohen} {\em et~al.\/}(2005){Cohen}, {Carbon}, {Welch}, {Lim},
+  {Schulz}, {McMurry}, {Forster} \& {Goorvitch}}]{cohen_2005}
+{\sc {Cohen}, M., {Carbon}, D.F., {Welch}, W.J., {Lim}, T., {Schulz}, B.,
+  {McMurry}, A.D., {Forster}, J.R. \& {Goorvitch}, D.} (2005). {Far-Infrared
+  and Millimeter Continuum Studies of K Giants: {$\alpha$} Bootis and
+  {$\alpha$} Tauri}. {\em \aj\/}, {\bf 129}, 2836--2848.
 
-\bibitem[{{Carpenter} {\em et~al.\/}(1999){Carpenter}, {Robinson}, {Harper},
-  {Bennett}, {Brown} \& {Mullan}}]{carpenter_1999}
-{\sc {Carpenter}, K.G., {Robinson}, R.D., {Harper}, G.M., {Bennett}, P.D.,
-  {Brown}, A. \& {Mullan}, D.J.} (1999). {GHRS Observations of Cool,
-  Low-Gravity Stars. V. The Outer Atmosphere and Wind of the Nearby K
-  Supergiant lambda Velorum}. {\em \apj\/}, {\bf 521}, 382--406.
-
-\bibitem[{{Castor} {\em et~al.\/}(1975){Castor}, {Abbott} \&
-  {Klein}}]{castor_1975}
-{\sc {Castor}, J.I., {Abbott}, D.C. \& {Klein}, R.I.} (1975). {Radiation-driven
-  winds in Of stars}. {\em \apj\/}, {\bf 195}, 157--174.
-
-\bibitem[{{Chapman} \& {Zirin}(1957)}]{chapman_1957}
-{\sc {Chapman}, S. \& {Zirin}, H.} (1957). {Notes on the Solar Corona and the
-  Terrestrial Ionosphere}. {\em Smithsonian Contributions to Astrophysics\/},
-  {\bf 2}, 1.
-
-\bibitem[{{Chiosi} \& {Maeder}(1986)}]{chiosi_1986}
-{\sc {Chiosi}, C. \& {Maeder}, A.} (1986). {The evolution of massive stars with
-  mass loss}. {\em \araa\/}, {\bf 24}, 329--375.
-
-\bibitem[{{Cranmer} \& {Saar}(2011)}]{cranmer_2011}
-{\sc {Cranmer}, S.R. \& {Saar}, S.H.} (2011). {Testing a Predictive Theoretical
-  Model for the Mass Loss Rates of Cool Stars}. {\em \apj\/}, {\bf 741}, 54.
-
-\bibitem[{{Crowley} {\em et~al.\/}(2009){Crowley}, {Espey}, {Harper} \&
-  {Roche}}]{crowley_2009}
-{\sc {Crowley}, C., {Espey}, B.R., {Harper}, G.M. \& {Roche}, J.} (2009).
-  {Winds and Chromospheres of Cool (Super-) Giants}. In E.~{Stempels}, ed.,
-  {\em 15th Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun\/},
-  vol. 1094 of {\em American Institute of Physics Conference Series\/},
-  267--274.
-
-\bibitem[{{Dalgarno} \& {Layzer}(1987)}]{dalgarno_1987}
-{\sc {Dalgarno}, A. \& {Layzer}, D.} (1987). {\em {Spectroscopy of
-  Astrophysical Plasmas}\/}.
-
-\bibitem[{{Danchi} {\em et~al.\/}(1994){Danchi}, {Bester}, {Degiacomi},
-  {Greenhill} \& {Townes}}]{danchi_1994}
-{\sc {Danchi}, W.C., {Bester}, M., {Degiacomi}, C.G., {Greenhill}, L.J. \&
-  {Townes}, C.H.} (1994). {Characteristics of dust shells around 13 late-type
-  stars}. {\em \aj\/}, {\bf 107}, 1469--1513.
-
-\bibitem[{{Deutsch}(1956)}]{deutsch_1956}
-{\sc {Deutsch}, A.J.} (1956). {The Circumstellar Envelope of Alpha Herculis.}
-  {\em \apj\/}, {\bf 123}, 210.
-
-\bibitem[{{Draine}(2011)}]{draine_2011}
-{\sc {Draine}, B.T.} (2011). {\em {Physics of the Interstellar and
-  Intergalactic Medium}\/}.
+\bibitem[{{Dehaes} {\em et~al.\/}(2011){Dehaes}, {Bauwens}, {Decin},
+  {Eriksson}, {Raskin}, {Butler}, {Dowell}, {Ali} \& {Blommaert}}]{dehaes_2011}
+{\sc {Dehaes}, S., {Bauwens}, E., {Decin}, L., {Eriksson}, K., {Raskin}, G.,
+  {Butler}, B., {Dowell}, C.D., {Ali}, B. \& {Blommaert}, J.A.D.L.} (2011).
+  {Structure of the outer layers of cool standard stars}. {\em \aap\/}, {\bf
+  533}, A107.
 
 \bibitem[{{Drake} \& {Linsky}(1986)}]{drake_1986}
 {\sc {Drake}, S. \& {Linsky}, J.} (1986). {Radio continuum emission from winds,
   chromospheres, and coronae of cool giants and supergiants}. {\em \aj\/}, {\bf
   91}, 602--620.
 
-\bibitem[{{Dulk}(1985)}]{dulk_1985}
-{\sc {Dulk}, G.A.} (1985). {Radio emission from the sun and stars}. {\em
-  \araa\/}, {\bf 23}, 169--224.
+\bibitem[{{Drake}(1985)}]{drake_1985}
+{\sc {Drake}, S.A.} (1985). {Modeling lines formed in the expanding
+  chromospheres of red giants}. In J.E. {Beckman} \& L.~{Crivellari}, eds.,
+  {\em Progress in stellar spectral line formation theory; Proceedings of the
+  Advanced Research Workshop, Trieste, Italy, September 4-7, 1984 (A86-37976
+  17-90). Dordrecht, D. Reidel Publishing Co., 1985, p. 351-357.\/}, 351--357.
 
-\bibitem[{{Falceta-Gon{\c c}alves} {\em et~al.\/}(2006){Falceta-Gon{\c
-  c}alves}, {Vidotto} \& {Jatenco-Pereira}}]{falceta_2006}
-{\sc {Falceta-Gon{\c c}alves}, D., {Vidotto}, A.A. \& {Jatenco-Pereira}, V.}
-  (2006). {On the magnetic structure and wind parameter profiles of Alfv{\'e}n
-  wave driven winds in late-type supergiant stars}. {\em \mnras\/}, {\bf 368},
-  1145--1150.
+\bibitem[{{Drake} \& {Linsky}(1983{\natexlab{a}})}]{drake_1983}
+{\sc {Drake}, S.A. \& {Linsky}, J.L.} (1983{\natexlab{a}}). {First detection of
+  winds in red giants by microwave continuum techniques}. {\em \apjl\/}, {\bf
+  274}, L77--L81.
 
-\bibitem[{{Gehrz} \& {Woolf}(1971)}]{gehrz_1971}
-{\sc {Gehrz}, R.D. \& {Woolf}, N.J.} (1971). {Mass Loss from M Stars}. {\em
-  \apj\/}, {\bf 165}, 285.
+\bibitem[{{Drake} \& {Linsky}(1983{\natexlab{b}})}]{drake_1983b}
+{\sc {Drake}, S.A. \& {Linsky}, J.L.} (1983{\natexlab{b}}). {The formation of
+  emission lines in the expanding chromospheres of luminous cool stars. I - The
+  importance of atmospheric extension and partial redistribution effects}. {\em
+  \apj\/}, {\bf 273}, 299--308.
+
+\bibitem[{{Glassgold} \& {Huggins}(1986)}]{glassgold_1986}
+{\sc {Glassgold}, A.E. \& {Huggins}, P.J.} (1986). {The ionization structure of
+  the circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 306},
+  605--617.
 
 \bibitem[{{Gradshteyn} \& {Ryzhik}(1994)}]{gradshteyn_1994}
 {\sc {Gradshteyn}, I.S. \& {Ryzhik}, I.M.} (1994). {\em {Table of integrals,
   series and products}\/}.
 
-\bibitem[{{Habing}(1996)}]{habing_1996}
-{\sc {Habing}, H.J.} (1996). {Circumstellar envelopes and Asymptotic Giant
-  Branch stars}. {\em \aapr\/}, {\bf 7}, 97--207.
+\bibitem[{{Gray} {\em et~al.\/}(2006){Gray}, {Corbally}, {Garrison},
+  {McFadden}, {Bubar}, {McGahee}, {O'Donoghue} \& {Knox}}]{gray_2006}
+{\sc {Gray}, R.O., {Corbally}, C.J., {Garrison}, R.F., {McFadden}, M.T.,
+  {Bubar}, E.J., {McGahee}, C.E., {O'Donoghue}, A.A. \& {Knox}, E.R.} (2006).
+  {Contributions to the Nearby Stars (NStars) Project: Spectroscopy of Stars
+  Earlier than M0 within 40 pc-The Southern Sample}. {\em \aj\/}, {\bf 132},
+  161--170.
 
-\bibitem[{{Haisch} {\em et~al.\/}(1980){Haisch}, {Linsky} \&
-  {Basri}}]{haisch_1980}
-{\sc {Haisch}, B.M., {Linsky}, J.L. \& {Basri}, G.S.} (1980). {Outer
-  atmospheres of cool stars. IV - A discussion of cool stellar wind models}.
-  {\em \apj\/}, {\bf 235}, 519--533.
-
-\bibitem[{{Harper}(1988)}]{harper_1988}
-{\sc {Harper}, G.M.} (1988). {\em {The outer atmospheres of hybrid giants}\/}.
-  Ph.D. thesis, Oxford Univ.~(England).
-
-\bibitem[{{Harper} {\em et~al.\/}(2001){Harper}, {Brown} \&
-  {Lim}}]{harper_2001}
-{\sc {Harper}, G.M., {Brown}, A. \& {Lim}, J.} (2001). {A Spatially Resolved,
-  Semiempirical Model for the Extended Atmosphere of {$\alpha$} Orionis (M2
-  Iab)}. {\em \apj\/}, {\bf 551}, 1073--1098.
+\bibitem[{{Harper}(1994)}]{harper_1994}
+{\sc {Harper}, G.M.} (1994). {A Computer Program for Solving Multilevel Non-Lte
+  Radiative Transfer Problems in Spherical Geometry in Moving or Static
+  Atmospheres}. {\em \mnras\/}, {\bf 268}, 894.
 
 \bibitem[{{Harper} {\em et~al.\/}(2013){Harper}, {O'Riain} \&
   {Ayres}}]{harper_2013}
@@ -190,163 +119,89 @@
   thermal continuum millimetre emission from non-dusty K and M red giants}.
   {\em \mnras\/}, {\bf 428}, 2064--2073.
 
-\bibitem[{{Hartmann} \& {Avrett}(1984)}]{hartmann_1984}
-{\sc {Hartmann}, L. \& {Avrett}, E.H.} (1984). {On the extended chromosphere of
-  Alpha Orionis}. {\em \apj\/}, {\bf 284}, 238--249.
-
 \bibitem[{{Hartmann} \& {MacGregor}(1980)}]{hartmann_1980}
 {\sc {Hartmann}, L. \& {MacGregor}, K.B.} (1980). {Momentum and energy
   deposition in late-type stellar atmospheres and winds}. {\em \apj\/}, {\bf
   242}, 260--282.
 
-\bibitem[{{Hjellming} \& {Newell}(1983)}]{hjellming_1983}
-{\sc {Hjellming}, R.M. \& {Newell}, R.T.} (1983). {Radio emission from Antares
-  and an ionized cavity in its wind}. {\em \apj\/}, {\bf 275}, 704--708.
+\bibitem[{{Hartmann} {\em et~al.\/}(1982){Hartmann}, {Avrett} \&
+  {Edwards}}]{hartmann_1982}
+{\sc {Hartmann}, L., {Avrett}, E. \& {Edwards}, S.} (1982). {Wave-driven winds
+  from cool stars. II - Models for T Tauri stars}. {\em \apj\/}, {\bf 261},
+  279--292.
 
-\bibitem[{{Hollweg}(1973)}]{hollweg_1973}
-{\sc {Hollweg}, J.V.} (1973). {ALFVtN Waves in a Two-Fluid Model of the Solar
-  Wind}. {\em \apj\/}, {\bf 181}, 547--566.
-
-\bibitem[{{Holzer} \& {MacGregor}(1985)}]{holzer_1985}
-{\sc {Holzer}, T.E. \& {MacGregor}, K.B.} (1985). {Mass loss mechanisms for
-  cool, low-gravity stars}. In M.~{Morris} \& B.~{Zuckerman}, eds., {\em Mass
-  Loss from Red Giants\/}, vol. 117 of {\em Astrophysics and Space Science
-  Library\/}, 229--255.
-
-\bibitem[{{Huber} \& {Herzberg}(1979)}]{huber_1979}
-{\sc {Huber}, K.P. \& {Herzberg}, G.} (1979). {\em Molecular Spectra and
-  Molecular Structure IV. Constants of Diatomic Molecules\/}. New York: Van
-  Nostrand Reinhold.
+\bibitem[{{Holzer} {\em et~al.\/}(1983){Holzer}, {Fla} \& {Leer}}]{holzer_1983}
+{\sc {Holzer}, T.E., {Fla}, T. \& {Leer}, E.} (1983). {Alfven waves in stellar
+  winds}. {\em \apj\/}, {\bf 275}, 808--835.
 
 \bibitem[{{Hummer}(1988)}]{hummer_1988}
 {\sc {Hummer}, D.G.} (1988). {A fast and accurate method for evaluating the
   nonrelativistic free-free Gaunt factor for hydrogenic ions}. {\em \apj\/},
   {\bf 327}, 477--484.
 
-\bibitem[{{Iben}(1967)}]{iben_1967}
-{\sc {Iben}, I., Jr.} (1967). {Stellar Evolution Within and off the Main
-  Sequence}. {\em \araa\/}, {\bf 5}, 571.
+\bibitem[{{Jatenco-Pereira} \& {Opher}(1989)}]{jatenco_1989}
+{\sc {Jatenco-Pereira}, V. \& {Opher}, R.} (1989). {Effect of diverging
+  magnetic fields on mass loss in late-type giant stars}. {\em \aap\/}, {\bf
+  209}, 327--336.
 
-\bibitem[{{Iben}(1993)}]{iben_1993}
-{\sc {Iben}, I., Jr.} (1993). {On Why Intermediate-Mass Stars Become Giants
-  after the Exhaustion of Hydrogen in Their Cores}. {\em \apj\/}, {\bf 415},
-  767.
+\bibitem[{{Johnson}(1973)}]{johnson_1973}
+{\sc {Johnson}, H.R.} (1973). {Cooling effect of CO in stellar atmospheres.}
+  {\em \apj\/}, {\bf 180}, 81--89.
 
-\bibitem[{{Jones}(2008)}]{jones_2008}
-{\sc {Jones}, M.H.} (2008). {The incidence of mid-infrared excesses in G and K
-  giants}. {\em \mnras\/}, {\bf 387}, 845--855.
+\bibitem[{{Krogulec}(1988)}]{krogulec_1988}
+{\sc {Krogulec}, M.} (1988). {Alfven wave driven wind - Models of Alpha Boo
+  atmosphere}. {\em Acta Astronomica\/}, {\bf 38}, 107--126.
 
-\bibitem[{{Josselin} \& {Plez}(2007)}]{josselin_2007}
-{\sc {Josselin}, E. \& {Plez}, B.} (2007). {Atmospheric dynamics and the mass
-  loss process in red supergiant stars}. {\em \aap\/}, {\bf 469}, 671--680.
-
-\bibitem[{{Judge} \& {Carpenter}(1998)}]{judge_1998}
-{\sc {Judge}, P.G. \& {Carpenter}, K.G.} (1998). {On Chromospheric Heating
-  Mechanisms of ``Basal Flux'' Stars}. {\em \apj\/}, {\bf 494}, 828.
-
-\bibitem[{{Karzas} \& {Latter}(1961)}]{karzas_1961}
-{\sc {Karzas}, W.J. \& {Latter}, R.} (1961). {Electron Radiative Transitions in
-  a Coulomb Field.} {\em \apjs\/}, {\bf 6}, 167.
-
-\bibitem[{{Lambert} \& {Ries}(1981)}]{lambert_1981}
-{\sc {Lambert}, D.L. \& {Ries}, L.M.} (1981). {Carbon, nitrogen, and oxygen
-  abundances in G and K giants}. {\em \apj\/}, {\bf 248}, 228--248.
-
-\bibitem[{{Lamers}(1998)}]{lamers_1998}
-{\sc {Lamers}, H.J.G.L.M.} (1998). {Stellar Wind Theories}. {\em \apss\/}, {\bf
-  260}, 81--100.
+\bibitem[{{Krogulec}(1989)}]{krogulec_1989}
+{\sc {Krogulec}, M.} (1989). {Alfven wave driven wind. II - Models of cool
+  giant and supergiant stars}. {\em Acta Astronomica\/}, {\bf 39}, 51--67.
 
 \bibitem[{{Lamers} \& {Cassinelli}(1999)}]{lamers_1999}
 {\sc {Lamers}, H.J.G.L.M. \& {Cassinelli}, J.P.} (1999). {\em {Introduction to
   Stellar Winds}\/}.
 
-\bibitem[{{Levesque}(2010)}]{levesque_2010}
-{\sc {Levesque}, E.M.} (2010). {The Physical Properties of Red Supergiants}. In
-  C.~{Leitherer}, P.D. {Bennett}, P.W. {Morris} \& J.T. {Van Loon}, eds., {\em
-  Hot and Cool: Bridging Gaps in Massive Star Evolution\/}, vol. 425 of {\em
-  Astronomical Society of the Pacific Conference Series\/}, 103.
+\bibitem[{{Lamers} {\em et~al.\/}(1987){Lamers}, {Cerruti-Sola} \&
+  {Perinotto}}]{lamers_1987}
+{\sc {Lamers}, H.J.G.L.M., {Cerruti-Sola}, M. \& {Perinotto}, M.} (1987). {The
+  'SEI' method for accurate and efficient calculations of line profiles in
+  spherically symmetric stellar winds}. {\em \apj\/}, {\bf 314}, 726--738.
 
-\bibitem[{{Lim} {\em et~al.\/}(1998){Lim}, {Carilli}, {White}, {Beasley} \&
-  {Marson}}]{lim_1998}
-{\sc {Lim}, J., {Carilli}, C.L., {White}, S.M., {Beasley}, A.J. \& {Marson},
-  R.G.} (1998). {Large convection cells as the source of Betelgeuse's extended
-  atmosphere}. {\em \nat\/}, {\bf 392}, 575--577.
+\bibitem[{{McMurry}(1999)}]{mcmurry_1999}
+{\sc {McMurry}, A.D.} (1999). {The outer atmosphere of Tau - I. A new
+  chromospheric model}. {\em \mnras\/}, {\bf 302}, 37--47.
 
-\bibitem[{{Linsky} \& {Haisch}(1979)}]{linsky_1979}
-{\sc {Linsky}, J.L. \& {Haisch}, B.M.} (1979). {Outer atmospheres of cool
-  stars. I - The sharp division into solar-type and non-solar-type stars}. {\em
-  \apjl\/}, {\bf 229}, L27--L32.
+\bibitem[{{Mihalas}(1978)}]{mihalas_1978}
+{\sc {Mihalas}, D.} (1978). {\em {Stellar atmospheres /2nd edition/}\/}.
 
-\bibitem[{{Luttermoser} {\em et~al.\/}(1994){Luttermoser}, {Johnson} \&
-  {Eaton}}]{luttermoser_1994}
-{\sc {Luttermoser}, D.G., {Johnson}, H.R. \& {Eaton}, J.} (1994). {The
-  chromospheric structure of the cool giant star G Herculis}. {\em \apj\/},
-  {\bf 422}, 351--365.
+\bibitem[{{O'Gorman} \& {Harper}(2011)}]{ogorman_2011}
+{\sc {O'Gorman}, E. \& {Harper}, G.M.} (2011). {What is Heating Arcturus'
+  Wind?} In C.~{Johns-Krull}, M.K. {Browning} \& A.A. {West}, eds., {\em 16th
+  Cambridge Workshop on Cool Stars, Stellar Systems, and the Sun\/}, vol. 448
+  of {\em Astronomical Society of the Pacific Conference Series\/}, 691.
 
-\bibitem[{{Macchetto} \& {Penston}(1978)}]{macchetto_1978}
-{\sc {Macchetto}, F. \& {Penston}, M.V.} (1978). {The International Ultraviolet
-  Explorer}. {\em ESA Bulletin\/}, {\bf 13}, 9--14.
+\bibitem[{{O'Gorman} {\em et~al.\/}(2013){O'Gorman}, {Harper}, {Brown}, {Drake}
+  \& {Richards}}]{ogorman_2013}
+{\sc {O'Gorman}, E., {Harper}, G.M., {Brown}, A., {Drake}, S. \& {Richards},
+  A.M.S.} (2013). {Multi-wavelength Radio Continuum Emission Studies of
+  Dust-free Red Giants}. {\em \aj\/}, {\bf 144}, 36.
 
-\bibitem[{{Maeder} \& {Meynet}(1987)}]{maeder_1987}
-{\sc {Maeder}, A. \& {Meynet}, G.} (1987). {Grids of evolutionary models of
-  massive stars with mass loss and overshooting - Properties of Wolf-Rayet
-  stars sensitive to overshooting}. {\em \aap\/}, {\bf 182}, 243--263.
+\bibitem[{{Ohnaka}(2013)}]{ohnaka_2013}
+{\sc {Ohnaka}, K.} (2013). {Spatially resolved, high-spectral resolution
+  observation of the K giant Aldebaran in the CO first overtone lines with
+  VLTI/AMBER}. {\em \aap\/}, {\bf 553}, A3.
 
-\bibitem[{{Moravveji} {\em et~al.\/}(2013){Moravveji}, {Guinan}, {Khosroshahi}
-  \& {Wasatonic}}]{moravveji_2013}
-{\sc {Moravveji}, E., {Guinan}, E.F., {Khosroshahi}, H. \& {Wasatonic}, R.}
-  (2013). {The Age and Mass of the {$\alpha$} Herculis Triple-star System from
-  a MESA Grid of Rotating Stars with 1.3 {\lt}= M/M $_{☉}$ {\lt}= 8.0}. {\em
-  \aj\/}, {\bf 146}, 148.
-
-\bibitem[{{Morton}(1967)}]{morton_1967}
-{\sc {Morton}, D.C.} (1967). {Mass Loss from Three OB Supergiants in Orion}.
-  {\em \apj\/}, {\bf 150}, 535.
-
-\bibitem[{{Neugebauer} \& {Snyder}(1962)}]{neugebauer_1962}
-{\sc {Neugebauer}, M. \& {Snyder}, C.W.} (1962). {Solar Plasma Experiment}.
-  {\em Science\/}, {\bf 138}, 1095--1097.
-
-\bibitem[{{Newell} \& {Hjellming}(1982)}]{newell_1982}
-{\sc {Newell}, R.T. \& {Hjellming}, R.M.} (1982). {Radio emission from the
-  extended chromosphere of Alpha Orionis}. {\em \apjl\/}, {\bf 263}, L85--L87.
-
-\bibitem[{{Owocki}(2004)}]{owocki_2004}
-{\sc {Owocki}, S.} (2004). {Stellar wind mechanisms and instabilities}. In
-  M.~{Heydari-Malayeri}, P.~{Stee} \& J.P. {Zahn}, eds., {\em EAS Publications
-  Series\/}, vol.~13 of {\em EAS Publications Series\/}, 163--250.
+\bibitem[{{Olnon}(1975)}]{olnon_1975}
+{\sc {Olnon}, F.M.} (1975). {Thermal bremsstrahlung radiospectra for
+  inhomogeneous objects, with an application to MWC 349.} {\em \aap\/}, {\bf
+  39}, 217--223.
 
 \bibitem[{{Panagia} \& {Felli}(1975)}]{panagia_1975}
 {\sc {Panagia}, N. \& {Felli}, M.} (1975). {The spectrum of the free-free
   radiation from extended envelopes}. {\em \aap\/}, {\bf 39}, 1--5.
 
-\bibitem[{{Parker}(1958)}]{parker_1958}
-{\sc {Parker}, E.N.} (1958). {Dynamics of the Interplanetary Gas and Magnetic
-  Fields.} {\em \apj\/}, {\bf 128}, 664.
-
-\bibitem[{{Parker}(1983)}]{parker_1983}
-{\sc {Parker}, E.N.} (1983). {Magnetic Neutral Sheets in Evolving Fields - Part
-  Two - Formation of the Solar Corona}. {\em \apj\/}, {\bf 264}, 642.
-
-\bibitem[{{Parker}(1988)}]{parker_1988}
-{\sc {Parker}, E.N.} (1988). {Nanoflares and the solar X-ray corona}. {\em
-  \apj\/}, {\bf 330}, 474--479.
-
-\bibitem[{{Reimers}(1975)}]{reimers_1975}
-{\sc {Reimers}, D.} (1975). {Circumstellar absorption lines and mass loss from
-  red giants}. {\em Memoires of the Societe Royale des Sciences de Liege\/},
-  {\bf 8}, 369--382.
-
-\bibitem[{{Reimers}(1982)}]{reimers_1982}
-{\sc {Reimers}, D.} (1982). {Detection of further red giants with 'hybrid'
-  atmospheres and a possible correlation with double circumstellar MG II and CA
-  II lines}. {\em \aap\/}, {\bf 107}, 292--299.
-
-\bibitem[{{Renzini} {\em et~al.\/}(1992){Renzini}, {Greggio}, {Ritossa} \&
-  {Ferrario}}]{renzini_1992}
-{\sc {Renzini}, A., {Greggio}, L., {Ritossa}, C. \& {Ferrario}, L.} (1992).
-  {Why stars inflate to and deflate from red giant dimensions}. {\em \apj\/},
-  {\bf 400}, 280--303.
+\bibitem[{{Perley} \& {Butler}(2013)}]{perley_2013}
+{\sc {Perley}, R.A. \& {Butler}, B.J.} (2013). {An Accurate Flux Density Scale
+  from 1 to 50 GHz}. {\em \apjs\/}, {\bf 204}, 19.
 
 \bibitem[{{Robinson} {\em et~al.\/}(1998){Robinson}, {Carpenter} \&
   {Brown}}]{robinson_1998}
@@ -355,115 +210,53 @@
   Comparison of the K5 III Stars alpha Tauri and gamma Draconis}. {\em \apj\/},
   {\bf 503}, 396.
 
-\bibitem[{{Rodgers} \& {Glassgold}(1991)}]{rodgers_1991}
-{\sc {Rodgers}, B. \& {Glassgold}, A.E.} (1991). {The temperature of the
-  circumstellar envelope of Alpha Orionis}. {\em \apj\/}, {\bf 382}, 606--616.
+\bibitem[{{Scharmer} \& {Carlsson}(1985)}]{scharmer_1985}
+{\sc {Scharmer}, G.B. \& {Carlsson}, M.} (1985). {A new approach to multi-level
+  non-LTE radiative transfer problems}. {\em Journal of Computational
+  Physics\/}, {\bf 59}, 56--80.
 
-\bibitem[{{Rohlfs} \& {Wilson}(1996)}]{rohlfs_1996}
-{\sc {Rohlfs}, K. \& {Wilson}, T.L.} (1996). {\em {Tools of Radio
-  Astronomy}\/}.
+\bibitem[{{Seaquist} \& {Taylor}(1987)}]{seaquist_1987}
+{\sc {Seaquist}, E.R. \& {Taylor}, A.R.} (1987). {A detailed analysis of the
+  radio emission from the symbiotic star RX Puppis}. {\em \apj\/}, {\bf 312},
+  813--821.
 
-\bibitem[{{Ryan} \& {Norton}(2010)}]{ryan_2010}
-{\sc {Ryan}, S.G. \& {Norton}, A.J.} (2010). {\em {Stellar Evolution and
-  Nucleosynthesis}\/}.
+\bibitem[{{Slee} {\em et~al.\/}(1989){Slee}, {Stewart}, {Bunton}, {Beasley},
+  {Carter} \& {Nelson}}]{slee_1989}
+{\sc {Slee}, O.B., {Stewart}, R.T., {Bunton}, J.D., {Beasley}, A.J., {Carter},
+  B.D. \& {Nelson}, G.J.} (1989). {A microwave survey of southern red giants}.
+  {\em \mnras\/}, {\bf 239}, 913--922.
 
-\bibitem[{{Rybicki} \& {Lightman}(1979)}]{rybicki_1979}
-{\sc {Rybicki}, G.B. \& {Lightman}, A.P.} (1979). {\em {Radiative processes in
-  astrophysics}\/}.
+\bibitem[{{Spitzer}(1978)}]{spitzer_1978}
+{\sc {Spitzer}, L.} (1978). {\em Physical processes in the interstellar
+  medium\/}. New York Wiley-Interscience, 1978.\ 333 p.
 
-\bibitem[{{Schr{\"o}der} \& {Sedlmayr}(2001)}]{schroder_2001}
-{\sc {Schr{\"o}der}, K.P. \& {Sedlmayr}, E.} (2001). {The galactic mass
-  injection from cool stellar winds of the 1 to 2.5 M$_{sun}$ stars in the
-  solar neighbourhood}. {\em \aap\/}, {\bf 366}, 913--922.
+\bibitem[{{Taylor} {\em et~al.\/}(1999){Taylor}, {Carilli} \&
+  {Perley}}]{taylor_1999}
+{\sc {Taylor}, G.B., {Carilli}, C.L. \& {Perley}, R.A.}, eds. (1999). {\em
+  {Synthesis Imaging in Radio Astronomy II}\/}, vol. 180 of {\em Astronomical
+  Society of the Pacific Conference Series\/}.
 
-\bibitem[{{Scuderi} {\em et~al.\/}(1998){Scuderi}, {Panagia}, {Stanghellini},
-  {Trigilio} \& {Umana}}]{scuderi_1998}
-{\sc {Scuderi}, S., {Panagia}, N., {Stanghellini}, C., {Trigilio}, C. \&
-  {Umana}, G.} (1998). {Radio observations of stellar winds from early type
-  stars}. {\em \aap\/}, {\bf 332}, 251--267.
+\bibitem[{{Vidotto} {\em et~al.\/}(2006){Vidotto}, {Falceta-Gon{\c c}alves} \&
+  {Jatenco-Pereira}}]{vidotto_2006}
+{\sc {Vidotto}, A.A., {Falceta-Gon{\c c}alves}, D. \& {Jatenco-Pereira}, V.}
+  (2006). {A Self-Consistent Determination of the Temperature Profile and The
+  Magnetic Field Geometry in Winds of Late-Type Stars}. {\em \ssr\/}, {\bf
+  122}, 181--188.
 
-\bibitem[{{Sennhauser} \& {Berdyugina}(2011)}]{sennhauser_2011}
-{\sc {Sennhauser}, C. \& {Berdyugina}, S.V.} (2011). {First detection of a weak
-  magnetic field on the giant Arcturus: remnants of a solar dynamo?} {\em
-  \aap\/}, {\bf 529}, A100.
+\bibitem[{{Wiedemann} {\em et~al.\/}(1994){Wiedemann}, {Ayres}, {Jennings} \&
+  {Saar}}]{wiedemann_1994}
+{\sc {Wiedemann}, G., {Ayres}, T.R., {Jennings}, D.E. \& {Saar}, S.H.} (1994).
+  {Carbon Monoxide Fundamental Bands in Late-Type Stars. III. Chromosphere or
+  CO-mosphere?} {\em \apj\/}, {\bf 423}, 806.
 
-\bibitem[{{Shu}(1991)}]{shu_1991}
-{\sc {Shu}, F.H.} (1991). {\em {The physics of astrophysics. Volume 1:
-  Radiation.}\/}.
+\bibitem[{{Wood} {\em et~al.\/}(2007){Wood}, {Harper}, {M{\"u}ller},
+  {Heerikhuisen} \& {Zank}}]{wood_2007}
+{\sc {Wood}, B.E., {Harper}, G.M., {M{\"u}ller}, H.R., {Heerikhuisen}, J. \&
+  {Zank}, G.P.} (2007). {The Wind-ISM Interaction of {$\alpha$} Tauri}. {\em
+  \apj\/}, {\bf 655}, 946--957.
 
-\bibitem[{{Simon} {\em et~al.\/}(1982){Simon}, {Linsky} \&
-  {Stencel}}]{simon_1982}
-{\sc {Simon}, T., {Linsky}, J.L. \& {Stencel}, R.E.} (1982). {On the reality of
-  a boundary in the H-R diagram between late-type stars with and without high
-  temperature outer atmospheres}. {\em \apj\/}, {\bf 257}, 225--246.
-
-\bibitem[{{Spitzer}(1939)}]{spitzer_1939}
-{\sc {Spitzer}, L., Jr.} (1939). {Spectra of M Supergiant Stars.} {\em \apj\/},
-  {\bf 90}, 494.
-
-\bibitem[{{Stancliffe} {\em et~al.\/}(2009){Stancliffe}, {Chieffi}, {Lattanzio}
-  \& {Church}}]{stancliffe_2009}
-{\sc {Stancliffe}, R.J., {Chieffi}, A., {Lattanzio}, J.C. \& {Church}, R.P.}
-  (2009). {Why Do Low-Mass Stars Become Red Giants}. {\bf 26}, 203--208.
-
-\bibitem[{{Stothers} \& {Chin}(1969)}]{stothers_1969}
-{\sc {Stothers}, R. \& {Chin}, C.W.} (1969). {Advanced Phases of Evolution in
-  Massive Red Supergiants}. {\em \apj\/}, {\bf 158}, 1039.
-
-\bibitem[{{Strassmeier} {\em et~al.\/}(1993){Strassmeier}, {Hall}, {Fekel} \&
-  {Scheck}}]{strassmeier_1993}
-{\sc {Strassmeier}, K.G., {Hall}, D.S., {Fekel}, F.C. \& {Scheck}, M.} (1993).
-  {A catalog of chromospherically active binary stars (second edition)}. {\em
-  \aaps\/}, {\bf 100}, 173--225.
-
-\bibitem[{{Sugimoto} \& {Fujimoto}(2000)}]{sugimoto_2000}
-{\sc {Sugimoto}, D. \& {Fujimoto}, M.Y.} (2000). {Why Stars Become Red Giants}.
-  {\em \apj\/}, {\bf 538}, 837--853.
-
-\bibitem[{{Sutmann} \& {Cuntz}(1995)}]{sutmann_1995}
-{\sc {Sutmann}, G. \& {Cuntz}, M.} (1995). {Generation of mass loss in K
-  giants: The failure of global oscillation modes and possible implications}.
-  {\em \apjl\/}, {\bf 442}, L61--L64.
-
-\bibitem[{{Suzuki}(2007)}]{suzuki_2007}
-{\sc {Suzuki}, T.K.} (2007). {Structured Red Giant Winds with Magnetized Hot
-  Bubbles and the Corona/Cool Wind Dividing Line}. {\em \apj\/}, {\bf 659},
-  1592--1610.
-
-\bibitem[{{van Leeuwen}(2007)}]{van_leeuwen_2007}
-{\sc {van Leeuwen}, F.} (2007). {Validation of the new Hipparcos reduction}.
-  {\em \aap\/}, {\bf 474}, 653--664.
-
-\bibitem[{{van Loon}(2010)}]{van_loon_2010}
-{\sc {van Loon}, J.T.} (2010). {The Effects of Red Supergiant Mass Loss on
-  Supernova Ejecta and the Circumburst Medium}. In C.~{Leitherer}, P.D.
-  {Bennett}, P.W. {Morris} \& J.T. {Van Loon}, eds., {\em Hot and Cool:
-  Bridging Gaps in Massive Star Evolution\/}, vol. 425 of {\em Astronomical
-  Society of the Pacific Conference Series\/}, 279.
-
-\bibitem[{{van Loon} {\em et~al.\/}(2005){van Loon}, {Cioni}, {Zijlstra} \&
-  {Loup}}]{van_loon_2005}
-{\sc {van Loon}, J.T., {Cioni}, M.R.L., {Zijlstra}, A.A. \& {Loup}, C.} (2005).
-  {An empirical formula for the mass-loss rates of dust-enshrouded red
-  supergiants and oxygen-rich Asymptotic Giant Branch stars}. {\em \aap\/},
-  {\bf 438}, 273--289.
-
-\bibitem[{{Verdini} \& {Velli}(2007)}]{verdini_2007}
-{\sc {Verdini}, A. \& {Velli}, M.} (2007). {Alfv{\'e}n Waves and Turbulence in
-  the Solar Atmosphere and Solar Wind}. {\em \apj\/}, {\bf 662}, 669--676.
-
-\bibitem[{{Weymann}(1962)}]{weymann_1962}
-{\sc {Weymann}, R.} (1962). {Physical Conditions in the Circumstellar Envelope
-  of {$\alpha$} Orionis.} {\em \apj\/}, {\bf 136}, 844--+.
-
-\bibitem[{{White}(2000)}]{white_2000}
-{\sc {White}, S.M.} (2000). {The Contributions of the VLA to the Study of Radio
-  Stars}. In D.G. {Finley} \& W.M. {Goss}, eds., {\em Radio interferometry :
-  the saga and the science\/}, 86.
-
-\bibitem[{{Zuckerman} {\em et~al.\/}(1995){Zuckerman}, {Kim} \&
-  {Liu}}]{zukerman_1995}
-{\sc {Zuckerman}, B., {Kim}, S.S. \& {Liu}, T.} (1995). {Luminosity Class III
-  Stars with Excess Far-Infrared Emission}. {\em \apjl\/}, {\bf 446}, L79.
+\bibitem[{{Wright} \& {Barlow}(1975)}]{wright_1975}
+{\sc {Wright}, A.E. \& {Barlow}, M.J.} (1975). {The radio and infrared spectrum
+  of early-type stars undergoing mass loss}. {\em \mnras\/}, {\bf 170}, 41--51.
 
 \end{thebibliography}

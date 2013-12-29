@@ -142,7 +142,7 @@ Previous detections of $\alpha$ Boo at 6 cm ranged from a 3$\sigma$ upper limit 
 \end{figure*}
 \end{landscape}}
 
-In Figure \ref{fig6.4.2} we plot the previous  radio measurements of $\alpha$ Tau at all frequencies below 250 GHz (i.e. $> 0.12$ cm). Prior to this study, $\alpha$ Tau had only been detected at two VLA bands (i.e., X and Ku) and had never been detected at wavelengths longer than 3 cm due to its relatively low mass-loss rate. Our lack of a Ku band measurement means that we can only compare the previous 3 cm detection reported in \cite{wood_2007} to ours. We find that there is no significant difference between the two. Interestingly, \cite{wood_2007} report a non-detection of $\alpha$ Tau at 6 cm and placed a 3$\sigma$ upper limit of 0.07 mJy on its emission. In stark contrast to this, we were able to detect the star at 6 cm with a flux density over two times greater than this value. This hint of variability at long wavelengths would be consistent with the predictions of the broadband nonlinear Alfv\'{e}n wave model of \cite{airapetian_2010} but can again only be confirmed with future high S/N observations.
+In Figure \ref{fig6.4.2} we plot the previous  radio measurements of $\alpha$ Tau at all frequencies below 250 GHz (i.e., $> 0.12$ cm). Prior to this study, $\alpha$ Tau had only been detected at two VLA bands (i.e., X and Ku) and had never been detected at wavelengths longer than 3 cm due to its relatively low mass-loss rate. Our lack of a Ku band measurement means that we can only compare the previous 3 cm detection reported in \cite{wood_2007} to ours. We find that there is no significant difference between the two. Interestingly, \cite{wood_2007} report a non-detection of $\alpha$ Tau at 6 cm and placed a 3$\sigma$ upper limit of 0.07 mJy on its emission. In stark contrast to this, we were able to detect the star at 6 cm with a flux density over two times greater than this value. This hint of variability at long wavelengths would be consistent with the predictions of the broadband nonlinear Alfv\'{e}n wave model of \cite{airapetian_2010} but can again only be confirmed with future high S/N observations.
 
 \section{Results Versus Existing Models}\label{sec:6.5}
 One of the most important diagnostic features indicating mass outflows in late-type evolved stars are the blue shifted absorption components present in the \ion{Ca}{ii} H and K and Mg\,\textsc{ii} h and k resonance lines\footnote{Examples of these features are shown in Figures \ref{fig:1.2.2} and \ref{fig:3.4.1}.}. Figure \ref{fig6.5.1} shows one of the two chromosphere and wind models of $\alpha$ Boo \cite[`model A']{drake_1985} which is based on the Mg\,\textsc{ii} k 2796 $\rm{\AA}$ emission line observed with the International Ultraviolet Explorer. The line was modeled by solving the radiative transfer equation in a spherical co-moving frame and the effects of partial redistribution \citep[e.g.,][]{drake_1983b} were taken into account. Both of Drake’s atmospheric models
@@ -167,48 +167,47 @@ We also include the predicted radio spectrum from the theoretical Alfv\'{e}n wav
 \label{sec:6.6}
 Long wavelength radio emission from non-dusty K spectral-type red giants is due to thermal free-free emission in their partially ionized winds while shorter wavelength radio emission emanates from the near static and more ionized lower atmospheric layers. The radio flux density-frequency relationship for these stars is usually found to be intermediate between that expected from the isothermal stellar disk emission, where $\alpha$ follows the Rayleigh-Jeans tail of the Planck function (i.e., $\alpha = +2$), and that from an optically thin plasma (i.e., $\alpha = -0.1$). We have shown in Chapter \ref{chap:1} that the expected radio spectrum from a spherically symmetric isothermal outflow with a constant velocity and ionization fraction varies as $\nu ^{0.6}$ \citep{wright_1975,olnon_1975,panagia_1975}. In reality however, thermal gradients will exist in the wind when the heating mechanisms become insufficient to counteract adiabatic and line cooling, so one would expect a temperature decrease in the wind at some point. Also, if the radio emission emanates from the wind acceleration zone then the electron density will not follow $n_{e} \propto r^{-2}$. 
 
-We therefore relax some of the constant property wind model assumptions and assume that the electron density and temperature vary as a function of distance from the star $r$, and have the power-law form $n_{e} \propto r^{-p}$ and $T_{e} \propto r^{-n}$, respectively \citep[e.g.,][]{seaquist_1987}. Finding the spectral index for an outflow with these conditions is non-trivial, so we highlight the main steps required to do so here. We assume the same geometry and notation used for the constant property wind model in section \ref{sec:1.8.4} of Chapter \ref{chap:1}, and again start by calculating the total optical depth for a ray with an impact parameter $b$, through the atmosphere
+We therefore relax some of the constant property wind model assumptions and assume that the electron density and temperature vary as a function of distance from the star $r$, and have the power-law form $n_{e} \propto r^{-p}$ and $T_{e} \propto r^{-n}$, respectively \citep[e.g.,][]{seaquist_1987}. Finding the spectral index for an outflow with these conditions is non-trivial, so we highlight the main steps required to do so here. We assume the same geometry and notation used for the constant property wind model in section \ref{sec:1.8.4} of Chapter \ref{chap:1}, and start by calculating the optical depth along a ray at position $z$ with an impact parameter $b$ through the atmosphere
 \begin{equation}
-\tau_{\nu}(b) =\frac{0.212Z^2n^2_{0}r_{0}^{2p-1.35n}}{\nu^{2.1}T_{0}^{1.35}}\int ^{\infty}_{-\infty} \frac{1}{(b^2 + z^2)^{(2p - 1.35n)/2}} dz,
+\tau_{\nu}(z,b) =\frac{0.212Z^2n^2_{0}r_{0}^{\Pi}}{\nu^{2.1}T_{0}^{1.35}}\int ^{z}_{-\infty} \frac{dz}{(z^2 + b^2)^{\Pi/2}},
 \label{eq:eq6.6.1}
 \end{equation}
-where $T_{0}$ and $n_{0}$ are the gas temperature and density, respectively, at the base of the wind, $r_{0}$. We have also assumed that the electron density is the same as the ion density throughout. This integral can be solved using the relationship \citep{gradshteyn_1994}
+where $T_{0}$ and $n_{0}$ are the gas temperature and density, respectively, at the base of the wind, $r_{0}$, and $\Pi=2p-1.35n$. We have also assumed that the electron density is the same as the ion density throughout. Following the method of \cite{seaquist_1987} we introduce the new spatial variables $l=z/\sigma _{\nu}$ and $q=b/\sigma _{\nu}$, where $\sigma _{\nu}$ is a frequency dependent function. Doing so removes the spatial-frequency coupling to give
 \begin{equation}
-\int ^{\infty}_{-\infty} \frac{1}{(b^2+z^2)^{t/2}} dz = b^{1-t}\sqrt{\pi}\left[\frac{\Gamma(0.5t-0.5)}{\Gamma (0.5t)} \right]
-\label{eq:eq6.6.2}
+\tau_{\nu}(l,q) =\frac{0.212Z^2n^2_{0}r_{0}^{\Pi}\sigma _{\nu}^{1-\Pi}}{\nu^{2.1}T_{0}^{1.35}}\int ^{l}_{-\infty} \frac{dl}{(l^2 + q^2)^{\Pi/2}}
 \end{equation}
-and setting $t=(2p-1.35n)$. Here $\Gamma$ is the gamma function i.e., $\Gamma (y)= \int ^{\infty}_{0} u^{y-1}e^{-u}du$. The total optical depth along a ray with impact parameter $b$ is then 
+Defining $\sigma _{\nu}$ as 
 \begin{equation}
-\tau_{\nu}(b) = Gb^{1-2p +1.35n}
-\label{eq:eq6.6.3}
+\sigma _{\nu} = \left(\frac{0.212Z^2n^2_{0}r_{0}^{\Pi}}{\nu^{2.1}T_{0}^{1.35}}\right)^{\frac{1}{\Pi -1}}
 \end{equation}
-where $G$ is a constant that incorporates $\nu$, i.e.,
+then gives the following simplified expressions for the optical depth
 \begin{equation}
-G = \frac{0.3757Z^2n^2_{0}r_{0}^{2p-1.35n}\Gamma(p-0.675n-0.5)}{\nu^{2.1}T_{0}^{1.35}\Gamma(0.5t-0.5)}.
+\tau_{\nu} =\int ^{l}_{-\infty} \frac{dl}{(l^2 + q^2)^{\Pi/2}}
 \end{equation}
-The total flux density is found by integrating along the ray and over the entire sky
+and 
 \begin{equation}
-F_{\nu} = \frac{2\pi}{d^2}\int ^{\infty}_{-\infty}\int ^{\infty}_{0} B_{\nu}(z,b)[1 - e^{-\tau_{\nu}(b)}]bdbdz,
-\label{eq:eq6.6.4}
+d\tau_{\nu} = \frac{dl}{(l^2 + q^2)^{\Pi/2}}\,.
 \end{equation}
-and so we can now substitute in the Rayleigh Jeans function for $B_{\nu}$ (remembering that $T_{e}$ is a function of $b$ and $z$) to get
+
+The total flux can be written as
 \begin{equation}
-F_{\nu}=\frac{4\pi k\nu^2 T_{0}r_{0}^{n}}{d^2c^2}\int ^{\infty}_{-\infty}\int ^{\infty}_{0}(1-e^{-\tau _{\nu}})(b^2+z^2)^{-\frac{n}{2}}bdbdz.
-\label{eq:eq6.6.5}
+F_{\nu} = 2\pi \left(\frac{\phi}{2} \right)^2 \int ^{\infty}_{b=0} \int ^{\tau _{\mathrm{max}}}_{\tau =0} B_{\nu}\mathrm{exp}(-\tau)d\tau \,b\,db
 \end{equation}
-To progress further, the integral over $z$ can be solved using Equation \ref{eq:eq6.6.2}, and then the remaining integral can be re-written in terms of $\tau _{\nu}$ using Equation \ref{eq:eq6.6.3}, allowing all $\nu$ dependence to be taken outside of the integral. This allows $\nu$ to be separated out to give
+where $\phi$ is the angular diameter of the radio emitting region, $\tau _{\mathrm{max}}$ is the total optical depth, and $B_{\nu}$ is the Rayleigh-Jeans expression of the Planck function. This then becomes
 \begin{equation}
-F_{\nu} \propto \nu^2 G^{\frac{2.35n -2p -1}{1-2p +1.35n}} G^{-1},
-\label{eq:eq6.6.8}
+F_{\nu} = 2\pi \left(\frac{\phi}{2} \right)^2 \frac{2\nu ^2 k T_{0}}{c^2}r_{0}^d\sigma _{\nu}^{2-d}\int ^{\infty}_{q=0} \int ^{\infty}_{l=-\infty} \frac{q}{(l^2 +q^2)^{d/2}}\mathrm{exp}\left( -\int ^{l}_{-\infty}\frac{dl}{(l^2 +q^2)^{\Pi /2}}\right)dq\,dl
 \end{equation}
-and as $G \propto \nu^{-2.1}$ we get
+where the double integral is a geometric term independent of frequency. The spectral index, $\alpha$, is defined as 
 \begin{equation}
-F_{\nu} \propto \nu^2 \nu^{\frac{4.2-2.1n}{1-2p +1.35n}},
-\label{eq:eq6.6.9}
+F_{\nu} \propto \nu ^{\alpha}
 \end{equation}
-i.e.,
+and so in this model
 \begin{equation}
-\alpha = \frac{4p -6.2 -0.6n}{2p-1-1.35n}.
+F_{\nu} \propto \nu ^{2} \nu ^{\frac{-2.1(2-d)}{\Pi -1}}\,,
+\end{equation}
+i.e., 
+\begin{equation}
+\alpha = \frac{4p -6.2 -0.6n}{2p-1-1.35n}\, .
 \label{eq:eq6.6.10}
 \end{equation}
 Therefore, if the spectral index of a stellar outflow can be measured, and if we make an assumption about the property of either the thermal or electron density profile of the wind, then Equation \ref{eq:eq6.6.10} provides us with information on how the other value varies.
@@ -231,7 +230,7 @@ The radio spectra for both stars are shown in Figure \ref{fig6.6.1}, together wi
 
 Equation \ref{eq:eq6.6.10} can be used in conjunction with our new spectral index for each star to calculate the density and temperature coefficients that may describe their outflows. The combinations of the electron temperature and density coefficients are shown for each star in Figure \ref{fig6.6.2} ($\alpha$ Boo is represented by the solid line and $\alpha$ Tau by the dash-dotted line) along with the coefficients obtained by assuming either an isothermal flow ($n=0$) or a constant velocity flow ($p=2$). One potential explanation for spectral indices of stellar outflows being larger than 0.6 is that the wind is still accelerating in the radio emitting region, if the thermal gradients are assumed to be small. For an isothermal flow, the density coefficients are $p  =2.7$ and 5.5 for $\alpha$ Boo and $\alpha$ Tau, respectively. From mass conservation and assuming a steady flow, the power law coefficients for the velocity profiles of each star can be found, ie., $v(r) \propto r^{p-2}$. For $\alpha$ Boo we find $v(r) \propto r^{0.7}$ while for $\alpha$ Tau we find $v(r) \propto r^{3.5}$. This suggests that our long VLA wavelengths may probe a steep acceleration region for $\alpha$ Tau's outflow but for $\alpha$ Boo, may probe a region where the wind is close to its terminal velocity. 
 
-The assumption of shallow thermal gradients in a stellar outflow is probably unreliable however. It is likely that some form of Alfv\`{e}n waves are required to lift the material out of the gravitational potential as suggested by \cite{hartmann_1980}. These waves need damping lengths which are much larger than the chromospheric density scale height $H$ (where $H \sim 0.01\ R_{\star}$ for our targets), in order to lift the material out of the gravitational potential but $\lesssim 1 \, R_{\star}$ in order to avoid wind terminal velocities greater than those observed \citep[e.g.][]{holzer_1983}. It has also been shown that these waves are expected to produce substantial heating near the base of the wind \citep[e.g.][]{hartmann_1982}. If the long wavelength radio emission from $\alpha$ Tau is indeed emanating from the wind acceleration region, then the dissipation of these Alfv\`{e}n waves may introduce thermal gradients in this region and its velocity profile will not be described by $v(r) \propto r^{3.5}$. Furthermore, diverging flow geometries have been invoked as a more realistic representation of stellar atmospheres \citep{hartmann_1982,jatenco_1989,vidotto_2006} and so one could write the area of a flux tube (normalized to its value at $r_{1}$) as $(r/r_{1})^2f(r)$ where $f(r)$ is a function describing the divergence from a purely radial flow [i.e., when $f(r)=1$].  If the non-radial expansion term can be described by a power law $f(r) \propto r^s$, where $s>1$ indicates super-radial expansion, then $v(r) \propto r^{3.5-s}$ would describe the velocity profile of $\alpha$ Tau (assuming an isothermal flow with a constant ionization fraction). Therefore, including diverging geometries reduces the magnitude of the acceleration. Farther out in the wind, where it has reached its terminal velocity, one would also expect a thermal gradient (but now of opposite sign) due to adiabatic expansion and line cooling. If the long wavelength radio emission emanates from this region of the wind, then Equation \ref{eq:eq6.6.10} provides us with a direct estimate of the temperature coefficient as we can assume the density coefficient is $p=2$. This may be the case for our long VLA wavelength measurements of $\alpha$ Boo in which case $T_{e}(r) \propto r^{-1.65}$.
+The assumption of shallow thermal gradients in a stellar outflow is probably unreliable however. It is likely that some form of Alfv\`{e}n waves are required to lift the material out of the gravitational potential as suggested by \cite{hartmann_1980}. These waves need damping lengths which are much larger than the chromospheric density scale height $H$ (where $H \sim 0.01\ R_{\star}$ for our targets), in order to lift the material out of the gravitational potential but $\lesssim 1 \, R_{\star}$ in order to avoid wind terminal velocities greater than those observed \citep[e.g.,][]{holzer_1983}. It has also been shown that these waves are expected to produce substantial heating near the base of the wind \citep[e.g.,][]{hartmann_1982}. If the long wavelength radio emission from $\alpha$ Tau is indeed emanating from the wind acceleration region, then the dissipation of these Alfv\`{e}n waves may introduce thermal gradients in this region and its velocity profile will not be described by $v(r) \propto r^{3.5}$. Furthermore, diverging flow geometries have been invoked as a more realistic representation of stellar atmospheres \citep{hartmann_1982,jatenco_1989,vidotto_2006} and so one could write the area of a flux tube (normalized to its value at $r_{1}$) as $(r/r_{1})^2f(r)$ where $f(r)$ is a function describing the divergence from a purely radial flow [i.e., when $f(r)=1$].  If the non-radial expansion term can be described by a power law $f(r) \propto r^s$, where $s>1$ indicates super-radial expansion, then $v(r) \propto r^{3.5-s}$ would describe the velocity profile of $\alpha$ Tau (assuming an isothermal flow with a constant ionization fraction). Therefore, including diverging geometries reduces the magnitude of the acceleration. Farther out in the wind, where it has reached its terminal velocity, one would also expect a thermal gradient (but now of opposite sign) due to adiabatic expansion and line cooling. If the long wavelength radio emission emanates from this region of the wind, then Equation \ref{eq:eq6.6.10} provides us with a direct estimate of the temperature coefficient as we can assume the density coefficient is $p=2$. This may be the case for our long VLA wavelength measurements of $\alpha$ Boo in which case $T_{e}(r) \propto r^{-1.65}$.
 
 \begin{figure}[hbt!]
 \centering 
@@ -262,7 +261,7 @@ and so for a steady flow the rate equations become
 \begin{equation}
 \frac{1}{r^2}\frac{d}{dr}(r^2 vn_{\rm{tot}}\frac{n_{i}}{n_{\rm{tot}}}) = \sum_{i\neq j}^{n} n_{j}P_{ji} - n_{i}\sum_{i\neq j}^n P_{ij},
 \end{equation}
-where $n_{\rm{tot}}$ is the total hydrogen number density (i.e. $n_{\rm{tot}} = n_{\rm{HI}}+n_{\rm{HII}}$).
+where $n_{\rm{tot}}$ is the total hydrogen number density (i.e., $n_{\rm{tot}} = n_{\rm{HI}}+n_{\rm{HII}}$).
 We note that $r^2 vn_{\rm{tot}}$ is some constant of the flow defined by the mass continuity equation, and if we define the relative populations as $x_{i}=n_{i}/n_{\rm{tot}}$ we get
 \begin{equation}
 v\frac{d}{dr}(x_{i}) = \sum_{i\neq j}^{n} x_{j}P_{ji} - x_{i}\sum_{i\neq j}^n P_{ij}.
@@ -271,7 +270,7 @@ v\frac{d}{dr}(x_{i}) = \sum_{i\neq j}^{n} x_{j}P_{ji} - x_{i}\sum_{i\neq j}^n P_
 
 To simplify Equation \ref{eq:eq6.9.1} further, we follow the approach of \cite{glassgold_1986} and assume:\\
 1. A constant velocity mass outflow, i.e., $n_{\rm{tot}}=C/r^2$ where $C$ is a constant proportional to the ratio of the mass-loss rate divided by the terminal velocity.\\
-2. All hydrogen ionization processes cease beyond some distance $r_{1}$ (i.e. $P_{ij}=0$). The ionization of hydrogen in the chromosphere and wind is a two stage process: the $n = 2$ level is excited by electron collisions and Lyman-alpha scattering, followed by photoionization by the optically thin Balmer continuum. When the temperature begins to decrease in the wind the collisional excitation rate and thus ionization rate decrease rapidly.\\
+2. All hydrogen ionization processes cease beyond some distance $r_{1}$ (i.e., $P_{ij}=0$). The ionization of hydrogen in the chromosphere and wind is a two stage process: the $n = 2$ level is excited by electron collisions and Lyman-alpha scattering, followed by photoionization by the optically thin Balmer continuum. When the temperature begins to decrease in the wind the collisional excitation rate and thus ionization rate decrease rapidly.\\
 3. Only radiative recombination of hydrogen is considered [i.e. $R_{ji}=\alpha _{\rm{rr}}(T_e)n_e$ where $\alpha _{\rm{rr}}$ is the total radiative recombination coefficient].\\
 4. A fixed ion contribution from metals with a low first ionization potential, $x_{\rm{ion}}=n_{\rm{ion}}/n_{\rm{tot}}$, as these are easily ionized in the outflow. The total electron density is then $n_e=n_{\rm{tot}}x_{\rm{HII}} + n_{\rm{tot}}x_{\rm{ion}}$ where  $x_{\rm{HII}}=n_{\rm{HII}}/(n_{\rm{HI}}+n_{\rm{HII}})$.\\
 \begin{figure}[hb!]
@@ -321,7 +320,7 @@ To investigate the possibility that $\alpha$ Boo's wind may be undergoing more r
 T_{e}(r)= T_{e}(r_{1})\left(\frac{r_{1}}{r}\right)^{n},
 \label{eq:eq2}
 \end{equation}
-at some distance $r_{1}$ from the star. We set the temperature coefficient to the value obtained from our new VLA data which was derived assuming a constant velocity flow, i.e. $n=1.65$ (see Figure \ref{fig6.6.2}). We introduce the distance $r_{1}$ as the outer limit to ionization processes; at $r > r_{1}$, the ionization fraction is only determined by recombination. To calculate the new electron densities in the wind regime where this temperature falloff occurs, we use Equations \ref{eq:eq6.9.1.5}, \ref{eq:eq6.9.1.6}, and \ref{eq:eq6.9.1.7} to calculate the hydrogen ionization fraction, $x_{\rm{H \, II}}=n_{\rm{H \, II}}/n_{\rm{H}}$. We assume a fixed ion contribution from metals with a low first ionization potential of $x_{\rm{ion}} = 1 \times 10^{-4}$. So, knowing that the total hydrogen density does not change, the electron density at any point in the wind post $r_1$ can be found by the following formula
+at some distance $r_{1}$ from the star. We set the temperature coefficient to the value obtained from our new VLA data which was derived assuming a constant velocity flow, i.e., $n=1.65$ (see Figure \ref{fig6.6.2}). We introduce the distance $r_{1}$ as the outer limit to ionization processes; at $r > r_{1}$, the ionization fraction is only determined by recombination. To calculate the new electron densities in the wind regime where this temperature falloff occurs, we use Equations \ref{eq:eq6.9.1.5}, \ref{eq:eq6.9.1.6}, and \ref{eq:eq6.9.1.7} to calculate the hydrogen ionization fraction, $x_{\rm{H \, II}}=n_{\rm{H \, II}}/n_{\rm{H}}$. We assume a fixed ion contribution from metals with a low first ionization potential of $x_{\rm{ion}} = 1 \times 10^{-4}$. So, knowing that the total hydrogen density does not change, the electron density at any point in the wind post $r_1$ can be found by the following formula
 \begin{equation}
 n_{\rm{e}}(r)=n_{\rm{tot}}(r)[x_{\rm{H \, II}}(r) + x_{\rm{ion}}].
 \end{equation}
@@ -333,7 +332,7 @@ n_{\rm{e}}(r)=n_{\rm{tot}}(r)[x_{\rm{H \, II}}(r) + x_{\rm{ion}}].
 \label{fig6.9.2}
 \end{figure}
 
-Using the same wind terminal velocity as that used in `Model A' (i.e. 35 km s$^{-1}$) and the mass-loss rate defined in Table \ref{tab:3.4}, we find the constant proportional to the ratio of the mass-loss rate divided by the terminal velocity to be $C = 1.7 \times 10^{32} $ cm$^{-1}$ for $\alpha$ Boo. To calculate the temperature dependent radiative recombination coefficient $\alpha _{\rm{rr}}$ and its power law coefficient $\beta$ used in Equation \ref{eq:eq6.9.1.7}, we consider only radiative recombination of hydrogen and exclude captures to the n=1 level. \cite{spitzer_1978} has tabulated values for the variation of this recombination coefficient with temperature and it is often referred to as $\alpha _{B}$ in the literature when captures to the n=1 level are excluded. To find the power law form of $\alpha _{B}$ we found the best fit to the tabulated data between the expected range of temperatures in the outflow of $\alpha$ Boo. This approach is shown in Figure \ref{fig6.9.2}, where $\beta$ was found to be 0.77 by fitting a power law to values of $\alpha _{B}$ between 1,000 and 16,000 K. For completeness, we also show in Figure \ref{fig6.9.2} the slight variation in $\beta$ if a wider range of temperatures is used and also if captures to the n=1 level are included.
+Using the same wind terminal velocity as that used in `Model A' (i.e., 35 km s$^{-1}$) and the mass-loss rate defined in Table \ref{tab:3.4}, we find the constant proportional to the ratio of the mass-loss rate divided by the terminal velocity to be $C = 1.7 \times 10^{32} $ cm$^{-1}$ for $\alpha$ Boo. To calculate the temperature dependent radiative recombination coefficient $\alpha _{\rm{rr}}$ and its power law coefficient $\beta$ used in Equation \ref{eq:eq6.9.1.7}, we consider only radiative recombination of hydrogen and exclude captures to the n=1 level. \cite{spitzer_1978} has tabulated values for the variation of this recombination coefficient with temperature and it is often referred to as $\alpha _{B}$ in the literature when captures to the n=1 level are excluded. To find the power law form of $\alpha _{B}$ we found the best fit to the tabulated data between the expected range of temperatures in the outflow of $\alpha$ Boo. This approach is shown in Figure \ref{fig6.9.2}, where $\beta$ was found to be 0.77 by fitting a power law to values of $\alpha _{B}$ between 1,000 and 16,000 K. For completeness, we also show in Figure \ref{fig6.9.2} the slight variation in $\beta$ if a wider range of temperatures is used and also if captures to the n=1 level are included.
 
 It can then be shown that the ionization fraction beyond $r_{1}$ is given by 
 \begin{equation}
@@ -358,7 +357,7 @@ Encouraging as it is that such a simple analytical model can reproduce values cl
 \end{figure}
 
 \section{Constraining $\alpha$ Tau's Molsphere}\label{sec:6.5a}
-Recently, \cite{ohnaka_2013} has detected a layer of CO in the outer atmosphere of $\alpha$ Tau (i.e. a so-called MOLsphere) which extends out to $\sim$2.5 $R_{\star}$, has a temperature of $1500 \ \pm 200$ K, and a CO column density of $\sim$1$\times 10^{20}$ cm$^{-2}$. They were unable to constrain the geometrical thickness $\Delta L$, of the MOLsphere from the data however, and arbitrarily set it to 0.1 $R_{\star}$. We now try and constrain the thickness of this MOLsphere from our VLA data.
+Recently, \cite{ohnaka_2013} has detected a layer of CO in the outer atmosphere of $\alpha$ Tau (i.e., a so-called MOLsphere) which extends out to $\sim$2.5 $R_{\star}$, has a temperature of $1500 \ \pm 200$ K, and a CO column density of $\sim$1$\times 10^{20}$ cm$^{-2}$. They were unable to constrain the geometrical thickness $\Delta L$, of the MOLsphere from the data however, and arbitrarily set it to 0.1 $R_{\star}$. We now try and constrain the thickness of this MOLsphere from our VLA data.
 
 As shown in Chapter \ref{chap:1}, the opacity corrected for stimulated emission at VLA wavelengths is
 \begin{equation}
@@ -370,18 +369,18 @@ and the optical depth of a shell of width $\Delta L$ is
 \tau _{\nu} =\kappa _{\nu}\Delta L.
 \label{eq:6.5.2}
 \end{equation}
-To calculate the electron density within the MOLsphere we have conservatively assumed that the electrons only come from singly ionized metals and have an abundance of $n_{\rm{ion}}=1\times 10^{-5} n_{\rm{tot}}$, where $n_{\rm{tot}}$ is the total hydrogen number density whose value is constant throughout the MOLsphere. We estimate the CO number density by dividing the CO column density by the geometrical thickness of the shell and assume the CO filling factor to be unity. If the MOLsphere extends from the stars surface out to the derived distance of $2.5 \ R_{\star}$, then $\Delta L = 1.5$ and $n_{\rm{co}} = 2.2 \times 10^{7} $ cm$^{-3}$. This equates to a total hydrogen number density of $n_{\rm{tot}}=1.2 \times 10^{11}$ cm$^{-3}$ \citep{ohnaka_2013} giving an abundance ratio of $n_{\rm{co}}/n_{\rm{tot}} = 3.3\times 10^{-4}$. We can then use Equations \ref{eq:6.5.1} and \ref{eq:6.5.2} to show that such a MOLsphere would be optically thin at all VLA wavelengths that we observed the star with. If on the other hand, the MOLsphere has only a geometric width of $\Delta L = 0.1 \ R_{\star}$ then assuming the same abundances we get $n_{\rm{H}}=1.76\times 10^{12}$ cm$^{-3}$, and the MOLsphere would be optically thick at 3.5, 6, and 9.5 cm (i.e. X, C, and S band). 
+To calculate the electron density within the MOLsphere we have conservatively assumed that the electrons only come from singly ionized metals and have an abundance of $n_{\rm{ion}}=1\times 10^{-5} n_{\rm{tot}}$, where $n_{\rm{tot}}$ is the total hydrogen number density whose value is constant throughout the MOLsphere. We estimate the CO number density by dividing the CO column density by the geometrical thickness of the shell and assume the CO filling factor to be unity. If the MOLsphere extends from the stars surface out to the derived distance of $2.5 \ R_{\star}$, then $\Delta L = 1.5$ and $n_{\rm{co}} = 2.2 \times 10^{7} $ cm$^{-3}$. This equates to a total hydrogen number density of $n_{\rm{tot}}=1.2 \times 10^{11}$ cm$^{-3}$ \citep{ohnaka_2013} giving an abundance ratio of $n_{\rm{co}}/n_{\rm{tot}} = 3.3\times 10^{-4}$. We can then use Equations \ref{eq:6.5.1} and \ref{eq:6.5.2} to show that such a MOLsphere would be optically thin at all VLA wavelengths that we observed the star with. If on the other hand, the MOLsphere has only a geometric width of $\Delta L = 0.1 \ R_{\star}$ then assuming the same abundances we get $n_{\rm{H}}=1.76\times 10^{12}$ cm$^{-3}$, and the MOLsphere would be optically thick at 3.5, 6, and 9.5 cm (i.e., X, C, and S band). 
 
-Focusing on our high S/N C band measurement, it can be shown that such a MOLsphere would have an optical depth of $\tau _{\rm{6\,cm}} = 4.6$ and would produce a corresponding flux density of  0.06 mJy (assuming an optically thick disk) which is considerably lower than our measurement of 0.15 mJy. The disagreement in values between our radio data and the predicted flux for an optically thick disk could mean that the MOLsphere is optically thin at long VLA wavelengths and that the radio emission emanates from the more ionized material closer to the star. It can also be shown that the MOLsphere becomes optically thin at C band (i.e. $\tau _{\rm{6\,cm}} < 1$) for $\Delta L > 0.45 \ R_{\star}$. In the next section we argue that the radio emission from $\alpha$ Tau even at long VLA wavelengths comes from a region closer in to the star where the wind is undergoing rapid acceleration, which suggests that the MOLsphere either has a geometrical width  $> 0.45 \ R _{\star}$ or has a filling factor less than unity.
+Focusing on our high S/N C band measurement, it can be shown that such a MOLsphere would have an optical depth of $\tau _{\rm{6\,cm}} = 4.6$ and would produce a corresponding flux density of  0.06 mJy (assuming an optically thick disk) which is considerably lower than our measurement of 0.15 mJy. The disagreement in values between our radio data and the predicted flux for an optically thick disk could mean that the MOLsphere is optically thin at long VLA wavelengths and that the radio emission emanates from the more ionized material closer to the star. It can also be shown that the MOLsphere becomes optically thin at C band (i.e., $\tau _{\rm{6\,cm}} < 1$) for $\Delta L > 0.45 \ R_{\star}$. In the next section we argue that the radio emission from $\alpha$ Tau even at long VLA wavelengths comes from a region closer in to the star where the wind is undergoing rapid acceleration, which suggests that the MOLsphere either has a geometrical width  $> 0.45 \ R _{\star}$ or has a filling factor less than unity.
 
 \section{Ionized Mass-Loss Rates}\label{sec:6.5b}
 
 The free-free radio emission from the atmospheres of red giants is only sensitive to the ionized component of the outflow. Non-coronal and hybrid atmosphere red giants have only partially ionized atmospheres and so we are only ever capable of finding a lower limit on the mass-loss rate from their thermal continuum radio emission. Nevertheless, it is a sufficiently worthwhile goal and can test the validity of existing values obtained from optically thick emission lines in the UV or optical regime. For a partially ionized outflow such as that expected from $\alpha$ Boo and $\alpha$ Tau, the ionized mass-loss rate can be estimated from the radio emission assuming a constant velocity, constant temperature, and constant ionization fraction and can be written as  
 \begin{equation}
-\dot{M}_{\rm{ion}} \simeq 5.58 \times 10^{-14} \left(\frac{v_{\infty}}{\rm{km \  s^{-1}}}\right) \left(\frac{d}{\rm{pc}}\right)\left( \frac{F_{\nu}}{\rm{mJy}} \right)^{0.75} \left( \frac{\lambda}{\rm{cm}} \right)^{0.45} \left( \frac{T_{\rm{e}}}{10^4 \rm{K}} \right)^{0.1} \ \dot{M}_{\odot} \ \rm{yr}^{-1} 
+\dot{M}_{\rm{ion}} \simeq 5.58 \times 10^{-14} \left(\frac{v_{\infty}}{\rm{km \  s^{-1}}}\right) \left(\frac{d}{\rm{pc}}\right)^{1.5}\left( \frac{F_{\nu}}{\rm{mJy}} \right)^{0.75} \left( \frac{\lambda}{\rm{cm}} \right)^{0.45} \left( \frac{T_{\rm{e}}}{10^4 \rm{K}} \right)^{0.1} \ \dot{M}_{\odot} \ \rm{yr}^{-1} 
 \label{eq:6.5b}
 \end{equation}
-\citep[e.g.,][]{drake_1986}, where $d$ is the distance and $v_{\infty}$ is the wind terminal velocity defined previously in Table \ref{tab:3.1}. Using this expression, the ionized mass-loss rates were derived for each of the long wavelength measurements for both stars and are listed in Table \ref{tab:6.5b}. These values are based on the assumption of a $T_{\rm{e}} = 10^4 \ \rm{K}$  wind for both stars. 
+\citep[e.g.,][]{drake_1986}, where $d$ is the distance and $v_{\infty}$ is the wind terminal velocity defined previously in Table \ref{tab:3.1}. Using this expression, the ionized mass-loss rates were derived for each of the long wavelength measurements for both stars and are listed in Table \ref{tab:6.5b}. These values are based on the assumption of a $T_{\rm{e}} = 10^4 \ \rm{K}$  wind for both stars and the errors originate from the uncertainties in the distance and the flux densities. 
 
 \begin{table}[!hb]
 \begin{center}
@@ -391,12 +390,12 @@ The free-free radio emission from the atmospheres of red giants is only sensitiv
 \hline
 \rule{0pt}{2.5ex}Star & Wavelength (cm) & $\dot{M} _{\rm{ion}}$ ($M _{\odot}$ yr$^{-1}$) \\
 \hline
-\rule{0pt}{2.5ex}$\alpha$ Boo				& 6.0  & $5.9 \times 10^{-11}$ \\
-							& 9.5  & $5.5 \times 10^{-11}$ \\
-							& 10.0  & $5.1 \times 10^{-11}$ \\
-							& 20.0  & $4.3 \times 10^{-11}$ \\
-$\alpha$ Tau				& 6.0  & $\leq 8.2 \times 10^{-11}$ \\
-							& 9.5 & $\leq 5.3 \times 10^{-11}$ \\
+\rule{0pt}{2.5ex}$\alpha$ Boo				& 6.0  & $5.9 \pm 0.8 \times 10^{-11} $ \\
+							& 9.5  & $5.5 \pm 0.9 \times 10^{-11} $ \\
+							& 10.0  & $5.1 \pm 0.4 \times 10^{-11}$ \\
+							& 20.0  & $4.3 \pm 0.7 \times 10^{-11}$ \\
+$\alpha$ Tau				& 6.0  & $\leq 8.2 \pm 0.6 \times 10^{-11}$ \\
+							& 9.5 & $\leq 5.3 \pm 1.2 \times 10^{-11} $ \\
 \hline
 \end{tabular}
 \label{tab:6.5b}
