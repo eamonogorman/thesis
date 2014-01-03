@@ -5,12 +5,33 @@ A level-1 auxiliary file: 0/abstract.aux
 A level-1 auxiliary file: 0/dedication.aux
 A level-1 auxiliary file: 0/acknowledgement.aux
 A level-1 auxiliary file: 0/publications.aux
+A level-1 auxiliary file: 1/introduction.aux
+A level-1 auxiliary file: 2/intro_to_radio.aux
+A level-1 auxiliary file: 3/instrum_tar_obs.aux
+A level-1 auxiliary file: 4/data_analysis.aux
+A level-1 auxiliary file: 5/aori.aux
 A level-1 auxiliary file: 6/aboo_atau.aux
+A level-1 auxiliary file: 7/thermal_bal.aux
+A level-1 auxiliary file: 8/con_fut.aux
+A level-1 auxiliary file: appendix/app1.aux
 The style file: Latex/Classes/jmb.bst
+Reallocated field_info (elt_size=4) to 11601 items from 5000.
 Database file #1: mybib.bib
+Repeated entry---line 686 of file mybib.bib
+ : @article{sennhauser_2011
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 701 of file mybib.bib
+ : @article{brown_2008
+ :                    ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 715 of file mybib.bib
  : @article{gray_2006
  :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 729 of file mybib.bib
+ : @article{hatzes_1993
+ :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1138 of file mybib.bib
  : @article{wood_2007
@@ -40,6 +61,12 @@ Repeated entry---line 1620 of file mybib.bib
  : @article{glassgold_1986
  :                        ,
 I'm skipping whatever remains of this entry
+Warning--string name "july" is undefined
+--line 2147 of file mybib.bib
+Warning--string name "july" is undefined
+--line 2161 of file mybib.bib
+Warning--string name "march" is undefined
+--line 2175 of file mybib.bib
 Repeated entry---line 2442 of file mybib.bib
  : @article{altenhoff_1994
  :                        ,
@@ -48,61 +75,108 @@ Repeated entry---line 2649 of file mybib.bib
  : @article{altenhoff_1994
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2676 of file mybib.bib
+ : @article{smith_2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2868 of file mybib.bib
+ : @article{plez_2002
+ :                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 3179 of file mybib.bib
  : @article{hummer_1988
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3322 of file mybib.bib
+ : @article{linsky_1979
  :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 3405 of file mybib.bib
  : @article{hartmann_1980
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3443 of file mybib.bib
+ : @article{carpenter_1999
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3553 of file mybib.bib
+ : @article{harper_2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3902 of file mybib.bib
+ : @article{lambert_1978
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3971 of file mybib.bib
+ : @article{gehrz_1971
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4003 of file mybib.bib
+ : @article{abia_2012
+ :                   ,
+I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 4651 of file mybib.bib
  :     title 
  :           = "{}",
 I'm skipping whatever remains of this entry
+Repeated entry---line 4746 of file mybib.bib
+ : @article{judge_1998
+ :                    ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in Altenhoff_1960
+Warning--missing publisher in dalgarno_1987
+Warning--missing publisher in draine_2011
 Warning--missing publisher in gradshteyn_1994
+Warning--missing publisher in kraus_1986
 Warning--missing publisher in lamers_1999
 Warning--missing publisher in mihalas_1978
-You've used 49 entries,
+Warning--empty title in morris_2001
+Warning--missing publisher in rohlfs_1996
+Warning--missing publisher in ryan_2010
+Warning--missing publisher in rybicki_1979
+Warning--missing publisher in saha_2011
+Warning--missing publisher in shu_1991
+Warning--empty journal in stancliffe_2009
+You've used 287 entries,
             3018 wiz_defined-function locations,
-            917 strings with 12611 characters,
-and the built_in function-call counts, 29027 in all, are:
-= -- 2453
-> -- 1253
-< -- 33
-+ -- 450
-- -- 400
-* -- 2424
-:= -- 4451
-add.period$ -- 143
-call.type$ -- 49
-change.case$ -- 377
-chr.to.int$ -- 48
-cite$ -- 52
-duplicate$ -- 2110
-empty$ -- 2124
-format.name$ -- 558
-if$ -- 5805
-int.to.chr$ -- 2
+            2122 strings with 56008 characters,
+and the built_in function-call counts, 195937 in all, are:
+= -- 15724
+> -- 10818
+< -- 199
++ -- 3791
+- -- 3500
+* -- 16725
+:= -- 29816
+add.period$ -- 848
+call.type$ -- 287
+change.case$ -- 2635
+chr.to.int$ -- 291
+cite$ -- 301
+duplicate$ -- 13504
+empty$ -- 13185
+format.name$ -- 4355
+if$ -- 39004
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 430
-newline$ -- 151
-num.names$ -- 203
-pop$ -- 817
+missing$ -- 2980
+newline$ -- 865
+num.names$ -- 1205
+pop$ -- 6040
 preamble$ -- 1
-purify$ -- 327
+purify$ -- 2288
 quote$ -- 0
-skip$ -- 759
+skip$ -- 4971
 stack$ -- 0
-substring$ -- 1281
-swap$ -- 1160
-text.length$ -- 3
+substring$ -- 7836
+swap$ -- 7853
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 429
-warning$ -- 3
-while$ -- 194
+type$ -- 2541
+warning$ -- 14
+while$ -- 1165
 width$ -- 0
-write$ -- 536
-(There were 13 error messages)
+write$ -- 3158
+(There were 25 error messages)

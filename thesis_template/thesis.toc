@@ -1,18 +1,117 @@
 \select@language {english}
 \contentsline {chapter}{List of Publications}{vii}{chapter*.1}
-\contentsline {chapter}{List of Figures}{x}{section*.4}
-\contentsline {chapter}{List of Tables}{xi}{section*.6}
-\contentsline {chapter}{\numberline {1}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Why Study Red Giants with the VLA?}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Radio Maps}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}$\alpha $ Boo Maps}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}$\alpha $ Tau Maps}{6}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Results Versus Previous Observations}{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}Results Versus Existing Models}{11}{section.1.4}
-\contentsline {section}{\numberline {1.5}Spectral Indices}{15}{section.1.5}
-\contentsline {section}{\numberline {1.6}Analytical Advection Model for $\alpha $ Boo's Wind}{22}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}\ion {H}{ii} recombination in a stellar outflow}{22}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Application to $\alpha $ Boo's Wind}{25}{subsection.1.6.2}
-\contentsline {section}{\numberline {1.7}Constraining $\alpha $ Tau's Molsphere}{28}{section.1.7}
-\contentsline {section}{\numberline {1.8}Ionized Mass-Loss Rates}{30}{section.1.8}
-\contentsline {chapter}{References}{32}{section*.21}
+\contentsline {chapter}{List of Figures}{xiv}{section*.4}
+\contentsline {chapter}{List of Tables}{xvii}{section*.6}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation for Researching Cool Evolved Stellar Winds}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}On the Nature of Cool Evolved Stellar Atmospheres}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Basic Concepts of Stellar Winds}{8}{section.1.3}
+\contentsline {section}{\numberline {1.4}Stellar Wind Driving Mechanisms Across the H-R Diagram}{11}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Radiatively Driven Winds}{11}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Solar Type Winds}{12}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Cool Evolved Stellar Winds}{13}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Red Giant and Red Supergiant Evolution}{15}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Change in Atmospheric Dynamics}{15}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Evolutionary Tracks}{16}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Radio Emission from Stellar Atmospheres}{20}{section.1.6}
+\contentsline {section}{\numberline {1.7}Radio Emission Mechanisms}{22}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Thermal Free-free (Bremsstrahlung) Emission}{23}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Molecular Line Emission}{24}{subsection.1.7.2}
+\contentsline {section}{\numberline {1.8}Radio Observations of Stellar Atmospheres}{27}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Brightness Temperature}{28}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Brightness Temperature and Flux Density}{30}{subsection.1.8.2}
+\contentsline {subsection}{\numberline {1.8.3}Thermal Free-free Radio Opacity}{31}{subsection.1.8.3}
+\contentsline {subsection}{\numberline {1.8.4}Radio Excess from Stellar Winds}{33}{subsection.1.8.4}
+\contentsline {subsection}{\numberline {1.8.5}Molecular Emission Lines from Stellar Winds}{37}{subsection.1.8.5}
+\contentsline {section}{\numberline {1.9}Thesis Outline}{39}{section.1.9}
+\contentsline {chapter}{\numberline {2}Introduction to Radio Interferometry}{41}{chapter.2}
+\contentsline {section}{\numberline {2.1}Radio Antenna Fundamentals}{42}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Properties of a Radio Antenna}{42}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Antenna Structural Design}{45}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Antenna Performance Parameters}{47}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Radio Antenna Receiving System}{49}{section.2.2}
+\contentsline {section}{\numberline {2.3}Fundamentals of Radio Interferometry}{51}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Young's Slits}{51}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The Two-element Interferometer}{54}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Complex Visibility}{57}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Coordinate Systems for Imaging}{59}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Synthesis Imaging}{61}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Visibility Sampling}{61}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Imaging (Making a Dirty Map)}{61}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Deconvolution (Making a CLEAN map)}{64}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}Targets, Instrumentation, and Observations}{67}{chapter.3}
+\contentsline {section}{\numberline {3.1}Betelgeuse}{68}{section.3.1}
+\contentsline {section}{\numberline {3.2}CARMA}{72}{section.3.2}
+\contentsline {section}{\numberline {3.3}CARMA Observations of Betelgeuse}{76}{section.3.3}
+\contentsline {section}{\numberline {3.4}Arcturus and Aldebaran}{77}{section.3.4}
+\contentsline {section}{\numberline {3.5}The Karl G. Jansky Very Large Array}{85}{section.3.5}
+\contentsline {section}{\numberline {3.6}VLA Observations of Arcturus and Aldebaran}{89}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}OSRO and DDT Observations}{89}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Design of Observations}{91}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}VLA-Pie Town Observations of Betelgeuse}{94}{section.3.7}
+\contentsline {chapter}{\numberline {4}Radio Interferometric Data Analysis}{98}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Examination and Flagging}{99}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calibration}{102}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Prior Calibration}{105}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Bandpass Calibration}{107}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Gain Calibration}{108}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Flux Scale Calibration and Application of Solutions}{109}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Imaging}{110}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Imaging the VLA Data}{111}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Imaging the CARMA Data}{113}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Multi-wavelength Radio Emission Study of Betelgeuse's Extended Atmosphere}{116}{chapter.5}
+\contentsline {section}{\numberline {5.1}CO molecules in the CSE of Betelgeuse}{117}{section.5.1}
+\contentsline {section}{\numberline {5.2}Adopted Radial Velocity}{119}{section.5.2}
+\contentsline {section}{\numberline {5.3}CARMA CO($J=2-1$) Spectra}{121}{section.5.3}
+\contentsline {section}{\numberline {5.4}Individual Configuration Image Cubes}{126}{section.5.4}
+\contentsline {section}{\numberline {5.5}Multi-configuration Image Cube Inspection}{128}{section.5.5}
+\contentsline {section}{\numberline {5.6}Spatial Extent of S2}{130}{section.5.6}
+\contentsline {section}{\numberline {5.7}Intensity distribution of CO}{132}{section.5.7}
+\contentsline {section}{\numberline {5.8}Spatial Extent of S1}{135}{section.5.8}
+\contentsline {section}{\numberline {5.9}Continuum Flux Densities}{136}{section.5.9}
+\contentsline {section}{\numberline {5.10}Higher CO rotational lines}{138}{section.5.10}
+\contentsline {section}{\numberline {5.11}CARMA CO observations in Context}{142}{section.5.11}
+\contentsline {section}{\numberline {5.12}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{144}{section.5.12}
+\contentsline {section}{\numberline {5.13}VLA-Pie Town Maps Versus e-MERLIN}{149}{section.5.13}
+\contentsline {section}{\numberline {5.14}Long Term Radio Variability and Thermal Structure}{151}{section.5.14}
+\contentsline {section}{\numberline {5.15}0.7\tmspace +\thinmuskip {.1667em}cm VLA-Pie Town Maps}{155}{section.5.15}
+\contentsline {section}{\numberline {5.16}VLA, VLA-Pie Town, e-MERLIN: Putting it all together}{157}{section.5.16}
+\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{159}{chapter.6}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{160}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{161}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{161}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{164}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results Versus Previous Observations}{165}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results Versus Existing Models}{169}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{173}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{180}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{180}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{183}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{186}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass-Loss Rates}{188}{section.6.8}
+\contentsline {chapter}{\numberline {7}Thermal Energy Balance of Arcturus' Outflow}{190}{chapter.7}
+\contentsline {section}{\numberline {7.1}Motivation for a Thermal Energy Balance}{191}{section.7.1}
+\contentsline {section}{\numberline {7.2}Thermal Model for a Spherically Symmetric Outflow}{192}{section.7.2}
+\contentsline {section}{\numberline {7.3}Cooling Processes}{194}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Adiabatic Expansion Cooling}{194}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Radiative Recombination Cooling}{194}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Lyman-alpha Cooling}{196}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Other Line Coolants}{196}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Heating Mechanisms}{199}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Photoionization Heating}{199}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Ambipolar Diffusion Heating}{201}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Turbulent Heating}{202}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}Thermal Energy Balance}{205}{section.7.5}
+\contentsline {section}{\numberline {7.6}Discussion}{207}{section.7.6}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{209}{chapter.8}
+\contentsline {section}{\numberline {8.1}Principle Results}{210}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Betelgeuse's Extended Atmosphere}{210}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Dust-free Red Giants}{212}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Future Work}{214}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Probing the S1 flow of Betelgeuse with ALMA}{215}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Multi-epoch centimeter observations of Betelgeuse}{217}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Semi-empirical models for Arcturus and Aldebaran}{219}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Karl G. Jansky VLA Survey of Coronal Evolved Stars}{222}{subsection.8.2.4}
+\contentsline {section}{\numberline {8.3}Concluding Remarks}{225}{section.8.3}
+\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{226}{appendix.A}
+\contentsline {chapter}{References}{228}{section*.103}

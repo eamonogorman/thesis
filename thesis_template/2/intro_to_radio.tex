@@ -65,7 +65,7 @@ are the antenna coordinates and $l$ and $m$ are their Fourier counterparts. The 
 \end{equation}
 where $D$ is the diameter of the antenna. The constant of proportionality varies slightly with the illumination taper and can be shown to be equal to $\sim 0.89$ for a uniformly illuminated 1-D aperture, and $\sim 1.2$ for most single dish radio antennas. When the sky is scanned with a single dish antenna, then this HPBW is the resolution of the resulting map. 
 \subsection{Antenna Structural Design}\label{subsec:2.1.2}
-The design of the primary antenna element of an interferometric array will depend on the wavelength range to be observed. In general, dipoles are used for wavelengths longer than $\sim$1\,m, while reflector antennas are typically used at shorter wavelengths. The reason why the more simple and less expensive dipoles are not used at all wavelengths is given by Equation \ref{eq:kraus}. For an isotropic antenna, this equation tells us that the effective area is just
+The design of the primary antenna element of an interferometric array will depend on the wavelength range to be observed. In general, dipoles are used for wavelengths longer than $\sim 1$\,m, while reflector antennas are typically used at shorter wavelengths. The reason why the more simple and less expensive dipoles are not used at all wavelengths is given by Equation \ref{eq:kraus}. For an isotropic antenna, this equation tells us that the effective area is just
 \begin{equation}
 A_{0} = \frac{\lambda ^2}{4\pi}.
 \end{equation}
@@ -95,7 +95,7 @@ The surface efficiency, $\eta _{\rm{sf}}$, accounts for the aperture efficiency 
 \\
 \\
 \textit{Pointing Accuracy.}
-The main lobe of an antenna's power pattern will usually not point exactly in the desired direction, due to gravity deformations, wind pressure deformations, and mechanical inaccuracy. The angular offset, $\Delta \theta$, between the actual and desired pointing direction is called the pointing error. Usually, the desirable pointing error of  an antenna at the highest operational frequency is $\Delta \theta < \theta _{\rm{HPBW}}/20$ \citep{taylor_1999}. With this specification reached, an antenna pointing at a compact source will suffer negligible intensity variations as $\mathcal{A}(\theta _{\rm{HPBW}}/20) > 0.99$. However, this pointing error of only $\theta _{\rm{HPBW}}/20$ will still have a substantial effect on the accuracy of the outer image. For example, a source located at the half power point will suffer a substantial fractional intensity variation of $2\mathcal{A}(\theta _{\rm{HPBW}}/2+\theta _{\rm{HPBW}}/20) \simeq 0.86$. The blind pointing of a VLA antenna is only about 10$^{\prime\prime}$ and can be much worst in daytime, occasionally exceeding 1$^{\prime}$. This means that at Q-band (45 GHz; 0.7 cm), which is the highest observing frequency on the VLA, the pointing error is only at best $\theta _{\rm{HPBW}}/6$, and at worst $>\theta _{\rm{HPBW}}$, meaning that the target may lie outside of the primary beam. To overcome this problem of large antenna pointing errors at high frequencies with the VLA, a technique known as referenced pointing is implemented. This technique will be discussed further in Chapter 3. 
+The main lobe of an antenna's power pattern will usually not point exactly in the desired direction, due to gravity deformations, wind pressure deformations, and mechanical inaccuracy. The angular offset, $\Delta \theta$, between the actual and desired pointing direction is called the pointing error. Usually, the desirable pointing error of  an antenna at the highest operational frequency is $\Delta \theta < \theta _{\rm{HPBW}}/20$ \citep{taylor_1999}. With this specification reached, an antenna pointing at a compact source will suffer negligible intensity variations as $\mathcal{A}(\theta _{\rm{HPBW}}/20) > 0.99$. However, this pointing error of only $\theta _{\rm{HPBW}}/20$ will still have a substantial effect on the accuracy of the outer image. For example, a source located at the half power point will suffer a substantial fractional intensity variation of $2\mathcal{A}(\theta _{\rm{HPBW}}/2+\theta _{\rm{HPBW}}/20) \simeq 0.86$. The blind pointing of a VLA antenna is only about 10$^{\prime\prime}$ and can be much worst in daytime, occasionally exceeding 1$^{\prime}$. This means that at Q band (45 GHz; 0.7 cm), which is the highest observing frequency on the VLA, the pointing error is only at best $\theta _{\rm{HPBW}}/6$, and at worst $>\theta _{\rm{HPBW}}$, meaning that the target may lie outside of the primary beam. To overcome this problem of large antenna pointing errors at high frequencies with the VLA, a technique known as referenced pointing is implemented. This technique will be discussed further in Chapter 3. 
 
 \section{Radio Antenna Receiving System}\label{sec:2.2}
 
@@ -118,7 +118,7 @@ In practice, radiometers are never as simple as those described above and nearly
 
 The amplified RF signal is then sent through a mixer, which multiplies the RF signal by a sine wave of frequency $\nu _{\rm{LO}}$, which is generated by a local oscillator (LO), as shown in Figure \ref{fig2.3}. The effect of this is that RF signal is changed to a lower frequency which can be more easily handled by the IF amplifier and  improves frequency selectivity. Mathematically, the mixer does the following
 \begin{equation}
-2\rm{sin}(2\pi \nu _{\rm{LO}}\mathit{t})\times \rm{sin}(2\pi \nu _{\rm{RF}}\mathit{t}) = \rm{cos}[2\pi (\nu _{\rm{LO}}-\nu _{\rm{RF}})\mathit{t}]-\rm{cos}[2\pi (\nu _{\rm{LO}}+\nu _{\rm{RF}})\mathit{t}],
+2\rm{sin}(2\pi \nu _{\rm{LO}}\mathit{t})\times \rm{sin}(2\pi \nu _{\rm{RF}}\mathit{t}) = \rm{cos}[2\pi (\nu _{\rm{LO}}-\nu _{\rm{RF}})\mathit{t}]-\rm{cos}[2\pi (\nu _{\rm{LO}}+\nu _{\rm{RF}})\mathit{t}]
 \end{equation}
 and produces two additional outputs, one at the input signal frequency minus the local oscillator frequency, and one at the sum of these frequencies. The lower of the two outputs called the intermediate frequency (IF) is taken by passing the mixer output through a filter in the IF amplifier. In interferometry, where the signals from two antennas are correlated, it is crucial that the receivers from both antennas are operating at the same frequency, to control the phase difference between them. This is achieved by using a phase lock system, whose block diagram is laid out in Figure \ref{fig2.3}. In this system another mixer compares the LO to a reference frequency, which is the same for all antennas. Any existing phase error results in an error signal that is sent back to the oscillator, so that its frequency can be adjusted to maintain exact frequency tuning. After this, the IF can finally be sent to the radiometer and recorded.
 
@@ -164,7 +164,7 @@ Interferometers with $N$ antennas can be treated as $N(N-1)/2$ independent inter
 \end{equation}
 where $c$ is the speed of light. If we assume that the interferometer only responds to a very narrow band centered on frequency $\nu=\omega /2\pi$, then the output voltages of antennas 1 and 2 at time $t$ can be written as 
 \begin{equation}
-V_1(t)=V\rm{cos}[\omega(\mathit{t}-\tau _g)] \ \ \ \rm{and} \ \ \ \mathit{V_{\rm{2}}(t)=V\rm{cos}(\omega \mathit{t})},
+V_1(t)=V\rm{cos}[\omega(\mathit{t}-\tau _g)] \ \ \ \rm{and} \ \ \ \mathit{V_{\rm{2}}(t)=V\rm{cos}(\omega \mathit{t})}
 \end{equation}
 where $\omega$ is the angular frequency and $V$ is the voltage amplitude. The signals are then passed through a correlator which first multiplies these voltages to give
 \begin{equation}
@@ -226,7 +226,7 @@ e^{i\phi} = \rm{cos}(\phi) + \mathit{i}\rm{sin}(\phi)
 \end{equation}
 and so the combination of ``cosine'' and ``sine'' correlators is called a ``complex'' correlator. The term \textit{visibility} was first introduced by \cite{michelson_1890} to describe the relative amplitudes of the optical fringes that he observed. The visibility is a complex quantity in radio astronomy and has dimensions of spectral power flux density (W m$^{-2}$ Hz$^{-1}$). The complex visibility is the response of a two-element interferometer with a complex correlator to an extended source with brightness distribution $I(\textbf{s})$  and is defined as
 \begin{equation}
-V\equiv R_{\rm{c}}-iR_{\rm{s}} = Ae^{-i\phi},
+V\equiv R_{\rm{c}}-iR_{\rm{s}} = Ae^{-i\phi}
 \end{equation}
 where 
 \begin{align}
@@ -235,7 +235,7 @@ where
 \end{align}
 This gives the useful relationship between the source brightness, and the response of an interferometer
 \begin{equation}
-V _{\nu}(\textbf{b}) = \int _{\Omega}\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s})\mathit{e}^{-2\pi \mathit{i} \nu \textbf{b}.\textbf{s}/c}d\Omega ,
+V _{\nu}(\textbf{b}) = \int _{\Omega}\mathcal{A}(\textbf{s})I_{\nu}(\textbf{s})\mathit{e}^{-2\pi \mathit{i} \nu \textbf{b}.\textbf{s}/c}d\Omega 
 \label{eq:visib}
 \end{equation}
 which under some circumstances, is a 2-D Fourier transform, and allows $I_{\nu}(\textbf{s})$ to be recovered from $V _{\nu}(\textbf{b})$.
@@ -243,7 +243,7 @@ which under some circumstances, is a 2-D Fourier transform, and allows $I_{\nu}(
 The projected baseline has coordinates ($u,v,w$) in three dimensions shown in Figure \ref{fig2.8}, where $w$ points in the directions of interest, i.e., towards a direction \textbf{$s_{0}$} that becomes the center of the synthesized image. $u$, $v$ and $w$ are measured in wavelengths (i.e., the components of $\textbf{b}/\lambda$) and have directions towards the East, the North and the phase tracking center, respectively. An arbitrary unit vector \textbf{s} has components ($l,m,n$) called direction cosines, where $n=\rm{cos}\theta=(1-\mathit{l}^2-\mathit{m}^2)^{1/2}$. Using these coordinates, the parameters in Equation \ref{eq:visib} become
 \begin{equation}
 \begin{split}
-\frac{\nu \textbf{b}.\textbf{s}}{c}&=ul+vm+wn, \\
+\frac{\nu \textbf{b}.\textbf{s}}{c}&=ul+vm+wn \\
 d\Omega &= \frac{dl\,dm}{n}=\frac{dl\,dm}{\sqrt{1-l^2-m^2}}.
 \end{split}
 \end{equation}
@@ -289,7 +289,7 @@ An example of how a radio interferometer samples the $u-v$ plane is shown in Fig
 For every sky brightness distribution $I(l,m)$ there exists a continuous complex visibility function, $V(u,v)$, which is its Fourier Transform. An array of antennas will only ever measure a certain set of values of this visibility function where the measured set is called the sampling function $S(u,v)$. This function is zero where no data have been taken. The actual data provided by the array is known as the sampled visibility function, $S(u,v)V(u,v)$. If we take the inverse Fourier transform of this function we get what is known as the \textit{dirty image}:
 
 \begin{equation}\label{eq:dirtyim}
-I_{\nu}^{D}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}S(u,v)V_{\nu}(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv.
+I_{\nu}^{D}(l,m)=\int ^{\infty}_{-\infty}\int ^{\infty}_{-\infty}S(u,v)V_{\nu}(u,v)\mathit{e}^{2\pi \mathit{i}(ul+vm)}du\,dv
 \end{equation}
 where we have used $I_{\nu}(l,m)$ to denote the modified sky brightness $\mathcal{A}(l,m)I_{\nu}(l,m)$, as the correction for primary beam can be made at the final stage of data processing. Using the convolution theorem, the relationship between the dirty image and the desired intensity distribution $I_{\nu}(l,m)$ is
 \begin{equation}\label{eq:dirty_image}
@@ -322,13 +322,13 @@ where $D_{k}$ is the weight to be applied to cell $k$, and ${N_{s}(k)}$ is the n
 The ``direct Fourier transform'' method can then be used to solve for the dirty image in Equation \ref{eq:dirtyim}. However, if this method is evaluated at every point on a $N\times N$ grid, then the number of multiplications required goes as $N^{4}$. The fast Fourier transform (FFT) algorithm can also be used to solve Equation \ref{eq:dirtyim} but requires interpolating the data onto a regular grid (i.e., a process known as \textit{gridding}). This method is widely used for large data volumes as it requires only a few times $N^{2}\rm{log}_{2}\mathcal{N}$ operations - not $\mathcal{O}(N^4)$, and the total time taken for gridding and FFT is usually a lot less than it would take using the direct Fourier transform method.
 
 \subsection{Deconvolution (Making a CLEAN map)}\label{subsec:4.3}
-In reality, Equation \ref{eq:dirty_image} contains an additional noise, $n$, term so that
+In reality, Equation \ref{eq:dirty_image} contains an additional noise term, $n$, so that
 \begin{equation}\label{eq:dirty_noise}
 I^{D}=I*B + n.
 \end{equation}
 The goal of image reconstruction is to recover $I$ from this equation. Mathematically, one could solve Equation \ref{eq:dirty_noise} by first taking the Fourier transform of both sides, then use the convolution theorem to allow division by the Fourier transform of $B$, and finally recover $I$ by taking the inverse Fourier transform of both sides to get
 \begin{equation}\label{eq:solution}
-I=\mathrm{IFT}\left(\frac{\mathrm{FT}(I^D)-\mathrm{FT}(n)}{\mathrm{FT}(B)}\right),
+I=\mathrm{IFT}\left(\frac{\mathrm{FT}(I^D)-\mathrm{FT}(n)}{\mathrm{FT}(B)}\right)
 \end{equation}
 where FT and IFT represent the Fourier transform and the inverse Fourier transform, respectively. However, there are two main problems associated with solving Equation \ref{eq:dirty_noise} by this method. First, the presence of the noise term means that the division by $\mathrm{FT}(B)$ amplifies the noise and introduces high frequency artifacts into $I$ \citep{taylor_1999}. Also, Equation \ref{eq:solution} is not unique, because the unmeasured points in the $u-v$ plane could have \textit{any} value without violating the data constraints. The ``principle solution'' is the one in which all missing $u-v$ measurements are set to zero and gives the dirty image discussed in the previous section. The dirty image is usually not a satisfactory representation of the sky as one would expect a more continuous distribution of visibilities than that provided by the array. The goal of the deconvolution process is to find a method that determines more reasonable values for the unmeasured $u-v$ data. A priori information is the key to choosing \textit{reasonable} values. For example, we know that the Stokes parameter $I$ must be positive and that radio sources generally do not have sidelobe patterns.
  
