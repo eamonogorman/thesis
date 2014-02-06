@@ -15,7 +15,7 @@ A level-1 auxiliary file: 7/thermal_bal.aux
 A level-1 auxiliary file: 8/con_fut.aux
 A level-1 auxiliary file: appendix/app1.aux
 The style file: Latex/Classes/jmb.bst
-Reallocated field_info (elt_size=4) to 11601 items from 5000.
+Reallocated field_info (elt_size=4) to 11578 items from 5000.
 Database file #1: mybib.bib
 Repeated entry---line 686 of file mybib.bib
  : @article{sennhauser_2011
@@ -138,45 +138,45 @@ Warning--missing publisher in rybicki_1979
 Warning--missing publisher in saha_2011
 Warning--missing publisher in shu_1991
 Warning--empty journal in stancliffe_2009
-You've used 287 entries,
+You've used 286 entries,
             3018 wiz_defined-function locations,
-            2122 strings with 56008 characters,
-and the built_in function-call counts, 195937 in all, are:
-= -- 15724
-> -- 10818
-< -- 199
-+ -- 3791
-- -- 3500
-* -- 16725
-:= -- 29816
-add.period$ -- 848
-call.type$ -- 287
-change.case$ -- 2635
-chr.to.int$ -- 291
-cite$ -- 301
-duplicate$ -- 13504
-empty$ -- 13185
-format.name$ -- 4355
-if$ -- 39004
+            2118 strings with 55930 characters,
+and the built_in function-call counts, 195436 in all, are:
+= -- 15678
+> -- 10808
+< -- 198
++ -- 3787
+- -- 3497
+* -- 16689
+:= -- 29737
+add.period$ -- 845
+call.type$ -- 286
+change.case$ -- 2629
+chr.to.int$ -- 290
+cite$ -- 300
+duplicate$ -- 13467
+empty$ -- 13141
+format.name$ -- 4351
+if$ -- 38901
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 2980
-newline$ -- 865
-num.names$ -- 1205
-pop$ -- 6040
+missing$ -- 2973
+newline$ -- 862
+num.names$ -- 1201
+pop$ -- 6030
 preamble$ -- 1
-purify$ -- 2288
+purify$ -- 2283
 quote$ -- 0
-skip$ -- 4971
+skip$ -- 4958
 stack$ -- 0
-substring$ -- 7836
-swap$ -- 7853
+substring$ -- 7798
+swap$ -- 7835
 text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2541
+type$ -- 2532
 warning$ -- 14
-while$ -- 1165
+while$ -- 1161
 width$ -- 0
-write$ -- 3158
+write$ -- 3147
 (There were 25 error messages)

@@ -1,8 +1,8 @@
 PRO disk_temp
 ;
-; ODEV_L, 'disk_temps'
-; !P.FONT=0
-; SPECTABLE
+ODEV_L, 'disk_temps'
+!P.FONT=0
+SPECTABLE
 GET_CCONST, cc, hh, me, mp, Roo, bk, Gnewt, msol, rsol, pc, au, ee, yr
 ;
 ; First plot Lim's
@@ -24,7 +24,7 @@ plot, rad, te, PSYM=3, chars=1.8, thick=4, $
   xtitle='Radius (R!d*!n)', xthick=4, $
   ytitle='T!de!n (K)', ythick=4, $
   ystyle=1, color=0, /nodata, xr=[0,10],yr=[0,4500]
-oplot, rad, te, PSYM=sym(1),symsize=2,color=4
+oplot, rad, te, PSYM=sym(1),symsize=2,color=4,thick=4
 oploterror,rad, te, rad_err,te_err, psym=3, /NOHAT,errcolor=4,errthick=3
 vline, 1, lines=1,thick=4
 xyouts, 0.9, 400, 'Photospheric radius',  ORIENTATION=90,chars=1.5
@@ -94,7 +94,7 @@ top_err=(2.0*flx_err*(wl^2))
 te_err=te*sqrt((top_err/(2.0*flx*(wl^2)))^2 + (bottom_err/(diam*diam))^2)
 ;##################
 ;
-oplot, radius, te, PSYM=sym(6),symsize=2,color=3
+oplot, radius, te, PSYM=sym(6),symsize=2,color=3,thick=4
 oploterror,radius, te, radius_err, te_err, psym=3, /NOHAT,errcolor=3,errthick=3
 
 data_03=te
@@ -179,13 +179,13 @@ oplot, 10^radius_log, 10^line1,thick=4,lines=2
 
 
 
-;DEVICE, /CLOSE
-plot, freq_log, flx_log, psym=1
-y3=LINFIT(freq_log, flx_log, /DOUBLE, MEASURE_ERRORS=flx_err_log,chisq = chisq, prob=prob, sigma=sigma)
-line2=y3[1]*freq_log + y3[0]
-
-;plot, 10^radius_log, 10^data_log,psym=1
-oplot, freq_log, line2,thick=4,lines=2
+DEVICE, /CLOSE
+; plot, freq_log, flx_log, psym=1
+; y3=LINFIT(freq_log, flx_log, /DOUBLE, MEASURE_ERRORS=flx_err_log,chisq = chisq, prob=prob, sigma=sigma)
+; line2=y3[1]*freq_log + y3[0]
+; 
+; ;plot, 10^radius_log, 10^data_log,psym=1
+; oplot, freq_log, line2,thick=4,lines=2
 
 stop
 END

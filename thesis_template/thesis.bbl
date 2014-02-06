@@ -1,4 +1,4 @@
-\begin{thebibliography}{287}
+\begin{thebibliography}{286}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abia} {\em et~al.\/}(2012){Abia}, {Palmerini}, {Busso} \&
@@ -613,10 +613,6 @@
 \bibitem[{{Gradshteyn} \& {Ryzhik}(1994)}]{gradshteyn_1994}
 {\sc {Gradshteyn}, I.S. \& {Ryzhik}, I.M.} (1994). {\em {Table of integrals,
   series and products}\/}.
-
-\bibitem[{{Gray}(2008)}]{gray_2008}
-{\sc {Gray}, D.F.} (2008). {Mass Motions in the Photosphere of Betelgeuse}.
-  {\em \aj\/}, {\bf 135}, 1450--1458.
 
 \bibitem[{{Gray} {\em et~al.\/}(2006){Gray}, {Corbally}, {Garrison},
   {McFadden}, {Bubar}, {McGahee}, {O'Donoghue} \& {Knox}}]{gray_2006}

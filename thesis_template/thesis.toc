@@ -71,47 +71,47 @@
 \contentsline {section}{\numberline {5.9}Continuum Flux Densities}{136}{section.5.9}
 \contentsline {section}{\numberline {5.10}Higher CO rotational lines}{138}{section.5.10}
 \contentsline {section}{\numberline {5.11}CARMA CO observations in Context}{142}{section.5.11}
-\contentsline {section}{\numberline {5.12}e-Merlin 6\tmspace +\thinmuskip {.1667em}cm Results}{144}{section.5.12}
-\contentsline {section}{\numberline {5.13}VLA-Pie Town Maps Versus e-MERLIN}{149}{section.5.13}
+\contentsline {section}{\numberline {5.12}e-Merlin 5\tmspace +\thinmuskip {.1667em}cm Results}{144}{section.5.12}
+\contentsline {section}{\numberline {5.13}VLA-Pie Town Maps Versus e-MERLIN}{148}{section.5.13}
 \contentsline {section}{\numberline {5.14}Long Term Radio Variability and Thermal Structure}{151}{section.5.14}
 \contentsline {section}{\numberline {5.15}0.7\tmspace +\thinmuskip {.1667em}cm VLA-Pie Town Maps}{155}{section.5.15}
-\contentsline {section}{\numberline {5.16}VLA, VLA-Pie Town, e-MERLIN: Putting it all together}{157}{section.5.16}
-\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{159}{chapter.6}
-\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{160}{section.6.1}
-\contentsline {section}{\numberline {6.2}Radio Maps}{161}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{161}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{164}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results Versus Previous Observations}{165}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results Versus Existing Models}{169}{section.6.4}
-\contentsline {section}{\numberline {6.5}Spectral Indices}{173}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{180}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{180}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{183}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{186}{section.6.7}
-\contentsline {section}{\numberline {6.8}Ionized Mass-Loss Rates}{188}{section.6.8}
-\contentsline {chapter}{\numberline {7}Thermal Energy Balance of Arcturus' Outflow}{190}{chapter.7}
-\contentsline {section}{\numberline {7.1}Motivation for a Thermal Energy Balance}{191}{section.7.1}
-\contentsline {section}{\numberline {7.2}Thermal Model for a Spherically Symmetric Outflow}{192}{section.7.2}
-\contentsline {section}{\numberline {7.3}Cooling Processes}{194}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Adiabatic Expansion Cooling}{194}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Radiative Recombination Cooling}{194}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Lyman-alpha Cooling}{196}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Other Line Coolants}{196}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Heating Mechanisms}{199}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Photoionization Heating}{199}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Ambipolar Diffusion Heating}{201}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Turbulent Heating}{202}{subsection.7.4.3}
-\contentsline {section}{\numberline {7.5}Thermal Energy Balance}{205}{section.7.5}
-\contentsline {section}{\numberline {7.6}Discussion}{207}{section.7.6}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{209}{chapter.8}
-\contentsline {section}{\numberline {8.1}Principle Results}{210}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Betelgeuse's Extended Atmosphere}{210}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Dust-free Red Giants}{212}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Future Work}{214}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Probing the S1 flow of Betelgeuse with ALMA}{215}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Multi-epoch centimeter observations of Betelgeuse}{217}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Semi-empirical models for Arcturus and Aldebaran}{219}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Karl G. Jansky VLA Survey of Coronal Evolved Stars}{222}{subsection.8.2.4}
-\contentsline {section}{\numberline {8.3}Concluding Remarks}{225}{section.8.3}
-\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{226}{appendix.A}
-\contentsline {chapter}{References}{228}{section*.103}
+\contentsline {section}{\numberline {5.16}VLA, VLA-Pie Town, e-MERLIN: Putting it all together}{158}{section.5.16}
+\contentsline {chapter}{\numberline {6}Multi-wavelength Radio Continuum Emission Studies of \\ Dust-free Red Giants}{160}{chapter.6}
+\contentsline {section}{\numberline {6.1}Why Study Red Giants with the VLA?}{161}{section.6.1}
+\contentsline {section}{\numberline {6.2}Radio Maps}{162}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}$\alpha $ Boo Maps}{162}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}$\alpha $ Tau Maps}{165}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results Versus Previous Observations}{166}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results Versus Existing Models}{170}{section.6.4}
+\contentsline {section}{\numberline {6.5}Spectral Indices}{174}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analytical Advection Model for $\alpha $ Boo's Wind}{181}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}\ion {H}{ii} recombination in a stellar outflow}{181}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Application to $\alpha $ Boo's Wind}{184}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Constraining $\alpha $ Tau's Molsphere}{187}{section.6.7}
+\contentsline {section}{\numberline {6.8}Ionized Mass-Loss Rates}{189}{section.6.8}
+\contentsline {chapter}{\numberline {7}Thermal Energy Balance of Arcturus' Outflow}{191}{chapter.7}
+\contentsline {section}{\numberline {7.1}Motivation for a Thermal Energy Balance}{192}{section.7.1}
+\contentsline {section}{\numberline {7.2}Thermal Model for a Spherically Symmetric Outflow}{193}{section.7.2}
+\contentsline {section}{\numberline {7.3}Cooling Processes}{195}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Adiabatic Expansion Cooling}{195}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Radiative Recombination Cooling}{195}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Lyman-alpha Cooling}{197}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Other Line Coolants}{197}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Heating Mechanisms}{200}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Photoionization Heating}{200}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Ambipolar Diffusion Heating}{202}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Turbulent Heating}{203}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}Thermal Energy Balance}{206}{section.7.5}
+\contentsline {section}{\numberline {7.6}Discussion}{208}{section.7.6}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{210}{chapter.8}
+\contentsline {section}{\numberline {8.1}Principle Results}{211}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Betelgeuse's Extended Atmosphere}{211}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Dust-free Red Giants}{213}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Future Work}{215}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Probing the S1 flow of Betelgeuse with ALMA}{216}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Multi-epoch centimeter observations of Betelgeuse}{218}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Semi-empirical models for Arcturus and Aldebaran}{220}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Karl G. Jansky VLA Survey of Coronal Evolved Stars}{223}{subsection.8.2.4}
+\contentsline {section}{\numberline {8.3}Concluding Remarks}{226}{section.8.3}
+\contentsline {chapter}{\numberline {A}List of Abbreviations Used in this Thesis.}{227}{appendix.A}
+\contentsline {chapter}{References}{229}{section*.104}

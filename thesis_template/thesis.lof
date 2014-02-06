@@ -58,32 +58,33 @@
 \contentsline {figure}{\numberline {5.13}{\ignorespaces SiO rotational emission line from the CSE of Betelgeuse}}{142}{figure.caption.66}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces First e-MERLIN results for Betelgeuse}}{145}{figure.caption.68}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Predicted position of Betelgeuse on 2012 July}}{147}{figure.caption.69}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces 1-D model vs. e-MERLIN observations}}{148}{figure.caption.70}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces 1-D model vs. e-MERLIN observations}}{149}{figure.caption.70}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Radio flux density variation of Betelgeuse between $1996\rightarrow 2004$}}{152}{figure.caption.71}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Atmospheric temperature profile between $1998-2013$}}{154}{figure.caption.72}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Pie Town Q band images spanning six years}}{156}{figure.caption.73}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces VLA Q band A-configuration maps of Betelgeuse.}}{157}{figure.caption.74}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau}}{162}{figure.caption.74}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Spectral energy distribution of $\alpha $ Boo}}{167}{figure.caption.77}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Spectral energy distribution of $\alpha $ Tau}}{168}{figure.caption.78}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau}}{170}{figure.caption.79}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau}}{175}{figure.caption.80}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients}}{176}{figure.caption.81}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength}}{178}{figure.caption.82}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in}}}{182}{figure.caption.83}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen}}{184}{figure.caption.84}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Atmospheric Model which undergoes rapid wind cooling}}{186}{figure.caption.85}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Final VLA multi-wavelength radio maps of $\alpha $ Boo and $\alpha $ Tau}}{163}{figure.caption.75}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Spectral energy distribution of $\alpha $ Boo}}{168}{figure.caption.78}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Spectral energy distribution of $\alpha $ Tau}}{169}{figure.caption.79}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 1-D semi-empirical model atmospheres for $\alpha $ Boo and $\alpha $ Tau}}{171}{figure.caption.80}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Power law fits to the spectra of $\alpha $ Boo and $\alpha $ Tau}}{176}{figure.caption.81}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Variation of density and temperature coefficients}}{177}{figure.caption.82}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Predicted effective radius as a function of wavelength}}{179}{figure.caption.83}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Illustration of how the ionization fraction \textit {freezes-in}}}{183}{figure.caption.84}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The temperature dependent recombination rates for hydrogen}}{185}{figure.caption.85}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Hybrid Atmospheric Model which undergoes rapid wind cooling}}{187}{figure.caption.86}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Various cooling mechanisms in Arcturus' wind}}{195}{figure.caption.87}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Summation of all cooling mechanisms}}{198}{figure.caption.89}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Photoionization cross section values}}{200}{figure.caption.91}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Example of diverging flux tubes}}{203}{figure.caption.92}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Main heating mechanisms in Arcturus' wind}}{205}{figure.caption.93}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Net thermal balance}}{206}{figure.caption.94}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Various cooling mechanisms in Arcturus' wind}}{196}{figure.caption.88}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Summation of all cooling mechanisms}}{199}{figure.caption.90}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Photoionization cross section values}}{201}{figure.caption.92}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Example of diverging flux tubes}}{204}{figure.caption.93}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Main heating mechanisms in Arcturus' wind}}{206}{figure.caption.94}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Net thermal balance}}{207}{figure.caption.95}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Simulating ALMA dust observations}}{216}{figure.caption.95}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Simulating ALMA CO($J=6-5$) observations}}{216}{figure.caption.96}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces MERLIN $+$ ``old'' VLA image of Betelgeuse}}{220}{figure.caption.98}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Block diagram for a new semi-empirical model}}{221}{figure.caption.99}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Ionized stellar mass-loss rate vs. stellar radius}}{224}{figure.caption.101}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Simulating ALMA dust observations}}{217}{figure.caption.96}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Simulating ALMA CO($J=6-5$) observations}}{217}{figure.caption.97}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces MERLIN $+$ ``old'' VLA image of Betelgeuse}}{221}{figure.caption.99}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Block diagram for a new semi-empirical model}}{222}{figure.caption.100}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Ionized stellar mass-loss rate vs. stellar radius}}{225}{figure.caption.102}
 \addvspace {10\p@ }
