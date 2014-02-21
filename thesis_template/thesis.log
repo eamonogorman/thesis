@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  6 FEB 2014 12:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.6)  21 FEB 2014 12:30
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -953,24 +953,20 @@ Overfull \hbox (4.91939pt too wide) in paragraph at lines 308--324
  [] 
  []
 
-[87] [88] [89]
-Overfull \hbox (22.23962pt too wide) in paragraph at lines 368--368
- [] 
- []
-
-[90
+[87] [88] [89] [90
 
 ] [91
 
 ]
 File: /home/eamon/thesis/thesis_template/3/phase_center1_new.ps Graphic file (t
 ype eps)
- </home/eamon/thesis/thesis_template/3/phase_center1_new.ps>
+
+</home/eamon/thesis/thesis_template/3/phase_center1_new.ps>
 File: /home/eamon/thesis/thesis_template/3/phase_center2_new.ps Graphic file (t
 ype eps)
 
 </home/eamon/thesis/thesis_template/3/phase_center2_new.ps>
-Overfull \hbox (8.89003pt too wide) in paragraph at lines 381--382
+Overfull \hbox (8.89003pt too wide) in paragraph at lines 383--384
  [][] 
  []
 
@@ -988,12 +984,12 @@ Overfull \vbox (7.86395pt too high) has occurred while \output is active []
 
 
 [93] [94]
-Overfull \hbox (5.78288pt too wide) in paragraph at lines 412--458
+Overfull \hbox (5.78288pt too wide) in paragraph at lines 414--460
  [] 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 407--229
+Underfull \hbox (badness 10000) in paragraph at lines 409--229
 
  []
 
@@ -1745,4 +1741,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  45i,19n,50p,2343b,1532s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.dvi (268 pages, 1519168 bytes).
+Output written on thesis.dvi (268 pages, 1519208 bytes).
