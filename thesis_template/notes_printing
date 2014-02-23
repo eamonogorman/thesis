@@ -1,0 +1,1 @@
+pdftk thesis.pdf cat 1-100 101N 102-111 112N 113-186 187N 188-190 191N 192N 193-end output thesis_final.pdf
